@@ -1,11 +1,35 @@
-def hcf(x,y):
-  
-  while y > 0:
-    x,y = y,x%y
-  return x
+print("Find Prime Numbers for a Given Range")
+print("*" * 30)
 
-num1 = int(input("Enter first number for HCF: "))
-num2 = int(input("Enter second number for HCF: "))
+start = int(input("Start from the number: "))
+end = int(input("End at the number: "))
 
-print(f'''The Highest Common Factor of {num1} and {num2}
-is {hcf(num1,num2)}''')
+numbers = dict.fromkeys(range(start,end))
+
+for n in numbers:
+  if n > 1:
+    if n % 2 == 0:
+      if n != 2:
+        numbers[n] = 'not prime'
+    
+    if n % 3 == 0:
+      if n != 3:
+        numbers[n] = 'not prime'
+      
+    if n % 5 == 0:
+      if n != 5:
+        numbers[n] = 'not prime'
+    
+    if n % 7 == 0:
+      if n != 7:
+        numbers[n] = 'not prime'
+  else:
+    numbers[n] = 'not prime'
+
+# Display all Prime Numbers in given range
+print("*" * 30)
+print(f"\nPrime Numbers from {start} to {end}")
+print([n for (n,v) in numbers.items() if v is None])
+
+
+    
