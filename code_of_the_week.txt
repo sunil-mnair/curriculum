@@ -7,32 +7,32 @@ end = int(input("End at the number: "))
 numbers = dict.fromkeys(range(start,end))
 
 for n in numbers:
-  if n > 1:
-	
-	# include 2 and eliminate all numbers divisible by 2
+  if n > 1:	
+    # include 2 and eliminate all numbers divisible by 2
     if n % 2 == 0:
       if n != 2:
         numbers[n] = 'not prime'
     
-	# include 3 and eliminate all numbers divisible by 3
+    # include 3 and eliminate all numbers divisible by 3
     if n % 3 == 0:
       if n != 3:
         numbers[n] = 'not prime'
     
-	# include 5 and eliminate all numbers divisible by 5
+    # include 5 and eliminate all numbers divisible by 5
     if n % 5 == 0:
       if n != 5:
         numbers[n] = 'not prime'
     
-	# include 7 and eliminate all numbers divisible by 7
+	  # include 7 and eliminate all numbers divisible by 7
     if n % 7 == 0:
       if n != 7:
         numbers[n] = 'not prime'
-	
-	# include 11 and eliminate all numbers divisible by 11
-	if n % 11 == 0:
+    
+    # include 11 and eliminate all numbers divisible by 11
+    if n % 11 == 0:
       if n != 11:
         numbers[n] = 'not prime'
+        
   else:
     numbers[n] = 'not prime'
 
