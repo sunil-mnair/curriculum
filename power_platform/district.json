@@ -1,0 +1,618 @@
+[
+    {
+        "district_id": "1",
+        "city": "New York City",
+        "state_name": "New York",
+        "state_abbrev": "NY",
+        "region": "Northeast",
+        "division": "Middle Atlantic"
+    },
+    {
+        "district_id": "2",
+        "city": "Jacksonville",
+        "state_name": "Florida",
+        "state_abbrev": "FL",
+        "region": "South",
+        "division": "South Atlantic"
+    },
+    {
+        "district_id": "3",
+        "city": "Columbus",
+        "state_name": "Ohio",
+        "state_abbrev": "OH",
+        "region": "Midwest",
+        "division": "East North Central"
+    },
+    {
+        "district_id": "4",
+        "city": "Charlotte",
+        "state_name": "North Carolina",
+        "state_abbrev": "NC",
+        "region": "South",
+        "division": "South Atlantic"
+    },
+    {
+        "district_id": "5",
+        "city": "Indianapolis",
+        "state_name": "Indiana",
+        "state_abbrev": "IN",
+        "region": "Northeast",
+        "division": "East North Central"
+    },
+    {
+        "district_id": "6",
+        "city": "Seattle",
+        "state_name": "Washington",
+        "state_abbrev": "WA",
+        "region": "West",
+        "division": "Pacific"
+    },
+    {
+        "district_id": "7",
+        "city": "Denver",
+        "state_name": "Colorado",
+        "state_abbrev": "CO",
+        "region": "West",
+        "division": "Mountain"
+    },
+    {
+        "district_id": "8",
+        "city": "Washington",
+        "state_name": "District of Columbia",
+        "state_abbrev": "DC",
+        "region": "South",
+        "division": "South Atlantic"
+    },
+    {
+        "district_id": "9",
+        "city": "Boston",
+        "state_name": "Massachusetts",
+        "state_abbrev": "MA",
+        "region": "Northeast",
+        "division": "New England"
+    },
+    {
+        "district_id": "10",
+        "city": "Detroit",
+        "state_name": "Michigan",
+        "state_abbrev": "MI",
+        "region": "Midwest",
+        "division": "East North Central"
+    },
+    {
+        "district_id": "11",
+        "city": "Nashville",
+        "state_name": "Tennessee",
+        "state_abbrev": "TN",
+        "region": "South",
+        "division": "East South Central"
+    },
+    {
+        "district_id": "12",
+        "city": "Portland",
+        "state_name": "Oregon",
+        "state_abbrev": "OR",
+        "region": "West",
+        "division": "Pacific"
+    },
+    {
+        "district_id": "13",
+        "city": "Oklahoma City",
+        "state_name": "Oklahoma",
+        "state_abbrev": "OK",
+        "region": "South",
+        "division": "West South Central"
+    },
+    {
+        "district_id": "14",
+        "city": "Las Vegas",
+        "state_name": "Nevada",
+        "state_abbrev": "NV",
+        "region": "West",
+        "division": "Mountain"
+    },
+    {
+        "district_id": "15",
+        "city": "Louisville",
+        "state_name": "Kentucky",
+        "state_abbrev": "KY",
+        "region": "South",
+        "division": "East South Central"
+    },
+    {
+        "district_id": "16",
+        "city": "Baltimore",
+        "state_name": "Maryland",
+        "state_abbrev": "MD",
+        "region": "South",
+        "division": "South Atlantic"
+    },
+    {
+        "district_id": "17",
+        "city": "Milwaukee",
+        "state_name": "Wisconsin",
+        "state_abbrev": "WI",
+        "region": "Midwest",
+        "division": "East North Central"
+    },
+    {
+        "district_id": "18",
+        "city": "Albuquerque",
+        "state_name": "New Mexico",
+        "state_abbrev": "NM",
+        "region": "West",
+        "division": "Mountain"
+    },
+    {
+        "district_id": "19",
+        "city": "Atlanta",
+        "state_name": "Georgia",
+        "state_abbrev": "GA",
+        "region": "South",
+        "division": "South Atlantic"
+    },
+    {
+        "district_id": "20",
+        "city": "Kansas City",
+        "state_name": "Missouri",
+        "state_abbrev": "MO",
+        "region": "Midwest",
+        "division": "West North Central"
+    },
+    {
+        "district_id": "21",
+        "city": "Omaha",
+        "state_name": "Nebraska",
+        "state_abbrev": "NE",
+        "region": "Midwest",
+        "division": "West North Central"
+    },
+    {
+        "district_id": "22",
+        "city": "Virginia Beach",
+        "state_name": "Virginia",
+        "state_abbrev": "VA",
+        "region": "South",
+        "division": "South Atlantic"
+    },
+    {
+        "district_id": "23",
+        "city": "Minneapolis",
+        "state_name": "Minnesota",
+        "state_abbrev": "MN",
+        "region": "Midwest",
+        "division": "West North Central"
+    },
+    {
+        "district_id": "24",
+        "city": "New Orleans",
+        "state_name": "Louisiana",
+        "state_abbrev": "LA",
+        "region": "South",
+        "division": "West South Central"
+    },
+    {
+        "district_id": "25",
+        "city": "Wichita",
+        "state_name": "Kansas",
+        "state_abbrev": "KS",
+        "region": "Midwest",
+        "division": "West North Central"
+    },
+    {
+        "district_id": "26",
+        "city": "Honolulu",
+        "state_name": "Hawaii",
+        "state_abbrev": "HI",
+        "region": "West",
+        "division": "Pacific"
+    },
+    {
+        "district_id": "27",
+        "city": "San Antonio",
+        "state_name": "Texas",
+        "state_abbrev": "TX",
+        "region": "South",
+        "division": "West South Central"
+    },
+    {
+        "district_id": "28",
+        "city": "Anchorage",
+        "state_name": "Alaska",
+        "state_abbrev": "AK",
+        "region": "West",
+        "division": "Pacific"
+    },
+    {
+        "district_id": "29",
+        "city": "Newark",
+        "state_name": "New Jersey",
+        "state_abbrev": "NJ",
+        "region": "Northeast",
+        "division": "Middle Atlantic"
+    },
+    {
+        "district_id": "30",
+        "city": "Boise",
+        "state_name": "Idaho",
+        "state_abbrev": "ID",
+        "region": "West",
+        "division": "Mountain"
+    },
+    {
+        "district_id": "31",
+        "city": "Des Moines",
+        "state_name": "Iowa",
+        "state_abbrev": "IA",
+        "region": "Midwest",
+        "division": "West North Central"
+    },
+    {
+        "district_id": "32",
+        "city": "Birmingham",
+        "state_name": "Alabama",
+        "state_abbrev": "AL",
+        "region": "South",
+        "division": "East South Central"
+    },
+    {
+        "district_id": "33",
+        "city": "Salt Lake City",
+        "state_name": "Utah",
+        "state_abbrev": "UT",
+        "region": "West",
+        "division": "Mountain"
+    },
+    {
+        "district_id": "34",
+        "city": "Little Rock",
+        "state_name": "Arkansas",
+        "state_abbrev": "AR",
+        "region": "South",
+        "division": "West South Central"
+    },
+    {
+        "district_id": "35",
+        "city": "Sioux Falls",
+        "state_name": "South Dakota",
+        "state_abbrev": "SD",
+        "region": "Midwest",
+        "division": "West North Central"
+    },
+    {
+        "district_id": "36",
+        "city": "Providence",
+        "state_name": "Rhode Island",
+        "state_abbrev": "RI",
+        "region": "Northeast",
+        "division": "New England"
+    },
+    {
+        "district_id": "37",
+        "city": "Jackson",
+        "state_name": "Mississippi",
+        "state_abbrev": "MS",
+        "region": "South",
+        "division": "East South Central"
+    },
+    {
+        "district_id": "38",
+        "city": "Bridgeport",
+        "state_name": "Connecticut",
+        "state_abbrev": "CT",
+        "region": "Northeast",
+        "division": "New England"
+    },
+    {
+        "district_id": "39",
+        "city": "Charleston",
+        "state_name": "South Carolina",
+        "state_abbrev": "SC",
+        "region": "South",
+        "division": "South Atlantic"
+    },
+    {
+        "district_id": "40",
+        "city": "Fargo",
+        "state_name": "North Dakota",
+        "state_abbrev": "ND",
+        "region": "Midwest",
+        "division": "West North Central"
+    },
+    {
+        "district_id": "41",
+        "city": "Manchester",
+        "state_name": "New Hampshire",
+        "state_abbrev": "NH",
+        "region": "Northeast",
+        "division": "New England"
+    },
+    {
+        "district_id": "42",
+        "city": "Billings",
+        "state_name": "Montana",
+        "state_abbrev": "MT",
+        "region": "West",
+        "division": "Mountain"
+    },
+    {
+        "district_id": "43",
+        "city": "Wilmington",
+        "state_name": "Delaware",
+        "state_abbrev": "DE",
+        "region": "South",
+        "division": "South Atlantic"
+    },
+    {
+        "district_id": "44",
+        "city": "Portland",
+        "state_name": "Maine",
+        "state_abbrev": "ME",
+        "region": "Northeast",
+        "division": "New England"
+    },
+    {
+        "district_id": "45",
+        "city": "Cheyenne",
+        "state_name": "Wyoming",
+        "state_abbrev": "WY",
+        "region": "West",
+        "division": "Mountain"
+    },
+    {
+        "district_id": "46",
+        "city": "San Diego",
+        "state_name": "California",
+        "state_abbrev": "CA",
+        "region": "West",
+        "division": "Pacific"
+    },
+    {
+        "district_id": "47",
+        "city": "Charleston",
+        "state_name": "West Virginia",
+        "state_abbrev": "WV",
+        "region": "South",
+        "division": "South Atlantic"
+    },
+    {
+        "district_id": "48",
+        "city": "Worcester",
+        "state_name": "Massachusetts",
+        "state_abbrev": "MA",
+        "region": "Northeast",
+        "division": "New England"
+    },
+    {
+        "district_id": "49",
+        "city": "Burlington",
+        "state_name": "Vermont",
+        "state_abbrev": "VT",
+        "region": "Northeast",
+        "division": "New England"
+    },
+    {
+        "district_id": "50",
+        "city": "Buffalo",
+        "state_name": "New York",
+        "state_abbrev": "NY",
+        "region": "Northeast",
+        "division": "Middle Atlantic"
+    },
+    {
+        "district_id": "51",
+        "city": "Springfield",
+        "state_name": "Massachusetts",
+        "state_abbrev": "MA",
+        "region": "Northeast",
+        "division": "New England"
+    },
+    {
+        "district_id": "52",
+        "city": "New Haven",
+        "state_name": "Connecticut",
+        "state_abbrev": "CT",
+        "region": "Northeast",
+        "division": "New England"
+    },
+    {
+        "district_id": "53",
+        "city": "Hartford",
+        "state_name": "Connecticut",
+        "state_abbrev": "CT",
+        "region": "Northeast",
+        "division": "New England"
+    },
+    {
+        "district_id": "54",
+        "city": "Houston",
+        "state_name": "Texas",
+        "state_abbrev": "TX",
+        "region": "South",
+        "division": "West South Central"
+    },
+    {
+        "district_id": "55",
+        "city": "Lowell",
+        "state_name": "Massachusetts",
+        "state_abbrev": "MA",
+        "region": "Northeast",
+        "division": "New England"
+    },
+    {
+        "district_id": "56",
+        "city": "Cambridge",
+        "state_name": "Massachusetts",
+        "state_abbrev": "MA",
+        "region": "Northeast",
+        "division": "New England"
+    },
+    {
+        "district_id": "57",
+        "city": "New Bedford",
+        "state_name": "Massachusetts",
+        "state_abbrev": "MA",
+        "region": "Northeast",
+        "division": "New England"
+    },
+    {
+        "district_id": "58",
+        "city": "Brockton",
+        "state_name": "Massachusetts",
+        "state_abbrev": "MA",
+        "region": "Northeast",
+        "division": "New England"
+    },
+    {
+        "district_id": "59",
+        "city": "Quincy",
+        "state_name": "Massachusetts",
+        "state_abbrev": "MA",
+        "region": "Northeast",
+        "division": "New England"
+    },
+    {
+        "district_id": "60",
+        "city": "Lynn",
+        "state_name": "Massachusetts",
+        "state_abbrev": "MA",
+        "region": "Northeast",
+        "division": "New England"
+    },
+    {
+        "district_id": "61",
+        "city": "Fall River",
+        "state_name": "Massachusetts",
+        "state_abbrev": "MA",
+        "region": "Northeast",
+        "division": "New England"
+    },
+    {
+        "district_id": "62",
+        "city": "Nashua",
+        "state_name": "New Hampshire",
+        "state_abbrev": "NH",
+        "region": "Northeast",
+        "division": "New England"
+    },
+    {
+        "district_id": "63",
+        "city": "Norwalk",
+        "state_name": "Connecticut",
+        "state_abbrev": "CT",
+        "region": "Northeast",
+        "division": "New England"
+    },
+    {
+        "district_id": "64",
+        "city": "Phoenix",
+        "state_name": "Arizona",
+        "state_abbrev": "AZ",
+        "region": "West",
+        "division": "Mountain"
+    },
+    {
+        "district_id": "65",
+        "city": "Newton",
+        "state_name": "Massachusetts",
+        "state_abbrev": "MA",
+        "region": "Northeast",
+        "division": "New England"
+    },
+    {
+        "district_id": "66",
+        "city": "Warwick",
+        "state_name": "Rhode Island",
+        "state_abbrev": "RI",
+        "region": "Northeast",
+        "division": "New England"
+    },
+    {
+        "district_id": "67",
+        "city": "Danbury",
+        "state_name": "Connecticut",
+        "state_abbrev": "CT",
+        "region": "Northeast",
+        "division": "New England"
+    },
+    {
+        "district_id": "68",
+        "city": "Cranston",
+        "state_name": "Rhode Island",
+        "state_abbrev": "RI",
+        "region": "Northeast",
+        "division": "New England"
+    },
+    {
+        "district_id": "69",
+        "city": "Lawrence",
+        "state_name": "Massachusetts",
+        "state_abbrev": "MA",
+        "region": "Northeast",
+        "division": "New England"
+    },
+    {
+        "district_id": "70",
+        "city": "Los Angeles",
+        "state_name": "California",
+        "state_abbrev": "CA",
+        "region": "West",
+        "division": "Pacific"
+    },
+    {
+        "district_id": "71",
+        "city": "Somerville",
+        "state_name": "Massachusetts",
+        "state_abbrev": "MA",
+        "region": "Northeast",
+        "division": "New England"
+    },
+    {
+        "district_id": "72",
+        "city": "Philadelphia",
+        "state_name": "Pennsylvania",
+        "state_abbrev": "PA",
+        "region": "Northeast",
+        "division": "Middle Atlantic"
+    },
+    {
+        "district_id": "73",
+        "city": "New Britain",
+        "state_name": "Connecticut",
+        "state_abbrev": "CT",
+        "region": "Northeast",
+        "division": "New England"
+    },
+    {
+        "district_id": "74",
+        "city": "Chicago",
+        "state_name": "Illinois",
+        "state_abbrev": "IL",
+        "region": "Northeast",
+        "division": "East North Central"
+    },
+    {
+        "district_id": "75",
+        "city": "Rochester",
+        "state_name": "New York",
+        "state_abbrev": "NY",
+        "region": "Northeast",
+        "division": "Middle Atlantic"
+    },
+    {
+        "district_id": "76",
+        "city": "Yonkers",
+        "state_name": "New York",
+        "state_abbrev": "NY",
+        "region": "Northeast",
+        "division": "Middle Atlantic"
+    },
+    {
+        "district_id": "77",
+        "city": "Syracuse",
+        "state_name": "New York",
+        "state_abbrev": "NY",
+        "region": "Northeast",
+        "division": "Middle Atlantic"
+    }
+]
