@@ -1,4 +1,4 @@
-district_id,city,state_name,state_abbrev,region,division
+district_code,city,state_name,state_abbrev,region,division
 1,New York City,New York,NY,Northeast,Middle Atlantic
 2,Jacksonville,Florida,FL,South,South Atlantic
 3,Columbus,Ohio,OH,Midwest,East North Central
