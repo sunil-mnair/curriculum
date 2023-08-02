@@ -1,0 +1,26 @@
+1. Create a Shared Dataset using the following code
+
+select D. DepartmentID, D.Name as DepartmentName, D.GroupName from [HumanResources].[Department] as D 
+
+2. Create a second Shared Dataset using the following code:
+
+select EH.DepartmentID,JobTitle, BirthDate, MaritalStatus, Gender,StartDate, EndDate
+from [HumanResources].[EmployeeDepartmentHistory] as EH
+join [HumanResources].[Employee] as E
+on EH.BusinessEntityID = E.BusinessEntityID
+3. Create two new reports, each one using the two new Shared Datasets:
+
+Report 1. Use the fields GroupName and DepartmentName. Include DepartmentID temporarily if you wish to.
+Report 2. In the second report, use all of the fields, including DepartmentID temporarily.
+
+4. Link the first report to the second report using a parameter. The two reports should be joined by the DepartmentID field.
+
+In other words, if you click on a row in the first report, the second report should open with all of the relevant rows based on the relevant DepartmentID field.
+
+You should modify the second Shared Dataset to the following:
+
+select EH.DepartmentID,JobTitle, BirthDate, MaritalStatus, Gender,StartDate, EndDate
+from [HumanResources].[EmployeeDepartmentHistory] as EH
+join [HumanResources].[Employee] as E
+on EH.BusinessEntityID = E.BusinessEntityID
+where EH.DepartmentID = @paramDepartmentID

@@ -1,0 +1,9 @@
+Let's go back to the report you created in Practice Activity 1.
+
+1. Add a parent group using the field GroupName. Add a total to the TotalRate field on each group.
+
+2. Add Interactive Sorting on the TotalRate field and on the EarliestStartDate.
+
+3 Add a gauge based on the TotalRate field.
+
+4. Add a Document Map based on the GroupName.

@@ -1,0 +1,12 @@
+1. In the second report from the last Practice Activity (which I called PA4_2), add a header and footer:
+
+Include a text box, a picture, a line, and a text box including the page number.
+
+2. Using the shared dataset DataSetPA4-1, add  a drop-down list to the list of parameters. You should use the DepartmentID as the Values, and DepartmentName as the Labels. 
+
+3. Change the second report (PA4_2) to allow multiple values to be selected.
+
+Reminder: you will need to change the SQL code from
+where EH.DepartmentID = @paramDepartmentID 
+to
+where EH.DepartmentID IN (@paramDepartmentID) 
