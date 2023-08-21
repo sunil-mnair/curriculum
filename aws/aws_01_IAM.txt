@@ -12,8 +12,6 @@ aws --version
 Setup AWS CLI
 aws configure
 
-AKIAVCOXHXR5TS4STXPY
-5uPUlvRhGUwr/I0inSVGVqrSNp8nSIfGMgUEqaVT
 
 aws iam list-users
 

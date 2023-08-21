@@ -73,3 +73,26 @@ S3 Cross Origin Request
 2 Buckets with Public and Static Website Enabled
 
 Permissions - Use the CORS Config to Enable CORS for the second bucket 
+
+----------------
+
+S3 Access Logs
+
+A new bucket must there as a target for your logs
+Properties - Server Access Logging
+
+It may take sometime for the logs to show up
+
+------------
+
+Pre-Signed URLs
+
+Use a Private Bucket
+
+Generating a Pre-Signed URL
+
+Object Actions - Share Pre-signed URL
+
+----
+
+
