@@ -1,0 +1,27 @@
+Start an Instance
+- Perform EC2 Connect
+- Use IMDVS2
+
+In Amazon Linux 2023, only IMDVS2 Works
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-metadata-v2-how-it-works.html
+
+> TOKEN=`curl -X PUT "http://169.254.169.254/latest/api/token" -H "X-aws-ec2-metadata-token-ttl-seconds: 21600"`
+> Echo $TOKEN
+> curl -H "X-aws-ec2-metadata-token: $TOKEN" -v http://169.254.169.254/latest/meta-data/
+
+For cleaner, remove -v
+
+curl -H "X-aws-ec2-metadata-token: $TOKEN" http://169.254.169.254/latest/meta-data/
+
+> Find the Identity Credentials
+
+---------------------
+
+AWS Profiles
+
+aws configure --profile test-profile
+
+-- then for any command add the --profile <profile_name>
+
+

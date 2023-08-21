@@ -1,0 +1,52 @@
+Before creating a New Volume, check the Availability Zone of the Instance under Networking
+
+Once Volume is created, you can attach it to the instance, since its in the same availability zone
+
+Try Terminating an Instance
+
+--------
+Snapshot a Volume
+
+-------
+
+Create a Volume using a Snapshot
+
+-------
+Setup Recycle Bin on Snapshots
+
+Delete a Snapshot and Try Recovering from Recycle Bin
+
+---------
+
+AMI
+Create a New Instance without the echo command
+
+Create an AMI of an Instance by right-clicking on the Instance
+You can now launch Instances from AMI
+
+For an instance creation using an AMI, make sure to add the User Data to it, the last echo command
+-----------
+
+EC2 Instance Store
+
+------
+
+EFS
+
+There must be a security Group for each EFS
+
+-----
+
+We can attach an EFS to an Instance, make sure to add a subnet to it.
+
+
+Create a File in One Instance and check it in the other
+
+Connect using EC Instance Connect
+
+> ls /mnt/efs/fsl/
+> sudo su # switch user with all privileges
+> echo "hello world" > /mnt/efs/fsl/hello.txt
+> cat /mnt/efs/fsl/hello.txt
+
+Check this in the other instance now

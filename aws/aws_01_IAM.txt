@@ -1,0 +1,37 @@
+
+AWS Global Infrastructure
+https://aws.amazon.com/about-aws/global-infrastructure/
+
+AWS Services by Region
+https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/
+
+Install CLI
+
+aws --version
+
+Setup AWS CLI
+aws configure
+
+AKIAVCOXHXR5TS4STXPY
+5uPUlvRhGUwr/I0inSVGVqrSNp8nSIfGMgUEqaVT
+
+aws iam list-users
+
+Alternative to using CLI - Cloudshell
+
+> ls
+> echo "test" > demo.txt
+> cat demo.txt
+
+> pwd # path to file
+
+Create Role
+
+AWS Service
+EC2 Instance
+
+Policy - IAMReadOnlyAccess
+
+Download Credential Report
+
+AccessAdvisor for each user
