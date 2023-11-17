@@ -1,0 +1,700 @@
+date_received,issue category,channel,company_response,timely_response,consumer_disputed,complaint_id,order_id
+01 November 2021,Uninterested Service Rep,Phone Support,Closed without relief,Yes,No,CR0003732,US-2015-159416
+27 May 2022,Long wait on hold,Email,Closed with explanation,Yes,No,CR1988571,US-2015-157867
+30 April 2023,Lack of Follow Up,Branch,Closed with monetary relief,Yes,No,CR2221342,US-2015-153289
+01 December 2021,Lack of Follow Up,Branch,Closed without relief,Yes,No,CR0013328,US-2015-153142
+22 August 2019,Long wait on hold,Email,Closed with explanation,Yes,No,CR2090579,US-2015-155966
+31 October 2022,Poor Product or Service,Mobile App,Closed with explanation,Yes,Yes,CR1470490,US-2015-151637
+28 May 2021,Lack of Follow Up,Branch,Closed with explanation,Yes,No,CR1899878,US-2015-156183
+12 October 2019,Uninterested Service Rep,Phone Support,Closed with explanation,Yes,No,CR1932270,US-2015-159992
+21 December 2021,Lack of Follow Up,Phone Support,Closed with explanation,Yes,Yes,CR0214774,US-2015-157885
+31 August 2019,Unavailable or Out of Stock Product,Phone Support,Closed with explanation,Yes,No,CR2135116,US-2015-154175
+16 October 2019,No First Call Resolution,Branch,Closed with explanation,Yes,Yes,CR0373513,US-2015-156155
+02 April 2022,Making Customers Repeat Their Problem,Phone Support,Closed with monetary relief,Yes,No,CR1708290,US-2015-155159
+20 December 2019,Making Customers Repeat Their Problem,Email,Closed with explanation,Yes,No,CR1538323,US-2015-159383
+20 July 2019,No First Call Resolution,Phone Support,Closed with explanation,Yes,Yes,CR1433236,US-2015-156280
+25 October 2020,Uninterested Service Rep,Phone Support,Closed with monetary relief,Yes,No,CR0853368,US-2015-155473
+30 July 2019,Uninterested Service Rep,Mobile App,Closed with explanation,Yes,No,CR1804301,US-2015-156443
+07 April 2023,No First Call Resolution,Phone Support,Closed with explanation,Yes,No,CR1351216,US-2015-159699
+25 December 2020,Unavailable or Out of Stock Product,Email,Closed with explanation,Yes,,CR2319809,US-2015-153033
+08 August 2021,Uninterested Service Rep,Mobile App,Closed without relief,Yes,Yes,CR0013527,US-2015-160240
+13 April 2021,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,Yes,No,CR1722662,US-2015-153397
+02 April 2019,No First Call Resolution,Email,Closed with explanation,Yes,No,CR0547876,US-2015-151739
+20 September 2020,Unavailable or Out of Stock Product,Email,Closed with explanation,Yes,No,CR1615332,US-2015-150755
+08 October 2023,New Product or Feature Request,Branch,Closed with explanation,Yes,No,CR1062228,US-2015-151523
+26 September 2021,Poor Product or Service,Branch,Closed without relief,Yes,No,CR0043811,US-2015-155403
+12 November 2021,No First Call Resolution,Branch,Closed with relief,Yes,No,CR0030939,US-2015-153065
+13 August 2021,Lack of Follow Up,Email,Closed with relief,Yes,No,CR0030070,US-2015-154917
+20 April 2023,Poor Product or Service,Mobile App,Closed with explanation,Yes,Yes,CR1936930,US-2015-151306
+03 July 2023,Making Customers Repeat Their Problem,Email,Closed with explanation,Yes,No,CR1435238,US-2015-155847
+21 January 2022,Uninterested Service Rep,Phone Support,Closed with explanation,Yes,No,CR1537464,US-2015-151349
+21 March 2023,Lack of Follow Up,Mobile App,Closed with explanation,Yes,No,CR1627236,US-2015-157273
+22 February 2021,Lack of Follow Up,Mobile App,Closed with explanation,Yes,No,CR1723447,US-2015-159093
+17 March 2020,New Product or Feature Request,Branch,Closed with relief,Yes,No,CR0034610,US-2015-150684
+24 November 2021,Unavailable or Out of Stock Product,Branch,Closed with explanation,Yes,No,CR1470323,US-2015-159032
+05 February 2022,Making Customers Repeat Their Problem,Branch,Closed with explanation,Yes,Yes,CR1990253,US-2015-151874
+28 August 2021,No First Call Resolution,Phone Support,Closed with explanation,Yes,,CR2319723,US-2015-157720
+20 August 2022,New Product or Feature Request,Email,Closed with explanation,Yes,No,CR1809005,US-2015-154030
+09 September 2019,No First Call Resolution,Mobile App,Closed with explanation,Yes,No,CR1900945,US-2015-160318
+10 June 2022,Making Customers Repeat Their Problem,Mobile App,Closed with monetary relief,Yes,No,CR2136255,US-2015-153976
+05 September 2022,Poor Product or Service,Email,Closed with explanation,Yes,No,CR2089964,US-2015-155241
+26 April 2021,Unavailable or Out of Stock Product,Email,Closed with non-monetary relief,Yes,Yes,CR0394315,US-2015-159627
+10 March 2019,Poor Product or Service,Branch,Closed with explanation,Yes,No,CR1713275,US-2015-157083
+06 July 2022,Long wait on hold,Email,Closed with non-monetary relief,Yes,No,CR1080256,US-2015-159436
+06 January 2021,Unavailable or Out of Stock Product,Mobile App,Closed with monetary relief,Yes,No,CR0855237,US-2015-152223
+14 July 2020,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,No,,CR0220184,US-2015-158155
+02 August 2022,Unavailable or Out of Stock Product,Phone Support,Closed with explanation,Yes,No,CR0559272,US-2015-150966
+13 February 2019,Making Customers Repeat Their Problem,Phone Support,Closed with explanation,Yes,No,CR2223424,US-2015-154670
+02 February 2023,No First Call Resolution,Mobile App,Closed with explanation,Yes,No,CR1350626,US-2015-158728
+03 November 2020,New Product or Feature Request,Mobile App,Closed with relief,Yes,No,CR0035411,US-2015-154644
+13 May 2019,Unavailable or Out of Stock Product,Phone Support,Closed with relief,Yes,No,CR0057298,US-2015-155202
+10 May 2022,Long wait on hold,Branch,Closed with monetary relief,Yes,No,CR0222601,US-2015-158880
+07 September 2022,Long wait on hold,Branch,Closed with explanation,Yes,Yes,CR0221502,US-2015-156217
+04 September 2019,No First Call Resolution,Email,Closed with explanation,Yes,No,CR0922485,US-2015-159009
+12 December 2022,Making Customers Repeat Their Problem,Phone Support,Closed with explanation,Yes,Yes,CR1101885,US-2015-154815
+06 January 2020,Uninterested Service Rep,Mobile App,Closed with explanation,Yes,No,CR1109288,US-2015-155337
+27 March 2022,Unavailable or Out of Stock Product,Phone Support,Closed,Yes,No,CR1547100,US-2015-156362
+15 November 2021,Lack of Follow Up,Mobile App,Closed with non-monetary relief,Yes,Yes,CR1452819,US-2015-157606
+20 April 2023,Uninterested Service Rep,Email,Closed with explanation,Yes,No,CR1994567,US-2015-153921
+19 August 2021,Poor Product or Service,Email,Closed with explanation,Yes,Yes,CR1507211,US-2015-156300
+09 June 2022,Long wait on hold,Email,Closed with non-monetary relief,Yes,No,CR1757625,US-2015-157459
+14 October 2022,New Product or Feature Request,Branch,Closed with explanation,Yes,No,CR0285804,US-2015-160358
+10 October 2019,Unavailable or Out of Stock Product,Email,Closed with explanation,Yes,No,CR2181276,US-2015-158140
+25 October 2020,No First Call Resolution,Phone Support,Closed with explanation,Yes,No,CR2111298,US-2015-153650
+08 March 2021,Making Customers Repeat Their Problem,Email,Closed with explanation,Yes,No,CR1569460,US-2015-155086
+05 October 2019,Lack of Follow Up,Mobile App,Closed with explanation,Yes,Yes,CR0440370,US-2015-160306
+03 March 2019,Poor Product or Service,Branch,Closed with explanation,Yes,No,CR2089516,US-2015-158665
+26 February 2021,Poor Product or Service,Email,Closed with explanation,Yes,Yes,CR1789593,US-2015-156462
+19 April 2019,Long wait on hold,Branch,Closed with explanation,Yes,No,CR1275516,US-2015-155812
+06 September 2019,Lack of Follow Up,Email,Closed with explanation,Yes,No,CR1856319,US-2015-152336
+15 March 2023,Making Customers Repeat Their Problem,Mobile App,Closed with non-monetary relief,Yes,Yes,CR0702038,US-2015-152990
+30 June 2022,No First Call Resolution,Branch,Closed with explanation,Yes,No,CR1496351,US-2015-157391
+03 August 2021,No First Call Resolution,Branch,Closed with explanation,Yes,No,CR0951400,US-2015-157218
+19 March 2023,No First Call Resolution,Mobile App,Closed with explanation,Yes,No,CR0130587,US-2015-152688
+03 March 2023,Uninterested Service Rep,Branch,Closed with explanation,Yes,No,CR1937602,US-2015-157007
+28 July 2020,New Product or Feature Request,Phone Support,Closed with explanation,Yes,No,CR2258943,US-2015-153313
+02 February 2023,Lack of Follow Up,Branch,Closed with monetary relief,Yes,No,CR2042383,US-2015-150781
+21 April 2020,Poor Product or Service,Mobile App,Closed with explanation,Yes,Yes,CR1397536,US-2015-160619
+08 February 2019,Poor Product or Service,Email,Closed with explanation,Yes,,CR2384632,US-2015-151458
+16 June 2022,No First Call Resolution,Phone Support,Closed with non-monetary relief,Yes,No,CR1653725,US-2015-153180
+13 January 2021,Long wait on hold,Branch,Closed with monetary relief,Yes,No,CR2230679,US-2015-152918
+08 January 2019,Unavailable or Out of Stock Product,Email,Closed with monetary relief,Yes,No,CR1813349,US-2015-160516
+25 October 2022,New Product or Feature Request,Phone Support,Closed with explanation,Yes,No,CR1952426,US-2015-157595
+20 December 2019,Lack of Follow Up,Phone Support,Closed with explanation,Yes,No,CR0942501,US-2015-157962
+10 February 2022,New Product or Feature Request,Email,Closed with explanation,Yes,Yes,CR1185692,US-2015-155672
+21 January 2022,Long wait on hold,Branch,Closed with explanation,Yes,Yes,CR0258067,US-2015-158533
+19 March 2023,Lack of Follow Up,Branch,Closed with explanation,Yes,No,CR2075840,US-2015-152688
+15 November 2020,Uninterested Service Rep,Branch,Closed with explanation,Yes,No,CR1485802,US-2015-153985
+12 June 2021,Making Customers Repeat Their Problem,Phone Support,Closed with non-monetary relief,Yes,No,CR1751734,US-2015-153087
+28 January 2023,Unavailable or Out of Stock Product,Branch,Closed with explanation,Yes,No,CR1639357,US-2015-159160
+03 November 2020,No First Call Resolution,Phone Support,Closed with explanation,Yes,No,CR1484289,US-2015-155552
+25 February 2021,Poor Product or Service,Mobile App,Closed with explanation,Yes,Yes,CR0108967,US-2015-157765
+05 June 2020,Uninterested Service Rep,Branch,Closed with monetary relief,Yes,No,CR2110710,US-2015-157254
+10 July 2023,Long wait on hold,Email,Closed with monetary relief,Yes,No,CR1919645,US-2015-153077
+21 September 2020,No First Call Resolution,Mobile App,Closed with explanation,Yes,No,CR1565363,US-2015-151665
+09 September 2019,New Product or Feature Request,Email,Closed with explanation,Yes,No,CR1849018,US-2015-157259
+15 January 2023,New Product or Feature Request,Phone Support,Closed with explanation,Yes,Yes,CR0434587,US-2015-155528
+21 December 2020,No First Call Resolution,Mobile App,Closed with explanation,Yes,No,CR1386876,US-2015-160409
+29 November 2021,Unavailable or Out of Stock Product,Phone Support,Closed with explanation,Yes,No,CR0682046,US-2015-153571
+29 December 2021,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,Yes,No,CR1773179,US-2015-151750
+26 January 2021,New Product or Feature Request,Phone Support,Closed with monetary relief,Yes,No,CR2032442,US-2015-154240
+17 October 2020,No First Call Resolution,Phone Support,Closed with explanation,Yes,No,CR2173059,US-2015-160483
+21 September 2022,New Product or Feature Request,Phone Support,Closed with explanation,Yes,No,CR2249569,US-2015-156019
+06 August 2023,Unavailable or Out of Stock Product,Email,In progress,Yes,,CR2378467,US-2015-159832
+28 August 2023,Lack of Follow Up,Branch,Closed with explanation,Yes,Yes,CR0705878,US-2015-152933
+28 June 2019,Long wait on hold,Mobile App,Closed with explanation,Yes,No,CR1940052,US-2015-158180
+28 January 2019,Poor Product or Service,Branch,Closed with explanation,Yes,No,CR0132727,US-2015-152537
+31 May 2021,New Product or Feature Request,Phone Support,Closed with explanation,Yes,Yes,CR1791074,US-2015-160261
+12 April 2021,Long wait on hold,Mobile App,Closed with monetary relief,Yes,Yes,CR0447457,US-2015-156241
+31 December 2021,Lack of Follow Up,Branch,Closed with explanation,Yes,No,CR2042159,US-2015-159795
+15 December 2022,Making Customers Repeat Their Problem,Branch,Closed with explanation,Yes,No,CR2125933,US-2015-155524
+08 January 2021,Uninterested Service Rep,Email,Closed with monetary relief,Yes,No,CR2179090,US-2015-157002
+10 August 2022,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,Yes,No,CR1403361,US-2015-150922
+24 August 2020,New Product or Feature Request,Email,Closed with monetary relief,Yes,No,CR1282520,US-2015-156552
+21 June 2022,No First Call Resolution,Mobile App,Closed with explanation,Yes,No,CR0294434,US-2015-155742
+29 June 2019,Poor Product or Service,Mobile App,Closed with explanation,Yes,No,CR1759470,US-2015-151251
+21 June 2022,New Product or Feature Request,Branch,Closed with explanation,Yes,No,CR1527767,US-2015-151509
+04 March 2023,Poor Product or Service,Mobile App,Closed with non-monetary relief,Yes,No,CR1658837,US-2015-152581
+10 December 2019,Unavailable or Out of Stock Product,Phone Support,Closed with explanation,Yes,Yes,CR1571098,US-2015-158066
+10 May 2022,No First Call Resolution,Email,Closed with explanation,Yes,No,CR0981611,US-2015-151065
+26 October 2020,Lack of Follow Up,Branch,Closed with explanation,Yes,,CR2387263,US-2015-159503
+02 September 2019,New Product or Feature Request,Email,Closed with monetary relief,Yes,No,CR1497460,US-2015-160214
+07 March 2020,Long wait on hold,Email,Closed with non-monetary relief,Yes,No,CR2114448,US-2015-156588
+29 June 2022,Unavailable or Out of Stock Product,Branch,Closed with explanation,Yes,No,CR1860467,US-2015-157312
+21 March 2020,Poor Product or Service,Mobile App,Closed with explanation,Yes,No,CR2261646,US-2015-159342
+19 December 2021,Lack of Follow Up,Email,Closed with monetary relief,Yes,No,CR2190357,US-2015-159725
+01 November 2020,New Product or Feature Request,Branch,Closed with monetary relief,Yes,No,CR2192368,US-2015-152225
+18 November 2019,Lack of Follow Up,Phone Support,Closed with explanation,Yes,Yes,CR0480573,US-2015-151611
+09 April 2023,Long wait on hold,Mobile App,Closed with explanation,Yes,Yes,CR1497477,US-2015-155432
+08 June 2022,Unavailable or Out of Stock Product,Email,Closed with explanation,Yes,No,CR1940659,US-2015-153400
+22 December 2022,Unavailable or Out of Stock Product,Branch,Closed with explanation,Yes,No,CR1761571,US-2015-155178
+16 February 2022,No First Call Resolution,Branch,Closed with explanation,Yes,No,CR2182212,US-2015-154418
+14 April 2021,Unavailable or Out of Stock Product,Email,Closed with explanation,Yes,No,CR0310506,US-2015-157630
+10 April 2023,Poor Product or Service,Branch,Closed with non-monetary relief,Yes,Yes,CR1863672,US-2015-160125
+24 July 2019,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,Yes,Yes,CR1301819,US-2015-157326
+01 June 2023,Making Customers Repeat Their Problem,Branch,Closed with explanation,Yes,Yes,CR1531152,US-2015-153243
+25 January 2020,Lack of Follow Up,Mobile App,Closed with explanation,Yes,No,CR0707883,US-2015-153300
+30 August 2023,Uninterested Service Rep,Phone Support,Closed with monetary relief,Yes,Yes,CR1415128,US-2015-158896
+11 October 2022,New Product or Feature Request,Mobile App,Closed with explanation,Yes,Yes,CR2267015,US-2015-153786
+25 February 2022,Making Customers Repeat Their Problem,Phone Support,Closed with monetary relief,Yes,No,CR0988096,US-2015-151656
+08 August 2023,New Product or Feature Request,Mobile App,Closed with explanation,Yes,No,CR1809285,US-2015-153116
+16 January 2023,Poor Product or Service,Mobile App,Closed with explanation,Yes,No,CR1572142,US-2015-154509
+25 September 2022,Poor Product or Service,Phone Support,Closed with explanation,Yes,No,CR2119922,US-2015-159142
+13 August 2021,Lack of Follow Up,Email,Closed with monetary relief,Yes,Yes,CR0138235,US-2015-151770
+10 February 2021,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,Yes,No,CR1660335,US-2015-159274
+07 July 2020,Lack of Follow Up,Phone Support,Closed with explanation,Yes,Yes,CR2128698,US-2015-155630
+10 March 2022,Unavailable or Out of Stock Product,Mobile App,Closed with monetary relief,Yes,,CR2388201,US-2015-155983
+07 March 2019,Lack of Follow Up,Phone Support,Closed with explanation,Yes,Yes,CR2047441,US-2015-154083
+26 February 2023,Poor Product or Service,Branch,Closed with explanation,Yes,Yes,CR1725606,US-2015-151907
+02 January 2020,No First Call Resolution,Branch,Closed with non-monetary relief,Yes,No,CR1725353,US-2015-156852
+03 March 2021,Uninterested Service Rep,Branch,Closed with explanation,Yes,No,CR1725940,US-2015-157506
+29 December 2020,Lack of Follow Up,Mobile App,Closed with explanation,Yes,No,CR1816814,US-2015-155448
+11 September 2021,Long wait on hold,Phone Support,Closed with explanation,Yes,No,CR1818167,US-2015-154306
+08 November 2019,Making Customers Repeat Their Problem,Branch,Closed with explanation,Yes,No,CR1141314,US-2015-154995
+26 December 2020,Making Customers Repeat Their Problem,Phone Support,Closed with monetary relief,Yes,No,CR0223678,US-2015-160378
+17 July 2021,New Product or Feature Request,Phone Support,Closed with explanation,Yes,Yes,CR0561186,US-2015-154880
+16 July 2023,Unavailable or Out of Stock Product,Email,Closed with non-monetary relief,Yes,No,CR2226204,US-2015-159617
+11 July 2022,Long wait on hold,Email,Closed with monetary relief,Yes,No,CR1550372,US-2015-157093
+24 June 2021,No First Call Resolution,Phone Support,Closed with explanation,Yes,No,CR1451644,US-2015-159643
+01 August 2023,Lack of Follow Up,Email,In progress,Yes,,CR2344048,US-2015-158643
+21 January 2020,Lack of Follow Up,Branch,Closed with relief,Yes,Yes,CR0027693,US-2015-158852
+10 January 2020,New Product or Feature Request,Email,Closed with explanation,Yes,Yes,CR2100334,US-2015-158228
+09 September 2023,Lack of Follow Up,Phone Support,Closed with explanation,Yes,Yes,CR0404310,US-2015-151078
+17 December 2019,Long wait on hold,Email,Closed with explanation,Yes,No,CR1831653,US-2015-152434
+15 April 2021,Lack of Follow Up,Branch,Closed with explanation,Yes,Yes,CR0858349,US-2015-158766
+11 December 2020,Making Customers Repeat Their Problem,Email,Closed with explanation,Yes,No,CR2001165,US-2015-158622
+12 April 2022,Uninterested Service Rep,Phone Support,Closed with explanation,Yes,No,CR1741538,US-2015-153360
+27 February 2023,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,Yes,Yes,CR1938865,US-2015-155518
+12 November 2019,Uninterested Service Rep,Mobile App,Closed with explanation,Yes,No,CR1352279,US-2015-151567
+20 January 2021,Long wait on hold,Email,Closed with explanation,Yes,No,CR1471978,US-2015-159863
+03 September 2019,Lack of Follow Up,Email,Closed with explanation,Yes,No,CR1907400,US-2015-157320
+10 December 2021,New Product or Feature Request,Email,Closed with monetary relief,Yes,No,CR1629513,US-2015-151631
+24 May 2021,No First Call Resolution,Mobile App,Closed with explanation,Yes,No,CR1729929,US-2015-160141
+03 October 2023,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,Yes,No,CR2149853,US-2015-155864
+12 July 2020,Making Customers Repeat Their Problem,Email,Closed with explanation,Yes,No,CR2047406,US-2015-156029
+15 December 2020,Making Customers Repeat Their Problem,Branch,Closed with explanation,Yes,Yes,CR2146555,US-2015-155596
+29 April 2020,Uninterested Service Rep,Mobile App,Closed with explanation,Yes,No,CR2195804,US-2015-157117
+18 March 2022,No First Call Resolution,Mobile App,Closed with monetary relief,Yes,No,CR0411108,US-2015-154444
+28 August 2022,Making Customers Repeat Their Problem,Branch,Closed with explanation,Yes,No,CR1910227,US-2015-156728
+12 May 2020,Lack of Follow Up,Email,Closed with explanation,Yes,No,CR1941865,US-2015-154442
+09 December 2022,Uninterested Service Rep,Branch,Closed with monetary relief,Yes,Yes,CR1833581,US-2015-154827
+13 October 2021,Lack of Follow Up,Phone Support,Closed,Yes,No,CR1481909,US-2015-155076
+12 January 2023,Unavailable or Out of Stock Product,Email,Closed with explanation,Yes,No,CR2008113,US-2015-158450
+15 February 2021,Lack of Follow Up,Branch,Closed with explanation,Yes,Yes,CR1355330,US-2015-155888
+22 January 2019,Unavailable or Out of Stock Product,Email,Closed with explanation,Yes,No,CR1835930,US-2015-159749
+02 October 2021,Lack of Follow Up,Email,Closed with explanation,Yes,,CR2348744,US-2015-152389
+02 September 2023,Unavailable or Out of Stock Product,Email,Closed with explanation,Yes,,CR2344749,US-2015-151875
+02 December 2021,Lack of Follow Up,Mobile App,Closed with explanation,Yes,Yes,CR0869660,US-2015-155316
+19 July 2021,Lack of Follow Up,Mobile App,Closed with monetary relief,Yes,No,CR1744554,US-2015-154259
+16 December 2019,New Product or Feature Request,Mobile App,Closed,Yes,No,CR1475200,US-2015-152984
+16 December 2021,Making Customers Repeat Their Problem,Branch,Closed with explanation,Yes,No,CR1142808,US-2015-156429
+25 March 2023,Uninterested Service Rep,Phone Support,Closed with monetary relief,Yes,No,CR2228854,US-2015-160211
+20 May 2022,Uninterested Service Rep,Branch,Closed with monetary relief,Yes,No,CR1360875,US-2015-158656
+15 July 2023,Lack of Follow Up,Mobile App,Closed with non-monetary relief,Yes,No,CR1550513,US-2015-153191
+22 November 2021,Uninterested Service Rep,Branch,Closed with explanation,Yes,Yes,CR2151317,US-2015-157548
+16 May 2023,Uninterested Service Rep,Email,Closed with explanation,Yes,No,CR1148113,US-2015-157339
+08 July 2021,No First Call Resolution,Branch,Closed with explanation,Yes,No,CR2004264,US-2015-157903
+01 August 2019,Poor Product or Service,Mobile App,Closed with monetary relief,Yes,No,CR1734737,US-2015-159595
+11 August 2019,Lack of Follow Up,Email,Closed with monetary relief,Yes,No,CR2230146,US-2015-158182
+04 May 2020,Lack of Follow Up,Mobile App,Closed with explanation,Yes,No,CR1942158,US-2015-158226
+31 May 2023,New Product or Feature Request,Mobile App,Closed with explanation,Yes,No,CR1631397,US-2015-158289
+13 September 2019,Lack of Follow Up,Mobile App,Closed with monetary relief,Yes,No,CR1741597,US-2015-159174
+13 November 2022,New Product or Feature Request,Phone Support,Closed with explanation,Yes,Yes,CR0574864,US-2015-158712
+10 June 2019,Lack of Follow Up,Mobile App,Closed with non-monetary relief,Yes,No,CR1455862,US-2015-159862
+30 July 2021,Long wait on hold,Mobile App,Closed with non-monetary relief,Yes,Yes,CR1550303,US-2015-152187
+06 May 2021,Lack of Follow Up,Branch,Closed with relief,Yes,Yes,CR0054494,US-2015-154843
+27 January 2022,Uninterested Service Rep,Email,Closed with explanation,Yes,No,CR1739982,US-2015-155811
+07 April 2023,No First Call Resolution,Mobile App,Closed with explanation,Yes,No,CR1452043,US-2015-157526
+18 February 2021,Poor Product or Service,Branch,Closed with explanation,Yes,No,CR0865818,US-2015-154918
+03 October 2023,Uninterested Service Rep,Mobile App,Closed with explanation,Yes,No,CR2102776,US-2015-160304
+08 September 2023,Making Customers Repeat Their Problem,Mobile App,Closed with monetary relief,Yes,No,CR2104114,US-2015-158577
+29 December 2020,Poor Product or Service,Email,Closed with explanation,Yes,Yes,CR1910899,US-2015-153582
+04 November 2019,Long wait on hold,Mobile App,Closed with explanation,Yes,Yes,CR0229326,US-2015-155762
+19 March 2019,Lack of Follow Up,Email,Closed with explanation,Yes,No,CR1630423,US-2015-158156
+24 June 2020,Uninterested Service Rep,Branch,Closed with monetary relief,Yes,No,CR0229354,US-2015-158196
+01 March 2023,Poor Product or Service,Mobile App,Closed with relief,Yes,No,CR0044568,US-2015-159626
+11 March 2021,Uninterested Service Rep,Mobile App,Closed with explanation,Yes,Yes,CR0567779,US-2015-152053
+22 February 2020,Uninterested Service Rep,Branch,Closed with explanation,Yes,No,CR2149200,US-2015-151319
+06 January 2023,Making Customers Repeat Their Problem,Email,Closed with monetary relief,Yes,No,CR0404275,US-2015-159849
+21 November 2021,Lack of Follow Up,Email,Closed with explanation,Yes,Yes,CR0418611,US-2015-154708
+22 October 2021,Long wait on hold,Email,Closed with explanation,Yes,No,CR1377630,US-2015-160175
+28 December 2019,Lack of Follow Up,Phone Support,Closed with explanation,Yes,No,CR2236702,US-2015-158172
+31 January 2022,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,No,Yes,CR0091084,US-2015-158595
+25 January 2019,Lack of Follow Up,Branch,Closed with explanation,Yes,No,CR2157111,US-2015-155081
+04 March 2019,Poor Product or Service,Mobile App,Closed with explanation,Yes,,CR1756498,US-2015-157915
+24 November 2020,Poor Product or Service,Branch,Closed with explanation,Yes,No,CR0245763,US-2015-156349
+20 May 2020,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,Yes,No,CR1484197,US-2015-150978
+31 October 2022,Lack of Follow Up,Branch,Closed with explanation,Yes,No,CR2107839,US-2015-151113
+24 January 2021,New Product or Feature Request,Email,Closed with non-monetary relief,Yes,No,CR1554501,US-2015-156870
+21 July 2019,New Product or Feature Request,Phone Support,Closed with explanation,Yes,No,CR0887544,US-2015-153103
+02 November 2019,Making Customers Repeat Their Problem,Branch,Closed with explanation,Yes,Yes,CR0603229,US-2015-150997
+30 September 2021,Long wait on hold,Mobile App,Closed with explanation,Yes,Yes,CR1165956,US-2015-151649
+01 April 2022,Poor Product or Service,Email,Closed with monetary relief,Yes,No,CR1750681,US-2015-156740
+30 July 2022,Poor Product or Service,Branch,Closed with monetary relief,Yes,No,CR1459299,US-2015-152743
+28 March 2022,Lack of Follow Up,Phone Support,Closed with explanation,Yes,,CR2349389,US-2015-155323
+31 May 2020,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,Yes,No,CR1834278,US-2015-153177
+15 March 2023,Poor Product or Service,Email,Closed with explanation,Yes,No,CR2015196,US-2015-152990
+29 August 2021,Unavailable or Out of Stock Product,Email,Closed with explanation,Yes,Yes,CR1912592,US-2015-155553
+26 May 2022,Lack of Follow Up,Phone Support,Closed with non-monetary relief,Yes,No,CR1630524,US-2015-154394
+06 October 2021,Uninterested Service Rep,Email,Closed with explanation,Yes,No,CR2011177,US-2015-152694
+30 December 2022,Lack of Follow Up,Phone Support,Closed with non-monetary relief,Yes,No,CR1775172,US-2015-159079
+20 February 2022,Lack of Follow Up,Phone Support,Closed with explanation,Yes,Yes,CR0121560,US-2015-151960
+17 March 2020,Making Customers Repeat Their Problem,Phone Support,Closed with explanation,Yes,No,CR1494677,US-2015-158687
+24 July 2019,Poor Product or Service,Email,Closed with explanation,Yes,No,CR0277914,US-2015-152087
+04 September 2021,Uninterested Service Rep,Email,Closed with monetary relief,Yes,No,CR2112926,US-2015-155025
+10 December 2021,Poor Product or Service,Email,Closed with monetary relief,Yes,No,CR1193863,US-2015-155691
+25 July 2021,Poor Product or Service,Email,Closed with monetary relief,Yes,No,CR2032168,US-2015-159604
+18 August 2021,Making Customers Repeat Their Problem,Mobile App,Closed with monetary relief,Yes,No,CR1752002,US-2015-153113
+15 November 2020,Uninterested Service Rep,Branch,Closed with non-monetary relief,Yes,Yes,CR1645965,US-2015-153831
+05 February 2022,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,Yes,No,CR1565229,US-2015-153441
+24 May 2021,New Product or Feature Request,Mobile App,Closed with monetary relief,Yes,No,CR0437926,US-2015-160146
+12 April 2022,Unavailable or Out of Stock Product,Email,Closed with explanation,Yes,Yes,CR2081319,US-2015-153000
+24 February 2020,Uninterested Service Rep,Email,Closed with explanation,Yes,No,CR1850371,US-2015-157540
+24 January 2023,No First Call Resolution,Phone Support,Closed with explanation,Yes,No,CR2258552,US-2015-159554
+20 December 2019,Making Customers Repeat Their Problem,Phone Support,Closed with explanation,Yes,No,CR1919514,US-2015-160124
+25 October 2022,Unavailable or Out of Stock Product,Email,In progress,Yes,,CR2379569,US-2015-152390
+17 October 2021,Uninterested Service Rep,Phone Support,Closed with explanation,Yes,No,CR1490998,US-2015-151543
+13 June 2020,Uninterested Service Rep,Branch,Closed with non-monetary relief,Yes,No,CR1389361,US-2015-154491
+07 August 2023,Lack of Follow Up,Branch,Closed with explanation,Yes,Yes,CR2172002,US-2015-154400
+04 August 2022,Making Customers Repeat Their Problem,Branch,Closed with monetary relief,Yes,No,CR0947307,US-2015-152334
+09 May 2022,Making Customers Repeat Their Problem,Branch,Closed with explanation,Yes,No,CR0688050,US-2015-158159
+06 October 2019,Unavailable or Out of Stock Product,Branch,Closed with explanation,Yes,No,CR2147799,US-2015-153046
+29 May 2023,Long wait on hold,Email,Closed with explanation,Yes,No,CR1750285,US-2015-151083
+26 April 2023,No First Call Resolution,Mobile App,Closed with explanation,Yes,No,CR0230239,US-2015-152443
+12 June 2023,New Product or Feature Request,Branch,Closed with explanation,Yes,Yes,CR1159924,US-2015-159141
+01 June 2022,No First Call Resolution,Email,Closed with explanation,Yes,No,CR1943347,US-2015-153189
+04 April 2023,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,Yes,No,CR1550838,US-2015-156261
+10 December 2021,Long wait on hold,Mobile App,Closed with non-monetary relief,Yes,No,CR2235451,US-2015-151631
+15 February 2020,New Product or Feature Request,Phone Support,Closed with explanation,Yes,,CR2350802,US-2015-158029
+02 June 2020,New Product or Feature Request,Phone Support,Closed with explanation,Yes,Yes,CR2155262,US-2015-153249
+16 May 2020,No First Call Resolution,Mobile App,Closed with explanation,Yes,No,CR1630364,US-2015-158815
+23 January 2023,Long wait on hold,Phone Support,Closed with monetary relief,Yes,No,CR1371826,US-2015-153677
+22 October 2020,No First Call Resolution,Phone Support,Closed with explanation,Yes,No,CR2104830,US-2015-157150
+09 December 2021,Poor Product or Service,Email,Closed with monetary relief,Yes,No,CR0418479,US-2015-159279
+09 June 2019,Unavailable or Out of Stock Product,Phone Support,Closed with explanation,Yes,Yes,CR1909608,US-2015-156849
+03 May 2023,Poor Product or Service,Branch,Closed with explanation,Yes,No,CR0587861,US-2015-154383
+10 September 2019,Long wait on hold,Branch,Closed with explanation,Yes,No,CR1481105,US-2015-151369
+01 February 2023,Long wait on hold,Phone Support,Closed with explanation,Yes,Yes,CR1756563,US-2015-159175
+09 September 2021,Uninterested Service Rep,Phone Support,Closed with explanation,Yes,No,CR2009490,US-2015-151686
+10 July 2021,Unavailable or Out of Stock Product,Email,Closed with explanation,Yes,No,CR1835332,US-2015-156903
+17 August 2020,Uninterested Service Rep,Mobile App,Closed with monetary relief,No,Yes,CR0089542,US-2015-155105
+25 September 2019,Long wait on hold,Mobile App,Closed with non-monetary relief,Yes,No,CR1455861,US-2015-155604
+27 October 2019,Uninterested Service Rep,Phone Support,Closed with explanation,Yes,Yes,CR0871335,US-2015-160490
+02 November 2020,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,Yes,No,CR0949403,US-2015-155443
+02 December 2022,Poor Product or Service,Email,Closed with monetary relief,Yes,No,CR2035955,US-2015-154436
+05 August 2020,New Product or Feature Request,Mobile App,Closed with monetary relief,Yes,No,CR1854125,US-2015-154449
+10 July 2019,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,Yes,No,CR0440277,US-2015-155580
+25 September 2019,Lack of Follow Up,Mobile App,Closed with explanation,Yes,No,CR1784697,US-2015-160521
+22 July 2020,Unavailable or Out of Stock Product,Branch,Closed with explanation,Yes,No,CR2083797,US-2015-154209
+24 April 2023,No First Call Resolution,Phone Support,Closed with explanation,Yes,No,CR1249514,US-2015-154769
+21 February 2021,Unavailable or Out of Stock Product,Branch,Closed with monetary relief,Yes,,CR2381178,US-2015-154479
+30 March 2019,Uninterested Service Rep,Email,Closed with explanation,Yes,No,CR1648334,US-2015-151619
+04 June 2022,Making Customers Repeat Their Problem,Email,Closed with non-monetary relief,Yes,No,CR1498821,US-2015-155731
+19 March 2022,Unavailable or Out of Stock Product,Branch,Closed with explanation,Yes,No,CR0689939,US-2015-155767
+20 January 2021,Making Customers Repeat Their Problem,Mobile App,Closed with monetary relief,Yes,No,CR1495257,US-2015-152709
+01 January 2022,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,Yes,No,CR1390944,US-2015-158718
+11 May 2019,No First Call Resolution,Branch,Closed with monetary relief,Yes,No,CR2259376,US-2015-152973
+10 May 2023,New Product or Feature Request,Email,Closed with explanation,Yes,Yes,CR0283220,US-2015-153746
+13 June 2020,Uninterested Service Rep,Mobile App,Closed with explanation,Yes,No,CR2111636,US-2015-156480
+05 May 2020,New Product or Feature Request,Phone Support,Closed with explanation,Yes,Yes,CR1567700,US-2015-155131
+19 February 2020,Unavailable or Out of Stock Product,Email,Closed with monetary relief,Yes,No,CR0130233,US-2015-157394
+03 March 2019,Unavailable or Out of Stock Product,Email,Closed with explanation,Yes,No,CR1930395,US-2015-156887
+24 April 2022,Uninterested Service Rep,Mobile App,Closed with explanation,Yes,No,CR2172937,US-2015-154791
+16 April 2023,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,Yes,No,CR1755925,US-2015-152690
+14 July 2019,No First Call Resolution,Phone Support,Closed with non-monetary relief,Yes,No,CR1496382,US-2015-150767
+07 August 2020,No First Call Resolution,Branch,Closed with explanation,Yes,No,CR1870285,US-2015-153647
+16 January 2020,Uninterested Service Rep,Mobile App,Closed with explanation,Yes,No,CR2271991,US-2015-153252
+13 August 2020,No First Call Resolution,Mobile App,Closed with explanation,Yes,Yes,CR1305593,US-2015-154772
+12 September 2020,Poor Product or Service,Branch,Closed with explanation,Yes,No,CR1544229,US-2015-152636
+22 January 2021,Long wait on hold,Email,Closed with explanation,Yes,Yes,CR1415743,US-2015-160164
+05 December 2019,Long wait on hold,Branch,Closed with explanation,Yes,Yes,CR0313086,US-2015-153532
+19 March 2021,Long wait on hold,Branch,Closed with monetary relief,Yes,No,CR0138644,US-2015-158754
+13 June 2020,Unavailable or Out of Stock Product,Phone Support,Closed with monetary relief,Yes,No,CR2132541,US-2015-151097
+25 July 2019,New Product or Feature Request,Email,Closed with explanation,Yes,No,CR1941376,US-2015-159225
+12 January 2020,No First Call Resolution,Mobile App,Closed with explanation,Yes,,CR2394945,US-2015-151517
+02 September 2021,Poor Product or Service,Email,Closed with explanation,Yes,Yes,CR1577468,US-2015-151119
+10 May 2021,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,Yes,No,CR1660050,US-2015-159361
+10 August 2022,No First Call Resolution,Email,Closed with explanation,Yes,No,CR1766940,US-2015-158986
+12 November 2021,Unavailable or Out of Stock Product,Branch,Closed with explanation,Yes,No,CR2118524,US-2015-153065
+09 June 2020,New Product or Feature Request,Branch,Closed with non-monetary relief,Yes,No,CR2184797,US-2015-154925
+29 August 2022,Making Customers Repeat Their Problem,Phone Support,Closed with monetary relief,Yes,No,CR0479451,US-2015-160112
+30 December 2020,Unavailable or Out of Stock Product,Phone Support,Closed with explanation,Yes,Yes,CR0718616,US-2015-156645
+04 March 2023,Long wait on hold,Email,Closed with non-monetary relief,Yes,No,CR2047529,US-2015-154480
+08 September 2021,New Product or Feature Request,Mobile App,Closed with explanation,Yes,No,CR0991303,US-2015-151587
+20 December 2020,Lack of Follow Up,Mobile App,Closed with explanation,Yes,No,CR1822084,US-2015-159641
+08 March 2021,New Product or Feature Request,Email,Closed with explanation,Yes,No,CR2150336,US-2015-155086
+20 January 2019,New Product or Feature Request,Branch,Closed with monetary relief,Yes,No,CR2119879,US-2015-151989
+05 May 2023,Poor Product or Service,Email,Closed with monetary relief,Yes,No,CR2061914,US-2015-158058
+02 January 2023,Lack of Follow Up,Branch,Closed with explanation,Yes,Yes,CR1500202,US-2015-160523
+14 December 2019,Poor Product or Service,Branch,In progress,Yes,,CR2397904,US-2015-154387
+26 June 2019,Long wait on hold,Phone Support,Closed with explanation,Yes,No,CR2208613,US-2015-159926
+12 July 2021,Uninterested Service Rep,Email,Closed with explanation,Yes,No,CR1873543,US-2015-156054
+03 June 2022,No First Call Resolution,Mobile App,Closed with explanation,Yes,No,CR1680495,US-2015-151844
+04 October 2023,Poor Product or Service,Phone Support,Closed with explanation,Yes,No,CR1313087,US-2015-158031
+28 May 2022,No First Call Resolution,Phone Support,Closed with explanation,Yes,No,CR1418766,US-2015-150992
+21 December 2022,Long wait on hold,Phone Support,Closed with explanation,Yes,No,CR1580992,US-2015-158028
+14 January 2023,Lack of Follow Up,Branch,Closed with explanation,Yes,No,CR1340503,US-2015-156383
+21 June 2023,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,Yes,No,CR1772134,US-2015-158139
+27 June 2019,Poor Product or Service,Phone Support,Closed with explanation,Yes,No,CR2193859,US-2015-154752
+15 September 2019,Making Customers Repeat Their Problem,Branch,Closed with explanation,No,No,CR0161683,US-2015-153848
+08 July 2021,Unavailable or Out of Stock Product,Phone Support,Closed with explanation,Yes,No,CR0322720,US-2015-152868
+11 August 2020,Making Customers Repeat Their Problem,Phone Support,Closed,Yes,No,CR2277705,US-2015-152328
+22 October 2022,New Product or Feature Request,Phone Support,Closed with monetary relief,Yes,No,CR1015058,US-2015-158274
+01 September 2023,Long wait on hold,Mobile App,Closed with monetary relief,Yes,No,CR1566591,US-2015-156095
+16 June 2022,Uninterested Service Rep,Email,Closed with explanation,Yes,No,CR0487225,US-2015-160075
+09 November 2021,Lack of Follow Up,Branch,Closed with explanation,Yes,No,CR1949659,US-2015-160581
+21 February 2022,No First Call Resolution,Mobile App,Closed with monetary relief,Yes,No,CR0746087,US-2015-158441
+16 February 2023,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,Yes,No,CR1863969,US-2015-158800
+04 June 2023,Making Customers Repeat Their Problem,Branch,Closed with explanation,Yes,No,CR1819921,US-2015-154510
+15 June 2022,Uninterested Service Rep,Phone Support,Closed with explanation,Yes,Yes,CR1820535,US-2015-156327
+07 April 2019,Poor Product or Service,Email,Closed with explanation,Yes,No,CR1016584,US-2015-153588
+30 November 2019,Unavailable or Out of Stock Product,Phone Support,Closed with explanation,Yes,No,CR2199697,US-2015-155274
+29 January 2022,No First Call Resolution,Mobile App,Closed with monetary relief,Yes,No,CR0327025,US-2015-158987
+14 August 2019,No First Call Resolution,Phone Support,Closed with explanation,Yes,No,CR1869568,US-2015-157196
+09 January 2019,Lack of Follow Up,Mobile App,Closed with explanation,Yes,No,CR2061433,US-2015-153566
+06 July 2022,New Product or Feature Request,Branch,Closed with explanation,Yes,No,CR2120430,US-2015-152095
+31 December 2019,No First Call Resolution,Mobile App,Closed with explanation,Yes,No,CR1949866,US-2015-153960
+05 June 2019,Uninterested Service Rep,Phone Support,Closed with explanation,Yes,No,CR1507355,US-2015-156847
+13 June 2022,New Product or Feature Request,Phone Support,Closed with explanation,Yes,Yes,CR1584140,US-2015-157523
+20 September 2020,New Product or Feature Request,Mobile App,Closed with explanation,Yes,Yes,CR0490204,US-2015-154863
+01 August 2020,Unavailable or Out of Stock Product,Mobile App,Closed with monetary relief,Yes,No,CR1693185,US-2015-152116
+01 April 2021,Lack of Follow Up,Email,Closed with explanation,Yes,No,CR2280052,US-2015-158183
+02 June 2021,Uninterested Service Rep,Mobile App,Closed with non-monetary relief,Yes,No,CR1777183,US-2015-153740
+08 April 2019,Unavailable or Out of Stock Product,Email,Closed with non-monetary relief,Yes,No,CR1573466,US-2015-157919
+25 February 2022,Uninterested Service Rep,Branch,Closed with explanation,Yes,No,CR1316790,US-2015-151390
+26 August 2023,Long wait on hold,Mobile App,Closed with explanation,Yes,No,CR1419754,US-2015-152304
+20 May 2022,Lack of Follow Up,Email,Closed with explanation,Yes,No,CR0783255,US-2015-152508
+27 November 2022,Making Customers Repeat Their Problem,Phone Support,Closed with monetary relief,Yes,No,CR2214250,US-2015-154123
+07 November 2022,Uninterested Service Rep,Mobile App,Closed with explanation,Yes,No,CR1338985,US-2015-151707
+21 May 2020,No First Call Resolution,Phone Support,Closed with explanation,Yes,No,CR0170715,US-2015-156369
+09 February 2019,Poor Product or Service,Branch,Closed with explanation,Yes,No,CR1874408,US-2015-150875
+09 May 2023,Long wait on hold,Phone Support,In progress,Yes,,CR2398557,US-2015-158496
+18 March 2021,Uninterested Service Rep,Mobile App,Closed with monetary relief,Yes,No,CR2239563,US-2015-158476
+08 May 2023,Poor Product or Service,Branch,Closed with explanation,Yes,Yes,CR1823106,US-2015-158847
+28 February 2023,Poor Product or Service,Branch,Closed with explanation,Yes,No,CR2109011,US-2015-153105
+21 August 2020,Lack of Follow Up,Branch,Closed with explanation,Yes,No,CR0090075,US-2015-151025
+18 April 2023,No First Call Resolution,Phone Support,Closed with explanation,Yes,No,CR1773807,US-2015-154047
+24 October 2021,Unavailable or Out of Stock Product,Branch,Closed with explanation,Yes,No,CR1167964,US-2015-159570
+24 June 2020,Poor Product or Service,Phone Support,Closed with explanation,Yes,Yes,CR0420867,US-2015-158196
+09 September 2019,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,Yes,No,CR1555127,US-2015-154458
+12 November 2022,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,Yes,No,CR1916042,US-2015-150940
+24 November 2022,Unavailable or Out of Stock Product,Email,Closed with explanation,Yes,No,CR2029764,US-2015-153273
+11 September 2021,Lack of Follow Up,Branch,Closed with monetary relief,Yes,No,CR0256410,US-2015-154477
+15 September 2022,Uninterested Service Rep,Email,Closed with explanation,Yes,No,CR2250123,US-2015-159787
+11 March 2019,Making Customers Repeat Their Problem,Mobile App,Closed with monetary relief,Yes,No,CR1484298,US-2015-155773
+13 May 2022,Long wait on hold,Mobile App,Closed with explanation,Yes,No,CR0888321,US-2015-151438
+12 January 2023,Uninterested Service Rep,Phone Support,Closed with explanation,Yes,No,CR0644531,US-2015-159268
+19 February 2019,Long wait on hold,Mobile App,Closed with explanation,Yes,No,CR1839721,US-2015-153200
+13 February 2020,Unavailable or Out of Stock Product,Phone Support,Closed with explanation,Yes,No,CR2036377,US-2015-160238
+07 June 2021,Long wait on hold,Phone Support,Closed with explanation,Yes,Yes,CR1762648,US-2015-155605
+17 October 2022,No First Call Resolution,Branch,Closed with explanation,Yes,No,CR0659192,US-2015-156616
+11 July 2023,Poor Product or Service,Phone Support,Closed with explanation,Yes,No,CR1484603,US-2015-154015
+19 March 2019,Uninterested Service Rep,Phone Support,Closed with explanation,Yes,No,CR1843712,US-2015-159028
+16 March 2021,Poor Product or Service,Email,Closed with monetary relief,Yes,,CR2362994,US-2015-152841
+17 May 2021,Long wait on hold,Email,Closed with monetary relief,Yes,No,CR1633056,US-2015-156424
+15 February 2019,Uninterested Service Rep,Mobile App,Closed with monetary relief,Yes,No,CR0428430,US-2015-156417
+11 September 2021,Unavailable or Out of Stock Product,Phone Support,Closed with explanation,Yes,No,CR1640566,US-2015-154477
+03 January 2022,Lack of Follow Up,Mobile App,Closed with explanation,Yes,Yes,CR1752931,US-2015-155747
+03 April 2020,Uninterested Service Rep,Phone Support,Closed with explanation,Yes,,CR2378054,US-2015-160259
+05 April 2020,Making Customers Repeat Their Problem,Email,Closed with explanation,Yes,Yes,CR1182664,US-2015-160180
+18 March 2020,Making Customers Repeat Their Problem,Phone Support,Closed with explanation,Yes,No,CR2017443,US-2015-159665
+22 September 2020,Long wait on hold,Email,Closed with monetary relief,Yes,No,CR2159818,US-2015-158112
+18 December 2019,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,Yes,No,CR2011299,US-2015-152670
+12 July 2021,Uninterested Service Rep,Email,Closed with explanation,Yes,No,CR1750873,US-2015-157795
+12 January 2023,Long wait on hold,Phone Support,Closed with explanation,Yes,Yes,CR1483597,US-2015-159268
+05 December 2019,Lack of Follow Up,Mobile App,Closed with explanation,Yes,No,CR1384077,US-2015-160412
+28 May 2022,Unavailable or Out of Stock Product,Branch,Closed with explanation,Yes,No,CR0927871,US-2015-157274
+16 August 2021,Unavailable or Out of Stock Product,Branch,Closed with explanation,Yes,Yes,CR1557863,US-2015-151047
+18 April 2021,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,Yes,Yes,CR2238023,US-2015-156123
+11 August 2022,Unavailable or Out of Stock Product,Mobile App,Closed with non-monetary relief,Yes,Yes,CR0097731,US-2015-158624
+27 November 2021,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,Yes,Yes,CR2166955,US-2015-158117
+18 November 2022,Lack of Follow Up,Email,Closed with explanation,Yes,No,CR2106553,US-2015-158327
+29 March 2020,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,Yes,No,CR0257240,US-2015-155329
+02 August 2020,No First Call Resolution,Phone Support,Closed with explanation,Yes,No,CR1387408,US-2015-152288
+30 June 2022,Uninterested Service Rep,Phone Support,Closed with explanation,Yes,No,CR1467137,US-2015-156450
+08 November 2021,Uninterested Service Rep,Branch,Closed with monetary relief,Yes,No,CR1919975,US-2015-155235
+01 September 2020,Making Customers Repeat Their Problem,Mobile App,Closed with monetary relief,Yes,No,CR0739756,US-2015-151138
+17 May 2020,Poor Product or Service,Phone Support,Closed with explanation,Yes,No,CR1580111,US-2015-158326
+29 August 2023,No First Call Resolution,Branch,Closed with monetary relief,Yes,No,CR1007303,US-2015-155484
+25 March 2021,No First Call Resolution,Phone Support,Closed with explanation,Yes,No,CR2055729,US-2015-158843
+01 September 2020,Uninterested Service Rep,Email,Closed with explanation,Yes,Yes,CR0146975,US-2015-151138
+27 August 2019,Poor Product or Service,Email,Closed with explanation,Yes,No,CR2118493,US-2015-152237
+14 April 2023,Long wait on hold,Phone Support,Closed with non-monetary relief,Yes,No,CR2184843,US-2015-158330
+04 May 2023,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,Yes,No,CR1769933,US-2015-152124
+09 April 2019,New Product or Feature Request,Phone Support,Closed with explanation,Yes,No,CR1941546,US-2015-158772
+27 July 2023,Lack of Follow Up,Branch,Closed with explanation,Yes,No,CR0480773,US-2015-156668
+31 October 2022,Lack of Follow Up,Branch,Closed with explanation,Yes,Yes,CR1675811,US-2015-151352
+28 January 2020,Unavailable or Out of Stock Product,Phone Support,Closed with explanation,Yes,No,CR1845683,US-2015-157836
+24 July 2021,Unavailable or Out of Stock Product,Branch,Closed with explanation,Yes,No,CR2189595,US-2015-159291
+13 July 2023,No First Call Resolution,Branch,Closed with explanation,Yes,No,CR1313382,US-2015-153390
+24 December 2021,Poor Product or Service,Branch,Closed with explanation,Yes,No,CR2275295,US-2015-157624
+08 January 2021,No First Call Resolution,Phone Support,Closed with non-monetary relief,Yes,No,CR1334090,US-2015-158137
+07 April 2023,Making Customers Repeat Their Problem,Branch,In progress,Yes,,CR2397006,US-2015-159699
+27 October 2022,Lack of Follow Up,Mobile App,Closed with explanation,Yes,No,CR0315956,US-2015-159252
+11 May 2019,Lack of Follow Up,Mobile App,Closed with explanation,Yes,No,CR1563107,US-2015-158730
+10 May 2020,Uninterested Service Rep,Branch,Closed with explanation,Yes,No,CR1414538,US-2015-156143
+29 October 2021,Lack of Follow Up,Mobile App,Closed with monetary relief,Yes,No,CR1874223,US-2015-151294
+01 July 2021,Uninterested Service Rep,Email,Closed with explanation,Yes,No,CR1497595,US-2015-157905
+27 February 2023,Making Customers Repeat Their Problem,Email,Closed with explanation,Yes,No,CR2124324,US-2015-155518
+12 September 2022,Lack of Follow Up,Phone Support,Closed with explanation,Yes,No,CR1509134,US-2015-153943
+14 January 2023,Uninterested Service Rep,Phone Support,In progress,Yes,,CR2399597,US-2015-157399
+16 November 2022,Long wait on hold,Mobile App,Closed with explanation,Yes,Yes,CR1874694,US-2015-152085
+12 February 2022,No First Call Resolution,Phone Support,Closed with explanation,Yes,No,CR2225814,US-2015-158296
+07 December 2019,Long wait on hold,Branch,Closed with explanation,Yes,Yes,CR2209979,US-2015-154486
+04 May 2020,No First Call Resolution,Branch,Closed with monetary relief,Yes,No,CR1344050,US-2015-158470
+26 July 2023,Uninterested Service Rep,Email,Closed with explanation,Yes,No,CR1693184,US-2015-153620
+20 January 2022,No First Call Resolution,Mobile App,Closed with non-monetary relief,Yes,No,CR0785224,US-2015-156626
+03 April 2019,No First Call Resolution,Phone Support,Closed with explanation,Yes,No,CR0327012,US-2015-151621
+04 June 2023,Long wait on hold,Branch,Closed with explanation,Yes,No,CR2200226,US-2015-157072
+12 April 2021,Poor Product or Service,Phone Support,Closed with monetary relief,Yes,No,CR2283829,US-2015-158474
+16 February 2019,Unavailable or Out of Stock Product,Email,Closed with explanation,Yes,No,CR1780662,US-2015-151738
+14 March 2019,Long wait on hold,Mobile App,Closed with explanation,Yes,No,CR1418533,US-2015-155369
+24 October 2020,New Product or Feature Request,Phone Support,Closed with explanation,Yes,Yes,CR1321268,US-2015-153668
+27 July 2021,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,Yes,No,CR0182259,US-2015-155016
+07 March 2022,Unavailable or Out of Stock Product,Email,Closed with explanation,Yes,No,CR1590438,US-2015-160543
+13 December 2020,Unavailable or Out of Stock Product,Branch,Closed with non-monetary relief,Yes,No,CR1957744,US-2015-158792
+19 August 2021,No First Call Resolution,Phone Support,Closed with explanation,Yes,No,CR1587313,US-2015-156300
+27 May 2022,New Product or Feature Request,Phone Support,Closed with explanation,Yes,No,CR2058582,US-2015-157250
+21 March 2020,Lack of Follow Up,Phone Support,Closed with explanation,Yes,No,CR0500647,US-2015-158532
+05 September 2019,Poor Product or Service,Mobile App,Closed with explanation,Yes,Yes,CR1020704,US-2015-160500
+25 September 2021,No First Call Resolution,Phone Support,Closed with monetary relief,Yes,No,CR1882476,US-2015-156041
+25 January 2021,Uninterested Service Rep,Phone Support,Closed with explanation,Yes,No,CR2241469,US-2015-158936
+12 August 2019,Long wait on hold,Branch,Closed with explanation,Yes,Yes,CR2241293,US-2015-156516
+08 March 2020,No First Call Resolution,Email,Closed with non-monetary relief,Yes,No,CR1824920,US-2015-158006
+29 February 2020,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,Yes,No,CR1823750,US-2015-152898
+06 May 2023,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,Yes,Yes,CR0644906,US-2015-157488
+13 June 2021,No First Call Resolution,Email,Closed with explanation,Yes,No,CR1484141,US-2015-158710
+20 November 2021,Lack of Follow Up,Mobile App,Closed with monetary relief,Yes,No,CR0255281,US-2015-155979
+24 August 2023,No First Call Resolution,Branch,Closed with explanation,Yes,No,CR2165760,US-2015-159910
+11 February 2023,No First Call Resolution,Phone Support,Closed with explanation,Yes,No,CR1764286,US-2015-159566
+05 August 2023,Long wait on hold,Mobile App,Closed with non-monetary relief,Yes,Yes,CR0094377,US-2015-160492
+28 August 2019,Making Customers Repeat Their Problem,Branch,Closed with explanation,Yes,No,CR1633043,US-2015-153766
+02 July 2022,Long wait on hold,Email,Closed with explanation,Yes,Yes,CR0922473,US-2015-156030
+16 January 2023,Unavailable or Out of Stock Product,Phone Support,Closed with monetary relief,Yes,,CR2368744,US-2015-153409
+31 December 2021,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,Yes,No,CR1385114,US-2015-152171
+28 August 2019,Unavailable or Out of Stock Product,Email,Closed with explanation,Yes,No,CR2106806,US-2015-153348
+16 August 2022,Uninterested Service Rep,Email,Closed with explanation,Yes,No,CR1554953,US-2015-152174
+27 June 2020,Lack of Follow Up,Phone Support,Closed with explanation,Yes,No,CR1474895,US-2015-152219
+15 November 2021,New Product or Feature Request,Mobile App,Closed with explanation,Yes,No,CR2024387,US-2015-152658
+02 July 2022,Uninterested Service Rep,Phone Support,Closed with non-monetary relief,Yes,No,CR1917514,US-2015-160227
+16 June 2022,Long wait on hold,Mobile App,Closed with explanation,Yes,No,CR2239685,US-2015-153180
+06 May 2020,No First Call Resolution,Mobile App,Closed with explanation,Yes,No,CR1751316,US-2015-159289
+22 May 2020,Lack of Follow Up,Email,Closed with explanation,Yes,No,CR1839619,US-2015-156898
+13 May 2023,Unavailable or Out of Stock Product,Branch,Closed with explanation,Yes,No,CR0426655,US-2015-156537
+31 May 2022,Making Customers Repeat Their Problem,Phone Support,Closed with explanation,Yes,No,CR1182076,US-2015-159948
+11 September 2023,Poor Product or Service,Email,Closed with monetary relief,Yes,No,CR2019528,US-2015-152845
+05 October 2021,Uninterested Service Rep,Phone Support,Closed with monetary relief,Yes,Yes,CR2053856,US-2015-151454
+01 October 2019,Making Customers Repeat Their Problem,Email,Closed with explanation,Yes,No,CR0338363,US-2015-152564
+20 April 2019,Poor Product or Service,Email,Closed with explanation,Yes,No,CR0789608,US-2015-155667
+31 May 2020,Making Customers Repeat Their Problem,Branch,Closed with explanation,Yes,,CR2398513,US-2015-152978
+17 March 2020,New Product or Feature Request,Mobile App,Closed with explanation,Yes,Yes,CR2254957,US-2015-150684
+02 February 2022,No First Call Resolution,Branch,Closed with explanation,Yes,No,CR1875796,US-2015-150654
+09 July 2021,Uninterested Service Rep,Phone Support,Closed with explanation,Yes,No,CR1509215,US-2015-152386
+29 May 2020,Long wait on hold,Mobile App,Closed with explanation,Yes,Yes,CR1037284,US-2015-153236
+03 July 2023,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,Yes,No,CR0499118,US-2015-157352
+15 July 2022,Making Customers Repeat Their Problem,Phone Support,Closed with monetary relief,Yes,No,CR1881766,US-2015-153859
+13 March 2020,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,Yes,No,CR1422293,US-2015-156393
+13 April 2022,Unavailable or Out of Stock Product,Email,Closed with explanation,Yes,No,CR2209088,US-2015-151590
+05 November 2020,Long wait on hold,Phone Support,Closed with explanation,Yes,Yes,CR1351891,US-2015-151470
+01 June 2023,New Product or Feature Request,Branch,Closed with explanation,Yes,No,CR0185270,US-2015-153285
+16 November 2019,Making Customers Repeat Their Problem,Branch,Closed with explanation,Yes,No,CR2291907,US-2015-152158
+27 January 2022,Poor Product or Service,Email,Closed with monetary relief,Yes,Yes,CR1325033,US-2015-151982
+06 September 2023,Making Customers Repeat Their Problem,Phone Support,Closed with explanation,Yes,No,CR2124296,US-2015-153546
+13 July 2020,Unavailable or Out of Stock Product,Branch,Closed with explanation,Yes,No,CR2059861,US-2015-155036
+21 April 2019,No First Call Resolution,Email,Closed with explanation,Yes,Yes,CR1693351,US-2015-158885
+06 September 2021,Poor Product or Service,Mobile App,Closed with explanation,Yes,Yes,CR1590106,US-2015-154952
+07 December 2022,Poor Product or Service,Mobile App,Closed with monetary relief,Yes,Yes,CR1592064,US-2015-157752
+12 February 2022,New Product or Feature Request,Email,Closed with monetary relief,Yes,No,CR1959194,US-2015-158296
+05 September 2023,Long wait on hold,Email,Closed with explanation,Yes,Yes,CR1786858,US-2015-153768
+11 September 2022,Lack of Follow Up,Branch,Closed with monetary relief,Yes,No,CR2053433,US-2015-158339
+17 August 2020,Long wait on hold,Email,Closed with monetary relief,Yes,No,CR1670934,US-2015-155105
+05 September 2022,Making Customers Repeat Their Problem,Email,Closed with explanation,Yes,No,CR1874363,US-2015-154325
+21 July 2020,New Product or Feature Request,Phone Support,Closed with monetary relief,Yes,No,CR0454551,US-2015-158268
+31 January 2021,Lack of Follow Up,Phone Support,Closed with explanation,Yes,Yes,CR1826636,US-2015-160144
+20 June 2022,Poor Product or Service,Mobile App,Closed with non-monetary relief,Yes,No,CR1496383,US-2015-155365
+28 August 2019,Long wait on hold,Branch,Closed with explanation,Yes,Yes,CR0725940,US-2015-155542
+27 March 2021,No First Call Resolution,Phone Support,Closed with explanation,Yes,No,CR2272079,US-2015-156044
+17 September 2022,Poor Product or Service,Mobile App,Closed with explanation,Yes,No,CR1942110,US-2015-156755
+05 October 2020,Long wait on hold,Branch,Closed with explanation,Yes,No,CR0314152,US-2015-159772
+27 April 2023,No First Call Resolution,Phone Support,Closed with explanation,Yes,No,CR2187824,US-2015-152792
+24 November 2021,New Product or Feature Request,Email,Closed with monetary relief,Yes,No,CR2140531,US-2015-153388
+14 June 2021,Poor Product or Service,Mobile App,Closed with explanation,Yes,No,CR1323862,US-2015-159770
+12 January 2022,Making Customers Repeat Their Problem,Email,Closed with explanation,Yes,No,CR1414194,US-2015-153642
+24 December 2021,New Product or Feature Request,Branch,Closed with explanation,Yes,No,CR1544742,US-2015-155661
+08 March 2019,Making Customers Repeat Their Problem,Phone Support,Closed with explanation,Yes,Yes,CR0144417,US-2015-153197
+23 January 2022,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,Yes,Yes,CR0997116,US-2015-155358
+20 June 2023,Lack of Follow Up,Phone Support,Closed with explanation,Yes,No,CR2119080,US-2015-157925
+17 October 2022,Poor Product or Service,Email,Closed with explanation,Yes,No,CR1768779,US-2015-160229
+17 November 2019,Lack of Follow Up,Phone Support,Closed with non-monetary relief,Yes,No,CR1578014,US-2015-156589
+28 August 2023,New Product or Feature Request,Email,In progress,Yes,,CR2394492,US-2015-151881
+05 December 2022,Making Customers Repeat Their Problem,Branch,Closed with explanation,Yes,No,CR1737466,US-2015-155511
+29 August 2023,Uninterested Service Rep,Phone Support,Closed with explanation,Yes,No,CR1828100,US-2015-155484
+13 May 2020,Uninterested Service Rep,Mobile App,Closed with monetary relief,Yes,No,CR1739146,US-2015-156914
+04 May 2022,No First Call Resolution,Mobile App,Closed with non-monetary relief,Yes,No,CR2106749,US-2015-150842
+07 June 2022,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,Yes,No,CR1434539,US-2015-155683
+10 July 2022,Lack of Follow Up,Branch,Closed with monetary relief,Yes,No,CR2212245,US-2015-154097
+18 October 2019,Poor Product or Service,Mobile App,In progress,Yes,,CR2403665,US-2015-160475
+23 November 2020,Unavailable or Out of Stock Product,Email,Closed with explanation,Yes,No,CR2295998,US-2015-157730
+15 May 2023,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,Yes,No,CR1328481,US-2015-155062
+01 March 2023,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,Yes,No,CR1712593,US-2015-155613
+31 May 2022,No First Call Resolution,Mobile App,Closed with explanation,Yes,Yes,CR0194736,US-2015-151862
+10 June 2023,New Product or Feature Request,Email,Closed with explanation,Yes,No,CR1359157,US-2015-152807
+22 February 2023,Making Customers Repeat Their Problem,Email,Closed with explanation,Yes,No,CR2123996,US-2015-157726
+20 January 2020,New Product or Feature Request,Email,Closed with explanation,Yes,Yes,CR0795200,US-2015-150927
+08 February 2023,Lack of Follow Up,Email,Closed with explanation,Yes,No,CR1043298,US-2015-157490
+22 March 2019,Making Customers Repeat Their Problem,Phone Support,Closed with explanation,Yes,No,CR1875589,US-2015-156528
+13 February 2020,New Product or Feature Request,Branch,Closed with explanation,Yes,,CR2319065,US-2015-160252
+10 May 2023,Making Customers Repeat Their Problem,Email,Closed with explanation,Yes,Yes,CR1967343,US-2015-155449
+09 August 2020,New Product or Feature Request,Mobile App,Closed with explanation,Yes,Yes,CR1516691,US-2015-156092
+23 April 2019,Long wait on hold,Phone Support,Closed with explanation,Yes,No,CR1790071,US-2015-151912
+09 April 2022,Lack of Follow Up,Phone Support,Closed with explanation,Yes,Yes,CR1621364,US-2015-157235
+01 September 2019,Poor Product or Service,Phone Support,Closed with explanation,Yes,Yes,CR0347128,US-2015-152162
+04 February 2019,Long wait on hold,Email,Closed with explanation,Yes,Yes,CR2067841,US-2015-154248
+06 December 2020,Uninterested Service Rep,Email,Closed with monetary relief,Yes,Yes,CR1885950,US-2015-157415
+14 July 2020,Lack of Follow Up,Phone Support,Closed with explanation,Yes,Yes,CR1597893,US-2015-156382
+20 September 2022,Unavailable or Out of Stock Product,Mobile App,Closed with monetary relief,Yes,No,CR0503464,US-2015-158223
+07 March 2019,Poor Product or Service,Email,Closed with monetary relief,Yes,No,CR1878237,US-2015-154635
+26 May 2023,Lack of Follow Up,Mobile App,Closed with explanation,Yes,No,CR1524415,US-2015-156943
+23 February 2020,Long wait on hold,Email,Closed with explanation,Yes,No,CR1381322,US-2015-154372
+06 January 2023,Long wait on hold,Phone Support,Closed with explanation,Yes,Yes,CR1440934,US-2015-152980
+25 December 2020,Unavailable or Out of Stock Product,Email,Closed with explanation,Yes,,CR2406312,US-2015-152711
+30 November 2019,New Product or Feature Request,Branch,Closed with explanation,Yes,No,CR1894861,US-2015-155274
+14 July 2019,Lack of Follow Up,Phone Support,Closed with explanation,Yes,No,CR1384883,US-2015-150767
+20 June 2021,Long wait on hold,Branch,Closed with explanation,Yes,Yes,CR1440090,US-2015-158035
+05 January 2021,Unavailable or Out of Stock Product,Phone Support,Closed with explanation,Yes,,CR2347888,US-2015-151746
+20 July 2020,Unavailable or Out of Stock Product,Branch,Closed with explanation,Yes,No,CR2068994,US-2015-153306
+24 November 2022,Poor Product or Service,Email,Closed with explanation,Yes,,CR2323490,US-2015-159199
+10 August 2022,Uninterested Service Rep,Branch,Closed with explanation,Yes,No,CR0800215,US-2015-158986
+21 May 2022,Long wait on hold,Branch,Closed with explanation,Yes,No,CR2311024,US-2015-160351
+13 March 2022,Long wait on hold,Phone Support,Closed with explanation,Yes,No,CR0508374,US-2015-154944
+13 January 2021,Lack of Follow Up,Mobile App,Closed with explanation,Yes,No,CR1608859,US-2015-158374
+17 February 2023,No First Call Resolution,Phone Support,Closed with explanation,Yes,Yes,CR0362356,US-2015-160460
+30 October 2021,Uninterested Service Rep,Phone Support,Closed with explanation,Yes,No,CR1645852,US-2015-160027
+09 July 2022,No First Call Resolution,Phone Support,Closed with non-monetary relief,Yes,No,CR2298405,US-2015-151782
+17 June 2019,No First Call Resolution,Email,Closed with explanation,Yes,Yes,CR1974115,US-2015-151343
+24 November 2019,No First Call Resolution,Mobile App,Closed with non-monetary relief,Yes,No,CR0201107,US-2015-154928
+22 March 2020,Poor Product or Service,Branch,Closed with non-monetary relief,Yes,No,CR1877516,US-2015-157346
+11 January 2022,Making Customers Repeat Their Problem,Branch,Closed with monetary relief,Yes,No,CR1718256,US-2015-151515
+01 September 2019,New Product or Feature Request,Phone Support,Closed with explanation,Yes,No,CR1335855,US-2015-158827
+12 February 2019,New Product or Feature Request,Phone Support,Closed with non-monetary relief,Yes,Yes,CR1792706,US-2015-159537
+19 July 2021,Lack of Follow Up,Branch,Closed with explanation,Yes,No,CR0512719,US-2015-160452
+23 February 2020,Long wait on hold,Phone Support,Closed with monetary relief,Yes,,CR2353277,US-2015-152035
+27 August 2022,Lack of Follow Up,Phone Support,Closed with explanation,Yes,No,CR2214180,US-2015-155205
+23 December 2022,Lack of Follow Up,Email,Closed with explanation,Yes,Yes,CR0361734,US-2015-154332
+14 January 2019,No First Call Resolution,Phone Support,Closed with explanation,Yes,No,CR1609334,US-2015-152643
+31 January 2019,No First Call Resolution,Phone Support,Closed with explanation,Yes,No,CR1052075,US-2015-150735
+30 August 2020,Unavailable or Out of Stock Product,Email,Closed with explanation,Yes,Yes,CR0804364,US-2015-150900
+03 March 2019,Unavailable or Out of Stock Product,Phone Support,In progress,Yes,,CR2407613,US-2015-154120
+15 September 2019,Uninterested Service Rep,Email,Closed with explanation,Yes,No,CR2218454,US-2015-159500
+21 June 2020,Lack of Follow Up,Email,Closed with explanation,Yes,No,CR2124247,US-2015-155137
+11 November 2020,Unavailable or Out of Stock Product,Email,Closed with explanation,Yes,No,CR1905472,US-2015-151839
+07 February 2022,No First Call Resolution,Branch,Closed with explanation,Yes,No,CR2080151,US-2015-159694
+05 August 2021,Unavailable or Out of Stock Product,Phone Support,Closed with explanation,Yes,Yes,CR2123785,US-2015-154532
+01 May 2023,Uninterested Service Rep,Mobile App,Closed with explanation,Yes,No,CR0197192,US-2015-150929
+04 November 2019,Uninterested Service Rep,Branch,Closed with explanation,Yes,No,CR1631076,US-2015-151063
+10 July 2023,No First Call Resolution,Phone Support,Closed with explanation,Yes,No,CR1968121,US-2015-153671
+21 February 2019,Uninterested Service Rep,Branch,Closed with explanation,Yes,No,CR1331611,US-2015-160473
+19 March 2019,New Product or Feature Request,Phone Support,Closed with explanation,Yes,Yes,CR1048746,US-2015-158198
+06 April 2019,Lack of Follow Up,Mobile App,Closed with explanation,Yes,No,CR1795747,US-2015-153164
+17 July 2021,Poor Product or Service,Phone Support,Closed with explanation,Yes,Yes,CR1522846,US-2015-154880
+07 August 2020,Uninterested Service Rep,Email,Closed with non-monetary relief,Yes,No,CR1712230,US-2015-156608
+23 October 2019,Unavailable or Out of Stock Product,Phone Support,Closed with monetary relief,Yes,No,CR1052629,US-2015-159292
+07 March 2019,Uninterested Service Rep,Phone Support,Closed with explanation,Yes,,CR2311310,US-2015-159722
+18 October 2020,Lack of Follow Up,Mobile App,Closed with explanation,Yes,No,CR1528299,US-2015-150714
+10 September 2023,Making Customers Repeat Their Problem,Branch,Closed with non-monetary relief,Yes,No,CR1419608,US-2015-159084
+31 January 2021,Uninterested Service Rep,Phone Support,Closed with monetary relief,Yes,No,CR2130710,US-2015-160144
+26 August 2020,Making Customers Repeat Their Problem,Email,Closed with monetary relief,Yes,No,CR1892105,US-2015-159363
+19 September 2019,Poor Product or Service,Branch,Closed with explanation,Yes,No,CR2079025,US-2015-153304
+25 August 2022,Uninterested Service Rep,Phone Support,Closed with monetary relief,Yes,No,CR1913916,US-2015-158199
+30 March 2019,Lack of Follow Up,Branch,Closed with monetary relief,Yes,No,CR0838199,US-2015-154627
+18 August 2019,Making Customers Repeat Their Problem,Phone Support,Closed with explanation,Yes,No,CR1660760,US-2015-160456
+22 March 2019,No First Call Resolution,Email,Closed with explanation,Yes,No,CR0369207,US-2015-156528
+24 August 2020,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,Yes,No,CR1799864,US-2015-155192
+16 March 2022,Uninterested Service Rep,Email,Closed with explanation,Yes,Yes,CR1343326,US-2015-156578
+30 August 2021,No First Call Resolution,Mobile App,Closed with explanation,Yes,No,CR0209127,US-2015-159167
+21 March 2019,Making Customers Repeat Their Problem,Phone Support,Closed with monetary relief,Yes,No,CR2222223,US-2015-155457
+26 August 2019,No First Call Resolution,Branch,Closed with explanation,Yes,No,CR1721069,US-2015-154941
+19 February 2020,Uninterested Service Rep,Phone Support,Closed with non-monetary relief,Yes,,CR2398334,US-2015-155938
+17 February 2022,Uninterested Service Rep,Branch,Closed with explanation,Yes,No,CR1986094,US-2015-156594
+18 May 2022,Lack of Follow Up,Email,Closed with explanation,Yes,,CR2421250,US-2015-157435
+24 April 2022,Uninterested Service Rep,Branch,Closed with monetary relief,Yes,No,CR1612696,US-2015-157453
+06 May 2023,No First Call Resolution,Mobile App,Closed with explanation,Yes,No,CR0524922,US-2015-150949
+31 August 2020,Uninterested Service Rep,Branch,Closed with explanation,Yes,No,CR1458455,US-2015-150761
+13 January 2020,Lack of Follow Up,Branch,Closed with explanation,Yes,,CR2322711,US-2015-151901
+13 December 2021,New Product or Feature Request,Phone Support,Closed with explanation,Yes,,CR2368953,US-2015-154680
+25 May 2022,Making Customers Repeat Their Problem,Branch,Closed with explanation,Yes,,CR2327253,US-2015-159913
+15 November 2019,Lack of Follow Up,Email,Closed with monetary relief,Yes,,CR2326406,US-2015-156321
+11 June 2019,Unavailable or Out of Stock Product,Email,Closed with monetary relief,Yes,,CR2371479,US-2015-155438
+22 February 2019,Uninterested Service Rep,Email,Closed with monetary relief,Yes,,CR2331971,US-2015-152025
+26 September 2020,Lack of Follow Up,Email,In progress,Yes,,CR2331412,US-2015-160347
+18 November 2022,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,Yes,No,CR1924106,US-2015-151836
+10 July 2023,Uninterested Service Rep,Mobile App,Closed with explanation,Yes,No,CR1986130,US-2015-153077
+21 March 2022,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,Yes,Yes,CR1350500,US-2015-155257
+10 September 2020,Making Customers Repeat Their Problem,Email,Closed with explanation,Yes,No,CR1612774,US-2015-156865
+28 November 2020,Poor Product or Service,Email,Closed with monetary relief,Yes,No,CR2222679,US-2015-152355
+30 October 2019,No First Call Resolution,Branch,Closed with explanation,Yes,No,CR2083973,US-2015-158348
+14 January 2023,Lack of Follow Up,Email,Closed with explanation,Yes,Yes,CR1802785,US-2015-154643
+02 September 2023,Long wait on hold,Mobile App,Closed with explanation,Yes,,CR2375209,US-2015-151961
+26 August 2022,Making Customers Repeat Their Problem,Email,Closed with explanation,Yes,,CR2313440,US-2015-158586
+05 May 2019,No First Call Resolution,Email,Closed with explanation,Yes,No,CR1434177,US-2015-150682
+28 December 2022,Poor Product or Service,Mobile App,Closed with explanation,Yes,No,CR1529786,US-2015-155607
+21 November 2022,New Product or Feature Request,Branch,Closed with explanation,Yes,No,CR0212889,US-2015-152797
+31 July 2020,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,Yes,No,CR1468137,US-2015-156324
+12 June 2023,Uninterested Service Rep,Email,Closed with explanation,Yes,No,CR1722292,US-2015-151664
+21 May 2019,Lack of Follow Up,Mobile App,Closed with explanation,Yes,Yes,CR1676436,US-2015-154445
+03 July 2019,Poor Product or Service,Mobile App,Closed with monetary relief,Yes,Yes,CR0547152,US-2015-157420
+11 November 2021,Long wait on hold,Email,Closed with explanation,Yes,No,CR1898039,US-2015-154290
+20 September 2020,New Product or Feature Request,Branch,Closed with relief,Yes,No,CR0014704,US-2015-159582
+11 September 2019,Unavailable or Out of Stock Product,Email,Closed with explanation,Yes,Yes,CR1059300,US-2015-156380
+07 June 2023,New Product or Feature Request,Email,Closed with explanation,Yes,No,CR0842671,US-2015-160354
+01 November 2020,Uninterested Service Rep,Phone Support,Closed with explanation,Yes,No,CR0371074,US-2015-153282
+12 June 2020,Making Customers Repeat Their Problem,Email,Closed with explanation,Yes,No,CR2131993,US-2015-151491
+22 April 2023,Making Customers Repeat Their Problem,Phone Support,Closed with explanation,Yes,,CR2405000,US-2015-153780
+27 December 2022,Lack of Follow Up,Mobile App,Closed with explanation,Yes,,CR2333445,US-2015-154955
+08 July 2020,Unavailable or Out of Stock Product,Phone Support,Closed with explanation,Yes,,CR2335191,US-2015-159838
+16 October 2019,Making Customers Repeat Their Problem,Branch,Closed with explanation,Yes,Yes,CR2281296,US-2015-159286
+16 April 2019,Long wait on hold,Mobile App,Closed with explanation,Yes,,CR2336216,US-2015-150715
+06 April 2022,New Product or Feature Request,Email,Closed with explanation,Yes,No,CR1357213,US-2015-154705
+06 August 2023,No First Call Resolution,Branch,Closed with explanation,Yes,,CR2401648,US-2015-159333
+21 April 2019,Lack of Follow Up,Mobile App,Closed with explanation,Yes,No,CR1968804,US-2015-160025
+23 January 2023,No First Call Resolution,Branch,Closed with explanation,Yes,No,CR1788844,US-2015-160612
+26 September 2020,Making Customers Repeat Their Problem,Email,Closed with explanation,Yes,Yes,CR0189436,US-2015-157659
+26 November 2021,Long wait on hold,Email,Closed with explanation,Yes,No,CR1324289,US-2015-159403
+15 November 2019,Lack of Follow Up,Email,Closed with explanation,Yes,No,CR1875991,US-2015-156967
+18 March 2019,Lack of Follow Up,Mobile App,Closed with explanation,Yes,Yes,CR2293843,US-2015-156995
+04 August 2023,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,Yes,Yes,CR1706813,US-2015-153692
+26 April 2021,Poor Product or Service,Branch,Closed with monetary relief,Yes,No,CR2065657,US-2015-157014
+30 August 2021,Making Customers Repeat Their Problem,Email,Closed with explanation,Yes,No,CR0793529,US-2015-159167
+07 November 2022,New Product or Feature Request,Email,Closed with monetary relief,Yes,No,CR2123924,US-2015-154080
+29 June 2021,Lack of Follow Up,Phone Support,Closed,Yes,Yes,CR1621318,US-2015-152952
+28 June 2019,No First Call Resolution,Mobile App,Closed with explanation,Yes,No,CR1042825,US-2015-157698
+06 April 2022,Making Customers Repeat Their Problem,Phone Support,Closed with explanation,Yes,Yes,CR1590286,US-2015-155058
+24 February 2022,Uninterested Service Rep,Mobile App,Closed with explanation,Yes,No,CR0338719,US-2015-155162
+29 September 2021,Uninterested Service Rep,Mobile App,Closed with explanation,Yes,,CR2318000,US-2015-156202
+19 October 2021,New Product or Feature Request,Phone Support,Closed with explanation,Yes,No,CR1512902,US-2015-159982
+07 April 2022,Long wait on hold,Branch,Closed with explanation,Yes,Yes,CR1428359,US-2015-157940
+09 October 2022,Unavailable or Out of Stock Product,Phone Support,Closed with explanation,Yes,Yes,CR1884968,US-2015-153254
+04 September 2019,Long wait on hold,Branch,Closed with explanation,Yes,Yes,CR0499187,US-2015-159009
+19 July 2023,No First Call Resolution,Phone Support,Closed with monetary relief,Yes,No,CR2212620,US-2015-151239
+02 August 2019,Long wait on hold,Mobile App,Closed with explanation,Yes,No,CR2131061,US-2015-154665
+25 May 2019,Uninterested Service Rep,Mobile App,Closed with explanation,Yes,No,CR0367356,US-2015-153995
+08 August 2020,Poor Product or Service,Mobile App,Closed with explanation,Yes,No,CR1523348,US-2015-152617
+10 December 2020,Making Customers Repeat Their Problem,Phone Support,Closed with monetary relief,Yes,No,CR1645849,US-2015-158648
+07 April 2021,Making Customers Repeat Their Problem,Phone Support,Closed with non-monetary relief,Yes,No,CR1912930,US-2015-160216
+31 October 2022,No First Call Resolution,Mobile App,Closed with monetary relief,Yes,No,CR1891272,US-2015-154707
+28 July 2022,Long wait on hold,Branch,Closed with explanation,Yes,No,CR1343295,US-2015-160121
+12 June 2021,New Product or Feature Request,Email,Closed with explanation,Yes,No,CR1448631,US-2015-153087
+18 May 2023,Long wait on hold,Email,In progress,Yes,,CR2395319,US-2015-153738
+22 May 2023,New Product or Feature Request,Branch,Closed with explanation,Yes,No,CR0517670,US-2015-158185
+06 August 2023,New Product or Feature Request,Mobile App,Closed with explanation,Yes,No,CR2078889,US-2015-156232
+06 February 2019,No First Call Resolution,Branch,Closed with explanation,Yes,No,CR1412354,US-2015-155028
+03 May 2022,New Product or Feature Request,Phone Support,In progress,Yes,,CR2406895,US-2015-155188
+21 September 2021,Uninterested Service Rep,Email,Closed with non-monetary relief,Yes,No,CR0206371,US-2015-152213
+14 June 2020,No First Call Resolution,Mobile App,Closed with explanation,Yes,,CR2310424,US-2015-150948
+06 January 2022,Unavailable or Out of Stock Product,Branch,Closed with explanation,Yes,No,CR1979353,US-2015-151880
+09 May 2023,Lack of Follow Up,Branch,Closed with explanation,Yes,No,CR0824833,US-2015-155160
+10 August 2019,Lack of Follow Up,Email,Closed with explanation,Yes,No,CR1720348,US-2015-152112
+02 May 2021,New Product or Feature Request,Email,Closed with explanation,Yes,No,CR2220251,US-2015-155123
+28 March 2021,No First Call Resolution,Mobile App,Closed with explanation,Yes,No,CR1608784,US-2015-157126
+30 October 2020,Making Customers Repeat Their Problem,Mobile App,Closed with non-monetary relief,Yes,No,CR1797317,US-2015-153205
+10 December 2019,Poor Product or Service,Phone Support,Closed with explanation,Yes,Yes,CR1051007,US-2015-151545
