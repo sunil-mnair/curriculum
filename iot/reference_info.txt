@@ -1,0 +1,93 @@
+Quiz
+
+How can the relation between Digitalization and Internet of Things be described best?
+
+No Relation
+Digitization is the sub-topic
+IoT is the sub topic
+
+How can the vision of the internet of things be described best?   
+
+In a few years we can control many things remotely through apps.
+Connecting things to the internet enables new business models, as advertisements can then be shown on displays of connected devices, like fridges or in cars.
+The vision of the internet of things is that in future virtually every physical object can become a part of the internet.
+
+Which technical developments are main drivers for the internet of things?   
+
+Progress in mass storage technology allows storing ever larger amounts of data.
+Technical components like sensors, microprocessors or radio modules become smaller,
+cheaper and more energy efficient.
+As smartphones get more powerful, they can do more demanding computational tasks like video processing.
+
+Which statement about IoT market segments seems to be realistic?  
+
+loT affects many industries, but there are specific industries where loT will not be of major influence, like healthcare, education or water treatment.
+loT will definitely be a B2B topic, B2C applications will not be viable on the longer run.
+It is difficult to foresee today, but most probably loT will impact all industries and all sectors of social and private life.
+
+
+How does IoT increase customer value? Which explanation fits best?
+
+Smartphone apps are added to products like fridges for example. This enables remote control.
+The physical and the digital world merge. The result is more than the sum of its parts.
+Adding sensors to products increases sensor sales significantly.
+
+What is an IoT solution? Which explanation fits best?   
+
+An loT solution addresses a specific customer need and provides a solution that comprises
+the whole loT value stack.
+An loT solution is the answer to a specific problem in designing connected products, like choosing the appropriate connectivity technology for example.
+loT solutions are parts of the loT value stack designed to fit into as many loT products as possible. For example loT backends are needed for many different products.
+
+Which statement describes a Smart Product best?
+
+A product that acts autonomously based on advanced artificial intelligence.
+A product with a hybrid value proposition which is enabled by loT technology.
+A product that is connected to the internet in order to enable remote control through a smart phone app.
+
+
+What is meant by the term hybrid value proposition in terms of an IoT Solution?
+A value proposition which comprises both physical and digital elements.
+A value proposition of a smart product that addresses both the user's needs and the vendor's revenue expectation.
+A digital thing like a smartphone plus the corresponding app. The app enhances the smartphone with additional features.  
+
+
+Which descriptions fits best to the term behavioral economics? 
+Behavioral economics researches human behavior and its impact on people's decisions.
+Behavioral economics researches how to create irresistible products.
+Behavioral economics is about creating a new economic system that fits better to human behavior.
+
+
+Please name sectors in business where the Internet is of no relevance.
+Use Jango Board
+
+
+Behavioral Economics
+
+
+Warm Water
+
+Researchers from ETH Zurich founded the startup amphiro. It developed and produces a kind of smart meter for showers.
+
+The same device – meanwhile a Bluetooth connected version is available, too – was used to conduct a large experiment in which almost 700 households participated over a period of two months. And the effect was astonishing.
+
+The participants were divided into two groups – treatment and control group. The first few days were a baseline phase, which all participants only saw the water temperature; no consumption data. After that phase – at the grey line in the figure – only the participants in the treatment group got to see the consumption feedback as explained in the video. As can be seen from the figure, this lead to a significant decrease in water and energy consumption per shower. The decrease were some 23%, achieved with a simple and inexpensive device.
+
+Room Climate
+
+A second series of experiments, which I want to introduce to you, was conducted by researchers at the Bosch IoT Lab at the University of St. Gallen.
+
+It is well known that room climate influences our health as well as our performance. One of the relevant factors is the concentration of carbon dioxide (CO2) in the air.
+
+The idea at the lab was to build a feedback system that enables users of a room to act in case of too high CO2 levels. In the following video Paul Rigger explains the project in more detail:
+
+The first question of course was whether or not the feedback motivated the pupils to open windows more frequently and to reduce CO2 concentrations in their class-room. A second research question concerned the effect of different goals. The result here was in short that realistic goals were more motivating compared to too hard goals. And the third result which is depicted in the figure below relates to what we already learned about app versions with different affect.
+
+A hedonic version of the feedback system  with a smiling Queen lead to significantly better room climate than a very neutral, utilitarian display that presented just facts and figures.
+
+
+Watch the Video
+<iframe src="https://player.vimeo.com/video/62289901?h=3b3e091042&color=F9CA48&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/62289901">Foursquare check-ins show the pulse of New York City and Tokyo</a> from <a href="https://vimeo.com/foursquarehq">Foursquare</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+
