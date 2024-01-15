@@ -134,3 +134,7 @@ Current Availability
 24th to 26 Jan
 26th to 28th Feb
 29th Feb to 1st Mar 
+
+
+
+Planned: Includes all of the tasks in To Do (including the Assigned to me list) that have a due date, listed by date so you can plan your time. Assigned to me: Includes all of the tasks in Planner that have been assigned to you. This list will only show up if you've synced your Planner tasks to To Do.
