@@ -90,7 +90,47 @@ Watch the Video
 <iframe src="https://player.vimeo.com/video/62289901?h=3b3e091042&color=F9CA48&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/62289901">Foursquare check-ins show the pulse of New York City and Tokyo</a> from <a href="https://vimeo.com/foursquarehq">Foursquare</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
+Change Progress
+Add or Remove Members
+Change Priority, Due Date, Bucket and Label
+Move Task
+Copy Link to Task
+Filter by Active or Completed
+Filter by Date Categories
+Filter by Priority, Label, Bucket or Assignment
+
 
 
 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
 
+https://vinsys.pythonanywhere.com
+
+Username: iot
+Password: iot2024
+
+
+<iframe width="853" height="480" src="https://www.youtube.com/embed/Jy43CMmlq10" title="IoT: SGS Smart Warehouse – Protect Your Commodities" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+<iframe width="853" height="480" src="https://www.youtube.com/embed/Y-lM39rQiYc" title="RFID Smart Zone — Smarter Inventory Management" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+Current Availability
+
+*January*
+17th
+19th to 22nd
+24th to 31st
+
+*February*
+1st to 29th 
+
+*March*
+1st to 3rd
+7th to 31st
+
+*Soft Block*
+24th to 26 Jan
+26th to 28th Feb
+29th Feb to 1st Mar 
