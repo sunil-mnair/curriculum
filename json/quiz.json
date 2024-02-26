@@ -1,0 +1,2540 @@
+{
+    "Data Literacy":
+        [
+        {
+            "id": 1,
+            "question":"Which of these can be referred to as Data?",
+            "choices": [
+                "Twitter Feed",
+                "Media (Video, Pictures and Audio)",
+                "Customer Details and Transactions",
+                "Customer Feedback",
+                "All of the above"],
+                "answer": "All of the above",
+                "explaination":"Data can be structured or unstructured."
+        },
+        {
+            "id": 2,
+            "question":"Data in ____bytes size is called Big Data?",
+            "choices": [
+                "Tera",
+                "Giga",
+                "Peta",
+                "Meta"],
+            "answer": "Peta",
+            "explaination":"data in Peta bytes i.e. 10^15 byte size is called Big Data"
+        },
+        {
+            "id": 3,
+            "question":"Financial Transaction Data of the Bank is",
+            "choices": [
+                "Structured Data",
+                "Unstructured Data",
+                "Both Structured and Unstructured",
+                "None of the above",
+                "All of the above"],
+            "answer": "Structured Data",
+            "explaination":"Data which can be saved in tables are structured data like the transaction data of the bank"
+        },
+
+        {
+            "id": 4,
+            "question":"Which of the following are Benefits of Big Data Processing?",
+            "choices": [
+                "Businesses can utilize outside intelligence while taking decisions",
+                "Improved customer service",
+                "Better operational efficiency",
+                "All of the above"],
+            "answer": "All of the above",
+            "explaination":"All of the above are Benefits of Big Data Processing"
+        },
+
+        {
+            "id": 5,
+            "question":"What is a CSV file?",
+            "choices": [
+                "Current System Version",
+                "Comma Seperated Values",
+                "Character Size Values",
+                "None of the above"],
+            "answer": "Comma Seperated Values",
+            "explaination":"Comma Seperated Values allows data to be saved in a tabular format. It can be read by most programs and uses minimal storage space compared to excel files"
+        },
+        {
+            "id": 6,
+            "question":"What is Python?",
+            "choices": [
+                "Programming language",
+                "ERP Software",
+                "Name of a Company",
+                "None of the above"],
+                "answer": "Programming language",
+                "explaination":"A high-level general-purpose programming language used extensively in the Data Analytics space."
+        },
+        {
+            "id": 7,
+            "question":"Which tools are suited for Big Data?",
+            "choices": [
+                "Python & R",
+                "Excel & Access",
+                "SAS",
+                "All of the above"],
+                "answer": "Python & R",
+                "explaination":"The best all-around language for working with data is Python, while R is used extensively by data miners and data scientists to analyze data."
+        },
+
+        {
+            "id": 8,
+            "question":"What is the need to Process Data?",
+            "choices": [
+                "Improves Accuracy and Readability",
+                "Improves Search Efficiency",
+                "Prepares Data for Visualisation",
+                "Prepared Data for Machine Learning and AI",
+                "All of the above"],
+                "answer": "All of the above",
+                "explaination":"Data Processing has a multitude of benefits"
+        },
+        {
+            "id": 9,
+            "question":"What is Null Value Treatment?",
+            "choices": [
+                "Fill Blank Cells with appropriate values",
+                "Remove Rows and Columns with Blank Cells",
+                "Both of the above",
+                "None of the above"],
+                "answer": "Both of the above",
+                "explaination":"We can delete a particular column if it has more than 70-75% of missing values."
+        },
+        {
+            "id": 10,
+            "question":"What is Encoding in Data Processing?",
+            "choices": [
+                "Converting text to a specified format, commonly numeric or binary",
+                "Increasing the security of the data",
+                "Turning thoughts into communication",
+                "None of the above"],
+                "answer": "Converting text to a specified format, commonly numeric or binary",
+                "explaination":"Encoding is the process of converting the data or a given sequence of characters, symbols, alphabets etc., into a specified format, for the secured transmission of data."
+        },
+
+        {
+            "id": 11,
+            "question":"What is Data Visualisation?",
+            "choices": [
+                "Representing information in the form of charts or pictures",
+                "Refers to visually seeing the data in tabular format",
+                "None of the above"],
+                "answer": "Representing information in the form of charts or pictures",
+                "explaination":"Data visualization is the graphical representation of information and data. By using visual elements like charts, graphs, and maps, data visualization tools provide an accessible way to see and understand trends, outliers, and patterns in data."
+        },
+        {
+            "id": 12,
+            "question":"Why should we process the Data before visualizing?",
+            "choices": [
+                "To improve accuracy",
+                "To enable easily readibility of charts",
+                "Prevent skewed representation of information",
+                "All of the above"],
+                "answer": "All of the above",
+                "explaination":"Data visualization is the graphical representation of information and data. By using visual elements like charts, graphs, and maps, data visualization tools provide an accessible way to see and understand trends, outliers, and patterns in data."
+        },
+        {
+            "id": 13,
+            "question":"Which of these tools are most popular for Data Modelling in Banking?",
+            "choices": [
+                "Python",
+                "R",
+                "SAS",
+                "All of the above"],
+                "answer": "All of the above",
+                "explaination":"Python, R and SAS are the most popular tools used for Data Modelling in Banking"
+        },
+
+        {
+            "id": 14,
+            "question":"What is Machine Learning?",
+            "choices": [
+                "Robotics is another term for Machine Learning",
+                "Ability of computer systems to predict by learning and adapting by using statistical models on past data",
+                "None of the above"],
+                "answer": "Ability of computer systems to predict by learning and adapting by using statistical models on past data",
+                "explaination":"Machine learning is a branch of artificial intelligence (AI) focused on building applications that learn from data and improve their accuracy over time without being programmed to do so"
+        }
+    ],
+    "SQL Primer for Data Analysis":
+        [
+
+            {
+                "id": 1,
+                "question":"What is SQL?;",
+                "choices": [
+                    "A Database",
+                    "A Data Management Tool",
+                    "A Query Language"],
+                    "answer": "A Query Language",
+                    "explaination":"Structured Query Language or SQL is language that can be used to query compatible databases"
+            },
+            {
+            "id": 2,
+            "question":"_____ * from customers;",
+            "choices": [
+                "SELECT",
+                "UPDATE",
+                "READ",
+                "VIEW"],
+                "answer": "SELECT",
+                "explaination":"SELECT * from customers will fetch all rows from the customers table"
+        },
+        {
+            "id": 3,
+            "question":"SELECT * from customers; What is customers in this query?",
+            "choices": [
+                "Database",
+                "Row",
+                "Table",
+                "Column"],
+            "answer": "Table",
+            "explaination":"We use the SELECT statement to fetch rows from a Table in a database"
+        },
+        {
+            "id": 4,
+            "question":"SELECT client_id, CONCAT(first,' ',last) AS fullname from customers;",
+            "choices": [
+                "Returns an error",
+                "Returns the client_id and fullname from customers table",
+                "Returns the client_id and first name from customers table"],
+            "answer": "Returns the client_id and fullname from customers table",
+            "explaination":"SELECT statement can be used to return specific columns from a table. The columns can also be displayed with an ALIAS, using the 'AS' keyword"
+        },
+
+        {
+            "id": 5,
+            "question":"SELECT max(age) AS max_age, gender from customer GROUP BY gender;",
+            "choices": [
+                "Returns an error",
+                "Returns a single row containing the maximum age of customers",
+                "Returns the maximum age of customers grouped by gender"
+            ],
+            "answer": "Returns the maximum age of customers grouped by gender",
+            "explaination":"Aggregate functions are best when used with the GROUP By clause"
+        },
+
+        {
+            "id": 6,
+            "question":"Mark the correct JOIN statement",
+            "choices": [
+                "SELECT JOIN customer.first, district.state_name from customer WHERE district on customer.district_id = district.district_id;",
+                "SELECT customer.first, district.state_name from customer JOIN district on customer.district_id = district.district_id;",
+                "SELECT customer.first, district.state_name from customer WHERE district JOIN ON customer.district_id = district.district_id;"
+            ],
+            "answer": "SELECT customer.first, district.state_name from customer JOIN district on customer.district_id = district.district_id;",
+            "explaination":"SELECT <tablename.column> from <table1> JOIN <table2> ON <condition1>"
+        },
+        {
+            "id": 7,
+            "question":"SELECT from complaints;",
+            "choices": [
+                "Returns an error",
+                "Returns all rows from table complaints",
+                "None of the above"],
+                "answer": "Returns an error",
+                "explaination":"Either the columns names or the asterik symbol must be used when using the SELECT statement."
+        },
+        {
+            "id": 8,
+            "question":"Which command will return a unique list of cities?",
+            "choices": [
+                "select DISTINCT city from customer;",
+                "select city from customer;",
+                "select COUNT(city) from customer;"
+                ],
+                "answer": "select DISTINCT city from customer;",
+                "explaination":"The DISTINCT clause will return a unique list of values for the specified columns"
+        },
+
+        {
+            "id": 9,
+            "question":"select * from customer,district;",
+            "choices": [
+                "Returns an error",
+                "Returns rows from both tables without any relationship. Incorrect approach",
+                "Returns no rows"],
+                "answer": "Returns rows from both tables without any relationship. Incorrect approach",
+                "explaination":"The JOIN clause has to be used when fetching rows from multiple tables"
+        },
+        {
+            "id": 10,
+            "question":"Return all customers greater than the average customer age",
+            "choices": [
+                "SELECT * from customer where age > (select avg(age) from customer);",
+                "SELECT * from customer where age > avg(age);",
+                "SELECT avg(age) from customer;"],
+                "answer": "SELECT * from customer where age > (select avg(age) from customer);",
+                "explaination":"An aggregate cannot appear in the WHERE clause unless it is enclosed in a subquery"
+        }
+    ],
+    "Analytics using R":
+        [
+
+            {
+    "id": 1,
+    "question": "How do you create a variable named x with the numeric value 5?",
+    "choices": [
+      "int x = 5",
+      "x <- 5"
+    ],
+    "answer": "x <- 5",
+    "explaination": ""
+  },
+  {
+    "id": 2,
+    "question": "The value of a string variable can be surrounded by single quotes.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explaination": ""
+  },
+  {
+    "id": 3,
+    "question": "Which operator can be used to compare two values?",
+    "choices": [
+      "=",
+      "==",
+      "<>",
+      "><"
+    ],
+    "answer": "==",
+    "explaination": ""
+  },
+  {
+    "id": 4,
+    "question": "Consider the following code: for (x 1:10). Which keyword is missing inside the for loop to output the numbers 1 to 10?",
+    "choices": [
+      "inside",
+      "list",
+      "in",
+      "seq"
+    ],
+    "answer": "in",
+    "explaination": ""
+  },
+  {
+    "id": 5,
+    "question": "What is the correct way to create a vector of strings?",
+    "choices": [
+      "salesman <- c('Sarah','Hisham','Tim')",
+      "salesman <- v('Sarah','Hisham','Tim')",
+      "salesman <- listof('Sarah','Hisham','Tim')",
+      "salesman <- list('Sarah','Hisham','Tim')"
+    ],
+    "answer": "salesman <- v('Sarah','Hisham','Tim')",
+    "explaination": ""
+  },
+  {
+    "id": 6,
+    "question": "What is the correct way to create a list of strings?",
+    "choices": [
+      "salesman <- list('Sarah','Hisham','Tim')",
+      "salesman <- v('Sarah','Hisham','Tim')",
+      "salesman <- c('Sarah','Hisham','Tim')",
+      "salesman <- vectorof('Sarah','Hisham','Tim')"
+    ],
+    "answer": "salesman <- list('Sarah','Hisham','Tim')",
+    "explaination": ""
+  },
+  {
+    "id": 7,
+    "question": "Which function can be used to create a data frame?",
+    "choices": [
+      "dframe()",
+      "df()",
+      "data.frame",
+      "dataframe"
+    ],
+    "answer": "data.frame",
+    "explaination": ""
+  },
+  {
+    "id": 8,
+    "question": "How do you start writing an if statement in R?",
+    "choices": [
+      "if(x>y)",
+      "if x>y:",
+      "if x>y then:"
+    ],
+    "answer": "if(x>y)",
+    "explaination": ""
+  },
+  {
+    "id": 9,
+    "question": "Which is the correct code for installing multiple packages",
+    "choices": [
+      "install('tidyverse','ROCR','rpart')",
+      "install.packages('tidyverse','ROCR','rpart')",
+      "install.package('tidyverse','ROCR','rpart')"
+    ],
+    "answer": "install.packages('tidyverse','ROCR','rpart')",
+    "explaination": ""
+  },
+  {
+    "id": 10,
+    "question": "Which function is used to read a csv file?",
+    "choices": [
+      "read_delim()",
+      "read_csv()",
+      "read_tsv()"
+    ],
+    "answer": "read_csv()",
+    "explaination": ""
+  }
+
+    ],
+    "Future Proof Banker - Banking Disruption":
+        [
+
+            {
+                "id": 1,
+                "question":"Which is a more accurate description of a Disruptive Business?",
+                "choices": [
+                    "Competitive Business",
+                    "Implementing an Innovation in business",
+                    "Innovation that forces the way companies in the industry operate",
+                    "Rapid change in the way how companies do business"],
+                    "answer": "Innovation that forces the way companies in the industry operate",
+                    "explaination":""
+            },
+            {
+            "id": 2,
+            "question":"Identify the TOP way in which most incumbent financial institutions are currently responding to FinTech innovation?",
+            "choices": [
+                "No Response",
+                "Actively partnered with FinTech startups",
+                "Acquired FinTech startups",
+                "Created internal Labs, Accelerators and mechanisms to jumpstart innovation within their firm"],
+                "answer": "Actively partnered with FinTech startups",
+                "explaination":""
+        },
+        {
+            "id": 3,
+            "question":"Which sector has the most FinTech unicorns worldwide?",
+            "choices": [
+                "Insurance",
+                "Lending",
+                "Payments",
+                "Retail Banking"],
+            "answer": "Payments",
+            "explaination":""
+        },
+        {
+            "id": 4,
+            "question":"Why has fintech grown so fast in china?",
+            "choices": [
+                "Favourable environment fostered by wide use of mobile devices and the internet",
+                "Strong digital payment ecosystem",
+                "Government's promotion of technological and financial innovation",
+                "All of the above"
+			],
+            "answer": "All of the above",
+            "explaination":""
+        },
+
+        {
+            "id": 5,
+            "question":"What is the 1 key challenge faced by FinTech or BigTech Companies",
+            "choices": [
+                "Lack of expertise in Risk Management",
+                "Customer Retention",
+                "Data Security Issue",
+                "Insufficient Customer Data"
+            ],
+            "answer": "Lack of expertise in Risk Management",
+            "explaination":""
+        },
+
+        {
+            "id": 6,
+            "question":"What is the main takeway of Cloud Computing in Banking?",
+            "choices": [
+                "Improved Risk Management",
+                "Better Customer Support",
+                "Launch of Digital Banks",
+			    "Integration with FinTech"
+            ],
+            "answer": "Launch of Digital Banks",
+            "explaination":""
+        }
+
+    ],
+    "Future Proof Banker - Emerging Technologies":
+        [
+
+            {
+                "id": 1,
+                "question":"__________________ algorithms enable the computers to learn from data, and even improve themselves, without being explicitly programmed",
+                "choices": [
+                    "Machine Learning",
+                    "Artificial Intelligence",
+                    "Traditional Learning",
+                    "Deep Learning"],
+                    "answer": "Machine Learning",
+                    "explaination":""
+            },
+            {
+            "id": 2,
+            "question":"Which of these applications uses Machine Learning?",
+            "choices": [
+                "Image Recognition",
+                "Face Recognition",
+                "Chat Bots",
+                "All of the above"],
+                "answer": "All of the above",
+                "explaination":""
+        },
+        {
+            "id": 3,
+            "question":"Each block of a Blockchain consists of which of the following?",
+            "choices": [
+                "A hash pointer to the previous block",
+                "List of transactions",
+                "Timestamp",
+                "All of the above"],
+            "answer": "All of the above",
+            "explaination":""
+        },
+        {
+            "id": 4,
+            "question":"Once data entered into the blockchain can be",
+            "choices": [
+                "Unchanged",
+                "Modified",
+                "Updated",
+                "Tampered"
+			],
+            "answer": "Unchanged",
+            "explaination":""
+        },
+
+        {
+            "id": 5,
+            "question":"Match the definition to the correct word: A digital currency that is secured by cryptography",
+            "choices": [
+                "Cryptocurrency",
+                "Ledger",
+                "Hash",
+                "Blockchain"
+            ],
+            "answer": "Cryptocurrency",
+            "explaination":""
+        },
+
+        {
+            "id": 6,
+            "question":"Which the is world's first cryptocurrency?",
+            "choices": [
+                "Bitcoin",
+                "Etherium",
+                "Dogecoin",
+			    "Litecoin"
+            ],
+            "answer": "Bitcoin",
+            "explaination":""
+        },
+
+        {
+            "id": 7,
+            "question":"Cryptocurrency is managed by a bank?",
+            "choices": [
+                "True",
+                "False"
+            ],
+            "answer": "False",
+            "explaination":""
+        },
+        {
+            "id": 8,
+            "question":"True or False: Cryptocurrency can be refunded with the help of a bank?",
+            "choices": [
+                "True",
+                "False"
+            ],
+            "answer": "False",
+            "explaination":""
+        },
+        {
+            "id": 9,
+            "question":"Which one of the banks is named World Best Digital Bank by leading financial publications?",
+            "choices": [
+                "Citibank",
+                "DBS",
+                "HSBC",
+                "Industrial & Commercial Bank of China"
+            ],
+            "answer": "DBS",
+            "explaination":""
+        }
+
+    ]
+    ,
+    "Python Foundation - Fast Track":
+        [
+        {
+            "id": 1,
+            "question":"What is Python?",
+            "choices": [
+                "Programming language",
+                "ERP Software",
+                "Name of a Company",
+                "None of the above"],
+                "answer": "Programming language",
+                "explaination":"Python is a versatile, high-level programming language, widely employed in the realm of Data Science."
+            },
+            {
+                "id": 2,
+                "question":"Proper Method for Initializing a Variable in Python",
+                "choices": [
+                    "x = 1",
+                    "x == 1",
+                    "x != 1",
+                    "var x = 1"],
+                    "answer": "x = 1",
+                    "explaination":"To initialise a variable in python, a single equal to (=) sign is used."
+            },
+            {
+            "id": 3,
+            "question":"if x = '33.45', what type of variable is x?",
+            "choices": [
+                "int()",
+                "float()",
+                "str()",
+                "None of the above"],
+                "answer": "str()",
+                "explaination":"Any value enclosed in single or double quotation marks constitutes a string."
+        },
+        {
+            "id": 4,
+            "question":"Which of these is the correct syntax to ask a user to input data?",
+            "choices": [
+                "n1 = input()",
+                "input = ()",
+                "n1 == input()",
+                "n1 = input"],
+            "answer": "n1 = input()",
+            "explaination":"The input() function is used to prompt the user for information"
+        },
+        {
+            "id": 5,
+            "question":"if city='Abu Dhabi' and country='UAE', which of the below will work",
+            "choices": [
+                "print(city,'is the capital of',country)",
+                "print(f'{city} is the capital of {country}')",
+                "Either of the above",
+                "Neither"
+			],
+            "answer": "Either of the above",
+            "explaination":"F-string formatting can be used when you require to display variables with blocks of text."
+        }
+    ]
+    ,
+    "Python Foundation - Fast Track1":
+        [
+        {
+            "id": 5,
+            "question":"if fullname = 'David Letterman', how can it be split into firstname and lastname?",
+            "choices": [
+                "first,last = fullname.split",
+                "first,last = fullname.split()",
+                "first,last = fullname.split('-')",
+                "first,last == fullname.split()"
+            ],
+            "answer": "first,last = fullname.split()",
+            "explaination":"The split() function will split a string when to a list. You can specify the separator, default separator is any whitespace."
+        },
+
+        {
+            "id": 6,
+            "question":"Which keyword is used to define a custom function in Python?",
+            "choices": [
+                "create",
+                "define",
+                "def",
+                "input"],
+            "answer": "def",
+            "explaination":"Python def keyword is used to define a function, it is placed before a function name that is provided by the user to create a user-defined function."
+        },
+
+        {
+            "id": 7,
+            "question":"If the value of x = '3'. Which function can be used to convert it to a number?",
+            "choices": [
+                "int()",
+                "float()",
+                "Either of the above",
+                "Neither"
+            ],
+            "answer": "Either of the above",
+            "explaination":"A number in python can be either an integer or float"
+        },
+        {
+            "id": 8,
+            "question":"Which command will create a list of 3 names?",
+            "choices": [
+                "names = ['Tim,Gary,Mary']",
+                "names = ['Tim','Gary','Mary']",
+                "names = {'Tim,Gary,Mary'}"],
+                "answer": "names = ['Tim','Gary','Mary']",
+                "explaination":"Each string item in a list is enclosed in single or double quotation marks"
+        },
+        {
+            "id": 9,
+            "question":"if city = 'Dubai', what would print(city[0:2]) display?",
+            "choices": [
+                "Du",
+                "Dub",
+                "DU",
+                "DUB"
+            ],
+            "answer": "Du",
+            "explaination":"While providing a value for start and stop in an index. The value for the stop index is not included."
+        }
+        ,
+        {
+            "id": 10,
+            "question":"What is the correct way to check if integer x has a value greater than zero?",
+            "choices": [
+                "if X > 0:",
+                "if x >= 0:",
+                "if x greater than 0:",
+                "if x > 0:"
+            ],
+            "answer": "if x > 0:",
+            "explaination":"Python is case sensitive. To check if a value is greater, we use just the greater than (>) symbol."
+        }
+
+    ]
+    ,
+    "Google Analytics":
+        [
+
+            {
+                "id": 1,
+                "question":"Which kinds of hits does Google Analytics track?",
+                "choices": [
+                    "Pageview",
+                    "Transaction",
+                    "Event",
+                    "All of the above"],
+                    "answer": "All of the above",
+                    "explaination":"GA can track pageviews, transactions and events"
+            },
+            {
+            "id": 2,
+            "question":"What report indicates the pages of a website where users first arrived?",
+            "choices": [
+                "Landing Pages report",
+                "Location report",
+                "Pages report",
+                "All Pages report"],
+                "answer": "Landing Pages report",
+                "explaination":"Landing pages are crucial for introducing people to the top of the sales funnel, or, the awareness stage"
+        },
+        {
+            "id": 3,
+            "question":"What asset is used to build a remarketing list?",
+            "choices": [
+                "Custom Dimension",
+                "Custom Segment",
+                "Custom Report",
+                "Custom Metric"],
+            "answer": "Custom Segment",
+            "explaination":"An example of a segment can be users from Dubai in the age group of 25-55"
+        },
+        {
+            "id": 4,
+            "question":"What data table display compares report metrics to the website average?",
+            "choices": [
+                "Pivot",
+                "Performance",
+                "Percentage",
+                "Comparison"
+			],
+            "answer": "Comparison",
+            "explaination":"In the Table view, check for the Comparison icon on the top right corner"
+        },
+
+        {
+            "id": 5,
+            "question":"Which parameters can be included with an event hit for reporting?",
+            "choices": [
+                "Event, Category, Action, Label",
+                "Category, Action, Label, Unique Events",
+                "Category, Action, Label, Value",
+                "Category, Action, Label, Total Events"
+            ],
+            "answer": "Event, Category, Action, Label",
+            "explaination":"If you wish to track click events on your facebook page icons, the Event can be onclick, Category as social, Action as click_facebook and Label as Clicked Facebook Icon"
+        },
+
+        {
+            "id": 6,
+            "question":"What Remarketing audiences cannot be defined by default?",
+            "choices": [
+                "Users who speak a particular language",
+                "Users who visited a physical store",
+                "Users who played a video on a website",
+                "Users who visited a specific page on a website"],
+            "answer": "Users who visited a physical store",
+            "explaination":"External actions outside the webpage cannot be tracked automatically"
+        },
+
+        {
+            "id": 7,
+            "question":"What data is Google Analytics Goals unable to track?",
+            "choices": [
+                "Customer lifetime value",
+                "Signing up for a newsletter",
+                "Making a purchase",
+                "Watching a video"
+            ],
+            "answer": "Customer lifetime value",
+            "explaination":"Goal is identified by how it ties to your business goal"
+        },
+        {
+            "id": 8,
+            "question":"What is used to create Smart Goals or Insights?",
+            "choices": [
+                "Machine-learning algorithms",
+                "Custom Reports",
+                "Remarketing audience",
+                "Analytics Goals"],
+                "answer": "Machine-learning algorithms",
+                "explaination":"ML algorithms use past data to develop insights"
+        },
+        {
+            "id": 9,
+            "question":"Which three campaign parameters are recommended to manually track campaigns?",
+            "choices": [
+                "Medium, Source, and Content",
+                "Campaign, Content, and Term",
+                "Medium, Source, and Campaign",
+                "Source, Content, and Term"
+            ],
+            "answer": "Medium, Source, and Campaign",
+            "explaination":"Medium, Source, and Campaigns in GA represent the user acqusition"
+        }
+        ,
+        {
+            "id": 10,
+            "question":"What feature would be used to collect how many times users downloaded a product catalog?",
+            "choices": [
+                "Custom Report",
+                "Event Tracking",
+                "Calculated Metrics",
+                "Custom Dimension"
+            ],
+            "answer": "Event Tracking",
+            "explaination":"Event can track user interaction on a website"
+        }
+
+    ]
+    ,
+    "Database Fundamentals and Design":
+        [
+
+            {
+            "id": 1,
+            "question":"SQL stands for",
+            "choices": [
+                "Sequential Query Language",
+                "Standard Quadruple Language",
+                "Structured Query Language"],
+                "answer": "Structured Query Language",
+                "explaination":""
+        },
+        {
+            "id": 2,
+            "question":"Which of the following is not a Relational Database?",
+            "choices": [
+                "DB2",
+                "MS Access",
+                "Oracle DB",
+                "Mongo DB"],
+            "answer": "Mongo DB",
+            "explaination":""
+        },
+        {
+            "id": 3,
+            "question":"What is the difference between SQL and MySQL?",
+            "choices": [
+                "SQL is a standard language for retrieving and manipulating structured datbases, while MySQL is a relational database management system",
+                "SQL is a database used for manipulating data, while MySQL is an operating system file system",
+                "None of the above"
+			],
+            "answer": "SQL is a standard language for retrieving and manipulating structured datbases, while MySQL is a relational database management system",
+            "explaination":""
+        },
+
+        {
+            "id": 4,
+            "question":"When creating a primary-key column, you should use fields containing what type of values?",
+            "choices": [
+                "Values that are likely to change",
+                "Unique values for every record",
+                "Values that can be null",
+                "Values that need not necessarily contain meaningful information"
+            ],
+            "answer": "Unique values for every record",
+            "explaination":""
+        },
+
+        {
+            "id": 5,
+            "question":"From which class(es) of data are primary keys most often made?",
+            "choices": [
+                "Character",
+                "Number",
+                "Symbol",
+                "Time"],
+            "answer": "Number",
+            "explaination":""
+        },
+
+        {
+            "id": 6,
+            "question":"What is a foreign key?",
+            "choices": [
+                "A unique identifier in a database",
+                "A primary key of one table that appears in another table",
+                "A field that should not be in a table and needs removing"],
+            "answer": "A primary key of one table that appears in another table",
+            "explaination":""
+        },
+
+        {
+            "id": 7,
+            "question":"A relation is in 1NF if it doesn't contain any ____________?",
+            "choices": [
+                "Related columns",
+                "Repeating groups",
+                "Null values in primary key fields",
+                "Functional dependencies"
+            ],
+            "answer": "Repeating groups",
+            "explaination":""
+        },
+        {
+            "id": 8,
+            "question":"Which of the following statements fully describes data in 2NF?",
+            "choices": [
+                "When any repeating fields have been removed and the table is given a primary key",
+                "When all the fields in each table are directly related to the primary key",
+                "When all repeating entries of data are removed and the fields in each table are directly related to the primary key and no fields are present that are not related to each other"],
+                "answer": "When all repeating entries of data are removed and the fields in each table are directly related to the primary key and no fields are present that are not related to each other",
+                "explaination":""
+        },
+        {
+            "id": 9,
+            "question":"When you normalize a relation by breaking it into two smaller relations, what must you do to maintain data integrity?",
+            "choices": [
+                "Remove any functional dependencies from both relations",
+                "Assign both relations the same primary key field(s)",
+                "Create a primary key(s) for the new relation"
+            ],
+            "answer": "Create a primary key(s) for the new relation",
+            "explaination":""
+        }
+        ,
+        {
+            "id": 10,
+            "question":"A table in ____ contains no transitive dependencies.",
+            "choices": [
+                "INF",
+                "2NF",
+                "3NF",
+                "None of the above"
+            ],
+            "answer": "3NF",
+            "explaination":""
+        }
+
+    ]
+    ,
+    "SQL Programming and Indexing":
+        [
+
+            {
+            "id": 1,
+            "question":"Which keyword is used to create a variable in a stored procedure?",
+            "choices": [
+                "UPDATE",
+                "INSERT",
+                "DECLARE",
+                "SELECT"],
+                "answer": "DECLARE",
+                "explaination":""
+        },
+        {
+            "id": 2,
+            "question":"What makes stored procedures faster than sending a Transact-SQL statement to SQL Server?",
+            "choices": [
+                "They are not faster",
+                "The query plan is compiled and cached on the server.",
+                "The Transact-SQL statements are shorter.",
+                "There are less commands available, so parsing time is shorter."],
+            "answer": "The query plan is compiled and cached on the server.",
+            "explaination":""
+        },
+        {
+            "id": 3,
+            "question":"Triggers are supported on",
+            "choices": [
+                "procedure",
+                "function",
+                "cursor",
+                "views"
+			],
+            "answer": "views",
+            "explaination":"Triggers can be set on views as well. It can used to prevent unauthorized changes on the view"
+        },
+
+        {
+            "id": 4,
+            "question":"Can this query be further optimized, assuming there are no existing indexes? - SELECT * FROM deliveries WHERE YEAR(delivery_time) = 2020;",
+            "choices": [
+                "Yes, an index on delivery_time will speed up the query",
+                "Yes, a query re-write and indexing delivery_time will speed up the query.",
+                "No, the query is already optimized for best performance."
+            ],
+            "answer": "Yes, a query re-write and indexing delivery_time will speed up the query.",
+            "explaination":"The database can't use an index when the column is wrapped with a function, in this case with the YEAR function. Therefore, in addition to creating an index on delivery_time, we need to re-write the query to avoid using a function"
+        },
+
+        {
+            "id": 5,
+            "question":"Which index will be optimal for this query's performance? - SELECT * FROM companies WHERE company_name = 'EverSQL' AND num_employees > 50;",
+            "choices": [
+                "Create two new indexes: one with the column num_employees and the second with company_name",
+                "One composite index that contains 2 columns in this order: num_employees, company_name",
+                "One composite index that contains 2 columns in this order: company_name, num_employees",
+                "Indexes won't be useful to optimize this query."],
+            "answer": "One composite index that contains 2 columns in this order: company_name, num_employees",
+            "explaination":"In most cases (excluding index merges), the database will use just one index for each table in the query. Therefore, the most optimal index for this query is a composite index that contains both columns."
+        },
+
+        {
+            "id": 6,
+            "question":"What are the ways by which the database engine can retrieve information from a table??",
+            "choices": [
+                "Table Scan",
+                "Index Scan",
+                "Index Seek","All of the above"],
+            "answer": "All of the above",
+            "explaination":""
+        },
+
+        {
+            "id": 7,
+            "question":"What happens when a column is defined as a Primary Key?",
+            "choices": [
+                "Non-Clustered Index is created",
+                "Clustered Index is created",
+                "No indexes exist, they have to be created manually",
+                "Index cannot be created"
+            ],
+            "answer": "Clustered Index is created",
+            "explaination":"A table can have only 1 clustered index"
+        },
+        {
+            "id": 8,
+            "question":"When does SQL Server use Indexes?",
+            "choices": [
+                "Statements with WHERE clause",
+                "Statements with JOIN clause",
+                "Statements with ORDER BY clause",
+                "Statements with GROUP BY clause",
+                "All of the above"
+            ],
+                "answer": "All of the above",
+                "explaination":""
+        },
+        {
+            "id": 9,
+            "question":"What is a key disadvantage of using Indexes?",
+            "choices": [
+                "Could run out of disk space",
+                "Insert, Update and Delete statements could be slow",
+                "There are no disadvantages"
+            ],
+            "answer": "Insert, Update and Delete statements could be slow",
+            "explaination":"Any time a query modifies the data in a table (INSERT, UPDATE, or DELETE), the database needs to update all of the indexes where data has changed"
+        }
+        ,
+        {
+            "id": 10,
+            "question":"Which index is faster?",
+            "choices": [
+                "Clustered",
+                "Non-clustered",
+                "Both have the same performance"
+            ],
+            "answer": "Clustered",
+            "explaination":"Clustered Index is slightly faster than the Non-Clustered Index. This is because when a Non Clustered Index is used there is an extra look up from the Non-Clustered Index to the table, to fetch the actual rows."
+        }
+
+    ]
+    ,
+    "Backup and Restore":
+        [
+            {
+            "id": 1,
+            "question":"Which backup type will only capture all database modifications since the last full backup?",
+            "choices": [
+                "Full",
+                "Differential",
+                "Transactional Log Backup",
+                "All of the above"],
+                "answer": "Transactional Log Backup",
+                "explaination":""
+        },
+        {
+            "id": 2,
+            "question":"You cannot take full and differential backups of files and filegroups. True or false?",
+            "choices": [
+                "True",
+                "False"],
+            "answer": "False",
+            "explaination":""
+        },
+        {
+            "id": 3,
+            "question":"Taking a transaction log backup will truncate the transaction log. True or false?",
+            "choices": [
+                "True",
+                "False"
+			],
+            "answer": "True",
+            "explaination":""
+        },
+
+        {
+            "id": 4,
+            "question":"Which option is used to prevent users from accessing the database during recovery?",
+            "choices": [
+                "NORESTORE",
+                "DBOFFLINE",
+                "STANDBY",
+                "NORECOVERY"
+            ],
+            "answer": "NORECOVERY.",
+            "explaination":""
+        },
+
+        {
+            "id": 5,
+            "question":"Which SQL Server component is responsible for scheduling and running jobs?",
+            "choices": [
+                "SQL Server Management Tools",
+                "SQL Server Integration Services",
+                "SQL Server Database Engine",
+                "SQL Server Agent"],
+            "answer": "SQL Server Agent",
+            "explaination":""
+        },
+
+        {
+            "id": 6,
+            "question":"Which restore option should be used to restore a database to a specific point in time?",
+            "choices": [
+                "SNAPSHOT",
+                "STOPAT",
+                "STARTAT",
+            "RESTORETO"],
+            "answer": "STOPAT",
+            "explaination":""
+        },
+
+        {
+            "id": 7,
+            "question":"Which restore statement can be used to test the validity of a backup set?",
+            "choices": [
+                "HEADERONLY",
+                "VALIDATEONLY",
+                "VERIFYONLY",
+                "CHECKSUM"
+            ],
+            "answer": "VERIFYONLY",
+            "explaination":""
+        },
+        {
+            "id": 8,
+            "question":"WHAT DOES DBCC Stand for?",
+            "choices": [
+                "Database Corruption Commands",
+                "Database Corruption Checker",
+                "Database Consistency Checker",
+                "Database Corruption Consistency"
+            ],
+                "answer": "Database Consistency Checker",
+                "explaination":""
+        },
+        {
+            "id": 9,
+            "question":"DBCC _____ is the primary command used to identify database corruption.",
+            "choices": [
+                "CHECKALLOC",
+                "CHECKTABLE",
+                "CHECKDB"
+            ],
+            "answer": "CHECKDB",
+            "explaination":"DBCC checks verifies both the logical and physical integrity of the database"
+        }
+        ,
+        {
+            "id": 10,
+            "question":"Which DBCC CHECKDB option should be used to recover from corruption as a last resort?",
+            "choices": [
+                "REPAIR_ALLOW_DATA_LOSS",
+                "REPAIR_DO_NOT_ALLOW_DATA_LOSS",
+                "EMERGENCY_REPAIR",
+                "REPAIR_REBUILD"
+            ],
+            "answer": "REPAIR_ALLOW_DATA_LOSS",
+            "explaination":""
+        }
+
+    ]
+    ,
+    "SQL Server User Management":
+        [
+            {
+            "id": 1,
+            "question":"Which of these SQL Server objects, allow you to group principles together to simplify permission assignment against securables?",
+            "choices": [
+                "Server Login and Database User",
+                "Server Role and Database Role",
+                "Schema"],
+                "answer": "Server Role and Database Role",
+                "explaination":""
+        },
+        {
+            "id": 2,
+            "question":"Database users must always be mapped to a server login. True of false?",
+            "choices": [
+                "True",
+                "False"],
+            "answer": "False",
+            "explaination":""
+        },
+        {
+            "id": 3,
+            "question":"Database users must always be mapped to a server login. True of false",
+            "choices": [
+                "True",
+                "False"
+			],
+            "answer": "False",
+            "explaination":""
+        },
+
+        {
+            "id": 4,
+            "question":"Which of these role types allow you to assign permissions to them?",
+            "choices": [
+                "Custom Database Role",
+                "Custom Server Role",
+                "Both of the above",
+                "None of the above"
+            ],
+            "answer": "Both of the above",
+            "explaination":""
+        },
+
+        {
+            "id": 5,
+            "question":"Which authorization will remove a previously granted permission from a principal?",
+            "choices": [
+                "GRANT",
+                "DENY",
+                "WITH GRANT",
+                "REVOKE"],
+            "answer": "REVOKE",
+            "explaination":""
+        },
+
+        {
+            "id": 6,
+            "question":"Which of these SQL statements will give SELECT access to any object in the Sales schema to a database role named SalesUsers?",
+            "choices": [
+                "GRANT SELECT ON Sales.Customers TO SalesUsers",
+                "GRANT SELECT ON SCHEMA::Sales TO SalesUsers",
+                "GRANT SELECT ON SCHEMA::Sales TO SalesRole",
+                "REVOKE SELECT ON SCHEMA::Sales TO SalesUsers"],
+            "answer": "GRANT SELECT ON SCHEMA::Sales TO SalesUsers",
+            "explaination":""
+        },
+
+        {
+            "id": 7,
+            "question":"Which SQL Server object binds a predicate to a table for use by row-level security?",
+            "choices": [
+                "Inline Table-valued Function",
+                "Stored Procedure",
+                "Security Policy",
+                "Multi-statement Table-valued Function"
+            ],
+            "answer": "Security Policy",
+            "explaination":""
+        },
+        {
+            "id": 8,
+            "question":"Which predicate applies to Insert operations?",
+            "choices": [
+                "Filter",
+                "Block",
+                "Row Level Security",
+                "All of the above"
+            ],
+                "answer": "Filter",
+                "explaination":""
+        },
+        {
+            "id": 9,
+            "question":"Which masking function will output a different mask depending on the data type of a column?",
+            "choices": [
+                "Random",
+                "Partial",
+                "Email",
+                "Default"
+            ],
+            "answer": "Default",
+            "explaination":""
+        }
+        ,
+        {
+            "id": 10,
+            "question":"Which T-SQL statement would you use to impersonate the credentials of database user?",
+            "choices": [
+                "LOGIN AS",
+                "EXECUTE AS",
+                "EXEC",
+                "RUN AS"
+            ],
+            "answer": "EXECUTE AS",
+            "explaination":""
+        }
+        ]
+        ,
+    "Advanced SQL Server Management":
+        [
+            {
+            "id": 1,
+            "question":"Which stored procedure is used to send e-mail notifications through Database Mail using T-SQL?",
+            "choices": [
+                "send_db_mail",
+                "sp_send_dbmail",
+                "xp_send_dbmail","usp_send_dbmail"],
+                "answer": "sp_send_dbmail",
+                "explaination":""
+        },
+        {
+            "id": 2,
+            "question":"You must configure a database mail profile for SQL Server agent before alerts can send notification. True or false?",
+            "choices": [
+                "True",
+                "False"],
+            "answer": "True",
+            "explaination":""
+        },
+        {
+            "id": 3,
+            "question":"What drives custom alert actions in SQL Server Agent?",
+            "choices": [
+                "Executing a Job",
+                "Scheduling a Job",
+                "Notifying an Operator",
+                "Writing to the Windows Event Log"
+			],
+            "answer": "Executing a Job",
+            "explaination":""
+        },
+
+        {
+            "id": 4,
+            "question":"Which of these is not a component of Policy-based Management?",
+            "choices": [
+                "Conditions",
+                "Operators",
+                "Policies",
+                "Facets"
+            ],
+            "answer": "Operators",
+            "explaination":""
+        },
+
+        {
+            "id": 5,
+            "question":"What task do you need to perform first before using the Data Collector?",
+            "choices": [
+                "Enable Data Collection for the Database Engine",
+                "Create a Data Collection Set",
+                "Enable SQL Server Agent",
+                "Create a Management Data Warehouse"],
+            "answer": "Create a Management Data Warehouse",
+            "explaination":""
+        },
+
+        {
+            "id": 6,
+            "question":"Which Query Monitoring tool is a new feature starting from SQL Server 2016?",
+            "choices": [
+                "Extended Events",
+                "Query Store",
+                "SQL Profiler",
+                "Activity Monitor"],
+            "answer": "Query Store",
+            "explaination":""
+        },
+
+        {
+            "id": 7,
+            "question":"Which Query Store setting should be configured to capture only resource consuming queries?",
+            "choices": [
+                "Stale Query Threshold",
+                "Query Store Capture Mode",
+                "Data Flush Interval",
+                "Size-based cleanup mode"
+            ],
+            "answer": "Query Store Capture Mode",
+            "explaination":"By default the Query Store capture mode is set to All"
+        },
+        {
+            "id": 8,
+            "question":"Which of the following can be done in the Query Store to ensure a query uses a specific query plan?",
+            "choices": [
+                "Re-write the query",
+                "Use a query hint",
+                "Create a covering index",
+                "Force the plan"
+            ],
+                "answer": "Force the plan",
+                "explaination":""
+        },
+        {
+            "id": 9,
+            "question":"What is the recommended practice for managing index fragmentation?",
+            "choices": [
+                "Reorganize < 25% and rebuild > 25%",
+                "Rebuild < 30% and reorganize > 30%",
+                "Reorganize < 30% and rebuild > 30%",
+                "Rebuild < 20% and reorganize > 20%"
+            ],
+            "answer": "Reorganize < 30% and rebuild > 30%",
+            "explaination":""
+        }
+        ,
+        {
+            "id": 10,
+            "question":"What is the purpose of SQL Server statistics?",
+            "choices": [
+                "They are used by the Query Store to store query plans",
+                "They are used by the Database Engine to execute queries",
+                "They are used by the Query Optimizer to create query plans",
+                "They are used by SQL Agent to run jobs"
+            ],
+            "answer": "They are used by the Query Optimizer to create query plans",
+            "explaination":""
+        }
+
+    ]
+    ,
+    "Cloud Computing":
+        [
+            {
+            "id": 1,
+            "question":"You have been tasked with identifying a cloud model for upgrading the email environment, as a means to reduce server and application maintenance. You recommend the Platform as a service (PaaS) model. Does the solution meet the goal?",
+            "choices": [
+                "Yes",
+                "No"],
+                "answer": "No",
+                "explaination":"PaaS does not include applications. These have to be individually managed"
+        },
+        {
+            "id": 2,
+            "question":"Your company makes use of Platform as a Service (PaaS).Which of the following options are components that your IT employees are responsible for?",
+            "choices": [
+                "Networks",
+                "Databases","Applications","Servers"],
+            "answer": "Applications",
+            "explaination":""
+        },
+        {
+            "id": 3,
+            "question":"You are required to identify a cloud service that allows for the deployment of a Linux virtual machine.Which of the following is the model you should choose?",
+            "choices": [
+                "IaaS",
+                "PaaS",
+                "SaaS"
+			],
+            "answer": "IaaS",
+            "explaination":""
+        },
+
+        {
+            "id": 4,
+            "question":"What is a Public Cloud?",
+            "choices": [
+                "A cloud service that can only be accessed from a publicly shared computer",
+                "A multi-tenant cloud environment accessed over the internet",
+                "A cloud environment owned, operated and controlled by a public company"
+            ],
+            "answer": "A multi-tenant cloud environment accessed over the internet",
+            "explaination":""
+        },
+
+        {
+            "id": 5,
+            "question":"Which statement or statements could be used to describe a private cloud deployment?",
+            "choices": [
+                "A cloud environment maintained within an enterprise's own data center",
+                "A private environment within a third party or public cloud provider's cloud architecture",
+                "A cloud service inaccessible to anyone but the cultural elite",
+                "Both A and B"],
+            "answer": "Both A and B",
+            "explaination":""
+        },
+
+        {
+            "id": 6,
+            "question":"What is a hybrid cloud?",
+            "choices": [
+                "A blend of public and private cloud services with orchestration between them",
+                "A cloud service deployed across multiple offices or locations",
+                "A blend of private cloud and legacy on-premises hardware",
+                "None of the above"],
+            "answer": "A blend of public and private cloud services with orchestration between them",
+            "explaination":""
+        },
+
+        {
+            "id": 7,
+            "question":"Which of these options is not a PaaS offering?",
+            "choices": [
+                "Microsoft Office",
+                "Azure App Service",
+                "AWS Elastic Beanstalk",
+                "Google App Engine"
+            ],
+            "answer": "Microsoft Office",
+            "explaination":""
+        },
+        {
+            "id": 8,
+            "question":"True or false: A multi-cloud strategy is the same as hybrid cloud.",
+            "choices": [
+                "True",
+                "False"
+            ],
+                "answer": "False",
+                "explaination":"Hybrid clouds always include a private cloud and are typically managed as one entity. Multi-clouds always include more than one public cloud service, which often perform different functions."
+        },
+        {
+            "id": 9,
+            "question":"What does it mean when a public cloud provider has an availability of five nines?",
+            "choices": [
+                "No downtime",
+                "Unavailable for potentially five minutes a day",
+                "Unavailable for potentially five minutes a month",
+                "Unavailable for potentially five minutes a year"
+            ],
+            "answer": "Unavailable for potentially five minutes a year",
+            "explaination":""
+        }
+        ,
+        {
+            "id": 10,
+            "question":"On a public cloud, which of the following components are cloud customers responsible for?",
+            "choices": [
+                "The security and maintenance of underlying hardware, such as servers",
+                "The physical security of cloud data centers",
+                "The security of user data",
+                "The provider is responsible for all components above"
+            ],
+            "answer": "The security of user data",
+            "explaination":"Since there is no standard model across cloud vendors or services, enterprises need to carefully review all service-level agreements"
+        }
+
+    ]
+    ,
+    "MS 365 Security, Privacy and Compliance":
+        [
+            {
+            "id": 1,
+            "question":"documents that contain banking information labeled so they are easily identified as containing sensitive financial information.  Which of the following is a possible solution?",
+            "choices": [
+                "Sensitivity Labels",
+                "Advanced Threat Protection",
+            "Data Classification",
+        "Anti-Phising"],
+                "answer": "Sensitivity Labels",
+                "explaination":"Sensitivity labels are capable of placing watermarks on files, making them easily identifiable as containing sensitive content."
+        },
+        {
+            "id": 2,
+            "question":"Which of the following is NOT true about Cloud Computing?",
+            "choices": [
+                "It delivers on-demand applications",
+                "It allows scaling",
+            "Allows management of on-premise applications",
+            "A virtual machine is IaaS"],
+            "answer": "Allows management of on-premise applications",
+            "explaination":"Cloud computing does not provide management of on-premise applications."
+        },
+        {
+            "id": 3,
+            "question":"Your co-worker asks what service classification includes Microsoft 365.  Which service classification includes Microsoft 365?",
+            "choices": [
+                "IaaS",
+                "PaaS",
+                "SaaS",
+                "Microsoft 365 is not a service"
+			],
+            "answer": "SaaS",
+            "explaination":"Microsoft 365 is a SaaS (Software-as-a-Service).  Software-as-a-service includes any software that is managed by Microsoft. "
+        },
+
+        {
+            "id": 4,
+            "question":"Which of the following administrators can purchase licenses?",
+            "choices": [
+                "Billing Administrator",
+                "Service Administrator",
+                "User Management Administrator"
+            ],
+            "answer": "Billing Administrator",
+            "explaination":"Only the Billing Administrator and Global Administrator can purchase licenses"
+        },
+
+        {
+            "id": 5,
+            "question":"You have a user that needs to upload videos for view by employees.  The videos will cover training for new employees as part of the hiring process. Which service allows video upload and streaming?",
+            "choices": [
+                "Microsoft Stream",
+                "Microsoft Yammer",
+                "Microsoft Teams",
+                "Microsoft SharePoint Online"],
+            "answer": "Microsoft Stream",
+            "explaination":"Microsoft Stream allows you to upload videos and have users stream those videos"
+        },
+
+        {
+            "id": 6,
+            "question":"You have been tasked with creating a new site in SharePoint Online.  Which of the following is a type of site that can be created using SharePoint Online",
+            "choices": [
+                "Stream Site",
+                "Collaboration Site",
+                "Communication Site",
+                "Work Site"],
+            "answer": "Communication Site",
+            "explaination":"SharePoint Online allows for the creation of Communication sites and Team sites.  A communication site is used to distribute information to users."
+        },
+
+        {
+            "id": 7,
+            "question":"You deactivate the Microsoft 365 license for a device.  Which actions can the user still perform?",
+            "choices": [
+                "Edit an Excel Spreadsheet",
+                "Create a New PowerPoint Presentation",
+                "Print a Word Document"
+            ],
+            "answer": "Print a Word Document",
+            "explaination":"Users with deactivated licenses can print documents, but they can not edit existing or create new files, spreadsheets or presentations."
+        },
+        {
+            "id": 8,
+            "question":"Employees in your sales department will be working from home quite often.  Sales employees must collaborate on a regular basis using voice and video.  Which solution should you recommend?",
+            "choices": [
+                "Yammer",
+                "Teams",
+                "SharePoint",
+                "Sway"
+            ],
+                "answer": "Teams",
+                "explaination":"Microsoft Teams allows for voice and video collaboration"
+        },
+        {
+            "id": 9,
+            "question":"Which of the following allows you to share files with co-workers and access files from your mobile device?",
+            "choices": [
+                "Exchange Online",
+                "SharePoint Online",
+                "OneDrive for Business",
+                "Yammer"
+            ],
+            "answer": "OneDrive for Business",
+            "explaination":"Data stored in OneDrive can be shared with others by providing them a link that is generated when you choose to share data."
+        }
+        ,
+        {
+            "id": 10,
+            "question":"You and a co-worker have been tasked with creating a website that will be used for employees to access the company handbook, Human Resource Paperwork and other work related policies.  Which of the following services is appropriate?",
+            "choices": [
+                "SharePoint Online",
+                "Microsoft Teams",
+                "Microsoft Sway",
+                "Microsoft Stream"
+            ],
+            "answer": "SharePoint Online",
+            "explaination":"SharePoint Online allows for creation of sites that can be used to make documents accessible to users."
+        }
+        ,
+        {
+            "id": 11,
+            "question":"You plan to host your corporate website in Azure. A co-worker asks you what type of classification is website hosting.  Which of the following should you tell your co-worker is the correct classification?",
+            "choices": [
+                "IaaS",
+                "SaaS",
+                "PaaS"
+            ],
+            "answer": "PaaS",
+            "explaination":""
+        }
+        ,
+        {
+            "id": 12,
+            "question":"Which of the following allows collaboration with the use of a white board?",
+            "choices": [
+                "Microsoft Teams",
+                "Microsoft Sway",
+                "Exchange Online",
+                "SharePoint Online"
+            ],
+            "answer": "Microsoft Teams",
+            "explaination":"Microsoft Teams has a white board that can be used by meeting participants."
+        }
+        ,
+        {
+            "id": 13,
+            "question":"Windows 10 Enterprise licenses can be included in your Microsoft 365 subscription plan.",
+            "choices": [
+                "True",
+                "False"
+            ],
+            "answer": "True",
+            "explaination":"Windows 10 licenses are available as part of a Microsoft 365 subscription."
+        }
+        ,
+        {
+            "id": 14,
+            "question":"Intune can be used to deploy Office 365 to Windows 10 desktops.",
+            "choices": [
+                "True",
+                "False"
+            ],
+            "answer": "True",
+            "explaination":"Intune can be used to deploy Microsoft applications to devices and third party applications to devices."
+        }
+        ,
+        {
+            "id": 15,
+            "question":"While trying to open a new support request you receive an error message stating that You don't have permission to access this page or perform this action.  Which of the following is a cause for this message?",
+            "choices": [
+                "Your company has a Basic Support Plan",
+                "Your company has a Standard Support Plan",
+                "Your account is not a member of the global admin role"
+            ],
+            "answer": "Your account is not a member of the global admin role",
+            "explaination":"The global admin role will allow a user to open a support request."
+        }
+    ]
+    ,
+    "AWS Storage and Databases":
+        [
+            {
+            "id": 1,
+            "question":"What kind of database is AWS DynamoDB?",
+            "choices": [
+                "NoSQL Database",
+                "Document Database",
+            "Relational Database"],
+                "answer": "NoSQL Database",
+                "explaination":"You can use Amazon DynamoDB to create a database table that can store and retrieve any amount of data, and serve any level of request traffic."
+        },
+        {
+            "id": 2,
+            "question":"What is AWS EC2?",
+            "choices": [
+                "Data Center",
+                "Virtual Server in the AWS Cloud",
+            "Serverless compute service",
+            "Resource Monitoring Service"],
+            "answer": "Virtual Server in the AWS Cloud",
+            "explaination":""
+        },
+        {
+            "id": 3,
+            "question":"AWS Regions is part of the AWS Global Infrastructure.",
+            "choices": [
+                "True",
+                "False"
+			],
+            "answer": "True",
+            "explaination":""
+        },
+
+        {
+            "id": 4,
+            "question":"Which AWS service helps you create users and provide them security access?",
+            "choices": [
+                "EC2",
+                "VPC",
+                "IAM"
+            ],
+            "answer": "IAM",
+            "explaination":"With AWS Identity and Access Management (IAM), you can specify who or what can access services and resources in AWS"
+        },
+
+        {
+            "id": 5,
+            "question":"With AWS EC2 you only pay for the compute time that you use",
+            "choices": [
+                "True",
+                "False"],
+            "answer": "True",
+            "explaination":""
+        },
+
+        {
+            "id": 6,
+            "question":"There is a requirement to collect important metrics from AWS RDS and EC2 Instances. Which AWS service would be helpful to fulfill this requirement?",
+            "choices": [
+                "AWS CloudFront",
+                "AWS CloudWatch",
+                "AWS Trusted Advisor",
+            "AWS CloudTrail"],
+            "answer": "AWS CloudWatch",
+            "explaination":"CloudWatch is basically a metrics repository that provides data and actionable insights for applications and infrastructure resources."
+        },
+
+        {
+            "id": 7,
+            "question":"Which AWS service do you need to use to get complete history of user activity?",
+            "choices": [
+                "AWS TrustedAdvisor",
+                "AWS CloudWatch",
+                "AWS CloudTrail"
+            ],
+            "answer": "AWS CloudTrail",
+            "explaination":"CloudTrail enables auditing, security monitoring, and operational troubleshooting by tracking user activity and API usage."
+        },
+        {
+            "id": 8,
+            "question":"Which of the following networking component can be used to host EC2 resources in the AWS Cloud?",
+            "choices": [
+                "AWS Elastic Load Balancer",
+                "AWS Trusted Advisor",
+                "AWS VPC",
+                "AWS Auto-Scaling"
+            ],
+                "answer": "AWS VPC",
+                "explaination":"Amazon VPC enables you to build a virtual network in the AWS cloud and host EC2 Instances"
+        },
+        {
+            "id": 9,
+            "question":"Which is the archival storage solution from AWS",
+            "choices": [
+                "S3",
+                "S3 Glacier",
+                "EFS",
+                "EBS"
+            ],
+            "answer": "S3 Glacier",
+            "explaination":"Use S3 Glacier for archival at low storage cost, and you do not require millisecond access to your data."
+        }
+        ,
+        {
+            "id": 10,
+            "question":"Which of the following is the responsibility of the customer to ensure the availability and backup of the EBS volumes?",
+            "choices": [
+                "Delete the data and create a new EBS volume",
+                "Create EBS snapshots",
+                "Attach new volumes to EC2 Instances",
+                "Create copies of EBS Volumes"
+            ],
+            "answer": "Create EBS snapshots",
+            "explaination":"Snapshots are incremental backups, which means that only the blocks on the device that have changed after your most recent snapshot are saved. "
+        }
+    ]
+    ,"Essential Excel":
+        [
+            {
+            "id": 1,
+            "question":"Which delimiter should be used to split the data into columns?",
+            "image":"excel_delimiter.png",
+            "choices": [
+                "Comma ','",
+                "Pipe '|'",
+                "Semi-Colon ';'",
+                "Colon ':'"],
+                "answer": "Pipe '|'",
+                "explaination":"A delimiter is a character or symbol that separates words, data, or characters"
+        },
+        {
+            "id": 2,
+            "question":"In this image, why does the value in cell G1 look slightly different from the value in the formula bar?",
+            "image":"excel_currency_format.png",
+            "choices": [
+                "It’s using an absolute cell reference",
+                "It’s using the Currency number format",
+                "It’s using a formula",
+                "It’s using conditional formatting"],
+            "answer": "It’s using the Currency number format",
+            "explaination":""
+        },
+        {
+            "id": 3,
+            "question":"Let’s say you’re trying to find your average grade. What’s wrong with the formula shown in the image?",
+            "image":"excel_formula.png",
+            "choices": [
+                "It should use the COUNT function instead",
+                "There is nothing wrong with the formula",
+                "It should have an equals sign (=) at the beginning",
+                "It should use quotation marks instead of parentheses"
+			],
+            "answer": "It should have an equals sign (=) at the beginning",
+            "explaination":""
+        },
+
+        {
+            "id": 4,
+            "question":"You can view a formula by double-clicking the cell that contains the formula.",
+            "image":"",
+            "choices": [
+                "True",
+                "False"
+            ],
+            "answer": "True",
+            "explaination":""
+        },
+
+        {
+            "id": 5,
+            "question":"Which of the following is an absolute cell reference?",
+            "image":"",
+            "choices": [
+                "A:2",
+                "#A2",
+            "$A$2",
+            "A2"],
+            "answer": "$A$2",
+            "explaination":""
+        },
+
+        {
+            "id": 6,
+            "question":"What value would Excel return for this formula? =(82-32)/5+8*2",
+            "image":"",
+            "choices": [
+                "26",
+                "91.6",
+                "7.69",
+                "36"],
+            "answer": "26",
+            "explaination":"Calculations in Excel follow the same BODMAS rule we have learnt in Math during school"
+        },
+
+        {
+            "id": 7,
+            "question":"What feature has been used to apply the formatting shown in this image?",
+            "image":"excel_conditional_formatting.png",
+            "choices": [
+                "Conditional formatting",
+                "Data scenario formatting",
+                "What-if analysis",
+                "PivotTables"
+            ],
+            "answer": "Conditional formatting",
+            "explaination":""
+        },
+        {
+            "id": 8,
+            "question":"In which data type has the value of the cell been stored?",
+            "image":"excel_date_format.png",
+            "choices": [
+                "Date",
+                "Text",
+                "Number",
+                "Formula"
+            ],
+                "answer": "Text",
+                "explaination":"The data type can be identified visually from the formula bar"
+        },
+        {
+            "id": 9,
+            "question":"How is the 'Fullname' appearing between Columns C and D?",
+            "image":"excel_merge.png",
+            "choices": [
+                "Using Wrap Text",
+                "Using Conditional Formatting",
+                "Using Format Painter",
+                "Using Merge & Center"
+            ],
+            "answer": "Using Merge & Center",
+            "explaination":"Merge & Center can be used to combine Cells across Rows or Columns"
+        }
+        ,
+        {
+            "id": 10,
+            "question":"What result is returned by the function =COUNT(B2:D5)?",
+            "image":"excel_count.png",
+            "choices": [
+                "6",
+                "3",
+                "0",
+                "12"
+            ],
+            "answer": "6",
+            "explaination":"COUNT() will return the number of cells containing numeric data. To find the count of filled cells, the COUNTA() function can be used"
+        }
+
+    ]
+    ,"Excel Intermediate":
+        [
+            {
+            "id": 1,
+            "question":"Which of these formulas will help extract the correct ID's AZ5001 and BZ5002?",
+            "image":"excel_find_mid.png",
+            "choices": [
+                "=TRIM(MID(B4,FIND(' ',B4,1),6))",
+                "=MID(B4,FIND(' ',B4,1)+1,6)",
+            "Either of the above",
+        "None of the above"],
+                "answer": "Either of the above",
+                "explaination":""
+        },
+        {
+            "id": 2,
+            "question":"Which of these formulas will help extract the numbers with the current Number format in excel?",
+            "image":"excel_substitute_value.png",
+            "choices": [
+                "=SUBSTITUTE(A2,'USD','')",
+                "=VALUE(SUBSTITUTE(A2,'USD',''))",
+            "=LEFT(A2,3)",
+            "None of the above"],
+            "answer": "=VALUE(SUBSTITUTE(A2,'USD',''))",
+            "explaination":"The VALUE() functions converts the number in Text Format to the Number format in excel"
+        },
+        {
+            "id": 3,
+            "question":"Which rule is applicable when using the VLOOKUP?",
+            "image":"",
+            "choices": [
+                "The value being looked up should be contained in the same sheet",
+                "The value being looked up must be existing in the RIGHT-MOST column of the selected source cell range or table",
+                "The value being looked up must be existing in the LEFT-MOST column of the selected source cell range or table",
+                "None of the above"
+			],
+            "answer": "The value being looked up must be existing in the LEFT-MOST column of the selected source cell range or table",
+            "explaination":"The VLOOKUP() will produce an error if this rule is not followed"
+        },
+
+        {
+            "id": 4,
+            "question":"In this image, which formula would we use to display the text Waffles: bunny?",
+            "image":"excel_concatenate.png",
+            "choices": [
+                "=CONCATENATE(A2, ': ', B2)",
+                "=COMBINE(A2, B2)",
+                "=CONCATENATE(A2:B2)",
+                "=COMBINE(A:B)"
+            ],
+            "answer": "=CONCATENATE(A2, ': ', B2)",
+            "explaination":""
+        },
+
+        {
+            "id": 5,
+            "question":"Which function can display a different value depending on a condition?",
+            "image":"",
+            "choices": [
+                "TEST",
+                "IF",
+            "CONDITION",
+            "AVERAGE"],
+            "answer": "IF",
+            "explaination":""
+        },
+
+        {
+            "id": 6,
+            "question":"Which of the following VLOOKUP functions is using the correct arguments?",
+            "image":"",
+            "choices": [
+                "=VLOOKUP(G5=3, TRUE, FALSE)",
+                "=VLOOKUP(G5, Products, 3, FALSE)",
+                "=VLOOKUP(Products, G5, 3, FALSE)",
+                "=VLOOKUP(G5, 3, FALSE)"],
+            "answer": "=VLOOKUP(G5, Products, 3, FALSE)",
+            "explaination":""
+        },
+
+        {
+            "id": 7,
+            "question":"Which formula is guaranteed to return the phrase “You win!” if the value in cell B6 is 29?",
+            "image":"excel_if_01.png",
+            "choices": [
+                "=IF(AND(B6=29,C6=10),”You win!”,”Try again!”)",
+                "=IF(OR(B6=29,C6=10),”You win!”,”Try again!”)",
+                "=IF(B6=29,”Try again!”,”You win!”)"
+            ],
+            "answer": "=IF(OR(B6=29,C6=10),”You win!”,”Try again!”)",
+            "explaination":""
+        },
+        {
+            "id": 8,
+            "question":" If the word 'alphabet' is in cell A1, then what does the function =mid(A1, 3, 4) display?",
+            "image":"",
+            "choices": [
+                "phab",
+                "hab",
+                "bet",
+                "abet"
+            ],
+                "answer": "phab",
+                "explaination":""
+        },
+        {
+            "id": 9,
+            "question":"What is the result of the formula =trim('Question Six')?",
+            "image":"",
+            "choices": [
+                "Question Six",
+                "Question Si",
+                "Question-Six",
+                "An error will be displayed"
+            ],
+            "answer": "Question Six",
+            "explaination":""
+        }
+        ,
+        {
+            "id": 10,
+            "question":"To generate a result in a cell when two specific conditions are true, which Excel function should be used?",
+            "image":"",
+            "choices": [
+                "AND",
+                "OR",
+                "IF and AND","None of the above"
+            ],
+            "answer": "IF and AND",
+            "explaination":"The AND() function returns either True or False, based on the specified conditions. Meanwhile, the IF() function can be utilized to display the corresponding result for either TRUE or FALSE outcomes."
+        }
+
+    ],
+    "Data Consolidation and Analysis using Excel":
+        [
+            {
+            "id": 1,
+            "question":"Which type of file is similar to an Excel File?",
+            "image":"",
+            "choices": [
+                "Data File",
+                "CSV File",
+            "Text File",
+        "None of the above"],
+                "answer": "CSV File",
+                "explaination":""
+        },
+        {
+            "id": 2,
+            "question":"Which formula will give us the Sum of Sales that have a corresponding Recieved Date?",
+            "image":"excel_sumif.png",
+            "choices": [
+                "SUMIF(C3:C12,'<>',D3:D12)",
+                "SUMIF(D3:D12,'<>',C3:C12)",
+            "SUMIF(D3:C12,'>',D3:D12)"],
+            "answer": "SUMIF(D3:D12,'<>',C3:C12)",
+            "explaination":""
+        },
+        {
+            "id": 3,
+            "question":"Which of these formulas will populate the MIN row correctly?",
+            "image":"",
+            "choices": [
+                "INDEX($B$3:$B$11,MATCH(MIN(C3:C11),B3:B11,0),1)",
+                "MATCH($B$3:$B$11,INDEX(MIN(C3:C11),B3:B11,0),1)",
+                "INDEX($B$3:$B$11,MATCH(SMALL(C3:C11),C3:C11,0),1)"
+			],
+            "answer": "INDEX($B$3:$B$11,MATCH(SMALL(C3:C11),C3:C11,0),1)",
+            "explaination":"MATCH return the Row Number in the series and INDEX returns the Column value in the matching Row Number of the Series"
+        },
+
+        {
+            "id": 4,
+            "question":"In this image, which formula would we use to display the text Waffles: bunny?",
+            "image":"excel_concatenate.png",
+            "choices": [
+                "=CONCATENATE(A2, ': ', B2)",
+                "=COMBINE(A2, B2)",
+                "=CONCATENATE(A2:B2)",
+                "=COMBINE(A:B)"
+            ],
+            "answer": "=CONCATENATE(A2, ': ', B2)",
+            "explaination":""
+        },
+
+        {
+            "id": 5,
+            "question":"In MS-Excel what does SUMIFS function do?",
+            "image":"",
+            "choices": [
+                "Adds up cell values based only on a single condition",
+                "Adds up cell values based on multiple conditions",
+                "None of the above"],
+            "answer": "Adds up cell values based on multiple conditions",
+            "explaination":"SUMIFS can be used with one or multiple conditions"
+        },
+
+        {
+            "id": 6,
+            "question":"Which of the following VLOOKUP functions is using the correct arguments?",
+            "image":"",
+            "choices": [
+                "=VLOOKUP(G5=3, TRUE, FALSE)",
+                "=VLOOKUP(G5, Products!$A$2:$C$20, 3, FALSE)",
+                "=VLOOKUP(Products!$A$2:$C$20, G5, 3, FALSE)",
+                "=VLOOKUP(G5, 3, FALSE)"],
+            "answer": "=VLOOKUP(G5, Products!$A$2:$C$20, 3, FALSE)",
+            "explaination":""
+        },
+
+        {
+            "id": 7,
+            "question":"Which formula is guaranteed to return the phrase “You win!” if the value in cell B6 is 29?",
+            "image":"excel_if_01.png",
+            "choices": [
+                "=IF(AND(B6=29,C6=10),”You win!”,”Try again!”)",
+                "=IF(OR(B6=29,C6=10),”You win!”,”Try again!”)",
+                "=IF(B6=29,”Try again!”,”You win!”)"
+            ],
+            "answer": "=IF(OR(B6=29,C6=10),”You win!”,”Try again!”)",
+            "explaination":""
+        },
+        {
+            "id": 8,
+            "question":" If the word 'alphabet' is in cell A1, then what does the function =mid(A1, 3, 4) display?",
+            "image":"",
+            "choices": [
+                "phab",
+                "hab",
+                "bet",
+                "abet"
+            ],
+                "answer": "phab",
+                "explaination":""
+        },
+        {
+            "id": 9,
+            "question":"What is the result of the formula =trim('Question Six')?",
+            "image":"",
+            "choices": [
+                "Question Six",
+                "Question Si",
+                "Question-Six",
+                "An error will be displayed"
+            ],
+            "answer": "Question Six",
+            "explaination":""
+        }
+        ,
+        {
+            "id": 10,
+            "question":"In MS-Excel which functions will calculate the number of workdays between 6/9/2013 and 8/12/2013?",
+            "image":"",
+            "choices": [
+                "Workday",
+                "Date",
+                "Networkday",
+                "Weekday"
+            ],
+            "answer": "Workday",
+            "explaination":""
+        }
+
+    ],
+    "Video Surveillance as a Service":
+        [
+            {
+            "id": 1,
+            "question":"Key Benefits for a company using a VSaaS Solution?",
+            "image":"",
+            "choices": [
+                "Increased Productivity",
+                "Business Improvements",
+                "Cost Reduction",
+                "All of the above"],
+                "answer": "All of the above",
+                "explaination":""
+        },
+        {
+            "id": 2,
+            "question":"Does the VSaaS Solution come with a Local Storage?",
+            "image":"",
+            "choices": [
+                "Yes",
+                "No"],
+            "answer": "Yes",
+            "explaination":"Local NVR will provide 45 days of continous and event based rolling footage"
+        },
+        {
+            "id": 3,
+            "question":"What is the minimum cloud storage duration offered?",
+            "image":"",
+            "choices": [
+                "1 Day",
+                "7 Days",
+                "30 Days"
+			],
+            "answer": "7 Days",
+            "explaination":"7 Days free continous and event based rolling footage with option of upgrading the cloud storage to 30,60 and 90 days"
+        }
+
+    ],
+    "Microsoft Power BI":
+        [
+            {
+            "id": 1,
+            "question":"What type(s) of data sources is Power BI Desktop able to connect with?",
+            "image":"",
+            "choices": [
+                "Only hosted (cloud-based) sources",
+                "Both local (on-premise) and hosted (cloud-based) sources",
+                "Only local (on-premise) sources"],
+                "answer": "All of the above",
+                "explaination":""
+        },
+        {
+            "id": 2,
+            "question":"From which View can we access the Table Relationships?",
+            "image":"",
+            "choices": [
+                "Table View",
+                "Report View",
+                "Model View"],
+                "answer": "Model View",
+                "explaination":""
+        }
+        ,
+        {
+            "id": 3,
+            "question":"What is the purpose of assigning a Key column to a table?",
+            "image":"",
+            "choices": [
+                "Identifies the Row uniquely",
+                "Assigns it as a Row Label",
+                "Alternative to setting Data Categories"],
+                "answer": "Identifies the Row uniquely",
+                "explaination":""
+        }
+        ,
+        {
+            "id": 4,
+            "question":"What benefit does Apply all Slicers button provide?",
+            "image":"",
+            "choices": [
+                "Query Reduction",
+                "To sync slicers with all pages",
+                "To group slicers"],
+                "answer": "Query Reduction",
+                "explaination":""
+        }
+        ,
+        {
+            "id": 5,
+            "question":"What benefit does Field Parameter provide with the Table Visualization?",
+            "image":"",
+            "choices": [
+                "Loads the visualization quicker",
+                "Flexibility to Hide/Show desired columns",
+                "Enables Interaction between visualizations"],
+                "answer": "Flexibility to Hide/Show desired columns",
+                "explaination":""
+        }
+        ,
+        {
+            "id": 6,
+            "question":"Cross-report is turned-on in a Report Page B. But users are still unable to drill-through to this report from Report Page A. What could be wrong?",
+            "image":"",
+            "choices": [
+                "Drill-through fields have not been defined in Report B",
+                "Cross-report is not turned on in Report A",
+                "Keep all filters in disabled in Report B"],
+                "answer": "Drill-through fields have not been defined in Report B",
+                "explaination":""
+        }
+        ,
+        {
+            "id": 7,
+            "question":"Why would you set a Data Category of a URL as Image?",
+            "image":"",
+            "choices": [
+                "To classify a column as an Image Data Type",
+                "To display the column as an Image in your visualizations",
+                "It will load faster in visualizations"],
+                "answer": "To display the column as an Image in your visualizations",
+                "explaination":""
+        }
+        ,
+        {
+            "id": 8,
+            "question":"There are seperate Slicer Visualizations for Date and Category fields?",
+            "image":"",
+            "choices": [
+                "True",
+                "False"],
+                "answer": "False",
+                "explaination":"The slicer visualization behaves differently based on the Data Type"
+        }
+        ,
+        {
+            "id": 9,
+            "question":"Which visualization supports the use of a Regression Model?",
+            "image":"",
+            "choices": [
+                "Bar Chart",
+                "Pie Chart","Line Chart"],
+                "answer": "Line Chart",
+                "explaination":"Line Chart supports Forecasting which is a Regression Analysis"
+        }
+        ,
+        {
+            "id": 10,
+            "question":"How can you show additional aggregates on Chart Visualizations",
+            "image":"",
+            "choices": [
+                "Plot them on the Y-Axis",
+                "Add the additional fields to Tooltips",
+                "Add the additional fields to the legend"],
+                "answer": "Add the additional fields to Tooltips",
+                "explaination":"Fields added to Tooltips for charts display on hover"
+        }
+
+    ]
+    ,
+    "Data Literacy 2":
+        [
+            {
+            "id": 1,
+            "question":"Which comes first, Machine Learning or AI?",
+            "image":"",
+            "choices": [
+                "ML",
+                "AI","Neither,both are the same"],
+                "answer": "ML",
+                "explaination":"Machine Learning is a subset of AI"
+        },
+        {
+            "id": 2,
+            "question":"Knowledge of Statistics is required for Implementing AI?",
+            "image":"",
+            "choices": [
+                "Yes",
+                "No"],
+            "answer": "Yes",
+            "explaination":"AI solves Classification and Regression problems and hence requires statistics"
+        },
+        {
+            "id": 3,
+            "question":"Can detection of SPAM Email serve as an example of AI?",
+            "image":"",
+            "choices": [
+                "Yes","No"
+			],
+            "answer": "Yes",
+            "explaination":""
+        }
+        ,
+        {
+            "id": 4,
+            "question":"AI is a technology that is intended to mimic the human brain. Is this statement True?",
+            "image":"",
+            "choices": [
+                "Yes","No"
+			],
+            "answer": "Yes",
+            "explaination":"The brain has around 80–100 billion neurons (GPT-3s order of magnitude) and around 100 trillion synapses."
+        }
+        ,
+        {
+            "id": 5,
+            "question":"AI works only on Audio, Video and Images. Is this statement True",
+            "image":"",
+            "choices": [
+                "Yes","No"
+			],
+            "answer": "No",
+            "explaination":"AI does not have a restriction of a data source"
+        },
+        {
+            "id": 6,
+            "question":"Building AI Models from scratch requires you to know Programming?",
+            "image":"",
+            "choices": [
+                "Yes","No"
+			],
+            "answer": "Yes",
+            "explaination":"Programming language like Python can help you build AI Models"
+        },
+        {
+            "id": 7,
+            "question":"What is the word Model referring to in Machine Learning?",
+            "image":"",
+            "choices": [
+                "It is an intelligence built using Statistics",
+                "It is a sample of Data",
+                "It is a replication of a real-word solution"
+			],
+            "answer": "It is an intelligence built using Statistics",
+            "explaination":"Regression or Classification Algorithms are built on Processed Data to generate a AI/ML Model"
+        }
+        ,
+        {
+            "id": 8,
+            "question":"For which requirement does Excel Fail",
+            "image":"",
+            "choices": [
+                "Creating Charts and Pivots",
+                "Analyzing Big Data",
+                "Storing related information, for eg: Customers and Loans"
+			],
+            "answer": "Analyzing Big Data",
+            "explaination":"Excel cannot handle more than 2GB of Data"
+        },
+        {
+            "id": 9,
+            "question":"To analytically visualize data using Charts and Plots which Application can we use?",
+            "image":"",
+            "choices": [
+                "Power BI",
+                "Python",
+                "R","All of the above"
+			],
+            "answer": "All of the above",
+            "explaination":"Though Python and R are Programming Languages, it can be used to analyze data visually"
+        }
+        ,
+        {
+            "id": 10,
+            "question":"What is the data format of an API?",
+            "image":"",
+            "choices": [
+                "Text",
+                "Images",
+                "Document"
+			],
+            "answer": "Text",
+            "explaination":"An API is rendered in Text, a developer can use the information to render it in the way they want"
+        }
+    ]
+}

@@ -1,0 +1,4004 @@
+[
+    {
+        "name": "Afghanistan",
+        "code": "AF",
+        "capital": "Kabul",
+        "region": "AS",
+        "currency": {
+            "code": "AFN",
+            "name": "Afghan afghani",
+            "symbol": "\u060b"
+        },
+        "language": {
+            "code": "ps",
+            "name": "Pashto"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AF.svg"
+    },
+    {
+        "name": "\u00c5land Islands",
+        "code": "AX",
+        "capital": "Mariehamn",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "sv",
+            "name": "Swedish"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AX.svg"
+    },
+    {
+        "name": "Albania",
+        "code": "AL",
+        "capital": "Tirana",
+        "region": "EU",
+        "currency": {
+            "code": "ALL",
+            "name": "Albanian lek",
+            "symbol": "L"
+        },
+        "language": {
+            "code": "sq",
+            "name": "Albanian"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AL.svg"
+    },
+    {
+        "name": "Algeria",
+        "code": "DZ",
+        "capital": "Algiers",
+        "region": "AF",
+        "currency": {
+            "code": "DZD",
+            "name": "Algerian dinar",
+            "symbol": "\u062f.\u062c"
+        },
+        "language": {
+            "code": "ar",
+            "name": "Arabic"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/DZ.svg"
+    },
+    {
+        "name": "American Samoa",
+        "code": "AS",
+        "capital": "Pago Pago",
+        "region": "OC",
+        "currency": {
+            "code": "USD",
+            "name": "United State Dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AS.svg"
+    },
+    {
+        "name": "Andorra",
+        "code": "AD",
+        "capital": "Andorra la Vella",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "ca",
+            "name": "Catalan"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AD.svg"
+    },
+    {
+        "name": "Angola",
+        "code": "AO",
+        "capital": "Luanda",
+        "region": "AF",
+        "currency": {
+            "code": "AOA",
+            "name": "Angolan kwanza",
+            "symbol": "Kz"
+        },
+        "language": {
+            "code": "pt",
+            "name": "Portuguese"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AO.svg"
+    },
+    {
+        "name": "Anguilla",
+        "code": "AI",
+        "capital": "The Valley",
+        "region": "NA",
+        "currency": {
+            "code": "XCD",
+            "name": "East Caribbean dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AI.svg"
+    },
+    {
+        "name": "Antigua and Barbuda",
+        "code": "AG",
+        "capital": "Saint John's",
+        "region": "NA",
+        "currency": {
+            "code": "XCD",
+            "name": "East Caribbean dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://restcountries.eu/data/atg.svg"
+    },
+    {
+        "name": "Argentina",
+        "code": "AR",
+        "capital": "Buenos Aires",
+        "region": "SA",
+        "currency": {
+            "code": "ARS",
+            "name": "Argentine peso",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "es",
+            "name": "Spanish"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AR.svg"
+    },
+    {
+        "name": "Armenia",
+        "code": "AM",
+        "capital": "Yerevan",
+        "region": "AS",
+        "currency": {
+            "code": "AMD",
+            "name": "Armenian dram",
+            "symbol": ""
+        },
+        "language": {
+            "code": "hy",
+            "name": "Armenian"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AM.svg"
+    },
+    {
+        "name": "Aruba",
+        "code": "AW",
+        "capital": "Oranjestad",
+        "region": "SA",
+        "currency": {
+            "code": "AWG",
+            "name": "Aruban florin",
+            "symbol": "\u0192"
+        },
+        "language": {
+            "code": "nl",
+            "name": "Dutch"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AW.svg"
+    },
+    {
+        "name": "Australia",
+        "code": "AU",
+        "capital": "Canberra",
+        "region": "OC",
+        "currency": {
+            "code": "AUD",
+            "name": "Australian dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AU.svg"
+    },
+    {
+        "name": "Austria",
+        "code": "AT",
+        "capital": "Vienna",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "de",
+            "name": "German"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AT.svg"
+    },
+    {
+        "name": "Azerbaijan",
+        "code": "AZ",
+        "capital": "Baku",
+        "region": "AS",
+        "currency": {
+            "code": "AZN",
+            "name": "Azerbaijani manat",
+            "symbol": ""
+        },
+        "language": {
+            "code": "az",
+            "name": "Azerbaijani"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AZ.svg"
+    },
+    {
+        "name": "Bahamas",
+        "code": "BS",
+        "capital": "Nassau",
+        "region": "NA",
+        "currency": {
+            "code": "BSD",
+            "name": "Bahamian dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BS.svg"
+    },
+    {
+        "name": "Bahrain",
+        "code": "BH",
+        "capital": "Manama",
+        "region": "AS",
+        "currency": {
+            "code": "BHD",
+            "name": "Bahraini dinar",
+            "symbol": ".\u062f.\u0628"
+        },
+        "language": {
+            "code": "ar",
+            "name": "Arabic"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BH.svg"
+    },
+    {
+        "name": "Bangladesh",
+        "code": "BD",
+        "capital": "Dhaka",
+        "region": "AS",
+        "currency": {
+            "code": "BDT",
+            "name": "Bangladeshi taka",
+            "symbol": "\u09f3"
+        },
+        "language": {
+            "code": "bn",
+            "name": "Bengali"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BD.svg"
+    },
+    {
+        "name": "Barbados",
+        "code": "BB",
+        "capital": "Bridgetown",
+        "region": "NA",
+        "currency": {
+            "code": "BBD",
+            "name": "Barbadian dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BB.svg"
+    },
+    {
+        "name": "Belarus",
+        "code": "BY",
+        "capital": "Minsk",
+        "region": "EU",
+        "currency": {
+            "code": "BYN",
+            "name": "New Belarusian ruble",
+            "symbol": "Br"
+        },
+        "language": {
+            "code": "be",
+            "name": "Belarusian"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BY.svg"
+    },
+    {
+        "name": "Belgium",
+        "code": "BE",
+        "capital": "Brussels",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "nl",
+            "name": "Dutch"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BE.svg"
+    },
+    {
+        "name": "Belize",
+        "code": "BZ",
+        "capital": "Belmopan",
+        "region": "NA",
+        "currency": {
+            "code": "BZD",
+            "name": "Belize dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BZ.svg"
+    },
+    {
+        "name": "Benin",
+        "code": "BJ",
+        "capital": "Porto-Novo",
+        "region": "AF",
+        "currency": {
+            "code": "XOF",
+            "name": "West African CFA franc",
+            "symbol": "Fr"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BJ.svg"
+    },
+    {
+        "name": "Bermuda",
+        "code": "BM",
+        "capital": "Hamilton",
+        "region": "NA",
+        "currency": {
+            "code": "BMD",
+            "name": "Bermudian dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BM.svg"
+    },
+    {
+        "name": "Bhutan",
+        "code": "BT",
+        "capital": "Thimphu",
+        "region": "AS",
+        "currency": {
+            "code": "BTN",
+            "name": "Bhutanese ngultrum",
+            "symbol": "Nu."
+        },
+        "language": {
+            "code": "dz",
+            "name": "Dzongkha"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BT.svg"
+    },
+    {
+        "name": "Bolivia (Plurinational State of)",
+        "code": "BO",
+        "capital": "Sucre",
+        "region": "SA",
+        "currency": {
+            "code": "BOB",
+            "name": "Bolivian boliviano",
+            "symbol": "Bs."
+        },
+        "language": {
+            "code": "es",
+            "name": "Spanish"
+        },
+        "flag": "https://restcountries.eu/data/bol.svg"
+    },
+    {
+        "name": "Bonaire, Sint Eustatius and Saba",
+        "code": "BQ",
+        "capital": "Kralendijk",
+        "region": "SA",
+        "currency": {
+            "code": "USD",
+            "name": "United States dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "nl",
+            "name": "Dutch"
+        },
+        "flag": "https://restcountries.eu/data/bes.svg"
+    },
+    {
+        "name": "Bosnia and Herzegovina",
+        "code": "BA",
+        "capital": "Sarajevo",
+        "region": "EU",
+        "currency": {
+            "code": "BAM",
+            "name": "Bosnia and Herzegovina convertible mark",
+            "symbol": ""
+        },
+        "language": {
+            "code": "bs",
+            "name": "Bosnian"
+        },
+        "flag": "https://restcountries.eu/data/bih.svg"
+    },
+    {
+        "name": "Botswana",
+        "code": "BW",
+        "capital": "Gaborone",
+        "region": "AF",
+        "currency": {
+            "code": "BWP",
+            "name": "Botswana pula",
+            "symbol": "P"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BW.svg"
+    },
+    {
+        "name": "Bouvet Island",
+        "code": "BV",
+        "capital": "",
+        "region": "AN",
+        "currency": {
+            "code": "NOK",
+            "name": "Norwegian krone",
+            "symbol": "kr"
+        },
+        "language": {
+            "code": "no",
+            "name": "Norwegian"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BV.svg"
+    },
+    {
+        "name": "Brazil",
+        "code": "BR",
+        "capital": "Bras\u00edlia",
+        "region": "SA",
+        "currency": {
+            "code": "BRL",
+            "name": "Brazilian real",
+            "symbol": "R$"
+        },
+        "language": {
+            "code": "pt",
+            "name": "Portuguese"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BR.svg"
+    },
+    {
+        "name": "British Indian Ocean Territory",
+        "code": "IO",
+        "capital": "Diego Garcia",
+        "region": "AF",
+        "currency": {
+            "code": "USD",
+            "name": "United States dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IO.svg"
+    },
+    {
+        "name": "United States Minor Outlying Islands",
+        "code": "UM",
+        "capital": "",
+        "region": "NA",
+        "currency": {
+            "code": "USD",
+            "name": "United States Dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://restcountries.eu/data/umi.svg"
+    },
+    {
+        "name": "Virgin Islands (British)",
+        "code": "VG",
+        "capital": "Road Town",
+        "region": "NA",
+        "currency": {
+            "code": "USD",
+            "name": "United States dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://restcountries.eu/data/vgb.svg"
+    },
+    {
+        "name": "Virgin Islands (U.S.)",
+        "code": "VI",
+        "capital": "Charlotte Amalie",
+        "region": "NA",
+        "currency": {
+            "code": "USD",
+            "name": "United States dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://restcountries.eu/data/vir.svg"
+    },
+    {
+        "name": "Brunei Darussalam",
+        "code": "BN",
+        "capital": "Bandar Seri Begawan",
+        "region": "AS",
+        "currency": {
+            "code": "BND",
+            "name": "Brunei dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "ms",
+            "name": "Malay"
+        },
+        "flag": "https://restcountries.eu/data/brn.svg"
+    },
+    {
+        "name": "Bulgaria",
+        "code": "BG",
+        "capital": "Sofia",
+        "region": "EU",
+        "currency": {
+            "code": "BGN",
+            "name": "Bulgarian lev",
+            "symbol": "\u043b\u0432"
+        },
+        "language": {
+            "code": "bg",
+            "name": "Bulgarian"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BG.svg"
+    },
+    {
+        "name": "Burkina Faso",
+        "code": "BF",
+        "capital": "Ouagadougou",
+        "region": "AF",
+        "currency": {
+            "code": "XOF",
+            "name": "West African CFA franc",
+            "symbol": "Fr"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BF.svg"
+    },
+    {
+        "name": "Burundi",
+        "code": "BI",
+        "capital": "Bujumbura",
+        "region": "AF",
+        "currency": {
+            "code": "BIF",
+            "name": "Burundian franc",
+            "symbol": "Fr"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BI.svg"
+    },
+    {
+        "name": "Cambodia",
+        "code": "KH",
+        "capital": "Phnom Penh",
+        "region": "AS",
+        "currency": {
+            "code": "KHR",
+            "name": "Cambodian riel",
+            "symbol": "\u17db"
+        },
+        "language": {
+            "code": "km",
+            "name": "Khmer"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KH.svg"
+    },
+    {
+        "name": "Cameroon",
+        "code": "CM",
+        "capital": "Yaound\u00e9",
+        "region": "AF",
+        "currency": {
+            "code": "XAF",
+            "name": "Central African CFA franc",
+            "symbol": "Fr"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CM.svg"
+    },
+    {
+        "name": "Canada",
+        "code": "CA",
+        "capital": "Ottawa",
+        "region": "NA",
+        "currency": {
+            "code": "CAD",
+            "name": "Canadian dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CA.svg"
+    },
+    {
+        "name": "Cabo Verde",
+        "code": "CV",
+        "capital": "Praia",
+        "region": "AF",
+        "currency": {
+            "code": "CVE",
+            "name": "Cape Verdean escudo",
+            "symbol": "Esc"
+        },
+        "language": {
+            "code": "pt",
+            "iso639_2": "por",
+            "name": "Portuguese",
+            "nativeName": "Portugu\u00eas"
+        },
+        "flag": "https://restcountries.eu/data/cpv.svg"
+    },
+    {
+        "name": "Cayman Islands",
+        "code": "KY",
+        "capital": "George Town",
+        "region": "NA",
+        "currency": {
+            "code": "KYD",
+            "name": "Cayman Islands dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KY.svg"
+    },
+    {
+        "name": "Central African Republic",
+        "code": "CF",
+        "capital": "Bangui",
+        "region": "AF",
+        "currency": {
+            "code": "XAF",
+            "name": "Central African CFA franc",
+            "symbol": "Fr"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CF.svg"
+    },
+    {
+        "name": "Chad",
+        "code": "TD",
+        "capital": "N'Djamena",
+        "region": "AF",
+        "currency": {
+            "code": "XAF",
+            "name": "Central African CFA franc",
+            "symbol": "Fr"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TD.svg"
+    },
+    {
+        "name": "Chile",
+        "code": "CL",
+        "capital": "Santiago",
+        "region": "SA",
+        "currency": {
+            "code": "CLP",
+            "name": "Chilean peso",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "es",
+            "iso639_2": "spa",
+            "name": "Spanish",
+            "nativeName": "Espa\u00f1ol"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CL.svg"
+    },
+    {
+        "name": "China",
+        "code": "CN",
+        "capital": "Beijing",
+        "region": "AS",
+        "currency": {
+            "code": "CNY",
+            "name": "Chinese yuan",
+            "symbol": "\u00a5"
+        },
+        "language": {
+            "code": "zh",
+            "name": "Chinese"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CN.svg"
+    },
+    {
+        "name": "Christmas Island",
+        "code": "CX",
+        "capital": "Flying Fish Cove",
+        "region": "OC",
+        "currency": {
+            "code": "AUD",
+            "name": "Australian dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CX.svg"
+    },
+    {
+        "name": "Cocos (Keeling) Islands",
+        "code": "CC",
+        "capital": "West Island",
+        "region": "OC",
+        "currency": {
+            "code": "AUD",
+            "name": "Australian dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CC.svg"
+    },
+    {
+        "name": "Colombia",
+        "code": "CO",
+        "capital": "Bogot\u00e1",
+        "region": "SA",
+        "currency": {
+            "code": "COP",
+            "name": "Colombian peso",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "es",
+            "name": "Spanish"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CO.svg"
+    },
+    {
+        "name": "Comoros",
+        "code": "KM",
+        "capital": "Moroni",
+        "region": "AF",
+        "currency": {
+            "code": "KMF",
+            "name": "Comorian franc",
+            "symbol": "Fr"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KM.svg"
+    },
+    {
+        "name": "Congo",
+        "code": "CG",
+        "capital": "Brazzaville",
+        "region": "AF",
+        "currency": {
+            "code": "XAF",
+            "name": "Central African CFA franc",
+            "symbol": "Fr"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://restcountries.eu/data/cog.svg"
+    },
+    {
+        "name": "Congo (Democratic Republic of the)",
+        "code": "CD",
+        "capital": "Kinshasa",
+        "region": "AF",
+        "currency": {
+            "code": "CDF",
+            "name": "Congolese franc",
+            "symbol": "Fr"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://restcountries.eu/data/cod.svg"
+    },
+    {
+        "name": "Cook Islands",
+        "code": "CK",
+        "capital": "Avarua",
+        "region": "OC",
+        "currency": {
+            "code": "NZD",
+            "name": "New Zealand dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CK.svg"
+    },
+    {
+        "name": "Costa Rica",
+        "code": "CR",
+        "capital": "San Jos\u00e9",
+        "region": "NA",
+        "currency": {
+            "code": "CRC",
+            "name": "Costa Rican col\u00f3n",
+            "symbol": "\u20a1"
+        },
+        "language": {
+            "code": "es",
+            "name": "Spanish"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CR.svg"
+    },
+    {
+        "name": "Croatia",
+        "code": "HR",
+        "capital": "Zagreb",
+        "region": "EU",
+        "currency": {
+            "code": "HRK",
+            "name": "Croatian kuna",
+            "symbol": "kn"
+        },
+        "language": {
+            "code": "hr",
+            "name": "Croatian"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/HR.svg"
+    },
+    {
+        "name": "Cuba",
+        "code": "CU",
+        "capital": "Havana",
+        "region": "NA",
+        "currency": {
+            "code": "CUC",
+            "name": "Cuban convertible peso",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "es",
+            "name": "Spanish"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CU.svg"
+    },
+    {
+        "name": "Cura\u00e7ao",
+        "code": "CW",
+        "capital": "Willemstad",
+        "region": "SA",
+        "currency": {
+            "code": "ANG",
+            "name": "Netherlands Antillean guilder",
+            "symbol": "\u0192"
+        },
+        "language": {
+            "code": "nl",
+            "name": "Dutch"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CW.svg"
+    },
+    {
+        "name": "Cyprus",
+        "code": "CY",
+        "capital": "Nicosia",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "tr",
+            "name": "Turkish"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CY.svg"
+    },
+    {
+        "name": "Czech Republic",
+        "code": "CZ",
+        "capital": "Prague",
+        "region": "EU",
+        "currency": {
+            "code": "CZK",
+            "name": "Czech koruna",
+            "symbol": "K\u010d"
+        },
+        "language": {
+            "code": "cs",
+            "name": "Czech"
+        },
+        "flag": "https://restcountries.eu/data/cze.svg"
+    },
+    {
+        "name": "Denmark",
+        "code": "DK",
+        "capital": "Copenhagen",
+        "region": "EU",
+        "currency": {
+            "code": "DKK",
+            "name": "Danish krone",
+            "symbol": "kr"
+        },
+        "language": {
+            "code": "da",
+            "name": "Danish"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/DK.svg"
+    },
+    {
+        "name": "Djibouti",
+        "code": "DJ",
+        "capital": "Djibouti",
+        "region": "AF",
+        "currency": {
+            "code": "DJF",
+            "name": "Djiboutian franc",
+            "symbol": "Fr"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/DJ.svg"
+    },
+    {
+        "name": "Dominica",
+        "code": "DM",
+        "capital": "Roseau",
+        "region": "NA",
+        "currency": {
+            "code": "XCD",
+            "name": "East Caribbean dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/DM.svg"
+    },
+    {
+        "name": "Dominican Republic",
+        "code": "DO",
+        "capital": "Santo Domingo",
+        "region": "NA",
+        "currency": {
+            "code": "DOP",
+            "name": "Dominican peso",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "es",
+            "name": "Spanish"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/DO.svg"
+    },
+    {
+        "name": "Ecuador",
+        "code": "EC",
+        "capital": "Quito",
+        "region": "SA",
+        "currency": {
+            "code": "USD",
+            "name": "United States dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "es",
+            "name": "Spanish"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/EC.svg"
+    },
+    {
+        "name": "Egypt",
+        "code": "EG",
+        "capital": "Cairo",
+        "region": "AF",
+        "currency": {
+            "code": "EGP",
+            "name": "Egyptian pound",
+            "symbol": "\u00a3"
+        },
+        "language": {
+            "code": "ar",
+            "name": "Arabic"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/EG.svg"
+    },
+    {
+        "name": "El Salvador",
+        "code": "SV",
+        "capital": "San Salvador",
+        "region": "NA",
+        "currency": {
+            "code": "USD",
+            "name": "United States dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "es",
+            "name": "Spanish"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SV.svg"
+    },
+    {
+        "name": "Equatorial Guinea",
+        "code": "GQ",
+        "capital": "Malabo",
+        "region": "AF",
+        "currency": {
+            "code": "XAF",
+            "name": "Central African CFA franc",
+            "symbol": "Fr"
+        },
+        "language": {
+            "code": "es",
+            "iso639_2": "spa",
+            "name": "Spanish",
+            "nativeName": "Espa\u00f1ol"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GQ.svg"
+    },
+    {
+        "name": "Eritrea",
+        "code": "ER",
+        "capital": "Asmara",
+        "region": "AF",
+        "currency": {
+            "code": "ERN",
+            "name": "Eritrean nakfa",
+            "symbol": "Nfk"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ER.svg"
+    },
+    {
+        "name": "Estonia",
+        "code": "EE",
+        "capital": "Tallinn",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "et",
+            "name": "Estonian"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/EE.svg"
+    },
+    {
+        "name": "Ethiopia",
+        "code": "ET",
+        "capital": "Addis Ababa",
+        "region": "AF",
+        "currency": {
+            "code": "ETB",
+            "name": "Ethiopian birr",
+            "symbol": "Br"
+        },
+        "language": {
+            "code": "am",
+            "name": "Amharic"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ET.svg"
+    },
+    {
+        "name": "Falkland Islands (Malvinas)",
+        "code": "FK",
+        "capital": "Stanley",
+        "region": "SA",
+        "currency": {
+            "code": "FKP",
+            "name": "Falkland Islands pound",
+            "symbol": "\u00a3"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://restcountries.eu/data/flk.svg"
+    },
+    {
+        "name": "Faroe Islands",
+        "code": "FO",
+        "capital": "T\u00f3rshavn",
+        "region": "EU",
+        "currency": {
+            "code": "DKK",
+            "name": "Danish krone",
+            "symbol": "kr"
+        },
+        "language": {
+            "code": "fo",
+            "name": "Faroese"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/FO.svg"
+    },
+    {
+        "name": "Fiji",
+        "code": "FJ",
+        "capital": "Suva",
+        "region": "OC",
+        "currency": {
+            "code": "FJD",
+            "name": "Fijian dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/FJ.svg"
+    },
+    {
+        "name": "Finland",
+        "code": "FI",
+        "capital": "Helsinki",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "fi",
+            "iso639_2": "fin",
+            "name": "Finnish",
+            "nativeName": "suomi"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/FI.svg"
+    },
+    {
+        "name": "France",
+        "code": "FR",
+        "capital": "Paris",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/FR.svg"
+    },
+    {
+        "name": "French Guiana",
+        "code": "GF",
+        "capital": "Cayenne",
+        "region": "SA",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GF.svg"
+    },
+    {
+        "name": "French Polynesia",
+        "code": "PF",
+        "capital": "Papeet\u0113",
+        "region": "OC",
+        "currency": {
+            "code": "XPF",
+            "name": "CFP franc",
+            "symbol": "Fr"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PF.svg"
+    },
+    {
+        "name": "French Southern Territories",
+        "code": "TF",
+        "capital": "Port-aux-Fran\u00e7ais",
+        "region": "AF",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TF.svg"
+    },
+    {
+        "name": "Gabon",
+        "code": "GA",
+        "capital": "Libreville",
+        "region": "AF",
+        "currency": {
+            "code": "XAF",
+            "name": "Central African CFA franc",
+            "symbol": "Fr"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GA.svg"
+    },
+    {
+        "name": "Gambia",
+        "code": "GM",
+        "capital": "Banjul",
+        "region": "AF",
+        "currency": {
+            "code": "GMD",
+            "name": "Gambian dalasi",
+            "symbol": "D"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GM.svg"
+    },
+    {
+        "name": "Georgia",
+        "code": "GE",
+        "capital": "Tbilisi",
+        "region": "AS",
+        "currency": {
+            "code": "GEL",
+            "name": "Georgian Lari",
+            "symbol": "\u10da"
+        },
+        "language": {
+            "code": "ka",
+            "name": "Georgian"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GE.svg"
+    },
+    {
+        "name": "Germany",
+        "code": "DE",
+        "capital": "Berlin",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "de",
+            "name": "German"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/DE.svg"
+    },
+    {
+        "name": "Ghana",
+        "code": "GH",
+        "capital": "Accra",
+        "region": "AF",
+        "currency": {
+            "code": "GHS",
+            "name": "Ghanaian cedi",
+            "symbol": "\u20b5"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GH.svg"
+    },
+    {
+        "name": "Gibraltar",
+        "code": "GI",
+        "capital": "Gibraltar",
+        "region": "EU",
+        "currency": {
+            "code": "GIP",
+            "name": "Gibraltar pound",
+            "symbol": "\u00a3"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GI.svg"
+    },
+    {
+        "name": "Greece",
+        "code": "GR",
+        "capital": "Athens",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "el",
+            "name": "Greek (modern)"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GR.svg"
+    },
+    {
+        "name": "Greenland",
+        "code": "GL",
+        "capital": "Nuuk",
+        "region": "NA",
+        "currency": {
+            "code": "DKK",
+            "name": "Danish krone",
+            "symbol": "kr"
+        },
+        "language": {
+            "code": "kl",
+            "name": "Kalaallisut"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GL.svg"
+    },
+    {
+        "name": "Grenada",
+        "code": "GD",
+        "capital": "St. George's",
+        "region": "NA",
+        "currency": {
+            "code": "XCD",
+            "name": "East Caribbean dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GD.svg"
+    },
+    {
+        "name": "Guadeloupe",
+        "code": "GP",
+        "capital": "Basse-Terre",
+        "region": "NA",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GP.svg"
+    },
+    {
+        "name": "Guam",
+        "code": "GU",
+        "capital": "Hag\u00e5t\u00f1a",
+        "region": "OC",
+        "currency": {
+            "code": "USD",
+            "name": "United States dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GU.svg"
+    },
+    {
+        "name": "Guatemala",
+        "code": "GT",
+        "capital": "Guatemala City",
+        "region": "NA",
+        "currency": {
+            "code": "GTQ",
+            "name": "Guatemalan quetzal",
+            "symbol": "Q"
+        },
+        "language": {
+            "code": "es",
+            "name": "Spanish"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GT.svg"
+    },
+    {
+        "name": "Guernsey",
+        "code": "GG",
+        "capital": "St. Peter Port",
+        "region": "EU",
+        "currency": {
+            "code": "GBP",
+            "name": "British pound",
+            "symbol": "\u00a3"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GG.svg"
+    },
+    {
+        "name": "Guinea",
+        "code": "GN",
+        "capital": "Conakry",
+        "region": "AF",
+        "currency": {
+            "code": "GNF",
+            "name": "Guinean franc",
+            "symbol": "Fr"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GN.svg"
+    },
+    {
+        "name": "Guinea-Bissau",
+        "code": "GW",
+        "capital": "Bissau",
+        "region": "AF",
+        "currency": {
+            "code": "XOF",
+            "name": "West African CFA franc",
+            "symbol": "Fr"
+        },
+        "language": {
+            "code": "pt",
+            "name": "Portuguese"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GW.svg"
+    },
+    {
+        "name": "Guyana",
+        "code": "GY",
+        "capital": "Georgetown",
+        "region": "SA",
+        "currency": {
+            "code": "GYD",
+            "name": "Guyanese dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GY.svg"
+    },
+    {
+        "name": "Haiti",
+        "code": "HT",
+        "capital": "Port-au-Prince",
+        "region": "Americas",
+        "currency": {
+            "code": "HTG",
+            "name": "Haitian gourde",
+            "symbol": "G"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/HT.svg"
+    },
+    {
+        "name": "Heard Island and McDonald Islands",
+        "code": "HM",
+        "capital": "",
+        "region": "",
+        "currency": {
+            "code": "AUD",
+            "name": "Australian dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://restcountries.eu/data/hmd.svg"
+    },
+    {
+        "name": "Holy See",
+        "code": "VA",
+        "capital": "Rome",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://restcountries.eu/data/vat.svg"
+    },
+    {
+        "name": "Honduras",
+        "code": "HN",
+        "capital": "Tegucigalpa",
+        "region": "NA",
+        "currency": {
+            "code": "HNL",
+            "name": "Honduran lempira",
+            "symbol": "L"
+        },
+        "language": {
+            "code": "es",
+            "name": "Spanish"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/HN.svg"
+    },
+    {
+        "name": "Hong Kong",
+        "code": "HK",
+        "capital": "City of Victoria",
+        "region": "AS",
+        "currency": {
+            "code": "HKD",
+            "name": "Hong Kong dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://restcountries.eu/data/hkg.svg"
+    },
+    {
+        "name": "Hungary",
+        "code": "HU",
+        "capital": "Budapest",
+        "region": "EU",
+        "currency": {
+            "code": "HUF",
+            "name": "Hungarian forint",
+            "symbol": "Ft"
+        },
+        "language": {
+            "code": "hu",
+            "name": "Hungarian"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/HU.svg"
+    },
+    {
+        "name": "Iceland",
+        "code": "IS",
+        "capital": "Reykjav\u00edk",
+        "region": "EU",
+        "currency": {
+            "code": "ISK",
+            "name": "Icelandic kr\u00f3na",
+            "symbol": "kr"
+        },
+        "language": {
+            "code": "is",
+            "name": "Icelandic"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IS.svg"
+    },
+    {
+        "name": "India",
+        "code": "IN",
+        "capital": "New Delhi",
+        "region": "AS",
+        "currency": {
+            "code": "INR",
+            "name": "Indian rupee",
+            "symbol": "\u20b9"
+        },
+        "language": {
+            "code": "hi",
+            "name": "Hindi"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg"
+    },
+    {
+        "name": "Indonesia",
+        "code": "ID",
+        "capital": "Jakarta",
+        "region": "AS",
+        "currency": {
+            "code": "IDR",
+            "name": "Indonesian rupiah",
+            "symbol": "Rp"
+        },
+        "language": {
+            "code": "id",
+            "name": "Indonesian"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ID.svg"
+    },
+    {
+        "name": "C\u00f4te d'Ivoire",
+        "code": "CI",
+        "capital": "Yamoussoukro",
+        "region": "AF",
+        "currency": {
+            "code": "XOF",
+            "name": "West African CFA franc",
+            "symbol": "Fr"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://restcountries.eu/data/civ.svg"
+    },
+    {
+        "name": "Iran (Islamic Republic of)",
+        "code": "IR",
+        "capital": "Tehran",
+        "region": "AS",
+        "currency": {
+            "code": "IRR",
+            "name": "Iranian rial",
+            "symbol": "\ufdfc"
+        },
+        "language": {
+            "code": "fa",
+            "name": "Persian (Farsi)"
+        },
+        "flag": "https://restcountries.eu/data/irn.svg"
+    },
+    {
+        "name": "Iraq",
+        "code": "IQ",
+        "capital": "Baghdad",
+        "region": "AS",
+        "currency": {
+            "code": "IQD",
+            "name": "Iraqi dinar",
+            "symbol": "\u0639.\u062f"
+        },
+        "language": {
+            "code": "ar",
+            "name": "Arabic"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IQ.svg"
+    },
+    {
+        "name": "Ireland",
+        "code": "IE",
+        "capital": "Dublin",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "ga",
+            "name": "Irish"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IE.svg"
+    },
+    {
+        "name": "Isle of Man",
+        "code": "IM",
+        "capital": "Douglas",
+        "region": "EU",
+        "currency": {
+            "code": "GBP",
+            "name": "British pound",
+            "symbol": "\u00a3"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IM.svg"
+    },
+    {
+        "name": "Israel",
+        "code": "IL",
+        "capital": "Jerusalem",
+        "region": "AS",
+        "currency": {
+            "code": "ILS",
+            "name": "Israeli new shekel",
+            "symbol": "\u20aa"
+        },
+        "language": {
+            "code": "he",
+            "name": "Hebrew (modern)"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IL.svg"
+    },
+    {
+        "name": "Italy",
+        "code": "IT",
+        "capital": "Rome",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "it",
+            "name": "Italian"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IT.svg"
+    },
+    {
+        "name": "Jamaica",
+        "code": "JM",
+        "capital": "Kingston",
+        "region": "NA",
+        "currency": {
+            "code": "JMD",
+            "name": "Jamaican dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/JM.svg"
+    },
+    {
+        "name": "Japan",
+        "code": "JP",
+        "capital": "Tokyo",
+        "region": "AS",
+        "currency": {
+            "code": "JPY",
+            "name": "Japanese yen",
+            "symbol": "\u00a5"
+        },
+        "language": {
+            "code": "ja",
+            "name": "Japanese"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/JP.svg"
+    },
+    {
+        "name": "Jersey",
+        "code": "JE",
+        "capital": "Saint Helier",
+        "region": "EU",
+        "currency": {
+            "code": "GBP",
+            "name": "British pound",
+            "symbol": "\u00a3"
+        },
+        "language": {
+            "code": "en",
+            "iso639_2": "eng",
+            "name": "English",
+            "nativeName": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/JE.svg"
+    },
+    {
+        "name": "Jordan",
+        "code": "JO",
+        "capital": "Amman",
+        "region": "AS",
+        "currency": {
+            "code": "JOD",
+            "name": "Jordanian dinar",
+            "symbol": "\u062f.\u0627"
+        },
+        "language": {
+            "code": "ar",
+            "name": "Arabic"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/JO.svg"
+    },
+    {
+        "name": "Kazakhstan",
+        "code": "KZ",
+        "capital": "Astana",
+        "region": "AS",
+        "currency": {
+            "code": "KZT",
+            "name": "Kazakhstani tenge",
+            "symbol": ""
+        },
+        "language": {
+            "code": "kk",
+            "name": "Kazakh"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KZ.svg"
+    },
+    {
+        "name": "Kenya",
+        "code": "KE",
+        "capital": "Nairobi",
+        "region": "AF",
+        "currency": {
+            "code": "KES",
+            "name": "Kenyan shilling",
+            "symbol": "Sh"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KE.svg"
+    },
+    {
+        "name": "Kiribati",
+        "code": "KI",
+        "capital": "South Tarawa",
+        "region": "OC",
+        "currency": {
+            "code": "AUD",
+            "name": "Australian dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KI.svg"
+    },
+    {
+        "name": "Kuwait",
+        "code": "KW",
+        "capital": "Kuwait City",
+        "region": "AS",
+        "currency": {
+            "code": "KWD",
+            "name": "Kuwaiti dinar",
+            "symbol": "\u062f.\u0643"
+        },
+        "language": {
+            "code": "ar",
+            "name": "Arabic"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KW.svg"
+    },
+    {
+        "name": "Kyrgyzstan",
+        "code": "KG",
+        "capital": "Bishkek",
+        "region": "AS",
+        "currency": {
+            "code": "KGS",
+            "name": "Kyrgyzstani som",
+            "symbol": "\u0441"
+        },
+        "language": {
+            "code": "ky",
+            "name": "Kyrgyz"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KG.svg"
+    },
+    {
+        "name": "Lao People's Democratic Republic",
+        "code": "LA",
+        "capital": "Vientiane",
+        "region": "AS",
+        "currency": {
+            "code": "LAK",
+            "name": "Lao kip",
+            "symbol": "\u20ad"
+        },
+        "language": {
+            "code": "lo",
+            "name": "Lao"
+        },
+        "flag": "https://restcountries.eu/data/lao.svg"
+    },
+    {
+        "name": "Latvia",
+        "code": "LV",
+        "capital": "Riga",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "lv",
+            "name": "Latvian"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LV.svg"
+    },
+    {
+        "name": "Lebanon",
+        "code": "LB",
+        "capital": "Beirut",
+        "region": "AS",
+        "currency": {
+            "code": "LBP",
+            "name": "Lebanese pound",
+            "symbol": "\u0644.\u0644"
+        },
+        "language": {
+            "code": "ar",
+            "name": "Arabic"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LB.svg"
+    },
+    {
+        "name": "Lesotho",
+        "code": "LS",
+        "capital": "Maseru",
+        "region": "AF",
+        "currency": {
+            "code": "LSL",
+            "name": "Lesotho loti",
+            "symbol": "L"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LS.svg"
+    },
+    {
+        "name": "Liberia",
+        "code": "LR",
+        "capital": "Monrovia",
+        "region": "AF",
+        "currency": {
+            "code": "LRD",
+            "name": "Liberian dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LR.svg"
+    },
+    {
+        "name": "Libya",
+        "code": "LY",
+        "capital": "Tripoli",
+        "region": "AF",
+        "currency": {
+            "code": "LYD",
+            "name": "Libyan dinar",
+            "symbol": "\u0644.\u062f"
+        },
+        "language": {
+            "code": "ar",
+            "name": "Arabic"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LY.svg"
+    },
+    {
+        "name": "Liechtenstein",
+        "code": "LI",
+        "capital": "Vaduz",
+        "region": "EU",
+        "currency": {
+            "code": "CHF",
+            "name": "Swiss franc",
+            "symbol": "Fr"
+        },
+        "language": {
+            "code": "de",
+            "name": "German"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LI.svg"
+    },
+    {
+        "name": "Lithuania",
+        "code": "LT",
+        "capital": "Vilnius",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "lt",
+            "name": "Lithuanian"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LT.svg"
+    },
+    {
+        "name": "Luxembourg",
+        "code": "LU",
+        "capital": "Luxembourg",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LU.svg"
+    },
+    {
+        "name": "Macao",
+        "code": "MO",
+        "capital": "",
+        "region": "AS",
+        "currency": {
+            "code": "MOP",
+            "name": "Macanese pataca",
+            "symbol": "P"
+        },
+        "language": {
+            "code": "zh",
+            "name": "Chinese"
+        },
+        "flag": "https://restcountries.eu/data/mac.svg"
+    },
+    {
+        "name": "Macedonia (the former Yugoslav Republic of)",
+        "code": "MK",
+        "capital": "Skopje",
+        "region": "EU",
+        "currency": {
+            "code": "MKD",
+            "name": "Macedonian denar",
+            "symbol": "\u0434\u0435\u043d"
+        },
+        "language": {
+            "code": "mk",
+            "name": "Macedonian"
+        },
+        "flag": "https://restcountries.eu/data/mkd.svg"
+    },
+    {
+        "name": "Madagascar",
+        "code": "MG",
+        "capital": "Antananarivo",
+        "region": "AF",
+        "currency": {
+            "code": "MGA",
+            "name": "Malagasy ariary",
+            "symbol": "Ar"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MG.svg"
+    },
+    {
+        "name": "Malawi",
+        "code": "MW",
+        "capital": "Lilongwe",
+        "region": "AF",
+        "currency": {
+            "code": "MWK",
+            "name": "Malawian kwacha",
+            "symbol": "MK"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MW.svg"
+    },
+    {
+        "name": "Malaysia",
+        "code": "MY",
+        "capital": "Kuala Lumpur",
+        "region": "AS",
+        "currency": {
+            "code": "MYR",
+            "name": "Malaysian ringgit",
+            "symbol": "RM"
+        },
+        "language": {
+            "code": "",
+            "name": "Malaysian"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MY.svg"
+    },
+    {
+        "name": "Maldives",
+        "code": "MV",
+        "capital": "Mal\u00e9",
+        "region": "AS",
+        "currency": {
+            "code": "MVR",
+            "name": "Maldivian rufiyaa",
+            "symbol": ".\u0783"
+        },
+        "language": {
+            "code": "dv",
+            "name": "Divehi"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MV.svg"
+    },
+    {
+        "name": "Mali",
+        "code": "ML",
+        "capital": "Bamako",
+        "region": "AF",
+        "currency": {
+            "code": "XOF",
+            "name": "West African CFA franc",
+            "symbol": "Fr"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ML.svg"
+    },
+    {
+        "name": "Malta",
+        "code": "MT",
+        "capital": "Valletta",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "mt",
+            "name": "Maltese"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MT.svg"
+    },
+    {
+        "name": "Marshall Islands",
+        "code": "MH",
+        "capital": "Majuro",
+        "region": "OC",
+        "currency": {
+            "code": "USD",
+            "name": "United States dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MH.svg"
+    },
+    {
+        "name": "Martinique",
+        "code": "MQ",
+        "capital": "Fort-de-France",
+        "region": "Americas",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MQ.svg"
+    },
+    {
+        "name": "Mauritania",
+        "code": "MR",
+        "capital": "Nouakchott",
+        "region": "AF",
+        "currency": {
+            "code": "MRO",
+            "name": "Mauritanian ouguiya",
+            "symbol": "UM"
+        },
+        "language": {
+            "code": "ar",
+            "name": "Arabic"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MR.svg"
+    },
+    {
+        "name": "Mauritius",
+        "code": "MU",
+        "capital": "Port Louis",
+        "region": "AF",
+        "currency": {
+            "code": "MUR",
+            "name": "Mauritian rupee",
+            "symbol": "\u20a8"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MU.svg"
+    },
+    {
+        "name": "Mayotte",
+        "code": "YT",
+        "capital": "Mamoudzou",
+        "region": "AF",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/YT.svg"
+    },
+    {
+        "name": "Mexico",
+        "code": "MX",
+        "capital": "Mexico City",
+        "region": "NA",
+        "currency": {
+            "code": "MXN",
+            "name": "Mexican peso",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "es",
+            "name": "Spanish"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MX.svg"
+    },
+    {
+        "name": "Micronesia (Federated States of)",
+        "code": "FM",
+        "capital": "Palikir",
+        "region": "OC",
+        "currency": {
+            "code": "USD",
+            "name": "United States dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://restcountries.eu/data/fsm.svg"
+    },
+    {
+        "name": "Moldova (Republic of)",
+        "code": "MD",
+        "capital": "Chi\u0219in\u0103u",
+        "region": "EU",
+        "currency": {
+            "code": "MDL",
+            "name": "Moldovan leu",
+            "symbol": "L"
+        },
+        "language": {
+            "code": "ro",
+            "name": "Romanian"
+        },
+        "flag": "https://restcountries.eu/data/mda.svg"
+    },
+    {
+        "name": "Monaco",
+        "code": "MC",
+        "capital": "Monaco",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MC.svg"
+    },
+    {
+        "name": "Mongolia",
+        "code": "MN",
+        "capital": "Ulan Bator",
+        "region": "AS",
+        "currency": {
+            "code": "MNT",
+            "name": "Mongolian t\u00f6gr\u00f6g",
+            "symbol": "\u20ae"
+        },
+        "language": {
+            "code": "mn",
+            "name": "Mongolian"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MN.svg"
+    },
+    {
+        "name": "Montenegro",
+        "code": "ME",
+        "capital": "Podgorica",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "sr",
+            "name": "Serbian"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ME.svg"
+    },
+    {
+        "name": "Montserrat",
+        "code": "MS",
+        "capital": "Plymouth",
+        "region": "NA",
+        "currency": {
+            "code": "XCD",
+            "name": "East Caribbean dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MS.svg"
+    },
+    {
+        "name": "Morocco",
+        "code": "MA",
+        "capital": "Rabat",
+        "region": "AF",
+        "currency": {
+            "code": "MAD",
+            "name": "Moroccan dirham",
+            "symbol": "\u062f.\u0645."
+        },
+        "language": {
+            "code": "ar",
+            "name": "Arabic"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MA.svg"
+    },
+    {
+        "name": "Mozambique",
+        "code": "MZ",
+        "capital": "Maputo",
+        "region": "AF",
+        "currency": {
+            "code": "MZN",
+            "name": "Mozambican metical",
+            "symbol": "MT"
+        },
+        "language": {
+            "code": "pt",
+            "name": "Portuguese"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MZ.svg"
+    },
+    {
+        "name": "Myanmar",
+        "code": "MM",
+        "capital": "Naypyidaw",
+        "region": "AS",
+        "currency": {
+            "code": "MMK",
+            "name": "Burmese kyat",
+            "symbol": "Ks"
+        },
+        "language": {
+            "code": "my",
+            "name": "Burmese"
+        },
+        "flag": "https://restcountries.eu/data/mmr.svg"
+    },
+    {
+        "name": "Namibia",
+        "code": "NA",
+        "capital": "Windhoek",
+        "region": "AF",
+        "currency": {
+            "code": "NAD",
+            "name": "Namibian dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NA.svg"
+    },
+    {
+        "name": "Nauru",
+        "code": "NR",
+        "capital": "Yaren",
+        "region": "OC",
+        "currency": {
+            "code": "AUD",
+            "name": "Australian dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NR.svg"
+    },
+    {
+        "name": "Nepal",
+        "code": "NP",
+        "capital": "Kathmandu",
+        "region": "AS",
+        "currency": {
+            "code": "NPR",
+            "name": "Nepalese rupee",
+            "symbol": "\u20a8"
+        },
+        "language": {
+            "code": "ne",
+            "name": "Nepali"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NP.svg"
+    },
+    {
+        "name": "Netherlands",
+        "code": "NL",
+        "capital": "Amsterdam",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "nl",
+            "name": "Dutch"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NL.svg"
+    },
+    {
+        "name": "New Caledonia",
+        "code": "NC",
+        "capital": "Noum\u00e9a",
+        "region": "OC",
+        "currency": {
+            "code": "XPF",
+            "name": "CFP franc",
+            "symbol": "Fr"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NC.svg"
+    },
+    {
+        "name": "New Zealand",
+        "code": "NZ",
+        "capital": "Wellington",
+        "region": "OC",
+        "currency": {
+            "code": "NZD",
+            "name": "New Zealand dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NZ.svg"
+    },
+    {
+        "name": "Nicaragua",
+        "code": "NI",
+        "capital": "Managua",
+        "region": "NA",
+        "currency": {
+            "code": "NIO",
+            "name": "Nicaraguan c\u00f3rdoba",
+            "symbol": "C$"
+        },
+        "language": {
+            "code": "es",
+            "name": "Spanish"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NI.svg"
+    },
+    {
+        "name": "Niger",
+        "code": "NE",
+        "capital": "Niamey",
+        "region": "AF",
+        "currency": {
+            "code": "XOF",
+            "name": "West African CFA franc",
+            "symbol": "Fr"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NE.svg"
+    },
+    {
+        "name": "Nigeria",
+        "code": "NG",
+        "capital": "Abuja",
+        "region": "AF",
+        "currency": {
+            "code": "NGN",
+            "name": "Nigerian naira",
+            "symbol": "\u20a6"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NG.svg"
+    },
+    {
+        "name": "Niue",
+        "code": "NU",
+        "capital": "Alofi",
+        "region": "OC",
+        "currency": {
+            "code": "NZD",
+            "name": "New Zealand dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NU.svg"
+    },
+    {
+        "name": "Norfolk Island",
+        "code": "NF",
+        "capital": "Kingston",
+        "region": "OC",
+        "currency": {
+            "code": "AUD",
+            "name": "Australian dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NF.svg"
+    },
+    {
+        "name": "Korea (Democratic People's Republic of)",
+        "code": "KP",
+        "capital": "Pyongyang",
+        "region": "AS",
+        "currency": {
+            "code": "KPW",
+            "name": "North Korean won",
+            "symbol": "\u20a9"
+        },
+        "language": {
+            "code": "ko",
+            "name": "Korean"
+        },
+        "flag": "https://restcountries.eu/data/prk.svg"
+    },
+    {
+        "name": "Northern Mariana Islands",
+        "code": "MP",
+        "capital": "Saipan",
+        "region": "OC",
+        "currency": {
+            "code": "USD",
+            "name": "United States dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MP.svg"
+    },
+    {
+        "name": "Norway",
+        "code": "NO",
+        "capital": "Oslo",
+        "region": "EU",
+        "currency": {
+            "code": "NOK",
+            "name": "Norwegian krone",
+            "symbol": "kr"
+        },
+        "language": {
+            "code": "no",
+            "name": "Norwegian"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NO.svg"
+    },
+    {
+        "name": "Oman",
+        "code": "OM",
+        "capital": "Muscat",
+        "region": "AS",
+        "currency": {
+            "code": "OMR",
+            "name": "Omani rial",
+            "symbol": "\u0631.\u0639."
+        },
+        "language": {
+            "code": "ar",
+            "name": "Arabic"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/OM.svg"
+    },
+    {
+        "name": "Pakistan",
+        "code": "PK",
+        "capital": "Islamabad",
+        "region": "AS",
+        "currency": {
+            "code": "PKR",
+            "name": "Pakistani rupee",
+            "symbol": "\u20a8"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PK.svg"
+    },
+    {
+        "name": "Palau",
+        "code": "PW",
+        "capital": "Ngerulmud",
+        "region": "OC",
+        "currency": {
+            "code": "USD",
+            "name": "United States dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PW.svg"
+    },
+    {
+        "name": "Palestine, State of",
+        "code": "PS",
+        "capital": "Ramallah",
+        "region": "AS",
+        "currency": {
+            "code": "ILS",
+            "name": "Israeli new sheqel",
+            "symbol": "\u20aa"
+        },
+        "language": {
+            "code": "ar",
+            "name": "Arabic"
+        },
+        "flag": "https://restcountries.eu/data/pse.svg"
+    },
+    {
+        "name": "Panama",
+        "code": "PA",
+        "capital": "Panama City",
+        "region": "NA",
+        "currency": {
+            "code": "USD",
+            "name": "United States dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "es",
+            "name": "Spanish"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PA.svg"
+    },
+    {
+        "name": "Papua New Guinea",
+        "code": "PG",
+        "capital": "Port Moresby",
+        "region": "OC",
+        "currency": {
+            "code": "PGK",
+            "name": "Papua New Guinean kina",
+            "symbol": "K"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PG.svg"
+    },
+    {
+        "name": "Paraguay",
+        "code": "PY",
+        "capital": "Asunci\u00f3n",
+        "region": "SA",
+        "currency": {
+            "code": "PYG",
+            "name": "Paraguayan guaran\u00ed",
+            "symbol": "\u20b2"
+        },
+        "language": {
+            "code": "es",
+            "name": "Spanish"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PY.svg"
+    },
+    {
+        "name": "Peru",
+        "code": "PE",
+        "capital": "Lima",
+        "region": "SA",
+        "currency": {
+            "code": "PEN",
+            "name": "Peruvian sol",
+            "symbol": "S/."
+        },
+        "language": {
+            "code": "es",
+            "name": "Spanish"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PE.svg"
+    },
+    {
+        "name": "Philippines",
+        "code": "PH",
+        "capital": "Manila",
+        "region": "AS",
+        "currency": {
+            "code": "PHP",
+            "name": "Philippine peso",
+            "symbol": "\u20b1"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PH.svg"
+    },
+    {
+        "name": "Pitcairn",
+        "code": "PN",
+        "capital": "Adamstown",
+        "region": "OC",
+        "currency": {
+            "code": "NZD",
+            "name": "New Zealand dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://restcountries.eu/data/pcn.svg"
+    },
+    {
+        "name": "Poland",
+        "code": "PL",
+        "capital": "Warsaw",
+        "region": "EU",
+        "currency": {
+            "code": "PLN",
+            "name": "Polish z\u0142oty",
+            "symbol": "z\u0142"
+        },
+        "language": {
+            "code": "pl",
+            "name": "Polish"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PL.svg"
+    },
+    {
+        "name": "Portugal",
+        "code": "PT",
+        "capital": "Lisbon",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "pt",
+            "name": "Portuguese"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PT.svg"
+    },
+    {
+        "name": "Puerto Rico",
+        "code": "PR",
+        "capital": "San Juan",
+        "region": "NA",
+        "currency": {
+            "code": "USD",
+            "name": "United States dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "es",
+            "name": "Spanish"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PR.svg"
+    },
+    {
+        "name": "Qatar",
+        "code": "QA",
+        "capital": "Doha",
+        "region": "AS",
+        "currency": {
+            "code": "QAR",
+            "name": "Qatari riyal",
+            "symbol": "\u0631.\u0642"
+        },
+        "language": {
+            "code": "ar",
+            "name": "Arabic"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/QA.svg"
+    },
+    {
+        "name": "Republic of Kosovo",
+        "code": "XK",
+        "capital": "Pristina",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "sq",
+            "name": "Albanian"
+        },
+        "flag": "https://restcountries.eu/data/kos.svg"
+    },
+    {
+        "name": "R\u00e9union",
+        "code": "RE",
+        "capital": "Saint-Denis",
+        "region": "AF",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/RE.svg"
+    },
+    {
+        "name": "Romania",
+        "code": "RO",
+        "capital": "Bucharest",
+        "region": "EU",
+        "currency": {
+            "code": "RON",
+            "name": "Romanian leu",
+            "symbol": "lei"
+        },
+        "language": {
+            "code": "ro",
+            "name": "Romanian"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/RO.svg"
+    },
+    {
+        "name": "Russian Federation",
+        "code": "RU",
+        "capital": "Moscow",
+        "region": "EU",
+        "currency": {
+            "code": "RUB",
+            "name": "Russian ruble",
+            "symbol": "\u20bd"
+        },
+        "language": {
+            "code": "ru",
+            "name": "Russian"
+        },
+        "flag": "https://restcountries.eu/data/rus.svg"
+    },
+    {
+        "name": "Rwanda",
+        "code": "RW",
+        "capital": "Kigali",
+        "region": "AF",
+        "currency": {
+            "code": "RWF",
+            "name": "Rwandan franc",
+            "symbol": "Fr"
+        },
+        "language": {
+            "code": "rw",
+            "name": "Kinyarwanda"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/RW.svg"
+    },
+    {
+        "name": "Saint Barth\u00e9lemy",
+        "code": "BL",
+        "capital": "Gustavia",
+        "region": "NA",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://restcountries.eu/data/blm.svg"
+    },
+    {
+        "name": "Saint Helena, Ascension and Tristan da Cunha",
+        "code": "SH",
+        "capital": "Jamestown",
+        "region": "AF",
+        "currency": {
+            "code": "SHP",
+            "name": "Saint Helena pound",
+            "symbol": "\u00a3"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://restcountries.eu/data/shn.svg"
+    },
+    {
+        "name": "Saint Kitts and Nevis",
+        "code": "KN",
+        "capital": "Basseterre",
+        "region": "NA",
+        "currency": {
+            "code": "XCD",
+            "name": "East Caribbean dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://restcountries.eu/data/kna.svg"
+    },
+    {
+        "name": "Saint Lucia",
+        "code": "LC",
+        "capital": "Castries",
+        "region": "NA",
+        "currency": {
+            "code": "XCD",
+            "name": "East Caribbean dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://restcountries.eu/data/lca.svg"
+    },
+    {
+        "name": "Saint Martin (French part)",
+        "code": "MF",
+        "capital": "Marigot",
+        "region": "NA",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://restcountries.eu/data/maf.svg"
+    },
+    {
+        "name": "Saint Pierre and Miquelon",
+        "code": "PM",
+        "capital": "Saint-Pierre",
+        "region": "NA",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://restcountries.eu/data/spm.svg"
+    },
+    {
+        "name": "Saint Vincent and the Grenadines",
+        "code": "VC",
+        "capital": "Kingstown",
+        "region": "NA",
+        "currency": {
+            "code": "XCD",
+            "name": "East Caribbean dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://restcountries.eu/data/vct.svg"
+    },
+    {
+        "name": "Samoa",
+        "code": "WS",
+        "capital": "Apia",
+        "region": "OC",
+        "currency": {
+            "code": "WST",
+            "name": "Samoan t\u0101l\u0101",
+            "symbol": "T"
+        },
+        "language": {
+            "code": "sm",
+            "name": "Samoan"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/WS.svg"
+    },
+    {
+        "name": "San Marino",
+        "code": "SM",
+        "capital": "City of San Marino",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "it",
+            "name": "Italian"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SM.svg"
+    },
+    {
+        "name": "Sao Tome and Principe",
+        "code": "ST",
+        "capital": "S\u00e3o Tom\u00e9",
+        "region": "AF",
+        "currency": {
+            "code": "STD",
+            "name": "S\u00e3o Tom\u00e9 and Pr\u00edncipe dobra",
+            "symbol": "Db"
+        },
+        "language": {
+            "code": "pt",
+            "name": "Portuguese"
+        },
+        "flag": "https://restcountries.eu/data/stp.svg"
+    },
+    {
+        "name": "Saudi Arabia",
+        "code": "SA",
+        "capital": "Riyadh",
+        "region": "AS",
+        "currency": {
+            "code": "SAR",
+            "name": "Saudi riyal",
+            "symbol": "\u0631.\u0633"
+        },
+        "language": {
+            "code": "ar",
+            "name": "Arabic"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SA.svg"
+    },
+    {
+        "name": "Senegal",
+        "code": "SN",
+        "capital": "Dakar",
+        "region": "AF",
+        "currency": {
+            "code": "XOF",
+            "name": "West African CFA franc",
+            "symbol": "Fr"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SN.svg"
+    },
+    {
+        "name": "Serbia",
+        "code": "RS",
+        "capital": "Belgrade",
+        "region": "EU",
+        "currency": {
+            "code": "RSD",
+            "name": "Serbian dinar",
+            "symbol": "\u0434\u0438\u043d."
+        },
+        "language": {
+            "code": "sr",
+            "name": "Serbian"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/RS.svg"
+    },
+    {
+        "name": "Seychelles",
+        "code": "SC",
+        "capital": "Victoria",
+        "region": "AF",
+        "currency": {
+            "code": "SCR",
+            "name": "Seychellois rupee",
+            "symbol": "\u20a8"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SC.svg"
+    },
+    {
+        "name": "Sierra Leone",
+        "code": "SL",
+        "capital": "Freetown",
+        "region": "AF",
+        "currency": {
+            "code": "SLL",
+            "name": "Sierra Leonean leone",
+            "symbol": "Le"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SL.svg"
+    },
+    {
+        "name": "Singapore",
+        "code": "SG",
+        "capital": "Singapore",
+        "region": "AS",
+        "currency": {
+            "code": "SGD",
+            "name": "Singapore dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SG.svg"
+    },
+    {
+        "name": "Sint Maarten (Dutch part)",
+        "code": "SX",
+        "capital": "Philipsburg",
+        "region": "Americas",
+        "currency": {
+            "code": "ANG",
+            "name": "Netherlands Antillean guilder",
+            "symbol": "\u0192"
+        },
+        "language": {
+            "code": "nl",
+            "name": "Dutch"
+        },
+        "flag": "https://restcountries.eu/data/sxm.svg"
+    },
+    {
+        "name": "Slovakia",
+        "code": "SK",
+        "capital": "Bratislava",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "sk",
+            "name": "Slovak"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SK.svg"
+    },
+    {
+        "name": "Slovenia",
+        "code": "SI",
+        "capital": "Ljubljana",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "sl",
+            "name": "Slovene"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SI.svg"
+    },
+    {
+        "name": "Solomon Islands",
+        "code": "SB",
+        "capital": "Honiara",
+        "region": "OC",
+        "currency": {
+            "code": "SBD",
+            "name": "Solomon Islands dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SB.svg"
+    },
+    {
+        "name": "Somalia",
+        "code": "SO",
+        "capital": "Mogadishu",
+        "region": "AF",
+        "currency": {
+            "code": "SOS",
+            "name": "Somali shilling",
+            "symbol": "Sh"
+        },
+        "language": {
+            "code": "ar",
+            "name": "Arabic"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SO.svg"
+    },
+    {
+        "name": "South Africa",
+        "code": "ZA",
+        "capital": "Pretoria",
+        "region": "AF",
+        "currency": {
+            "code": "ZAR",
+            "name": "South African rand",
+            "symbol": "R"
+        },
+        "language": {
+            "code": "en",
+            "iso639_2": "eng",
+            "name": "English",
+            "nativeName": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ZA.svg"
+    },
+    {
+        "name": "South Georgia and the South Sandwich Islands",
+        "code": "GS",
+        "capital": "King Edward Point",
+        "region": "NA",
+        "currency": {
+            "code": "GBP",
+            "name": "British pound",
+            "symbol": "\u00a3"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://restcountries.eu/data/sgs.svg"
+    },
+    {
+        "name": "Korea (Republic of)",
+        "code": "KR",
+        "capital": "Seoul",
+        "region": "AS",
+        "currency": {
+            "code": "KRW",
+            "name": "South Korean won",
+            "symbol": "\u20a9"
+        },
+        "language": {
+            "code": "ko",
+            "name": "Korean"
+        },
+        "flag": "https://restcountries.eu/data/kor.svg"
+    },
+    {
+        "name": "South Sudan",
+        "code": "SS",
+        "capital": "Juba",
+        "region": "AF",
+        "currency": {
+            "code": "SSP",
+            "name": "South Sudanese pound",
+            "symbol": "\u00a3"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SS.svg"
+    },
+    {
+        "name": "Spain",
+        "code": "ES",
+        "capital": "Madrid",
+        "region": "EU",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "\u20ac"
+        },
+        "language": {
+            "code": "es",
+            "name": "Spanish"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ES.svg"
+    },
+    {
+        "name": "Sri Lanka",
+        "code": "LK",
+        "capital": "Colombo",
+        "region": "AS",
+        "currency": {
+            "code": "LKR",
+            "name": "Sri Lankan rupee",
+            "symbol": "Rs"
+        },
+        "language": {
+            "code": "si",
+            "iso639_2": "sin",
+            "name": "Sinhalese",
+            "nativeName": "\u0dc3\u0dd2\u0d82\u0dc4\u0dbd"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LK.svg"
+    },
+    {
+        "name": "Sudan",
+        "code": "SD",
+        "capital": "Khartoum",
+        "region": "AF",
+        "currency": {
+            "code": "SDG",
+            "name": "Sudanese pound",
+            "symbol": "\u062c.\u0633."
+        },
+        "language": {
+            "code": "ar",
+            "name": "Arabic"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SD.svg"
+    },
+    {
+        "name": "Suriname",
+        "code": "SR",
+        "capital": "Paramaribo",
+        "region": "SA",
+        "currency": {
+            "code": "SRD",
+            "name": "Surinamese dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "nl",
+            "name": "Dutch"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SR.svg"
+    },
+    {
+        "name": "Svalbard and Jan Mayen",
+        "code": "SJ",
+        "capital": "Longyearbyen",
+        "region": "EU",
+        "currency": {
+            "code": "NOK",
+            "name": "Norwegian krone",
+            "symbol": "kr"
+        },
+        "language": {
+            "code": "no",
+            "name": "Norwegian"
+        },
+        "flag": "https://restcountries.eu/data/sjm.svg"
+    },
+    {
+        "name": "Swaziland",
+        "code": "SZ",
+        "capital": "Lobamba",
+        "region": "AF",
+        "currency": {
+            "code": "SZL",
+            "name": "Swazi lilangeni",
+            "symbol": "L"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://restcountries.eu/data/swz.svg"
+    },
+    {
+        "name": "Sweden",
+        "code": "SE",
+        "capital": "Stockholm",
+        "region": "EU",
+        "currency": {
+            "code": "SEK",
+            "name": "Swedish krona",
+            "symbol": "kr"
+        },
+        "language": {
+            "code": "sv",
+            "name": "Swedish"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SE.svg"
+    },
+    {
+        "name": "Switzerland",
+        "code": "CH",
+        "capital": "Bern",
+        "region": "EU",
+        "currency": {
+            "code": "CHF",
+            "name": "Swiss franc",
+            "symbol": "Fr"
+        },
+        "language": {
+            "code": "de",
+            "name": "German"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CH.svg"
+    },
+    {
+        "name": "Syrian Arab Republic",
+        "code": "SY",
+        "capital": "Damascus",
+        "region": "AS",
+        "currency": {
+            "code": "SYP",
+            "name": "Syrian pound",
+            "symbol": "\u00a3"
+        },
+        "language": {
+            "code": "ar",
+            "name": "Arabic"
+        },
+        "flag": "https://restcountries.eu/data/syr.svg"
+    },
+    {
+        "name": "Taiwan",
+        "code": "TW",
+        "capital": "Taipei",
+        "region": "AS",
+        "currency": {
+            "code": "TWD",
+            "name": "New Taiwan dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "zh",
+            "name": "Chinese"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TW.svg"
+    },
+    {
+        "name": "Tajikistan",
+        "code": "TJ",
+        "capital": "Dushanbe",
+        "region": "AS",
+        "currency": {
+            "code": "TJS",
+            "name": "Tajikistani somoni",
+            "symbol": "\u0405\u041c"
+        },
+        "language": {
+            "code": "tg",
+            "name": "Tajik"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TJ.svg"
+    },
+    {
+        "name": "Tanzania, United Republic of",
+        "code": "TZ",
+        "capital": "Dodoma",
+        "region": "AF",
+        "currency": {
+            "code": "TZS",
+            "name": "Tanzanian shilling",
+            "symbol": "Sh"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://restcountries.eu/data/tza.svg"
+    },
+    {
+        "name": "Thailand",
+        "code": "TH",
+        "capital": "Bangkok",
+        "region": "AS",
+        "currency": {
+            "code": "THB",
+            "name": "Thai baht",
+            "symbol": "\u0e3f"
+        },
+        "language": {
+            "code": "th",
+            "name": "Thai"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TH.svg"
+    },
+    {
+        "name": "Timor-Leste",
+        "code": "TL",
+        "capital": "Dili",
+        "region": "AS",
+        "currency": {
+            "code": "USD",
+            "name": "United States dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "pt",
+            "name": "Portuguese"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TL.svg"
+    },
+    {
+        "name": "Togo",
+        "code": "TG",
+        "capital": "Lom\u00e9",
+        "region": "AF",
+        "currency": {
+            "code": "XOF",
+            "name": "West African CFA franc",
+            "symbol": "Fr"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TG.svg"
+    },
+    {
+        "name": "Tokelau",
+        "code": "TK",
+        "capital": "Fakaofo",
+        "region": "OC",
+        "currency": {
+            "code": "NZD",
+            "name": "New Zealand dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TK.svg"
+    },
+    {
+        "name": "Tonga",
+        "code": "TO",
+        "capital": "Nuku'alofa",
+        "region": "OC",
+        "currency": {
+            "code": "TOP",
+            "name": "Tongan pa\u02bbanga",
+            "symbol": "T$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TO.svg"
+    },
+    {
+        "name": "Trinidad and Tobago",
+        "code": "TT",
+        "capital": "Port of Spain",
+        "region": "SA",
+        "currency": {
+            "code": "TTD",
+            "name": "Trinidad and Tobago dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://restcountries.eu/data/tto.svg"
+    },
+    {
+        "name": "Tunisia",
+        "code": "TN",
+        "capital": "Tunis",
+        "region": "AF",
+        "currency": {
+            "code": "TND",
+            "name": "Tunisian dinar",
+            "symbol": "\u062f.\u062a"
+        },
+        "language": {
+            "code": "ar",
+            "name": "Arabic"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TN.svg"
+    },
+    {
+        "name": "Turkey",
+        "code": "TR",
+        "capital": "Ankara",
+        "region": "AS",
+        "currency": {
+            "code": "TRY",
+            "name": "Turkish lira",
+            "symbol": ""
+        },
+        "language": {
+            "code": "tr",
+            "name": "Turkish"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TR.svg"
+    },
+    {
+        "name": "Turkmenistan",
+        "code": "TM",
+        "capital": "Ashgabat",
+        "region": "AS",
+        "currency": {
+            "code": "TMT",
+            "name": "Turkmenistan manat",
+            "symbol": "m"
+        },
+        "language": {
+            "code": "tk",
+            "name": "Turkmen"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TM.svg"
+    },
+    {
+        "name": "Turks and Caicos Islands",
+        "code": "TC",
+        "capital": "Cockburn Town",
+        "region": "NA",
+        "currency": {
+            "code": "USD",
+            "name": "United States dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://restcountries.eu/data/tca.svg"
+    },
+    {
+        "name": "Tuvalu",
+        "code": "TV",
+        "capital": "Funafuti",
+        "region": "OC",
+        "currency": {
+            "code": "AUD",
+            "name": "Australian dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TV.svg"
+    },
+    {
+        "name": "Uganda",
+        "code": "UG",
+        "capital": "Kampala",
+        "region": "AF",
+        "currency": {
+            "code": "UGX",
+            "name": "Ugandan shilling",
+            "symbol": "Sh"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/UG.svg"
+    },
+    {
+        "name": "Ukraine",
+        "code": "UA",
+        "capital": "Kiev",
+        "region": "EU",
+        "currency": {
+            "code": "UAH",
+            "name": "Ukrainian hryvnia",
+            "symbol": "\u20b4"
+        },
+        "language": {
+            "code": "uk",
+            "name": "Ukrainian"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/UA.svg"
+    },
+    {
+        "name": "United Arab Emirates",
+        "code": "AE",
+        "capital": "Abu Dhabi",
+        "region": "AS",
+        "currency": {
+            "code": "AED",
+            "name": "United Arab Emirates dirham",
+            "symbol": "\u062f.\u0625"
+        },
+        "language": {
+            "code": "ar",
+            "name": "Arabic"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AE.svg"
+    },
+    {
+        "name": "United Kingdom of Great Britain and Northern Ireland",
+        "code": "GB",
+        "capital": "London",
+        "region": "EU",
+        "currency": {
+            "code": "GBP",
+            "name": "British pound",
+            "symbol": "\u00a3"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://restcountries.eu/data/gbr.svg"
+    },
+    {
+        "name": "United States of America",
+        "code": "US",
+        "capital": "Washington, D.C.",
+        "region": "NA",
+        "currency": {
+            "code": "USD",
+            "name": "United States dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "en",
+            "iso639_2": "eng",
+            "name": "English",
+            "nativeName": "English"
+        },
+        "flag": "https://restcountries.eu/data/usa.svg"
+    },
+    {
+        "name": "Uruguay",
+        "code": "UY",
+        "capital": "Montevideo",
+        "region": "SA",
+        "currency": {
+            "code": "UYU",
+            "name": "Uruguayan peso",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "es",
+            "name": "Spanish"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/UY.svg"
+    },
+    {
+        "name": "Uzbekistan",
+        "code": "UZ",
+        "capital": "Tashkent",
+        "region": "AS",
+        "currency": {
+            "code": "UZS",
+            "name": "Uzbekistani so'm",
+            "symbol": ""
+        },
+        "language": {
+            "code": "uz",
+            "name": "Uzbek"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/UZ.svg"
+    },
+    {
+        "name": "Vanuatu",
+        "code": "VU",
+        "capital": "Port Vila",
+        "region": "OC",
+        "currency": {
+            "code": "VUV",
+            "name": "Vanuatu vatu",
+            "symbol": "Vt"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/VU.svg"
+    },
+    {
+        "name": "Venezuela (Bolivarian Republic of)",
+        "code": "VE",
+        "capital": "Caracas",
+        "region": "SA",
+        "currency": {
+            "code": "VEF",
+            "name": "Venezuelan bol\u00edvar",
+            "symbol": "Bs F"
+        },
+        "language": {
+            "code": "es",
+            "name": "Spanish"
+        },
+        "flag": "https://restcountries.eu/data/ven.svg"
+    },
+    {
+        "name": "Viet Nam",
+        "code": "VN",
+        "capital": "Hanoi",
+        "region": "AS",
+        "currency": {
+            "code": "VND",
+            "name": "Vietnamese \u0111\u1ed3ng",
+            "symbol": "\u20ab"
+        },
+        "language": {
+            "code": "vi",
+            "name": "Vietnamese"
+        },
+        "flag": "https://restcountries.eu/data/vnm.svg"
+    },
+    {
+        "name": "Wallis and Futuna",
+        "code": "WF",
+        "capital": "Mata-Utu",
+        "region": "OC",
+        "currency": {
+            "code": "XPF",
+            "name": "CFP franc",
+            "symbol": "Fr"
+        },
+        "language": {
+            "code": "fr",
+            "name": "French"
+        },
+        "flag": "https://restcountries.eu/data/wlf.svg"
+    },
+    {
+        "name": "Western Sahara",
+        "code": "EH",
+        "capital": "El Aai\u00fan",
+        "region": "AF",
+        "currency": {
+            "code": "MAD",
+            "name": "Moroccan dirham",
+            "symbol": "\u062f.\u0645."
+        },
+        "language": {
+            "code": "es",
+            "name": "Spanish"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/EH.svg"
+    },
+    {
+        "name": "Yemen",
+        "code": "YE",
+        "capital": "Sana'a",
+        "region": "AS",
+        "currency": {
+            "code": "YER",
+            "name": "Yemeni rial",
+            "symbol": "\ufdfc"
+        },
+        "language": {
+            "code": "ar",
+            "name": "Arabic"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/YE.svg"
+    },
+    {
+        "name": "Zambia",
+        "code": "ZM",
+        "capital": "Lusaka",
+        "region": "AF",
+        "currency": {
+            "code": "ZMW",
+            "name": "Zambian kwacha",
+            "symbol": "ZK"
+        },
+        "language": {
+            "code": "en",
+            "name": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ZM.svg"
+    },
+    {
+        "name": "Zimbabwe",
+        "code": "ZW",
+        "capital": "Harare",
+        "region": "AF",
+        "currency": {
+            "code": "BWP",
+            "name": "Botswana pula",
+            "symbol": "P"
+        },
+        "language": {
+            "code": "en",
+            "iso639_2": "eng",
+            "name": "English",
+            "nativeName": "English"
+        },
+        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ZW.svg"
+    }
+]

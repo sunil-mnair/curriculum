@@ -1,0 +1,57 @@
+{
+  "Microsoft Power BI": [
+    {
+      "id": 1,
+      "question": "How frequently do you work with data in your current role?",
+      "choices": ["Frequently", "Occasionally", "Rarely", "Never"],
+      "image": null
+    },
+    {
+      "id": 2,
+      "question": "What are the typical data sources you currently work with?",
+      "choices": [
+        "Excel Spreadsheets",
+        "Relational Databases",
+        "CSV Files",
+        "APIs",
+        "Other"
+      ],
+      "image": null
+    },
+    {
+      "id": 3,
+      "question": "How would you rate your current understanding of Power BI terminology?",
+      "choices": ["No experience", "Beginner", "Intermediate"],
+      "image": null
+    },
+    {
+      "id": 4,
+      "question": "Do you have experience using any other data visualization tools?",
+      "choices": ["Tableau", "QlikView", "Excel Charts", "Other", "None"],
+      "image": null
+    },
+    {
+      "id": 5,
+      "question": "Rate your proficiency in using excel?",
+      "choices": ["Never used before", "Basic", "Intermediate", "Advanced"],
+      "image": null
+    },
+    {
+      "id": 6,
+      "question": "Have you created visualizations or dashboards in excel? If yes, at which level would you see yourself.",
+      "choices": ["Never used before", "Basic", "Intermediate", "Advanced"],
+      "image": null
+    },
+    {
+      "id": 7,
+      "question": "How familiar are you with using Power Query Editor and DAX formulas?",
+      "choices": [
+        "Not familiar at all",
+        "Somewhat familiar",
+        "Moderately comfortable",
+        "Very comfortable"
+      ],
+      "image": null
+    }
+  ]
+}
