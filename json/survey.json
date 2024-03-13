@@ -53,5 +53,85 @@
       ],
       "image": null
     }
+  ],
+  "Office Productivity using ChatGPT":[
+    {
+      "id": 1,
+      "question": "Prior Experience with AI Tools in Office Productivity",
+      "choices": [
+        "I have no prior experience using AI tools for office productivity.",
+        "I have used AI tools for basic tasks (e.g., generating text, simple queries).",
+        "I am comfortable integrating AI tools for a range of office productivity tasks.",
+        "I am proficient in leveraging AI tools for complex productivity challenges."
+      ],
+      "image": null
+    },
+    {
+      "id": 2,
+      "question": "Learning Objectives Regarding AI Tools",
+      "choices": [
+        "Understand the basics of how AI tools, like ChatGPT, can be used in office productivity.",
+        "Learn specific AI tool features for enhancing productivity in document creation, spreadsheets, and presentations.",
+        "Discover advanced AI applications for office productivity, including automation and data analysis.",
+        "Explore collaborative and cloud-based AI tools for teamwork and project management."
+      ],
+      "image": null
+    },
+    {
+      "id": 3,
+      "question": "Motivations for Learning About AI in Office Productivity",
+      "choices": [
+        "To stay updated with the latest AI tools and technologies.",
+        "To improve efficiency and productivity in my current role.",
+        "To enhance my skill set for career advancement or a career change.",
+        "To innovate and implement AI solutions in my workplace or business."
+      ],
+      "image": null
+    },
+    {
+      "id": 4,
+      "question": "Preferred Learning Materials and Activities for AI Tools",
+      "choices": [
+        "Step-by-step guides and tutorials on using AI tools.",
+        "Video demonstrations of AI tools in action.",
+        "Hands-on exercises with real-world applications.",
+        "Projects or case studies on implementing AI tools in an office setting."
+      ],
+      "image": null
+    },
+    {
+      "id": 5,
+      "question": "Time and Pace for Learning About AI Tools",
+      "choices": [
+        "A self-paced course to explore AI tools at my convenience.",
+        "A short, intensive workshop focused on AI tools for productivity.",
+        "A comprehensive course spread over several weeks with in-depth coverage of AI tools.",
+        "Weekend or evening sessions that fit my schedule."
+      ],
+      "image": null
+    },
+    {
+      "id": 6,
+      "question": "Specific AI Tools and Technologies of Interest",
+      "choices": [
+        "ChatGPT for text generation and assistance.",
+        "AI-powered spreadsheet tools for data analysis and visualization.",
+        "AI-based project management and collaboration tools.",
+        "Automation tools for routine tasks and workflows."
+      ],
+      "image": null
+    },
+    {
+      "id": 7,
+      "question": "Expectations from Integrating AI Tools into Office Work",
+      "choices": [
+        "Gain a basic understanding of how AI can aid in everyday office tasks.",
+        "Acquire practical skills for using AI to streamline workflows and improve productivity.",
+        "Understand the potential impact of AI on job roles and the workplace.",
+        "Learn about the ethical considerations and best practices for using AI in a professional setting."
+      ],
+      "image": null
+    }
   ]
+  
 }
