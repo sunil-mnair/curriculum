@@ -90,28 +90,6 @@
     },
     {
       "id": 4,
-      "question": "Preferred Learning Materials and Activities for AI Tools",
-      "choices": [
-        "Step-by-step guides and tutorials on using AI tools.",
-        "Video demonstrations of AI tools in action.",
-        "Hands-on exercises with real-world applications.",
-        "Projects or case studies on implementing AI tools in an office setting."
-      ],
-      "image": null
-    },
-    {
-      "id": 5,
-      "question": "Time and Pace for Learning About AI Tools",
-      "choices": [
-        "A self-paced course to explore AI tools at my convenience.",
-        "A short, intensive workshop focused on AI tools for productivity.",
-        "A comprehensive course spread over several weeks with in-depth coverage of AI tools.",
-        "Weekend or evening sessions that fit my schedule."
-      ],
-      "image": null
-    },
-    {
-      "id": 6,
       "question": "Specific AI Tools and Technologies of Interest",
       "choices": [
         "ChatGPT for text generation and assistance.",
@@ -122,7 +100,7 @@
       "image": null
     },
     {
-      "id": 7,
+      "id": 5,
       "question": "Expectations from Integrating AI Tools into Office Work",
       "choices": [
         "Gain a basic understanding of how AI can aid in everyday office tasks.",
