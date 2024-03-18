@@ -2537,7 +2537,7 @@
             "explanation":"An API is rendered in Text, a developer can use the information to render it in the way they want"
         }
     ],
-    "Dashboard creating using Excel":[
+    "Dashboard creation using Excel":[
         {
             "id": 1,
             "question": "What is the purpose of using Excel Tables in dashboard creation?",
