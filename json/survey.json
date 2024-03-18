@@ -110,6 +110,65 @@
       ],
       "image": null
     }
-  ]
-  
+  ],
+  "Dashboard creation using Excel":
+  [
+    
+    {
+        "id": 1,
+        "question": "Select all statements that apply to your experience with dashboards in Excel:",
+        "choices": [
+            "I have created dashboards in Excel before.",
+            "I have used dashboards in Excel but never created one.",
+            "I have never created or used dashboards in Excel."
+        ],
+        "image": ""
+    },
+    {
+        "id": 2,
+        "question": "What are your main objectives for taking this course on Dashboard Creation using Excel? (Select all that apply)",
+        "choices": [
+            "Learn basic dashboard design principles",
+            "Improve data analysis and visualization skills",
+            "Learn advanced Excel functions and formulas for dashboards",
+            "Gain experience with interactive tools like slicers and pivot tables",
+            "Others"
+        ],
+        "image": ""
+    },
+    {
+        "id": 3,
+        "question": "Which methods do you prefer for learning new skills? (Select all that apply)",
+        "choices": [
+            "Hands-on practice",
+            "Watching demonstrations",
+            "Reading materials and tutorials",
+            "Group discussions and workshops"
+        ],
+        "image": ""
+    },
+    {
+        "id": 4,
+        "question": "In which areas do you plan to apply the skills learned in this course? (Select all that apply)",
+        "choices": [
+            "Work-related projects",
+            "Learning projects",
+            "Add them to my LinkedIn Profile",
+            "Others"
+        ],
+        "image": ""
+    },
+    {
+        "id": 5,
+        "question": "Which versions of Excel do you currently have access to? (Select all that apply)",
+        "choices": [
+            "Excel 2016",
+            "Excel 2019",
+            "Excel for Office 365",
+            "Others"
+        ],
+        "image": ""
+    }
+]
+
 }

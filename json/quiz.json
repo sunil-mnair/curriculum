@@ -11,7 +11,7 @@
                 "Customer Feedback",
                 "All of the above"],
                 "answer": "All of the above",
-                "explaination":"Data can be structured or unstructured."
+                "explanation":"Data can be structured or unstructured."
         },
         {
             "id": 2,
@@ -22,7 +22,7 @@
                 "Peta",
                 "Meta"],
             "answer": "Peta",
-            "explaination":"data in Peta bytes i.e. 10^15 byte size is called Big Data"
+            "explanation":"data in Peta bytes i.e. 10^15 byte size is called Big Data"
         },
         {
             "id": 3,
@@ -34,7 +34,7 @@
                 "None of the above",
                 "All of the above"],
             "answer": "Structured Data",
-            "explaination":"Data which can be saved in tables are structured data like the transaction data of the bank"
+            "explanation":"Data which can be saved in tables are structured data like the transaction data of the bank"
         },
 
         {
@@ -46,7 +46,7 @@
                 "Better operational efficiency",
                 "All of the above"],
             "answer": "All of the above",
-            "explaination":"All of the above are Benefits of Big Data Processing"
+            "explanation":"All of the above are Benefits of Big Data Processing"
         },
 
         {
@@ -58,7 +58,7 @@
                 "Character Size Values",
                 "None of the above"],
             "answer": "Comma Seperated Values",
-            "explaination":"Comma Seperated Values allows data to be saved in a tabular format. It can be read by most programs and uses minimal storage space compared to excel files"
+            "explanation":"Comma Seperated Values allows data to be saved in a tabular format. It can be read by most programs and uses minimal storage space compared to excel files"
         },
         {
             "id": 6,
@@ -69,7 +69,7 @@
                 "Name of a Company",
                 "None of the above"],
                 "answer": "Programming language",
-                "explaination":"A high-level general-purpose programming language used extensively in the Data Analytics space."
+                "explanation":"A high-level general-purpose programming language used extensively in the Data Analytics space."
         },
         {
             "id": 7,
@@ -80,7 +80,7 @@
                 "SAS",
                 "All of the above"],
                 "answer": "Python & R",
-                "explaination":"The best all-around language for working with data is Python, while R is used extensively by data miners and data scientists to analyze data."
+                "explanation":"The best all-around language for working with data is Python, while R is used extensively by data miners and data scientists to analyze data."
         },
 
         {
@@ -93,7 +93,7 @@
                 "Prepared Data for Machine Learning and AI",
                 "All of the above"],
                 "answer": "All of the above",
-                "explaination":"Data Processing has a multitude of benefits"
+                "explanation":"Data Processing has a multitude of benefits"
         },
         {
             "id": 9,
@@ -104,7 +104,7 @@
                 "Both of the above",
                 "None of the above"],
                 "answer": "Both of the above",
-                "explaination":"We can delete a particular column if it has more than 70-75% of missing values."
+                "explanation":"We can delete a particular column if it has more than 70-75% of missing values."
         },
         {
             "id": 10,
@@ -115,7 +115,7 @@
                 "Turning thoughts into communication",
                 "None of the above"],
                 "answer": "Converting text to a specified format, commonly numeric or binary",
-                "explaination":"Encoding is the process of converting the data or a given sequence of characters, symbols, alphabets etc., into a specified format, for the secured transmission of data."
+                "explanation":"Encoding is the process of converting the data or a given sequence of characters, symbols, alphabets etc., into a specified format, for the secured transmission of data."
         },
 
         {
@@ -126,7 +126,7 @@
                 "Refers to visually seeing the data in tabular format",
                 "None of the above"],
                 "answer": "Representing information in the form of charts or pictures",
-                "explaination":"Data visualization is the graphical representation of information and data. By using visual elements like charts, graphs, and maps, data visualization tools provide an accessible way to see and understand trends, outliers, and patterns in data."
+                "explanation":"Data visualization is the graphical representation of information and data. By using visual elements like charts, graphs, and maps, data visualization tools provide an accessible way to see and understand trends, outliers, and patterns in data."
         },
         {
             "id": 12,
@@ -137,7 +137,7 @@
                 "Prevent skewed representation of information",
                 "All of the above"],
                 "answer": "All of the above",
-                "explaination":"Data visualization is the graphical representation of information and data. By using visual elements like charts, graphs, and maps, data visualization tools provide an accessible way to see and understand trends, outliers, and patterns in data."
+                "explanation":"Data visualization is the graphical representation of information and data. By using visual elements like charts, graphs, and maps, data visualization tools provide an accessible way to see and understand trends, outliers, and patterns in data."
         },
         {
             "id": 13,
@@ -148,7 +148,7 @@
                 "SAS",
                 "All of the above"],
                 "answer": "All of the above",
-                "explaination":"Python, R and SAS are the most popular tools used for Data Modelling in Banking"
+                "explanation":"Python, R and SAS are the most popular tools used for Data Modelling in Banking"
         },
 
         {
@@ -159,7 +159,7 @@
                 "Ability of computer systems to predict by learning and adapting by using statistical models on past data",
                 "None of the above"],
                 "answer": "Ability of computer systems to predict by learning and adapting by using statistical models on past data",
-                "explaination":"Machine learning is a branch of artificial intelligence (AI) focused on building applications that learn from data and improve their accuracy over time without being programmed to do so"
+                "explanation":"Machine learning is a branch of artificial intelligence (AI) focused on building applications that learn from data and improve their accuracy over time without being programmed to do so"
         }
     ],
     "SQL Primer for Data Analysis":
@@ -173,7 +173,7 @@
                     "A Data Management Tool",
                     "A Query Language"],
                     "answer": "A Query Language",
-                    "explaination":"Structured Query Language or SQL is language that can be used to query compatible databases"
+                    "explanation":"Structured Query Language or SQL is language that can be used to query compatible databases"
             },
             {
             "id": 2,
@@ -184,7 +184,7 @@
                 "READ",
                 "VIEW"],
                 "answer": "SELECT",
-                "explaination":"SELECT * from customers will fetch all rows from the customers table"
+                "explanation":"SELECT * from customers will fetch all rows from the customers table"
         },
         {
             "id": 3,
@@ -195,7 +195,7 @@
                 "Table",
                 "Column"],
             "answer": "Table",
-            "explaination":"We use the SELECT statement to fetch rows from a Table in a database"
+            "explanation":"We use the SELECT statement to fetch rows from a Table in a database"
         },
         {
             "id": 4,
@@ -205,7 +205,7 @@
                 "Returns the client_id and fullname from customers table",
                 "Returns the client_id and first name from customers table"],
             "answer": "Returns the client_id and fullname from customers table",
-            "explaination":"SELECT statement can be used to return specific columns from a table. The columns can also be displayed with an ALIAS, using the 'AS' keyword"
+            "explanation":"SELECT statement can be used to return specific columns from a table. The columns can also be displayed with an ALIAS, using the 'AS' keyword"
         },
 
         {
@@ -217,7 +217,7 @@
                 "Returns the maximum age of customers grouped by gender"
             ],
             "answer": "Returns the maximum age of customers grouped by gender",
-            "explaination":"Aggregate functions are best when used with the GROUP By clause"
+            "explanation":"Aggregate functions are best when used with the GROUP By clause"
         },
 
         {
@@ -229,7 +229,7 @@
                 "SELECT customer.first, district.state_name from customer WHERE district JOIN ON customer.district_id = district.district_id;"
             ],
             "answer": "SELECT customer.first, district.state_name from customer JOIN district on customer.district_id = district.district_id;",
-            "explaination":"SELECT <tablename.column> from <table1> JOIN <table2> ON <condition1>"
+            "explanation":"SELECT <tablename.column> from <table1> JOIN <table2> ON <condition1>"
         },
         {
             "id": 7,
@@ -239,7 +239,7 @@
                 "Returns all rows from table complaints",
                 "None of the above"],
                 "answer": "Returns an error",
-                "explaination":"Either the columns names or the asterik symbol must be used when using the SELECT statement."
+                "explanation":"Either the columns names or the asterik symbol must be used when using the SELECT statement."
         },
         {
             "id": 8,
@@ -250,7 +250,7 @@
                 "select COUNT(city) from customer;"
                 ],
                 "answer": "select DISTINCT city from customer;",
-                "explaination":"The DISTINCT clause will return a unique list of values for the specified columns"
+                "explanation":"The DISTINCT clause will return a unique list of values for the specified columns"
         },
 
         {
@@ -261,7 +261,7 @@
                 "Returns rows from both tables without any relationship. Incorrect approach",
                 "Returns no rows"],
                 "answer": "Returns rows from both tables without any relationship. Incorrect approach",
-                "explaination":"The JOIN clause has to be used when fetching rows from multiple tables"
+                "explanation":"The JOIN clause has to be used when fetching rows from multiple tables"
         },
         {
             "id": 10,
@@ -271,7 +271,7 @@
                 "SELECT * from customer where age > avg(age);",
                 "SELECT avg(age) from customer;"],
                 "answer": "SELECT * from customer where age > (select avg(age) from customer);",
-                "explaination":"An aggregate cannot appear in the WHERE clause unless it is enclosed in a subquery"
+                "explanation":"An aggregate cannot appear in the WHERE clause unless it is enclosed in a subquery"
         }
     ],
     "Analytics using R":
@@ -285,7 +285,7 @@
       "x <- 5"
     ],
     "answer": "x <- 5",
-    "explaination": ""
+    "explanation": ""
   },
   {
     "id": 2,
@@ -295,7 +295,7 @@
       "False"
     ],
     "answer": "True",
-    "explaination": ""
+    "explanation": ""
   },
   {
     "id": 3,
@@ -307,7 +307,7 @@
       "><"
     ],
     "answer": "==",
-    "explaination": ""
+    "explanation": ""
   },
   {
     "id": 4,
@@ -319,7 +319,7 @@
       "seq"
     ],
     "answer": "in",
-    "explaination": ""
+    "explanation": ""
   },
   {
     "id": 5,
@@ -331,7 +331,7 @@
       "salesman <- list('Sarah','Hisham','Tim')"
     ],
     "answer": "salesman <- v('Sarah','Hisham','Tim')",
-    "explaination": ""
+    "explanation": ""
   },
   {
     "id": 6,
@@ -343,7 +343,7 @@
       "salesman <- vectorof('Sarah','Hisham','Tim')"
     ],
     "answer": "salesman <- list('Sarah','Hisham','Tim')",
-    "explaination": ""
+    "explanation": ""
   },
   {
     "id": 7,
@@ -355,7 +355,7 @@
       "dataframe"
     ],
     "answer": "data.frame",
-    "explaination": ""
+    "explanation": ""
   },
   {
     "id": 8,
@@ -366,7 +366,7 @@
       "if x>y then:"
     ],
     "answer": "if(x>y)",
-    "explaination": ""
+    "explanation": ""
   },
   {
     "id": 9,
@@ -377,7 +377,7 @@
       "install.package('tidyverse','ROCR','rpart')"
     ],
     "answer": "install.packages('tidyverse','ROCR','rpart')",
-    "explaination": ""
+    "explanation": ""
   },
   {
     "id": 10,
@@ -388,7 +388,7 @@
       "read_tsv()"
     ],
     "answer": "read_csv()",
-    "explaination": ""
+    "explanation": ""
   }
 
     ],
@@ -404,7 +404,7 @@
                     "Innovation that forces the way companies in the industry operate",
                     "Rapid change in the way how companies do business"],
                     "answer": "Innovation that forces the way companies in the industry operate",
-                    "explaination":""
+                    "explanation":""
             },
             {
             "id": 2,
@@ -415,7 +415,7 @@
                 "Acquired FinTech startups",
                 "Created internal Labs, Accelerators and mechanisms to jumpstart innovation within their firm"],
                 "answer": "Actively partnered with FinTech startups",
-                "explaination":""
+                "explanation":""
         },
         {
             "id": 3,
@@ -426,7 +426,7 @@
                 "Payments",
                 "Retail Banking"],
             "answer": "Payments",
-            "explaination":""
+            "explanation":""
         },
         {
             "id": 4,
@@ -438,7 +438,7 @@
                 "All of the above"
 			],
             "answer": "All of the above",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -451,7 +451,7 @@
                 "Insufficient Customer Data"
             ],
             "answer": "Lack of expertise in Risk Management",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -464,7 +464,7 @@
 			    "Integration with FinTech"
             ],
             "answer": "Launch of Digital Banks",
-            "explaination":""
+            "explanation":""
         }
 
     ],
@@ -480,7 +480,7 @@
                     "Traditional Learning",
                     "Deep Learning"],
                     "answer": "Machine Learning",
-                    "explaination":""
+                    "explanation":""
             },
             {
             "id": 2,
@@ -491,7 +491,7 @@
                 "Chat Bots",
                 "All of the above"],
                 "answer": "All of the above",
-                "explaination":""
+                "explanation":""
         },
         {
             "id": 3,
@@ -502,7 +502,7 @@
                 "Timestamp",
                 "All of the above"],
             "answer": "All of the above",
-            "explaination":""
+            "explanation":""
         },
         {
             "id": 4,
@@ -514,7 +514,7 @@
                 "Tampered"
 			],
             "answer": "Unchanged",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -527,7 +527,7 @@
                 "Blockchain"
             ],
             "answer": "Cryptocurrency",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -540,7 +540,7 @@
 			    "Litecoin"
             ],
             "answer": "Bitcoin",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -551,7 +551,7 @@
                 "False"
             ],
             "answer": "False",
-            "explaination":""
+            "explanation":""
         },
         {
             "id": 8,
@@ -561,7 +561,7 @@
                 "False"
             ],
             "answer": "False",
-            "explaination":""
+            "explanation":""
         },
         {
             "id": 9,
@@ -573,7 +573,7 @@
                 "Industrial & Commercial Bank of China"
             ],
             "answer": "DBS",
-            "explaination":""
+            "explanation":""
         }
 
     ]
@@ -589,7 +589,7 @@
                 "Name of a Company",
                 "None of the above"],
                 "answer": "Programming language",
-                "explaination":"Python is a versatile, high-level programming language, widely employed in the realm of Data Science."
+                "explanation":"Python is a versatile, high-level programming language, widely employed in the realm of Data Science."
             },
             {
                 "id": 2,
@@ -600,7 +600,7 @@
                     "x != 1",
                     "var x = 1"],
                     "answer": "x = 1",
-                    "explaination":"To initialise a variable in python, a single equal to (=) sign is used."
+                    "explanation":"To initialise a variable in python, a single equal to (=) sign is used."
             },
             {
             "id": 3,
@@ -611,7 +611,7 @@
                 "str()",
                 "None of the above"],
                 "answer": "str()",
-                "explaination":"Any value enclosed in single or double quotation marks constitutes a string."
+                "explanation":"Any value enclosed in single or double quotation marks constitutes a string."
         },
         {
             "id": 4,
@@ -622,7 +622,7 @@
                 "n1 == input()",
                 "n1 = input"],
             "answer": "n1 = input()",
-            "explaination":"The input() function is used to prompt the user for information"
+            "explanation":"The input() function is used to prompt the user for information"
         },
         {
             "id": 5,
@@ -634,7 +634,7 @@
                 "Neither"
 			],
             "answer": "Either of the above",
-            "explaination":"F-string formatting can be used when you require to display variables with blocks of text."
+            "explanation":"F-string formatting can be used when you require to display variables with blocks of text."
         }
     ]
     ,
@@ -650,7 +650,7 @@
                 "first,last == fullname.split()"
             ],
             "answer": "first,last = fullname.split()",
-            "explaination":"The split() function will split a string when to a list. You can specify the separator, default separator is any whitespace."
+            "explanation":"The split() function will split a string when to a list. You can specify the separator, default separator is any whitespace."
         },
 
         {
@@ -662,7 +662,7 @@
                 "def",
                 "input"],
             "answer": "def",
-            "explaination":"Python def keyword is used to define a function, it is placed before a function name that is provided by the user to create a user-defined function."
+            "explanation":"Python def keyword is used to define a function, it is placed before a function name that is provided by the user to create a user-defined function."
         },
 
         {
@@ -675,7 +675,7 @@
                 "Neither"
             ],
             "answer": "Either of the above",
-            "explaination":"A number in python can be either an integer or float"
+            "explanation":"A number in python can be either an integer or float"
         },
         {
             "id": 8,
@@ -685,7 +685,7 @@
                 "names = ['Tim','Gary','Mary']",
                 "names = {'Tim,Gary,Mary'}"],
                 "answer": "names = ['Tim','Gary','Mary']",
-                "explaination":"Each string item in a list is enclosed in single or double quotation marks"
+                "explanation":"Each string item in a list is enclosed in single or double quotation marks"
         },
         {
             "id": 9,
@@ -697,7 +697,7 @@
                 "DUB"
             ],
             "answer": "Du",
-            "explaination":"While providing a value for start and stop in an index. The value for the stop index is not included."
+            "explanation":"While providing a value for start and stop in an index. The value for the stop index is not included."
         }
         ,
         {
@@ -710,7 +710,7 @@
                 "if x > 0:"
             ],
             "answer": "if x > 0:",
-            "explaination":"Python is case sensitive. To check if a value is greater, we use just the greater than (>) symbol."
+            "explanation":"Python is case sensitive. To check if a value is greater, we use just the greater than (>) symbol."
         }
 
     ]
@@ -727,7 +727,7 @@
                     "Event",
                     "All of the above"],
                     "answer": "All of the above",
-                    "explaination":"GA can track pageviews, transactions and events"
+                    "explanation":"GA can track pageviews, transactions and events"
             },
             {
             "id": 2,
@@ -738,7 +738,7 @@
                 "Pages report",
                 "All Pages report"],
                 "answer": "Landing Pages report",
-                "explaination":"Landing pages are crucial for introducing people to the top of the sales funnel, or, the awareness stage"
+                "explanation":"Landing pages are crucial for introducing people to the top of the sales funnel, or, the awareness stage"
         },
         {
             "id": 3,
@@ -749,7 +749,7 @@
                 "Custom Report",
                 "Custom Metric"],
             "answer": "Custom Segment",
-            "explaination":"An example of a segment can be users from Dubai in the age group of 25-55"
+            "explanation":"An example of a segment can be users from Dubai in the age group of 25-55"
         },
         {
             "id": 4,
@@ -761,7 +761,7 @@
                 "Comparison"
 			],
             "answer": "Comparison",
-            "explaination":"In the Table view, check for the Comparison icon on the top right corner"
+            "explanation":"In the Table view, check for the Comparison icon on the top right corner"
         },
 
         {
@@ -774,7 +774,7 @@
                 "Category, Action, Label, Total Events"
             ],
             "answer": "Event, Category, Action, Label",
-            "explaination":"If you wish to track click events on your facebook page icons, the Event can be onclick, Category as social, Action as click_facebook and Label as Clicked Facebook Icon"
+            "explanation":"If you wish to track click events on your facebook page icons, the Event can be onclick, Category as social, Action as click_facebook and Label as Clicked Facebook Icon"
         },
 
         {
@@ -786,7 +786,7 @@
                 "Users who played a video on a website",
                 "Users who visited a specific page on a website"],
             "answer": "Users who visited a physical store",
-            "explaination":"External actions outside the webpage cannot be tracked automatically"
+            "explanation":"External actions outside the webpage cannot be tracked automatically"
         },
 
         {
@@ -799,7 +799,7 @@
                 "Watching a video"
             ],
             "answer": "Customer lifetime value",
-            "explaination":"Goal is identified by how it ties to your business goal"
+            "explanation":"Goal is identified by how it ties to your business goal"
         },
         {
             "id": 8,
@@ -810,7 +810,7 @@
                 "Remarketing audience",
                 "Analytics Goals"],
                 "answer": "Machine-learning algorithms",
-                "explaination":"ML algorithms use past data to develop insights"
+                "explanation":"ML algorithms use past data to develop insights"
         },
         {
             "id": 9,
@@ -822,7 +822,7 @@
                 "Source, Content, and Term"
             ],
             "answer": "Medium, Source, and Campaign",
-            "explaination":"Medium, Source, and Campaigns in GA represent the user acqusition"
+            "explanation":"Medium, Source, and Campaigns in GA represent the user acqusition"
         }
         ,
         {
@@ -835,7 +835,7 @@
                 "Custom Dimension"
             ],
             "answer": "Event Tracking",
-            "explaination":"Event can track user interaction on a website"
+            "explanation":"Event can track user interaction on a website"
         }
 
     ]
@@ -851,7 +851,7 @@
                 "Standard Quadruple Language",
                 "Structured Query Language"],
                 "answer": "Structured Query Language",
-                "explaination":""
+                "explanation":""
         },
         {
             "id": 2,
@@ -862,7 +862,7 @@
                 "Oracle DB",
                 "Mongo DB"],
             "answer": "Mongo DB",
-            "explaination":""
+            "explanation":""
         },
         {
             "id": 3,
@@ -873,7 +873,7 @@
                 "None of the above"
 			],
             "answer": "SQL is a standard language for retrieving and manipulating structured datbases, while MySQL is a relational database management system",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -886,7 +886,7 @@
                 "Values that need not necessarily contain meaningful information"
             ],
             "answer": "Unique values for every record",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -898,7 +898,7 @@
                 "Symbol",
                 "Time"],
             "answer": "Number",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -909,7 +909,7 @@
                 "A primary key of one table that appears in another table",
                 "A field that should not be in a table and needs removing"],
             "answer": "A primary key of one table that appears in another table",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -922,7 +922,7 @@
                 "Functional dependencies"
             ],
             "answer": "Repeating groups",
-            "explaination":""
+            "explanation":""
         },
         {
             "id": 8,
@@ -932,7 +932,7 @@
                 "When all the fields in each table are directly related to the primary key",
                 "When all repeating entries of data are removed and the fields in each table are directly related to the primary key and no fields are present that are not related to each other"],
                 "answer": "When all repeating entries of data are removed and the fields in each table are directly related to the primary key and no fields are present that are not related to each other",
-                "explaination":""
+                "explanation":""
         },
         {
             "id": 9,
@@ -943,7 +943,7 @@
                 "Create a primary key(s) for the new relation"
             ],
             "answer": "Create a primary key(s) for the new relation",
-            "explaination":""
+            "explanation":""
         }
         ,
         {
@@ -956,7 +956,7 @@
                 "None of the above"
             ],
             "answer": "3NF",
-            "explaination":""
+            "explanation":""
         }
 
     ]
@@ -973,7 +973,7 @@
                 "DECLARE",
                 "SELECT"],
                 "answer": "DECLARE",
-                "explaination":""
+                "explanation":""
         },
         {
             "id": 2,
@@ -984,7 +984,7 @@
                 "The Transact-SQL statements are shorter.",
                 "There are less commands available, so parsing time is shorter."],
             "answer": "The query plan is compiled and cached on the server.",
-            "explaination":""
+            "explanation":""
         },
         {
             "id": 3,
@@ -996,7 +996,7 @@
                 "views"
 			],
             "answer": "views",
-            "explaination":"Triggers can be set on views as well. It can used to prevent unauthorized changes on the view"
+            "explanation":"Triggers can be set on views as well. It can used to prevent unauthorized changes on the view"
         },
 
         {
@@ -1008,7 +1008,7 @@
                 "No, the query is already optimized for best performance."
             ],
             "answer": "Yes, a query re-write and indexing delivery_time will speed up the query.",
-            "explaination":"The database can't use an index when the column is wrapped with a function, in this case with the YEAR function. Therefore, in addition to creating an index on delivery_time, we need to re-write the query to avoid using a function"
+            "explanation":"The database can't use an index when the column is wrapped with a function, in this case with the YEAR function. Therefore, in addition to creating an index on delivery_time, we need to re-write the query to avoid using a function"
         },
 
         {
@@ -1020,7 +1020,7 @@
                 "One composite index that contains 2 columns in this order: company_name, num_employees",
                 "Indexes won't be useful to optimize this query."],
             "answer": "One composite index that contains 2 columns in this order: company_name, num_employees",
-            "explaination":"In most cases (excluding index merges), the database will use just one index for each table in the query. Therefore, the most optimal index for this query is a composite index that contains both columns."
+            "explanation":"In most cases (excluding index merges), the database will use just one index for each table in the query. Therefore, the most optimal index for this query is a composite index that contains both columns."
         },
 
         {
@@ -1031,7 +1031,7 @@
                 "Index Scan",
                 "Index Seek","All of the above"],
             "answer": "All of the above",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -1044,7 +1044,7 @@
                 "Index cannot be created"
             ],
             "answer": "Clustered Index is created",
-            "explaination":"A table can have only 1 clustered index"
+            "explanation":"A table can have only 1 clustered index"
         },
         {
             "id": 8,
@@ -1057,7 +1057,7 @@
                 "All of the above"
             ],
                 "answer": "All of the above",
-                "explaination":""
+                "explanation":""
         },
         {
             "id": 9,
@@ -1068,7 +1068,7 @@
                 "There are no disadvantages"
             ],
             "answer": "Insert, Update and Delete statements could be slow",
-            "explaination":"Any time a query modifies the data in a table (INSERT, UPDATE, or DELETE), the database needs to update all of the indexes where data has changed"
+            "explanation":"Any time a query modifies the data in a table (INSERT, UPDATE, or DELETE), the database needs to update all of the indexes where data has changed"
         }
         ,
         {
@@ -1080,7 +1080,7 @@
                 "Both have the same performance"
             ],
             "answer": "Clustered",
-            "explaination":"Clustered Index is slightly faster than the Non-Clustered Index. This is because when a Non Clustered Index is used there is an extra look up from the Non-Clustered Index to the table, to fetch the actual rows."
+            "explanation":"Clustered Index is slightly faster than the Non-Clustered Index. This is because when a Non Clustered Index is used there is an extra look up from the Non-Clustered Index to the table, to fetch the actual rows."
         }
 
     ]
@@ -1096,7 +1096,7 @@
                 "Transactional Log Backup",
                 "All of the above"],
                 "answer": "Transactional Log Backup",
-                "explaination":""
+                "explanation":""
         },
         {
             "id": 2,
@@ -1105,7 +1105,7 @@
                 "True",
                 "False"],
             "answer": "False",
-            "explaination":""
+            "explanation":""
         },
         {
             "id": 3,
@@ -1115,7 +1115,7 @@
                 "False"
 			],
             "answer": "True",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -1128,7 +1128,7 @@
                 "NORECOVERY"
             ],
             "answer": "NORECOVERY.",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -1140,7 +1140,7 @@
                 "SQL Server Database Engine",
                 "SQL Server Agent"],
             "answer": "SQL Server Agent",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -1152,7 +1152,7 @@
                 "STARTAT",
             "RESTORETO"],
             "answer": "STOPAT",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -1165,7 +1165,7 @@
                 "CHECKSUM"
             ],
             "answer": "VERIFYONLY",
-            "explaination":""
+            "explanation":""
         },
         {
             "id": 8,
@@ -1177,7 +1177,7 @@
                 "Database Corruption Consistency"
             ],
                 "answer": "Database Consistency Checker",
-                "explaination":""
+                "explanation":""
         },
         {
             "id": 9,
@@ -1188,7 +1188,7 @@
                 "CHECKDB"
             ],
             "answer": "CHECKDB",
-            "explaination":"DBCC checks verifies both the logical and physical integrity of the database"
+            "explanation":"DBCC checks verifies both the logical and physical integrity of the database"
         }
         ,
         {
@@ -1201,7 +1201,7 @@
                 "REPAIR_REBUILD"
             ],
             "answer": "REPAIR_ALLOW_DATA_LOSS",
-            "explaination":""
+            "explanation":""
         }
 
     ]
@@ -1216,7 +1216,7 @@
                 "Server Role and Database Role",
                 "Schema"],
                 "answer": "Server Role and Database Role",
-                "explaination":""
+                "explanation":""
         },
         {
             "id": 2,
@@ -1225,7 +1225,7 @@
                 "True",
                 "False"],
             "answer": "False",
-            "explaination":""
+            "explanation":""
         },
         {
             "id": 3,
@@ -1235,7 +1235,7 @@
                 "False"
 			],
             "answer": "False",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -1248,7 +1248,7 @@
                 "None of the above"
             ],
             "answer": "Both of the above",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -1260,7 +1260,7 @@
                 "WITH GRANT",
                 "REVOKE"],
             "answer": "REVOKE",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -1272,7 +1272,7 @@
                 "GRANT SELECT ON SCHEMA::Sales TO SalesRole",
                 "REVOKE SELECT ON SCHEMA::Sales TO SalesUsers"],
             "answer": "GRANT SELECT ON SCHEMA::Sales TO SalesUsers",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -1285,7 +1285,7 @@
                 "Multi-statement Table-valued Function"
             ],
             "answer": "Security Policy",
-            "explaination":""
+            "explanation":""
         },
         {
             "id": 8,
@@ -1297,7 +1297,7 @@
                 "All of the above"
             ],
                 "answer": "Filter",
-                "explaination":""
+                "explanation":""
         },
         {
             "id": 9,
@@ -1309,7 +1309,7 @@
                 "Default"
             ],
             "answer": "Default",
-            "explaination":""
+            "explanation":""
         }
         ,
         {
@@ -1322,7 +1322,7 @@
                 "RUN AS"
             ],
             "answer": "EXECUTE AS",
-            "explaination":""
+            "explanation":""
         }
         ]
         ,
@@ -1336,7 +1336,7 @@
                 "sp_send_dbmail",
                 "xp_send_dbmail","usp_send_dbmail"],
                 "answer": "sp_send_dbmail",
-                "explaination":""
+                "explanation":""
         },
         {
             "id": 2,
@@ -1345,7 +1345,7 @@
                 "True",
                 "False"],
             "answer": "True",
-            "explaination":""
+            "explanation":""
         },
         {
             "id": 3,
@@ -1357,7 +1357,7 @@
                 "Writing to the Windows Event Log"
 			],
             "answer": "Executing a Job",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -1370,7 +1370,7 @@
                 "Facets"
             ],
             "answer": "Operators",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -1382,7 +1382,7 @@
                 "Enable SQL Server Agent",
                 "Create a Management Data Warehouse"],
             "answer": "Create a Management Data Warehouse",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -1394,7 +1394,7 @@
                 "SQL Profiler",
                 "Activity Monitor"],
             "answer": "Query Store",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -1407,7 +1407,7 @@
                 "Size-based cleanup mode"
             ],
             "answer": "Query Store Capture Mode",
-            "explaination":"By default the Query Store capture mode is set to All"
+            "explanation":"By default the Query Store capture mode is set to All"
         },
         {
             "id": 8,
@@ -1419,7 +1419,7 @@
                 "Force the plan"
             ],
                 "answer": "Force the plan",
-                "explaination":""
+                "explanation":""
         },
         {
             "id": 9,
@@ -1431,7 +1431,7 @@
                 "Rebuild < 20% and reorganize > 20%"
             ],
             "answer": "Reorganize < 30% and rebuild > 30%",
-            "explaination":""
+            "explanation":""
         }
         ,
         {
@@ -1444,7 +1444,7 @@
                 "They are used by SQL Agent to run jobs"
             ],
             "answer": "They are used by the Query Optimizer to create query plans",
-            "explaination":""
+            "explanation":""
         }
 
     ]
@@ -1458,7 +1458,7 @@
                 "Yes",
                 "No"],
                 "answer": "No",
-                "explaination":"PaaS does not include applications. These have to be individually managed"
+                "explanation":"PaaS does not include applications. These have to be individually managed"
         },
         {
             "id": 2,
@@ -1467,7 +1467,7 @@
                 "Networks",
                 "Databases","Applications","Servers"],
             "answer": "Applications",
-            "explaination":""
+            "explanation":""
         },
         {
             "id": 3,
@@ -1478,7 +1478,7 @@
                 "SaaS"
 			],
             "answer": "IaaS",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -1490,7 +1490,7 @@
                 "A cloud environment owned, operated and controlled by a public company"
             ],
             "answer": "A multi-tenant cloud environment accessed over the internet",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -1502,7 +1502,7 @@
                 "A cloud service inaccessible to anyone but the cultural elite",
                 "Both A and B"],
             "answer": "Both A and B",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -1514,7 +1514,7 @@
                 "A blend of private cloud and legacy on-premises hardware",
                 "None of the above"],
             "answer": "A blend of public and private cloud services with orchestration between them",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -1527,7 +1527,7 @@
                 "Google App Engine"
             ],
             "answer": "Microsoft Office",
-            "explaination":""
+            "explanation":""
         },
         {
             "id": 8,
@@ -1537,7 +1537,7 @@
                 "False"
             ],
                 "answer": "False",
-                "explaination":"Hybrid clouds always include a private cloud and are typically managed as one entity. Multi-clouds always include more than one public cloud service, which often perform different functions."
+                "explanation":"Hybrid clouds always include a private cloud and are typically managed as one entity. Multi-clouds always include more than one public cloud service, which often perform different functions."
         },
         {
             "id": 9,
@@ -1549,7 +1549,7 @@
                 "Unavailable for potentially five minutes a year"
             ],
             "answer": "Unavailable for potentially five minutes a year",
-            "explaination":""
+            "explanation":""
         }
         ,
         {
@@ -1562,7 +1562,7 @@
                 "The provider is responsible for all components above"
             ],
             "answer": "The security of user data",
-            "explaination":"Since there is no standard model across cloud vendors or services, enterprises need to carefully review all service-level agreements"
+            "explanation":"Since there is no standard model across cloud vendors or services, enterprises need to carefully review all service-level agreements"
         }
 
     ]
@@ -1578,7 +1578,7 @@
             "Data Classification",
         "Anti-Phising"],
                 "answer": "Sensitivity Labels",
-                "explaination":"Sensitivity labels are capable of placing watermarks on files, making them easily identifiable as containing sensitive content."
+                "explanation":"Sensitivity labels are capable of placing watermarks on files, making them easily identifiable as containing sensitive content."
         },
         {
             "id": 2,
@@ -1589,7 +1589,7 @@
             "Allows management of on-premise applications",
             "A virtual machine is IaaS"],
             "answer": "Allows management of on-premise applications",
-            "explaination":"Cloud computing does not provide management of on-premise applications."
+            "explanation":"Cloud computing does not provide management of on-premise applications."
         },
         {
             "id": 3,
@@ -1601,7 +1601,7 @@
                 "Microsoft 365 is not a service"
 			],
             "answer": "SaaS",
-            "explaination":"Microsoft 365 is a SaaS (Software-as-a-Service).  Software-as-a-service includes any software that is managed by Microsoft. "
+            "explanation":"Microsoft 365 is a SaaS (Software-as-a-Service).  Software-as-a-service includes any software that is managed by Microsoft. "
         },
 
         {
@@ -1613,7 +1613,7 @@
                 "User Management Administrator"
             ],
             "answer": "Billing Administrator",
-            "explaination":"Only the Billing Administrator and Global Administrator can purchase licenses"
+            "explanation":"Only the Billing Administrator and Global Administrator can purchase licenses"
         },
 
         {
@@ -1625,7 +1625,7 @@
                 "Microsoft Teams",
                 "Microsoft SharePoint Online"],
             "answer": "Microsoft Stream",
-            "explaination":"Microsoft Stream allows you to upload videos and have users stream those videos"
+            "explanation":"Microsoft Stream allows you to upload videos and have users stream those videos"
         },
 
         {
@@ -1637,7 +1637,7 @@
                 "Communication Site",
                 "Work Site"],
             "answer": "Communication Site",
-            "explaination":"SharePoint Online allows for the creation of Communication sites and Team sites.  A communication site is used to distribute information to users."
+            "explanation":"SharePoint Online allows for the creation of Communication sites and Team sites.  A communication site is used to distribute information to users."
         },
 
         {
@@ -1649,7 +1649,7 @@
                 "Print a Word Document"
             ],
             "answer": "Print a Word Document",
-            "explaination":"Users with deactivated licenses can print documents, but they can not edit existing or create new files, spreadsheets or presentations."
+            "explanation":"Users with deactivated licenses can print documents, but they can not edit existing or create new files, spreadsheets or presentations."
         },
         {
             "id": 8,
@@ -1661,7 +1661,7 @@
                 "Sway"
             ],
                 "answer": "Teams",
-                "explaination":"Microsoft Teams allows for voice and video collaboration"
+                "explanation":"Microsoft Teams allows for voice and video collaboration"
         },
         {
             "id": 9,
@@ -1673,7 +1673,7 @@
                 "Yammer"
             ],
             "answer": "OneDrive for Business",
-            "explaination":"Data stored in OneDrive can be shared with others by providing them a link that is generated when you choose to share data."
+            "explanation":"Data stored in OneDrive can be shared with others by providing them a link that is generated when you choose to share data."
         }
         ,
         {
@@ -1686,7 +1686,7 @@
                 "Microsoft Stream"
             ],
             "answer": "SharePoint Online",
-            "explaination":"SharePoint Online allows for creation of sites that can be used to make documents accessible to users."
+            "explanation":"SharePoint Online allows for creation of sites that can be used to make documents accessible to users."
         }
         ,
         {
@@ -1698,7 +1698,7 @@
                 "PaaS"
             ],
             "answer": "PaaS",
-            "explaination":""
+            "explanation":""
         }
         ,
         {
@@ -1711,7 +1711,7 @@
                 "SharePoint Online"
             ],
             "answer": "Microsoft Teams",
-            "explaination":"Microsoft Teams has a white board that can be used by meeting participants."
+            "explanation":"Microsoft Teams has a white board that can be used by meeting participants."
         }
         ,
         {
@@ -1722,7 +1722,7 @@
                 "False"
             ],
             "answer": "True",
-            "explaination":"Windows 10 licenses are available as part of a Microsoft 365 subscription."
+            "explanation":"Windows 10 licenses are available as part of a Microsoft 365 subscription."
         }
         ,
         {
@@ -1733,7 +1733,7 @@
                 "False"
             ],
             "answer": "True",
-            "explaination":"Intune can be used to deploy Microsoft applications to devices and third party applications to devices."
+            "explanation":"Intune can be used to deploy Microsoft applications to devices and third party applications to devices."
         }
         ,
         {
@@ -1745,7 +1745,7 @@
                 "Your account is not a member of the global admin role"
             ],
             "answer": "Your account is not a member of the global admin role",
-            "explaination":"The global admin role will allow a user to open a support request."
+            "explanation":"The global admin role will allow a user to open a support request."
         }
     ]
     ,
@@ -1759,7 +1759,7 @@
                 "Document Database",
             "Relational Database"],
                 "answer": "NoSQL Database",
-                "explaination":"You can use Amazon DynamoDB to create a database table that can store and retrieve any amount of data, and serve any level of request traffic."
+                "explanation":"You can use Amazon DynamoDB to create a database table that can store and retrieve any amount of data, and serve any level of request traffic."
         },
         {
             "id": 2,
@@ -1770,7 +1770,7 @@
             "Serverless compute service",
             "Resource Monitoring Service"],
             "answer": "Virtual Server in the AWS Cloud",
-            "explaination":""
+            "explanation":""
         },
         {
             "id": 3,
@@ -1780,7 +1780,7 @@
                 "False"
 			],
             "answer": "True",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -1792,7 +1792,7 @@
                 "IAM"
             ],
             "answer": "IAM",
-            "explaination":"With AWS Identity and Access Management (IAM), you can specify who or what can access services and resources in AWS"
+            "explanation":"With AWS Identity and Access Management (IAM), you can specify who or what can access services and resources in AWS"
         },
 
         {
@@ -1802,7 +1802,7 @@
                 "True",
                 "False"],
             "answer": "True",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -1814,7 +1814,7 @@
                 "AWS Trusted Advisor",
             "AWS CloudTrail"],
             "answer": "AWS CloudWatch",
-            "explaination":"CloudWatch is basically a metrics repository that provides data and actionable insights for applications and infrastructure resources."
+            "explanation":"CloudWatch is basically a metrics repository that provides data and actionable insights for applications and infrastructure resources."
         },
 
         {
@@ -1826,7 +1826,7 @@
                 "AWS CloudTrail"
             ],
             "answer": "AWS CloudTrail",
-            "explaination":"CloudTrail enables auditing, security monitoring, and operational troubleshooting by tracking user activity and API usage."
+            "explanation":"CloudTrail enables auditing, security monitoring, and operational troubleshooting by tracking user activity and API usage."
         },
         {
             "id": 8,
@@ -1838,7 +1838,7 @@
                 "AWS Auto-Scaling"
             ],
                 "answer": "AWS VPC",
-                "explaination":"Amazon VPC enables you to build a virtual network in the AWS cloud and host EC2 Instances"
+                "explanation":"Amazon VPC enables you to build a virtual network in the AWS cloud and host EC2 Instances"
         },
         {
             "id": 9,
@@ -1850,7 +1850,7 @@
                 "EBS"
             ],
             "answer": "S3 Glacier",
-            "explaination":"Use S3 Glacier for archival at low storage cost, and you do not require millisecond access to your data."
+            "explanation":"Use S3 Glacier for archival at low storage cost, and you do not require millisecond access to your data."
         }
         ,
         {
@@ -1863,7 +1863,7 @@
                 "Create copies of EBS Volumes"
             ],
             "answer": "Create EBS snapshots",
-            "explaination":"Snapshots are incremental backups, which means that only the blocks on the device that have changed after your most recent snapshot are saved. "
+            "explanation":"Snapshots are incremental backups, which means that only the blocks on the device that have changed after your most recent snapshot are saved. "
         }
     ]
     ,"Essential Excel":
@@ -1878,7 +1878,7 @@
                 "Semi-Colon ';'",
                 "Colon ':'"],
                 "answer": "Pipe '|'",
-                "explaination":"A delimiter is a character or symbol that separates words, data, or characters"
+                "explanation":"A delimiter is a character or symbol that separates words, data, or characters"
         },
         {
             "id": 2,
@@ -1890,7 +1890,7 @@
                 "It’s using a formula",
                 "It’s using conditional formatting"],
             "answer": "It’s using the Currency number format",
-            "explaination":""
+            "explanation":""
         },
         {
             "id": 3,
@@ -1903,7 +1903,7 @@
                 "It should use quotation marks instead of parentheses"
 			],
             "answer": "It should have an equals sign (=) at the beginning",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -1915,7 +1915,7 @@
                 "False"
             ],
             "answer": "True",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -1928,7 +1928,7 @@
             "$A$2",
             "A2"],
             "answer": "$A$2",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -1941,7 +1941,7 @@
                 "7.69",
                 "36"],
             "answer": "26",
-            "explaination":"Calculations in Excel follow the same BODMAS rule we have learnt in Math during school"
+            "explanation":"Calculations in Excel follow the same BODMAS rule we have learnt in Math during school"
         },
 
         {
@@ -1955,7 +1955,7 @@
                 "PivotTables"
             ],
             "answer": "Conditional formatting",
-            "explaination":""
+            "explanation":""
         },
         {
             "id": 8,
@@ -1968,7 +1968,7 @@
                 "Formula"
             ],
                 "answer": "Text",
-                "explaination":"The data type can be identified visually from the formula bar"
+                "explanation":"The data type can be identified visually from the formula bar"
         },
         {
             "id": 9,
@@ -1981,7 +1981,7 @@
                 "Using Merge & Center"
             ],
             "answer": "Using Merge & Center",
-            "explaination":"Merge & Center can be used to combine Cells across Rows or Columns"
+            "explanation":"Merge & Center can be used to combine Cells across Rows or Columns"
         }
         ,
         {
@@ -1995,7 +1995,7 @@
                 "12"
             ],
             "answer": "6",
-            "explaination":"COUNT() will return the number of cells containing numeric data. To find the count of filled cells, the COUNTA() function can be used"
+            "explanation":"COUNT() will return the number of cells containing numeric data. To find the count of filled cells, the COUNTA() function can be used"
         }
 
     ]
@@ -2011,7 +2011,7 @@
             "Either of the above",
         "None of the above"],
                 "answer": "Either of the above",
-                "explaination":""
+                "explanation":""
         },
         {
             "id": 2,
@@ -2023,7 +2023,7 @@
             "=LEFT(A2,3)",
             "None of the above"],
             "answer": "=VALUE(SUBSTITUTE(A2,'USD',''))",
-            "explaination":"The VALUE() functions converts the number in Text Format to the Number format in excel"
+            "explanation":"The VALUE() functions converts the number in Text Format to the Number format in excel"
         },
         {
             "id": 3,
@@ -2036,7 +2036,7 @@
                 "None of the above"
 			],
             "answer": "The value being looked up must be existing in the LEFT-MOST column of the selected source cell range or table",
-            "explaination":"The VLOOKUP() will produce an error if this rule is not followed"
+            "explanation":"The VLOOKUP() will produce an error if this rule is not followed"
         },
 
         {
@@ -2050,7 +2050,7 @@
                 "=COMBINE(A:B)"
             ],
             "answer": "=CONCATENATE(A2, ': ', B2)",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -2063,7 +2063,7 @@
             "CONDITION",
             "AVERAGE"],
             "answer": "IF",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -2076,7 +2076,7 @@
                 "=VLOOKUP(Products, G5, 3, FALSE)",
                 "=VLOOKUP(G5, 3, FALSE)"],
             "answer": "=VLOOKUP(G5, Products, 3, FALSE)",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -2089,7 +2089,7 @@
                 "=IF(B6=29,”Try again!”,”You win!”)"
             ],
             "answer": "=IF(OR(B6=29,C6=10),”You win!”,”Try again!”)",
-            "explaination":""
+            "explanation":""
         },
         {
             "id": 8,
@@ -2102,7 +2102,7 @@
                 "abet"
             ],
                 "answer": "phab",
-                "explaination":""
+                "explanation":""
         },
         {
             "id": 9,
@@ -2115,7 +2115,7 @@
                 "An error will be displayed"
             ],
             "answer": "Question Six",
-            "explaination":""
+            "explanation":""
         }
         ,
         {
@@ -2128,7 +2128,7 @@
                 "IF and AND","None of the above"
             ],
             "answer": "IF and AND",
-            "explaination":"The AND() function returns either True or False, based on the specified conditions. Meanwhile, the IF() function can be utilized to display the corresponding result for either TRUE or FALSE outcomes."
+            "explanation":"The AND() function returns either True or False, based on the specified conditions. Meanwhile, the IF() function can be utilized to display the corresponding result for either TRUE or FALSE outcomes."
         }
 
     ],
@@ -2144,7 +2144,7 @@
             "Text File",
         "None of the above"],
                 "answer": "CSV File",
-                "explaination":""
+                "explanation":""
         },
         {
             "id": 2,
@@ -2155,7 +2155,7 @@
                 "SUMIF(D3:D12,'<>',C3:C12)",
             "SUMIF(D3:C12,'>',D3:D12)"],
             "answer": "SUMIF(D3:D12,'<>',C3:C12)",
-            "explaination":""
+            "explanation":""
         },
         {
             "id": 3,
@@ -2167,7 +2167,7 @@
                 "INDEX($B$3:$B$11,MATCH(SMALL(C3:C11),C3:C11,0),1)"
 			],
             "answer": "INDEX($B$3:$B$11,MATCH(SMALL(C3:C11),C3:C11,0),1)",
-            "explaination":"MATCH return the Row Number in the series and INDEX returns the Column value in the matching Row Number of the Series"
+            "explanation":"MATCH return the Row Number in the series and INDEX returns the Column value in the matching Row Number of the Series"
         },
 
         {
@@ -2181,7 +2181,7 @@
                 "=COMBINE(A:B)"
             ],
             "answer": "=CONCATENATE(A2, ': ', B2)",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -2193,7 +2193,7 @@
                 "Adds up cell values based on multiple conditions",
                 "None of the above"],
             "answer": "Adds up cell values based on multiple conditions",
-            "explaination":"SUMIFS can be used with one or multiple conditions"
+            "explanation":"SUMIFS can be used with one or multiple conditions"
         },
 
         {
@@ -2206,7 +2206,7 @@
                 "=VLOOKUP(Products!$A$2:$C$20, G5, 3, FALSE)",
                 "=VLOOKUP(G5, 3, FALSE)"],
             "answer": "=VLOOKUP(G5, Products!$A$2:$C$20, 3, FALSE)",
-            "explaination":""
+            "explanation":""
         },
 
         {
@@ -2219,7 +2219,7 @@
                 "=IF(B6=29,”Try again!”,”You win!”)"
             ],
             "answer": "=IF(OR(B6=29,C6=10),”You win!”,”Try again!”)",
-            "explaination":""
+            "explanation":""
         },
         {
             "id": 8,
@@ -2232,7 +2232,7 @@
                 "abet"
             ],
                 "answer": "phab",
-                "explaination":""
+                "explanation":""
         },
         {
             "id": 9,
@@ -2245,7 +2245,7 @@
                 "An error will be displayed"
             ],
             "answer": "Question Six",
-            "explaination":""
+            "explanation":""
         }
         ,
         {
@@ -2259,7 +2259,7 @@
                 "Weekday"
             ],
             "answer": "Workday",
-            "explaination":""
+            "explanation":""
         }
 
     ],
@@ -2275,7 +2275,7 @@
                 "Cost Reduction",
                 "All of the above"],
                 "answer": "All of the above",
-                "explaination":""
+                "explanation":""
         },
         {
             "id": 2,
@@ -2285,7 +2285,7 @@
                 "Yes",
                 "No"],
             "answer": "Yes",
-            "explaination":"Local NVR will provide 45 days of continous and event based rolling footage"
+            "explanation":"Local NVR will provide 45 days of continous and event based rolling footage"
         },
         {
             "id": 3,
@@ -2297,7 +2297,7 @@
                 "30 Days"
 			],
             "answer": "7 Days",
-            "explaination":"7 Days free continous and event based rolling footage with option of upgrading the cloud storage to 30,60 and 90 days"
+            "explanation":"7 Days free continous and event based rolling footage with option of upgrading the cloud storage to 30,60 and 90 days"
         }
 
     ],
@@ -2312,7 +2312,7 @@
                 "Both local (on-premise) and hosted (cloud-based) sources",
                 "Only local (on-premise) sources"],
                 "answer": "All of the above",
-                "explaination":""
+                "explanation":""
         },
         {
             "id": 2,
@@ -2323,7 +2323,7 @@
                 "Report View",
                 "Model View"],
                 "answer": "Model View",
-                "explaination":""
+                "explanation":""
         }
         ,
         {
@@ -2335,7 +2335,7 @@
                 "Assigns it as a Row Label",
                 "Alternative to setting Data Categories"],
                 "answer": "Identifies the Row uniquely",
-                "explaination":""
+                "explanation":""
         }
         ,
         {
@@ -2347,7 +2347,7 @@
                 "To sync slicers with all pages",
                 "To group slicers"],
                 "answer": "Query Reduction",
-                "explaination":""
+                "explanation":""
         }
         ,
         {
@@ -2359,7 +2359,7 @@
                 "Flexibility to Hide/Show desired columns",
                 "Enables Interaction between visualizations"],
                 "answer": "Flexibility to Hide/Show desired columns",
-                "explaination":""
+                "explanation":""
         }
         ,
         {
@@ -2371,7 +2371,7 @@
                 "Cross-report is not turned on in Report A",
                 "Keep all filters in disabled in Report B"],
                 "answer": "Drill-through fields have not been defined in Report B",
-                "explaination":""
+                "explanation":""
         }
         ,
         {
@@ -2383,7 +2383,7 @@
                 "To display the column as an Image in your visualizations",
                 "It will load faster in visualizations"],
                 "answer": "To display the column as an Image in your visualizations",
-                "explaination":""
+                "explanation":""
         }
         ,
         {
@@ -2394,7 +2394,7 @@
                 "True",
                 "False"],
                 "answer": "False",
-                "explaination":"The slicer visualization behaves differently based on the Data Type"
+                "explanation":"The slicer visualization behaves differently based on the Data Type"
         }
         ,
         {
@@ -2405,7 +2405,7 @@
                 "Bar Chart",
                 "Pie Chart","Line Chart"],
                 "answer": "Line Chart",
-                "explaination":"Line Chart supports Forecasting which is a Regression Analysis"
+                "explanation":"Line Chart supports Forecasting which is a Regression Analysis"
         }
         ,
         {
@@ -2417,7 +2417,7 @@
                 "Add the additional fields to Tooltips",
                 "Add the additional fields to the legend"],
                 "answer": "Add the additional fields to Tooltips",
-                "explaination":"Fields added to Tooltips for charts display on hover"
+                "explanation":"Fields added to Tooltips for charts display on hover"
         }
 
     ]
@@ -2432,7 +2432,7 @@
                 "ML",
                 "AI","Neither,both are the same"],
                 "answer": "ML",
-                "explaination":"Machine Learning is a subset of AI"
+                "explanation":"Machine Learning is a subset of AI"
         },
         {
             "id": 2,
@@ -2442,7 +2442,7 @@
                 "Yes",
                 "No"],
             "answer": "Yes",
-            "explaination":"AI solves Classification and Regression problems and hence requires statistics"
+            "explanation":"AI solves Classification and Regression problems and hence requires statistics"
         },
         {
             "id": 3,
@@ -2452,7 +2452,7 @@
                 "Yes","No"
 			],
             "answer": "Yes",
-            "explaination":""
+            "explanation":""
         }
         ,
         {
@@ -2463,7 +2463,7 @@
                 "Yes","No"
 			],
             "answer": "Yes",
-            "explaination":"The brain has around 80–100 billion neurons (GPT-3s order of magnitude) and around 100 trillion synapses."
+            "explanation":"The brain has around 80–100 billion neurons (GPT-3s order of magnitude) and around 100 trillion synapses."
         }
         ,
         {
@@ -2474,7 +2474,7 @@
                 "Yes","No"
 			],
             "answer": "No",
-            "explaination":"AI does not have a restriction of a data source"
+            "explanation":"AI does not have a restriction of a data source"
         },
         {
             "id": 6,
@@ -2484,7 +2484,7 @@
                 "Yes","No"
 			],
             "answer": "Yes",
-            "explaination":"Programming language like Python can help you build AI Models"
+            "explanation":"Programming language like Python can help you build AI Models"
         },
         {
             "id": 7,
@@ -2496,7 +2496,7 @@
                 "It is a replication of a real-word solution"
 			],
             "answer": "It is an intelligence built using Statistics",
-            "explaination":"Regression or Classification Algorithms are built on Processed Data to generate a AI/ML Model"
+            "explanation":"Regression or Classification Algorithms are built on Processed Data to generate a AI/ML Model"
         }
         ,
         {
@@ -2509,7 +2509,7 @@
                 "Storing related information, for eg: Customers and Loans"
 			],
             "answer": "Analyzing Big Data",
-            "explaination":"Excel cannot handle more than 2GB of Data"
+            "explanation":"Excel cannot handle more than 2GB of Data"
         },
         {
             "id": 9,
@@ -2521,7 +2521,7 @@
                 "R","All of the above"
 			],
             "answer": "All of the above",
-            "explaination":"Though Python and R are Programming Languages, it can be used to analyze data visually"
+            "explanation":"Though Python and R are Programming Languages, it can be used to analyze data visually"
         }
         ,
         {
@@ -2534,7 +2534,140 @@
                 "Document"
 			],
             "answer": "Text",
-            "explaination":"An API is rendered in Text, a developer can use the information to render it in the way they want"
+            "explanation":"An API is rendered in Text, a developer can use the information to render it in the way they want"
+        }
+    ],
+    "Dashboard creating using Excel":[
+        {
+            "id": 1,
+            "question": "What is the purpose of using Excel Tables in dashboard creation?",
+            "choices": [
+                "To organize data into rows and columns",
+                "To enable better sorting and filtering options",
+                "To automatically apply formatting and data analysis features",
+                "All of the above"
+            ],
+            "answer": "All of the above",
+            "image": null,
+            "explanation": "Excel Tables organize data and provide improved sorting, filtering, automatic formatting, and data analysis features, making them essential for effective dashboard creation."
+        },
+        {
+            "id": 2,
+            "question": "How can custom cell formatting be used in Excel dashboards?",
+            "choices": [
+                "To change the font style only",
+                "To display data differently without changing the actual data value",
+                "To permanently alter the data",
+                "To create PivotTables"
+            ],
+            "answer": "To display data differently without changing the actual data value",
+            "image": null,
+            "explanation": "Custom cell formatting in Excel allows you to change how data appears without altering the actual data value, enhancing the dashboard's readability and presentation."
+        },
+        {
+            "id": 3,
+            "question": "What are Slicers in Excel used for?",
+            "choices": [
+                "To cut data into smaller parts",
+                "To add visual filters to PivotTables and Excel Tables",
+                "To create dynamic charts",
+                "To perform complex calculations"
+            ],
+            "answer": "To add visual filters to PivotTables and Excel Tables",
+            "image": null,
+            "explanation": "Slicers provide a user-friendly way to add visual filters to PivotTables and Excel Tables in dashboards, making it easier to segment and analyze data dynamically."
+        },
+        {
+            "id": 4,
+            "question": "What feature in Excel helps to summarize large sets of data into a condensed format?",
+            "choices": [
+                "Conditional Formatting",
+                "PivotTable",
+                "Excel Table",
+                "Data Validation"
+            ],
+            "answer": "PivotTable",
+            "image": null,
+            "explanation": "PivotTables are powerful tools in Excel for summarizing, analyzing, exploring, and presenting large sets of data in a condensed format, essential for dashboard reporting."
+        },
+        {
+            "id": 5,
+            "question": "How does Conditional Formatting enhance Excel dashboards?",
+            "choices": [
+                "By changing the appearance of cells based on specific criteria",
+                "By creating automated data entry forms",
+                "By sorting data alphabetically",
+                "By linking data between worksheets"
+            ],
+            "answer": "By changing the appearance of cells based on specific criteria",
+            "image": null,
+            "explanation": "Conditional Formatting dynamically alters the appearance of cells based on specific criteria, helping to visually highlight important trends or patterns in dashboard data."
+        },
+        {
+            "id": 6,
+            "question": "Which of the following is not a feature of Excel Tables?",
+            "choices": [
+                "Slicers",
+                "Total Row",
+                "Dynamic Charts",
+                "Macros"
+            ],
+            "answer": "Macros",
+            "image": null,
+            "explanation": "While Excel Tables support features like Slicers, Total Row, and integration with dynamic charts, they do not inherently include Macros, which are part of Excel's VBA programming feature."
+        },
+        {
+            "id": 7,
+            "question": "What makes PivotTables a crucial feature for Excel dashboards?",
+            "choices": [
+                "They can automatically extract unique values from a dataset",
+                "They offer interactive data exploration capabilities",
+                "They directly improve the Excel workbook’s printing quality",
+                "They can only display data in a tabular format"
+            ],
+            "answer": "They offer interactive data exploration capabilities",
+            "image": null,
+            "explanation": "PivotTables are crucial for Excel dashboards because they offer interactive data exploration capabilities, allowing users to analyze and summarize data through various perspectives and dimensions easily."
+        },
+        {
+            "id": 8,
+            "question": "In dashboard design, why is it important to use Custom Cell Formatting?",
+            "choices": [
+                "To speed up the Excel application",
+                "To make the dashboard more interactive",
+                "To improve the visual appeal and readability of the data",
+                "To prevent users from modifying the data"
+            ],
+            "answer": "To improve the visual appeal and readability of the data",
+            "image": null,
+            "explanation": "Custom Cell Formatting is crucial in dashboard design to improve the visual appeal and readability, ensuring that users can easily understand and analyze the presented data."
+        },
+        {
+            "id": 9,
+            "question": "Which function is not directly related to creating dashboards in Excel?",
+            "choices": [
+                "VLOOKUP",
+                "CONCATENATE",
+                "SUMIF",
+                "HYPERLINK"
+            ],
+            "answer": "HYPERLINK",
+            "image": null,
+            "explanation": "While HYPERLINK function is useful for navigation, it's not directly related to the creation and functionality of dashboards, unlike functions like VLOOKUP, CONCATENATE, and SUMIF which are often used to manipulate and summarize data in dashboards."
+        },
+        {
+            "id": 10,
+            "question": "What role do Slicers play in interactive dashboards?",
+            "choices": [
+                "They act as static headers for data columns",
+                "They serve as dynamic filters that allow users to segment data interactively",
+                "They are used to link data between different sheets",
+                "They perform complex calculations"
+            ],
+            "answer": "They serve as dynamic filters that allow users to segment data interactively",
+            "image": null,
+            "explanation": "Slicers enhance interactivity in dashboards by allowing users to easily filter and segment the displayed data, thus providing a dynamic way to analyze and drill down into specific details."
         }
     ]
+    
 }
