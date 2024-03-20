@@ -169,6 +169,76 @@
         ],
         "image": ""
     }
+],
+"Oracle PL/SQL":[
+  {
+      "id": 1,
+      "question": "What is your current level of experience with SQL?",
+      "choices": [
+          "No experience",
+          "Basic understanding (can write simple queries)",
+          "Intermediate (can write complex queries and understand joins)",
+          "Advanced (can optimize queries and design databases)"
+      ],
+      "image": null
+  },
+  {
+      "id": 2,
+      "question": "Have you ever used a relational database management system (RDBMS)? If yes, which one(s)?",
+      "choices": [
+          "No, I have never used an RDBMS.",
+          "Yes, MySQL",
+          "Yes, Microsoft SQL Server",
+          "Yes, Oracle Database",
+          "Yes, PostgreSQL or other"
+      ],
+      "image": null
+  },
+  {
+      "id": 3,
+      "question": "Which of the following best describes your understanding of PL/SQL?",
+      "choices": [
+          "I am not familiar with PL/SQL.",
+          "I know what PL/SQL is but have never written any PL/SQL code.",
+          "I have written simple PL/SQL blocks like procedures or functions.",
+          "I have experience writing complex PL/SQL programs."
+      ],
+      "image": null
+  },
+  {
+      "id": 4,
+      "question": "How would you rate your programming skills in any language (not just SQL or PL/SQL)?",
+      "choices": [
+          "No programming experience",
+          "Beginner",
+          "Intermediate",
+          "Advanced"
+      ],
+      "image": null
+  },
+  {
+      "id": 5,
+      "question": "What is your primary goal for taking this Oracle PL/SQL course?",
+      "choices": [
+          "To start a new career in database development or administration",
+          "To gain a skill for my current job",
+          "To enhance my current database knowledge",
+          "Personal interest in learning PL/SQL"
+      ],
+      "image": null
+  },
+  {
+      "id": 6,
+      "question": "How familiar are you with database concepts like tables, indexes, and transactions?",
+      "choices": [
+          "Not familiar",
+          "Somewhat familiar",
+          "Quite familiar",
+          "Very familiar"
+      ],
+      "image": null
+  }
 ]
+
 
 }
