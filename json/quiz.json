@@ -2668,6 +2668,140 @@
             "image": null,
             "explanation": "Slicers enhance interactivity in dashboards by allowing users to easily filter and segment the displayed data, thus providing a dynamic way to analyze and drill down into specific details."
         }
+    ],
+    "Oracle PL/SQL":[
+        {
+            "id": 1,
+            "question": "What is the purpose of a tablespace in Oracle Database?",
+            "choices": [
+                "To execute SQL queries",
+                "To store user data and system data",
+                "To connect to the database",
+                "To write PL/SQL code"
+            ],
+            "answer": "To store user data and system data",
+            "image": null,
+            "explanation": "Tablespaces in Oracle Database are used to logically organize and store data."
+        },
+        {
+            "id": 2,
+            "question": "In Oracle, what does a schema represent?",
+            "choices": [
+                "A collection of database objects owned by a specific user",
+                "A method to secure data",
+                "A type of database link",
+                "A storage area for tables and indexes"
+            ],
+            "answer": "A collection of database objects owned by a specific user",
+            "image": null,
+            "explanation": "A schema in Oracle represents a logical collection of database objects like tables and views, owned by a database user."
+        },
+        {
+            "id": 3,
+            "question": "Which of the following is NOT a type of database object in Oracle?",
+            "choices": [
+                "Trigger",
+                "Sequence",
+                "Viewport",
+                "Synonym"
+            ],
+            "answer": "Viewport",
+            "image": null,
+            "explanation": "Viewport is not a database object, whereas Trigger, Sequence, and Synonym are types of database objects in Oracle."
+        },
+        {
+            "id": 4,
+            "question": "Which data type would you use to store a user's email address in Oracle Database?",
+            "choices": [
+                "NUMBER",
+                "VARCHAR2",
+                "BLOB",
+                "DATE"
+            ],
+            "answer": "VARCHAR2",
+            "image": null,
+            "explanation": "VARCHAR2 is the appropriate data type for storing character data such as email addresses."
+        },
+        {
+            "id": 5,
+            "question": "What does a NULL value represent in a database?",
+            "choices": [
+                "Zero",
+                "An empty string",
+                "A missing or unknown value",
+                "A space character"
+            ],
+            "answer": "A missing or unknown value",
+            "image": null,
+            "explanation": "NULL represents a lack of value, indicating that the data is missing or unknown."
+        },
+        {
+            "id": 6,
+            "question": "What does the following SQL statement do? `SELECT * FROM employees;`",
+            "choices": [
+                "Inserts data into the employees table",
+                "Updates data in the employees table",
+                "Deletes data from the employees table",
+                "Retrieves all data from the employees table"
+            ],
+            "answer": "Retrieves all data from the employees table",
+            "image": null,
+            "explanation": "The SELECT statement is used to retrieve data from a database table."
+        },
+        {
+            "id": 7,
+            "question": "Which function would you use to concatenate two strings in Oracle?",
+            "choices": [
+                "CONCAT()",
+                "APPEND()",
+                "ADD_STR()",
+                "LINK()"
+            ],
+            "answer": "CONCAT()",
+            "image": null,
+            "explanation": "The CONCAT() function is used in Oracle to concatenate two strings together."
+        },
+        {
+            "id": 8,
+            "question": "Which Oracle function calculates the average value of a specified column?",
+            "choices": [
+                "SUM()",
+                "AVG()",
+                "TOTAL()",
+                "COUNT()"
+            ],
+            "answer": "AVG()",
+            "image": null,
+            "explanation": "The AVG() function is used to calculate the average value of a numeric column."
+        },
+        {
+            "id": 9,
+            "question": "How would you extract a substring from a string in Oracle starting at position 2 and ending at position 5?",
+            "choices": [
+                "SUBSTR(string, 2, 5)",
+                "TRIM(string, 2, 5)",
+                "CUT(string, 2, 5)",
+                "EXTRACT(string, 2, 5)"
+            ],
+            "answer": "SUBSTR(string, 2, 5)",
+            "image": null,
+            "explanation": "The SUBSTR function is used in Oracle to extract a substring from a specified position in a string."
+        },
+        {
+            "id": 10,
+            "question": "What does the COUNT function return in an Oracle SQL query?",
+            "choices": [
+                "The sum of the specified column's values",
+                "The average of the specified column's values",
+                "The number of rows that match the query criteria",
+                "The highest value in the specified column"
+            ],
+            "answer": "The number of rows that match the query criteria",
+            "image": null,
+            "explanation": "The COUNT function in Oracle SQL is used to return the number of rows that match a specified criterion, including rows with NULL values."
+        }
     ]
+               
+    
     
 }
