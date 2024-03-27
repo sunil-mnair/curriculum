@@ -2800,6 +2800,21 @@
             "image": null,
             "explanation": "The COUNT function in Oracle SQL is used to return the number of rows that match a specified criterion, including rows with NULL values."
         }
+    ],
+    "Office Productivity using ChatGPT":[
+        {
+          "id": 1,
+          "question": "Which of these can be referred to as Data?",
+          "choices": [
+            "Twitter Feed",
+            "Media (Video, Pictures and Audio)",
+            "Customer Details and Transactions",
+            "Customer Feedback",
+            "All of the above"
+          ],
+          "answer": "All of the above",
+          "explanation": "Data can be structured or unstructured."
+        }
     ]
                
     
