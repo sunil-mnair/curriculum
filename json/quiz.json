@@ -2800,69 +2800,7 @@
             "image": null,
             "explanation": "The COUNT function in Oracle SQL is used to return the number of rows that match a specified criterion, including rows with NULL values."
         }
-    ],
-    "Office Productivity using ChatGPT":[
-        {
-          "id": 1,
-          "question": "What is ChatGPT?",
-          "choices": [
-            "A video conferencing tool",
-            "An open-source operating system",
-            "A large language model developed by OpenAI",
-            "A cryptocurrency platform"
-          ],
-          "answer": "A large language model developed by OpenAI",
-          "explanation": "ChatGPT is a large language model that generates human-like text, developed by OpenAI."
-        },
-        {
-          "id": 2,
-          "question": "What type of AI is ChatGPT an example of?",
-          "choices": [
-            "Narrow AI",
-            "General AI",
-            "Reactive machines",
-            "Theory of mind"
-          ],
-          "answer": "Narrow AI",
-          "explanation": "ChatGPT is an example of Narrow AI, which is AI that is designed to perform a narrow task."
-        },
-        {
-          "id": 3,
-          "question": "How does ChatGPT generate its responses?",
-          "choices": [
-            "Keyword matching",
-            "Rule-based logic",
-            "Transformer neural networks",
-            "Linear regression"
-          ],
-          "answer": "Transformer neural networks",
-          "explanation": "ChatGPT generates responses using transformer neural networks, which are designed to understand the context of a conversation."
-        },
-        {
-          "id": 4,
-          "question": "What is fine-tuning in the context of ChatGPT?",
-          "choices": [
-            "Adjusting the model's cooling system",
-            "Modifying the model's parameters to perform better on specific tasks",
-            "Changing the model's training data",
-            "Updating the software used to run the model"
-          ],
-          "answer": "Modifying the model's parameters to perform better on specific tasks",
-          "explanation": "Fine-tuning is the process of tweaking a model's parameters to improve its performance on particular tasks."
-        },
-        {
-          "id": 5,
-          "question": "What is the role of the 'prompt' in interacting with ChatGPT?",
-          "choices": [
-            "It serves as the memory for the AI",
-            "It acts as the input based on which the model generates responses",
-            "It is used to update the model's code",
-            "It provides power to the AI system"
-          ],
-          "answer": "It acts as the input based on which the model generates responses",
-          "explanation": "The 'prompt' is the input text from which ChatGPT generates a coherent and contextually relevant response."
-        }
-      ]
+    ]
                
     
     
