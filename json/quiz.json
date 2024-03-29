@@ -2669,7 +2669,7 @@
             "explanation": "Slicers enhance interactivity in dashboards by allowing users to easily filter and segment the displayed data, thus providing a dynamic way to analyze and drill down into specific details."
         }
     ],
-    "Oracle PL/SQL":[
+    "Oracle PL/SQL-1":[
         {
             "id": 1,
             "question": "What is the purpose of a tablespace in Oracle Database?",
@@ -2800,7 +2800,131 @@
             "image": null,
             "explanation": "The COUNT function in Oracle SQL is used to return the number of rows that match a specified criterion, including rows with NULL values."
         }
+    ],
+    "Oracle PL/SQL":
+    [
+      {
+        "id": 1,
+        "question": "What is the correct syntax for selecting all the columns from a table named 'employees'?",
+        "choices": [
+          "SELECT * FROM employees",
+          "SELECT all FROM employees",
+          "SELECT columns FROM employees",
+          "GET * FROM employees"
+        ],
+        "answer": "SELECT * FROM employees",
+        "explanation": "The '*' symbol is used to select all columns from a specified table."
+      },
+      {
+        "id": 2,
+        "question": "How do you create a column alias 'EName' for the column 'EmployeeName'?",
+        "choices": [
+          "SELECT EmployeeName AS EName FROM employees",
+          "SELECT EmployeeName SET EName FROM employees",
+          "SELECT EmployeeName RENAME EName FROM employees",
+          "SELECT EmployeeName NAME AS EName FROM employees"
+        ],
+        "answer": "SELECT EmployeeName AS EName FROM employees",
+        "explanation": "The AS keyword is used to assign an alias to the column."
+      },
+      {
+        "id": 3,
+        "question": "Which ORDER BY clause correctly sorts the result set in descending order of the 'salary' column?",
+        "choices": [
+          "ORDER BY salary ASC",
+          "ORDER BY salary DESC",
+          "SORT BY salary DESC",
+          "ARRANGE BY salary"
+        ],
+        "answer": "ORDER BY salary DESC",
+        "explanation": "The DESC keyword specifies that the sorting is to be in descending order."
+      },
+      {
+        "id": 4,
+        "question": "What will the following SQL query return? SELECT COUNT(employee_id) FROM employees WHERE department_id = 3;",
+        "choices": [
+          "The sum of employee_id values for department 3",
+          "The average employee_id value for department 3",
+          "The total number of employees in department 3",
+          "The number 3"
+        ],
+        "answer": "The total number of employees in department 3",
+        "explanation": "The COUNT function returns the number of rows that match the condition specified in the WHERE clause."
+      },
+      {
+        "id": 5,
+        "question": "How can you fetch rows from the 'orders' table where the 'order_date' is between '2023-01-01' and '2023-12-31'?",
+        "choices": [
+          "SELECT * FROM orders WHERE order_date >= '2023-01-01' AND order_date <= '2023-12-31'",
+          "SELECT * FROM orders WHERE order_date BETWEEN '2023/01/01' - '2023/12/31'",
+          "SELECT * FROM orders WHERE order_date = '2023'",
+          "SELECT * FROM orders WHERE order_date IN ('2023-01-01', '2023-12-31')"
+        ],
+        "answer": "SELECT * FROM orders WHERE order_date >= '2023-01-01' AND order_date <= '2023-12-31'",
+        "explanation": "The BETWEEN operator selects values within a given range; dates should be in 'YYYY-MM-DD' format."
+      },
+      {
+        "id": 6,
+        "question": "Using the LIKE operator, how would you find employees whose names start with 'J'?",
+        "choices": [
+          "SELECT * FROM employees WHERE name LIKE 'J%'",
+          "SELECT * FROM employees WHERE name = 'J'",
+          "SELECT * FROM employees WHERE name STARTS WITH 'J'",
+          "SELECT * FROM employees WHERE name LIKE '%J'"
+        ],
+        "answer": "SELECT * FROM employees WHERE name LIKE 'J%'",
+        "explanation": "The LIKE operator with '%' is used for pattern matching. 'J%' matches any values that start with 'J'."
+      },
+      {
+        "id": 7,
+        "question": "What is the result of the following query? SELECT DISTINCT job_id FROM employees;",
+        "choices": [
+          "A list of all job IDs including duplicates",
+          "A list of unique job IDs",
+          "A list of all employee names",
+          "The total number of job IDs"
+        ],
+        "answer": "A list of unique job IDs",
+        "explanation": "The DISTINCT keyword is used to return only distinct (different) values in a column, thus eliminating duplicates."
+      },
+      {
+        "id": 8,
+        "question": "Which logical operator would you use to search for records where the 'employee_age' is either below 30 or above 50?",
+        "choices": [
+          "AND",
+          "NOT",
+          "OR",
+          "XOR"
+        ],
+        "answer": "OR",
+        "explanation": "The OR operator is used to specify alternative conditions in a SQL statement, so that if any of the conditions is true, the row is included in the result set."
+      },
+      {
+        "id": 9,
+        "question": "In SQL, which function is used to return the total sum of a numeric column?",
+        "choices": [
+          "SUM",
+          "TOTAL",
+          "COUNT",
+          "AGGREGATE"
+        ],
+        "answer": "SUM",
+        "explanation": "The SUM function is used to return the total sum of a numeric column."
+      },
+      {
+        "id": 10,
+        "question": "What does the WHERE clause in SQL do?",
+        "choices": [
+          "Sorts the result set in ascending or descending order",
+          "Groups the result set by one or more columns",
+          "Filters the result set to include only rows that meet certain conditions",
+          "Creates a new table with the specified columns"
+        ],
+        "answer": "Filters the result set to include only rows that meet certain conditions",
+        "explanation": "The WHERE clause is used to filter records and include only those that fulfill a specified condition."
+      }
     ]
+
                
     
     
