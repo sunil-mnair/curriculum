@@ -2923,7 +2923,131 @@
         "answer": "Filters the result set to include only rows that meet certain conditions",
         "explanation": "The WHERE clause is used to filter records and include only those that fulfill a specified condition."
       }
+    ],
+    "Fundamentals of Big Data Analytics":
+    [
+      {
+        "id": 1,
+        "question": "What is Big Data characterized by?",
+        "choices": [
+          "Large volume, low variety, and low velocity",
+          "High volume, high velocity, and high variety",
+          "Small volume, high variety, and high velocity",
+          "High volume, low variety, and low velocity"
+        ],
+        "answer": "High volume, high velocity, and high variety",
+        "explanation": "Big Data is characterized by three main attributes: high volume, high velocity, and high variety."
+      },
+      {
+        "id": 2,
+        "question": "What does HDFS stand for in Hadoop?",
+        "choices": [
+          "High Data File System",
+          "Hadoop Distributed File System",
+          "Hierarchical Data File System",
+          "High Definition File System"
+        ],
+        "answer": "Hadoop Distributed File System",
+        "explanation": "HDFS stands for Hadoop Distributed File System, which is designed to store large data sets reliably and to stream those data sets at high bandwidth to user applications."
+      },
+      {
+        "id": 3,
+        "question": "Which component of Hadoop is responsible for resource management and job scheduling?",
+        "choices": [
+          "HDFS",
+          "Yarn",
+          "Pig",
+          "Hive"
+        ],
+        "answer": "Yarn",
+        "explanation": "Yarn (Yet Another Resource Negotiator) is the component of Hadoop that is responsible for managing computing resources in clusters and using them for scheduling user applications."
+      },
+      {
+        "id": 4,
+        "question": "What is Hive primarily used for in the Hadoop ecosystem?",
+        "choices": [
+          "Data storage",
+          "Data analysis",
+          "Resource management",
+          "Job scheduling"
+        ],
+        "answer": "Data analysis",
+        "explanation": "Hive is a data warehouse software that facilitates querying and managing large datasets residing in distributed storage using SQL."
+      },
+      {
+        "id": 5,
+        "question": "Which Hadoop service is a high-level scripting language that simplifies writing MapReduce programs?",
+        "choices": [
+          "HDFS",
+          "Yarn",
+          "Pig",
+          "Hive"
+        ],
+        "answer": "Pig",
+        "explanation": "Pig is a high-level platform for creating MapReduce programs used with Hadoop. It is a scripting language called Pig Latin."
+      },
+      {
+        "id": 6,
+        "question": "How does HDFS ensure fault tolerance?",
+        "choices": [
+          "By encrypting data",
+          "By compressing data",
+          "By duplicating data across multiple nodes",
+          "By partitioning data across multiple nodes"
+        ],
+        "answer": "By duplicating data across multiple nodes",
+        "explanation": "HDFS ensures fault tolerance by storing multiple copies of data across different nodes in a Hadoop cluster, thereby making it available even if some of the nodes fail."
+      },
+      {
+        "id": 7,
+        "question": "What is the primary function of the Yarn Resource Manager?",
+        "choices": [
+          "Data storage",
+          "Job tracking",
+          "Resource allocation",
+          "Data processing"
+        ],
+        "answer": "Resource allocation",
+        "explanation": "The Yarn Resource Manager is responsible for allocating resources to various running applications according to predefined criteria, such as capacity, queue, and others."
+      },
+      {
+        "id": 8,
+        "question": "In the context of Hadoop, what does the term 'NameNode' refer to?",
+        "choices": [
+          "A data storage location",
+          "A resource management tool",
+          "The master node of HDFS",
+          "A type of data processing function"
+        ],
+        "answer": "The master node of HDFS",
+        "explanation": "In Hadoop's HDFS, the NameNode is the master server that manages the file system namespace and controls access to files by clients."
+      },
+      {
+        "id": 9,
+        "question": "What is Pig's primary feature that differentiates it from Hive?",
+        "choices": [
+          "Data storage management",
+          "Advanced analytics capabilities",
+          "An SQL-like interface",
+          "A dataflow scripting language"
+        ],
+        "answer": "A dataflow scripting language",
+        "explanation": "While Hive provides an SQL-like interface for querying data, Pig uses a dataflow scripting language called Pig Latin, which is designed for processing and analyzing large data sets."
+      },
+      {
+        "id": 10,
+        "question": "What advantage does Yarn provide in Hadoop's ecosystem?",
+        "choices": [
+          "Improved data serialization",
+          "Enhanced data security",
+          "Seperation of job scheduling and resource management",
+          "Faster data replication in HDFS"
+        ],
+        "answer": "Seperation of job scheduling and resource management",
+        "explanation": "Yarn provides the advantage of separating job scheduling and resource management from the MapReduce component, which allows for more efficient processing of data and better resource utilization in Hadoop’s ecosystem."
+      }
     ]
+    
 
                
     
