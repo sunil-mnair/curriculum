@@ -2000,49 +2000,50 @@
 
     ]
     ,"Excel Intermediate":
-        [
-            {
+    [
+        {
             "id": 1,
-            "question":"Which of these formulas will help extract the correct ID's AZ5001 and BZ5002?",
-            "image":"excel_find_mid.png",
+            "question": "Which of these formulas will help extract the correct ID's AZ5001 and BZ5002?",
+            "image": "excel_find_mid.png",
             "choices": [
                 "=TRIM(MID(B4,FIND(' ',B4,1),6))",
                 "=MID(B4,FIND(' ',B4,1)+1,6)",
-            "Either of the above",
-        "None of the above"],
-                "answer": "Either of the above",
-                "explaination":""
+                "Either of the above",
+                "None of the above"
+            ],
+            "answer": "Either of the above",
+            "explanation": "Both formulas are capable of extracting the specified IDs from a string."
         },
         {
             "id": 2,
-            "question":"Which of these formulas will help extract the numbers with the current Number format in excel?",
-            "image":"excel_substitute_value.png",
+            "question": "Which of these formulas will help extract the numbers with the current Number format in excel?",
+            "image": "excel_substitute_value.png",
             "choices": [
                 "=SUBSTITUTE(A2,'USD','')",
                 "=VALUE(SUBSTITUTE(A2,'USD',''))",
-            "=LEFT(A2,3)",
-            "None of the above"],
+                "=LEFT(A2,3)",
+                "None of the above"
+            ],
             "answer": "=VALUE(SUBSTITUTE(A2,'USD',''))",
-            "explaination":"The VALUE() functions converts the number in Text Format to the Number format in excel"
+            "explanation": "The VALUE function converts text to a number, and SUBSTITUTE removes 'USD'."
         },
         {
             "id": 3,
-            "question":"Which rule is applicable when using the VLOOKUP?",
-            "image":"",
+            "question": "Which rule is applicable when using the VLOOKUP?",
+            "image": "",
             "choices": [
                 "The value being looked up should be contained in the same sheet",
                 "The value being looked up must be existing in the RIGHT-MOST column of the selected source cell range or table",
                 "The value being looked up must be existing in the LEFT-MOST column of the selected source cell range or table",
                 "None of the above"
-			],
+            ],
             "answer": "The value being looked up must be existing in the LEFT-MOST column of the selected source cell range or table",
-            "explaination":"The VLOOKUP() will produce an error if this rule is not followed"
+            "explanation": "VLOOKUP searches for a value in the left-most column of a table and returns a value in the same row from a specified column."
         },
-
         {
             "id": 4,
-            "question":"In this image, which formula would we use to display the text Waffles: bunny?",
-            "image":"excel_concatenate.png",
+            "question": "In this image, which formula would we use to display the text Waffles: bunny?",
+            "image": "excel_concatenate.png",
             "choices": [
                 "=CONCATENATE(A2, ': ', B2)",
                 "=COMBINE(A2, B2)",
@@ -2050,64 +2051,65 @@
                 "=COMBINE(A:B)"
             ],
             "answer": "=CONCATENATE(A2, ': ', B2)",
-            "explaination":""
+            "explanation": "CONCATENATE joins two or more text strings into one string."
         },
-
         {
             "id": 5,
-            "question":"Which function can display a different value depending on a condition?",
-            "image":"",
+            "question": "Which function can display a different value depending on a condition?",
+            "image": "",
             "choices": [
                 "TEST",
                 "IF",
-            "CONDITION",
-            "AVERAGE"],
+                "CONDITION",
+                "AVERAGE"
+            ],
             "answer": "IF",
-            "explaination":""
+            "explanation": "The IF function evaluates a condition and returns one value if true, and another value if false."
         },
-
         {
             "id": 6,
-            "question":"Which of the following VLOOKUP functions is using the correct arguments?",
-            "image":"",
+            "question": "Which of the following VLOOKUP functions is using the correct arguments?",
+            "image": "",
             "choices": [
                 "=VLOOKUP(G5=3, TRUE, FALSE)",
                 "=VLOOKUP(G5, Products, 3, FALSE)",
                 "=VLOOKUP(Products, G5, 3, FALSE)",
-                "=VLOOKUP(G5, 3, FALSE)"],
+                "=VLOOKUP(G5, 3, FALSE)"
+            ],
             "answer": "=VLOOKUP(G5, Products, 3, FALSE)",
-            "explaination":""
+            "explanation": "The correct syntax for VLOOKUP includes the lookup value, the table array, the column index number, and a TRUE or FALSE for an exact match."
         },
-
         {
             "id": 7,
-            "question":"Which formula is guaranteed to return the phrase “You win!” if the value in cell B6 is 29?",
-            "image":"excel_if_01.png",
+            "question": "Which formula is guaranteed to return the phrase 'You win!' if the value in cell B6 is 29?",
+            "image": "excel_if_01.png",
             "choices": [
-                "=IF(AND(B6=29,C6=10),”You win!”,”Try again!”)",
-                "=IF(OR(B6=29,C6=10),”You win!”,”Try again!”)",
-                "=IF(B6=29,”Try again!”,”You win!”)"
+                "=IF(AND(B6=29,C6=10),'You win!','Try again!')",
+                "=IF(OR(B6=29,C6=10),'You win!','Try again!')",
+                "=IF(B6=29,'Try again!','You win!')"
             ],
-            "answer": "=IF(OR(B6=29,C6=10),”You win!”,”Try again!”)",
-            "explaination":""
+            "answer": "=IF(OR(B6=29,C6=10),'You win!','Try again!')",
+            "explanation": "The IF function, combined with the OR logical function, checks if either of two conditions is true and returns 'You win!' if so."
         },
         {
-            "id": 8,
-            "question":" If the word 'alphabet' is in cell A1, then what does the function =mid(A1, 3, 4) display?",
-            "image":"",
+           
+    
+     "id": 8,
+            "question": "If the word 'alphabet' is in cell A1, then what does the function =mid(A1, 3, 4) display?",
+            "image": "",
             "choices": [
                 "phab",
                 "hab",
                 "bet",
                 "abet"
             ],
-                "answer": "phab",
-                "explaination":""
+            "answer": "phab",
+            "explanation": "MID returns a specific substring from a text string, starting at the position specified and continuing for the number of characters specified."
         },
         {
             "id": 9,
-            "question":"What is the result of the formula =trim('Question Six')?",
-            "image":"",
+            "question": "What is the result of the formula =trim(' Question Six ')?",
+            "image": "",
             "choices": [
                 "Question Six",
                 "Question Si",
@@ -2115,22 +2117,21 @@
                 "An error will be displayed"
             ],
             "answer": "Question Six",
-            "explaination":""
-        }
-        ,
+            "explanation": "TRIM removes all spaces from a text string except for single spaces between words."
+        },
         {
             "id": 10,
-            "question":"To generate a result in a cell when two specific conditions are true, which Excel function should be used?",
-            "image":"",
+            "question": "To generate a result in a cell when two specific conditions are true, which Excel function should be used?",
+            "image": "",
             "choices": [
                 "AND",
                 "OR",
-                "IF and AND","None of the above"
+                "IF and AND",
+                "None of the above"
             ],
             "answer": "IF and AND",
-            "explaination":"The AND() function returns either True or False, based on the specified conditions. Meanwhile, the IF() function can be utilized to display the corresponding result for either TRUE or FALSE outcomes."
+            "explanation": "Combining IF with AND allows for checking multiple conditions, and if all conditions are true, it returns the specified result."
         }
-
     ],
     "Data Consolidation and Analysis using Excel":
         [
