@@ -2802,7 +2802,7 @@
             "explaination": "The COUNT function in Oracle SQL is used to return the number of rows that match a specified criterion, including rows with NULL values."
         }
     ],
-    "Oracle PL/SQL":
+    "Oracle PL/SQL-2":
     [
       {
         "id": 1,
@@ -3048,9 +3048,130 @@
         "explaination": "Yarn provides the advantage of separating job scheduling and resource management from the MapReduce component, which allows for more efficient processing of data and better resource utilization in Hadoop’s ecosystem."
       }
     ]
-    
-
-               
-    
+    ,
+    "Oracle PL/SQL":   
+    [
+        {
+          "id": 1,
+          "question": "How do you retrieve all columns from the 'employees' table?",
+          "choices": [
+            "SELECT * FROM employees;",
+            "FETCH * FROM employees;",
+            "GET * IN employees;",
+            "READ * FROM employees;"
+          ],
+          "answer": "SELECT * FROM employees;",
+          "explanation": "The SELECT statement is used in SQL to select data from a database. The asterisk (*) is used to select all columns."
+        },
+        {
+          "id": 2,
+          "question": "What SQL clause is used to sort the result-set?",
+          "choices": [
+            "SORT BY",
+            "ARRANGE BY",
+            "ORDER BY",
+            "GROUP BY"
+          ],
+          "answer": "ORDER BY",
+          "explanation": "'ORDER BY' clause is used in SQL to sort the result-set in ascending or descending order."
+        },
+        {
+          "id": 3,
+          "question": "How can you count the number of employees in the 'department' table?",
+          "choices": [
+            "SUM() all employees in department",
+            "COUNT() all employees in department",
+            "COUNT(*) FROM department",
+            "TOTAL(*) FROM department"
+          ],
+          "answer": "COUNT(*) FROM department",
+          "explanation": "COUNT(*) function returns the number of rows that matches a specified criteria."
+        },
+        {
+          "id": 4,
+          "question": "How do you group records in SQL based on a particular column like 'department_id'?",
+          "choices": [
+            "SORT BY department_id",
+            "COLLECT BY department_id",
+            "GROUP BY department_id",
+            "ORDER BY department_id"
+          ],
+          "answer": "GROUP BY department_id",
+          "explanation": "'GROUP BY' statement groups rows that have the same values in specified columns into summary rows."
+        },
+        {
+          "id": 5,
+          "question": "Which SQL statement is used to return only different values?",
+          "choices": [
+            "SELECT DISTINCT",
+            "SELECT UNIQUE",
+            "SELECT DIFFERENT",
+            "SELECT VARYING"
+          ],
+          "answer": "SELECT DISTINCT",
+          "explanation": "'SELECT DISTINCT' statement is used to return only distinct (different) values."
+        },
+        {
+          "id": 6,
+          "question": "How would you rename a column 'a' to 'b' in the output of an SQL query using an alias?",
+          "choices": [
+            "SELECT a AS b FROM table;",
+            "SELECT a RENAME b FROM table;",
+            "SELECT a TO b FROM table;",
+            "SELECT a NAMED b FROM table;"
+          ],
+          "answer": "SELECT a AS b FROM table;",
+          "explanation": "The AS SQL clause is used to rename a column or table with an alias."
+        },
+        {
+          "id": 7,
+          "question": "In Oracle SQL, how do you define a variable 'x' to use in your sessions?",
+          "choices": [
+            "DEFINE x;",
+            "CREATE x;",
+            "DECLARE x;",
+            "SET x;"
+          ],
+          "answer": "DEFINE x;",
+          "explanation": "'DEFINE' is used to set a variable in SQL*Plus environment."
+        },
+        {
+          "id": 8,
+          "question": "What is the correct syntax to undefine a variable named 'y' in Oracle SQL?",
+          "choices": [
+            "UNDEFINE y;",
+            "REMOVE y;",
+            "DELETE y;",
+            "DROP y;"
+          ],
+          "answer": "UNDEFINE y;",
+          "explanation": "'UNDEFINE' is used to delete a variable previously defined in SQL*Plus environment."
+        },
+        {
+          "id": 9,
+          "question": "How do you select the current date from Oracle SQL?",
+          "choices": [
+            "SELECT CURRENT_DATE;",
+            "SELECT SYSDATE;",
+            "SELECT GETDATE();",
+            "SELECT NOW();"
+          ],
+          "answer": "SELECT SYSDATE;",
+          "explanation": "'SYSDATE' is an Oracle's built-in function to get the current date and time."
+        },
+        {
+          "id": 10,
+          "question": "What aggregate function would you use to calculate the total salary from 'employees' table?",
+          "choices": [
+            "TOTAL(salary) FROM employees",
+            "SUM(salary) FROM employees",
+            "AGGREGATE(salary) FROM employees",
+            "COMBINE(salary) FROM employees"
+          ],
+          "answer": "SUM(salary) FROM employees",
+          "explanation": "'SUM' is an aggregate function in SQL that is used to sum up the values of a column."
+        }
+      ]
+      
     
 }
