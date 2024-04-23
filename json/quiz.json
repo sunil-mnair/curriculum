@@ -2302,7 +2302,7 @@
         }
 
     ],
-    "Microsoft Power BI":
+    "Microsoft Power BI - Old":
         [
             {
             "id": 1,
@@ -2421,7 +2421,131 @@
                 "explaination":"Fields added to Tooltips for charts display on hover"
         }
 
-    ]
+    ],
+    "Microsoft Power BI":[
+        {
+          "id": 1,
+          "question": "What property should you configure to improve model relationship detection in Power BI?",
+          "choices": [
+            "Default Summarization",
+            "Data Category",
+            "Sort By Column",
+            "Table Behavior"
+          ],
+          "answer": "Data Category",
+          "explanation": "Setting the Data Category property helps Power BI to better understand the data and hence, can improve automatic detection of relationships."
+        },
+        {
+          "id": 2,
+          "question": "Which of the following is NOT a summarization function available in Power BI?",
+          "choices": [
+            "Average",
+            "Count",
+            "Median",
+            "Concatenate"
+          ],
+          "answer": "Concatenate",
+          "explanation": "Concatenate is not a summarization function in Power BI. Summarization functions include Average, Count, Sum, Min, Max, and more."
+        },
+        {
+          "id": 3,
+          "question": "In Power BI, what is a Key Column primarily used for?",
+          "choices": [
+            "Sorting Data",
+            "Filtering Data",
+            "Creating Relationships",
+            "Data Visualization"
+          ],
+          "answer": "Creating Relationships",
+          "explanation": "A Key Column is used for creating relationships between tables in Power BI."
+        },
+        {
+            "id": 4,
+            "question": "How can you implement drill down functionality in a Power BI report?",
+            "choices": [
+              "Use 'Expand all' in Table Visualization",
+              "Create a Hierarchy in the data model",
+              "Enable 'Spotlight' feature for visual",
+              "Adjust the 'Relationship' settings"
+            ],
+            "answer": "Create a Hierarchy in the data model",
+            "explanation": "Creating a Hierarchy in the data model allows users to drill down to different levels of granularity in a Power BI report."
+          },
+          {
+            "id": 5,
+            "question": "Which feature should be enabled to allow the selection of a visual in one Power BI report to affect the content of another report?",
+            "choices": [
+              "Cross-Filtering",
+              "Bi-directional Relationships",
+              "Cross Report Drillthrough",
+              "Cross-Report Bookmarking"
+            ],
+            "answer": "Cross Report Drillthrough",
+            "explanation": "Cross Report Drillthrough enables users to click on a data point in one report and drill through to a related report, carrying the filter context over to the other report."
+          }
+          ,
+        {
+          "id": 6,
+          "question": "What is the primary purpose of Slicers in Power BI?",
+          "choices": [
+            "To summarize data",
+            "To modify data sources",
+            "To filter data on a report page",
+            "To create calculated columns"
+          ],
+          "answer": "To filter data on a report page",
+          "explanation": "Slicers in Power BI are used to filter data on a report page, allowing for interactive data exploration."
+        },
+        {
+          "id": 7,
+          "question": "How can you best describe a Card Visualization in Power BI?",
+          "choices": [
+            "Displays a single value",
+            "Compares multiple values",
+            "Shows trends over time",
+            "Displays categorical data"
+          ],
+          "answer": "Displays a single value",
+          "explanation": "A Card Visualization is used in Power BI to display a single value, typically a summarized number."
+        },
+        {
+          "id": 8,
+          "question": "Which of these is a type of relationship that can be created between tables in Power BI?",
+          "choices": [
+            "One-to-one",
+            "One-to-many",
+            "Many-to-many",
+            "All of the above"
+          ],
+          "answer": "All of the above",
+          "explanation": "Power BI allows you to create one-to-one, one-to-many, and many-to-many relationships between tables."
+        },
+        {
+          "id": 9,
+          "question": "What does setting a 'Sort By Column' property on a column ensure in a Power BI report?",
+          "choices": [
+            "That the column values are unique",
+            "That the column is used as a filter",
+            "That another column's values sort the data",
+            "That the data is refreshed in real-time"
+          ],
+          "answer": "That another column's values sort the data",
+          "explanation": "The 'Sort By Column' property in Power BI ensures that the values in one column are used to sort another column in the data model."
+        },
+        {
+            "id": 10,
+            "question": "What is the purpose of the 'Sync Slicers' feature in Power BI?",
+            "choices": [
+              "To refresh all slicers at once",
+              "To synchronize slicer selections across multiple pages",
+              "To create a single slicer that controls multiple data models",
+              "To link slicers to a specific key column in the data model"
+            ],
+            "answer": "To synchronize slicer selections across multiple pages",
+            "explanation": "The 'Sync Slicers' feature in Power BI allows slicer selections to be synchronized across different pages of a report, providing a consistent filtering experience."
+          }
+      ]
+      
     ,
     "Data Literacy 2":
         [
