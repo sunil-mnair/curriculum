@@ -2422,7 +2422,7 @@
         }
 
     ],
-    "Microsoft Power BI":[
+    "Microsoft Power BI_ old2":[
         {
           "id": 1,
           "question": "What property should you configure to improve model relationship detection in Power BI?",
@@ -2544,6 +2544,128 @@
             "answer": "To synchronize slicer selections across multiple pages",
             "explanation": "The 'Sync Slicers' feature in Power BI allows slicer selections to be synchronized across different pages of a report, providing a consistent filtering experience."
           }
+      ],
+      "Microsoft Power BI":[
+        {
+          "id": 1,
+          "question": "Which DAX function would you use to conditionally return values based on multiple conditions?",
+          "choices": [
+            "IF",
+            "SWITCH",
+            "CASE",
+            "CHOOSE"
+          ],
+          "answer": "SWITCH",
+          "explanation": "The SWITCH function evaluates an expression against a list of values and returns the corresponding result of the first match."
+        },
+        {
+            "id": 2,
+            "question": "What will the following DAX formula create: 'DateTable = CALENDAR(DATE(2022, 1, 1), DATE(2022, 12, 31))'?",
+            "choices": [
+              "A table with a single column named 'Date' that spans for the year 2022",
+              "A single value representing the number of days in 2022",
+              "A list of dates from January 2022 to December 2022 in a single row",
+              "Two separate date columns for the start and end of the year 2022"
+            ],
+            "answer": "A table with a single column named 'Date' that spans for the year 2022",
+            "explanation": "The formula creates a table named 'DateTable' with a single 'Date' column that includes all dates from January 1, 2022, to December 31, 2022."
+          },
+        {
+          "id": 3,
+          "question": "Which function would you use to extract the year part from a date column in DAX?",
+          "choices": [
+            "YEAR",
+            "EXTRACTYEAR",
+            "DATEPART",
+            "DATEYEAR"
+          ],
+          "answer": "YEAR",
+          "explanation": "The YEAR function in DAX returns the year of a date as a four-digit integer."
+        },
+        {
+          "id": 4,
+          "question": "What DAX function retrieves a single value from a column in the current context?",
+          "choices": [
+            "CURRENTVALUE",
+            "SINGLEVALUE",
+            "SELECTEDVALUE",
+            "ONEVALUE"
+          ],
+          "answer": "SELECTEDVALUE",
+          "explanation": "The SELECTEDVALUE function returns the value when there's one value in the specified column in the current context, otherwise, it returns the alternative result."
+        },
+        {
+          "id": 5,
+          "question": "How does the DIVIDE function handle division by zero scenarios by default?",
+          "choices": [
+            "Returns 0",
+            "Returns an error",
+            "Returns BLANK",
+            "Returns INFINITY"
+          ],
+          "answer": "Returns BLANK",
+          "explanation": "The DIVIDE function in DAX returns BLANK if the denominator is zero."
+        },
+        {
+            "id": 6,
+            "question": "What will the DAX formula 'DIVIDE([Total Sales], [Total Costs], 0)' return if [Total Costs] is 0?",
+            "choices": [
+              "An error",
+              "The value of [Total Sales]",
+              "0",
+              "BLANK"
+            ],
+            "answer": "0",
+            "explanation": "The DIVIDE function returns the specified alternate result, which is 0 in this case, instead of an error when the denominator is 0."
+          },
+          {
+            "id": 7,
+            "question": "Given the DAX formula 'Revenue = CALCULATE(SUM(Sales[Amount]), FILTER(Sales, Sales[Amount] > 0))', what does it calculate?",
+            "choices": [
+              "The total sales amount from the Sales table",
+              "The average sales amount from the Sales table",
+              "The total revenue where sales amount is positive",
+              "The count of sales transactions with non-zero amounts"
+            ],
+            "answer": "The total revenue where sales amount is positive",
+            "explanation": "This formula calculates the sum of the 'Amount' column in the Sales table, but only for rows where the 'Amount' is greater than 0, effectively computing the total positive revenue."
+          },
+          {
+            "id": 8,
+            "question": "What does the following DAX expression do: 'SELECTCOLUMNS(Employees, \"Employee Name\", Employees[FirstName] & \" \" & Employees[LastName])'?",
+            "choices": [
+              "Selects and renames the first and last name columns in the Employees table",
+              "Creates a new table with a single column concatenating first and last names",
+              "Filters the Employees table to only show rows where first and last names are not blank",
+              "Sorts the Employees table by the concatenated first and last name columns"
+            ],
+            "answer": "Creates a new table with a single column concatenating first and last names",
+            "explanation": "The SELECTCOLUMNS function creates a new table with a single column named 'Employee Name' that contains the concatenated first and last names of employees."
+          },
+        {
+          "id": 9,
+          "question": "How would you add calculated columns to a table in a DAX query?",
+          "choices": [
+            "ADDCOLUMNS",
+            "INSERTCOLUMNS",
+            "EXTENDTABLE",
+            "CALCULATECOLUMNS"
+          ],
+          "answer": "ADDCOLUMNS",
+          "explanation": "ADDCOLUMNS adds calculated columns to the specified table, preserving existing ones."
+        },
+        {
+          "id": 10,
+          "question": "Which DAX function allows you to consider all the rows that are currently selected in all the filters?",
+          "choices": [
+            "ALLSELECTED",
+            "ALL",
+            "SELECTED",
+            "CURRENTSELECTION"
+          ],
+          "answer": "ALLSELECTED",
+          "explanation": "ALLSELECTED returns all the rows in a table, or all the values in a column, ignoring any filters that might have been applied except the ones that come from the current filter context."
+        }
       ]
       
     ,
