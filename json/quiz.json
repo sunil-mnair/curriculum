@@ -2545,7 +2545,7 @@
             "explanation": "The 'Sync Slicers' feature in Power BI allows slicer selections to be synchronized across different pages of a report, providing a consistent filtering experience."
           }
       ],
-      "Microsoft Power BI":[
+      "Microsoft Power BI - old 4":[
         {
           "id": 1,
           "question": "Which DAX function would you use to conditionally return values based on multiple conditions?",
@@ -2666,7 +2666,131 @@
           "answer": "ALLSELECTED",
           "explanation": "ALLSELECTED returns all the rows in a table, or all the values in a column, ignoring any filters that might have been applied except the ones that come from the current filter context."
         }
+      ],
+      "Microsoft Power BI":[
+        {
+          "id": 1,
+          "question": "Which of the following Power BI components is used to automate connectivity with on-premise Databases?",
+          "choices": [
+            "Power BI Desktop",
+            "Power BI Gateway",
+            "Power BI Service",
+            "DAX Editor"
+          ],
+          "answer": "Power BI Gateway",
+          "explanation": "Power BI Gateway is used to facilitate the transfer of data between on-premises data sources and Power BI Service in the cloud."
+        },
+        {
+          "id": 2,
+          "question": "In Power BI, which feature should be used to reduce the number of rows loaded into a dataset?",
+          "choices": [
+            "Query Folding",
+            "Data Compression",
+            "Incremental Refresh",
+            "Parameter Slicing"
+          ],
+          "answer": "Incremental Refresh",
+          "explanation": "Incremental Refresh allows only data that has changed to be refreshed, reducing the volume of data loaded."
+        },
+        {
+          "id": 3,
+          "question": "What is the primary function of DAX in Power BI?",
+          "choices": [
+            "Data extraction",
+            "Data transformation",
+            "Data visualization",
+            "Data analysis"
+          ],
+          "answer": "Data analysis",
+          "explanation": "DAX (Data Analysis Expressions) is a formula language specifically for data analysis and is used to create calculated columns, measures, and tables in Power BI."
+        },
+        {
+            "id": 4,
+            "question": "What is the result of using the 'ALLSELECTED' DAX function in a measure?",
+            "choices": [
+              "It removes all filters from the calculation context.",
+              "It respects all filters that were applied, even after interaction.",
+              "It allows a measure to be used without any filters.",
+              "It removes alternate row context."
+            ],
+            "answer": "It respects all filters that were applied, even after interaction.",
+            "explanation": "The 'ALLSELECTED' function maintains any filters that have been applied to the data, even if the user interacts with the report."
+          },
+          {
+            "id": 5,
+            "question": "What is the purpose of the 'RELATED' DAX function?",
+            "choices": [
+              "To merge data from related tables without needing a relationship.",
+              "To fetch a related value from a different table that has an existing relationship.",
+              "To create a new table that combines columns from multiple related tables.",
+              "To filter a table to the related values in another table."
+            ],
+            "answer": "To fetch a related value from a different table that has an existing relationship.",
+            "explanation": "The 'RELATED' function is used to pull data from a table that is related to the current table through a defined relationship."
+          },
+          {
+            "id": 6,
+            "question": "In Power BI, what is the primary use of the 'CALCULATE' function?",
+            "choices": [
+              "To perform basic arithmetic calculations on two columns.",
+              "To change the context of a calculation and apply filters.",
+              "To calculate the current date and time.",
+              "To sum up all the values in a column."
+            ],
+            "answer": "To change the context of a calculation and apply filters.",
+            "explanation": "The 'CALCULATE' function is one of the most powerful functions in DAX, allowing you to modify filter context and evaluate an expression in a modified context."
+          },
+          {
+            "id": 7,
+            "question": "Which Power BI feature should you use to provide users with predefined, focused views of a report?",
+            "choices": [
+              "Custom report tooltips",
+              "Report bookmarks",
+              "Spotlight mode",
+              "Personalized visuals"
+            ],
+            "answer": "Report bookmarks",
+            "explanation": "Report bookmarks capture the configured state of a report page to provide users with a predefined view."
+          },
+        {
+          "id": 8,
+          "question": "Which Power BI component would you use to combine data from multiple data sources?",
+          "choices": [
+            "Power Query Editor",
+            "DAX",
+            "Power BI Desktop Model View",
+            "Power BI Dataset"
+          ],
+          "answer": "Power Query Editor",
+          "explanation": "Power Query Editor in Power BI Desktop is used for data mashup and transformation from multiple data sources."
+        },
+        {
+            "id": 9,
+            "question": "What does the 'FILTER' function do in a DAX formula?",
+            "choices": [
+              "Filters data based on a condition applied to one or more columns.",
+              "Filters out duplicate rows from a table.",
+              "Applies a visual-level filter to the report.",
+              "Creates a complex filter condition by combining multiple filter expressions."
+            ],
+            "answer": "Filters data based on a condition applied to one or more columns.",
+            "explanation": "The 'FILTER' function is used in DAX to filter a table to the subset of data that meets specified conditions."
+          }
+        ,
+        {
+          "id": 10,
+          "question": "In a Power BI report, what is the main benefit of using bookmarks?",
+          "choices": [
+            "To save the user's place in the report",
+            "To create a sequence of visuals for storytelling",
+            "To export data to Excel",
+            "To set up data alerts"
+          ],
+          "answer": "To create a sequence of visuals for storytelling",
+          "explanation": "Bookmarks capture the configured state of visuals and can be used to create a sequence for storytelling or interactive reports."
+        }
       ]
+      
       
     ,
     "Data Literacy 2":
