@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "question": "How can you delay the delivery of a specific email in Outlook?",
+        "choices": [
+            "Use the 'Delay Delivery' feature",
+            "Set the email as low priority",
+            "Save the email as a draft",
+            "Move the email to the Outbox"
+        ],
+        "answer": "Use the 'Delay Delivery' feature",
+        "explanation": "Delay Delivery allows you to specify a future time for the email to be sent."
+    },
+    {
+        "id": 2,
+        "question": "Which Outlook feature helps you manage messages that require different actions at different times?",
+        "choices": [
+            "Task List",
+            "Follow Up",
+            "Rules",
+            "Categories"
+        ],
+        "answer": "Follow Up",
+        "explanation": "The Follow Up feature in Outlook allows you to flag messages for future action."
+    },
+    {
+        "id": 3,
+        "question": "What is the primary benefit of using the 'BCC' field when sending an email to multiple recipients?",
+        "choices": [
+            "It prioritizes the email",
+            "It hides the recipient's address from others",
+            "It sends a copy to the sender",
+            "It encrypts the email content"
+        ],
+        "answer": "It hides the recipient's address from others",
+        "explanation": "BCC stands for Blind Carbon Copy, which hides the email addresses from all recipients."
+    },
+    {
+        "id": 4,
+        "question": "In Outlook, what does flagging an email for 'Today' do?",
+        "choices": [
+            "Deletes the email after 24 hours",
+            "Marks the email as urgent",
+            "Adds the email to the To-Do list for the current day",
+            "Sends an automatic reply"
+        ],
+        "answer": "Adds the email to the To-Do list for the current day",
+        "explanation": "Flagging an email for 'Today' adds it to your To-Do list and highlights it for attention on the same day."
+    },
+    {
+        "id": 5,
+        "question": "Which feature allows you to view multiple calendars side by side or overlaid in a single view in Outlook?",
+        "choices": [
+            "Calendar Groups",
+            "Shared Calendars",
+            "Overlay Mode",
+            "Scheduling Assistant"
+        ],
+        "answer": "Overlay Mode",
+        "explanation": "Overlay Mode lets you see multiple calendars in one consolidated view."
+    },
+    {
+        "id": 6,
+        "question": "What is the purpose of 'Quick Steps' in Outlook?",
+        "choices": [
+            "To quickly delete emails",
+            "To create email drafts faster",
+            "To automate repetitive tasks",
+            "To speed up the search process"
+        ],
+        "answer": "To automate repetitive tasks",
+        "explanation": "Quick Steps in Outlook can automate repetitive email tasks to save time."
+    },
+    {
+        "id": 7,
+        "question": "How do you recall a sent email in Outlook?",
+        "choices": [
+            "Delete the email from the Sent Items folder",
+            "Use the 'Recall This Message' feature",
+            "Send a follow-up email to ignore the previous one",
+            "Mark the sent email as unread"
+        ],
+        "answer": "Use the 'Recall This Message' feature",
+        "explanation": "Outlook's 'Recall This Message' feature attempts to delete or replace a sent email before the recipient has opened it."
+    },
+    {
+        "id": 8,
+        "question": "What does assigning a category to an email in Outlook help you do?",
+        "choices": [
+            "Delete the email automatically",
+            "Filter and group emails in the inbox",
+            "Prevent the email from being marked as spam",
+            "Encrypt the email contents"
+        ],
+        "answer": "Filter and group emails in the inbox",
+        "explanation": "Categories help you filter and organize emails by grouping them under a specific label."
+    },
+    {
+        "id": 9,
+        "question": "What should you do before opening attachments from an unknown sender in Outlook?",
+        "choices": [
+            "Scan the attachment with antivirus software",
+            "Reply to confirm the sender's identity",
+            "Forward the email to a colleague for advice",
+            "Download the attachment to a USB drive"
+        ],
+        "answer": "Scan the attachment with antivirus software",
+        "explanation": "Always scan attachments with antivirus software to prevent malware risks."
+    },
+    {
+        "id": 10,
+        "question": "Where in Outlook can you find the settings to customize the layout and appearance of your emails?",
+        "choices": [
+            "File > Manage Add-ins",
+            "File > Options > Mail",
+            "View > Reading Pane",
+            "Home > New Email > Format Text"
+        ],
+        "answer": "File > Options > Mail",
+        "explanation": "The Options menu under File > Mail contains settings to customize the look and feel of your email messages."
+    }
+]
