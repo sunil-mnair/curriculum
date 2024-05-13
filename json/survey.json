@@ -301,6 +301,38 @@
             "Not sure; need guidance on the requirements"
         ]
     }
+],
+"The ML AI Preview":[
+  {
+    "id": 1,
+    "question": "How familiar are you with the basic concepts of Artificial Intelligence (AI)?",
+    "choices": ["Not familiar", "Somewhat familiar", "Moderately familiar", "Very familiar"]
+  },
+  {
+    "id": 2,
+    "question": "Have you ever completed a project involving Machine Learning models?",
+    "choices": ["No", "Yes, as part of a team", "Yes, independently"]
+  },
+  {
+    "id": 3,
+    "question": "What is your experience with Supervised Learning algorithms?",
+    "choices": ["None", "Basic understanding", "Intermediate application", "Advanced implementation"]
+  },
+  {
+    "id": 4,
+    "question": "How comfortable are you with the technical aspects of training AI models (e.g., optimization, loss functions)?",
+    "choices": ["Not comfortable", "Somewhat comfortable", "Comfortable", "Very comfortable"]
+  },
+  {
+    "id": 5,
+    "question": "What is your level of familiarity with Artificial Neural Networks?",
+    "choices": ["I have no prior knowledge", "I know the basics", "I have practical experience", "I have advanced knowledge"]
+  },
+  {
+    "id": 6,
+    "question": "How would you rate your understanding of Natural Language Processing (NLP)?",
+    "choices": ["No understanding", "Basic concepts", "Good understanding", "Expert"]
+  }
 ]
 
 }
