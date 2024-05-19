@@ -336,7 +336,8 @@
 ],
 "SQL Primer for Data Analysis":[
   {
-      "id": "experience_with_sql",
+      "id": 1,
+      "question": "What is your current level of experience with SQL?",
       "choices": [
           "No experience at all",
           "Basic understanding (simple queries)",
@@ -345,7 +346,8 @@
       ]
   },
   {
-      "id": "motivation_for_enrollment",
+      "id": 2,
+      "question": "What motivated you to enroll in this SQL course?",
       "choices": [
           "To enhance my job qualifications",
           "Personal interest in data handling",
@@ -354,7 +356,8 @@
       ]
   },
   {
-      "id": "application_of_skills",
+      "id": 3,
+      "question": "How do you plan to apply the skills learned from this course?",
       "choices": [
           "Improve current job tasks",
           "Pursue a new career in data analysis",
@@ -363,7 +366,8 @@
       ]
   },
   {
-      "id": "preferred_learning_format",
+      "id": 4,
+      "question": "Which format of learning do you prefer?",
       "choices": [
           "Video tutorials",
           "Written materials and articles",
@@ -372,7 +376,8 @@
       ]
   },
   {
-      "id": "preferred_course_pace",
+      "id": 5,
+      "question": "What is your preferred pace for completing this course?",
       "choices": [
           "Self-paced, as my schedule allows",
           "Within a fixed timeframe (e.g., 4 weeks, 8 weeks)",
@@ -380,7 +385,8 @@
       ]
   },
   {
-      "id": "familiarity_with_related_technologies",
+      "id": 6,
+      "question": "How familiar are you with technologies related to SQL (like databases, data visualization tools)?",
       "choices": [
           "Not familiar",
           "Somewhat familiar",
@@ -388,6 +394,7 @@
       ]
   }
 ]
+
 
 
 }
