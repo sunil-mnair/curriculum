@@ -3541,7 +3541,128 @@
           "answer": "SUM(salary) FROM employees",
           "explanation": "'SUM' is an aggregate function in SQL that is used to sum up the values of a column."
         }
+      ],
+      "Blockchain Fundamentals":[
+        {
+          "id": 1,
+          "question": "What is a blockchain?",
+          "choices": [
+            "A. A type of database.",
+            "B. A linked list of data blocks.",
+            "C. A distributed ledger technology.",
+            "D. All of the above."
+          ],
+          "answer": "D. All of the above.",
+          "explanation": "A blockchain is a type of database that organizes data in linked lists of blocks and is used as a distributed ledger technology to ensure data integrity and security."
+        },
+        {
+          "id": 2,
+          "question": "Which cryptographic algorithm is primarily used in blockchain to create a secure hash?",
+          "choices": [
+            "A. SHA1",
+            "B. SHA256",
+            "C. MD5",
+            "D. AES"
+          ],
+          "answer": "B. SHA256.",
+          "explanation": "SHA256 is a cryptographic hash function used in blockchain to create unique, fixed-size hashes that secure data within blocks."
+        },
+        {
+          "id": 3,
+          "question": "What is an immutable ledger?",
+          "choices": [
+            "A. A ledger that can be changed easily.",
+            "B. A ledger that can only be viewed by authorized users.",
+            "C. A ledger that cannot be altered or deleted.",
+            "D. A temporary ledger used for transactions."
+          ],
+          "answer": "C. A ledger that cannot be altered or deleted.",
+          "explanation": "An immutable ledger ensures data integrity by preventing any changes or deletions once the data is recorded."
+        },
+        {
+          "id": 4,
+          "question": "How does a distributed peer-to-peer network enhance blockchain security?",
+          "choices": [
+            "A. By centralizing data storage.",
+            "B. By allowing only one copy of the ledger.",
+            "C. By distributing copies of the ledger to multiple nodes.",
+            "D. By using weak encryption methods."
+          ],
+          "answer": "C. By distributing copies of the ledger to multiple nodes.",
+          "explanation": "Distributing the ledger across multiple nodes in a peer-to-peer network increases security by eliminating a single point of failure and ensuring consensus."
+        },
+        {
+          "id": 5,
+          "question": "What is the primary role of mining in blockchain?",
+          "choices": [
+            "A. To create new cryptocurrency.",
+            "B. To validate and add new transactions to the blockchain.",
+            "C. To store large amounts of data.",
+            "D. To remove old transactions from the blockchain."
+          ],
+          "answer": "B. To validate and add new transactions to the blockchain.",
+          "explanation": "Mining involves solving cryptographic puzzles to validate and add new transactions to the blockchain, ensuring its integrity and security."
+        },
+        {
+          "id": 6,
+          "question": "What is a nonce in the context of blockchain mining?",
+          "choices": [
+            "A. A type of cryptographic key.",
+            "B. A random number used only once.",
+            "C. A fixed number for transaction verification.",
+            "D. A large data block."
+          ],
+          "answer": "B. A random number used only once.",
+          "explanation": "A nonce is a random number used in blockchain mining to solve cryptographic puzzles, ensuring that each block is unique."
+        },
+        {
+          "id": 7,
+          "question": "What is Byzantine Fault Tolerance?",
+          "choices": [
+            "A. The ability to tolerate faults in a centralized system.",
+            "B. A consensus mechanism to handle arbitrary faults in distributed systems.",
+            "C. A method to speed up transaction processing.",
+            "D. A way to encrypt data."
+          ],
+          "answer": "B. A consensus mechanism to handle arbitrary faults in distributed systems.",
+          "explanation": "Byzantine Fault Tolerance ensures that a distributed system can reach consensus even in the presence of faulty or malicious nodes."
+        },
+        {
+          "id": 8,
+          "question": "What is the main purpose of a consensus protocol in blockchain?",
+          "choices": [
+            "A. To encrypt data.",
+            "B. To ensure all nodes agree on the ledger state.",
+            "C. To speed up transaction processing.",
+            "D. To reduce the size of the blockchain."
+          ],
+          "answer": "B. To ensure all nodes agree on the ledger state.",
+          "explanation": "A consensus protocol ensures that all nodes in the blockchain network agree on the current state of the ledger, maintaining its integrity and consistency."
+        },
+        {
+          "id": 9,
+          "question": "How does blockchain handle competing chains?",
+          "choices": [
+            "A. By merging them.",
+            "B. By discarding the shorter chain.",
+            "C. By randomly selecting one chain.",
+            "D. By using the longest chain rule."
+          ],
+          "answer": "D. By using the longest chain rule.",
+          "explanation": "Blockchain typically resolves competing chains by adopting the longest chain, which is considered the most valid and secure due to the most computational work put into it."
+        },
+        {
+          "id": 10,
+          "question": "What benefit does a visual demonstration of blockchain concepts provide?",
+          "choices": [
+            "A. It makes the blockchain larger.",
+            "B. It simplifies complex concepts through visual aids.",
+            "C. It replaces the need for theoretical understanding.",
+            "D. It allows for data encryption."
+          ],
+          "answer": "B. It simplifies complex concepts through visual aids.",
+          "explanation": "A visual demonstration helps learners understand complex blockchain concepts more easily by illustrating how they work in practice."
+        }
       ]
-      
     
 }
