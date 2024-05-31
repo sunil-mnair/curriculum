@@ -455,6 +455,68 @@
           "Custom GPTs"
       ]
   }
+],
+"Blockchain Fundamentals":[
+  {
+    "id": 1,
+    "question": "What is your current level of understanding of blockchain technology?",
+    "choices": [
+      "Beginner (I have little to no knowledge)",
+      "Intermediate (I have some knowledge but need more clarity)",
+      "Advanced (I have a good understanding but want to deepen my knowledge)"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "What is your primary reason for taking this course?",
+    "choices": [
+      "To gain a foundational understanding of blockchain",
+      "To improve my professional skills",
+      "To prepare for advanced blockchain projects",
+      "Personal interest and curiosity"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "How comfortable are you with basic computer science concepts?",
+    "choices": [
+      "Very comfortable",
+      "Somewhat comfortable",
+      "Not very comfortable",
+      "Not comfortable at all"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Which area of blockchain technology interests you the most?",
+    "choices": [
+      "Cryptography and security",
+      "Distributed networks and peer-to-peer systems",
+      "Mining and computational challenges",
+      "Consensus protocols and fault tolerance"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Have you had any prior experience with cryptographic concepts?",
+    "choices": [
+      "Yes, I have a good understanding",
+      "Yes, but only basic knowledge",
+      "No, but I have heard about it",
+      "No, I have no prior experience"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "What is your preferred learning method for understanding complex technical topics?",
+    "choices": [
+      "Reading textbooks and articles",
+      "Watching video tutorials",
+      "Hands-on projects and experiments",
+      "Participating in group discussions and forums"
+    ]
+  }
 ]
+
 
 }
