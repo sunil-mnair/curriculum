@@ -516,7 +516,70 @@
       "Participating in group discussions and forums"
     ]
   }
+],
+"Advanced Sharepoint 2019":[
+  {
+    "id": 1,
+    "question": "How would you rate your current knowledge of Microsoft SharePoint?",
+    "choices": [
+      "Beginner",
+      "Intermediate",
+      "Advanced",
+      "Expert"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "What is your primary reason for taking this course?",
+    "choices": [
+      "To improve my SharePoint development skills",
+      "To enhance my organization's SharePoint environment",
+      "To learn about advanced data querying and manipulation techniques",
+      "Other (please specify)"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Which of the following SharePoint features are you most interested in learning about?",
+    "choices": [
+      "LINQ for SharePoint",
+      "CAML queries",
+      "Client-Side Rendering (CSR)",
+      "Event Receivers"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "How familiar are you with JavaScript and C# programming languages?",
+    "choices": [
+      "Not familiar at all",
+      "Basic knowledge",
+      "Moderate knowledge",
+      "Advanced knowledge"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Have you previously worked with any data querying languages (e.g., SQL, LINQ, CAML)?",
+    "choices": [
+      "Yes, frequently",
+      "Yes, occasionally",
+      "No, but I have theoretical knowledge",
+      "No, I have no experience"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "What is your preferred learning style?",
+    "choices": [
+      "Hands-on practice with real-world examples",
+      "Theoretical learning with detailed explanations",
+      "Interactive sessions with Q&A",
+      "A mix of all the above"
+    ]
+  }
 ]
+
 
 
 }
