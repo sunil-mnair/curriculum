@@ -3663,7 +3663,132 @@
             "answer": "To act as a random number used once in cryptographic puzzles",
             "explanation": "A nonce is a random number used in blockchain mining to solve cryptographic puzzles, ensuring the uniqueness of each block."
         }
-    ]
+    ],
+    "Advanced Sharepoint 2019":
+    [
+        {
+          "id": 1,
+          "question": "What does CSOM stand for in SharePoint?",
+          "choices": [
+            "Client Server Object Model",
+            "Client Side Object Model",
+            "Client SharePoint Object Model",
+            "Client Script Object Model"
+          ],
+          "answer": "Client Side Object Model",
+          "explanation": "CSOM stands for Client Side Object Model. It was introduced in SharePoint 2010 and is primarily used to develop client applications that can interact with SharePoint resources from outside the SharePoint server environment【4†source】."
+        },
+        {
+          "id": 2,
+          "question": "Which programming language is used with the .NET Client Object Model in SharePoint?",
+          "choices": [
+            "JavaScript",
+            "C#",
+            "Python",
+            "Java"
+          ],
+          "answer": "C#",
+          "explanation": "The .NET Client Object Model (CSOM) allows developers to use C# to interact with SharePoint. It provides a managed code API for accessing SharePoint data【4†source】."
+        },
+        {
+          "id": 3,
+          "question": "Which of the following models has been deprecated in SharePoint 2019?",
+          "choices": [
+            ".NET Client Object Model",
+            "JavaScript Object Model",
+            "REST API",
+            "Silverlight Object Model"
+          ],
+          "answer": "Silverlight Object Model",
+          "explanation": "In SharePoint 2019, the Silverlight Object Model and the Windows Phone Object Model have been deprecated【4†source】."
+        },
+        {
+          "id": 4,
+          "question": "Which of the following is not a valid HTTP verb used by the REST API model in SharePoint?",
+          "choices": [
+            "GET",
+            "POST",
+            "PUT",
+            "FETCH"
+          ],
+          "answer": "FETCH",
+          "explanation": "The REST API model supports CRUD operations via HTTP verbs like GET, POST, PUT, and DELETE. 'FETCH' is not a valid HTTP verb in this context【4†source】."
+        },
+        {
+          "id": 5,
+          "question": "What is the purpose of the ClientContext object in CSOM?",
+          "choices": [
+            "To represent the context for SharePoint objects and operations",
+            "To manage authentication for SharePoint users",
+            "To handle HTTP requests to SharePoint",
+            "To create custom SharePoint lists"
+          ],
+          "answer": "To represent the context for SharePoint objects and operations",
+          "explanation": "The ClientContext object represents the context for SharePoint objects and operations, allowing developers to perform various operations on SharePoint resources from a client application【4†source】."
+        },
+        {
+          "id": 6,
+          "question": "In the example using .NET Client Object Model (C#), what method is used to load the site properties?",
+          "choices": [
+            "context.Load()",
+            "context.ExecuteQuery()",
+            "context.GetProperties()",
+            "context.Retrieve()"
+          ],
+          "answer": "context.Load()",
+          "explanation": "In the .NET Client Object Model example, the context.Load() method is used to load the specified properties of the object before executing the query【4†source】."
+        },
+        {
+          "id": 7,
+          "question": "Which of the following models allows developers to use JavaScript to interact with SharePoint?",
+          "choices": [
+            ".NET Client Object Model",
+            "JavaScript Object Model",
+            "REST API",
+            "Silverlight Object Model"
+          ],
+          "answer": "JavaScript Object Model",
+          "explanation": "The JavaScript Object Model (JSOM) allows developers to use JavaScript to interact with SharePoint, useful for creating client-side web parts and applications【4†source】."
+        },
+        {
+          "id": 8,
+          "question": "What HTTP method is used to perform a DELETE operation in the REST API model?",
+          "choices": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "DELETE",
+          "explanation": "The DELETE HTTP method is used to perform delete operations in the REST API model in SharePoint【4†source】."
+        },
+        {
+          "id": 9,
+          "question": "What is the first step in setting up a console application with CSOM in Visual Studio?",
+          "choices": [
+            "Create a new web application",
+            "Add SharePoint CSOM references",
+            "Open Program.cs file",
+            "Create a new Console Application project"
+          ],
+          "answer": "Create a new Console Application project",
+          "explanation": "The first step in setting up a console application with CSOM in Visual Studio is to create a new Console Application project under Visual C#【4†source】."
+        },
+        {
+          "id": 10,
+          "question": "What object represents a SharePoint site in the CSOM?",
+          "choices": [
+            "ClientContext",
+            "Web",
+            "SiteContext",
+            "SharePointSite"
+          ],
+          "answer": "Web",
+          "explanation": "In CSOM, the Web object represents a SharePoint site, allowing developers to interact with the site's properties and content【4†source】."
+        }
+      ]
+    }
+    
     
     
 }
