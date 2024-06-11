@@ -3664,7 +3664,7 @@
             "explanation": "A nonce is a random number used in blockchain mining to solve cryptographic puzzles, ensuring the uniqueness of each block."
         }
     ],
-    "Advanced SharePoint 2019":
+    "Advanced SharePoint 2019 01":
     [
         {
           "id": 1,
@@ -3785,6 +3785,129 @@
           ],
           "answer": "Web",
           "explanation": "In CSOM, the Web object represents a SharePoint site, allowing developers to interact with the site's properties and content【4†source】."
+        }
+      ],
+      "Advanced SharePoint 2019":
+      [
+        {
+          "id": 1,
+          "question": "What is the first step in creating a new SharePoint project in Visual Studio?",
+          "choices": [
+            "Add a new item",
+            "Choose the .NET Framework version",
+            "Search for SharePoint in project templates",
+            "Select the trust level for the solution"
+          ],
+          "answer": "Search for SharePoint in project templates",
+          "explanation": "The first step in creating a new SharePoint project in Visual Studio is to search for SharePoint in the project templates after choosing 'Create a new project'&#8203;:citation[oaicite:9]{index=9}&#8203;."
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of the Global Assembly Cache (GAC) in SharePoint development?",
+          "choices": [
+            "To store application pages",
+            "To manage SharePoint site URLs",
+            "To store .NET assemblies shared by multiple applications",
+            "To define SharePoint features"
+          ],
+          "answer": "To store .NET assemblies shared by multiple applications",
+          "explanation": "The GAC (Global Assembly Cache) is used to store .NET assemblies that are shared by multiple applications, ensuring that the correct version of an assembly is used by all applications that need it&#8203;:citation[oaicite:8]{index=8}&#8203;."
+        },
+        {
+          "id": 3,
+          "question": "Which folder in SharePoint is used to store application pages and other resources shared across all site collections?",
+          "choices": [
+            "_layouts",
+            "CONTROLTEMPLATES",
+            "TEMPLATE",
+            "Web Server Extensions"
+          ],
+          "answer": "_layouts",
+          "explanation": "The _layouts folder is a special directory in SharePoint used to store application pages and other resources. It is part of the SharePoint server's file system and is shared across all site collections&#8203;:citation[oaicite:7]{index=7}&#8203;."
+        },
+        {
+          "id": 4,
+          "question": "Which method is used to retrieve a specific list by its title using CSOM?",
+          "choices": [
+            "GetListByTitle()",
+            "Lists.GetByTitle()",
+            "RetrieveListByName()",
+            "Lists.Retrieve()"
+          ],
+          "answer": "Lists.GetByTitle()",
+          "explanation": "The method Lists.GetByTitle() is used to retrieve a specific list by its title when using the Client-Side Object Model (CSOM) in SharePoint&#8203;:citation[oaicite:6]{index=6}&#8203;."
+        },
+        {
+          "id": 5,
+          "question": "What does the CAML acronym stand for in SharePoint?",
+          "choices": [
+            "Collaborative Application Markup Language",
+            "Client Application Markup Language",
+            "Content Application Markup Language",
+            "Custom Application Markup Language"
+          ],
+          "answer": "Collaborative Application Markup Language",
+          "explanation": "CAML stands for Collaborative Application Markup Language. It is an XML-based query language used in Microsoft SharePoint to perform various data-related tasks such as retrieving, updating, and deleting data&#8203;:citation[oaicite:5]{index=5}&#8203;."
+        },
+        {
+          "id": 6,
+          "question": "What property of the CamlQuery object holds the CAML query in C#?",
+          "choices": [
+            "QueryXml",
+            "ViewXml",
+            "QueryString",
+            "CamlQueryXml"
+          ],
+          "answer": "ViewXml",
+          "explanation": "In C#, the ViewXml property of the CamlQuery object holds the CAML query used to retrieve items from a SharePoint list&#8203;:citation[oaicite:4]{index=4}&#8203;."
+        },
+        {
+          "id": 7,
+          "question": "Which type of solution requires SharePoint farm administrator privileges and has full access to SharePoint resources?",
+          "choices": [
+            "Sandboxed Solution",
+            "Farm Solution",
+            "Add-in Solution",
+            "Client-Side Solution"
+          ],
+          "answer": "Farm Solution",
+          "explanation": "A Farm Solution requires SharePoint farm administrator privileges and has full access to SharePoint resources, making it suitable for developing comprehensive solutions&#8203;:citation[oaicite:3]{index=3}&#8203;."
+        },
+        {
+          "id": 8,
+          "question": "In the CSOM example for retrieving the title of a SharePoint site, which method is used to execute the query to the server?",
+          "choices": [
+            "ExecuteQuery()",
+            "LoadQuery()",
+            "Execute()",
+            "Load()"
+          ],
+          "answer": "ExecuteQuery()",
+          "explanation": "In the Client-Side Object Model (CSOM) example for retrieving the title of a SharePoint site, the ExecuteQuery() method is used to execute the query to the server&#8203;:citation[oaicite:2]{index=2}&#8203;."
+        },
+        {
+          "id": 9,
+          "question": "What are the subfolders in the GAC (Global Assembly Cache) primarily used for?",
+          "choices": [
+            "Organizing SharePoint lists",
+            "Storing different versions of assemblies",
+            "Managing application pages",
+            "Configuring deployment packages"
+          ],
+          "answer": "Storing different versions of assemblies",
+          "explanation": "The subfolders in the GAC (Global Assembly Cache), such as GAC_MSIL, GAC_32, and GAC_64, are used to store different versions of assemblies for .NET applications&#8203;:citation[oaicite:1]{index=1}&#8203;."
+        },
+        {
+          "id": 10,
+          "question": "Which of the following operations is supported by the REST API model in SharePoint?",
+          "choices": [
+            "GET",
+            "POST",
+            "PUT",
+            "All of the above"
+          ],
+          "answer": "All of the above",
+          "explanation": "The REST API model in SharePoint supports CRUD (Create, Read, Update, Delete) operations via HTTP verbs like GET, POST, PUT, and DELETE&#8203;:citation[oaicite:0]{index=0}&#8203;."
         }
       ]
     }

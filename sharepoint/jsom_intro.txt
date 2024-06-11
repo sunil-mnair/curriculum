@@ -1,29 +1,10 @@
-///<reference path="~/_Layouts/15/init.js"/> 
-///<reference path="~/_Layouts/15/SP.Core.js"/>
-///<reference path="~/_Layouts/15/SP.Runtime.js"/>
-///<reference path="~/_Layouts/15/SP.UI.Dialog.js"/>
-///<reference path="~/_Layouts/15/SP.js"/>
-///<reference path="~/_Layouts/15/clienttemplates.js"/>
+string fieldSchema = "<Field DisplayName='Age' Type='Number' />";
+instructorsList.Fields.AddFieldAsXml(fieldSchema, true, AddFieldOptions.DefaultValue);
 
-<script type="text/javascript" src="~/_Layouts/15/JSOM_Project_01/_references.js"></script>
+// Load and execute query to make sure the field is created
+ context.Load(instructorsList.Fields);
+ context.ExecuteQuery();
 
-
-<script type="text/javascript">
-    ExecuteOrDelayUntilScriptLoaded(init, "sp.js");
-
-    function init() {
-        console.log('SharePoint JSOM libraries loaded successfully.');
-        var context = SP.ClientContext.get_current();
-        var web = context.get_web();
-        context.load(web);
-        context.executeQueryAsync(onSuccess, onFail);
-    }
-
-    function onSuccess() {
-        console.log('Web Title: ' + web.get_title());
-    }
-
-    function onFail(sender, args) {
-        console.log('Failed to load JSOM: ' + args.get_message());
-    }
-</script>
+// Retrieve the field as FieldNumber
+Field field = instructorsList.Fields.GetByInternalNameOrTitle("Age");
+FieldNumber numberField = context.CastTo<FieldNumber>(field);
