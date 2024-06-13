@@ -3909,5 +3909,128 @@
           "answer": "All of the above",
           "explanation": "The REST API model in SharePoint supports CRUD (Create, Read, Update, Delete) operations via HTTP verbs like GET, POST, PUT, and DELETE&#8203;:citation[oaicite:0]{index=0}&#8203;."
         }
+      ],
+      "Excel Basic to Intermediate":[
+        {
+          "id": 1,
+          "question": "You have a column of full names in 'A' column and you want to extract the first names in 'B' column using text functions. Which function should you use?",
+          "choices": [
+            "LEFT",
+            "MID",
+            "RIGHT",
+            "CONCATENATE"
+          ],
+          "answer": "LEFT",
+          "explanation": "The LEFT function extracts a specified number of characters from the left side of a cell, making it suitable for extracting first names if they are consistently positioned at the start of the text."
+        },
+        {
+          "id": 2,
+          "question": "How can you ensure that a formula always references the same cell, regardless of where it is copied in Excel?",
+          "choices": [
+            "Use relative references",
+            "Use absolute references",
+            "Use mixed references",
+            "Use the SUBSTITUTE function"
+          ],
+          "answer": "Use absolute references",
+          "explanation": "Absolute references, denoted by dollar signs (e.g., $A$1), ensure that a cell reference remains constant when copied to other cells."
+        },
+        {
+          "id": 3,
+          "question": "You have a table of sales data and want to sum all sales for 'Product A' using a condition. Which function will you use?",
+          "choices": [
+            "SUM",
+            "SUMIF",
+            "COUNTIF",
+            "VLOOKUP"
+          ],
+          "answer": "SUMIF",
+          "explanation": "The SUMIF function sums the values in a range that meet a single condition, making it ideal for summing sales data for 'Product A'."
+        },
+        {
+          "id": 4,
+          "question": "How do you create a dynamic range that automatically adjusts when new data is added in Excel?",
+          "choices": [
+            "Create a table",
+            "Use relative references",
+            "Use absolute references",
+            "Use the FIND function"
+          ],
+          "answer": "Create a table",
+          "explanation": "Creating a table allows Excel to automatically adjust the range as new data is added, ensuring that formulas referencing the table update accordingly."
+        },
+        {
+          "id": 5,
+          "question": "Which function would you use to look up a value from another sheet based on a common identifier?",
+          "choices": [
+            "VLOOKUP",
+            "HLOOKUP",
+            "INDEX",
+            "MATCH"
+          ],
+          "answer": "VLOOKUP",
+          "explanation": "The VLOOKUP function searches for a value in the first column of a table and returns a value in the same row from a specified column, making it suitable for retrieving data based on a common identifier."
+        },
+        {
+          "id": 6,
+          "question": "You need to categorize transactions as 'High' or 'Low' based on whether the revenue exceeds a certain threshold. Which function will you use?",
+          "choices": [
+            "AND",
+            "OR",
+            "IF",
+            "SUMIF"
+          ],
+          "answer": "IF",
+          "explanation": "The IF function checks a condition and returns one value if the condition is true and another value if it is false, making it suitable for categorizing transactions based on revenue."
+        },
+        {
+          "id": 7,
+          "question": "You want to check if either of two conditions are met: revenue is greater than $1000 or profit margin is above 20%. Which function should you use?",
+          "choices": [
+            "AND",
+            "OR",
+            "NOT",
+            "XOR"
+          ],
+          "answer": "OR",
+          "explanation": "The OR function checks multiple conditions and returns TRUE if any of the conditions are true, making it suitable for scenarios where either condition being met is sufficient."
+        },
+        {
+          "id": 8,
+          "question": "In a cell, the text '123-45-6789' needs to be converted to '123456789'. Which function will help achieve this?",
+          "choices": [
+            "TRIM",
+            "SUBSTITUTE",
+            "CONCATENATE",
+            "TEXT"
+          ],
+          "answer": "SUBSTITUTE",
+          "explanation": "The SUBSTITUTE function replaces occurrences of a specified text string within a cell, making it ideal for removing the hyphens from '123-45-6789'."
+        },
+        {
+          "id": 9,
+          "question": "Which function will return the position of the first occurrence of a specific character in a text string?",
+          "choices": [
+            "SEARCH",
+            "FIND",
+            "MID",
+            "LEN"
+          ],
+          "answer": "FIND",
+          "explanation": "The FIND function returns the position of the first occurrence of a specified character within a text string, making it ideal for locating characters in a cell."
+        },
+        {
+          "id": 10,
+          "question": "You have a list of product prices in 'A' column and you want to ensure that the user can only enter values greater than 0 in 'B' column. Which feature should you use?",
+          "choices": [
+            "Data Validation",
+            "Conditional Formatting",
+            "IF function",
+            "SUMIF function"
+          ],
+          "answer": "Data Validation",
+          "explanation": "Data Validation allows you to control the type of data or the values that users enter into a cell, making it suitable for ensuring that only values greater than 0 are entered."
+        }
       ]
+      
     }
