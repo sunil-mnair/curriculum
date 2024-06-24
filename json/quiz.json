@@ -4031,6 +4031,128 @@
           "answer": "Data Validation",
           "explanation": "Data Validation allows you to control the type of data or the values that users enter into a cell, making it suitable for ensuring that only values greater than 0 are entered."
         }
+      ],
+      "Crypto Currencies and Smart Contracts":[
+        {
+          "id": 1,
+          "question": "What is Bitcoin?",
+          "choices": [
+            "A type of digital currency",
+            "A protocol for verifying transactions",
+            "A decentralized ledger",
+            "All of the above"
+          ],
+          "answer": "All of the above",
+          "explanation": "Bitcoin is a type of digital currency, a protocol for verifying transactions, and a decentralized ledger."
+        },
+        {
+          "id": 2,
+          "question": "Who invented Bitcoin?",
+          "choices": [
+            "Vitalik Buterin",
+            "Satoshi Nakamoto",
+            "Elon Musk",
+            "Charles Hoskinson"
+          ],
+          "answer": "Satoshi Nakamoto",
+          "explanation": "Bitcoin was invented by an unknown person or group of people using the name Satoshi Nakamoto."
+        },
+        {
+          "id": 3,
+          "question": "What is the underlying technology of Bitcoin?",
+          "choices": [
+            "Smart contracts",
+            "Blockchain",
+            "Cryptocurrency",
+            "Mining pools"
+          ],
+          "answer": "Blockchain",
+          "explanation": "Blockchain is the decentralized digital ledger that records all Bitcoin transactions."
+        },
+        {
+          "id": 4,
+          "question": "What happens during the Bitcoin 'halving' event?",
+          "choices": [
+            "The number of new Bitcoins issued decreases by half",
+            "The block size increases",
+            "Transaction fees are reduced",
+            "Mining difficulty decreases"
+          ],
+          "answer": "The number of new Bitcoins issued decreases by half",
+          "explanation": "During a Bitcoin halving, the number of new Bitcoins issued to miners is reduced by half, which occurs approximately every four years."
+        },
+        {
+          "id": 5,
+          "question": "What is the maximum supply of Bitcoin?",
+          "choices": [
+            "21 million",
+            "50 million",
+            "100 million",
+            "Unlimited"
+          ],
+          "answer": "21 million",
+          "explanation": "The total supply of Bitcoin is capped at 21 million coins."
+        },
+        {
+          "id": 6,
+          "question": "What is a Bitcoin 'miner'?",
+          "choices": [
+            "A person who buys and sells Bitcoin",
+            "A computer that verifies transactions and adds them to the blockchain",
+            "A wallet that stores Bitcoin",
+            "A node that connects to the Bitcoin network"
+          ],
+          "answer": "A computer that verifies transactions and adds them to the blockchain",
+          "explanation": "A Bitcoin miner is a computer that solves cryptographic puzzles to verify transactions and add them to the blockchain."
+        },
+        {
+          "id": 7,
+          "question": "What is a 'block' in the context of Bitcoin?",
+          "choices": [
+            "A type of transaction",
+            "A group of transactions",
+            "A cryptographic puzzle",
+            "A digital wallet"
+          ],
+          "answer": "A group of transactions",
+          "explanation": "A block is a group of transactions that are verified and added to the Bitcoin blockchain."
+        },
+        {
+          "id": 8,
+          "question": "How often is a new block added to the Bitcoin blockchain?",
+          "choices": [
+            "Every minute",
+            "Every 10 minutes",
+            "Every hour",
+            "Every day"
+          ],
+          "answer": "Every 10 minutes",
+          "explanation": "A new block is added to the Bitcoin blockchain approximately every 10 minutes."
+        },
+        {
+          "id": 9,
+          "question": "What is a 'nonce' in Bitcoin mining?",
+          "choices": [
+            "A digital signature",
+            "A unique number used once",
+            "A type of transaction fee",
+            "A blockchain address"
+          ],
+          "answer": "A unique number used once",
+          "explanation": "A nonce is a unique number used once by miners to find a valid hash for a block."
+        },
+        {
+          "id": 10,
+          "question": "What is the primary purpose of Bitcoin?",
+          "choices": [
+            "To act as a digital currency",
+            "To develop smart contracts",
+            "To create decentralized applications",
+            "To issue tokens"
+          ],
+          "answer": "To act as a digital currency",
+          "explanation": "Bitcoin was primarily created to function as a decentralized digital currency."
+        }
       ]
       
     }
