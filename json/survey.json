@@ -578,7 +578,40 @@
       "A mix of all the above"
     ]
   }
+],
+"QlikSense - End User":[
+  {
+    "id": 1,
+    "question": "How would you rate your proficiency in using data visualization tools?",
+    "choices": ["Beginner", "Intermediate", "Advanced", "Expert"]
+  },
+  {
+    "id": 2,
+    "question": "Have you previously worked with any business intelligence tools? If so, which ones?",
+    "choices": ["No prior experience", "Yes, Qlik Sense", "Yes, Tableau", "Yes, Power BI", "Yes, Other (please specify)"]
+  },
+  {
+    "id": 3,
+    "question": "What is your level of experience with SQL and database management?",
+    "choices": ["No experience", "Basic knowledge", "Intermediate knowledge", "Advanced knowledge"]
+  },
+  {
+    "id": 4,
+    "question": "How familiar are you with basic data analysis concepts?",
+    "choices": ["Not familiar", "Somewhat familiar", "Familiar", "Very familiar"]
+  },
+  {
+    "id": 5,
+    "question": "Have you ever created or managed dashboards before?",
+    "choices": ["No, I have never created or managed dashboards", "Yes, but with assistance", "Yes, independently", "Yes, and I have trained others"]
+  },
+  {
+    "id": 6,
+    "question": "What is your comfort level with programming or scripting languages?",
+    "choices": ["Not comfortable", "Somewhat comfortable", "Comfortable", "Very comfortable"]
+  }
 ]
+
 
 
 
