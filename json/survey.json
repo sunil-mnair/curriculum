@@ -610,6 +610,40 @@
     "question": "What is your comfort level with programming or scripting languages?",
     "choices": ["Not comfortable", "Somewhat comfortable", "Comfortable", "Very comfortable"]
   }
+],
+"Fundamentals of Cloud Analytics":[
+  {
+    "id": 1,
+    "question": "What is your level of familiarity with cloud computing concepts?",
+    "choices": ["No familiarity", "Basic understanding", "Intermediate knowledge", "Advanced proficiency"]
+  },
+  {
+    "id": 2,
+    "question": "Have you previously used any cloud service providers such as AWS, Azure, or Google Cloud Platform?",
+    "choices": ["Yes, extensively", "Yes, a few times", "No, but I am aware of them", "No, I have no experience"]
+  },
+  {
+    "id": 3,
+    "question": "Which types of cloud services are you most familiar with?",
+    "choices": ["Infrastructure as a Service (IaaS)", "Platform as a Service (PaaS)", "Software as a Service (SaaS)", "None of the above"]
+  },
+  
+  {
+    "id": 4,
+    "question": "How familiar are you with BI Tools like Power BI, Tableau or QlikSense?",
+    "choices": ["No experience", "Beginner", "Intermediate", "Advanced"]
+  },
+  
+  {
+    "id": 5,
+    "question": "How familiar are you with ETL Tools",
+    "choices": ["No experience", "Beginner", "Intermediate", "Advanced"]
+  },
+  {
+    "id": 6,
+    "question": "What is your experience level with data storage solutions like Amazon S3, Google BigQuery, or Azure Blob Storage?",
+    "choices": ["No experience", "Beginner", "Intermediate", "Advanced"]
+  }
 ]
 
 
