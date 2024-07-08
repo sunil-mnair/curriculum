@@ -644,6 +644,68 @@
     "question": "What is your experience level with data storage solutions like Amazon S3, Google BigQuery, or Azure Blob Storage?",
     "choices": ["No experience", "Beginner", "Intermediate", "Advanced"]
   }
+],
+"Python Foundation - Fast Track":[
+  {
+      "id": 1,
+      "question": "What is your current level of experience with programming in general?",
+      "choices": [
+          "No experience",
+          "Basic understanding of programming concepts",
+          "Some experience with other programming languages",
+          "Advanced proficiency in other programming languages"
+      ]
+  },
+  {
+      "id": 2,
+      "question": "How familiar are you with Python?",
+      "choices": [
+          "Heard of it, but never used",
+          "Used it briefly",
+          "Have written a few simple programs",
+          "Regularly use it for tasks"
+      ]
+  },
+  {
+      "id": 3,
+      "question": "What is your primary reason for taking this Python course?",
+      "choices": [
+          "To learn programming from scratch",
+          "To improve my general programming skills",
+          "To enhance my skill set for career advancement",
+          "To prepare for a specific job or project"
+      ]
+  },
+  {
+      "id": 4,
+      "question": "In your current or previous job roles, have you encountered tasks that you believe could be automated or improved using Python?",
+      "choices": [
+          "Yes, frequently",
+          "Occasionally",
+          "Rarely",
+          "Never"
+      ]
+  },
+  {
+      "id": 5,
+      "question": "What type of projects or tasks are you interested in using Python for? (Select all that apply)",
+      "choices": [
+          "Basic scripting and automation",
+          "Data analysis",
+          "Web development",
+          "Machine learning"
+      ]
+  },
+  {
+      "id": 6,
+      "question": "What are your learning goals for this course? (Select all that apply)",
+      "choices": [
+          "Understand basic Python syntax and concepts",
+          "Learn to write simple Python programs",
+          "Automate repetitive tasks in my professional work",
+          "Gain confidence in using Python for data analysis"
+      ]
+  }
 ]
 
 
