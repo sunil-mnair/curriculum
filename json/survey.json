@@ -706,8 +706,69 @@
           "Gain confidence in using Python for data analysis"
       ]
   }
+],
+"Blockchain for Leaders":[
+  {
+      "id": 1,
+      "question": "What is your current level of knowledge about blockchain technology?",
+      "choices": [
+          "No knowledge",
+          "Basic understanding",
+          "Intermediate understanding",
+          "Advanced understanding"
+      ]
+  },
+  {
+      "id": 2,
+      "question": "What are your primary goals for taking this course?",
+      "choices": [
+          "To understand the basics of blockchain",
+          "To explore strategic applications of blockchain in my industry",
+          "To learn how to implement blockchain solutions in my organization",
+          "To stay updated with the latest trends in blockchain technology"
+      ]
+  },
+  {
+      "id": 3,
+      "question": "Have you previously attended any blockchain-related training or courses?",
+      "choices": [
+          "Yes, extensively",
+          "Yes, but only a few",
+          "No, but I have read about it",
+          "No, I have no prior training"
+      ]
+  },
+  {
+      "id": 4,
+      "question": "How would you rate your organization's current adoption of blockchain technology?",
+      "choices": [
+          "Fully integrated",
+          "Some pilot projects",
+          "Planning stages",
+          "No adoption yet"
+      ]
+  },
+  {
+      "id": 5,
+      "question": "How familiar are you with digital transformation and its relevance to your organization?",
+      "choices": [
+          "Very familiar",
+          "Somewhat familiar",
+          "Not very familiar",
+          "Not familiar at all"
+      ]
+  },
+  {
+      "id": 6,
+      "question": "What is your role in your organization regarding technology adoption and digital innovation?",
+      "choices": [
+          "Decision-maker/Executive",
+          "Manager/Team Leader",
+          "Technical Staff",
+          "Other (please specify)"
+      ]
+  }
 ]
-
 
 
 
