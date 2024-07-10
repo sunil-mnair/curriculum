@@ -578,7 +578,7 @@
 
     ]
     ,
-    "Python Foundation - Fast Track":
+    "Python Foundation - Fast Track01":
         [
         {
             "id": 1,
@@ -638,7 +638,7 @@
         }
     ]
     ,
-    "Python Foundation - Fast Track1":
+    "Python Foundation - Fast Track02":
         [
         {
             "id": 5,
@@ -4153,6 +4153,129 @@
           "answer": "To act as a digital currency",
           "explanation": "Bitcoin was primarily created to function as a decentralized digital currency."
         }
-      ]
-      
+      ],
+      "Python Foundation - Fast Track":
+      [
+        {
+          "id": 1,
+          "question": "What is the primary purpose of creating a virtual environment in Python?",
+          "choices": [
+            "To speed up the execution of Python code",
+            "To isolate dependencies and project-specific libraries",
+            "To increase the security of the Python interpreter",
+            "To improve the readability of Python code"
+          ],
+          "answer": "To isolate dependencies and project-specific libraries",
+          "explanation": "Creating a virtual environment allows you to manage dependencies for your project separately from other projects, ensuring that each project has its own set of libraries and dependencies."
+        },
+        {
+          "id": 2,
+          "question": "Which command is used to activate a virtual environment in Windows?",
+          "choices": [
+            "source env/bin/activate",
+            "activate env",
+            ".\\env\\Scripts\\activate",
+            "env activate"
+          ],
+          "answer": ".\\env\\Scripts\\activate",
+          "explanation": "On Windows, the command to activate a virtual environment is .\\env\\Scripts\\activate. On Unix or Mac systems, you would use source env/bin/activate."
+        },
+        {
+          "id": 3,
+          "question": "Which of the following is a valid variable name in Python?",
+          "choices": [
+            "1variable",
+            "variable-1",
+            "variable_one",
+            "variable.one"
+          ],
+          "answer": "variable_one",
+          "explanation": "Variable names in Python must start with a letter or an underscore (_) and can contain letters, numbers, and underscores. variable_one is the only valid name according to these rules."
+        },
+        {
+          "id": 4,
+          "question": "What does the built-in function len() do in Python?",
+          "choices": [
+            "Returns the maximum value of a list",
+            "Returns the number of elements in a list",
+            "Returns the minimum value of a list",
+            "Returns the sum of all elements in a list"
+          ],
+          "answer": "Returns the number of elements in a list",
+          "explanation": "The len() function returns the number of elements in a list, string, or other iterable."
+        },
+        {
+          "id": 5,
+          "question": "Which method would you use to convert all characters in a string to uppercase?",
+          "choices": [
+            "upper()",
+            "to_upper()",
+            "uppercase()",
+            "capitalize()"
+          ],
+          "answer": "upper()",
+          "explanation": "The upper() method converts all characters in a string to uppercase."
+        },
+        {
+          "id": 6,
+          "question": "What is the output of the following code?",
+          "choices": [
+            "3.3333",
+            "3.0",
+            "3",
+            "4"
+          ],
+          "answer": "3",
+          "image":"pfft_06.png",
+          "explanation": "The // operator performs integer division, which returns the quotient without the remainder. In this case, 10 // 3 equals 3."
+        },
+        {
+          "id": 7,
+          "question": "Which built-in function can be used to round a number to a specified number of decimal places?",
+          "choices": [
+            "round()",
+            "ceil()",
+            "floor()",
+            "truncate()"
+          ],
+          "answer": "round()",
+          "explanation": "The round() function rounds a number to a specified number of decimal places."
+        },
+        {
+          "id": 8,
+          "question": "Which of the following statements correctly checks if a variable x is greater than 10 and less than 20?",
+          "choices": [
+            "if x > 10 or x < 20:",
+            "if x > 10 and x < 20:",
+            "if x >= 10 and x <= 20:",
+            "if 10 < x < 20:"
+          ],
+          "answer": "if 10 < x < 20:",
+          "explanation": "The expression 10 < x < 20 is a shorthand way of writing x > 10 and x < 20 in Python."
+        },
+        {
+          "id": 9,
+          "question": "Which function from the datetime module can you use to get the current date and time?",
+          "choices": [
+            "datetime.current()",
+            "datetime.today()",
+            "datetime.now()",
+            "datetime.date()"
+          ],
+          "answer": "datetime.now()",
+          "explanation": "The datetime.now() function returns the current date and time."
+        },
+        {
+          "id": 10,
+          "question": "How would you create a datetime object representing January 1, 2024?",
+          "choices": [
+            "datetime.date(2024, 1, 1)",
+            "datetime.datetime(2024, 1, 1)",
+            "datetime(2024, 1, 1)",
+            "datetime.new(2024, 1, 1)"
+          ],
+          "answer": "datetime.datetime(2024, 1, 1)",
+          "explanation": "You create a datetime object representing a specific date and time using datetime.datetime(year, month, day)."
+        }
+      ]    
     }
