@@ -4154,7 +4154,7 @@
           "explanation": "Bitcoin was primarily created to function as a decentralized digital currency."
         }
       ],
-      "Python Foundation - Fast Track":
+      "Python Foundation - Fast Track03":
       [
         {
           "id": 1,
@@ -4277,5 +4277,192 @@
           "answer": "datetime.datetime(2024, 1, 1)",
           "explanation": "You create a datetime object representing a specific date and time using datetime.datetime(year, month, day)."
         }
-      ]    
+      ],
+      "Python Foundation - Fast Track":[
+        {
+            "id": 1,
+            "question": "Which command is used to create a virtual environment in Python using `virtualenv`?",
+            "choices": [
+                "pip install venv",
+                "virtualenv env",
+                "create env",
+                "python -m venv env"
+            ],
+            "answer": "virtualenv env",
+            "explanation": "The command `virtualenv env` is used to create a virtual environment using the `virtualenv` package."
+        },
+        {
+            "id": 2,
+            "question": "Which of the following is NOT a built-in function in Python?",
+            "choices": [
+                "print()",
+                "len()",
+                "append()",
+                "type()"
+            ],
+            "answer": "append()",
+            "explanation": "`append()` is a method of list objects, not a built-in function."
+        },
+        {
+            "id": 3,
+            "question": "Which of the following methods will remove leading and trailing whitespace from a string?",
+            "choices": [
+                "strip()",
+                "trim()",
+                "lstrip()",
+                "rstrip()"
+            ],
+            "answer": "strip()",
+            "explanation": "The `strip()` method removes both leading and trailing whitespace from a string."
+        },
+        {
+            "id": 4,
+            "question": "What will be the output of the following code?",
+            "choices": [
+                "A",
+                "l",
+                "i",
+                "e"
+            ],
+            "answer": "l",
+            "image":"python_quiz_string_index.png",
+            "explanation": "Indexing in Python strings starts at 0, so `name[1]` refers to the second character, which is `l`."
+        },
+        {
+            "id": 5,
+            "question": "Which operator is used to calculate the remainder of a division?",
+            "choices": [
+                "/",
+                "//",
+                "%",
+                "**"
+            ],
+            "answer": "%",
+            "explanation": "The modulus operator `%` is used to calculate the remainder of a division."
+        },
+        {
+            "id": 6,
+            "question": "What will be the output of the following code?",
+            "choices": [
+                "6",
+                "8",
+                "9",
+                "12"
+            ],
+            "answer": "8",
+            "image":"python_quiz_exponent.png",
+            "explanation": "The `**` operator is used for exponentiation. `2 ** 3` equals `8`."
+        },
+        {
+            "id": 7,
+            "question": "What will be the output of the following code?",
+            "choices": [
+                "Greater than 5",
+                "5 or less",
+                "10",
+                "None of the above"
+            ],
+            "answer": "Greater than 5",
+            "image":"python_quiz_if_statement.png",
+            "explanation": "Since `x` is `10`, which is greater than `5`, the condition is true and \"Greater than 5\" is printed."
+        },
+        {
+            "id": 8,
+            "question": "Which of the following statements correctly checks if a variable `x` is either less than 10 or greater than 20?",
+            "choices": [
+                "if x < 10 and x > 20:",
+                "if x < 10 or x > 20:",
+                "if x <= 10 or x >= 20:",
+                "if x != 10 and x != 20:"
+            ],
+            "answer": "if x < 10 or x > 20:",
+            "explanation": "The expression `if x < 10 or x > 20:` correctly checks if `x` is either less than `10` or greater than `20`."
+        },
+        {
+            "id": 9,
+            "question": "Which statement can be used to skip the current iteration in a loop and continue with the next iteration?",
+            "choices": [
+                "break",
+                "continue",
+                "pass",
+                "return"
+            ],
+            "answer": "continue",
+            "explanation": "The `continue` statement skips the current iteration of a loop and proceeds with the next iteration."
+        },
+        {
+            "id": 10,
+            "question": "What will be the output of the following code?",
+            "choices": [
+                "1 2 3 4",
+                "1 2 3",
+                "1 2",
+                "2 3 4"
+            ],
+            "answer": "1 2",
+            "explanation": "The `break` statement exits the loop when `i` equals `3`, so only `1` and `2` are printed."
+        },
+        {
+            "id": 11,
+            "question": "Which keyword is used to define a function in Python?",
+            "choices": [
+                "func",
+                "def",
+                "function",
+                "lambda"
+            ],
+            "answer": "def",
+            "explanation": "The `def` keyword is used to define a function in Python."
+        },
+        {
+            "id": 12,
+            "question": "What will be the output of the following code?",
+            "choices": [
+                "Hello!",
+                "Hello, !",
+                "Hello, Alice!",
+                "None of the above"
+            ],
+            "answer": "Hello, Alice!",
+            "image":"python_quiz_string_formatting.png",
+            "explanation": "The function `greet` takes a `name` parameter and returns a formatted string `Hello, {name}!`."
+        },
+        {
+            "id": 13,
+            "question": "Which method from the `datetime` module returns the current local date?",
+            "choices": [
+                "datetime.today()",
+                "datetime.now()",
+                "datetime.date()",
+                "datetime.localtime()"
+            ],
+            "answer": "datetime.today()",
+            "explanation": "The `datetime.today()` method returns the current local date."
+        },
+        {
+            "id": 14,
+            "question": "How would you remove the first occurrence of the element `2` from the list `my_list = [1, 2, 3, 2, 4]`?",
+            "choices": [
+                "my_list.remove(2)",
+                "my_list.delete(2)",
+                "my_list.pop(2)",
+                "my_list.discard(2)"
+            ],
+            "answer": "my_list.remove(2)",
+            "explanation": "The `remove()` method removes the first occurrence of the specified value."
+        },
+        {
+            "id": 15,
+            "question": "How would you add a new key-value pair `'gender': 'female'` to the dictionary `person = {'name': 'Alice', 'age': 30}`?",
+            "choices": [
+                "person['gender'] = 'female'",
+                "person.add('gender', 'female')",
+                "person.update('gender', 'female')",
+                "person.insert('gender', 'female')"
+            ],
+            "answer": "person['gender'] = 'female'",
+            "explanation": "To add a new key-value pair to a dictionary, you can use the syntax `person['gender'] = 'female'`."
+        }
+    ]
+        
     }
