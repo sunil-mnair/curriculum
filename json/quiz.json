@@ -4400,6 +4400,7 @@
                 "2 3 4"
             ],
             "answer": "1 2",
+            "image":"python_quiz_for_break.png",
             "explanation": "The `break` statement exits the loop when `i` equals `3`, so only `1` and `2` are printed."
         },
         {
@@ -4432,7 +4433,7 @@
             "question": "Which method from the `datetime` module returns the current local date?",
             "choices": [
                 "datetime.today()",
-                "datetime.now()",
+                "datetime.moment()",
                 "datetime.date()",
                 "datetime.localtime()"
             ],
