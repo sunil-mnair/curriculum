@@ -4355,7 +4355,7 @@
         },
         {
             "id": 7,
-            "question": "What will be the output of the following code?",
+            "question": "What will be the output upon execution of the if statement block?",
             "choices": [
                 "Greater than 5",
                 "5 or less",
@@ -4392,7 +4392,7 @@
         },
         {
             "id": 10,
-            "question": "What will be the output of the following code?",
+            "question": "What will be the output of the following code with the for loop and if statement?",
             "choices": [
                 "1 2 3 4",
                 "1 2 3",
@@ -4416,7 +4416,7 @@
         },
         {
             "id": 12,
-            "question": "What will be the output of the following code?",
+            "question": "What will be the output of the following code containing string formatting?",
             "choices": [
                 "Hello!",
                 "Hello, !",
