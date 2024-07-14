@@ -768,6 +768,75 @@
           "Other (please specify)"
       ]
   }
+],
+"Querying Data with Transact SQL":[
+  {
+    "id": 1,
+    "question": "How familiar are you with SQL (Structured Query Language)?",
+    "choices": [
+      "Not familiar at all",
+      "Heard of it, but never used it",
+      "Used it a few times",
+      "Regularly use it",
+      "Expert level proficiency"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Have you ever worked with Transact-SQL (T-SQL) before?",
+    "choices": [
+      "Never heard of it",
+      "Heard of it, but never used it",
+      "Used it a few times",
+      "Regularly use it",
+      "Expert level proficiency"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "What is your primary reason for taking this course?",
+    "choices": [
+      "To gain basic knowledge of T-SQL",
+      "To improve my current T-SQL skills",
+      "To prepare for a job role that requires T-SQL",
+      "To enhance my data querying abilities",
+      "Other"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "How comfortable are you with basic SQL operations such as SELECT, INSERT, UPDATE, and DELETE?",
+    "choices": [
+      "Not comfortable at all",
+      "Somewhat comfortable",
+      "Comfortable",
+      "Very comfortable",
+      "Expert level proficiency"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Which of the following T-SQL concepts are you already familiar with? (Select all that apply)",
+    "choices": [
+      "Joins",
+      "Subqueries",
+      "Common Table Expressions (CTEs)",
+      "Stored Procedures",
+      "Triggers",
+      "None of the above"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "What specific outcomes do you hope to achieve by the end of this course?",
+    "choices": [
+      "Ability to write complex queries",
+      "Understanding of T-SQL optimization techniques",
+      "Knowledge of advanced T-SQL features",
+      "Preparedness for T-SQL certification",
+      "Other"
+    ]
+  }
 ]
 
 
