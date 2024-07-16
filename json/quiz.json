@@ -4464,6 +4464,77 @@
             "answer": "person['gender'] = 'female'",
             "explanation": "To add a new key-value pair to a dictionary, you can use the syntax `person['gender'] = 'female'`."
         }
-    ]
-        
+    ],
+    "Querying Data with Transact SQL":[
+      {
+        "id": 1,
+        "question": "Which SQL clause is used to combine rows from two or more tables, based on a related column between them?",
+        "choices": ["JOIN", "GROUP BY", "ORDER BY", "UNION"],
+        "answer": "JOIN",
+        "explanation": "The JOIN clause is used in SQL to combine rows from two or more tables, based on a related column between them."
+      },
+      {
+        "id": 2,
+        "question": "Which SQL function is used to calculate the average value of a numeric column?",
+        "choices": ["SUM()", "AVG()", "COUNT()", "MAX()"],
+        "answer": "AVG()",
+        "explanation": "The AVG() function is used to calculate the average value of a numeric column in SQL."
+      },
+      {
+        "id": 3,
+        "question": "Which SQL keyword is used to sort the result set of a query?",
+        "choices": ["ORDER BY", "GROUP BY", "SORT BY", "HAVING"],
+        "answer": "ORDER BY",
+        "explanation": "The ORDER BY keyword is used to sort the result set of a query by one or more columns."
+      },
+      {
+        "id": 4,
+        "question": "What does the GROUP BY clause do in an SQL query?",
+        "choices": ["Sorts the data", "Filters the data", "Groups rows that have the same values into summary rows", "Joins multiple tables"],
+        "answer": "Groups rows that have the same values into summary rows",
+        "explanation": "The GROUP BY clause groups rows that have the same values into summary rows, often used with aggregate functions like COUNT(), AVG(), SUM(), etc."
+      },
+      {
+        "id": 5,
+        "question": "Which SQL function would you use to concatenate two strings?",
+        "choices": ["CONCAT()", "COMBINE()", "JOIN()", "MERGE()"],
+        "answer": "CONCAT()",
+        "explanation": "The CONCAT() function is used in SQL to concatenate two or more strings into one string."
+      },
+      {
+        "id": 6,
+        "question": "How do you round a number to the nearest integer in SQL?",
+        "choices": ["ROUND()", "FLOOR()", "CEILING()", "TRUNCATE()"],
+        "answer": "ROUND()",
+        "explanation": "The ROUND() function in SQL is used to round a number to the nearest integer or to a specified number of decimal places."
+      },
+      {
+        "id": 7,
+        "question": "Which SQL function would you use to extract the year from a date?",
+        "choices": ["GETYEAR()", "EXTRACT()", "YEAR()", "DATEPART()"],
+        "answer": "YEAR()",
+        "explanation": "The YEAR() function in SQL is used to extract the year part from a date."
+      },
+      {
+        "id": 8,
+        "question": "What does the COUNT() function do in SQL?",
+        "choices": ["Calculates the total sum of a column", "Counts the number of rows that match a specified condition", "Returns the largest value of a column", "Calculates the average value of a column"],
+        "answer": "Counts the number of rows that match a specified condition",
+        "explanation": "The COUNT() function in SQL returns the number of rows that match a specified condition, often used to find the number of items in a group."
+      },
+      {
+        "id": 9,
+        "question": "Which SQL function would you use to convert a string to upper case?",
+        "choices": ["TOUPPER()", "UPPERCASE()", "UPPER()", "UCASE()"],
+        "answer": "UPPER()",
+        "explanation": "The UPPER() function in SQL converts all characters in a string to upper case."
+      },
+      {
+        "id": 10,
+        "question": "Which SQL clause would you use to filter records based on a specified condition?",
+        "choices": ["WHERE", "HAVING", "FILTER", "SELECT"],
+        "answer": "WHERE",
+        "explanation": "The WHERE clause is used in SQL to filter records based on a specified condition, allowing you to retrieve only those records that meet the criteria."
+      }
+    ]       
     }
