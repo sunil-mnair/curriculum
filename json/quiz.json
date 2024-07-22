@@ -2001,138 +2001,138 @@
     ]
     ,"Excel Intermediate":
     [
-        {
-            "id": 1,
-            "question": "Which of these formulas will help extract the correct ID's AZ5001 and BZ5002?",
-            "image": "excel_find_mid.png",
-            "choices": [
-                "=TRIM(MID(B4,FIND(' ',B4,1),6))",
-                "=MID(B4,FIND(' ',B4,1)+1,6)",
-                "Either of the above",
-                "None of the above"
-            ],
-            "answer": "Either of the above",
-            "explanation": "Both formulas are capable of extracting the specified IDs from a string."
-        },
-        {
-            "id": 2,
-            "question": "Which of these formulas will help extract the numbers with the current Number format in excel?",
-            "image": "excel_substitute_value.png",
-            "choices": [
-                "=SUBSTITUTE(A2,'USD','')",
-                "=VALUE(SUBSTITUTE(A2,'USD',''))",
-                "=LEFT(A2,3)",
-                "None of the above"
-            ],
-            "answer": "=VALUE(SUBSTITUTE(A2,'USD',''))",
-            "explanation": "The VALUE function converts text to a number, and SUBSTITUTE removes 'USD'."
-        },
-        {
-            "id": 3,
-            "question": "Which rule is applicable when using the VLOOKUP?",
-            "image": "",
-            "choices": [
-                "The value being looked up should be contained in the same sheet",
-                "The value being looked up must be existing in the RIGHT-MOST column of the selected source cell range or table",
-                "The value being looked up must be existing in the LEFT-MOST column of the selected source cell range or table",
-                "None of the above"
-            ],
-            "answer": "The value being looked up must be existing in the LEFT-MOST column of the selected source cell range or table",
-            "explanation": "VLOOKUP searches for a value in the left-most column of a table and returns a value in the same row from a specified column."
-        },
-        {
-            "id": 4,
-            "question": "In this image, which formula would we use to display the text Waffles: bunny?",
-            "image": "excel_concatenate.png",
-            "choices": [
-                "=CONCATENATE(A2, ': ', B2)",
-                "=COMBINE(A2, B2)",
-                "=CONCATENATE(A2:B2)",
-                "=COMBINE(A:B)"
-            ],
-            "answer": "=CONCATENATE(A2, ': ', B2)",
-            "explanation": "CONCATENATE joins two or more text strings into one string."
-        },
-        {
-            "id": 5,
-            "question": "Which function can display a different value depending on a condition?",
-            "image": "",
-            "choices": [
-                "TEST",
-                "IF",
-                "CONDITION",
-                "AVERAGE"
-            ],
-            "answer": "IF",
-            "explanation": "The IF function evaluates a condition and returns one value if true, and another value if false."
-        },
-        {
-            "id": 6,
-            "question": "Which of the following VLOOKUP functions is using the correct arguments?",
-            "image": "",
-            "choices": [
-                "=VLOOKUP(G5=3, TRUE, FALSE)",
-                "=VLOOKUP(G5, Products, 3, FALSE)",
-                "=VLOOKUP(Products, G5, 3, FALSE)",
-                "=VLOOKUP(G5, 3, FALSE)"
-            ],
-            "answer": "=VLOOKUP(G5, Products, 3, FALSE)",
-            "explanation": "The correct syntax for VLOOKUP includes the lookup value, the table array, the column index number, and a TRUE or FALSE for an exact match."
-        },
-        {
-            "id": 7,
-            "question": "Which formula is guaranteed to return the phrase 'You win!' if the value in cell B6 is 29?",
-            "image": "excel_if_01.png",
-            "choices": [
-                "=IF(AND(B6=29,C6=10),'You win!','Try again!')",
-                "=IF(OR(B6=29,C6=10),'You win!','Try again!')",
-                "=IF(B6=29,'Try again!','You win!')"
-            ],
-            "answer": "=IF(OR(B6=29,C6=10),'You win!','Try again!')",
-            "explanation": "The IF function, combined with the OR logical function, checks if either of two conditions is true and returns 'You win!' if so."
-        },
-        {
-           
-    
-     "id": 8,
-            "question": "If the word 'alphabet' is in cell A1, then what does the function =mid(A1, 3, 4) display?",
-            "image": "",
-            "choices": [
-                "phab",
-                "hab",
-                "bet",
-                "abet"
-            ],
-            "answer": "phab",
-            "explanation": "MID returns a specific substring from a text string, starting at the position specified and continuing for the number of characters specified."
-        },
-        {
-            "id": 9,
-            "question": "What is the result of the formula =trim(' Question Six ')?",
-            "image": "",
-            "choices": [
-                "Question Six",
-                "Question Si",
-                "Question-Six",
-                "An error will be displayed"
-            ],
-            "answer": "Question Six",
-            "explanation": "TRIM removes all spaces from a text string except for single spaces between words."
-        },
-        {
-            "id": 10,
-            "question": "To generate a result in a cell when two specific conditions are true, which Excel function should be used?",
-            "image": "",
-            "choices": [
-                "AND",
-                "OR",
-                "IF and AND",
-                "None of the above"
-            ],
-            "answer": "IF and AND",
-            "explanation": "Combining IF with AND allows for checking multiple conditions, and if all conditions are true, it returns the specified result."
-        }
-    ],
+      {
+          "id": 1,
+          "question": "Which of these formulas will help extract the correct ID's AZ5001 and BZ5002?",
+          "image": "excel_find_mid.png",
+          "choices": [
+              "=TRIM(MID(B4,FIND(' ',B4,1),6))",
+              "=MID(B4,FIND(' ',B4,1)+1,6)",
+              "Either of the above",
+              "None of the above"
+          ],
+          "answer": "Either of the above",
+          "explanation": "Both formulas are capable of extracting the specified IDs from a string."
+      },
+      {
+          "id": 2,
+          "question": "Which of these formulas will help extract the numbers with the current Number format in Excel?",
+          "image": "excel_substitute_value.png",
+          "choices": [
+              "=SUBSTITUTE(A2,'USD','')",
+              "=VALUE(SUBSTITUTE(A2,'USD',''))",
+              "=LEFT(A2,3)",
+              "None of the above"
+          ],
+          "answer": "=VALUE(SUBSTITUTE(A2,'USD',''))",
+          "explanation": "The VALUE function converts text to a number, and SUBSTITUTE removes 'USD'."
+      },
+      {
+          "id": 3,
+          "question": "In this image, which formula would we use to display the text Waffles: bunny?",
+          "image": "excel_concatenate.png",
+          "choices": [
+              "=CONCATENATE(A2, ': ', B2)",
+              "=COMBINE(A2, B2)",
+              "=CONCATENATE(A2:B2)",
+              "=COMBINE(A:B)"
+          ],
+          "answer": "=CONCATENATE(A2, ': ', B2)",
+          "explanation": "CONCATENATE joins two or more text strings into one string."
+      },
+      {
+          "id": 4,
+          "question": "If the word 'alphabet' is in cell A1, then what does the function =MID(A1, 3, 4) display?",
+          "image": "",
+          "choices": [
+              "phab",
+              "hab",
+              "bet",
+              "abet"
+          ],
+          "answer": "phab",
+          "explanation": "MID returns a specific substring from a text string, starting at the position specified and continuing for the number of characters specified."
+      },
+      {
+          "id": 5,
+          "question": "What is the result of the formula =TRIM(' Question Six ')?",
+          "image": "",
+          "choices": [
+              "Question Six",
+              "Question Si",
+              "Question-Six",
+              "An error will be displayed"
+          ],
+          "answer": "Question Six",
+          "explanation": "TRIM removes all spaces from a text string except for single spaces between words."
+      },
+      {
+          "id": 6,
+          "question": "Which formula can be used to calculate the average of the values in cells A1 to A10?",
+          "image": "",
+          "choices": [
+              "=SUM(A1:A10)/10",
+              "=AVG(A1:A10)",
+              "=AVERAGE(A1:A10)",
+              "=MEAN(A1:A10)"
+          ],
+          "answer": "=AVERAGE(A1:A10)",
+          "explanation": "The AVERAGE function calculates the arithmetic mean of a range of cells."
+      },
+      {
+          "id": 7,
+          "question": "Which formula can be used to find the largest value in the range B1:B10?",
+          "image": "",
+          "choices": [
+              "=MAXIMUM(B1:B10)",
+              "=LARGE(B1:B10)",
+              "=MAX(B1:B10)",
+              "=BIGGEST(B1:B10)"
+          ],
+          "answer": "=MAX(B1:B10)",
+          "explanation": "The MAX function returns the largest value in a specified range of cells."
+      },
+      {
+          "id": 8,
+          "question": "Which function can be used to count the number of numeric values in a range?",
+          "image": "",
+          "choices": [
+              "=COUNTIF(A1:A10, '>0')",
+              "=COUNTA(A1:A10)",
+              "=COUNT(A1:A10)",
+              "=COUNTNUM(A1:A10)"
+          ],
+          "answer": "=COUNT(A1:A10)",
+          "explanation": "The COUNT function counts the number of numeric values in a specified range of cells."
+      },
+      {
+          "id": 9,
+          "question": "Which function returns the current date and time?",
+          "image": "",
+          "choices": [
+              "=DATE()",
+              "=NOW()",
+              "=CURRENT()",
+              "=TODAY()"
+          ],
+          "answer": "=NOW()",
+          "explanation": "The NOW function returns the current date and time formatted as a date and time."
+      },
+      {
+          "id": 10,
+          "question": "Which function can be used to convert text to uppercase?",
+          "image": "",
+          "choices": [
+              "=UPPERCASE(A1)",
+              "=UPPER(A1)",
+              "=TEXTUP(A1)",
+              "=CAPITALIZE(A1)"
+          ],
+          "answer": "=UPPER(A1)",
+          "explanation": "The UPPER function converts all letters in the specified text string to uppercase."
+      }
+  ]
+  ,
     "Data Consolidation and Analysis using Excel":
         [
             {
