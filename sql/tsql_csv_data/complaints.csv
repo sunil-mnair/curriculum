@@ -1,0 +1,700 @@
+﻿date_received,issue_category,channel,company_response,timely_response,consumer_disputed,complaint_id,order_id
+01/05/2020,Unavailable or Out of Stock Product,Email,Closed with explanation,TRUE,FALSE,CR1615332,US-2015-157046
+01/06/2020,Uninterested Service Rep,Phone Support,Closed with explanation,TRUE,FALSE,CR1467137,US-2015-151392
+01/09/2020,Lack of Follow Up,Phone Support,Closed with explanation,TRUE,TRUE,CR0480573,US-2015-159867
+01/10/2020,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,TRUE,TRUE,CR2166955,US-2015-152918
+01/11/2020,Unavailable or Out of Stock Product,Mobile App,Closed with non-monetary relief,TRUE,TRUE,CR0097731,US-2015-158209
+01/11/2020,Unavailable or Out of Stock Product,Email,Closed with monetary relief,TRUE,FALSE,CR1813349,US-2015-160457
+01/12/2020,Lack of Follow Up,Mobile App,Closed with non-monetary relief,TRUE,TRUE,CR1452819,US-2015-156442
+01/12/2020,Unavailable or Out of Stock Product,Phone Support,Closed with explanation,TRUE,FALSE,CR1845683,US-2015-154222
+01/13/2020,Lack of Follow Up,Branch,Closed with explanation,TRUE,TRUE,CR0705878,US-2015-158781
+01/14/2020,Long wait on hold,Email,Closed with relief,TRUE,FALSE,CR2395319,US-2015-159720
+01/19/2020,Uninterested Service Rep,Phone Support,Closed with monetary relief,TRUE,FALSE,CR2228854,US-2015-155789
+01/20/2020,No First Call Resolution,Branch,Closed with monetary relief,TRUE,FALSE,CR1007303,US-2015-152418
+01/20/2020,New Product or Feature Request,Email,Closed with explanation,TRUE,FALSE,CR1849018,US-2015-158797
+01/21/2020,Lack of Follow Up,Mobile App,In-Progress,FALSE,FALSE,CR1528299,US-2015-153420
+01/21/2020,New Product or Feature Request,Email,Closed with non-monetary relief,TRUE,FALSE,CR2394492,US-2015-151429
+01/21/2020,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,TRUE,FALSE,CR1772134,US-2015-159330
+01/21/2020,Unavailable or Out of Stock Product,Branch,Closed with explanation,TRUE,FALSE,CR1979353,US-2015-158797
+01/23/2020,New Product or Feature Request,Email,Closed with monetary relief,TRUE,FALSE,CR1282520,US-2015-150944
+01/28/2020,Lack of Follow Up,Branch,Closed with monetary relief,TRUE,FALSE,CR2053433,US-2015-154035
+02/02/2020,New Product or Feature Request,Mobile App,Closed with explanation,TRUE,TRUE,CR1516691,US-2015-159671
+02/04/2020,Uninterested Service Rep,Branch,In-Progress,FALSE,FALSE,CR2149200,US-2015-150921
+02/04/2020,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,TRUE,FALSE,CR2011299,US-2015-153089
+02/05/2020,No First Call Resolution,Mobile App,Closed with non-monetary relief,TRUE,FALSE,CR2106749,US-2015-157093
+02/08/2020,Lack of Follow Up,Phone Support,Closed with explanation,TRUE,FALSE,CR0500647,US-2015-151350
+02/15/2020,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,TRUE,TRUE,CR1706813,US-2015-152767
+02/16/2020,Lack of Follow Up,Branch,Closed with relief,TRUE,TRUE,CR0027693,US-2015-157414
+02/18/2020,No First Call Resolution,Branch,Closed with explanation,TRUE,FALSE,CR2004264,US-2015-153338
+02/20/2020,Lack of Follow Up,Phone Support,Closed with explanation,TRUE,FALSE,CR2119080,US-2015-157169
+02/23/2020,Uninterested Service Rep,Phone Support,Closed with explanation,TRUE,FALSE,CR1741538,US-2015-151073
+02/25/2020,Making Customers Repeat Their Problem,Email,Closed with explanation,TRUE,TRUE,CR1967343,US-2015-159189
+02/27/2020,Making Customers Repeat Their Problem,Email,Closed with monetary relief,TRUE,FALSE,CR0404275,US-2015-158952
+02/28/2020,Making Customers Repeat Their Problem,Mobile App,Closed with monetary relief,TRUE,FALSE,CR2136255,US-2015-150831
+02/28/2020,No First Call Resolution,Email,Closed with explanation,TRUE,FALSE,CR1943347,US-2015-159838
+02/29/2020,No First Call Resolution,Mobile App,Closed with explanation,TRUE,FALSE,CR1386876,US-2015-153365
+03/03/2020,Unavailable or Out of Stock Product,Mobile App,Closed with monetary relief,TRUE,FALSE,CR0855237,US-2015-152880
+03/04/2020,Uninterested Service Rep,Email,Closed with explanation,TRUE,FALSE,CR2011177,US-2015-153865
+03/07/2020,Long wait on hold,Phone Support,Closed with explanation,TRUE,TRUE,CR1762648,US-2015-157688
+03/11/2020,Lack of Follow Up,Branch,Closed with explanation,TRUE,TRUE,CR1355330,US-2015-151275
+03/14/2020,Lack of Follow Up,Branch,Closed with explanation,TRUE,TRUE,CR1500202,US-2015-156382
+03/14/2020,Making Customers Repeat Their Problem,Phone Support,Closed with explanation,TRUE,FALSE,CR1182076,US-2015-151717
+03/17/2020,No First Call Resolution,Branch,Closed with explanation,TRUE,FALSE,CR1721069,US-2015-155564
+03/18/2020,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,TRUE,FALSE,CR1773179,US-2015-152324
+03/18/2020,Making Customers Repeat Their Problem,Branch,Closed with explanation,TRUE,FALSE,CR0688050,US-2015-157350
+03/21/2020,Unavailable or Out of Stock Product,Email,Closed with explanation,TRUE,FALSE,CR1930395,US-2015-156116
+03/21/2020,No First Call Resolution,Email,Closed with explanation,TRUE,FALSE,CR1434177,US-2015-154281
+03/24/2020,Uninterested Service Rep,Mobile App,Closed with monetary relief,TRUE,FALSE,CR2239563,US-2015-160041
+03/28/2020,Poor Product or Service,Email,Closed with explanation,TRUE,TRUE,CR1507211,US-2015-152808
+03/29/2020,Lack of Follow Up,Branch,Closed with explanation,TRUE,FALSE,CR2387263,US-2015-158526
+03/29/2020,No First Call Resolution,Branch,Closed with explanation,TRUE,FALSE,CR1412354,US-2015-156770
+04/03/2020,New Product or Feature Request,Phone Support,Closed with explanation,TRUE,TRUE,CR0574864,US-2015-156770
+04/04/2020,No First Call Resolution,Mobile App,Closed with non-monetary relief,TRUE,FALSE,CR0785224,US-2015-156850
+04/09/2020,Making Customers Repeat Their Problem,Email,Closed with explanation,TRUE,FALSE,CR2047406,US-2015-154120
+04/10/2020,Long wait on hold,Phone Support,Closed with explanation,TRUE,FALSE,CR1580992,US-2015-154526
+04/11/2020,Long wait on hold,Mobile App,Closed with explanation,TRUE,TRUE,CR1165956,US-2015-151873
+04/13/2020,Long wait on hold,Phone Support,Closed with explanation,TRUE,FALSE,CR0508374,US-2015-159368
+04/15/2020,Making Customers Repeat Their Problem,Email,Closed with explanation,TRUE,FALSE,CR1538323,US-2015-159796
+04/25/2020,Unavailable or Out of Stock Product,Branch,Closed with explanation,TRUE,FALSE,CR0927871,US-2015-157622
+04/27/2020,Lack of Follow Up,Branch,Closed with explanation,TRUE,FALSE,CR1340503,US-2015-150764
+04/29/2020,Long wait on hold,Mobile App,Closed with explanation,TRUE,FALSE,CR1839721,US-2015-155521
+05/03/2020,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,TRUE,FALSE,CR1823750,US-2015-151869
+05/12/2020,New Product or Feature Request,Phone Support,Closed with non-monetary relief,TRUE,TRUE,CR1792706,US-2015-151249
+05/13/2020,New Product or Feature Request,Email,Closed with explanation,TRUE,FALSE,CR1809005,US-2015-150946
+05/15/2020,Making Customers Repeat Their Problem,Email,Closed with explanation,TRUE,FALSE,CR1435238,US-2015-154099
+05/18/2020,Long wait on hold,Email,Closed with explanation,TRUE,TRUE,CR1415743,US-2015-151179
+05/20/2020,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,TRUE,FALSE,CR1916042,US-2015-156342
+05/21/2020,Making Customers Repeat Their Problem,Phone Support,Closed with explanation,TRUE,TRUE,CR1101885,US-2015-155405
+05/21/2020,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,TRUE,FALSE,CR1834278,US-2015-159587
+05/24/2020,Uninterested Service Rep,Branch,Closed with monetary relief,TRUE,FALSE,CR1919975,US-2015-157009
+05/28/2020,No First Call Resolution,Email,Closed with non-monetary relief,TRUE,FALSE,CR1824920,US-2015-154786
+05/28/2020,New Product or Feature Request,Email,Closed with explanation,TRUE,TRUE,CR0283220,US-2015-155164
+05/29/2020,Making Customers Repeat Their Problem,Branch,Closed with explanation,TRUE,FALSE,CR2398513,US-2015-155712
+06/01/2020,No First Call Resolution,Branch,Closed with explanation,TRUE,TRUE,CR0373513,US-2015-158470
+06/01/2020,Long wait on hold,Mobile App,Closed with explanation,TRUE,TRUE,CR1037284,US-2015-151323
+06/03/2020,No First Call Resolution,Branch,Closed with non-monetary relief,TRUE,FALSE,CR1725353,US-2015-154976
+06/03/2020,Unavailable or Out of Stock Product,Branch,Closed with explanation,TRUE,FALSE,CR1860467,US-2015-159520
+06/03/2020,Lack of Follow Up,Mobile App,Closed with explanation,TRUE,FALSE,CR1816814,US-2015-159520
+06/03/2020,Making Customers Repeat Their Problem,Phone Support,Closed with explanation,TRUE,FALSE,CR2017443,US-2015-152290
+06/04/2020,Poor Product or Service,Email,Closed with explanation,TRUE,FALSE,CR0789608,US-2015-154339
+06/05/2020,New Product or Feature Request,Branch,Closed with non-monetary relief,TRUE,FALSE,CR2184797,US-2015-160143
+06/11/2020,New Product or Feature Request,Email,Closed with monetary relief,TRUE,FALSE,CR1497460,US-2015-160085
+06/19/2020,Making Customers Repeat Their Problem,Phone Support,Closed with monetary relief,TRUE,FALSE,CR1881766,US-2015-158320
+06/20/2020,Uninterested Service Rep,Branch,Closed with explanation,TRUE,TRUE,CR2151317,US-2015-160506
+06/23/2020,Uninterested Service Rep,Phone Support,Closed with monetary relief,TRUE,TRUE,CR1415128,US-2015-151599
+06/25/2020,Lack of Follow Up,Email,Closed with explanation,TRUE,FALSE,CR1630423,US-2015-151802
+06/26/2020,Lack of Follow Up,Email,Closed with explanation,TRUE,TRUE,CR0418611,US-2015-151839
+06/29/2020,Long wait on hold,Email,Closed with monetary relief,TRUE,FALSE,CR1633056,US-2015-154173
+06/30/2020,Unavailable or Out of Stock Product,Email,Closed with non-monetary relief,TRUE,FALSE,CR1573466,US-2015-152378
+07/01/2020,No First Call Resolution,Phone Support,Closed with monetary relief,TRUE,FALSE,CR2212620,US-2015-157707
+07/03/2020,New Product or Feature Request,Phone Support,Closed with explanation,TRUE,TRUE,CR1584140,US-2015-151171
+07/04/2020,No First Call Resolution,Phone Support,Closed with explanation,TRUE,FALSE,CR1418766,US-2015-158899
+07/05/2020,No First Call Resolution,Email,Closed with explanation,TRUE,FALSE,CR0922485,US-2015-155478
+07/09/2020,No First Call Resolution,Phone Support,Closed with explanation,TRUE,FALSE,CR1484289,US-2015-153743
+07/09/2020,No First Call Resolution,Branch,Closed with explanation,TRUE,FALSE,CR2080151,US-2015-159955
+07/09/2020,Lack of Follow Up,Email,Closed with explanation,TRUE,FALSE,CR2331412,US-2015-153430
+07/10/2020,Poor Product or Service,Mobile App,Closed with explanation,TRUE,TRUE,CR1470490,US-2015-157809
+07/12/2020,Poor Product or Service,Email,Closed with explanation,TRUE,FALSE,CR2089964,US-2015-156645
+07/13/2020,Making Customers Repeat Their Problem,Email,Closed with explanation,TRUE,FALSE,CR1874363,US-2015-152379
+07/19/2020,Poor Product or Service,Phone Support,Closed with monetary relief,TRUE,FALSE,CR2283829,US-2015-155130
+07/26/2020,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,TRUE,FALSE,CR1755925,US-2015-157423
+07/28/2020,Uninterested Service Rep,Branch,Closed with non-monetary relief,TRUE,TRUE,CR1645965,US-2015-151412
+08/01/2020,Poor Product or Service,Phone Support,Closed with explanation,TRUE,TRUE,CR0420867,US-2015-157179
+08/03/2020,Lack of Follow Up,Phone Support,Closed with explanation,TRUE,TRUE,CR0404310,US-2015-157310
+08/05/2020,Poor Product or Service,Branch,Closed with explanation,TRUE,FALSE,CR0132727,US-2015-151089
+08/05/2020,Uninterested Service Rep,Branch,Closed with explanation,TRUE,FALSE,CR1316790,US-2015-153735
+08/07/2020,Unavailable or Out of Stock Product,Email,Closed with explanation,TRUE,FALSE,CR2344749,US-2015-157776
+08/08/2020,New Product or Feature Request,Phone Support,Closed with explanation,TRUE,FALSE,CR2249569,US-2015-158425
+08/11/2020,Making Customers Repeat Their Problem,Phone Support,Closed with monetary relief,TRUE,FALSE,CR0479451,US-2015-159950
+08/11/2020,Poor Product or Service,Email,Closed with monetary relief,TRUE,TRUE,CR1325033,US-2015-151443
+08/11/2020,Making Customers Repeat Their Problem,Email,Closed with explanation,TRUE,FALSE,CR2131993,US-2015-158150
+08/17/2020,Unavailable or Out of Stock Product,Branch,Closed with explanation,TRUE,FALSE,CR0689939,US-2015-151911
+08/17/2020,No First Call Resolution,Mobile App,Closed with explanation,TRUE,FALSE,CR2310424,US-2015-155029
+08/21/2020,New Product or Feature Request,Email,Closed with monetary relief,TRUE,FALSE,CR1629513,US-2015-157396
+08/22/2020,Making Customers Repeat Their Problem,Phone Support,Closed with non-monetary relief,TRUE,FALSE,CR1912930,US-2015-152397
+08/27/2020,Uninterested Service Rep,Branch,Closed with monetary relief,TRUE,FALSE,CR0229354,US-2015-160471
+08/29/2020,Long wait on hold,Mobile App,Closed with explanation,TRUE,TRUE,CR0229326,US-2015-158063
+08/30/2020,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,TRUE,FALSE,CR1468137,US-2015-154792
+08/31/2020,Making Customers Repeat Their Problem,Phone Support,Closed with monetary relief,TRUE,FALSE,CR2222223,US-2015-151724
+09/03/2020,No First Call Resolution,Branch,Closed with monetary relief,TRUE,FALSE,CR1344050,US-2015-157383
+09/04/2020,No First Call Resolution,Branch,Closed with explanation,TRUE,FALSE,CR2182212,US-2015-158965
+09/09/2020,No First Call Resolution,Mobile App,Closed with explanation,TRUE,FALSE,CR1350626,US-2015-152542
+09/09/2020,Uninterested Service Rep,Email,Closed with explanation,TRUE,FALSE,CR1554953,US-2015-154000
+09/09/2020,No First Call Resolution,Phone Support,Closed with explanation,TRUE,TRUE,CR0362356,US-2015-159531
+09/14/2020,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,TRUE,TRUE,CR1301819,US-2015-153126
+09/16/2020,No First Call Resolution,Branch,Closed with explanation,TRUE,FALSE,CR1313382,US-2015-157857
+09/18/2020,Poor Product or Service,Branch,Closed without relief,TRUE,FALSE,CR0043811,US-2015-158887
+09/18/2020,Lack of Follow Up,Branch,Closed with explanation,TRUE,FALSE,CR2042159,US-2015-158939
+09/22/2020,Making Customers Repeat Their Problem,Phone Support,Closed with monetary relief,TRUE,FALSE,CR0988096,US-2015-157050
+09/22/2020,Lack of Follow Up,Phone Support,Closed with explanation,TRUE,TRUE,CR2128698,US-2015-154408
+09/24/2020,Making Customers Repeat Their Problem,Branch,Closed with explanation,TRUE,TRUE,CR1531152,US-2015-159926
+09/26/2020,Lack of Follow Up,Mobile App,Closed with explanation,TRUE,FALSE,CR1968804,US-2015-158773
+09/27/2020,Unavailable or Out of Stock Product,Email,Closed with explanation,TRUE,FALSE,CR1835930,US-2015-157419
+09/30/2020,Lack of Follow Up,Mobile App,Closed with monetary relief,TRUE,FALSE,CR0255281,US-2015-156060
+10/01/2020,Uninterested Service Rep,Email,Closed with monetary relief,TRUE,FALSE,CR2331971,US-2015-154277
+10/01/2020,Lack of Follow Up,Branch,Closed with explanation,TRUE,FALSE,CR1899878,US-2015-157691
+10/03/2020,Lack of Follow Up,Branch,Closed with explanation,TRUE,FALSE,CR2107839,US-2015-153484
+10/05/2020,Lack of Follow Up,Mobile App,Closed with explanation,TRUE,TRUE,CR2293843,US-2015-156214
+10/08/2020,No First Call Resolution,Mobile App,Closed with explanation,TRUE,FALSE,CR0130587,US-2015-157740
+10/11/2020,Long wait on hold,Phone Support,Closed with explanation,TRUE,TRUE,CR1756563,US-2015-154809
+10/12/2020,Poor Product or Service,Email,Closed with explanation,TRUE,FALSE,CR2323490,US-2015-150672
+10/14/2020,No First Call Resolution,Phone Support,Closed with monetary relief,TRUE,FALSE,CR1882476,US-2015-151369
+10/20/2020,New Product or Feature Request,Branch,Closed with relief,TRUE,FALSE,CR0034610,US-2015-156476
+10/23/2020,Uninterested Service Rep,Email,Closed with explanation,TRUE,FALSE,CR1148113,US-2015-153956
+10/25/2020,New Product or Feature Request,Email,Closed with explanation,TRUE,FALSE,CR2150336,US-2015-156674
+11/01/2020,Making Customers Repeat Their Problem,Mobile App,Closed with non-monetary relief,TRUE,FALSE,CR1797317,US-2015-153229
+11/04/2020,Long wait on hold,Branch,Closed with monetary relief,TRUE,FALSE,CR0138644,US-2015-153426
+11/06/2020,Poor Product or Service,Email,Closed with explanation,TRUE,FALSE,CR2384632,US-2015-153778
+11/07/2020,Lack of Follow Up,Branch,Closed with explanation,TRUE,TRUE,CR2172002,US-2015-154072
+11/15/2020,No First Call Resolution,Branch,Closed with explanation,TRUE,FALSE,CR2083973,US-2015-158563
+11/16/2020,Lack of Follow Up,Email,Closed with explanation,TRUE,FALSE,CR2106553,US-2015-150746
+11/22/2020,Uninterested Service Rep,Phone Support,Closed with explanation,TRUE,FALSE,CR2009490,US-2015-151220
+11/24/2020,Lack of Follow Up,Email,Closed with explanation,TRUE,FALSE,CR2348744,US-2015-152632
+11/24/2020,New Product or Feature Request,Branch,Closed with explanation,TRUE,FALSE,CR0517670,US-2015-159564
+11/25/2020,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,TRUE,TRUE,CR0997116,US-2015-155107
+11/27/2020,Uninterested Service Rep,Branch,Closed with explanation,TRUE,FALSE,CR1986094,US-2015-152133
+11/28/2020,Lack of Follow Up,Email,Closed with monetary relief,TRUE,TRUE,CR0138235,US-2015-157989
+11/29/2020,Uninterested Service Rep,Mobile App,Closed with non-monetary relief,TRUE,FALSE,CR1777183,US-2015-156598
+11/29/2020,New Product or Feature Request,Phone Support,Closed with monetary relief,TRUE,FALSE,CR0454551,US-2015-152139
+12/11/2020,Long wait on hold,Email,Closed with non-monetary relief,TRUE,FALSE,CR2114448,US-2015-153273
+12/11/2020,Lack of Follow Up,Mobile App,Closed with explanation,TRUE,FALSE,CR1942158,US-2015-160494
+12/11/2020,Lack of Follow Up,Branch,Closed with explanation,TRUE,FALSE,CR2157111,US-2015-156177
+12/14/2020,New Product or Feature Request,Phone Support,Closed with monetary relief,TRUE,FALSE,CR2032442,US-2015-159599
+12/14/2020,New Product or Feature Request,Email,Closed with explanation,TRUE,FALSE,CR1941376,US-2015-159599
+12/18/2020,Making Customers Repeat Their Problem,Branch,Closed with explanation,FALSE,FALSE,CR0161683,US-2015-160101
+12/20/2020,Lack of Follow Up,Phone Support,Closed with explanation,TRUE,FALSE,CR1384883,US-2015-155385
+12/29/2020,No First Call Resolution,Phone Support,Closed with explanation,TRUE,FALSE,CR1869568,US-2015-157613
+01/04/2021,Unavailable or Out of Stock Product,Phone Support,Closed with explanation,TRUE,FALSE,CR2199697,US-2015-157312
+01/06/2021,Poor Product or Service,Mobile App,Closed with monetary relief,TRUE,FALSE,CR1734737,US-2015-152877
+01/11/2021,Poor Product or Service,Branch,Closed with non-monetary relief,TRUE,FALSE,CR1877516,US-2015-155636
+01/17/2021,Making Customers Repeat Their Problem,Email,Closed with explanation,TRUE,FALSE,CR2123996,US-2015-155302
+01/20/2021,No First Call Resolution,Phone Support,Closed with explanation,TRUE,FALSE,CR1351216,US-2015-153313
+01/20/2021,Lack of Follow Up,Mobile App,Closed with explanation,TRUE,FALSE,CR1627236,US-2015-153681
+01/23/2021,Lack of Follow Up,Mobile App,Closed with explanation,TRUE,FALSE,CR1524415,US-2015-156315
+01/25/2021,Unavailable or Out of Stock Product,Branch,Closed with explanation,TRUE,FALSE,CR0426655,US-2015-152029
+01/25/2021,Making Customers Repeat Their Problem,Phone Support,Closed with explanation,TRUE,FALSE,CR1660760,US-2015-152029
+01/26/2021,Poor Product or Service,Branch,Closed,TRUE,FALSE,CR2397904,US-2015-155263
+01/27/2021,Unavailable or Out of Stock Product,Email,Closed with non-monetary relief,TRUE,FALSE,CR2226204,US-2015-152053
+02/02/2021,Lack of Follow Up,Mobile App,Closed with non-monetary relief,TRUE,FALSE,CR1455862,US-2015-152950
+02/02/2021,Unavailable or Out of Stock Product,Email,Closed with explanation,TRUE,FALSE,CR2106806,US-2015-157429
+02/07/2021,Making Customers Repeat Their Problem,Email,Closed with explanation,TRUE,FALSE,CR0793529,US-2015-153878
+02/08/2021,Long wait on hold,Phone Support,Closed with non-monetary relief,TRUE,FALSE,CR2184843,US-2015-159418
+02/12/2021,No First Call Resolution,Branch,Closed with explanation,TRUE,FALSE,CR2165760,US-2015-159336
+02/13/2021,Poor Product or Service,Branch,Closed with explanation,TRUE,FALSE,CR2089516,US-2015-159001
+02/14/2021,Unavailable or Out of Stock Product,Email,Closed with explanation,TRUE,FALSE,CR2378467,US-2015-159462
+02/16/2021,No First Call Resolution,Phone Support,Closed with explanation,TRUE,FALSE,CR1387408,US-2015-158306
+02/17/2021,New Product or Feature Request,Branch,Closed with explanation,TRUE,TRUE,CR1159924,US-2015-155946
+02/18/2021,No First Call Resolution,Phone Support,Closed with explanation,TRUE,FALSE,CR2187824,US-2015-153035
+02/19/2021,New Product or Feature Request,Phone Support,Closed with explanation,TRUE,FALSE,CR2350802,US-2015-151862
+02/22/2021,Unavailable or Out of Stock Product,Email,Closed with explanation,TRUE,FALSE,CR2008113,US-2015-156500
+02/22/2021,Uninterested Service Rep,Phone Support,Closed with explanation,TRUE,FALSE,CR2241469,US-2015-157594
+02/24/2021,Poor Product or Service,Branch,Closed with monetary relief,TRUE,FALSE,CR2065657,US-2015-151129
+02/24/2021,Lack of Follow Up,Email,Closed with explanation,TRUE,FALSE,CR2421250,US-2015-155259
+02/25/2021,Uninterested Service Rep,Branch,Closed with explanation,TRUE,FALSE,CR1725940,US-2015-152426
+02/26/2021,Uninterested Service Rep,Phone Support,Closed with explanation,TRUE,FALSE,CR2378054,US-2015-157881
+02/27/2021,Lack of Follow Up,Branch,Closed with explanation,TRUE,FALSE,CR0480773,US-2015-158324
+03/01/2021,Long wait on hold,Branch,Closed with explanation,TRUE,TRUE,CR0725940,US-2015-158696
+03/05/2021,No First Call Resolution,Branch,Closed with monetary relief,TRUE,FALSE,CR2259376,US-2015-154645
+03/14/2021,Making Customers Repeat Their Problem,Branch,Closed with explanation,TRUE,TRUE,CR2281296,US-2015-150698
+03/17/2021,Poor Product or Service,Mobile App,Closed with explanation,TRUE,FALSE,CR1759470,US-2015-156416
+03/18/2021,Uninterested Service Rep,Email,Closed with non-monetary relief,TRUE,FALSE,CR0206371,US-2015-159759
+03/18/2021,Making Customers Repeat Their Problem,Branch,Closed with explanation,TRUE,FALSE,CR2291907,US-2015-155348
+03/19/2021,No First Call Resolution,Email,Closed with explanation,TRUE,TRUE,CR1693351,US-2015-153905
+03/21/2021,Poor Product or Service,Phone Support,Closed with explanation,TRUE,TRUE,CR0347128,US-2015-153509
+03/22/2021,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,TRUE,FALSE,CR1863969,US-2015-155339
+03/23/2021,Lack of Follow Up,Branch,Closed with monetary relief,TRUE,FALSE,CR2221342,US-2015-153282
+03/29/2021,New Product or Feature Request,Branch,Closed with explanation,TRUE,FALSE,CR1527767,US-2015-153457
+03/30/2021,Uninterested Service Rep,Mobile App,Closed with explanation,TRUE,FALSE,CR1804301,US-2015-159975
+04/01/2021,Lack of Follow Up,Mobile App,Closed with explanation,TRUE,FALSE,CR0707883,US-2015-154337
+04/07/2021,Poor Product or Service,Mobile App,Closed with explanation,TRUE,FALSE,CR2261646,US-2015-158251
+04/08/2021,Uninterested Service Rep,Email,Closed with monetary relief,TRUE,FALSE,CR2179090,US-2015-158251
+04/08/2021,No First Call Resolution,Email,Closed with explanation,TRUE,FALSE,CR0547876,US-2015-159079
+04/14/2021,Long wait on hold,Branch,Closed with explanation,TRUE,FALSE,CR2311024,US-2015-159035
+04/18/2021,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,TRUE,FALSE,CR1660335,US-2015-154634
+04/24/2021,No First Call Resolution,Mobile App,Closed with explanation,TRUE,FALSE,CR1630364,US-2015-158925
+04/26/2021,Making Customers Repeat Their Problem,Phone Support,Closed with monetary relief,TRUE,FALSE,CR2214250,US-2015-157885
+04/27/2021,Unavailable or Out of Stock Product,Branch,Closed with explanation,TRUE,FALSE,CR1167964,US-2015-155633
+04/27/2021,Poor Product or Service,Email,Closed with explanation,TRUE,FALSE,CR1768779,US-2015-153747
+04/28/2021,Poor Product or Service,Mobile App,Closed with non-monetary relief,TRUE,FALSE,CR1496383,US-2015-157000
+04/28/2021,New Product or Feature Request,Branch,Closed with monetary relief,TRUE,FALSE,CR2119879,US-2015-159072
+04/28/2021,New Product or Feature Request,Email,Closed with monetary relief,TRUE,FALSE,CR1959194,US-2015-153747
+05/01/2021,No First Call Resolution,Phone Support,Closed with explanation,TRUE,FALSE,CR1052075,US-2015-151737
+05/02/2021,Making Customers Repeat Their Problem,Phone Support,Closed with explanation,TRUE,FALSE,CR1919514,US-2015-155821
+05/03/2021,Uninterested Service Rep,Mobile App,Closed with monetary relief,TRUE,FALSE,CR0428430,US-2015-155185
+05/10/2021,Making Customers Repeat Their Problem,Branch,Closed with explanation,TRUE,FALSE,CR1737466,US-2015-160005
+05/13/2021,No First Call Resolution,Mobile App,Closed with explanation,TRUE,FALSE,CR0230239,US-2015-155867
+05/14/2021,Poor Product or Service,Email,Closed with monetary relief,TRUE,FALSE,CR2019528,US-2015-153940
+05/16/2021,Poor Product or Service,Email,Closed with explanation,TRUE,TRUE,CR1910899,US-2015-154850
+05/18/2021,Long wait on hold,Email,Closed with explanation,TRUE,FALSE,CR1988571,US-2015-156041
+05/20/2021,Making Customers Repeat Their Problem,Phone Support,Closed with monetary relief,TRUE,FALSE,CR0223678,US-2015-158165
+05/20/2021,Making Customers Repeat Their Problem,Mobile App,Closed with monetary relief,TRUE,FALSE,CR2104114,US-2015-152660
+05/23/2021,Making Customers Repeat Their Problem,Phone Support,Closed with explanation,TRUE,FALSE,CR2124296,US-2015-158674
+05/25/2021,Long wait on hold,Branch,Closed with explanation,TRUE,TRUE,CR2209979,US-2015-157808
+05/28/2021,Lack of Follow Up,Branch,Closed with explanation,TRUE,FALSE,CR1949659,US-2015-150922
+05/30/2021,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,TRUE,FALSE,CR0499118,US-2015-151897
+06/01/2021,No First Call Resolution,Phone Support,Closed with explanation,TRUE,FALSE,CR1773807,US-2015-155128
+06/06/2021,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,TRUE,FALSE,CR1328481,US-2015-151744
+06/08/2021,No First Call Resolution,Mobile App,Closed with monetary relief,TRUE,FALSE,CR0411108,US-2015-159881
+06/08/2021,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,FALSE,FALSE,CR0220184,US-2015-151744
+06/11/2021,No First Call Resolution,Mobile App,Closed with explanation,TRUE,FALSE,CR1680495,US-2015-158546
+06/12/2021,Long wait on hold,Mobile App,Closed with non-monetary relief,TRUE,FALSE,CR2235451,US-2015-158953
+06/12/2021,New Product or Feature Request,Branch,Closed with explanation,TRUE,FALSE,CR2319065,US-2015-153172
+06/16/2021,Making Customers Repeat Their Problem,Email,Closed with explanation,TRUE,TRUE,CR0189436,US-2015-159864
+06/18/2021,New Product or Feature Request,Mobile App,Closed with explanation,TRUE,TRUE,CR2267015,US-2015-158127
+06/21/2021,New Product or Feature Request,Email,Closed with explanation,TRUE,FALSE,CR1448631,US-2015-155644
+06/27/2021,Uninterested Service Rep,Mobile App,Closed with explanation,TRUE,FALSE,CR1352279,US-2015-152281
+06/30/2021,Long wait on hold,Email,Closed with non-monetary relief,TRUE,FALSE,CR2047529,US-2015-159470
+07/01/2021,Long wait on hold,Branch,Closed with monetary relief,TRUE,FALSE,CR0222601,US-2015-158228
+07/07/2021,Long wait on hold,Mobile App,Closed with explanation,TRUE,FALSE,CR1418533,US-2015-158576
+07/09/2021,Poor Product or Service,Mobile App,Closed with non-monetary relief,TRUE,FALSE,CR1658837,US-2015-150950
+07/10/2021,No First Call Resolution,Mobile App,Closed with explanation,TRUE,TRUE,CR0194736,US-2015-155291
+07/10/2021,New Product or Feature Request,Phone Support,Closed with explanation,TRUE,TRUE,CR1048746,US-2015-153489
+07/11/2021,Unavailable or Out of Stock Product,Mobile App,Closed with monetary relief,TRUE,FALSE,CR2388201,US-2015-154954
+07/13/2021,No First Call Resolution,Phone Support,Closed with explanation,TRUE,FALSE,CR2225814,US-2015-155495
+07/16/2021,Making Customers Repeat Their Problem,Branch,Closed with explanation,TRUE,FALSE,CR1142808,US-2015-158389
+07/17/2021,Making Customers Repeat Their Problem,Branch,Closed with explanation,TRUE,FALSE,CR1910227,US-2015-160059
+07/17/2021,Unavailable or Out of Stock Product,Phone Support,Closed with explanation,TRUE,TRUE,CR2123785,US-2015-159894
+07/20/2021,Uninterested Service Rep,Mobile App,Closed with explanation,TRUE,FALSE,CR1986130,US-2015-156871
+07/23/2021,Uninterested Service Rep,Phone Support,Closed with non-monetary relief,TRUE,FALSE,CR2398334,US-2015-153752
+07/23/2021,Uninterested Service Rep,Branch,Closed with explanation,TRUE,FALSE,CR1485802,US-2015-159624
+07/26/2021,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,TRUE,FALSE,CR1565229,US-2015-156628
+07/27/2021,No First Call Resolution,Mobile App,Closed with monetary relief,TRUE,FALSE,CR0327025,US-2015-151212
+07/31/2021,No First Call Resolution,Mobile App,Closed with monetary relief,TRUE,FALSE,CR0746087,US-2015-159289
+08/01/2021,New Product or Feature Request,Email,Closed with explanation,TRUE,TRUE,CR0795200,US-2015-151400
+08/01/2021,Lack of Follow Up,Email,Closed with explanation,TRUE,FALSE,CR1043298,US-2015-153820
+08/04/2021,Long wait on hold,Branch,Closed with explanation,TRUE,FALSE,CR0314152,US-2015-154135
+08/06/2021,Lack of Follow Up,Email,Closed with explanation,TRUE,TRUE,CR0361734,US-2015-154939
+08/08/2021,Uninterested Service Rep,Email,Closed with explanation,TRUE,FALSE,CR1750873,US-2015-154198
+08/08/2021,Long wait on hold,Mobile App,Closed with explanation,TRUE,FALSE,CR2336216,US-2015-158572
+08/12/2021,Lack of Follow Up,Email,Closed with explanation,TRUE,FALSE,CR1941865,US-2015-152490
+08/16/2021,Uninterested Service Rep,Phone Support,Closed with monetary relief,TRUE,FALSE,CR2399597,US-2015-152490
+08/21/2021,Uninterested Service Rep,Email,Closed with explanation,TRUE,FALSE,CR2250123,US-2015-151070
+08/24/2021,New Product or Feature Request,Phone Support,Closed with explanation,TRUE,FALSE,CR2058582,US-2015-157940
+09/02/2021,New Product or Feature Request,Branch,Closed with explanation,TRUE,FALSE,CR1894861,US-2015-152897
+09/02/2021,Making Customers Repeat Their Problem,Phone Support,Closed,TRUE,FALSE,CR2277705,US-2015-157226
+09/07/2021,Long wait on hold,Mobile App,Closed with explanation,TRUE,TRUE,CR1874694,US-2015-159203
+09/07/2021,Poor Product or Service,Mobile App,Closed with explanation,TRUE,TRUE,CR1590106,US-2015-151941
+09/09/2021,Making Customers Repeat Their Problem,Branch,Closed with explanation,TRUE,TRUE,CR0603229,US-2015-160087
+09/10/2021,Long wait on hold,Email,Closed with explanation,TRUE,TRUE,CR1786858,US-2015-156410
+09/11/2021,No First Call Resolution,Branch,Closed with explanation,TRUE,FALSE,CR1875796,US-2015-157611
+09/12/2021,New Product or Feature Request,Branch,Closed with monetary relief,TRUE,FALSE,CR2192368,US-2015-156186
+09/13/2021,Poor Product or Service,Mobile App,Closed with explanation,TRUE,FALSE,CR1323862,US-2015-151941
+09/22/2021,Making Customers Repeat Their Problem,Mobile App,Closed with monetary relief,TRUE,FALSE,CR1495257,US-2015-151376
+09/22/2021,Unavailable or Out of Stock Product,Branch,Closed with explanation,TRUE,FALSE,CR1470323,US-2015-160554
+10/02/2021,Poor Product or Service,Email,Closed with monetary relief,TRUE,FALSE,CR1878237,US-2015-158068
+10/06/2021,Uninterested Service Rep,Branch,Closed with explanation,TRUE,FALSE,CR1414538,US-2015-157604
+10/07/2021,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,TRUE,FALSE,CR1390944,US-2015-152460
+10/11/2021,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,TRUE,FALSE,CR1385114,US-2015-160538
+10/13/2021,Uninterested Service Rep,Email,Closed with non-monetary relief,TRUE,FALSE,CR1712230,US-2015-156018
+10/16/2021,No First Call Resolution,Phone Support,Closed with explanation,TRUE,TRUE,CR1433236,US-2015-156811
+10/18/2021,No First Call Resolution,Email,Closed with explanation,TRUE,FALSE,CR1766940,US-2015-156095
+10/20/2021,Uninterested Service Rep,Phone Support,Closed with monetary relief,TRUE,FALSE,CR1913916,US-2015-151475
+10/20/2021,Uninterested Service Rep,Branch,Closed with explanation,TRUE,FALSE,CR1937602,US-2015-160478
+10/25/2021,Making Customers Repeat Their Problem,Email,Closed with explanation,TRUE,FALSE,CR1612774,US-2015-154118
+10/28/2021,Long wait on hold,Email,Closed with monetary relief,TRUE,FALSE,CR1670934,US-2015-160571
+10/28/2021,Poor Product or Service,Branch,Closed with explanation,TRUE,FALSE,CR2109011,US-2015-154660
+10/30/2021,Lack of Follow Up,Phone Support,Closed with explanation,TRUE,FALSE,CR0942501,US-2015-154983
+11/01/2021,Lack of Follow Up,Email,Closed with explanation,TRUE,TRUE,CR1802785,US-2015-152264
+11/01/2021,Uninterested Service Rep,Mobile App,Closed with explanation,TRUE,FALSE,CR0338719,US-2015-156534
+11/02/2021,Lack of Follow Up,Email,Closed with explanation,TRUE,FALSE,CR1875991,US-2015-156498
+11/03/2021,New Product or Feature Request,Mobile App,Closed with explanation,TRUE,FALSE,CR2024387,US-2015-160446
+11/05/2021,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,TRUE,FALSE,CR1403361,US-2015-156422
+11/12/2021,Long wait on hold,Email,Closed with explanation,TRUE,FALSE,CR2090579,US-2015-157183
+11/14/2021,Lack of Follow Up,Mobile App,Closed with explanation,TRUE,FALSE,CR1608859,US-2015-153285
+11/18/2021,Uninterested Service Rep,Phone Support,Closed with explanation,TRUE,FALSE,CR1490998,US-2015-154992
+11/19/2021,Poor Product or Service,Branch,Closed with explanation,TRUE,FALSE,CR0865818,US-2015-154611
+11/19/2021,Poor Product or Service,Phone Support,Closed with explanation,TRUE,FALSE,CR1484603,US-2015-158431
+11/20/2021,Long wait on hold,Email,Closed with explanation,TRUE,TRUE,CR0922473,US-2015-151337
+11/27/2021,New Product or Feature Request,Phone Support,Closed with explanation,TRUE,FALSE,CR1512902,US-2015-154117
+11/28/2021,Making Customers Repeat Their Problem,Email,Closed with explanation,TRUE,FALSE,CR2001165,US-2015-153838
+12/02/2021,Making Customers Repeat Their Problem,Phone Support,Closed with explanation,TRUE,FALSE,CR1494677,US-2015-156758
+12/03/2021,New Product or Feature Request,Phone Support,Closed with explanation,TRUE,TRUE,CR1567700,US-2015-153718
+12/04/2021,No First Call Resolution,Phone Support,Closed with explanation,TRUE,FALSE,CR2055729,US-2015-150948
+12/05/2021,Uninterested Service Rep,Phone Support,Closed with explanation,TRUE,FALSE,CR1509215,US-2015-158392
+12/06/2021,Poor Product or Service,Email,Closed with monetary relief,TRUE,FALSE,CR2222679,US-2015-153073
+12/06/2021,New Product or Feature Request,Phone Support,Closed with explanation,TRUE,FALSE,CR1335855,US-2015-153012
+12/06/2021,Lack of Follow Up,Mobile App,Closed with explanation,TRUE,TRUE,CR1676436,US-2015-160103
+12/07/2021,Unavailable or Out of Stock Product,Branch,Closed with explanation,TRUE,FALSE,CR1761571,US-2015-158392
+12/08/2021,Poor Product or Service,Email,Closed with monetary relief,TRUE,FALSE,CR0418479,US-2015-160564
+12/08/2021,No First Call Resolution,Branch,Closed with explanation,TRUE,FALSE,CR1870285,US-2015-155945
+12/09/2021,Unavailable or Out of Stock Product,Email,Closed with explanation,TRUE,FALSE,CR2029764,US-2015-152591
+12/11/2021,Making Customers Repeat Their Problem,Branch,Closed with explanation,TRUE,FALSE,CR2327253,US-2015-157447
+12/13/2021,Unavailable or Out of Stock Product,Phone Support,Closed with explanation,TRUE,TRUE,CR0718616,US-2015-154292
+12/17/2021,Uninterested Service Rep,Email,Closed with explanation,TRUE,FALSE,CR2218454,US-2015-153553
+12/19/2021,Lack of Follow Up,Email,Closed with monetary relief,TRUE,FALSE,CR2230146,US-2015-155365
+12/23/2021,Poor Product or Service,Branch,Closed with explanation,TRUE,TRUE,CR1725606,US-2015-156603
+12/23/2021,Poor Product or Service,Branch,Closed with explanation,TRUE,TRUE,CR1823106,US-2015-153833
+12/27/2021,New Product or Feature Request,Email,Closed with monetary relief,TRUE,FALSE,CR2123924,US-2015-151603
+12/31/2021,Uninterested Service Rep,Email,Closed with explanation,TRUE,FALSE,CR1873543,US-2015-156073
+01/01/2022,Unavailable or Out of Stock Product,Mobile App,Closed with monetary relief,TRUE,FALSE,CR1693185,US-2015-151041
+01/04/2022,Long wait on hold,Mobile App,Closed with non-monetary relief,TRUE,TRUE,CR1550303,US-2015-152833
+01/07/2022,No First Call Resolution,Email,Closed with explanation,TRUE,FALSE,CR0981611,US-2015-160105
+01/08/2022,New Product or Feature Request,Phone Support,Closed with relief,TRUE,FALSE,CR2406895,US-2015-156615
+01/13/2022,Unavailable or Out of Stock Product,Phone Support,Closed with explanation,TRUE,TRUE,CR1884968,US-2015-152241
+01/15/2022,Lack of Follow Up,Phone Support,Closed with explanation,TRUE,TRUE,CR1621364,US-2015-160584
+01/16/2022,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,TRUE,FALSE,CR0949403,US-2015-156148
+01/17/2022,Lack of Follow Up,Phone Support,Closed with explanation,TRUE,TRUE,CR0121560,US-2015-158175
+01/17/2022,New Product or Feature Request,Mobile App,Closed with explanation,TRUE,FALSE,CR0991303,US-2015-160584
+01/19/2022,Unavailable or Out of Stock Product,Phone Support,Closed with explanation,TRUE,TRUE,CR1909608,US-2015-152821
+01/19/2022,Lack of Follow Up,Mobile App,Closed with explanation,TRUE,TRUE,CR1752931,US-2015-156319
+01/29/2022,Poor Product or Service,Email,Closed with explanation,TRUE,TRUE,CR1577468,US-2015-151636
+01/30/2022,Uninterested Service Rep,Phone Support,Closed with explanation,TRUE,FALSE,CR1537464,US-2015-154123
+02/05/2022,Unavailable or Out of Stock Product,Mobile App,Closed with monetary relief,TRUE,FALSE,CR0503464,US-2015-157108
+02/08/2022,Poor Product or Service,Branch,Closed with explanation,TRUE,FALSE,CR2079025,US-2015-159683
+02/09/2022,New Product or Feature Request,Phone Support,Closed with explanation,TRUE,TRUE,CR0561186,US-2015-152543
+02/11/2022,Long wait on hold,Email,Closed with explanation,TRUE,FALSE,CR1324289,US-2015-152435
+02/19/2022,No First Call Resolution,Mobile App,Closed with explanation,TRUE,FALSE,CR2394945,US-2015-158237
+02/20/2022,Making Customers Repeat Their Problem,Branch,Closed with non-monetary relief,TRUE,FALSE,CR1419608,US-2015-154458
+02/23/2022,New Product or Feature Request,Phone Support,Closed with explanation,TRUE,FALSE,CR0887544,US-2015-150714
+02/23/2022,New Product or Feature Request,Email,Closed with explanation,TRUE,FALSE,CR2220251,US-2015-158237
+02/25/2022,Making Customers Repeat Their Problem,Mobile App,Closed with monetary relief,TRUE,FALSE,CR0739756,US-2015-155392
+02/26/2022,Making Customers Repeat Their Problem,Phone Support,Closed with monetary relief,TRUE,FALSE,CR1645849,US-2015-152739
+02/28/2022,Poor Product or Service,Email,Closed with monetary relief,TRUE,FALSE,CR1750681,US-2015-159423
+03/04/2022,Uninterested Service Rep,Mobile App,Closed without relief,TRUE,TRUE,CR0013527,US-2015-155703
+03/06/2022,Long wait on hold,Mobile App,Closed with non-monetary relief,TRUE,FALSE,CR1455861,US-2015-158293
+03/07/2022,Unavailable or Out of Stock Product,Branch,Closed with explanation,TRUE,FALSE,CR2068994,US-2015-151769
+03/13/2022,Unavailable or Out of Stock Product,Phone Support,Closed with monetary relief,TRUE,FALSE,CR1052629,US-2015-151242
+03/14/2022,Uninterested Service Rep,Branch,Closed with explanation,TRUE,FALSE,CR1631076,US-2015-154986
+03/17/2022,New Product or Feature Request,Email,Closed with explanation,TRUE,FALSE,CR1359157,US-2015-155764
+03/19/2022,No First Call Resolution,Mobile App,Closed with explanation,TRUE,FALSE,CR0209127,US-2015-158855
+03/23/2022,Poor Product or Service,Phone Support,Closed with explanation,TRUE,FALSE,CR1580111,US-2015-158464
+03/25/2022,Poor Product or Service,Mobile App,Closed with explanation,TRUE,TRUE,CR0108967,US-2015-154753
+03/28/2022,Making Customers Repeat Their Problem,Phone Support,Closed with explanation,TRUE,FALSE,CR2405000,US-2015-157515
+03/29/2022,Unavailable or Out of Stock Product,Phone Support,Closed with explanation,TRUE,FALSE,CR0682046,US-2015-150637
+03/31/2022,New Product or Feature Request,Mobile App,Closed with relief,TRUE,FALSE,CR0035411,US-2015-156142
+03/31/2022,Lack of Follow Up,Email,Closed with explanation,TRUE,FALSE,CR1720348,US-2015-155902
+04/01/2022,New Product or Feature Request,Phone Support,Closed with explanation,TRUE,TRUE,CR0434587,US-2015-157465
+04/04/2022,Long wait on hold,Mobile App,Closed with explanation,TRUE,FALSE,CR1419754,US-2015-157635
+04/04/2022,New Product or Feature Request,Email,Closed with explanation,TRUE,FALSE,CR1357213,US-2015-153389
+04/08/2022,Lack of Follow Up,Mobile App,Closed with explanation,TRUE,FALSE,CR1784697,US-2015-157109
+04/08/2022,No First Call Resolution,Phone Support,Closed with explanation,TRUE,FALSE,CR2272079,US-2015-160558
+04/09/2022,Lack of Follow Up,Phone Support,Closed with explanation,TRUE,TRUE,CR0214774,US-2015-151074
+04/20/2022,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,TRUE,FALSE,CR1769933,US-2015-151557
+04/25/2022,New Product or Feature Request,Email,Closed with monetary relief,TRUE,FALSE,CR2140531,US-2015-151321
+04/28/2022,Making Customers Repeat Their Problem,Branch,Closed with explanation,TRUE,TRUE,CR2146555,US-2015-153176
+04/30/2022,Uninterested Service Rep,Phone Support,Closed with monetary relief,TRUE,FALSE,CR2130710,US-2015-157774
+04/30/2022,No First Call Resolution,Branch,Closed with explanation,TRUE,FALSE,CR1788844,US-2015-158884
+05/01/2022,Poor Product or Service,Mobile App,Closed with monetary relief,TRUE,TRUE,CR0547152,US-2015-159873
+05/05/2022,Making Customers Repeat Their Problem,Phone Support,Closed with monetary relief,TRUE,FALSE,CR1708290,US-2015-155652
+05/12/2022,Uninterested Service Rep,Branch,In-Progress,FALSE,FALSE,CR1389361,US-2015-153914
+05/13/2022,No First Call Resolution,Phone Support,Closed with explanation,TRUE,FALSE,CR1968121,US-2015-152822
+05/19/2022,No First Call Resolution,Mobile App,Closed with explanation,TRUE,FALSE,CR1900945,US-2015-151274
+05/19/2022,New Product or Feature Request,Email,Closed with explanation,TRUE,FALSE,CR0842671,US-2015-159602
+05/20/2022,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,TRUE,FALSE,CR2149853,US-2015-154768
+05/22/2022,Uninterested Service Rep,Branch,Closed with explanation,TRUE,FALSE,CR1458455,US-2015-159357
+05/24/2022,Unavailable or Out of Stock Product,Branch,Closed with explanation,TRUE,TRUE,CR1557863,US-2015-155172
+05/26/2022,Unavailable or Out of Stock Product,Phone Support,Closed with explanation,TRUE,FALSE,CR2335191,US-2015-157252
+05/27/2022,New Product or Feature Request,Phone Support,Closed with explanation,TRUE,TRUE,CR1791074,US-2015-157368
+05/28/2022,Lack of Follow Up,Branch,Closed with monetary relief,TRUE,FALSE,CR2212245,US-2015-158021
+06/01/2022,Uninterested Service Rep,Phone Support,Closed with explanation,TRUE,FALSE,CR2311310,US-2015-160363
+06/02/2022,Lack of Follow Up,Mobile App,Closed with explanation,TRUE,FALSE,CR1384077,US-2015-158116
+06/02/2022,Lack of Follow Up,Branch,Closed with explanation,TRUE,FALSE,CR0824833,US-2015-159616
+06/03/2022,New Product or Feature Request,Phone Support,Closed with explanation,TRUE,FALSE,CR2368953,US-2015-152819
+06/06/2022,Unavailable or Out of Stock Product,Phone Support,Closed,TRUE,FALSE,CR1547100,US-2015-159474
+06/09/2022,Uninterested Service Rep,Phone Support,Closed with explanation,TRUE,FALSE,CR0371074,US-2015-153225
+06/12/2022,Poor Product or Service,Branch,Closed with explanation,TRUE,FALSE,CR0245763,US-2015-151900
+06/16/2022,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,TRUE,FALSE,CR1722662,US-2015-151998
+06/19/2022,Lack of Follow Up,Branch,Closed with monetary relief,TRUE,FALSE,CR2042383,US-2015-158552
+06/21/2022,Poor Product or Service,Mobile App,Closed with explanation,TRUE,TRUE,CR1936930,US-2015-156169
+06/24/2022,Making Customers Repeat Their Problem,Branch,Closed with explanation,TRUE,FALSE,CR2125933,US-2015-151118
+06/25/2022,No First Call Resolution,Branch,Closed with explanation,TRUE,FALSE,CR2401648,US-2015-159620
+07/09/2022,Long wait on hold,Branch,Closed with explanation,TRUE,FALSE,CR1343295,US-2015-153902
+07/10/2022,Unavailable or Out of Stock Product,Phone Support,Closed with monetary relief,TRUE,FALSE,CR2132541,US-2015-159729
+07/11/2022,Poor Product or Service,Phone Support,Closed with explanation,TRUE,FALSE,CR1313087,US-2015-155206
+07/16/2022,New Product or Feature Request,Mobile App,Closed with explanation,TRUE,TRUE,CR2254957,US-2015-154547
+07/17/2022,Lack of Follow Up,Branch,Closed without relief,TRUE,FALSE,CR0013328,US-2015-157805
+07/17/2022,No First Call Resolution,Mobile App,Closed with explanation,TRUE,FALSE,CR0524922,US-2015-158648
+07/24/2022,Unavailable or Out of Stock Product,Phone Support,Closed with explanation,TRUE,FALSE,CR0559272,US-2015-152044
+07/26/2022,Making Customers Repeat Their Problem,Branch,Closed with monetary relief,TRUE,FALSE,CR0947307,US-2015-159589
+07/27/2022,No First Call Resolution,Phone Support,Closed with explanation,TRUE,FALSE,CR2319723,US-2015-155685
+08/02/2022,Lack of Follow Up,Email,Closed with relief,TRUE,FALSE,CR0030070,US-2015-157349
+08/03/2022,Uninterested Service Rep,Email,Closed with explanation,TRUE,FALSE,CR1850371,US-2015-160361
+08/06/2022,Long wait on hold,Branch,Closed with explanation,TRUE,FALSE,CR1481105,US-2015-156754
+08/09/2022,Unavailable or Out of Stock Product,Email,Closed with explanation,TRUE,FALSE,CR2295998,US-2015-153911
+08/12/2022,Unavailable or Out of Stock Product,Email,Closed with explanation,TRUE,FALSE,CR2319809,US-2015-156505
+08/15/2022,No First Call Resolution,Phone Support,In-Progress,FALSE,TRUE,CR1653725,US-2015-153879
+08/15/2022,Uninterested Service Rep,Phone Support,Closed without relief,TRUE,FALSE,CR0003732,US-2015-153734
+08/16/2022,No First Call Resolution,Branch,Closed with relief,TRUE,FALSE,CR0030939,US-2015-159855
+08/21/2022,Making Customers Repeat Their Problem,Phone Support,Closed with non-monetary relief,TRUE,FALSE,CR1751734,US-2015-160001
+08/23/2022,Lack of Follow Up,Mobile App,Closed with monetary relief,TRUE,FALSE,CR1744554,US-2015-155611
+08/23/2022,Uninterested Service Rep,Email,Closed with explanation,TRUE,FALSE,CR1693184,US-2015-156159
+08/28/2022,Poor Product or Service,Mobile App,Closed with monetary relief,TRUE,TRUE,CR1592064,US-2015-152058
+08/28/2022,Lack of Follow Up,Phone Support,Closed,TRUE,TRUE,CR1621318,US-2015-152850
+09/02/2022,No First Call Resolution,Mobile App,Closed with explanation,TRUE,TRUE,CR1305593,US-2015-152096
+09/02/2022,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,TRUE,FALSE,CR0257240,US-2015-160190
+09/07/2022,New Product or Feature Request,Mobile App,Closed with monetary relief,TRUE,FALSE,CR1854125,US-2015-155646
+09/12/2022,Unavailable or Out of Stock Product,Email,Closed with explanation,TRUE,FALSE,CR1905472,US-2015-155362
+09/17/2022,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,TRUE,FALSE,CR0182259,US-2015-160432
+09/20/2022,Long wait on hold,Mobile App,Closed with monetary relief,TRUE,TRUE,CR0447457,US-2015-153263
+09/26/2022,Long wait on hold,Phone Support,Closed with explanation,TRUE,FALSE,CR2208613,US-2015-152996
+09/27/2022,No First Call Resolution,Phone Support,Closed with non-monetary relief,TRUE,FALSE,CR1334090,US-2015-160253
+09/29/2022,Unavailable or Out of Stock Product,Email,Closed with explanation,TRUE,TRUE,CR1059300,US-2015-160207
+10/07/2022,No First Call Resolution,Mobile App,Closed with explanation,TRUE,FALSE,CR1751316,US-2015-159233
+10/10/2022,Making Customers Repeat Their Problem,Branch,Closed with explanation,TRUE,FALSE,CR1819921,US-2015-156752
+10/11/2022,Uninterested Service Rep,Phone Support,Closed with explanation,TRUE,TRUE,CR0871335,US-2015-159656
+10/13/2022,Making Customers Repeat Their Problem,Email,Closed with explanation,TRUE,TRUE,CR1182664,US-2015-158310
+10/15/2022,Long wait on hold,Branch,Closed with explanation,TRUE,TRUE,CR0499187,US-2015-156715
+10/16/2022,Unavailable or Out of Stock Product,Email,Closed with explanation,TRUE,FALSE,CR1940659,US-2015-154672
+10/16/2022,Lack of Follow Up,Mobile App,Closed with explanation,TRUE,FALSE,CR2061433,US-2015-160490
+10/19/2022,Long wait on hold,Email,Closed with explanation,TRUE,FALSE,CR1831653,US-2015-151845
+10/25/2022,Uninterested Service Rep,Phone Support,Closed with explanation,TRUE,FALSE,CR1932270,US-2015-158258
+10/25/2022,Making Customers Repeat Their Problem,Phone Support,Closed with explanation,TRUE,FALSE,CR1875589,US-2015-152208
+10/31/2022,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,TRUE,FALSE,CR1924106,US-2015-156551
+10/31/2022,Long wait on hold,Mobile App,Closed with explanation,TRUE,FALSE,CR2131061,US-2015-151325
+11/01/2022,Uninterested Service Rep,Mobile App,Closed with explanation,TRUE,FALSE,CR2111636,US-2015-151509
+11/01/2022,New Product or Feature Request,Phone Support,Closed with explanation,TRUE,FALSE,CR1941546,US-2015-155151
+11/04/2022,Uninterested Service Rep,Phone Support,Closed with monetary relief,TRUE,TRUE,CR2053856,US-2015-157851
+11/05/2022,Lack of Follow Up,Phone Support,Closed,TRUE,FALSE,CR1481909,US-2015-151504
+11/06/2022,Long wait on hold,Mobile App,In-Progress,FALSE,FALSE,CR2239685,US-2015-158762
+11/08/2022,No First Call Resolution,Mobile App,Closed with non-monetary relief,TRUE,FALSE,CR0201107,US-2015-159675
+11/09/2022,Unavailable or Out of Stock Product,Branch,Closed with explanation,TRUE,FALSE,CR2059861,US-2015-151388
+11/11/2022,Lack of Follow Up,Email,Closed with monetary relief,TRUE,FALSE,CR2326406,US-2015-157431
+11/12/2022,New Product or Feature Request,Branch,Closed with explanation,TRUE,FALSE,CR1544742,US-2015-155077
+11/13/2022,Long wait on hold,Mobile App,Closed with explanation,TRUE,TRUE,CR1497477,US-2015-158489
+11/13/2022,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,TRUE,TRUE,CR1938865,US-2015-152271
+11/13/2022,Making Customers Repeat Their Problem,Branch,Closed with explanation,TRUE,FALSE,CR1633043,US-2015-154227
+11/15/2022,New Product or Feature Request,Mobile App,Closed with monetary relief,TRUE,FALSE,CR0437926,US-2015-151620
+11/15/2022,Making Customers Repeat Their Problem,Email,Closed with explanation,TRUE,FALSE,CR1414194,US-2015-159658
+11/22/2022,Long wait on hold,Branch,Closed with explanation,TRUE,FALSE,CR1275516,US-2015-152949
+11/22/2022,No First Call Resolution,Phone Support,Closed with explanation,TRUE,FALSE,CR1451644,US-2015-156455
+11/22/2022,Making Customers Repeat Their Problem,Email,Closed with explanation,TRUE,FALSE,CR2124324,US-2015-157958
+11/23/2022,New Product or Feature Request,Email,Closed with non-monetary relief,TRUE,FALSE,CR1554501,US-2015-152949
+11/24/2022,Lack of Follow Up,Branch,Closed with explanation,TRUE,FALSE,CR0090075,US-2015-151402
+11/24/2022,Unavailable or Out of Stock Product,Email,Closed with explanation,TRUE,TRUE,CR0804364,US-2015-157844
+11/27/2022,Unavailable or Out of Stock Product,Phone Support,Closed with relief,TRUE,FALSE,CR2407613,US-2015-160585
+11/27/2022,Lack of Follow Up,Mobile App,Closed with monetary relief,TRUE,FALSE,CR1741597,US-2015-154225
+11/27/2022,No First Call Resolution,Mobile App,Closed with explanation,TRUE,FALSE,CR0294434,US-2015-159220
+12/02/2022,Poor Product or Service,Email,Closed with monetary relief,TRUE,FALSE,CR1193863,US-2015-160249
+12/02/2022,Lack of Follow Up,Email,Closed with explanation,TRUE,FALSE,CR1856319,US-2015-160338
+12/02/2022,Long wait on hold,Phone Support,Closed with explanation,TRUE,FALSE,CR2398557,US-2015-151293
+12/08/2022,No First Call Resolution,Phone Support,Closed with explanation,TRUE,FALSE,CR1249514,US-2015-159806
+12/14/2022,Lack of Follow Up,Branch,Closed with explanation,TRUE,FALSE,CR2075840,US-2015-156805
+12/16/2022,Poor Product or Service,Mobile App,Closed with explanation,TRUE,FALSE,CR1572142,US-2015-155631
+12/18/2022,New Product or Feature Request,Mobile App,Closed with explanation,TRUE,FALSE,CR2078889,US-2015-156062
+12/20/2022,New Product or Feature Request,Mobile App,Closed with explanation,TRUE,FALSE,CR1809285,US-2015-152714
+12/20/2022,New Product or Feature Request,Email,Closed with explanation,TRUE,TRUE,CR2100334,US-2015-152714
+12/20/2022,Long wait on hold,Email,Closed with explanation,TRUE,FALSE,CR1381322,US-2015-159848
+12/22/2022,No First Call Resolution,Branch,Closed with explanation,TRUE,FALSE,CR0659192,US-2015-159524
+12/30/2022,Uninterested Service Rep,Phone Support,Closed with non-monetary relief,TRUE,FALSE,CR1917514,US-2015-157642
+01/02/2023,Long wait on hold,Email,Closed with explanation,TRUE,FALSE,CR1750285,US-2015-155510
+01/03/2023,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,TRUE,FALSE,CR0440277,US-2015-156075
+01/04/2023,Lack of Follow Up,Email,Closed with monetary relief,TRUE,FALSE,CR2344048,US-2015-159622
+01/06/2023,Uninterested Service Rep,Mobile App,Closed with explanation,TRUE,FALSE,CR0197192,US-2015-158964
+01/08/2023,Unavailable or Out of Stock Product,Email,Closed with explanation,TRUE,FALSE,CR1590438,US-2015-153529
+01/09/2023,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,TRUE,FALSE,CR1422293,US-2015-154157
+01/10/2023,No First Call Resolution,Phone Support,Closed with explanation,TRUE,FALSE,CR1609334,US-2015-153049
+01/11/2023,Poor Product or Service,Branch,Closed with explanation,TRUE,FALSE,CR2275295,US-2015-153049
+01/14/2023,Unavailable or Out of Stock Product,Phone Support,Closed with explanation,TRUE,TRUE,CR1571098,US-2015-151951
+01/15/2023,No First Call Resolution,Phone Support,Closed with non-monetary relief,TRUE,FALSE,CR1496382,US-2015-152416
+01/17/2023,Unavailable or Out of Stock Product,Email,Closed with explanation,TRUE,FALSE,CR2406312,US-2015-155446
+01/18/2023,Unavailable or Out of Stock Product,Branch,Closed with explanation,TRUE,FALSE,CR2189595,US-2015-156346
+01/20/2023,No First Call Resolution,Email,Closed with explanation,TRUE,FALSE,CR0369207,US-2015-155872
+01/21/2023,Long wait on hold,Branch,Closed with explanation,TRUE,TRUE,CR2241293,US-2015-155577
+01/25/2023,Uninterested Service Rep,Mobile App,Closed with monetary relief,TRUE,FALSE,CR1739146,US-2015-154913
+01/26/2023,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,TRUE,FALSE,CR1484197,US-2015-153836
+02/02/2023,Long wait on hold,Email,Closed with explanation,TRUE,FALSE,CR1898039,US-2015-154306
+02/03/2023,Poor Product or Service,Email,Closed with explanation,TRUE,FALSE,CR2015196,US-2015-152123
+02/07/2023,No First Call Resolution,Mobile App,Closed with explanation,TRUE,FALSE,CR1565363,US-2015-157976
+02/09/2023,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,TRUE,FALSE,CR1550838,US-2015-152412
+02/09/2023,No First Call Resolution,Mobile App,Closed with explanation,TRUE,FALSE,CR1042825,US-2015-156881
+02/16/2023,No First Call Resolution,Phone Support,Closed with explanation,TRUE,FALSE,CR2173059,US-2015-153081
+02/18/2023,Poor Product or Service,Branch,Closed with explanation,TRUE,FALSE,CR0587861,US-2015-156394
+02/20/2023,Long wait on hold,Email,Closed with explanation,TRUE,FALSE,CR1471978,US-2015-155068
+02/21/2023,Lack of Follow Up,Phone Support,In-Progress,FALSE,FALSE,CR1509134,US-2015-157493
+02/23/2023,Long wait on hold,Branch,Closed with explanation,TRUE,TRUE,CR1440090,US-2015-153846
+02/24/2023,Unavailable or Out of Stock Product,Email,Closed with explanation,TRUE,FALSE,CR1835332,US-2015-157473
+02/28/2023,Uninterested Service Rep,Phone Support,Closed with explanation,TRUE,FALSE,CR0644531,US-2015-155515
+03/02/2023,Lack of Follow Up,Mobile App,Closed with non-monetary relief,TRUE,FALSE,CR1550513,US-2015-159509
+03/04/2023,Unavailable or Out of Stock Product,Phone Support,Closed with explanation,TRUE,FALSE,CR2135116,US-2015-158386
+03/08/2023,Making Customers Repeat Their Problem,Phone Support,Closed with explanation,TRUE,FALSE,CR2223424,US-2015-154317
+03/11/2023,Uninterested Service Rep,Branch,Closed with monetary relief,TRUE,FALSE,CR1612696,US-2015-154723
+03/12/2023,Long wait on hold,Mobile App,Closed with explanation,TRUE,FALSE,CR1940052,US-2015-154754
+03/13/2023,No First Call Resolution,Mobile App,Closed with explanation,TRUE,FALSE,CR1729929,US-2015-151150
+03/15/2023,Unavailable or Out of Stock Product,Branch,Closed with explanation,TRUE,FALSE,CR2147799,US-2015-158266
+03/16/2023,Long wait on hold,Mobile App,Closed with monetary relief,TRUE,FALSE,CR1566591,US-2015-156663
+03/19/2023,Lack of Follow Up,Branch,Closed with explanation,TRUE,FALSE,CR2322711,US-2015-154862
+03/30/2023,New Product or Feature Request,Branch,Closed with explanation,TRUE,FALSE,CR2120430,US-2015-159721
+04/03/2023,Unavailable or Out of Stock Product,Phone Support,Closed with explanation,TRUE,FALSE,CR0322720,US-2015-158718
+04/05/2023,No First Call Resolution,Phone Support,Closed with explanation,TRUE,FALSE,CR2111298,US-2015-158788
+04/08/2023,Long wait on hold,Phone Support,Closed with monetary relief,TRUE,FALSE,CR2353277,US-2015-156834
+04/09/2023,No First Call Resolution,Mobile App,Closed with monetary relief,TRUE,FALSE,CR1891272,US-2015-158243
+04/10/2023,Uninterested Service Rep,Mobile App,Closed with explanation,TRUE,FALSE,CR1109288,US-2015-159548
+04/14/2023,Making Customers Repeat Their Problem,Phone Support,Closed with explanation,TRUE,TRUE,CR1590286,US-2015-154239
+04/18/2023,Uninterested Service Rep,Phone Support,Closed with explanation,TRUE,FALSE,CR1843712,US-2015-159541
+04/20/2023,Unavailable or Out of Stock Product,Email,Closed with explanation,TRUE,FALSE,CR2181276,US-2015-152768
+04/24/2023,Long wait on hold,Phone Support,Closed with explanation,TRUE,TRUE,CR1351891,US-2015-156429
+04/27/2023,Long wait on hold,Email,Closed with monetary relief,TRUE,FALSE,CR1550372,US-2015-154998
+05/03/2023,Unavailable or Out of Stock Product,Email,Closed with monetary relief,TRUE,FALSE,CR0130233,US-2015-156703
+05/13/2023,Lack of Follow Up,Branch,Closed with explanation,TRUE,FALSE,CR0512719,US-2015-159197
+05/14/2023,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,TRUE,FALSE,CR1660050,US-2015-152270
+05/14/2023,Long wait on hold,Branch,Closed with explanation,TRUE,FALSE,CR2200226,US-2015-152364
+05/14/2023,No First Call Resolution,Mobile App,Closed with explanation,TRUE,FALSE,CR1608784,US-2015-152606
+05/15/2023,Lack of Follow Up,Branch,Closed with explanation,TRUE,TRUE,CR1675811,US-2015-159197
+05/15/2023,Making Customers Repeat Their Problem,Branch,Closed with explanation,TRUE,FALSE,CR2397006,US-2015-157259
+05/24/2023,Poor Product or Service,Mobile App,Closed with explanation,TRUE,FALSE,CR1756498,US-2015-154579
+05/25/2023,Lack of Follow Up,Mobile App,Closed with monetary relief,TRUE,FALSE,CR1874223,US-2015-150639
+05/26/2023,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,TRUE,FALSE,CR1799864,US-2015-159604
+06/02/2023,No First Call Resolution,Email,Closed with explanation,TRUE,TRUE,CR1974115,US-2015-152990
+06/03/2023,Unavailable or Out of Stock Product,Phone Support,Closed with explanation,TRUE,FALSE,CR1640566,US-2015-155761
+06/06/2023,Lack of Follow Up,Phone Support,Closed with explanation,TRUE,TRUE,CR1826636,US-2015-155761
+06/08/2023,Uninterested Service Rep,Mobile App,Closed with explanation,TRUE,FALSE,CR2195804,US-2015-157519
+06/13/2023,New Product or Feature Request,Phone Support,Closed with monetary relief,TRUE,FALSE,CR1015058,US-2015-159496
+06/13/2023,Lack of Follow Up,Mobile App,Closed with explanation,TRUE,FALSE,CR1822084,US-2015-157638
+06/15/2023,Poor Product or Service,Phone Support,Closed with explanation,TRUE,FALSE,CR2193859,US-2015-152589
+06/15/2023,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,TRUE,FALSE,CR1712593,US-2015-157849
+06/15/2023,New Product or Feature Request,Branch,Closed with explanation,TRUE,FALSE,CR0212889,US-2015-155808
+06/18/2023,New Product or Feature Request,Mobile App,Closed,TRUE,FALSE,CR1475200,US-2015-155851
+06/22/2023,Poor Product or Service,Branch,Closed with explanation,TRUE,FALSE,CR1544229,US-2015-153170
+06/22/2023,Lack of Follow Up,Phone Support,Closed with explanation,TRUE,FALSE,CR2214180,US-2015-153170
+06/22/2023,Poor Product or Service,Mobile App,Closed with explanation,TRUE,FALSE,CR1523348,US-2015-155034
+06/29/2023,Uninterested Service Rep,Email,Closed with explanation,TRUE,FALSE,CR1648334,US-2015-158605
+06/30/2023,Lack of Follow Up,Phone Support,Closed with non-monetary relief,TRUE,FALSE,CR1578014,US-2015-156637
+07/01/2023,Long wait on hold,Email,Closed with monetary relief,TRUE,FALSE,CR1919645,US-2015-157603
+07/02/2023,Uninterested Service Rep,Email,Closed with explanation,TRUE,FALSE,CR1497595,US-2015-154412
+07/13/2023,Uninterested Service Rep,Branch,Closed with monetary relief,TRUE,FALSE,CR1360875,US-2015-156143
+07/15/2023,Uninterested Service Rep,Phone Support,Closed with explanation,TRUE,TRUE,CR1820535,US-2015-159740
+07/15/2023,No First Call Resolution,Mobile App,Closed with explanation,TRUE,FALSE,CR1949866,US-2015-155742
+07/16/2023,Uninterested Service Rep,Email,Closed with explanation,TRUE,FALSE,CR0487225,US-2015-156979
+07/20/2023,Making Customers Repeat Their Problem,Email,Closed with explanation,TRUE,FALSE,CR1569460,US-2015-152194
+07/28/2023,Unavailable or Out of Stock Product,Email,Closed with non-monetary relief,TRUE,FALSE,CR2379569,US-2015-160345
+07/31/2023,Uninterested Service Rep,Email,Closed with explanation,TRUE,FALSE,CR1994567,US-2015-157828
+08/01/2023,Poor Product or Service,Mobile App,Closed with explanation,TRUE,TRUE,CR1397536,US-2015-158207
+08/02/2023,Poor Product or Service,Email,Closed with explanation,TRUE,TRUE,CR1789593,US-2015-159996
+08/05/2023,Unavailable or Out of Stock Product,Email,Closed with explanation,TRUE,FALSE,CR2209088,US-2015-151613
+08/07/2023,Unavailable or Out of Stock Product,Phone Support,Closed with explanation,TRUE,FALSE,CR2036377,US-2015-150878
+08/15/2023,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,TRUE,FALSE,CR1434539,US-2015-157792
+08/17/2023,New Product or Feature Request,Branch,Closed with relief,TRUE,FALSE,CR0014704,US-2015-151923
+08/19/2023,New Product or Feature Request,Mobile App,Closed with explanation,TRUE,TRUE,CR0490204,US-2015-156052
+08/20/2023,Uninterested Service Rep,Phone Support,Closed with explanation,TRUE,FALSE,CR1507355,US-2015-151763
+08/21/2023,Long wait on hold,Email,Closed with explanation,TRUE,TRUE,CR2067841,US-2015-160013
+08/29/2023,No First Call Resolution,Email,Closed with explanation,TRUE,FALSE,CR1484141,US-2015-156266
+08/30/2023,Making Customers Repeat Their Problem,Mobile App,Closed with non-monetary relief,TRUE,TRUE,CR0702038,US-2015-158512
+09/01/2023,No First Call Resolution,Phone Support,Closed with non-monetary relief,TRUE,FALSE,CR2298405,US-2015-153638
+09/02/2023,Unavailable or Out of Stock Product,Email,Closed with non-monetary relief,TRUE,TRUE,CR0394315,US-2015-154982
+09/04/2023,Uninterested Service Rep,Email,Closed with explanation,TRUE,FALSE,CR1739982,US-2015-154932
+09/08/2023,Lack of Follow Up,Phone Support,Closed with non-monetary relief,TRUE,FALSE,CR1630524,US-2015-156709
+09/12/2023,Lack of Follow Up,Mobile App,Closed with explanation,TRUE,FALSE,CR1795747,US-2015-152094
+09/13/2023,Lack of Follow Up,Phone Support,Closed with non-monetary relief,TRUE,FALSE,CR1775172,US-2015-155162
+09/18/2023,Poor Product or Service,Email,Closed with explanation,TRUE,FALSE,CR2118493,US-2015-155311
+09/19/2023,Lack of Follow Up,Branch,Closed with monetary relief,TRUE,FALSE,CR0256410,US-2015-159191
+09/19/2023,Poor Product or Service,Mobile App,Closed with explanation,TRUE,FALSE,CR1942110,US-2015-154293
+09/25/2023,Lack of Follow Up,Phone Support,Closed with explanation,TRUE,TRUE,CR2047441,US-2015-152937
+09/27/2023,No First Call Resolution,Branch,Closed with explanation,TRUE,FALSE,CR1496351,US-2015-156308
+09/27/2023,Lack of Follow Up,Phone Support,Closed with explanation,TRUE,FALSE,CR2349389,US-2015-157426
+09/29/2023,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,TRUE,TRUE,CR0644906,US-2015-156666
+09/30/2023,Poor Product or Service,Mobile App,Closed with explanation,TRUE,TRUE,CR1020704,US-2015-160240
+10/02/2023,Unavailable or Out of Stock Product,Email,Closed with monetary relief,TRUE,FALSE,CR2371479,US-2015-159179
+10/06/2023,Long wait on hold,Mobile App,Closed with explanation,TRUE,FALSE,CR2375209,US-2015-157192
+10/12/2023,Lack of Follow Up,Mobile App,Closed with explanation,TRUE,TRUE,CR0440370,US-2015-157377
+10/13/2023,Uninterested Service Rep,Phone Support,Closed with monetary relief,TRUE,FALSE,CR0853368,US-2015-157377
+10/13/2023,Unavailable or Out of Stock Product,Email,Closed with explanation,TRUE,TRUE,CR1912592,US-2015-157170
+10/14/2023,Uninterested Service Rep,Mobile App,Closed with explanation,TRUE,FALSE,CR1338985,US-2015-154291
+10/16/2023,Lack of Follow Up,Email,Closed with explanation,TRUE,FALSE,CR2280052,US-2015-154077
+10/17/2023,Uninterested Service Rep,Branch,Closed with explanation,TRUE,FALSE,CR1331611,US-2015-152010
+10/18/2023,Poor Product or Service,Email,Closed with monetary relief,TRUE,FALSE,CR2035955,US-2015-154077
+10/18/2023,Making Customers Repeat Their Problem,Email,Closed with explanation,TRUE,FALSE,CR0338363,US-2015-156109
+10/19/2023,Poor Product or Service,Mobile App,Closed with relief,TRUE,FALSE,CR0044568,US-2015-152514
+10/19/2023,No First Call Resolution,Phone Support,Closed with explanation,TRUE,FALSE,CR0170715,US-2015-155984
+10/21/2023,Unavailable or Out of Stock Product,Branch,Closed with explanation,TRUE,FALSE,CR2118524,US-2015-150912
+10/21/2023,Poor Product or Service,Mobile App,Closed with explanation,TRUE,FALSE,CR2403665,US-2015-151730
+10/22/2023,Long wait on hold,Email,Closed with non-monetary relief,TRUE,FALSE,CR1757625,US-2015-154040
+10/22/2023,Lack of Follow Up,Mobile App,Closed with explanation,TRUE,FALSE,CR2333445,US-2015-160594
+10/26/2023,Unavailable or Out of Stock Product,Email,Closed with explanation,TRUE,FALSE,CR1780662,US-2015-156791
+10/27/2023,Making Customers Repeat Their Problem,Email,Closed with monetary relief,TRUE,FALSE,CR1892105,US-2015-155554
+10/29/2023,Making Customers Repeat Their Problem,Branch,Closed with explanation,TRUE,TRUE,CR1990253,US-2015-160223
+10/29/2023,Unavailable or Out of Stock Product,Mobile App,Closed with explanation,TRUE,TRUE,CR1350500,US-2015-150969
+10/31/2023,Uninterested Service Rep,Mobile App,Closed with explanation,TRUE,TRUE,CR0567779,US-2015-158372
+11/01/2023,Uninterested Service Rep,Email,Closed with explanation,TRUE,TRUE,CR0146975,US-2015-155804
+11/02/2023,Lack of Follow Up,Email,Closed with explanation,TRUE,FALSE,CR1907400,US-2015-160390
+11/02/2023,Long wait on hold,Mobile App,Closed with explanation,TRUE,FALSE,CR0888321,US-2015-150812
+11/04/2023,Poor Product or Service,Phone Support,Closed with explanation,TRUE,TRUE,CR1051007,US-2015-158808
+11/08/2023,Lack of Follow Up,Branch,Closed with relief,TRUE,TRUE,CR0054494,US-2015-157961
+11/09/2023,No First Call Resolution,Branch,Closed with explanation,TRUE,FALSE,CR0951400,US-2015-152277
+11/10/2023,Lack of Follow Up,Mobile App,Closed with explanation,TRUE,FALSE,CR1563107,US-2015-159483
+11/11/2023,Making Customers Repeat Their Problem,Email,Closed with explanation,TRUE,FALSE,CR2313440,US-2015-158375
+11/22/2023,No First Call Resolution,Phone Support,Closed with explanation,TRUE,FALSE,CR2258552,US-2015-154577
+11/22/2023,No First Call Resolution,Phone Support,Closed with explanation,TRUE,FALSE,CR1764286,US-2015-151530
+11/26/2023,Lack of Follow Up,Mobile App,Closed with explanation,TRUE,FALSE,CR1723447,US-2015-155796
+11/28/2023,Uninterested Service Rep,Email,Closed with monetary relief,TRUE,TRUE,CR1885950,US-2015-152055
+12/06/2023,Unavailable or Out of Stock Product,Phone Support,Closed with explanation,TRUE,FALSE,CR2347888,US-2015-151874
+12/06/2023,Long wait on hold,Branch,Closed with explanation,TRUE,TRUE,CR1428359,US-2015-159702
+12/07/2023,Poor Product or Service,Branch,Closed with explanation,TRUE,FALSE,CR1874408,US-2015-156780
+12/09/2023,New Product or Feature Request,Branch,Closed with explanation,TRUE,FALSE,CR1062228,US-2015-150671
+12/10/2023,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,TRUE,FALSE,CR1555127,US-2015-157230
+12/12/2023,Unavailable or Out of Stock Product,Email,Closed with explanation,TRUE,FALSE,CR0310506,US-2015-158450
+12/15/2023,Lack of Follow Up,Email,Closed with explanation,TRUE,FALSE,CR1839619,US-2015-156452
+12/17/2023,New Product or Feature Request,Phone Support,Closed with explanation,TRUE,TRUE,CR2155262,US-2015-157647
+12/18/2023,Lack of Follow Up,Mobile App,Closed with explanation,TRUE,FALSE,CR0315956,US-2015-155766
+12/19/2023,Poor Product or Service,Phone Support,Closed with explanation,TRUE,FALSE,CR2119922,US-2015-153019
+12/22/2023,Long wait on hold,Phone Support,Closed with explanation,TRUE,FALSE,CR1818167,US-2015-157007
+12/28/2023,Unavailable or Out of Stock Product,Branch,Closed with explanation,TRUE,FALSE,CR2083797,US-2015-155499
+01/03/2024,Unavailable or Out of Stock Product,Phone Support,Closed with relief,TRUE,FALSE,CR0057298,US-2015-159983
+01/06/2024,Long wait on hold,Branch,Closed with monetary relief,TRUE,FALSE,CR2230679,US-2015-157994
+01/08/2024,New Product or Feature Request,Mobile App,Closed with explanation,TRUE,FALSE,CR1631397,US-2015-159411
+01/08/2024,Long wait on hold,Branch,Closed with explanation,TRUE,TRUE,CR0313086,US-2015-159411
+01/08/2024,Lack of Follow Up,Email,Closed with explanation,TRUE,FALSE,CR0783255,US-2015-154348
+01/09/2024,Unavailable or Out of Stock Product,Branch,Closed with non-monetary relief,TRUE,FALSE,CR1957744,US-2015-152308
+01/09/2024,Long wait on hold,Phone Support,Closed with monetary relief,TRUE,FALSE,CR1371826,US-2015-159670
+01/12/2024,Long wait on hold,Branch,Closed with explanation,TRUE,TRUE,CR0258067,US-2015-158387
+01/13/2024,New Product or Feature Request,Phone Support,Closed with explanation,TRUE,TRUE,CR1321268,US-2015-159007
+01/15/2024,New Product or Feature Request,Branch,Closed with explanation,TRUE,FALSE,CR0185270,US-2015-156105
+01/16/2024,Poor Product or Service,Mobile App,Closed with explanation,TRUE,FALSE,CR1529786,US-2015-152124
+01/18/2024,Making Customers Repeat Their Problem,Branch,Closed with explanation,TRUE,FALSE,CR1141314,US-2015-156398
+01/18/2024,No First Call Resolution,Mobile App,Closed with explanation,TRUE,FALSE,CR1452043,US-2015-157910
+01/18/2024,Long wait on hold,Phone Support,Closed with explanation,TRUE,TRUE,CR1440934,US-2015-150676
+01/19/2024,New Product or Feature Request,Phone Support,Closed with explanation,TRUE,FALSE,CR2258943,US-2015-156310
+01/21/2024,Unavailable or Out of Stock Product,Email,Closed with explanation,TRUE,TRUE,CR2081319,US-2015-154171
+01/25/2024,New Product or Feature Request,Phone Support,Closed with explanation,TRUE,FALSE,CR1952426,US-2015-156040
+01/28/2024,New Product or Feature Request,Email,Closed with explanation,TRUE,TRUE,CR1185692,US-2015-159105
+01/29/2024,Uninterested Service Rep,Mobile App,Closed with explanation,TRUE,FALSE,CR2271991,US-2015-156800
+02/01/2024,Long wait on hold,Mobile App,Closed with non-monetary relief,TRUE,TRUE,CR0094377,US-2015-158426
+02/01/2024,Lack of Follow Up,Branch,Closed with explanation,TRUE,TRUE,CR0858349,US-2015-159031
+02/03/2024,Long wait on hold,Phone Support,Closed with explanation,TRUE,FALSE,CR1790071,US-2015-158805
+02/04/2024,Poor Product or Service,Branch,Closed with explanation,TRUE,FALSE,CR1713275,US-2015-151408
+02/05/2024,Uninterested Service Rep,Phone Support,Closed with explanation,TRUE,FALSE,CR1828100,US-2015-159060
+02/07/2024,Long wait on hold,Phone Support,Closed with explanation,TRUE,TRUE,CR1483597,US-2015-155434
+02/08/2024,Uninterested Service Rep,Mobile App,Closed with explanation,TRUE,FALSE,CR2102776,US-2015-160718
+02/08/2024,Uninterested Service Rep,Mobile App,Closed with explanation,TRUE,FALSE,CR2318000,US-2015-153831
+02/16/2024,Poor Product or Service,Branch,Closed with monetary relief,TRUE,FALSE,CR1459299,US-2015-160813
+02/17/2024,No First Call Resolution,Phone Support,Closed with explanation,TRUE,FALSE,CR2104830,US-2015-161044
+02/17/2024,No First Call Resolution,Phone Support,Closed with explanation,TRUE,FALSE,CR1587313,US-2015-161124
+02/18/2024,Uninterested Service Rep,Branch,Closed with monetary relief,TRUE,FALSE,CR2110710,US-2015-161160
+02/18/2024,Lack of Follow Up,Phone Support,Closed with explanation,TRUE,FALSE,CR1474895,US-2015-161249
+02/20/2024,Long wait on hold,Email,Closed with explanation,TRUE,FALSE,CR1377630,US-2015-161215
+02/20/2024,Uninterested Service Rep,Email,Closed with explanation,TRUE,FALSE,CR1722292,US-2015-160944
+02/25/2024,Uninterested Service Rep,Phone Support,Closed with explanation,TRUE,FALSE,CR1645852,US-2015-160624
+02/27/2024,No First Call Resolution,Phone Support,Closed with explanation,TRUE,FALSE,CR0327012,US-2015-161107
+02/27/2024,Lack of Follow Up,Phone Support,Closed with explanation,TRUE,TRUE,CR1597893,US-2015-160826
+02/28/2024,Poor Product or Service,Email,Closed with monetary relief,TRUE,FALSE,CR2032168,US-2015-160860
+03/01/2024,Making Customers Repeat Their Problem,Email,Closed with non-monetary relief,TRUE,FALSE,CR1498821,US-2015-161003
+03/01/2024,Uninterested Service Rep,Email,Closed with monetary relief,TRUE,FALSE,CR2112926,US-2015-161227
+03/01/2024,Long wait on hold,Branch,Closed with explanation,TRUE,TRUE,CR0221502,US-2015-160923
+03/02/2024,Uninterested Service Rep,Email,Closed with explanation,TRUE,TRUE,CR1343326,US-2015-160717
+03/03/2024,Unavailable or Out of Stock Product,Branch,Closed with monetary relief,TRUE,FALSE,CR2381178,US-2015-160798
+03/03/2024,Lack of Follow Up,Branch,Closed with monetary relief,TRUE,FALSE,CR0838199,US-2015-160710
+03/03/2024,Poor Product or Service,Phone Support,Closed with explanation,TRUE,TRUE,CR1522846,US-2015-161003
+03/07/2024,Poor Product or Service,Email,Closed with monetary relief,TRUE,FALSE,CR2061914,US-2015-160966
+03/07/2024,Unavailable or Out of Stock Product,Branch,Closed with explanation,TRUE,FALSE,CR1639357,US-2015-161102
+03/07/2024,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,FALSE,TRUE,CR0091084,US-2015-160798
+03/09/2024,Making Customers Repeat Their Problem,Mobile App,Closed with explanation,TRUE,TRUE,CR2238023,US-2015-160829
+03/11/2024,Poor Product or Service,Email,Closed with monetary relief,TRUE,FALSE,CR2362994,US-2015-160994
+03/14/2024,Making Customers Repeat Their Problem,Mobile App,Closed with monetary relief,TRUE,FALSE,CR1752002,US-2015-161064
+03/14/2024,Making Customers Repeat Their Problem,Mobile App,Closed with monetary relief,TRUE,FALSE,CR1484298,US-2015-161025
+03/14/2024,Lack of Follow Up,Phone Support,Closed with explanation,TRUE,FALSE,CR2236702,US-2015-160811
+03/18/2024,Lack of Follow Up,Mobile App,Closed with explanation,TRUE,TRUE,CR0869660,US-2015-160722
+03/18/2024,Uninterested Service Rep,Mobile App,Closed with explanation,TRUE,FALSE,CR2172937,US-2015-161164
+03/22/2024,Making Customers Repeat Their Problem,Branch,Closed with monetary relief,TRUE,FALSE,CR1718256,US-2015-161260
+03/22/2024,Poor Product or Service,Email,Closed with explanation,TRUE,FALSE,CR0277914,US-2015-161014
+03/22/2024,Uninterested Service Rep,Mobile App,Closed with explanation,TRUE,FALSE,CR0367356,US-2015-160769
+03/23/2024,Lack of Follow Up,Email,Closed with monetary relief,TRUE,FALSE,CR2190357,US-2015-161037
+03/28/2024,Poor Product or Service,Branch,Closed with non-monetary relief,TRUE,TRUE,CR1863672,US-2015-161204
+03/28/2024,Making Customers Repeat Their Problem,Phone Support,Closed with explanation,TRUE,TRUE,CR0144417,US-2015-160686
+03/30/2024,Uninterested Service Rep,Branch,Closed with explanation,TRUE,FALSE,CR0800215,US-2015-160969
+04/01/2024,Long wait on hold,Email,Closed with monetary relief,TRUE,FALSE,CR2159818,US-2015-160760
+04/01/2024,Lack of Follow Up,Email,Closed with explanation,TRUE,FALSE,CR2124247,US-2015-160642
+04/02/2024,Long wait on hold,Email,Closed with non-monetary relief,TRUE,FALSE,CR1080256,US-2015-160768
+04/06/2024,New Product or Feature Request,Branch,Closed with explanation,TRUE,FALSE,CR0285804,US-2015-160675
+04/09/2024,Poor Product or Service,Email,Closed with explanation,TRUE,FALSE,CR1016584,US-2015-160785
+04/16/2024,Unavailable or Out of Stock Product,Phone Support,Closed with monetary relief,TRUE,FALSE,CR2368744,US-2015-160916
+04/21/2024,Uninterested Service Rep,Mobile App,Closed with monetary relief,FALSE,TRUE,CR0089542,US-2015-160885
+04/25/2024,Uninterested Service Rep,Branch,Closed with monetary relief,TRUE,TRUE,CR1833581,US-2015-161067
