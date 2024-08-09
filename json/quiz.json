@@ -4535,5 +4535,309 @@
         "answer": "WHERE",
         "explanation": "The WHERE clause is used in SQL to filter records based on a specified condition, allowing you to retrieve only those records that meet the criteria."
       }
-    ]       
+    ],
+    
+      "Microsoft SQL Server Administration": [
+        {
+          "id": 1,
+          "question": "What is the primary role of indexes in SQL Server?",
+          "choices": [
+            "To increase disk space usage.",
+            "To provide faster data access.",
+            "To prevent data redundancy.",
+            "To improve data consistency."
+          ],
+          "answer": "To provide faster data access.",
+          "explanation": "Indexes in SQL Server allow for quicker data retrieval by providing an efficient way to locate rows that match query criteria without scanning the entire table."
+        },
+        {
+          "id": 2,
+          "question": "Which SQL Server tool is primarily used for configuring network protocols and managing SQL Server services?",
+          "choices": [
+            "SQL Server Management Studio (SSMS)",
+            "SQL Server Configuration Manager",
+            "SQL Server Profiler",
+            "Database Engine Tuning Advisor"
+          ],
+          "answer": "SQL Server Configuration Manager",
+          "explanation": "SQL Server Configuration Manager is used to manage SQL Server services, configure network protocols, and handle other critical SQL Server configurations."
+        },
+        {
+          "id": 3,
+          "question": "What is a covering index?",
+          "choices": [
+            "An index that only includes the primary key columns.",
+            "An index that includes all the columns needed to process a query.",
+            "An index that covers multiple tables.",
+            "An index that is always non-clustered."
+          ],
+          "answer": "An index that includes all the columns needed to process a query.",
+          "explanation": "A covering index includes all columns required by a query, which allows the database engine to retrieve data directly from the index without accessing the table."
+        },
+        {
+          "id": 4,
+          "question": "Which ACID property ensures that all parts of a transaction are completed or none are?",
+          "choices": [
+            "Consistency",
+            "Atomicity",
+            "Isolation",
+            "Durability"
+          ],
+          "answer": "Atomicity",
+          "explanation": "Atomicity ensures that a transaction is an all-or-nothing operation, meaning either all operations are executed, or none are, maintaining the system's consistent state."
+        },
+        {
+          "id": 5,
+          "question": "What is the difference between clustered and non-clustered indexes?",
+          "choices": [
+            "Clustered indexes are faster, but non-clustered indexes use less disk space.",
+            "Clustered indexes sort the physical data rows, while non-clustered indexes do not.",
+            "Non-clustered indexes can only be created on primary keys.",
+            "There can be multiple clustered indexes on a table."
+          ],
+          "answer": "Clustered indexes sort the physical data rows, while non-clustered indexes do not.",
+          "explanation": "A clustered index dictates the physical order of data in a table, while a non-clustered index creates a separate structure to point to the actual data rows without altering their order."
+        },
+        {
+          "id": 6,
+          "question": "Which SQL Server component is responsible for monitoring and profiling database activities?",
+          "choices": [
+            "SQL Server Configuration Manager",
+            "SQL Server Management Studio",
+            "SQL Server Profiler",
+            "Database Engine Tuning Advisor"
+          ],
+          "answer": "SQL Server Profiler",
+          "explanation": "SQL Server Profiler is used to monitor and analyze SQL Server events, allowing for detailed performance analysis and troubleshooting."
+        },
+        {
+          "id": 7,
+          "question": "What is the purpose of the SQL Server Agent?",
+          "choices": [
+            "To manage database users.",
+            "To automate tasks like backups and maintenance.",
+            "To monitor query performance.",
+            "To configure SQL Server services."
+          ],
+          "answer": "To automate tasks like backups and maintenance.",
+          "explanation": "SQL Server Agent is used to schedule and automate tasks such as backups, database maintenance, and other routine operations in SQL Server."
+        },
+        {
+          "id": 8,
+          "question": "Which SQL statement is used to create a stored procedure?",
+          "choices": [
+            "CREATE FUNCTION",
+            "CREATE PROCEDURE",
+            "CREATE TRIGGER",
+            "CREATE INDEX"
+          ],
+          "answer": "CREATE PROCEDURE",
+          "explanation": "Stored procedures in SQL Server are created using the CREATE PROCEDURE statement, which defines a batch of SQL statements that can be executed as a single unit."
+        },
+        {
+          "id": 9,
+          "question": "What is a foreign key used for in SQL Server?",
+          "choices": [
+            "To enforce unique values in a column.",
+            "To create a relationship between tables.",
+            "To index a column for faster search.",
+            "To execute transactions atomically."
+          ],
+          "answer": "To create a relationship between tables.",
+          "explanation": "A foreign key in SQL Server is used to establish and enforce a link between the data in two tables, ensuring referential integrity."
+        },
+        {
+          "id": 10,
+          "question": "Which SQL command is used to remove an existing index?",
+          "choices": [
+            "DELETE INDEX",
+            "DROP INDEX",
+            "REMOVE INDEX",
+            "ALTER INDEX"
+          ],
+          "answer": "DROP INDEX",
+          "explanation": "The DROP INDEX command is used in SQL Server to remove an existing index from a table."
+        },
+        {
+          "id": 11,
+          "question": "What is the primary benefit of using a stored procedure over a simple SQL query?",
+          "choices": [
+            "Stored procedures consume less memory.",
+            "Stored procedures can be encrypted.",
+            "Stored procedures are faster as they are precompiled.",
+            "Stored procedures use less disk space."
+          ],
+          "answer": "Stored procedures are faster as they are precompiled.",
+          "explanation": "Stored procedures are precompiled, which means the SQL Server engine does not need to compile them each time they are executed, resulting in faster performance."
+        },
+        {
+          "id": 12,
+          "question": "What is the role of the SQL Server Transaction Log?",
+          "choices": [
+            "To store the database schema.",
+            "To log all authentication attempts.",
+            "To record all transactions made to the database.",
+            "To keep a copy of the database for backups."
+          ],
+          "answer": "To record all transactions made to the database.",
+          "explanation": "The SQL Server Transaction Log records all modifications made to the database, allowing for data recovery and rollback in case of failures."
+        },
+        {
+          "id": 13,
+          "question": "Which type of function in SQL Server returns a single value?",
+          "choices": [
+            "Table-Valued Function",
+            "Scalar Function",
+            "Multi-Statement Table-Valued Function",
+            "Aggregate Function"
+          ],
+          "answer": "Scalar Function",
+          "explanation": "A scalar function in SQL Server returns a single value, typically used for calculations or data manipulations."
+        },
+        {
+          "id": 14,
+          "question": "What is the default port number used by SQL Server for TCP/IP communication?",
+          "choices": [
+            "80",
+            "443",
+            "8080",
+            "1433"
+          ],
+          "answer": "1433",
+          "explanation": "SQL Server uses port 1433 by default for TCP/IP communication, which can be configured through the SQL Server Configuration Manager."
+        },
+        {
+          "id": 15,
+          "question": "What is the purpose of a trigger in SQL Server?",
+          "choices": [
+            "To automatically execute a stored procedure.",
+            "To provide faster data access.",
+            "To perform actions in response to certain events.",
+            "To manage SQL Server services."
+          ],
+          "answer": "To perform actions in response to certain events.",
+          "explanation": "A trigger is a special type of stored procedure that automatically executes in response to specific events, such as insert, update, or delete operations on a table."
+        },
+        {
+          "id": 16,
+          "question": "Which command is used to measure index fragmentation in SQL Server?",
+          "choices": [
+            "DBCC CHECKDB",
+            "DBCC SQLPERF",
+            "sys.dm_db_index_physical_stats",
+            "sys.dm_exec_query_stats"
+          ],
+          "answer": "sys.dm_db_index_physical_stats",
+          "explanation": "The sys.dm_db_index_physical_stats function is used to analyze and report on the physical health of indexes, including fragmentation levels in SQL Server."
+        },
+        {
+          "id": 17,
+          "question": "Which database is used by SQL Server to store system-level information such as logins and linked servers?",
+          "choices": [
+            "msdb",
+            "model",
+            "tempdb",
+            "master"
+          ],
+          "answer": "master",
+          "explanation": "The master database in SQL Server stores system-level information such as logins, linked servers, and system configuration settings."
+        },
+        {
+          "id": 18,
+          "question": "What does the 'WITH ENCRYPTION' option do when creating a stored procedure?",
+          "choices": [
+            "It compresses the stored procedure.",
+            "It hides the stored procedure's source code.",
+            "It prevents the stored procedure from being executed.",
+            "It enables auditing of the stored procedure."
+          ],
+          "answer": "It hides the stored procedure's source code.",
+          "explanation": "The 'WITH ENCRYPTION' option encrypts the stored procedure, making its source code unreadable without decryption tools."
+        },
+        {
+          "id": 19,
+          "question": "Which command is used to reorganize an index in SQL Server?",
+          "choices": [
+            "ALTER INDEX REBUILD",
+            "ALTER INDEX REORGANIZE",
+            "DBCC INDEXDEFRAG",
+            "DBCC REINDEX"
+          ],
+          "answer": "ALTER INDEX REORGANIZE",
+          "explanation": "The ALTER INDEX REORGANIZE command is used to reorganize a fragmented index at the leaf level, improving performance without rebuilding the entire index."
+        },
+        {
+          "id": 20,
+          "question": "What is a transaction in SQL Server?",
+          "choices": [
+            "A set of SQL commands executed in sequence.",
+            "A log of changes made to the database.",
+            "A single unit of work that is either fully completed or rolled back.",
+            "A backup of the database at a specific point in time."
+          ],
+          "answer": "A single unit of work that is either fully completed or rolled back.",
+          "explanation": "A transaction in SQL Server is a group of operations that are treated as a single unit, ensuring that either all changes are applied or none are, maintaining data integrity."
+        },
+        {
+          "id": 21,
+          "question": "What is database normalization?",
+          "choices": [
+            "A process that increases data redundancy.",
+            "A process that organizes data to reduce redundancy and improve integrity.",
+            "A technique to speed up data retrieval.",
+            "A method to compress database tables."
+          ],
+          "answer": "A process that organizes data to reduce redundancy and improve integrity.",
+          "explanation": "Database normalization is the process of organizing data in a database to minimize redundancy and dependency, improving data integrity."
+        },
+        {
+          "id": 22,
+          "question": "What is a heap in SQL Server?",
+          "choices": [
+            "A table without any clustered index.",
+            "A table with multiple non-clustered indexes.",
+            "A table with a clustered index.",
+            "A table that stores temporary data."
+          ],
+          "answer": "A table without any clustered index.",
+          "explanation": "A heap is a table in SQL Server that does not have a clustered index, meaning the data is not stored in any particular order."
+        },
+        {
+          "id": 23,
+          "question": "Which DML operation triggers the AFTER DELETE trigger in SQL Server?",
+          "choices": [
+            "INSERT",
+            "UPDATE",
+            "DELETE",
+            "SELECT"
+          ],
+          "answer": "DELETE",
+          "explanation": "An AFTER DELETE trigger in SQL Server is automatically executed after a row is deleted from a table, allowing for post-delete actions such as logging."
+        },
+        {
+          "id": 24,
+          "question": "What is the purpose of the SQL Server 'sp_who2' stored procedure?",
+          "choices": [
+            "To display active transactions.",
+            "To list current users and processes.",
+            "To display system configuration settings.",
+            "To monitor database index usage."
+          ],
+          "answer": "To list current users and processes.",
+          "explanation": "The 'sp_who2' stored procedure in SQL Server provides information about current users, sessions, and processes running on the server."
+        },
+        {
+          "id": 25,
+          "question": "Which statement best describes a clustered index?",
+          "choices": [
+            "It stores data rows in a non-sequential order.",
+            "It can be created on a column that contains NULL values.",
+            "It dictates the physical order of data in a table.",
+            "It allows multiple columns to be indexed simultaneously."
+          ],
+          "answer": "It dictates the physical order of data in a table.",
+          "explanation": "A clustered index determines the physical order of data rows in a table, making it unique in that there can only be one clustered index per table."
+        }
+      ]
+           
     }
