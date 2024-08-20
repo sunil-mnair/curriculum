@@ -1866,7 +1866,7 @@
             "explanation":"Snapshots are incremental backups, which means that only the blocks on the device that have changed after your most recent snapshot are saved. "
         }
     ]
-    ,"Essential Excel":
+    ,"Excel Intermediate":
         [
             {
             "id": 1,
@@ -1999,7 +1999,7 @@
         }
 
     ]
-    ,"Excel Intermediate":
+    ,"Excel Intermediate 02":
     [
       {
           "id": 1,
@@ -3909,7 +3909,7 @@
           "explanation": "The REST API model in SharePoint supports CRUD (Create, Read, Update, Delete) operations via HTTP verbs like GET, POST, PUT, and DELETE&#8203;:citation[oaicite:0]{index=0}&#8203;."
         }
       ],
-      "Excel Basic to Intermediate":[
+      "Excel Intermediate 03":[
         {
           "id": 1,
           "question": "You have a column of full names in 'A' column and you want to extract the first names in 'B' column using text functions. Which function should you use?",
