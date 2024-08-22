@@ -1866,7 +1866,7 @@
             "explanation":"Snapshots are incremental backups, which means that only the blocks on the device that have changed after your most recent snapshot are saved. "
         }
     ]
-    ,"Excel Intermediate":
+    ,"Excel Intermediate - Essentials":
         [
             {
             "id": 1,
@@ -1999,7 +1999,7 @@
         }
 
     ]
-    ,"Excel Intermediate 02":
+    ,"Excel Intermediate":
     [
       {
           "id": 1,
@@ -2093,17 +2093,16 @@
           "explanation": "The COUNT function counts the number of numeric values in a specified range of cells."
       },
       {
-          "id": 8,
-          "question": "Which function returns the current date and time?",
-          "image": "",
-          "choices": [
-              "=DATE()",
-              "=NOW()",
-              "=CURRENT()",
-              "=TODAY()"
-          ],
-          "answer": "=NOW()",
-          "explanation": "The NOW function returns the current date and time formatted as a date and time."
+        "id": 8,
+        "question": "In a cell, the text '123-45-6789' needs to be converted to '123456789'. Which function will help achieve this?",
+        "choices": [
+          "TRIM",
+          "SUBSTITUTE",
+          "CONCATENATE",
+          "TEXT"
+        ],
+        "answer": "SUBSTITUTE",
+        "explanation": "The SUBSTITUTE function replaces occurrences of a specified text string within a cell, making it ideal for removing the hyphens from '123-45-6789'."
       },
       {
           "id": 9,
