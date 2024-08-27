@@ -4717,6 +4717,128 @@
           "answer": "To perform actions in response to certain events.",
           "explanation": "A trigger is a special type of stored procedure that automatically executes in response to specific events, such as insert, update, or delete operations on a table."
         }
+      ],
+      "GenAIBIZ":[
+        {
+          "id": 1,
+          "question": "What is Artificial Intelligence (AI) primarily concerned with?",
+          "choices": [
+            "Automating cognitive tasks typically requiring human intelligence.",
+            "Teaching robots to perform physical tasks.",
+            "Creating neural networks that mimic human thought.",
+            "Developing computer vision systems."
+          ],
+          "answer": "Automating cognitive tasks typically requiring human intelligence.",
+          "explanation": "AI involves automating and enhancing cognitive tasks that require human intelligence, such as problem-solving and decision-making."
+        },
+        {
+          "id": 2,
+          "question": "Which of the following best describes Machine Learning (ML)?",
+          "choices": [
+            "A system that learns from large amounts of data to make decisions or predictions.",
+            "A robot that learns physical tasks through practice.",
+            "A model that processes input and generates human-like text.",
+            "A deep learning technique that involves multiple layers of neurons."
+          ],
+          "answer": "A system that learns from large amounts of data to make decisions or predictions.",
+          "explanation": "Machine Learning is about feeding large datasets into systems that learn to make predictions or decisions, improving over time."
+        },
+        {
+          "id": 3,
+          "question": "What analogy is used to describe Deep Learning (DL) in the document?",
+          "choices": [
+            "Training a dog to fetch a ball.",
+            "Conducting an orchestra of neurons.",
+            "Teaching a student with a tutor.",
+            "Solving a mystery without clues."
+          ],
+          "answer": "Conducting an orchestra of neurons.",
+          "explanation": "Deep Learning is likened to an orchestra, where each neuron (musician) contributes to a complex, harmonious performance."
+        },
+        {
+          "id": 4,
+          "question": "Generative AI can be best described as:",
+          "choices": [
+            "A system that creates entirely new content based on learned data.",
+            "An AI that mimics human speech patterns.",
+            "A machine learning model that classifies images.",
+            "A neural network designed to solve puzzles."
+          ],
+          "answer": "A system that creates entirely new content based on learned data.",
+          "explanation": "Generative AI uses learned data to generate new, original content, such as text, images, or music."
+        },
+        {
+          "id": 5,
+          "question": "Which of the following is NOT an example of a Generative AI application?",
+          "choices": [
+            "Text generation using GPT models.",
+            "Image recognition in Google Photos.",
+            "Music composition by analyzing musical patterns.",
+            "Drug discovery using reinforcement learning."
+          ],
+          "answer": "Image recognition in Google Photos.",
+          "explanation": "Image recognition is a classification task, not generative. Generative AI focuses on creating new content rather than classifying existing content."
+        },
+        {
+          "id": 6,
+          "question": "In supervised learning, what role does the 'teacher' play?",
+          "choices": [
+            "Provides the model with input data and the correct output labels.",
+            "Helps the model discover patterns without guidance.",
+            "Adjusts the learning rate during training.",
+            "Modifies the activation function to improve accuracy."
+          ],
+          "answer": "Provides the model with input data and the correct output labels.",
+          "explanation": "In supervised learning, the model is trained with input-output pairs, where the 'teacher' provides the correct answers to guide learning."
+        },
+        {
+          "id": 7,
+          "question": "What is an epoch in the context of training neural networks?",
+          "choices": [
+            "The process of adjusting weights after each batch.",
+            "One complete cycle through the entire training dataset.",
+            "The final test on a new dataset.",
+            "The adjustment of the learning rate over time."
+          ],
+          "answer": "One complete cycle through the entire training dataset.",
+          "explanation": "An epoch refers to one complete pass through the entire training dataset, allowing the model to learn from all the data."
+        },
+        {
+          "id": 8,
+          "question": "What is the primary function of a bias term in an Artificial Neural Network (ANN)?",
+          "choices": [
+            "It determines the importance of each input.",
+            "It shifts the activation function to better fit the model to the data.",
+            "It controls the learning rate during training.",
+            "It serves as the output layer in a neural network."
+          ],
+          "answer": "It shifts the activation function to better fit the model to the data.",
+          "explanation": "The bias term allows shifting the activation function, which helps the model better fit the data by adjusting how input values are processed."
+        },
+        {
+          "id": 9,
+          "question": "How does a Generative Adversarial Network (GAN) function in image generation?",
+          "choices": [
+            "By classifying images into predefined categories.",
+            "By generating new images that mimic the style of the training data.",
+            "By segmenting images into different parts based on object boundaries.",
+            "By detecting and localizing objects within an image."
+          ],
+          "answer": "By generating new images that mimic the style of the training data.",
+          "explanation": "GANs consist of two networks: a generator that creates images and a discriminator that evaluates them, allowing the generator to improve until it produces realistic images."
+        },
+        {
+          "id": 10,
+          "question": "What does the term 'tokenization' refer to in Natural Language Processing (NLP)?",
+          "choices": [
+            "Breaking text into individual words or punctuation marks.",
+            "Encoding sentences into vectors for model input.",
+            "Summarizing text into shorter versions.",
+            "Translating text from one language to another."
+          ],
+          "answer": "Breaking text into individual words or punctuation marks.",
+          "explanation": "Tokenization is the process of splitting text into smaller components, like words or punctuation marks, which helps in text analysis and processing."
+        }
       ]
            
     }
