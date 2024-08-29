@@ -3297,123 +3297,123 @@
     [
       {
         "id": 1,
-        "question": "What is Big Data characterized by?",
+        "question": "What are the three primary characteristics of Big Data, often referred to as the 3 V's?",
         "choices": [
-          "Large volume, low variety, and low velocity",
-          "High volume, high velocity, and high variety",
-          "Small volume, high variety, and high velocity",
-          "High volume, low variety, and low velocity"
+          "Volume, Velocity, Variety",
+          "Volume, Velocity, Veracity",
+          "Variety, Veracity, Visualization",
+          "Volume, Veracity, Value"
         ],
-        "answer": "High volume, high velocity, and high variety",
-        "explanation": "Big Data is characterized by three main attributes: high volume, high velocity, and high variety."
+        "answer": "Volume, Velocity, Variety",
+        "explanation": "The 3 V's—Volume, Velocity, and Variety—are key characteristics of Big Data that describe the large amounts of data, the speed at which it is generated, and the different types of data (structured and unstructured)."
       },
       {
         "id": 2,
-        "question": "What does HDFS stand for in Hadoop?",
+        "question": "Which of the following is NOT a characteristic of HDFS?",
         "choices": [
-          "High Data File System",
-          "Hadoop Distributed File System",
-          "Hierarchical Data File System",
-          "High Definition File System"
+          "High throughput access",
+          "Data replication",
+          "Low latency operations",
+          "Fault tolerance"
         ],
-        "answer": "Hadoop Distributed File System",
-        "explanation": "HDFS stands for Hadoop Distributed File System, which is designed to store large data sets reliably and to stream those data sets at high bandwidth to user applications."
+        "answer": "Low latency operations",
+        "explanation": "HDFS is designed for high throughput and fault tolerance, but it is not optimized for low latency operations, which are typically required for real-time processing."
       },
       {
         "id": 3,
-        "question": "Which component of Hadoop is responsible for resource management and job scheduling?",
+        "question": "What is the purpose of the Map phase in MapReduce?",
         "choices": [
-          "HDFS",
-          "Yarn",
-          "Pig",
-          "Hive"
+          "To sort data based on key-value pairs",
+          "To aggregate data across nodes",
+          "To execute tasks in parallel and produce key-value pairs",
+          "To reduce the number of data partitions"
         ],
-        "answer": "Yarn",
-        "explanation": "Yarn (Yet Another Resource Negotiator) is the component of Hadoop that is responsible for managing computing resources in clusters and using them for scheduling user applications."
+        "answer": "To execute tasks in parallel and produce key-value pairs",
+        "explanation": "In the Map phase of MapReduce, tasks are executed in parallel across nodes, processing input data to generate key-value pairs, which are then passed on to the Reduce phase."
       },
       {
         "id": 4,
-        "question": "What is Hive primarily used for in the Hadoop ecosystem?",
+        "question": "Which big data tool is specifically designed for real-time data streaming?",
         "choices": [
-          "Data storage",
-          "Data analysis",
-          "Resource management",
-          "Job scheduling"
+          "Apache Pig",
+          "Apache Storm",
+          "Apache Hive",
+          "Apache Hadoop"
         ],
-        "answer": "Data analysis",
-        "explanation": "Hive is a data warehouse software that facilitates querying and managing large datasets residing in distributed storage using SQL."
+        "answer": "Apache Storm",
+        "explanation": "Apache Storm is designed for processing data streams in real time, allowing for immediate analysis and response."
       },
       {
         "id": 5,
-        "question": "Which Hadoop service is a high-level scripting language that simplifies writing MapReduce programs?",
+        "question": "In a Hadoop cluster, what is the role of the NameNode?",
         "choices": [
-          "HDFS",
-          "Yarn",
-          "Pig",
-          "Hive"
+          "Stores actual data blocks",
+          "Manages metadata and the file system namespace",
+          "Executes MapReduce tasks",
+          "Monitors resource usage on individual nodes"
         ],
-        "answer": "Pig",
-        "explanation": "Pig is a high-level platform for creating MapReduce programs used with Hadoop. It is a scripting language called Pig Latin."
+        "answer": "Manages metadata and the file system namespace",
+        "explanation": "The NameNode in a Hadoop cluster is responsible for managing the metadata of the file system, including the directory structure and file information, but it does not store the actual data blocks."
       },
       {
         "id": 6,
-        "question": "How does HDFS ensure fault tolerance?",
+        "question": "Which NoSQL database is known for its column-family storage model and real-time read/write capabilities?",
         "choices": [
-          "By encrypting data",
-          "By compressing data",
-          "By duplicating data across multiple nodes",
-          "By partitioning data across multiple nodes"
+          "MongoDB",
+          "Cassandra",
+          "HBase",
+          "Impala"
         ],
-        "answer": "By duplicating data across multiple nodes",
-        "explanation": "HDFS ensures fault tolerance by storing multiple copies of data across different nodes in a Hadoop cluster, thereby making it available even if some of the nodes fail."
+        "answer": "HBase",
+        "explanation": "HBase is a NoSQL database designed for real-time read/write operations with a column-family storage model, making it suitable for large-scale data processing in Hadoop."
       },
       {
         "id": 7,
-        "question": "What is the primary function of the Yarn Resource Manager?",
+        "question": "Which of the following tools provides a SQL-like interface for querying large datasets stored in Hadoop?",
         "choices": [
-          "Data storage",
-          "Job tracking",
-          "Resource allocation",
-          "Data processing"
+          "Apache Pig",
+          "Apache Hive",
+          "Apache Spark",
+          "Apache Flume"
         ],
-        "answer": "Resource allocation",
-        "explanation": "The Yarn Resource Manager is responsible for allocating resources to various running applications according to predefined criteria, such as capacity, queue, and others."
+        "answer": "Apache Hive",
+        "explanation": "Apache Hive provides a SQL-like interface (HiveQL) that allows users to query large datasets stored in Hadoop, making it accessible to those familiar with SQL."
       },
       {
         "id": 8,
-        "question": "In the context of Hadoop, what does the term 'NameNode' refer to?",
+        "question": "What is the primary benefit of using Apache Spark over traditional MapReduce?",
         "choices": [
-          "A data storage location",
-          "A resource management tool",
-          "The master node of HDFS",
-          "A type of data processing function"
+          "Lower cost",
+          "Support for SQL queries",
+          "In-memory processing for faster data processing",
+          "Better data visualization"
         ],
-        "answer": "The master node of HDFS",
-        "explanation": "In Hadoop's HDFS, the NameNode is the master server that manages the file system namespace and controls access to files by clients."
+        "answer": "In-memory processing for faster data processing",
+        "explanation": "Apache Spark offers in-memory processing, which significantly speeds up data processing compared to the disk-based operations in traditional MapReduce."
       },
       {
         "id": 9,
-        "question": "What is Pig's primary feature that differentiates it from Hive?",
+        "question": "What does the term 'data locality' refer to in the context of big data storage?",
         "choices": [
-          "Data storage management",
-          "Advanced analytics capabilities",
-          "An SQL-like interface",
-          "A dataflow scripting language"
+          "Storing all data in a single data center",
+          "Processing data on the node where it is stored",
+          "Replicating data across multiple nodes",
+          "Partitioning data for faster access"
         ],
-        "answer": "A dataflow scripting language",
-        "explanation": "While Hive provides an SQL-like interface for querying data, Pig uses a dataflow scripting language called Pig Latin, which is designed for processing and analyzing large data sets."
+        "answer": "Processing data on the node where it is stored",
+        "explanation": "Data locality refers to the practice of processing data on the same node where it is stored, reducing the need for data transfer across the network and thus improving performance."
       },
       {
         "id": 10,
-        "question": "What advantage does Yarn provide in Hadoop's ecosystem?",
+        "question": "Which of the following describes 'Veracity' in the context of Big Data?",
         "choices": [
-          "Improved data serialization",
-          "Enhanced data security",
-          "Seperation of job scheduling and resource management",
-          "Faster data replication in HDFS"
+          "The speed at which data is generated",
+          "The trustworthiness and accuracy of the data",
+          "The amount of data generated",
+          "The diversity of data types"
         ],
-        "answer": "Seperation of job scheduling and resource management",
-        "explanation": "Yarn provides the advantage of separating job scheduling and resource management from the MapReduce component, which allows for more efficient processing of data and better resource utilization in Hadoop’s ecosystem."
+        "answer": "The trustworthiness and accuracy of the data",
+        "explanation": "Veracity in Big Data refers to the accuracy and reliability of the data, which is crucial for making informed decisions based on data analysis."
       }
     ]
     ,
