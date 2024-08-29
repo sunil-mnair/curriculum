@@ -3297,123 +3297,123 @@
     [
       {
         "id": 1,
-        "question": "What are the three primary characteristics of Big Data, often referred to as the 3 V's?",
+        "question": "What is the main advantage of using a Hadoop Distributed File System (HDFS) for Big Data storage?",
         "choices": [
-          "Volume, Velocity, Variety",
-          "Volume, Velocity, Veracity",
-          "Variety, Veracity, Visualization",
-          "Volume, Veracity, Value"
+          "Supports relational data models",
+          "Allows for centralized storage",
+          "Enables distributed storage across multiple machines",
+          "Reduces data redundancy"
         ],
-        "answer": "Volume, Velocity, Variety",
-        "explanation": "The 3 V's—Volume, Velocity, and Variety—are key characteristics of Big Data that describe the large amounts of data, the speed at which it is generated, and the different types of data (structured and unstructured)."
+        "answer": "Enables distributed storage across multiple machines",
+        "explanation": "HDFS is designed to store large datasets across a distributed cluster of machines, providing fault tolerance and scalability."
       },
       {
         "id": 2,
-        "question": "Which of the following is NOT a characteristic of HDFS?",
+        "question": "Which of the following best describes Apache Pig's role in Big Data processing?",
         "choices": [
-          "High throughput access",
-          "Data replication",
-          "Low latency operations",
-          "Fault tolerance"
+          "A tool for real-time data analysis",
+          "A platform for large-scale data processing using a high-level scripting language",
+          "A NoSQL database optimized for high write throughput",
+          "A framework for distributed data storage"
         ],
-        "answer": "Low latency operations",
-        "explanation": "HDFS is designed for high throughput and fault tolerance, but it is not optimized for low latency operations, which are typically required for real-time processing."
+        "answer": "A platform for large-scale data processing using a high-level scripting language",
+        "explanation": "Apache Pig is a platform that uses a high-level scripting language (Pig Latin) for expressing data analysis programs, simplifying the process of writing complex MapReduce programs."
       },
       {
         "id": 3,
-        "question": "What is the purpose of the Map phase in MapReduce?",
+        "question": "Which type of data is best suited for processing by Apache Hadoop's MapReduce framework?",
         "choices": [
-          "To sort data based on key-value pairs",
-          "To aggregate data across nodes",
-          "To execute tasks in parallel and produce key-value pairs",
-          "To reduce the number of data partitions"
+          "Real-time streaming data",
+          "Batch-processed large datasets",
+          "Structured query language (SQL) data",
+          "Unstructured audio data"
         ],
-        "answer": "To execute tasks in parallel and produce key-value pairs",
-        "explanation": "In the Map phase of MapReduce, tasks are executed in parallel across nodes, processing input data to generate key-value pairs, which are then passed on to the Reduce phase."
+        "answer": "Batch-processed large datasets",
+        "explanation": "MapReduce is ideal for processing large datasets in batch mode, breaking them down into smaller tasks for parallel processing across a distributed cluster."
       },
       {
         "id": 4,
-        "question": "Which big data tool is specifically designed for real-time data streaming?",
+        "question": "What is a key characteristic of NoSQL databases that differentiates them from traditional relational databases?",
         "choices": [
-          "Apache Pig",
-          "Apache Storm",
-          "Apache Hive",
-          "Apache Hadoop"
+          "Strict adherence to ACID properties",
+          "Support for complex SQL queries",
+          "Flexible schema design allowing for unstructured data",
+          "Data stored in tables with fixed columns"
         ],
-        "answer": "Apache Storm",
-        "explanation": "Apache Storm is designed for processing data streams in real time, allowing for immediate analysis and response."
+        "answer": "Flexible schema design allowing for unstructured data",
+        "explanation": "NoSQL databases are designed to handle unstructured data with flexible schemas, making them well-suited for big data applications."
       },
       {
         "id": 5,
-        "question": "In a Hadoop cluster, what is the role of the NameNode?",
+        "question": "In the context of Big Data, what is 'data partitioning'?",
         "choices": [
-          "Stores actual data blocks",
-          "Manages metadata and the file system namespace",
-          "Executes MapReduce tasks",
-          "Monitors resource usage on individual nodes"
+          "Dividing data into smaller segments stored on a single machine",
+          "Distributing data across multiple machines to improve processing speed",
+          "Encrypting data before storage",
+          "Compressing data to save storage space"
         ],
-        "answer": "Manages metadata and the file system namespace",
-        "explanation": "The NameNode in a Hadoop cluster is responsible for managing the metadata of the file system, including the directory structure and file information, but it does not store the actual data blocks."
+        "answer": "Distributing data across multiple machines to improve processing speed",
+        "explanation": "Data partitioning involves dividing data into smaller segments that are distributed across multiple machines, which helps in parallel processing and improves data retrieval speed."
       },
       {
         "id": 6,
-        "question": "Which NoSQL database is known for its column-family storage model and real-time read/write capabilities?",
+        "question": "Which Big Data tool is known for its ability to manage and process large streams of data in real-time?",
         "choices": [
-          "MongoDB",
-          "Cassandra",
-          "HBase",
-          "Impala"
+          "Apache Kafka",
+          "Apache Hive",
+          "Apache HBase",
+          "Apache Pig"
         ],
-        "answer": "HBase",
-        "explanation": "HBase is a NoSQL database designed for real-time read/write operations with a column-family storage model, making it suitable for large-scale data processing in Hadoop."
+        "answer": "Apache Kafka",
+        "explanation": "Apache Kafka is designed for building real-time data pipelines and streaming applications, allowing for the handling of large streams of data in real time."
       },
       {
         "id": 7,
-        "question": "Which of the following tools provides a SQL-like interface for querying large datasets stored in Hadoop?",
+        "question": "What is the role of the Resource Manager in YARN (Yet Another Resource Negotiator)?",
         "choices": [
-          "Apache Pig",
-          "Apache Hive",
-          "Apache Spark",
-          "Apache Flume"
+          "Managing the metadata of HDFS",
+          "Overseeing the execution of MapReduce jobs",
+          "Allocating cluster resources across various applications",
+          "Monitoring disk usage in HDFS"
         ],
-        "answer": "Apache Hive",
-        "explanation": "Apache Hive provides a SQL-like interface (HiveQL) that allows users to query large datasets stored in Hadoop, making it accessible to those familiar with SQL."
+        "answer": "Allocating cluster resources across various applications",
+        "explanation": "The Resource Manager in YARN is responsible for managing and allocating resources across the cluster to various applications, optimizing resource usage."
       },
       {
         "id": 8,
-        "question": "What is the primary benefit of using Apache Spark over traditional MapReduce?",
+        "question": "Which of the following describes the concept of 'eventual consistency' in NoSQL databases?",
         "choices": [
-          "Lower cost",
-          "Support for SQL queries",
-          "In-memory processing for faster data processing",
-          "Better data visualization"
+          "Immediate data consistency across all nodes",
+          "Data updates are propagated over time, eventually reaching consistency",
+          "All data is consistent after a single write operation",
+          "Strict adherence to ACID properties for transaction management"
         ],
-        "answer": "In-memory processing for faster data processing",
-        "explanation": "Apache Spark offers in-memory processing, which significantly speeds up data processing compared to the disk-based operations in traditional MapReduce."
+        "answer": "Data updates are propagated over time, eventually reaching consistency",
+        "explanation": "Eventual consistency in NoSQL databases means that data updates may not be immediately consistent across all nodes but will eventually become consistent over time."
       },
       {
         "id": 9,
-        "question": "What does the term 'data locality' refer to in the context of big data storage?",
+        "question": "What is the main benefit of using Apache Spark for Big Data analytics over traditional Hadoop MapReduce?",
         "choices": [
-          "Storing all data in a single data center",
-          "Processing data on the node where it is stored",
-          "Replicating data across multiple nodes",
-          "Partitioning data for faster access"
+          "Simpler query language",
+          "Ability to process unstructured data",
+          "In-memory computation leading to faster processing",
+          "Better support for batch processing"
         ],
-        "answer": "Processing data on the node where it is stored",
-        "explanation": "Data locality refers to the practice of processing data on the same node where it is stored, reducing the need for data transfer across the network and thus improving performance."
+        "answer": "In-memory computation leading to faster processing",
+        "explanation": "Apache Spark processes data in-memory, which significantly speeds up data processing compared to the disk-based operations of Hadoop's MapReduce."
       },
       {
         "id": 10,
-        "question": "Which of the following describes 'Veracity' in the context of Big Data?",
+        "question": "In Big Data analytics, what does 'veracity' refer to?",
         "choices": [
-          "The speed at which data is generated",
-          "The trustworthiness and accuracy of the data",
-          "The amount of data generated",
-          "The diversity of data types"
+          "The volume of data",
+          "The velocity of data generation",
+          "The accuracy and reliability of data",
+          "The variety of data sources"
         ],
-        "answer": "The trustworthiness and accuracy of the data",
-        "explanation": "Veracity in Big Data refers to the accuracy and reliability of the data, which is crucial for making informed decisions based on data analysis."
+        "answer": "The accuracy and reliability of data",
+        "explanation": "Veracity refers to the trustworthiness, accuracy, and reliability of the data being analyzed, which is crucial for making informed decisions in Big Data analytics."
       }
     ]
     ,
