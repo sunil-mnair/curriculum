@@ -4839,6 +4839,130 @@
           "answer": "Breaking text into individual words or punctuation marks.",
           "explanation": "Tokenization is the process of splitting text into smaller components, like words or punctuation marks, which helps in text analysis and processing."
         }
+      ],
+      "MS Project Plan 3":[
+        {
+          "id": 1,
+          "question": "What is the primary objective of the Corporate Event Production and Management project?",
+          "choices": [
+            "To organize a team-building exercise",
+            "To successfully manage a corporate event, including stage design, lighting, and AV setup",
+            "To deliver a new software product",
+            "To develop a marketing strategy"
+          ],
+          "answer": "To successfully manage a corporate event, including stage design, lighting, and AV setup",
+          "explanation": "The main goal of the project is to successfully organize and manage all aspects of a corporate event, including logistical and technical elements like stage design, lighting, and AV setup."
+        },
+        {
+          "id": 2,
+          "question": "Which phase includes the task of finalizing the event plan?",
+          "choices": [
+            "Pre-Production Planning",
+            "Production Setup",
+            "Event Day",
+            "Post-Event Wrap-Up"
+          ],
+          "answer": "Pre-Production Planning",
+          "explanation": "Finalizing the event plan is part of the Pre-Production Planning phase, as it sets the foundation for the upcoming stages."
+        },
+        {
+          "id": 3,
+          "question": "What is the duration for the task 'Stage Design & Construction'?",
+          "choices": [
+            "3 days",
+            "5 days",
+            "7 days",
+            "10 days"
+          ],
+          "answer": "7 days",
+          "explanation": "The task 'Stage Design & Construction' is scheduled to take 7 days, starting on October 1, 2024, and ending on October 7, 2024."
+        },
+        {
+          "id": 4,
+          "question": "Which team is responsible for developing the event concept?",
+          "choices": [
+            "Event Coordinator",
+            "Creative Team",
+            "Lighting Team",
+            "Construction Team"
+          ],
+          "answer": "Creative Team",
+          "explanation": "The Creative Team is responsible for developing the event concept, as their role involves creativity and event ideation."
+        },
+        {
+          "id": 5,
+          "question": "What type of task dependency is used between 'Stage Design & Construction' and 'Lighting Design'?",
+          "choices": [
+            "Start to Start (SS)",
+            "Finish to Start (FS)",
+            "Finish to Finish (FF)",
+            "Start to Finish (SF)"
+          ],
+          "answer": "Finish to Start (FS)",
+          "explanation": "'Lighting Design' has a Finish to Start (FS) dependency with 'Stage Design & Construction', meaning it cannot begin until the stage construction is completed."
+        },
+        {
+          "id": 6,
+          "question": "What is the key milestone at the end of the Pre-Production phase?",
+          "choices": [
+            "Venue selection complete",
+            "Event day confirmed",
+            "Event plan finalized",
+            "AV equipment set up"
+          ],
+          "answer": "Event plan finalized",
+          "explanation": "The key milestone at the end of the Pre-Production phase is the finalization of the event plan on September 30, 2024."
+        },
+        {
+          "id": 7,
+          "question": "How many days is the task 'AV Equipment Setup' scheduled for?",
+          "choices": [
+            "2 days",
+            "3 days",
+            "4 days",
+            "5 days"
+          ],
+          "answer": "4 days",
+          "explanation": "'AV Equipment Setup' is scheduled to last 4 days, from October 11, 2024, to October 14, 2024."
+        },
+        {
+          "id": 8,
+          "question": "Which teams are required for the 'Rehearsals' task?",
+          "choices": [
+            "AV Team, Lighting Team, Performers",
+            "Project Manager, Event Coordinator, Creative Team",
+            "Lighting Team, Decor Team, Cleanup Crew",
+            "Stage Construction Team, AV Team, Performers"
+          ],
+          "answer": "AV Team, Lighting Team, Performers",
+          "explanation": "The 'Rehearsals' task requires the AV Team, Lighting Team, and Performers to ensure that all aspects of the event are ready for execution."
+        },
+        {
+          "id": 9,
+          "question": "What is the final task in the project?",
+          "choices": [
+            "Final Checks & Troubleshooting",
+            "Event Execution",
+            "Rehearsals",
+            "Post-Event Wrap-Up"
+          ],
+          "answer": "Post-Event Wrap-Up",
+          "explanation": "The 'Post-Event Wrap-Up' is the final task, involving the cleanup and closing of the event, scheduled for October 16-17, 2024."
+        },
+        {
+          "id": 10,
+          "question": "Why is it important to create a project baseline?",
+          "choices": [
+            "To assign resources effectively",
+            "To establish project objectives",
+            "To track progress against the initial plan and monitor deviations",
+            "To ensure task dependencies are accurate"
+          ],
+          "answer": "To track progress against the initial plan and monitor deviations",
+          "explanation": "Creating a baseline helps track progress by comparing actual performance against the original plan and identifying variances, such as delays or budget overruns."
+        }
       ]
+      
+
            
     }

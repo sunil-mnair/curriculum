@@ -302,7 +302,7 @@
         ]
     }
 ],
-"The ML AI Preview 1":[
+"Foundations of Artificial Intelligence and Machine Learning":[
   {
     "id": 1,
     "question": "How familiar are you with the basic concepts of Artificial Intelligence (AI)?",
@@ -837,8 +837,37 @@
       "Other"
     ]
   }
+],
+"MS Project Plan 3":[
+  {
+    "id": 1,
+    "question": "Have you used any project management software before?",
+    "choices": ["Yes", "No"]
+  },
+  {
+    "id": 2,
+    "question": "How familiar are you with Microsoft Office Suite?",
+    "choices": ["Very Familiar", "Somewhat Familiar", "Not Familiar"]
+  },
+  {
+    "id": 3,
+    "question": "Do you have experience managing large-scale projects?",
+    "choices": ["Yes, I have managed multiple projects", "I have managed a few small projects", "No, I have no experience"]
+  },
+  {
+    "id": 4,
+    "question": "How comfortable are you working with timelines and Gantt charts?",
+    "choices": ["Very Comfortable", "Somewhat Comfortable", "Not Comfortable"]
+  },
+  {
+    "id": 5,
+    "question": "Have you used any version of Microsoft Project before?",
+    "choices": ["Yes", "No"]
+  },
+  {
+    "id": 6,
+    "question": "Do you have a basic understanding of task dependencies (e.g., Finish to Start)?",
+    "choices": ["Yes, I understand task dependencies", "I have a vague understanding", "No, I need a detailed explanation"]
+  }
 ]
-
-
-
 }
