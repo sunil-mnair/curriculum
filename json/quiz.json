@@ -4745,7 +4745,7 @@
         },
         {
           "id": 3,
-          "question": "What analogy is used to describe Deep Learning (DL) in the document?",
+          "question": "What analogy is used to describe Deep Learning (DL) in the curriculum?",
           "choices": [
             "Training a dog to fetch a ball.",
             "Conducting an orchestra of neurons.",
@@ -4817,7 +4817,7 @@
         },
         {
           "id": 9,
-          "question": "How does a Generative Adversarial Network (GAN) function in image generation?",
+          "question": "How does the Generative Adversarial Network (GAN) function in Generative AI assist in image generation?",
           "choices": [
             "By classifying images into predefined categories.",
             "By generating new images that mimic the style of the training data.",
