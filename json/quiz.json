@@ -1866,7 +1866,7 @@
             "explanation":"Snapshots are incremental backups, which means that only the blocks on the device that have changed after your most recent snapshot are saved. "
         }
     ]
-    ,"Excel Intermediate":
+    ,"Excel Intermediate - Essential":
         [
             {
             "id": 1,
@@ -1999,7 +1999,7 @@
         }
 
     ]
-    ,"Excel Intermediate - New":
+    ,"Excel Intermediate":
     [
       {
           "id": 1,
