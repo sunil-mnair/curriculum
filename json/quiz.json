@@ -4718,7 +4718,7 @@
           "explanation": "A trigger is a special type of stored procedure that automatically executes in response to specific events, such as insert, update, or delete operations on a table."
         }
       ],
-      "Foundations of Artificial Intelligence and Machine Learning":[
+      "GenAIBIZ":[
         {
           "id": 1,
           "question": "What is Artificial Intelligence (AI) primarily concerned with?",
@@ -4805,27 +4805,27 @@
         },
         {
           "id": 8,
-          "question": "What is the primary function of a bias term in an Artificial Neural Network (ANN)?",
+          "question": "What does the bias term in a neural network do?",
           "choices": [
-            "It determines the importance of each input.",
-            "It shifts the activation function to better fit the model to the data.",
-            "It controls the learning rate during training.",
-            "It serves as the output layer in a neural network."
+            "It changes the output to improve accuracy.",
+            "It shifts the model to better fit the data.",
+            "It increases the speed of learning.",
+            "It prevents overfitting."
           ],
-          "answer": "It shifts the activation function to better fit the model to the data.",
-          "explanation": "The bias term allows shifting the activation function, which helps the model better fit the data by adjusting how input values are processed."
+          "answer": "It shifts the model to better fit the data.",
+          "explanation": "The bias term shifts the activation function, helping the model fit the data better."
         },
         {
           "id": 9,
-          "question": "How does the Generative Adversarial Network (GAN) function in Generative AI assist in image generation?",
+          "question": "What do Generative Adversarial Networks (GANs) do?",
           "choices": [
-            "By classifying images into predefined categories.",
-            "By generating new images that mimic the style of the training data.",
-            "By segmenting images into different parts based on object boundaries.",
-            "By detecting and localizing objects within an image."
+            "Classify images into categories.",
+            "Generate new images similar to the training data.",
+            "Detect objects in images.",
+            "Segment images based on boundaries."
           ],
-          "answer": "By generating new images that mimic the style of the training data.",
-          "explanation": "GANs consist of two networks: a generator that creates images and a discriminator that evaluates them, allowing the generator to improve until it produces realistic images."
+          "answer": "Generate new images similar to the training data.",
+          "explanation": "GANs create new images by using two networks—a generator and a discriminator—to refine the quality of the generated images."
         },
         {
           "id": 10,
