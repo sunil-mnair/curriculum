@@ -869,5 +869,39 @@
     "question": "Do you have a basic understanding of task dependencies (e.g., Finish to Start)?",
     "choices": ["Yes, I understand task dependencies", "I have a vague understanding", "No, I need a detailed explanation"]
   }
+],
+"Digital Banking Masterclass":
+[
+  {
+    "id": 1,
+    "question": "How familiar are you with the traditional banking business model?",
+    "choices": ["Not familiar", "Somewhat familiar", "Familiar", "Very familiar"]
+  },
+  {
+    "id": 2,
+    "question": "Have you studied or worked with different types of banking models (e.g., retail, commercial, investment)?",
+    "choices": ["No experience", "Basic knowledge", "Moderate experience", "Extensive experience"]
+  },
+  {
+    "id": 3,
+    "question": "How well do you understand the role of liquidity in banking operations?",
+    "choices": ["Not at all", "A little", "Moderately well", "Very well"]
+  },
+  {
+    "id": 4,
+    "question": "How familiar are you with the evolution of banking, especially the transition to digital banking?",
+    "choices": ["Not familiar", "Somewhat familiar", "Familiar", "Very familiar"]
+  },
+  {
+    "id": 5,
+    "question": "Have you previously worked with or studied digital banking platforms or systems?",
+    "choices": ["No experience", "Basic knowledge", "Moderate experience", "Extensive experience"]
+  },
+  {
+    "id": 6,
+    "question": "How well do you understand the security aspects and regulatory concerns in digital banking?",
+    "choices": ["Not at all", "A little", "Moderately well", "Very well"]
+  }
 ]
+
 }
