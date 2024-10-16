@@ -902,6 +902,38 @@
     "question": "How well do you understand the security aspects and regulatory concerns in digital banking?",
     "choices": ["Not at all", "A little", "Moderately well", "Very well"]
   }
+],
+"Microsoft Outlook":[
+  {
+      "id": 1,
+      "question": "How familiar are you with setting up and managing multiple email accounts in Microsoft Outlook?",
+      "choices": ["Not familiar", "Somewhat familiar", "Very familiar", "Expert"]
+  },
+  {
+      "id": 2,
+      "question": "Have you used Microsoft Outlook’s calendar feature to schedule and manage meetings?",
+      "choices": ["Never", "Occasionally", "Regularly", "Frequently"]
+  },
+  {
+      "id": 3,
+      "question": "What is your experience with using rules to automate email sorting in Outlook?",
+      "choices": ["I have never used it", "I have used it a few times", "I use it regularly", "I am an expert at using rules"]
+  },
+  {
+      "id": 4,
+      "question": "How comfortable are you with managing contacts and creating contact groups in Outlook?",
+      "choices": ["Not comfortable", "Somewhat comfortable", "Comfortable", "Very comfortable"]
+  },
+  {
+      "id": 5,
+      "question": "Have you ever customized the Outlook ribbon or Quick Access Toolbar to improve your workflow?",
+      "choices": ["No", "Yes, but rarely", "Yes, I do it occasionally", "Yes, I do it regularly"]
+  },
+  {
+      "id": 6,
+      "question": "How often do you use Outlook’s task management features such as the To-Do list or reminders?",
+      "choices": ["Never", "Occasionally", "Frequently", "Always"]
+  }
 ]
 
 }

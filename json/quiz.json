@@ -5084,9 +5084,128 @@
           "answer": "It illustrates how lending money helps boost economic activity",
           "explanation": "The income multiplier effect explains that when banks lend money, it stimulates spending and investment, which helps grow the economy through increased consumption and business expansion."
         }
+      ],
+      "Microsoft Outlook":[
+        {
+          "id": 1,
+          "question": "Which panes are essential parts of the Microsoft Outlook email interface?",
+          "choices": [
+            "Navigation Pane, Mail Pane, Reading Pane",
+            "Task Pane, Calendar Pane, Mail Pane",
+            "Contacts Pane, Mail Pane, Settings Pane",
+            "Inbox Pane, Sent Items Pane, Drafts Pane"
+          ],
+          "answer": "Navigation Pane, Mail Pane, Reading Pane",
+          "explanation": "The primary components of the Outlook interface are the Navigation Pane (to switch between views), the Mail Pane (to view folders), and the Reading Pane (to preview emails)."
+        },
+        {
+          "id": 2,
+          "question": "How do you create a new folder in Outlook to organize your emails?",
+          "choices": [
+            "Right-click on Inbox > Select 'New Folder'",
+            "Click on File > Options > Create Folder",
+            "Click on the Home tab > New Folder",
+            "Drag an email into the folder pane to auto-create a folder"
+          ],
+          "answer": "Right-click on Inbox > Select 'New Folder'",
+          "explanation": "In Outlook, you can create a new folder by right-clicking on an existing folder like Inbox, then selecting 'New Folder' from the dropdown menu."
+        },
+        {
+          "id": 3,
+          "question": "What is the primary purpose of the 'Rules' feature in Outlook?",
+          "choices": [
+            "To enhance calendar functionality",
+            "To filter and automate email organization",
+            "To create recurring tasks",
+            "To manage email signatures"
+          ],
+          "answer": "To filter and automate email organization",
+          "explanation": "The 'Rules' feature in Outlook helps automate the management of incoming or outgoing emails, for example, by moving them to specific folders based on criteria like sender or keywords."
+        },
+        {
+          "id": 4,
+          "question": "Which option allows you to encrypt emails in Outlook?",
+          "choices": [
+            "File > Options > Trust Center > Email Security",
+            "Home tab > New Email > Encrypt",
+            "Settings > Privacy > Encryption",
+            "File > Email Settings > Encrypt"
+          ],
+          "answer": "File > Options > Trust Center > Email Security",
+          "explanation": "To encrypt emails in Outlook, go to File > Options > Trust Center, then select Trust Center Settings and navigate to Email Security to set up encryption."
+        },
+        {
+          "id": 5,
+          "question": "What does the 'Clean Up' feature in Outlook do?",
+          "choices": [
+            "Deletes old emails automatically",
+            "Cleans up unnecessary items from the calendar",
+            "Removes redundant messages in email conversations",
+            "Moves all unread emails to the archive"
+          ],
+          "answer": "Removes redundant messages in email conversations",
+          "explanation": "The 'Clean Up' feature in Outlook removes redundant messages from email threads, retaining only the most recent message that includes all previous replies."
+        },
+        {
+          "id": 6,
+          "question": "How can you set a reminder for an email in Outlook?",
+          "choices": [
+            "Select the email > Click on 'Follow Up' > Add Reminder",
+            "Right-click on the email > Set Task",
+            "Highlight the email > Create Calendar Event",
+            "Drag the email to the Task pane"
+          ],
+          "answer": "Select the email > Click on 'Follow Up' > Add Reminder",
+          "explanation": "In Outlook, to set a reminder for an email, select the email, go to the 'Follow Up' option on the Home tab, and choose 'Add Reminder' to specify a date and time."
+        },
+        {
+          "id": 7,
+          "question": "What is the advantage of using 'Quick Steps' in Outlook?",
+          "choices": [
+            "To send emails without an internet connection",
+            "To perform multiple actions with one click",
+            "To schedule automatic email sends",
+            "To automatically create calendar events from emails"
+          ],
+          "answer": "To perform multiple actions with one click",
+          "explanation": "Quick Steps in Outlook are designed to streamline workflow by allowing users to perform multiple actions (e.g., moving emails to a folder, replying with a template) with a single click."
+        },
+        {
+          "id": 8,
+          "question": "Which method can you use to view tasks and appointments together in Outlook?",
+          "choices": [
+            "Enable Daily Task List in Calendar view",
+            "Click on File > Open Tasks and Calendar",
+            "Use the Task Pane in Mail view",
+            "Enable the Reading Pane for Calendar view"
+          ],
+          "answer": "Enable Daily Task List in Calendar view",
+          "explanation": "To view tasks and appointments together in Outlook, enable the 'Daily Task List' in Calendar view, which shows tasks at the bottom of the calendar for the corresponding dates."
+        },
+        {
+          "id": 9,
+          "question": "What should you do if you receive a suspicious email that may be a phishing attempt?",
+          "choices": [
+            "Click the links to verify the sender",
+            "Respond to the email to ask for clarification",
+            "Delete the email immediately",
+            "Verify the sender’s address and avoid clicking on any links"
+          ],
+          "answer": "Verify the sender’s address and avoid clicking on any links",
+          "explanation": "If you suspect an email is a phishing attempt, it is crucial to verify the sender's address and avoid clicking on any links or attachments, as they may lead to malware or data theft."
+        },
+        {
+          "id": 10,
+          "question": "How can you add a new contact to your Outlook People list?",
+          "choices": [
+            "Go to People > New Contact > Fill details and Save",
+            "Right-click on the email > Add to Contacts",
+            "Go to File > Add New Contact > Save",
+            "Click on the Mail tab > Create Contact"
+          ],
+          "answer": "Go to People > New Contact > Fill details and Save",
+          "explanation": "To add a new contact in Outlook, navigate to the 'People' section, click 'New Contact', fill in the relevant details such as name and email, and save the contact."
+        }
       ]
       
-      
-
-           
     }
