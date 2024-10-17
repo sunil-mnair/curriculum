@@ -4745,7 +4745,7 @@
         },
         {
           "id": 3,
-          "question": "What analogy is used to describe Deep Learning (DL) in the curriculum?",
+          "question": "What analogy can be used to describe Deep Learning (DL)?",
           "choices": [
             "Training a dog to fetch a ball.",
             "Conducting an orchestra of neurons.",
