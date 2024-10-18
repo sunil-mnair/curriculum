@@ -4721,123 +4721,123 @@
       "GenAIBIZ":[
         {
           "id": 1,
-          "question": "What is Artificial Intelligence (AI) primarily concerned with?",
+          "question": "Which of the following is the primary focus of Artificial Intelligence (AI)?",
           "choices": [
             "Automating cognitive tasks typically requiring human intelligence.",
-            "Teaching robots to perform physical tasks.",
-            "Creating neural networks that mimic human thought.",
-            "Developing computer vision systems."
+            "Training robots to complete physical tasks.",
+            "Building neural networks that imitate human cognition.",
+            "Creating advanced computer vision technologies."
           ],
           "answer": "Automating cognitive tasks typically requiring human intelligence.",
-          "explanation": "AI involves automating and enhancing cognitive tasks that require human intelligence, such as problem-solving and decision-making."
+          "explanation": "AI is centered around automating intellectual tasks that would typically need human intelligence, such as reasoning, decision-making, and problem-solving."
         },
         {
           "id": 2,
-          "question": "Which of the following best describes Machine Learning (ML)?",
+          "question": "How would you best define Machine Learning (ML)?",
           "choices": [
             "A system that learns from large amounts of data to make decisions or predictions.",
-            "A robot that learns physical tasks through practice.",
-            "A model that processes input and generates human-like text.",
-            "A deep learning technique that involves multiple layers of neurons."
+            "A robot that gains skills through physical practice.",
+            "A tool that creates human-like text responses.",
+            "A multi-layer neural network used in deep learning."
           ],
           "answer": "A system that learns from large amounts of data to make decisions or predictions.",
-          "explanation": "Machine Learning is about feeding large datasets into systems that learn to make predictions or decisions, improving over time."
+          "explanation": "Machine Learning is the process where systems improve their decision-making or predictive abilities by analyzing large datasets."
         },
         {
           "id": 3,
-          "question": "What analogy can be used to describe Deep Learning (DL)?",
+          "question": "Which metaphor best illustrates the concept of Deep Learning (DL)?",
           "choices": [
-            "Training a dog to fetch a ball.",
-            "Conducting an orchestra of neurons.",
-            "Teaching a student with a tutor.",
-            "Solving a mystery without clues."
+            "Training a pet to follow commands.",
+            "Coordinating a group of neurons like an orchestra.",
+            "Guiding a student with personalized tutoring.",
+            "Solving a complex puzzle without instructions."
           ],
-          "answer": "Conducting an orchestra of neurons.",
-          "explanation": "Deep Learning is likened to an orchestra, where each neuron (musician) contributes to a complex, harmonious performance."
+          "answer": "Coordinating a group of neurons like an orchestra.",
+          "explanation": "Deep Learning is often compared to an orchestra where individual neurons act in concert to produce a sophisticated output."
         },
         {
           "id": 4,
-          "question": "Generative AI can be best described as:",
+          "question": "Which statement most accurately describes Generative AI?",
           "choices": [
             "A system that creates entirely new content based on learned data.",
-            "An AI that mimics human speech patterns.",
-            "A machine learning model that classifies images.",
-            "A neural network designed to solve puzzles."
+            "A type of AI that simulates human speech.",
+            "A machine learning model that categorizes images.",
+            "A neural network designed for problem-solving."
           ],
           "answer": "A system that creates entirely new content based on learned data.",
-          "explanation": "Generative AI uses learned data to generate new, original content, such as text, images, or music."
+          "explanation": "Generative AI models generate novel content like text, images, or music based on patterns learned from training data."
         },
         {
           "id": 5,
           "question": "Which of the following is NOT an example of a Generative AI application?",
           "choices": [
-            "Text generation using GPT models.",
+            "Text creation using GPT models.",
             "Image recognition in Google Photos.",
-            "Music composition by analyzing musical patterns.",
-            "Drug discovery using reinforcement learning."
+            "Generating music through pattern analysis.",
+            "Discovering new drugs using reinforcement learning."
           ],
           "answer": "Image recognition in Google Photos.",
-          "explanation": "Image recognition is a classification task, not generative. Generative AI focuses on creating new content rather than classifying existing content."
+          "explanation": "Image recognition involves classification, not content generation. Generative AI focuses on creating new content rather than recognizing or categorizing existing data."
         },
         {
           "id": 6,
-          "question": "In supervised learning, what role does the 'teacher' play?",
+          "question": "What role does the 'teacher' have in supervised learning?",
           "choices": [
-            "Provides the model with input data and the correct output labels.",
-            "Helps the model discover patterns without guidance.",
-            "Adjusts the learning rate during training.",
-            "Modifies the activation function to improve accuracy."
+            "Providing the model with both input data and correct output labels.",
+            "Helping the model uncover hidden patterns without direct guidance.",
+            "Controlling the learning rate during the training process.",
+            "Adjusting the model’s activation function to enhance accuracy."
           ],
-          "answer": "Provides the model with input data and the correct output labels.",
-          "explanation": "In supervised learning, the model is trained with input-output pairs, where the 'teacher' provides the correct answers to guide learning."
+          "answer": "Providing the model with both input data and correct output labels.",
+          "explanation": "In supervised learning, the model learns from input-output pairs, where the 'teacher' provides the correct outputs to guide the learning process."
         },
         {
           "id": 7,
-          "question": "What is an epoch in the context of training neural networks?",
+          "question": "What does an epoch signify in neural network training?",
           "choices": [
-            "The process of adjusting weights after each batch.",
-            "One complete cycle through the entire training dataset.",
-            "The final test on a new dataset.",
-            "The adjustment of the learning rate over time."
+            "Adjusting the model weights after each data batch.",
+            "A full pass through the entire training dataset.",
+            "The final evaluation on an unseen test set.",
+            "Modifying the learning rate throughout training."
           ],
-          "answer": "One complete cycle through the entire training dataset.",
-          "explanation": "An epoch refers to one complete pass through the entire training dataset, allowing the model to learn from all the data."
+          "answer": "A full pass through the entire training dataset.",
+          "explanation": "An epoch refers to one complete cycle through the entire training dataset, which is essential for allowing the model to learn from the data."
         },
         {
           "id": 8,
-          "question": "What does the bias term in a neural network do?",
+          "question": "What is the purpose of the bias term in a neural network?",
           "choices": [
-            "It changes the output to improve accuracy.",
-            "It shifts the model to better fit the data.",
-            "It increases the speed of learning.",
-            "It prevents overfitting."
+            "To shift the model to better fit the data.",
+            "To change the output in order to enhance accuracy.",
+            "To accelerate the model’s learning process.",
+            "To prevent the model from overfitting to the data."
           ],
-          "answer": "It shifts the model to better fit the data.",
-          "explanation": "The bias term shifts the activation function, helping the model fit the data better."
+          "answer": "To shift the model to better fit the data.",
+          "explanation": "The bias term adjusts the activation function, enabling the model to better fit the training data and improve performance."
         },
         {
           "id": 9,
-          "question": "What do Generative Adversarial Networks (GANs) do?",
+          "question": "What is the primary function of Generative Adversarial Networks (GANs)?",
           "choices": [
-            "Classify images into categories.",
-            "Generate new images similar to the training data.",
-            "Detect objects in images.",
-            "Segment images based on boundaries."
+            "To classify images into distinct categories.",
+            "To generate new images that resemble the training data.",
+            "To identify objects within images.",
+            "To segment images based on their boundaries."
           ],
-          "answer": "Generate new images similar to the training data.",
-          "explanation": "GANs create new images by using two networks—a generator and a discriminator—to refine the quality of the generated images."
+          "answer": "To generate new images that resemble the training data.",
+          "explanation": "GANs are used to generate realistic new images by using two neural networks—a generator and a discriminator—working together to improve the quality of the output."
         },
         {
           "id": 10,
-          "question": "What does the term 'tokenization' refer to in Natural Language Processing (NLP)?",
+          "question": "In the field of Natural Language Processing (NLP), what does 'tokenization' mean?",
           "choices": [
-            "Breaking text into individual words or punctuation marks.",
-            "Encoding sentences into vectors for model input.",
-            "Summarizing text into shorter versions.",
+            "Dividing text into individual words or punctuation marks.",
+            "Encoding text into vector representations for machine learning models.",
+            "Condensing lengthy text into shorter summaries.",
             "Translating text from one language to another."
           ],
-          "answer": "Breaking text into individual words or punctuation marks.",
-          "explanation": "Tokenization is the process of splitting text into smaller components, like words or punctuation marks, which helps in text analysis and processing."
+          "answer": "Dividing text into individual words or punctuation marks.",
+          "explanation": "Tokenization involves splitting text into smaller, manageable pieces, such as words or punctuation, which can be used for further language analysis."
         }
       ],
       "MS Project Plan 3":[
