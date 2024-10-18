@@ -4721,7 +4721,7 @@
       "GenAIBIZ":[
         {
           "id": 1,
-          "question": "Which of the following is the primary focus of Artificial Intelligence (AI)?",
+          "question": "Which of the following is the primary focus of Artificial Intelligence(AI)?",
           "choices": [
             "Automating cognitive tasks typically requiring human intelligence.",
             "Training robots to complete physical tasks.",
@@ -4733,7 +4733,7 @@
         },
         {
           "id": 2,
-          "question": "How would you best define Machine Learning (ML)?",
+          "question": "How would you best define Machine Learning(ML)?",
           "choices": [
             "A system that learns from large amounts of data to make decisions or predictions.",
             "A robot that gains skills through physical practice.",
@@ -4745,7 +4745,7 @@
         },
         {
           "id": 3,
-          "question": "Which metaphor best illustrates the concept of Deep Learning (DL)?",
+          "question": "Which metaphor best illustrates the concept of Deep Learning(DL)?",
           "choices": [
             "Training a pet to follow commands.",
             "Coordinating a group of neurons like an orchestra.",
@@ -4757,7 +4757,7 @@
         },
         {
           "id": 4,
-          "question": "Which statement most accurately describes Generative AI?",
+          "question": "Which statement most accurately describes GenerativeAI?",
           "choices": [
             "A system that creates entirely new content based on learned data.",
             "A type of AI that simulates human speech.",
@@ -4769,7 +4769,7 @@
         },
         {
           "id": 5,
-          "question": "Which of the following is NOT an example of a Generative AI application?",
+          "question": "Which of the following is NOT an example of a GenerativeAI application?",
           "choices": [
             "Text creation using GPT models.",
             "Image recognition in Google Photos.",
@@ -4781,7 +4781,7 @@
         },
         {
           "id": 6,
-          "question": "What role does the 'teacher' have in supervised learning?",
+          "question": "What role does the 'teacher' have in supervised-learning?",
           "choices": [
             "Providing the model with both input data and correct output labels.",
             "Helping the model uncover hidden patterns without direct guidance.",
@@ -4793,7 +4793,7 @@
         },
         {
           "id": 7,
-          "question": "What does an epoch signify in neural network training?",
+          "question": "What does an epoch signify in neural-network training?",
           "choices": [
             "Adjusting the model weights after each data batch.",
             "A full pass through the entire training dataset.",
@@ -4805,7 +4805,7 @@
         },
         {
           "id": 8,
-          "question": "What is the purpose of the bias term in a neural network?",
+          "question": "What is the purpose of the bias term in a neural-network?",
           "choices": [
             "To shift the model to better fit the data.",
             "To change the output in order to enhance accuracy.",
@@ -4817,7 +4817,7 @@
         },
         {
           "id": 9,
-          "question": "What is the primary function of Generative Adversarial Networks (GANs)?",
+          "question": "What is the primary function of Generative Adversarial Networks(GANs)?",
           "choices": [
             "To classify images into distinct categories.",
             "To generate new images that resemble the training data.",
@@ -4829,7 +4829,7 @@
         },
         {
           "id": 10,
-          "question": "In the field of Natural Language Processing (NLP), what does 'tokenization' mean?",
+          "question": "In the field of Natural Language Processing(NLP), what does 'tokenization' mean?",
           "choices": [
             "Dividing text into individual words or punctuation marks.",
             "Encoding text into vector representations for machine learning models.",
