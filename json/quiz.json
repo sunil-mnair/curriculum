@@ -5206,6 +5206,127 @@
           "answer": "Go to People > New Contact > Fill details and Save",
           "explanation": "To add a new contact in Outlook, navigate to the 'People' section, click 'New Contact', fill in the relevant details such as name and email, and save the contact."
         }
-      ]
-      
+      ],
+      "MS PowerPoint":[
+        {
+            "id": 1,
+            "question": "What is the primary purpose of the Quick Access Toolbar in Microsoft PowerPoint?",
+            "choices": [
+                "To add additional slides to the presentation",
+                "To offer easy access to frequently used commands",
+                "To apply animations to slides",
+                "To navigate between slides in a slideshow"
+            ],
+            "answer": "To offer easy access to frequently used commands",
+            "explanation": "The Quick Access Toolbar allows users to quickly access commands they use often, saving time and improving workflow efficiency."
+        },
+        {
+            "id": 2,
+            "question": "Which PowerPoint feature ensures a consistent design and layout across all slides in a presentation?",
+            "choices": [
+                "Themes",
+                "Slide Zoom",
+                "Master Slides",
+                "Slide Transitions"
+            ],
+            "answer": "Master Slides",
+            "explanation": "Master Slides control design elements like background, fonts, and layouts, ensuring uniformity throughout the presentation."
+        },
+        {
+            "id": 3,
+            "question": "When importing an outline from Microsoft Word into PowerPoint, which formatting style should be applied to the title text?",
+            "choices": [
+                "Heading 1",
+                "Heading 2",
+                "Normal Text",
+                "Bullet Points"
+            ],
+            "answer": "Heading 1",
+            "explanation": "In Word, using Heading 1 designates text as the title for a new slide when imported into PowerPoint."
+        },
+        {
+            "id": 4,
+            "question": "Which of the following tools in PowerPoint helps with precise placement and alignment of objects on a slide?",
+            "choices": [
+                "Quick Access Toolbar",
+                "Themes",
+                "Smart Guides",
+                "Slide Show"
+            ],
+            "answer": "Smart Guides",
+            "explanation": "Smart Guides appear as you move objects, helping align them accurately with other elements on the slide."
+        },
+        {
+            "id": 5,
+            "question": "How can you add a hyperlink to a text or object in PowerPoint?",
+            "choices": [
+                "Right-click the item and select 'Add Hyperlink'",
+                "Double-click the item and select 'Hyperlink'",
+                "Go to the 'File' tab and select 'Hyperlink'",
+                "Drag and drop a link onto the item"
+            ],
+            "answer": "Right-click the item and select 'Add Hyperlink'",
+            "explanation": "To add a hyperlink, right-click on the item and choose 'Link' or 'Hyperlink' to set the destination link."
+        },
+        {
+            "id": 6,
+            "question": "What is the purpose of the Slide Zoom feature in PowerPoint?",
+            "choices": [
+                "To insert multiple images at once",
+                "To create a navigation hub with slide thumbnails",
+                "To increase slide size in the editing view",
+                "To zoom in on a particular image on the slide"
+            ],
+            "answer": "To create a navigation hub with slide thumbnails",
+            "explanation": "Slide Zoom allows you to create a summary slide with clickable thumbnails, enhancing navigation within the presentation."
+        },
+        {
+            "id": 7,
+            "question": "Which PowerPoint feature allows you to animate changes in objects between two slides, creating a seamless transition?",
+            "choices": [
+                "Slide Zoom",
+                "Morph Transition",
+                "Animation Pane",
+                "Quick Access Toolbar"
+            ],
+            "answer": "Morph Transition",
+            "explanation": "The Morph Transition animates changes between two slides, moving or transforming objects smoothly."
+        },
+        {
+            "id": 8,
+            "question": "In PowerPoint, what is the purpose of using the 'Compare' feature?",
+            "choices": [
+                "To detect and highlight differences between two presentations",
+                "To combine multiple presentations into one",
+                "To check accessibility issues within a presentation",
+                "To review and edit comments in a presentation"
+            ],
+            "answer": "To detect and highlight differences between two presentations",
+            "explanation": "The 'Compare' feature allows users to view and manage changes between two versions of a presentation, helping with collaboration and version control."
+        },
+        {
+            "id": 9,
+            "question": "How can you ensure an audio file plays across multiple slides in a PowerPoint presentation?",
+            "choices": [
+                "Set the audio to 'Start On Click'",
+                "Select 'Loop Until Stopped'",
+                "Choose 'Play in Background' option",
+                "Add audio to each slide manually"
+            ],
+            "answer": "Choose 'Play in Background' option",
+            "explanation": "The 'Play in Background' option allows audio to play continuously as you move through slides, ideal for background music or narration."
+        },
+        {
+            "id": 10,
+            "question": "What does the Accessibility Checker in PowerPoint help identify?",
+            "choices": [
+                "Grammar errors in text",
+                "Hidden data in the presentation",
+                "Issues that might make content hard for people with disabilities to understand",
+                "File size and compatibility issues"
+            ],
+            "answer": "Issues that might make content hard for people with disabilities to understand",
+            "explanation": "The Accessibility Checker reviews the presentation for elements that may be challenging for users with disabilities, promoting inclusivity."
+        }
+    ]      
     }
