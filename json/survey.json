@@ -934,6 +934,37 @@
       "question": "How often do you use Outlook’s task management features such as the To-Do list or reminders?",
       "choices": ["Never", "Occasionally", "Frequently", "Always"]
   }
+],
+"Emerging Technologies":[
+  {
+      "id": 1,
+      "question": "How familiar are you with the core concepts of Artificial Intelligence, Machine Learning, and Deep Learning?",
+      "choices": ["Not at all familiar", "Somewhat familiar", "Moderately familiar", "Very familiar"]
+  },
+  {
+      "id": 2,
+      "question": "What is your level of experience with Generative AI applications in industries (e.g., healthcare, finance, retail)?",
+      "choices": ["No experience", "Limited experience", "Some experience", "Extensive experience"]
+  },
+  {
+      "id": 3,
+      "question": "How comfortable are you with understanding and creating prompts in a generative AI model like ChatGPT?",
+      "choices": ["Not comfortable", "Slightly comfortable", "Moderately comfortable", "Very comfortable"]
+  },
+  {
+      "id": 4,
+      "question": "Have you previously worked with APIs or integrated them into business applications?",
+      "choices": ["No, I have not worked with APIs", "Yes, I have used APIs occasionally", "Yes, I have frequently used APIs", "Yes, I have developed applications using APIs extensively"]
+  },
+  {
+      "id": 5,
+      "question": "What is your familiarity with IoT and its applications, such as smart devices and data integration?",
+      "choices": ["Unfamiliar", "Somewhat familiar", "Moderately familiar", "Highly familiar"]
+  },
+  {
+      "id": 6,
+      "question": "Which aspects of the course are you most interested in learning about?",
+      "choices": ["AI and ML fundamentals", "Generative AI applications", "Prompt engineering", "IoT and data science", "APIs and their integration"]
+  }
 ]
-
 }
