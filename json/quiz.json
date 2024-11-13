@@ -5328,5 +5328,128 @@
             "answer": "Issues that might make content hard for people with disabilities to understand",
             "explanation": "The Accessibility Checker reviews the presentation for elements that may be challenging for users with disabilities, promoting inclusivity."
         }
-    ]      
+    ],
+    "MS Word":[
+      {
+          "id": 1,
+          "question": "Sarah is creating a report in Microsoft Word and wants all main headings to be bold, size 16, and in blue. She also needs to ensure that she can update the style of all headings at once if required. What feature should she use to achieve this?",
+          "choices": [
+              "Manual formatting",
+              "Paragraph spacing",
+              "Text alignment",
+              "Styles"
+          ],
+          "answer": "Styles",
+          "explanation": "Using Styles allows Sarah to format her headings consistently and modify all headings at once by updating the style settings."
+      },
+      {
+          "id": 2,
+          "question": "While reviewing a colleague’s document, John notices they’ve used inconsistent font sizes, which makes it hard to read. He decides to enable a tool that will record his edits so his colleague can see exactly what he’s changed. Which feature should John activate?",
+          "choices": [
+              "Mail Merge",
+              "Track Changes",
+              "Read Mode",
+              "Inspect Document"
+          ],
+          "answer": "Track Changes",
+          "explanation": "Track Changes enables John to mark his edits, allowing his colleague to review each change and accept or reject it."
+      },
+      {
+          "id": 3,
+          "question": "Alex is designing a newsletter in Word that he plans to send to different customers, with each one’s name and address automatically filled in. He has a list of customer information in an Excel file. Which feature should Alex use to create a personalized document for each recipient?",
+          "choices": [
+              "Page Setup",
+              "Mail Merge",
+              "Track Changes",
+              "Document Protection"
+          ],
+          "answer": "Mail Merge",
+          "explanation": "Mail Merge allows Alex to connect his Word document to an Excel file, inserting personalized information for each recipient automatically."
+      },
+      {
+          "id": 4,
+          "question": "What is the purpose of using styles in Microsoft Word?",
+          "choices": [
+              "To apply a uniform format across multiple sections of a document",
+              "To manually format each section independently",
+              "To make the document less readable",
+              "To increase file size"
+          ],
+          "answer": "To apply a uniform format across multiple sections of a document",
+          "explanation": "Styles allow users to consistently format text and apply uniform formatting changes across the document, making it easy to modify layout quickly."
+      },
+      {
+          "id": 5,
+          "question": "Which Microsoft Word feature helps avoid single lines appearing alone at the top or bottom of a page?",
+          "choices": [
+              "Justification",
+              "Hyphenation",
+              "Widow/Orphan control",
+              "Page breaks"
+          ],
+          "answer": "Widow/Orphan control",
+          "explanation": "Widow/Orphan control prevents isolated lines at the beginning or end of a page, enhancing readability and presentation."
+      },
+      {
+          "id": 6,
+          "question": "Where can you find the option to adjust page orientation in Word?",
+          "choices": [
+              "Home tab",
+              "Layout tab",
+              "References tab",
+              "Insert tab"
+          ],
+          "answer": "Layout tab",
+          "explanation": "The Layout tab in Microsoft Word includes page orientation options, allowing users to switch between portrait and landscape views."
+      },
+      {
+          "id": 7,
+          "question": "How can you add a page number to a document?",
+          "choices": [
+              "Through the Review tab",
+              "Using the Page Setup dialog",
+              "Via the Header & Footer Tools Design tab",
+              "From the Home tab"
+          ],
+          "answer": "Via the Header & Footer Tools Design tab",
+          "explanation": "Page numbers can be added through the Header & Footer Tools Design tab, where users can choose placement and style options."
+      },
+      {
+          "id": 8,
+          "question": "What tool would you use to automatically create a table of contents that updates as you edit the document?",
+          "choices": [
+              "Paragraph tool",
+              "Styles tool",
+              "Table tool",
+              "TOC tool"
+          ],
+          "answer": "Styles tool",
+          "explanation": "By applying heading styles, users can generate a table of contents automatically, enhancing navigation in longer documents."
+      },
+      {
+          "id": 9,
+          "question": "Maria needs to apply different headers and footers in various sections of her document, such as unique chapter titles on each section. Which feature should she use to control headers and footers separately for each section?",
+          "choices": [
+              "Page Break",
+              "Section Break",
+              "Paragraph Break",
+              "Custom Margins"
+          ],
+          "answer": "Section Break",
+          "explanation": "By using Section Breaks, Maria can apply unique headers and footers to different parts of the document without affecting the entire document."
+      },
+      {
+          "id": 10,
+          "question": "How can you prevent changes from being made to Track Changes settings?",
+          "choices": [
+              "Lock Tracking",
+              "Password Protection",
+              "Read-Only Mode",
+              "Custom Track Changes"
+          ],
+          "answer": "Lock Tracking",
+          "explanation": "The Lock Tracking feature prevents others from turning off Track Changes, preserving document editing records for collaborative review."
+      }
+  ]
+       
     }
