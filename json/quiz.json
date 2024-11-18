@@ -4718,7 +4718,7 @@
           "explanation": "A trigger is a special type of stored procedure that automatically executes in response to specific events, such as insert, update, or delete operations on a table."
         }
       ],
-      "GenAIBIZ":[
+      "Generative AI for Business":[
         {
           "id": 1,
           "question": "Which of the following is the primary focus of Artificial Intelligence(AI)?",
