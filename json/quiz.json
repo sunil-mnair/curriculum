@@ -4718,7 +4718,7 @@
           "explanation": "A trigger is a special type of stored procedure that automatically executes in response to specific events, such as insert, update, or delete operations on a table."
         }
       ],
-      "Generative AI for Business":[
+      "Generative AI for Business 1":[
         {
           "id": 1,
           "question": "Which of the following is the primary focus of Artificial Intelligence(AI)?",
@@ -5450,6 +5450,129 @@
           "answer": "Lock Tracking",
           "explanation": "The Lock Tracking feature prevents others from turning off Track Changes, preserving document editing records for collaborative review."
       }
+  ],
+  "Generative AI for Business":[
+    {
+      "id": 1,
+      "question": "A company wants to use AI to detect spam emails. Which machine learning method should they use?",
+      "choices": [
+        "Unsupervised Learning",
+        "Supervised Learning",
+        "Reinforcement Learning",
+        "Deep Learning"
+      ],
+      "answer": "Supervised Learning",
+      "explanation": "Supervised learning is used to train a model on labeled data, such as emails marked as spam or not spam, to make predictions on new data."
+    },
+    {
+      "id": 2,
+      "question": "Tesla is improving its self-driving cars. Which learning technique is most likely being used?",
+      "choices": [
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Reinforcement Learning",
+        "Generative Adversarial Networks (GANs)"
+      ],
+      "answer": "Reinforcement Learning",
+      "explanation": "Reinforcement learning allows systems to learn by interacting with the environment and receiving feedback, ideal for self-driving cars navigating roads."
+    },
+    {
+      "id": 3,
+      "question": "A startup is creating new music compositions using AI. Which AI technique are they likely using?",
+      "choices": [
+        "Machine Learning with Classification Algorithms",
+        "Deep Learning with Artificial Neural Networks (RNNs)",
+        "Reinforcement Learning",
+        "Natural Language Processing (NLP)"
+      ],
+      "answer": "Deep Learning with Artificial Neural Networks (RNNs)",
+      "explanation": "Deep learning models like RNNs are excellent at analyzing sequential data such as music and creating original compositions based on patterns."
+    },
+    {
+      "id": 4,
+      "question": "Netflix wants to recommend shows to its users based on their viewing history. What type of AI is this?",
+      "choices": [
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Reinforcement Learning",
+        "Natural Language Processing (NLP)"
+      ],
+      "answer": "Unsupervised Learning",
+      "explanation": "Unsupervised learning can analyze user behavior to group similar content, providing personalized recommendations."
+    },
+    {
+      "id": 5,
+      "question": "A research team trains an AI model using images of cats and dogs. What is an appropriate dataset division from the choices?",
+      "choices": [
+        "100% Training Data",
+        "80% Training and 20% Testing Data",
+        "90% Training and 10% Testing Data",
+        "95% Training and 5% Testing Data"
+      ],
+      "answer": "80% Training and 20% Testing Data",
+      "explanation": "80% of the data for training the model and 20% for testing to evaluate its performance on unseen data."
+    },
+    {
+      "id": 6,
+      "question": "An AI tool analyzes customer preferences to suggest new products. What type of application is this?",
+      "choices": [
+        "Generative AI",
+        "Personalized Content Recommendation",
+        "Unsupervised Learning",
+        "Robotics"
+      ],
+      "answer": "Personalized Content Recommendation",
+      "explanation": "Personalized content recommendation uses ML to tailor suggestions based on user preferences, enhancing the user experience."
+    },
+    {
+      "id": 7,
+      "question": "In a factory, robots sort items based on their shapes and colors. What AI system is at work?",
+      "choices": [
+        "Deep Learning",
+        "Supervised Learning",
+        "Reinforcement Learning",
+        "Unsupervised Learning"
+      ],
+      "answer": "Deep Learning",
+      "explanation": "Deep learning models are often used for object recognition tasks that require processing visual features like shape and color."
+    },
+    {
+      "id": 8,
+      "question": "What does 'epoch' refer to in machine learning?",
+      "choices": [
+        "A single iteration through a batch of data",
+        "One complete pass through the entire training dataset",
+        "The size of the training dataset",
+        "The speed at which a model learns"
+      ],
+      "answer": "One complete pass through the entire training dataset",
+      "explanation": "An epoch is when the learning model has seen the entire training dataset once during the training process."
+    },
+    {
+      "id": 9,
+      "question": "Which AI method allows Google Translate to understand and convert sentences between languages?",
+      "choices": [
+        "Natural Language Processing (NLP)",
+        "Reinforcement Learning",
+        "Generative Adversarial Networks (GANs)",
+        "Deep Learning"
+      ],
+      "answer": "Natural Language Processing (NLP)",
+      "explanation": "NLP helps systems understand human language and translate text, capturing context and meaning."
+    },
+    {
+      "id": 10,
+      "question": "A scientist uses AI to design new molecular compounds for drugs. Which ML technique is most relevant?",
+      "choices": [
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Reinforcement Learning",
+        "Generative Adversarial Networks (GANs)"
+      ],
+      "answer": "Reinforcement Learning",
+      "explanation": "Reinforcement learning helps predict molecular interactions by learning from trial and error, accelerating drug discovery."
+    }
   ]
+  
        
     }
