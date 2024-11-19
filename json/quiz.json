@@ -4718,128 +4718,7 @@
           "explanation": "A trigger is a special type of stored procedure that automatically executes in response to specific events, such as insert, update, or delete operations on a table."
         }
       ],
-      "Generative AI for Business":[
-        {
-          "id": 1,
-          "question": "What is the primary goal of Artificial Intelligence (AI) as a field of technology?",
-          "choices": [
-            "Performing cognitive tasks that normally require human intelligence.",
-            "Training robots to execute physical operations.",
-            "Designing neural networks that emulate human thinking.",
-            "Developing innovative computer vision systems."
-          ],
-          "answer": "Performing cognitive tasks that normally require human intelligence.",
-          "explanation": "The core aim of AI is to replicate human intelligence in tasks such as reasoning, learning, and problem-solving."
-        },
-        {
-          "id": 2,
-          "question": "Which description best characterizes Machine Learning (ML)?",
-          "choices": [
-            "A system designed to analyze data and improve its performance over time.",
-            "A robotic system that develops abilities through physical experiences.",
-            "A tool capable of generating text responses like a human would.",
-            "A specific approach to deep learning using layered neural networks."
-          ],
-          "answer": "A system designed to analyze data and improve its performance over time.",
-          "explanation": "Machine Learning enables systems to evolve their predictive or decision-making capabilities by analyzing extensive datasets."
-        },
-        {
-          "id": 3,
-          "question": "Which analogy best explains the functioning of Deep Learning (DL)?",
-          "choices": [
-            "Training an animal to respond to specific cues.",
-            "A symphony where neurons play in harmony like instruments in an orchestra.",
-            "Tutoring a learner with highly customized feedback.",
-            "Piecing together an intricate jigsaw puzzle without instructions."
-          ],
-          "answer": "A symphony where neurons play in harmony like instruments in an orchestra.",
-          "explanation": "Deep Learning models are often likened to an orchestra, where individual neurons interact to create complex outputs."
-        },
-        {
-          "id": 4,
-          "question": "What is the best definition of Generative AI?",
-          "choices": [
-            "Technology that produces new data or content by learning from existing data.",
-            "A system specialized in mimicking human speech patterns.",
-            "An AI model that organizes visual content into categories.",
-            "A machine learning model focused on solving computational problems."
-          ],
-          "answer": "Technology that produces new data or content by learning from existing data.",
-          "explanation": "Generative AI involves creating original outputs such as text, images, or music by identifying patterns in the data it was trained on."
-        },
-        {
-          "id": 5,
-          "question": "Which of these examples does NOT involve the use of Generative AI?",
-          "choices": [
-            "Using GPT to write coherent text.",
-            "Identifying objects in photos with recognition software.",
-            "Composing music by analyzing patterns in sound.",
-            "Applying reinforcement learning to discover new medicines."
-          ],
-          "answer": "Identifying objects in photos with recognition software.",
-          "explanation": "Image recognition systems focus on classifying data rather than creating it, which is the hallmark of Generative AI."
-        },
-        {
-          "id": 6,
-          "question": "In supervised learning, what role does labeled data play?",
-          "choices": [
-            "It provides the model with inputs and their corresponding outputs for training.",
-            "It enables the model to identify patterns without specific instructions.",
-            "It helps regulate the rate at which the model learns.",
-            "It adjusts the neural network’s activation functions for better accuracy."
-          ],
-          "answer": "It provides the model with inputs and their corresponding outputs for training.",
-          "explanation": "Supervised learning relies on labeled datasets, where input-output pairs guide the model in learning to make accurate predictions."
-        },
-        {
-          "id": 7,
-          "question": "What does the term 'epoch' refer to in the context of training a neural network?",
-          "choices": [
-            "The process of updating weights after processing a batch of data.",
-            "A single complete pass over the entire training dataset.",
-            "The stage where the model is evaluated on an unseen test set.",
-            "The adjustment of learning parameters during training."
-          ],
-          "answer": "A single complete pass over the entire training dataset.",
-          "explanation": "An epoch represents one full iteration through all of the training data, which helps the model refine its learning."
-        },
-        {
-          "id": 8,
-          "question": "What is the function of the bias term in a neural network’s operation?",
-          "choices": [
-            "It shifts the model’s predictions to better match the data.",
-            "It adjusts the model output to improve accuracy.",
-            "It accelerates the convergence of the training process.",
-            "It prevents the model from becoming too specific to the training data."
-          ],
-          "answer": "It shifts the model’s predictions to better match the data.",
-          "explanation": "The bias term allows the model to offset the activation function, enabling better alignment with the data and improved performance."
-        },
-        {
-          "id": 9,
-          "question": "What is the key purpose of Generative Adversarial Networks (GANs)?",
-          "choices": [
-            "Sorting images into predefined groups.",
-            "Creating synthetic images that resemble those in the training data.",
-            "Locating and identifying objects within an image.",
-            "Dividing an image into different regions based on its features."
-          ],
-          "answer": "Creating synthetic images that resemble those in the training data.",
-          "explanation": "GANs are designed to generate new, realistic images by pitting two neural networks—a generator and a discriminator—against each other."
-        },
-        {
-          "id": 10,
-          "question": "In Natural Language Processing (NLP), what does the process of tokenization involve?",
-          "choices": [
-            "Breaking text into smaller units like words or punctuation.",
-            "Transforming text data into numerical vectors for processing.",
-            "Shortening long texts into concise summaries.",
-            "Translating written content from one language to another."
-          ],
-          "answer": "Breaking text into smaller units like words or punctuation.",
-          "explanation": "Tokenization splits a text into its constituent parts, such as words or symbols, to enable further computational analysis."
-        }            
-      ],
+      ,
       "MS Project Plan 3":[
         {
           "id": 1,
@@ -5451,128 +5330,126 @@
           "explanation": "The Lock Tracking feature prevents others from turning off Track Changes, preserving document editing records for collaborative review."
       }
   ],
-  "Generative AI for Business 1":[
+  "Emerging Technologies":[
     {
       "id": 1,
-      "question": "A company wants to use AI to detect spam emails. Which machine learning method should they use?",
+      "question": "You are asked to create a Virtual Stylist capable of classifying fashion categories from images. What type of learning would be most appropriate for this task?",
       "choices": [
-        "Unsupervised Learning",
         "Supervised Learning",
+        "Unsupervised Learning",
         "Reinforcement Learning",
         "Deep Learning"
       ],
       "answer": "Supervised Learning",
-      "explanation": "Supervised learning is used to train a model on labeled data, such as emails marked as spam or not spam, to make predictions on new data."
+      "explanation": "The task involves labeled data where images are classified into predefined fashion categories, making supervised learning the ideal choice."
     },
     {
       "id": 2,
-      "question": "Tesla is improving its self-driving cars. Which learning technique is most likely being used?",
+      "question": "A company needs to group customers into segments like 'premium buyers' and 'bargain shoppers' without predefined labels. What type of machine learning would you recommend?",
       "choices": [
         "Supervised Learning",
         "Unsupervised Learning",
         "Reinforcement Learning",
-        "Generative Adversarial Networks (GANs)"
+        "Deep Learning"
       ],
-      "answer": "Reinforcement Learning",
-      "explanation": "Reinforcement learning allows systems to learn by interacting with the environment and receiving feedback, ideal for self-driving cars navigating roads."
+      "answer": "Unsupervised Learning",
+      "explanation": "Unsupervised learning is suitable for discovering patterns and clustering data without predefined labels, as required in customer segmentation."
     },
     {
       "id": 3,
-      "question": "A startup is creating new music compositions using AI. Which AI technique are they likely using?",
+      "question": "A dog learns to fetch a ball by trial and error, receiving rewards for successful attempts. Which learning method does this scenario illustrate?",
       "choices": [
-        "Machine Learning with Classification Algorithms",
-        "Deep Learning with Artificial Neural Networks (RNNs)",
+        "Supervised Learning",
+        "Unsupervised Learning",
         "Reinforcement Learning",
-        "Natural Language Processing (NLP)"
+        "Deep Learning"
       ],
-      "answer": "Deep Learning with Artificial Neural Networks (RNNs)",
-      "explanation": "Deep learning models like RNNs are excellent at analyzing sequential data such as music and creating original compositions based on patterns."
+      "answer": "Reinforcement Learning",
+      "explanation": "Reinforcement learning involves learning through rewards and penalties, mimicking the trial-and-error approach described in the scenario."
     },
     {
       "id": 4,
-      "question": "Netflix wants to recommend shows to its users based on their viewing history. What type of AI is this?",
+      "question": "You are tasked with creating realistic synthetic images for a video game. Which AI model should you use?",
       "choices": [
-        "Supervised Learning",
-        "Unsupervised Learning",
-        "Reinforcement Learning",
-        "Natural Language Processing (NLP)"
+        "Recurrent Neural Networks (RNNs)",
+        "Generative Adversarial Networks (GANs)",
+        "Transformer Models",
+        "Classification Algorithms"
       ],
-      "answer": "Unsupervised Learning",
-      "explanation": "Unsupervised learning can analyze user behavior to group similar content, providing personalized recommendations."
+      "answer": "Generative Adversarial Networks (GANs)",
+      "explanation": "GANs are specialized in generating realistic images by learning patterns from a given dataset."
     },
     {
       "id": 5,
-      "question": "A research team trains an AI model using images of cats and dogs. What is an appropriate dataset division from the choices?",
+      "question": "A self-driving car improves its navigation skills over time by interacting with its environment. What kind of learning is this?",
       "choices": [
-        "100% Training Data",
-        "80% Training and 20% Testing Data",
-        "90% Training and 10% Testing Data",
-        "95% Training and 5% Testing Data"
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Reinforcement Learning",
+        "Deep Learning"
       ],
-      "answer": "80% Training and 20% Testing Data",
-      "explanation": "80% of the data for training the model and 20% for testing to evaluate its performance on unseen data."
+      "answer": "Reinforcement Learning",
+      "explanation": "Reinforcement learning allows the self-driving car to learn optimal actions through interaction and feedback from the environment."
     },
     {
       "id": 6,
-      "question": "An AI tool analyzes customer preferences to suggest new products. What type of application is this?",
+      "question": "Your project involves creating a model to detect spam emails by analyzing a labeled dataset of emails. Which method will you use?",
       "choices": [
-        "Generative AI",
-        "Personalized Content Recommendation",
+        "Supervised Learning",
         "Unsupervised Learning",
-        "Robotics"
+        "Reinforcement Learning",
+        "Deep Learning"
       ],
-      "answer": "Personalized Content Recommendation",
-      "explanation": "Personalized content recommendation uses ML to tailor suggestions based on user preferences, enhancing the user experience."
+      "answer": "Supervised Learning",
+      "explanation": "Since the data is labeled (spam vs. non-spam), supervised learning is the appropriate choice."
     },
     {
       "id": 7,
-      "question": "In a factory, robots sort items based on their shapes and colors. What AI system is at work?",
-      "choices": [
-        "Deep Learning",
-        "Supervised Learning",
-        "Reinforcement Learning",
-        "Unsupervised Learning"
-      ],
-      "answer": "Deep Learning",
-      "explanation": "Deep learning models are often used for object recognition tasks that require processing visual features like shape and color."
-    },
-    {
-      "id": 8,
-      "question": "What does 'epoch' refer to in machine learning?",
-      "choices": [
-        "A single iteration through a batch of data",
-        "One complete pass through the entire training dataset",
-        "The size of the training dataset",
-        "The speed at which a model learns"
-      ],
-      "answer": "One complete pass through the entire training dataset",
-      "explanation": "An epoch is when the learning model has seen the entire training dataset once during the training process."
-    },
-    {
-      "id": 9,
-      "question": "Which AI method allows Google Translate to understand and convert sentences between languages?",
-      "choices": [
-        "Natural Language Processing (NLP)",
-        "Reinforcement Learning",
-        "Generative Adversarial Networks (GANs)",
-        "Deep Learning"
-      ],
-      "answer": "Natural Language Processing (NLP)",
-      "explanation": "NLP helps systems understand human language and translate text, capturing context and meaning."
-    },
-    {
-      "id": 10,
-      "question": "A scientist uses AI to design new molecular compounds for drugs. Which ML technique is most relevant?",
+      "question": "A retailer wants to optimize product placement by analyzing patterns of frequently bought-together items. Which learning technique is applicable?",
       "choices": [
         "Supervised Learning",
         "Unsupervised Learning",
         "Reinforcement Learning",
-        "Generative Adversarial Networks (GANs)"
+        "Deep Learning"
+      ],
+      "answer": "Unsupervised Learning",
+      "explanation": "Unsupervised learning is suitable for identifying associations and patterns, such as market basket analysis."
+    },
+    {
+      "id": 8,
+      "question": "A robot learns to pick up objects by trying different approaches and observing the outcomes. What learning paradigm is this?",
+      "choices": [
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Reinforcement Learning",
+        "Deep Learning"
       ],
       "answer": "Reinforcement Learning",
-      "explanation": "Reinforcement learning helps predict molecular interactions by learning from trial and error, accelerating drug discovery."
+      "explanation": "The robot uses trial and error to learn optimal actions, which aligns with reinforcement learning principles."
+    },
+    {
+      "id": 9,
+      "question": "A streaming service personalizes content recommendations based on user viewing habits. Which learning method is likely used?",
+      "choices": [
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Reinforcement Learning",
+        "Classification Algorithms"
+      ],
+      "answer": "Unsupervised Learning",
+      "explanation": "The service groups users with similar viewing behaviors using clustering techniques, a type of unsupervised learning."
+    },
+    {
+      "id": 10,
+      "question": "To create a chatbot capable of generating conversational responses, which AI model is most suitable?",
+      "choices": [
+        "Recurrent Neural Networks (RNNs)",
+        "Generative Adversarial Networks (GANs)",
+        "Transformer Models",
+        "Deep Neural Networks"
+      ],
+      "answer": "Transformer Models",
+      "explanation": "Transformers, such as GPT, are designed for natural language generation, making them ideal for building conversational chatbots."
     }
-  ]
-  
-       
+  ]      
     }
