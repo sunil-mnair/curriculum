@@ -4718,127 +4718,127 @@
           "explanation": "A trigger is a special type of stored procedure that automatically executes in response to specific events, such as insert, update, or delete operations on a table."
         }
       ],
-      "Generative AI for Business 1":[
+      "Generative AI for Business":[
         {
           "id": 1,
-          "question": "What is the main objective of Artificial Intelligence (AI)?",
+          "question": "What is the primary goal of Artificial Intelligence (AI) as a field of technology?",
           "choices": [
-            "To automate cognitive tasks that usually require human intelligence.",
-            "To train robots to perform physical tasks.",
-            "To construct neural networks mimicking human thought processes.",
-            "To develop cutting-edge computer vision technologies."
+            "Performing cognitive tasks that normally require human intelligence.",
+            "Training robots to execute physical operations.",
+            "Designing neural networks that emulate human thinking.",
+            "Developing innovative computer vision systems."
           ],
-          "answer": "To automate cognitive tasks that usually require human intelligence.",
-          "explanation": "AI focuses on automating intellectual tasks such as reasoning, decision-making, and problem-solving that would typically need human intervention."
+          "answer": "Performing cognitive tasks that normally require human intelligence.",
+          "explanation": "The core aim of AI is to replicate human intelligence in tasks such as reasoning, learning, and problem-solving."
         },
         {
           "id": 2,
-          "question": "What is the best way to define Machine Learning (ML)?",
+          "question": "Which description best characterizes Machine Learning (ML)?",
           "choices": [
-            "A system that learns from vast datasets to make decisions or predictions.",
-            "A robot acquiring skills through hands-on practice.",
-            "A tool designed to produce human-like text responses.",
-            "A deep learning method involving multi-layered neural networks."
+            "A system designed to analyze data and improve its performance over time.",
+            "A robotic system that develops abilities through physical experiences.",
+            "A tool capable of generating text responses like a human would.",
+            "A specific approach to deep learning using layered neural networks."
           ],
-          "answer": "A system that learns from vast datasets to make decisions or predictions.",
-          "explanation": "Machine Learning refers to systems that enhance their predictive or decision-making abilities by analyzing large volumes of data."
+          "answer": "A system designed to analyze data and improve its performance over time.",
+          "explanation": "Machine Learning enables systems to evolve their predictive or decision-making capabilities by analyzing extensive datasets."
         },
         {
           "id": 3,
-          "question": "Which analogy most effectively describes Deep Learning (DL)?",
+          "question": "Which analogy best explains the functioning of Deep Learning (DL)?",
           "choices": [
-            "Training a pet to obey commands.",
-            "Harmonizing a group of neurons like an orchestra.",
-            "Mentoring a student through tailored guidance.",
-            "Solving a difficult puzzle without instructions."
+            "Training an animal to respond to specific cues.",
+            "A symphony where neurons play in harmony like instruments in an orchestra.",
+            "Tutoring a learner with highly customized feedback.",
+            "Piecing together an intricate jigsaw puzzle without instructions."
           ],
-          "answer": "Harmonizing a group of neurons like an orchestra.",
-          "explanation": "Deep Learning is often likened to an orchestra where individual neurons collaborate to generate a refined output."
+          "answer": "A symphony where neurons play in harmony like instruments in an orchestra.",
+          "explanation": "Deep Learning models are often likened to an orchestra, where individual neurons interact to create complex outputs."
         },
         {
           "id": 4,
-          "question": "Which statement best defines Generative AI?",
+          "question": "What is the best definition of Generative AI?",
           "choices": [
-            "A system capable of creating original content based on training data.",
-            "A type of AI designed to replicate human speech.",
-            "A machine learning model that classifies images.",
-            "A neural network specifically built for solving problems."
+            "Technology that produces new data or content by learning from existing data.",
+            "A system specialized in mimicking human speech patterns.",
+            "An AI model that organizes visual content into categories.",
+            "A machine learning model focused on solving computational problems."
           ],
-          "answer": "A system capable of creating original content based on training data.",
-          "explanation": "Generative AI models produce new content such as text, images, or music by learning patterns from their training data."
+          "answer": "Technology that produces new data or content by learning from existing data.",
+          "explanation": "Generative AI involves creating original outputs such as text, images, or music by identifying patterns in the data it was trained on."
         },
         {
           "id": 5,
-          "question": "Which of the following does NOT exemplify a Generative AI application?",
+          "question": "Which of these examples does NOT involve the use of Generative AI?",
           "choices": [
-            "Creating text using GPT models.",
-            "Recognizing images with Google Photos.",
-            "Generating music by analyzing patterns.",
-            "Discovering new drugs via reinforcement learning."
+            "Using GPT to write coherent text.",
+            "Identifying objects in photos with recognition software.",
+            "Composing music by analyzing patterns in sound.",
+            "Applying reinforcement learning to discover new medicines."
           ],
-          "answer": "Recognizing images with Google Photos.",
-          "explanation": "Image recognition is about classifying or identifying data, not generating new content, which is the primary purpose of Generative AI."
+          "answer": "Identifying objects in photos with recognition software.",
+          "explanation": "Image recognition systems focus on classifying data rather than creating it, which is the hallmark of Generative AI."
         },
         {
           "id": 6,
-          "question": "What is the role of a 'teacher' in supervised learning?",
+          "question": "In supervised learning, what role does labeled data play?",
           "choices": [
-            "Providing both input data and corresponding output labels to the model.",
-            "Assisting the model in finding patterns without direct instruction.",
-            "Regulating the learning rate during model training.",
-            "Modifying the activation function to boost model accuracy."
+            "It provides the model with inputs and their corresponding outputs for training.",
+            "It enables the model to identify patterns without specific instructions.",
+            "It helps regulate the rate at which the model learns.",
+            "It adjusts the neural network’s activation functions for better accuracy."
           ],
-          "answer": "Providing both input data and corresponding output labels to the model.",
-          "explanation": "In supervised learning, the 'teacher' supplies the model with correct input-output pairs to guide its learning process."
+          "answer": "It provides the model with inputs and their corresponding outputs for training.",
+          "explanation": "Supervised learning relies on labeled datasets, where input-output pairs guide the model in learning to make accurate predictions."
         },
         {
           "id": 7,
-          "question": "What does an epoch represent in neural network training?",
+          "question": "What does the term 'epoch' refer to in the context of training a neural network?",
           "choices": [
-            "Updating model weights after processing each data batch.",
-            "Completing one full pass through the entire training dataset.",
-            "Performing the final evaluation on a test dataset.",
-            "Altering the learning rate throughout the training process."
+            "The process of updating weights after processing a batch of data.",
+            "A single complete pass over the entire training dataset.",
+            "The stage where the model is evaluated on an unseen test set.",
+            "The adjustment of learning parameters during training."
           ],
-          "answer": "Completing one full pass through the entire training dataset.",
-          "explanation": "An epoch signifies one complete cycle through the training data, enabling the model to learn from all available data."
+          "answer": "A single complete pass over the entire training dataset.",
+          "explanation": "An epoch represents one full iteration through all of the training data, which helps the model refine its learning."
         },
         {
           "id": 8,
-          "question": "Why is the bias term included in a neural network?",
+          "question": "What is the function of the bias term in a neural network’s operation?",
           "choices": [
-            "To adjust the model to better fit the training data.",
-            "To modify outputs for improved accuracy.",
-            "To speed up the learning process.",
-            "To reduce the risk of overfitting the model."
+            "It shifts the model’s predictions to better match the data.",
+            "It adjusts the model output to improve accuracy.",
+            "It accelerates the convergence of the training process.",
+            "It prevents the model from becoming too specific to the training data."
           ],
-          "answer": "To adjust the model to better fit the training data.",
-          "explanation": "The bias term shifts the activation function, helping the model better align with the training data and achieve improved performance."
+          "answer": "It shifts the model’s predictions to better match the data.",
+          "explanation": "The bias term allows the model to offset the activation function, enabling better alignment with the data and improved performance."
         },
         {
           "id": 9,
-          "question": "What is the primary role of Generative Adversarial Networks (GANs)?",
+          "question": "What is the key purpose of Generative Adversarial Networks (GANs)?",
           "choices": [
-            "To categorize images into specific groups.",
-            "To create new images resembling those in the training set.",
-            "To detect objects within images.",
-            "To segment images based on their boundaries."
+            "Sorting images into predefined groups.",
+            "Creating synthetic images that resemble those in the training data.",
+            "Locating and identifying objects within an image.",
+            "Dividing an image into different regions based on its features."
           ],
-          "answer": "To create new images resembling those in the training set.",
-          "explanation": "GANs generate realistic images by employing a generator and a discriminator, two neural networks working in tandem to improve the output."
+          "answer": "Creating synthetic images that resemble those in the training data.",
+          "explanation": "GANs are designed to generate new, realistic images by pitting two neural networks—a generator and a discriminator—against each other."
         },
         {
           "id": 10,
-          "question": "In Natural Language Processing (NLP), what does 'tokenization' entail?",
+          "question": "In Natural Language Processing (NLP), what does the process of tokenization involve?",
           "choices": [
-            "Breaking text into individual words or punctuation marks.",
-            "Transforming text into vector representations for machine models.",
-            "Summarizing long text into shorter, concise versions.",
-            "Converting text from one language to another."
+            "Breaking text into smaller units like words or punctuation.",
+            "Transforming text data into numerical vectors for processing.",
+            "Shortening long texts into concise summaries.",
+            "Translating written content from one language to another."
           ],
-          "answer": "Breaking text into individual words or punctuation marks.",
-          "explanation": "Tokenization involves splitting text into smaller units, such as words or punctuation, which can then be processed for further analysis."
-        }      
+          "answer": "Breaking text into smaller units like words or punctuation.",
+          "explanation": "Tokenization splits a text into its constituent parts, such as words or symbols, to enable further computational analysis."
+        }            
       ],
       "MS Project Plan 3":[
         {
@@ -5451,7 +5451,7 @@
           "explanation": "The Lock Tracking feature prevents others from turning off Track Changes, preserving document editing records for collaborative review."
       }
   ],
-  "Generative AI for Business":[
+  "Generative AI for Business 1":[
     {
       "id": 1,
       "question": "A company wants to use AI to detect spam emails. Which machine learning method should they use?",
