@@ -4718,7 +4718,6 @@
           "explanation": "A trigger is a special type of stored procedure that automatically executes in response to specific events, such as insert, update, or delete operations on a table."
         }
       ],
-      ,
       "MS Project Plan 3":[
         {
           "id": 1,
