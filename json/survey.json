@@ -966,5 +966,67 @@
       "question": "Which aspects of the course are you most interested in learning about?",
       "choices": ["AI and ML fundamentals", "Generative AI applications", "Prompt engineering", "IoT and data science", "APIs and their integration"]
   }
+],
+"Foundations of AI and GenAI in Finance":[
+  {
+      "id": 1,
+      "question": "What is your current level of familiarity with Artificial Intelligence (AI)?",
+      "choices": [
+          "No familiarity",
+          "Basic understanding",
+          "Moderate understanding",
+          "Advanced understanding"
+      ]
+  },
+  {
+      "id": 2,
+      "question": "How comfortable are you with the concepts of Machine Learning?",
+      "choices": [
+          "Not comfortable at all",
+          "Somewhat comfortable",
+          "Comfortable",
+          "Very comfortable"
+      ]
+  },
+  {
+      "id": 3,
+      "question": "Have you ever participated in a supervised learning activity? If so, what was the context?",
+      "choices": [
+          "No, I have not",
+          "Yes, in an academic setting",
+          "Yes, in a professional setting",
+          "Yes, in a personal project"
+      ]
+  },
+  {
+      "id": 4,
+      "question": "How well do you understand the training process of AI models (e.g., neural networks)?",
+      "choices": [
+          "Not at all",
+          "A little",
+          "Moderately",
+          "Extensively"
+      ]
+  },
+  {
+      "id": 5,
+      "question": "What is your level of knowledge about Natural Language Processing (NLP)?",
+      "choices": [
+          "No knowledge",
+          "Basic knowledge",
+          "Intermediate knowledge",
+          "Advanced knowledge"
+      ]
+  },
+  {
+      "id": 6,
+      "question": "What specific topics within AI are you most interested in learning about?",
+      "choices": [
+          "Machine Learning",
+          "Natural Language Processing",
+          "Prompt Engineering",
+          "Custom GPTs"
+      ]
+  }
 ]
 }
