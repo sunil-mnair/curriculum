@@ -5453,12 +5453,12 @@
     [
       {
           "id": 1,
-          "question": "Which type of machine learning helps predict a customer's likelihood of defaulting on a loan using historical data?",
+          "question": "Which type of machine learning helps predict a customer likelihood of defaulting on a loan using historical data?",
           "choices": [
               "Supervised Learning",
               "Unsupervised Learning",
               "Reinforcement Learning",
-              "Generative Adversarial Networks (GANs)"
+              "Generative Adversarial Networks"
           ],
           "answer": "Supervised Learning",
           "explanation": "Supervised learning leverages historical data with labeled outcomes to predict the probability of a loan default."
@@ -5482,7 +5482,7 @@
               "Unsupervised Learning",
               "Supervised Learning",
               "Reinforcement Learning",
-              "Generative Adversarial Networks (GANs)"
+              "Generative Adversarial Networks"
           ],
           "answer": "Unsupervised Learning",
           "explanation": "Unsupervised learning is commonly used for anomaly detection, as it can identify outliers without relying on labeled examples."
