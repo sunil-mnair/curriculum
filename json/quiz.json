@@ -5450,7 +5450,6 @@
     }
   ],
   "Generative AI for Business":[
-    [
       {
           "id": 1,
           "question": "Which type of machine learning helps predict a customer likelihood of defaulting on a loan using historical data?",
@@ -5571,8 +5570,6 @@
           "answer": "Reinforcement Learning",
           "explanation": "Reinforcement learning enables the system to adapt and optimize investment decisions based on past performance and new feedback."
       }
-  ]
-  
   ],
   "Foundations of AI and GenAI in Finance":[
     {
