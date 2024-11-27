@@ -5573,124 +5573,124 @@
   ],
   "Foundations of AI and GenAI in Finance":[
     {
-      "id": 1,
-      "question": "What is the primary purpose of using supervised learning in banking applications?",
-      "choices": [
-        "Discover patterns in unlabeled data",
-        "Make predictions based on labeled historical data",
-        "Simulate customer interactions with a chatbot",
-        "Generate synthetic datasets for model training"
-      ],
-      "answer": "Make predictions based on labeled historical data",
-      "explanation": "Supervised learning uses labeled datasets to train models for tasks like fraud detection, loan approvals, and credit scoring."
+        "id": 1,
+        "question": "What machine learning approach is used in banking to predict loan defaults using past labeled data?",
+        "choices": [
+            "Supervised Learning",
+            "Unsupervised Learning",
+            "Reinforcement Learning",
+            "Deep Learning"
+        ],
+        "answer": "Supervised Learning",
+        "explanation": "Supervised learning leverages labeled datasets to predict outcomes such as loan defaults."
     },
     {
-      "id": 2,
-      "question": "A bank uses AI to classify transactions as fraudulent or legitimate based on labeled historical data. What type of learning is applied?",
-      "choices": [
-        "Supervised Learning",
-        "Unsupervised Learning",
-        "Reinforcement Learning",
-        "Generative Adversarial Networks (GANs)"
-      ],
-      "answer": "Supervised Learning",
-      "explanation": "Supervised learning is appropriate because the system is trained on labeled data indicating transaction types."
+        "id": 2,
+        "question": "A banking application detects credit card fraud by analyzing patterns in labeled datasets. What type of learning is this?",
+        "choices": [
+            "Supervised Learning",
+            "Unsupervised Learning",
+            "Reinforcement Learning",
+            "Generative Models"
+        ],
+        "answer": "Supervised Learning",
+        "explanation": "Supervised learning is used when training on labeled data to classify transactions as fraudulent or legitimate."
     },
     {
-      "id": 3,
-      "question": "A system identifies unusual spending patterns in credit card transactions without prior labels. What type of machine learning is being used?",
-      "choices": [
-        "Supervised Learning",
-        "Unsupervised Learning",
-        "Reinforcement Learning",
-        "Deep Learning"
-      ],
-      "answer": "Unsupervised Learning",
-      "explanation": "Unsupervised learning is ideal for detecting anomalies in data without pre-labeled examples."
+        "id": 3,
+        "question": "How does a banking system detect unusual spending behaviors in transactions without prior labels?",
+        "choices": [
+            "Supervised Learning",
+            "Unsupervised Learning",
+            "Reinforcement Learning",
+            "Deep Neural Networks"
+        ],
+        "answer": "Unsupervised Learning",
+        "explanation": "Unsupervised learning identifies anomalies by analyzing patterns in unlabeled data."
     },
     {
-      "id": 4,
-      "question": "A banking chatbot interprets and responds to customer queries. What AI technique powers this feature?",
-      "choices": [
-        "Natural Language Processing (NLP)",
-        "Deep Learning",
-        "Reinforcement Learning",
-        "Unsupervised Learning"
-      ],
-      "answer": "Natural Language Processing (NLP)",
-      "explanation": "NLP enables the chatbot to understand and respond to customer queries in natural language."
+        "id": 4,
+        "question": "Which AI technique enables a banking assistant to process and respond to customer inquiries?",
+        "choices": [
+            "Natural Language Processing (NLP)",
+            "Classification Algorithms",
+            "Reinforcement Learning",
+            "Unsupervised Learning"
+        ],
+        "answer": "Natural Language Processing (NLP)",
+        "explanation": "NLP allows chatbots to interpret and respond to user queries effectively."
     },
     {
-      "id": 5,
-      "question": "A bank personalizes credit card offers for customers based on their spending habits. Which AI model is most likely used?",
-      "choices": [
-        "Classification Algorithms",
-        "Reinforcement Learning",
-        "Generative Adversarial Networks (GANs)",
-        "Unsupervised Learning"
-      ],
-      "answer": "Classification Algorithms",
-      "explanation": "Classification algorithms help categorize customers and tailor offers to their financial profiles."
+        "id": 5,
+        "question": "What model helps a bank classify customers to offer targeted financial products based on spending patterns?",
+        "choices": [
+            "Classification Algorithms",
+            "Clustering Algorithms",
+            "Generative Adversarial Networks (GANs)",
+            "Transformer Models"
+        ],
+        "answer": "Classification Algorithms",
+        "explanation": "Classification algorithms are used to categorize customer profiles for personalized product offers."
     },
     {
-      "id": 6,
-      "question": "A trading algorithm learns optimal investment strategies through trial and error by analyzing feedback from market outcomes. What type of learning is this?",
-      "choices": [
-        "Supervised Learning",
-        "Unsupervised Learning",
-        "Reinforcement Learning",
-        "Deep Learning"
-      ],
-      "answer": "Reinforcement Learning",
-      "explanation": "Reinforcement learning allows the algorithm to make decisions and improve strategies based on rewards and penalties."
+        "id": 6,
+        "question": "Which learning method enables a trading bot to optimize strategies through continuous feedback?",
+        "choices": [
+            "Supervised Learning",
+            "Unsupervised Learning",
+            "Reinforcement Learning",
+            "Deep Learning"
+        ],
+        "answer": "Reinforcement Learning",
+        "explanation": "Reinforcement learning improves decision-making based on rewards from past outcomes."
     },
     {
-      "id": 7,
-      "question": "A bank generates synthetic datasets to train its fraud detection systems. Which AI method is most appropriate for this task?",
-      "choices": [
-        "Generative Adversarial Networks (GANs)",
-        "Reinforcement Learning",
-        "Classification Algorithms",
-        "Transformer Models"
-      ],
-      "answer": "Generative Adversarial Networks (GANs)",
-      "explanation": "GANs are widely used to create realistic synthetic data that mimics fraudulent and legitimate transaction data."
+        "id": 7,
+        "question": "How can a bank create synthetic datasets to train its fraud detection systems?",
+        "choices": [
+            "Generative Adversarial Networks (GANs)",
+            "Reinforcement Learning",
+            "Supervised Learning",
+            "Unsupervised Learning"
+        ],
+        "answer": "Generative Adversarial Networks (GANs)",
+        "explanation": "GANs are effective in generating synthetic data for training AI models."
     },
     {
-      "id": 8,
-      "question": "Which type of learning allows a bank's AI model to identify customer segments based solely on transactional data without labels?",
-      "choices": [
-        "Supervised Learning",
-        "Unsupervised Learning",
-        "Reinforcement Learning",
-        "Classification Algorithms"
-      ],
-      "answer": "Unsupervised Learning",
-      "explanation": "Unsupervised learning is ideal for identifying patterns or groupings in unlabeled data, such as customer segmentation."
+        "id": 8,
+        "question": "What type of learning is applied to cluster customers into groups based on transaction data without labels?",
+        "choices": [
+            "Supervised Learning",
+            "Unsupervised Learning",
+            "Reinforcement Learning",
+            "Classification Algorithms"
+        ],
+        "answer": "Unsupervised Learning",
+        "explanation": "Unsupervised learning is ideal for customer segmentation in the absence of labeled data."
     },
     {
-      "id": 9,
-      "question": "A bank uses AI to automatically generate financial reports from structured data. Which technology should be applied?",
-      "choices": [
-        "Natural Language Processing (NLP)",
-        "Classification Algorithms",
-        "Generative Adversarial Networks (GANs)",
-        "Transformer Models"
-      ],
-      "answer": "Natural Language Processing (NLP)",
-      "explanation": "NLP processes structured data and creates human-readable reports for financial analysis."
+        "id": 9,
+        "question": "Which AI approach helps generate human-readable financial summaries from structured datasets?",
+        "choices": [
+            "Natural Language Processing (NLP)",
+            "Transformer Models",
+            "Deep Neural Networks",
+            "Classification Algorithms"
+        ],
+        "answer": "Natural Language Processing (NLP)",
+        "explanation": "NLP converts structured data into clear, readable reports for end-users."
     },
     {
-      "id": 10,
-      "question": "A bank aims to optimize its investment portfolio recommendations by learning from past outcomes and customer feedback. Which AI model is best suited for this task?",
-      "choices": [
-        "Classification Algorithms",
-        "Reinforcement Learning",
-        "Unsupervised Learning",
-        "Transformer Models"
-      ],
-      "answer": "Reinforcement Learning",
-      "explanation": "Reinforcement learning is well-suited for this task as it allows the system to improve recommendations through feedback and iterative learning from past outcomes."
+        "id": 10,
+        "question": "What AI method enables a bank to improve portfolio recommendations based on customer feedback?",
+        "choices": [
+            "Supervised Learning",
+            "Reinforcement Learning",
+            "Unsupervised Learning",
+            "Generative Models"
+        ],
+        "answer": "Reinforcement Learning",
+        "explanation": "Reinforcement learning uses feedback to refine and optimize portfolio recommendations."
     }
-  ]     
+]     
     }
