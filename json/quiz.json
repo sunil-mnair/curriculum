@@ -5658,15 +5658,15 @@
     },
     {
       "id": 8,
-      "question": "A credit scoring system uses a machine learning model to identify the factors that most influence a customer's credit score. Which model would best suit this analysis?",
+      "question": "Which type of learning allows a bank's AI model to identify customer segments based solely on transactional data without labels?",
       "choices": [
-        "Decision Trees",
-        "Recurrent Neural Networks (RNNs)",
-        "Generative Adversarial Networks (GANs)",
-        "Reinforcement Learning"
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Reinforcement Learning",
+        "Classification Algorithms"
       ],
-      "answer": "Decision Trees",
-      "explanation": "Decision trees are interpretable and can highlight key factors affecting a customer’s credit score."
+      "answer": "Unsupervised Learning",
+      "explanation": "Unsupervised learning is ideal for identifying patterns or groupings in unlabeled data, such as customer segmentation."
     },
     {
       "id": 9,
@@ -5692,5 +5692,5 @@
       "answer": "Reinforcement Learning",
       "explanation": "Reinforcement learning is well-suited for this task as it allows the system to improve recommendations through feedback and iterative learning from past outcomes."
     }
-  ]      
+  ]     
     }
