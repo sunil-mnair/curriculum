@@ -274,7 +274,7 @@
                 "explanation":"An aggregate cannot appear in the WHERE clause unless it is enclosed in a subquery"
         }
     ],
-    "Analytics using R":
+    "Analytics using R 01":
         [
 
             {
@@ -5692,5 +5692,98 @@
         "answer": "Reinforcement Learning",
         "explanation": "Reinforcement learning uses feedback to refine and optimize portfolio recommendations."
     }
-]     
+],
+"Analytics using R":[
+  {
+    "id": 1,
+    "question": "What is R primarily used for?",
+    "choices": [
+      "Web development",
+      "Statistical computing and data visualization",
+      "Game development",
+      "Blockchain programming"
+    ],
+    "answer": "Statistical computing and data visualization",
+    "explanation": "R is a programming language specifically designed for statistical computing and creating graphical representations of data."
+  },
+  {
+    "id": 2,
+    "question": "What does the '<-' operator in R do?",
+    "choices": [
+      "Compares two values for equality",
+      "Assigns a value to a variable",
+      "Returns the smaller of two numbers",
+      "Adds two values together"
+    ],
+    "answer": "Assigns a value to a variable",
+    "explanation": "The '<-' operator is the assignment operator in R, used to store values in variables."
+  },
+  {
+    "id": 3,
+    "question": "Which of the following is a correct variable name in R?",
+    "choices": ["2name", ".name", "name!", "name_#"],
+    "answer": ".name",
+    "explanation": "Variable names in R must start with a letter or a period, and if starting with a period, the next character cannot be a digit."
+  },
+  {
+    "id": 4,
+    "question": "Which function is used to display the structure of a dataset in R?",
+    "choices": ["head()", "summary()", "str()", "typeof()"],
+    "answer": "str()",
+    "explanation": "The 'str()' function provides a compact display of the internal structure of a dataset."
+  },
+  {
+    "id": 5,
+    "question": "What is the output of the following code?\n```R\nname <- 'David'\ntoupper(name)\n```",
+    "choices": ["David", "david", "DAVID", "Error"],
+    "answer": "DAVID",
+    "explanation": "The 'toupper()' function converts all characters in a string to uppercase."
+  },
+  {
+    "id": 6,
+    "question": "What will the following code return?\n```R\nnums <- c(10, 20, 30)\nmin(nums)\n```",
+    "choices": ["30", "20", "10", "Error"],
+    "answer": "10",
+    "explanation": "The 'min()' function returns the smallest value in the input vector. Here, it returns 10."
+  },
+  {
+    "id": 7,
+    "question": "What does the following function do?\n```R\ncalculate_bmi <- function(weight, height) {\n  return(weight / (height^2))\n}\n```",
+    "choices": [
+      "Calculates weight-to-height ratio",
+      "Calculates Body Mass Index (BMI)",
+      "Calculates the square of the height",
+      "Calculates weight divided by height"
+    ],
+    "answer": "Calculates Body Mass Index (BMI)",
+    "explanation": "The function calculates BMI by dividing the weight by the square of the height."
+  },
+  {
+    "id": 8,
+    "question": "Which data type in R represents string values?",
+    "choices": ["integer", "numeric", "logical", "character"],
+    "answer": "character",
+    "explanation": "In R, the 'character' data type is used to represent text or string values."
+  },
+  {
+    "id": 9,
+    "question": "Which function is used to calculate the number of characters in a string in R?",
+    "choices": ["substr()", "nchar()", "length()", "paste()"],
+    "answer": "nchar()",
+    "explanation": "The 'nchar()' function calculates the total number of characters in a given string."
+  },
+  {
+    "id": 10,
+    "question": "What is the primary purpose of using 'return()' in an R function?",
+    "choices": [
+      "To define the function's name",
+      "To specify the function's parameters",
+      "To explicitly return a value from the function",
+      "To terminate the function definition"
+    ],
+    "answer": "To explicitly return a value from the function",
+    "explanation": "The 'return()' function in R is used to explicitly specify the value that should be returned by a function."
+  }
+]
+    
     }
