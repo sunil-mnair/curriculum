@@ -1028,5 +1028,37 @@
           "Custom GPTs"
       ]
   }
+],
+"Analytics using R":[
+  {
+      "id": 1,
+      "question": "Have you used R programming for statistical computing or data visualization before?",
+      "choices": ["Yes, extensively", "Yes, a little", "No, but I am familiar with programming", "No, I am new to programming"]
+  },
+  {
+      "id": 2,
+      "question": "How familiar are you with machine learning concepts such as supervised, unsupervised, and reinforcement learning?",
+      "choices": ["Very familiar", "Somewhat familiar", "Heard of them but don't understand well", "Not familiar at all"]
+  },
+  {
+      "id": 3,
+      "question": "What is your current level of understanding of data types and variable handling in programming languages like R?",
+      "choices": ["High, I use it regularly", "Moderate, I have basic knowledge", "Low, I am just learning", "None, this is new to me"]
+  },
+  {
+      "id": 4,
+      "question": "What are your main objectives for learning R in this course?",
+      "choices": ["Data analysis and visualization", "Understanding machine learning basics", "Improving statistical computation skills", "General programming knowledge"]
+  },
+  {
+      "id": 5,
+      "question": "Have you worked with any data analysis tools or libraries similar to R, such as Python's pandas or NumPy?",
+      "choices": ["Yes, extensively", "Yes, but only basic usage", "No, I have not", "I have experience with other tools but not these"]
+  },
+  {
+      "id": 6,
+      "question": "How comfortable are you with installing and setting up programming environments (e.g., R Studio)?",
+      "choices": ["Very comfortable", "Somewhat comfortable", "Need some guidance", "Not comfortable at all"]
+  }
 ]
 }
