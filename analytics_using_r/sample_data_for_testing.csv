@@ -1,0 +1,11 @@
+Loan ID,Customer ID,Loan Status,Current Loan Amount,Term,Credit Score,Annual Income,Years in current job,Home Ownership,Purpose,Monthly Debt,Years of Credit History,Months since last delinquent,Number of Open Accounts,Number of Credit Problems,Current Credit Balance,Maximum Open Credit,Bankruptcies,Tax Liens,Defaulter
+a8b2d3c4-5678-9012-3456-7890abcdef01,34567890-1234-5678-9012-345678901234,Fully Paid,312810,Short Term,635.0,502125,2,Rent,Home Improvement,17519.95,10.5,12,8,1,23589,384846.0,0.0,0.0,0
+fedcba98-7654-3210-9012-3456789abcdef0,90123456-7890-4567-3210-234567890123,Charged Off,281065,Short Term,403.0,2050112,1,Home Mortgage,Debt Consolidation,45305.47,22.8,24,8,1,574922,910910.0,0.0,0.0,1
+ghijkmnp-qrstuvwxzy-1234-5678-9012-34567890abcdef,zyxwvuts-4321-0987-6543-210987654321,Fully Paid,245038,Short Term,674.0,1281748,1,Rent,Other,34421.11,18.9,36,7,0,31571,384846.0,0.0,0.0,0
+zrtyuio-pasdfghjkl-mnbvcx-zyxwvuts-4321-0987-6543,mnbvcx-zyxwvuts-4321-0987-6543-2109-8765-4321,Charged Off,329989,Short Term,395.0,2810651,1,Home Mortgage,Debt Consolidation,53632.19,29.5,48,7,1,592145,910910.0,0.0,0.0,1
+loremipsum-1234-5678-9012-34567890abcdef0,12345678-9012-3456-7890-123456789012,Fully Paid,230421,Short Term,682.0,2050112,2,Rent,Home Improvement,16835.95,11.9,60,6,0,21089,384846.0,0.0,0.0,0
+asdfghjkl-poiuytrew-qazxswedc-5678-9012-3456,qazxswedc-5678-9012-3456-7890-1234-5678,Charged Off,299421,Short Term,401.0,502125,1,Home Mortgage,Debt Consolidation,44505.47,20.8,72,6,1,584922,910910.0,0.0,0.0,1
+poiuytrew-qazxswedc-5678-9012-3456-7890-1234,edcba987-6543-2109-8765-4321-0987-6543,Fully Paid,261810,Short Term,609.0,1281748,1,Rent,Other,31119.95,17.3,84,5,0,27589,384846.0,0.0,0.0,0
+qazxswedc-5678-9012-3456-7890-1234-5678,wertyuiop-0987-6543-2109-8765-4321-0987,Charged Off,293421,Short Term,413.0,2810651,1,Home Mortgage,Debt Consolidation,51932.19,30.5,96,5,1,606145,910910.0,0.0,0.0,1
+wertyuiop-0987-6543-2109-8765-4321-0987,poiuytrew-qazxswedc-5678-9012-3456-7890-1234,Fully Paid,251810,Short Term,631.0,2050112,2,Rent,Home Improvement,15935.95,12.9,108,4,0,22589,384846.0,0.0,0.0,0
+edcba987-6543-2109-8765-4321-0987-6543,asdfghjkl-poiuytrew-qazxswedc-5678-9012,Charged Off,324421,Short Term,425.0,502125,1,Home Mortgage,Debt Consolidation,47932.19,21.8,120,4,1,620922,910910.0,0.0,0.0,1

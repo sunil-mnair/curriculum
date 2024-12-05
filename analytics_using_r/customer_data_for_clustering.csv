@@ -1,0 +1,101 @@
+Customer ID,Age,Gender,Occupation,Annual Income,Savings Account Balance,Credit Card Debt,Mortgage Status
+1001,35,Female,Software Engineer,75000,20000,5000,Owner
+1002,42,Male,Doctor,120000,40000,8000,Owner
+1003,28,Female,Artist,30000,10000,2000,Renter
+1004,51,Male,Lawyer,150000,60000,10000,Owner
+1005,38,Female,Teacher,60000,25000,3000,Owner
+1006,29,Male,Entrepreneur,200000,80000,12000,Owner
+1007,45,Female,Nurse,80000,35000,6000,Owner
+1008,32,Male,Engineer,100000,45000,9000,Owner
+1009,49,Female,Scientist,180000,70000,11000,Owner
+1010,24,Male,Student,20000,8000,1500,Renter
+1011,46,Female,Manager,90000,40000,7000,Owner
+1012,36,Male,Marketing Specialist,70000,30000,4000,Owner
+1013,41,Female,Sales Representative,110000,55000,8000,Owner
+1014,33,Male,Data Analyst,90000,45000,10000,Owner
+1015,48,Female,Accountant,160000,65000,12000,Owner
+1016,25,Male,Web Developer,25000,10000,2500,Renter
+1017,50,Female,Professor,140000,60000,10000,Owner
+1018,39,Male,IT Specialist,80000,35000,6000,Owner
+1019,26,Female,Writer,28000,9000,2000,Renter
+1020,44,Male,Consultant,120000,50000,8000,Owner
+1021,30,Female,HR Manager,70000,30000,4000,Owner
+1022,47,Male,Architect,150000,70000,11000,Owner
+1023,31,Female,Graphic Designer,60000,25000,3000,Owner
+1024,52,Male,Law Enforcement,180000,75000,12000,Owner
+1025,27,Female,Sales Manager,32000,10000,2500,Renter
+1026,43,Male,Researcher,100000,45000,9000,Owner
+1027,34,Female,Public Relations Specialist,80000,35000,6000,Owner
+1028,40,Male,Marketing Manager,110000,55000,8000,Owner
+1029,35,Female,Operations Manager,90000,45000,10000,Owner
+1030,49,Male,Financial Advisor,160000,70000,12000,Owner
+1031,32,Male,Financial Analyst,80000,40000,7000,Owner
+1032,29,Female,Customer Service Representative,40000,25000,4000,Renter
+1033,38,Male,Software Engineer,140000,60000,10000,Owner
+1034,42,Female,Teacher,60000,30000,6000,Owner
+1035,28,Male,Entrepreneur,200000,80000,12000,Owner
+1036,45,Female,Nurse,80000,45000,8000,Owner
+1037,36,Male,Logistics Manager,100000,50000,9000,Owner
+1038,51,Female,Dentist,220000,90000,15000,Owner
+1039,24,Male,Mechanic,30000,20000,3000,Renter
+1040,46,Female,Pharmacist,180000,70000,11000,Owner
+1041,37,Male,Chef,90000,40000,7000,Owner
+1042,41,Female,Artist,60000,30000,6000,Owner
+1043,33,Male,Accountant,120000,50000,8000,Owner
+1044,39,Female,Lawyer,200000,80000,12000,Owner
+1045,30,Male,Engineer,140000,60000,10000,Owner
+1046,48,Female,Scientist,220000,90000,15000,Owner
+1047,25,Male,Student,20000,15000,2000,Renter
+1048,44,Female,Writer,60000,30000,6000,Owner
+1049,35,Male,IT Specialist,100000,50000,9000,Owner
+1050,50,Female,Professor,250000,100000,18000,Owner
+1051,26,Male,Graphic Designer,40000,25000,4000,Renter
+1052,32,Female,HR Manager,80000,40000,7000,Owner
+1053,29,Male,Marketing Specialist,60000,30000,6000,Owner
+1054,38,Female,Sales Representative,120000,50000,8000,Owner
+1055,27,Male,Data Analyst,80000,40000,7000,Owner
+1056,42,Female,Operations Manager,180000,80000,12000,Owner
+1057,36,Male,Public Relations Specialist,140000,60000,10000,Owner
+1058,49,Female,Financial Advisor,220000,90000,15000,Owner
+1059,31,Male,Consultant,100000,50000,9000,Owner
+1060,40,Female,Marketing Manager,160000,70000,12000,Owner
+1061,28,Male,Product Manager,90000,45000,7500,Owner
+1062,43,Female,Dentist,240000,110000,16000,Owner
+1063,34,Male,Teacher,80000,40000,7000,Owner
+1064,46,Female,Doctor,280000,120000,17000,Owner
+1065,23,Male,Student,20000,15000,2000,Renter
+1066,51,Female,Retired,50000,30000,5000,Owner
+1067,38,Male,Entrepreneur,180000,80000,12000,Owner
+1068,45,Female,Lawyer,200000,90000,15000,Owner
+1069,39,Male,Engineer,160000,70000,12000,Owner
+1070,29,Female,Graphic Designer,70000,35000,5000,Owner
+1071,41,Male,Accountant,120000,50000,8000,Owner
+1072,35,Female,HR Manager,90000,45000,7500,Owner
+1073,48,Male,Professor,260000,120000,17000,Owner
+1074,32,Female,Writer,80000,40000,7000,Owner
+1075,26,Male,IT Specialist,100000,50000,9000,Owner
+1076,40,Female,Scientist,220000,90000,15000,Owner
+1077,36,Male,Marketing Manager,180000,80000,12000,Owner
+1078,49,Female,Financial Advisor,280000,110000,16000,Owner
+1079,31,Male,Consultant,100000,50000,9000,Owner
+1080,43,Female,Product Manager,240000,100000,18000,Owner
+1081,33,Male,Dentist,120000,50000,8000,Owner
+1082,46,Female,Teacher,260000,120000,17000,Owner
+1083,34,Male,Doctor,280000,110000,16000,Owner
+1084,27,Female,Student,20000,15000,2000,Renter
+1085,52,Male,Retired,40000,25000,4000,Owner
+1086,37,Female,Entrepreneur,200000,90000,15000,Owner
+1087,41,Male,Lawyer,220000,90000,15000,Owner
+1088,30,Female,Engineer,160000,70000,12000,Owner
+1089,44,Male,Graphic Designer,140000,60000,10000,Owner
+1090,25,Female,Accountant,100000,50000,9000,Owner
+1091,38,Male,HR Manager,180000,80000,12000,Owner
+1092,42,Female,Professor,260000,120000,17000,Owner
+1093,39,Male,Writer,220000,90000,15000,Owner
+1094,29,Female,IT Specialist,140000,60000,10000,Owner
+1095,36,Male,Scientist,240000,100000,18000,Owner
+1096,32,Female,Marketing Manager,200000,90000,15000,Owner
+1097,26,Male,Financial Advisor,280000,110000,16000,Owner
+1098,40,Female,Consultant,220000,90000,15000,Owner
+1099,41,Male,Product Manager,240000,100000,18000,Owner
+1100,33,Female,Dentist,260000,120000,17000,Owner
