@@ -5696,94 +5696,103 @@
 "Analytics using R":[
   {
     "id": 1,
-    "question": "What is R primarily used for?",
+    "question": "What is the primary purpose of R?",
     "choices": [
       "Web development",
       "Statistical computing and data visualization",
-      "Game development",
-      "Blockchain programming"
+      "Cloud computing",
+      "Game development"
     ],
     "answer": "Statistical computing and data visualization",
-    "explanation": "R is a programming language specifically designed for statistical computing and creating graphical representations of data."
+    "explanation": "R is a programming language designed for statistical computing, data visualization, and data analysis."
   },
   {
     "id": 2,
-    "question": "What does the '<-' operator in R do?",
-    "choices": [
-      "Compares two values for equality",
-      "Assigns a value to a variable",
-      "Returns the smaller of two numbers",
-      "Adds two values together"
-    ],
-    "answer": "Assigns a value to a variable",
-    "explanation": "The '<-' operator is the assignment operator in R, used to store values in variables."
+    "question": "Which IDE is most commonly used for R programming?",
+    "choices": ["Jupyter Notebook", "RStudio", "PyCharm", "Visual Studio Code"],
+    "answer": "RStudio",
+    "explanation": "RStudio is a popular IDE specifically tailored for R programming, providing tools for development and visualization."
   },
   {
     "id": 3,
-    "question": "Which of the following is a correct variable name in R?",
-    "choices": ["2name", ".name", "name!", "name_#"],
-    "answer": ".name",
-    "explanation": "Variable names in R must start with a letter or a period, and if starting with a period, the next character cannot be a digit."
+    "question": "Which of the following is a characteristic of supervised learning?",
+    "choices": [
+      "Discovering patterns in unlabeled data",
+      "Training models with labeled input and output data",
+      "Using reinforcement signals for decision-making",
+      "Grouping data without prior knowledge of categories"
+    ],
+    "answer": "Training models with labeled input and output data",
+    "explanation": "Supervised learning involves training models on labeled datasets where the input and output are predefined."
   },
   {
     "id": 4,
-    "question": "Which function is used to display the structure of a dataset in R?",
-    "choices": ["head()", "summary()", "str()", "typeof()"],
-    "answer": "str()",
-    "explanation": "The 'str()' function provides a compact display of the internal structure of a dataset."
+    "question": "In R, what does the 'str()' function do?",
+    "choices": [
+      "Displays the structure of an object",
+      "Provides summary statistics of numeric data",
+      "Calculates string length",
+      "Displays the first few rows of a dataset"
+    ],
+    "answer": "Displays the structure of an object",
+    "explanation": "The 'str()' function in R shows a compact summary of an object's structure, including data types and dimensions."
   },
   {
     "id": 5,
-    "question": "What is the output of the following code?\n```R\nname <- 'David'\ntoupper(name)\n```",
-    "choices": ["David", "david", "DAVID", "Error"],
-    "answer": "DAVID",
-    "explanation": "The 'toupper()' function converts all characters in a string to uppercase."
+    "question": "What will the output of this code be?\n```R\npaste('Hello', 'World!')\n```",
+    "choices": ["Hello World!", "HelloWorld!", "Error", "Hello World"],
+    "answer": "Hello World!",
+    "explanation": "The 'paste()' function concatenates strings with a default space separator, resulting in 'Hello World!'."
   },
   {
     "id": 6,
-    "question": "What will the following code return?\n```R\nnums <- c(10, 20, 30)\nmin(nums)\n```",
-    "choices": ["30", "20", "10", "Error"],
-    "answer": "10",
-    "explanation": "The 'min()' function returns the smallest value in the input vector. Here, it returns 10."
+    "question": "Which function in R is used to create a box plot?",
+    "choices": ["geom_bar()", "geom_histogram()", "geom_boxplot()", "geom_point()"],
+    "answer": "geom_boxplot()",
+    "explanation": "The 'geom_boxplot()' function in ggplot2 is used to create box plots for visualizing data distribution and skewness."
   },
   {
     "id": 7,
-    "question": "What does the following function do?\n```R\ncalculate_bmi <- function(weight, height) {\n  return(weight / (height^2))\n}\n```",
+    "question": "What does the following R code do?\n```R\ngsub('a', 'o', 'apple')\n```",
     "choices": [
-      "Calculates weight-to-height ratio",
-      "Calculates Body Mass Index (BMI)",
-      "Calculates the square of the height",
-      "Calculates weight divided by height"
+      "Adds 'o' to the string 'apple'",
+      "Replaces 'a' with 'o' in 'apple'",
+      "Splits 'apple' into 'a' and 'pple'",
+      "Searches for 'a' in 'apple' and removes it"
     ],
-    "answer": "Calculates Body Mass Index (BMI)",
-    "explanation": "The function calculates BMI by dividing the weight by the square of the height."
+    "answer": "Replaces 'a' with 'o' in 'apple'",
+    "explanation": "The 'gsub()' function replaces all occurrences of a pattern ('a') with a replacement ('o') in the given string."
   },
   {
     "id": 8,
-    "question": "Which data type in R represents string values?",
-    "choices": ["integer", "numeric", "logical", "character"],
-    "answer": "character",
-    "explanation": "In R, the 'character' data type is used to represent text or string values."
+    "question": "What is the output of the following code?\n```R\nc(1, 2, 3) + c(4, 5, 6)\n```",
+    "choices": ["[1] 5 7 9", "[1] 1 2 3 4 5 6", "[1] 1 4 2 5 3 6", "Error"],
+    "answer": "[1] 5 7 9",
+    "explanation": "In R, vectors of the same length are added element-wise. Here, each element of the first vector is added to the corresponding element of the second."
   },
   {
     "id": 9,
-    "question": "Which function is used to calculate the number of characters in a string in R?",
-    "choices": ["substr()", "nchar()", "length()", "paste()"],
-    "answer": "nchar()",
-    "explanation": "The 'nchar()' function calculates the total number of characters in a given string."
+    "question": "Which of the following scaling techniques standardizes data to have a mean of 0 and a standard deviation of 1?",
+    "choices": [
+      "Logarithmic scaling",
+      "Normalization",
+      "Standard scaling",
+      "Min-max scaling"
+    ],
+    "answer": "Standard scaling",
+    "explanation": "Standard scaling adjusts data to have a mean of 0 and a standard deviation of 1, ensuring uniform scale across features."
   },
   {
     "id": 10,
-    "question": "What is the primary purpose of using 'return()' in an R function?",
+    "question": "What does the 'summary()' function in R provide?",
     "choices": [
-      "To define the function's name",
-      "To specify the function's parameters",
-      "To explicitly return a value from the function",
-      "To terminate the function definition"
+      "A compact display of an object’s structure",
+      "A summary of descriptive statistics for each column",
+      "A visualization of data distribution",
+      "A list of unique values in the dataset"
     ],
-    "answer": "To explicitly return a value from the function",
-    "explanation": "The 'return()' function in R is used to explicitly specify the value that should be returned by a function."
+    "answer": "A summary of descriptive statistics for each column",
+    "explanation": "The 'summary()' function provides descriptive statistics like min, max, mean, and quartiles for each column in a dataset."
   }
-]
-    
+]   
     }
