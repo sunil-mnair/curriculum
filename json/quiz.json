@@ -5794,5 +5794,5 @@
     "answer": "A summary of descriptive statistics for each column",
     "explanation": "The 'summary()' function provides descriptive statistics like min, max, mean, and quartiles for each column in a dataset."
   }
-]   
+],"Payment Technologies":   
     }

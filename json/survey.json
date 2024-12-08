@@ -1060,5 +1060,26 @@
       "question": "How comfortable are you with installing and setting up programming environments (e.g., R Studio)?",
       "choices": ["Very comfortable", "Somewhat comfortable", "Need some guidance", "Not comfortable at all"]
   }
+],"Payment Technologies":[
+  {
+    "id": 1,
+    "question": "Payment Tech Explorer: Imagine you're a payment superhero! Which of these high-tech payment tools have you used to save the day?",
+    "choices": ["Contactless", "Mobile Wallets", "QR Code", "Biometric", "Wearables", "Voice-Activated", "Real-Time Payments", "Invisible Payments", "Virtual Cards", "IoT", "Cross-Border Blockchain", "CBDC"]
+  },
+  {
+    "id": 2,
+    "question": "Advanced Modes of Payment: Discover your payment tech frontier! Which of these technologies are still uncharted territory for you?",
+    "choices": ["Biometric", "Voice-Activated", "Real-Time Payments", "Invisible Payments", "Virtual Cards", "IoT", "Cross-Border Blockchain", "CBDC"]
+  },
+  {
+    "id": 3,
+    "question": "Crypto Enthusiast: Are you a cryptocurrency adventurer? Do you own a crypto wallet to explore the digital frontier?",
+    "choices": ["Yes", "No"]
+  },
+  {
+    "id": 4,
+    "question": "DeFi Dynamo: Have you dabbled in the world of decentralized finance (DeFi)?",
+    "choices": ["Yes", "No"]
+  }
 ]
 }
