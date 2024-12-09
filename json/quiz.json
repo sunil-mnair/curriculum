@@ -5794,5 +5794,127 @@
     "answer": "A summary of descriptive statistics for each column",
     "explanation": "The 'summary()' function provides descriptive statistics like min, max, mean, and quartiles for each column in a dataset."
   }
-],"Payment Technologies":   
+],"Payment Technologies":   [
+  {
+    "id": 1,
+    "question": "What is the main advantage of chip technology over magnetic stripe technology?",
+    "choices": [
+      "Lower production costs",
+      "Dynamic data authentication",
+      "Higher global compatibility",
+      "Ease of card cloning"
+    ],
+    "answer": "Dynamic data authentication",
+    "explanation": "Chip technology provides enhanced security through dynamic data authentication, reducing the risk of card cloning and skimming."
+  },
+  {
+    "id": 2,
+    "question": "Which payment method uses Near Field Communication (NFC) technology for contactless transactions?",
+    "choices": [
+      "Magnetic Stripe Cards",
+      "Wearable Devices",
+      "3D Secure 2.0",
+      "Mobile Wallets"
+    ],
+    "answer": "Mobile Wallets",
+    "explanation": "Mobile wallets like Apple Pay and Google Pay use NFC technology to enable secure, contactless payments."
+  },
+  {
+    "id": 3,
+    "question": "What is the primary purpose of tokenization in payment systems?",
+    "choices": [
+      "To simplify user interfaces",
+      "To replace sensitive data with unique tokens",
+      "To reduce hardware costs",
+      "To increase transaction speed"
+    ],
+    "answer": "To replace sensitive data with unique tokens",
+    "explanation": "Tokenization replaces sensitive data, such as card numbers, with unique tokens to secure transactions and reduce fraud risks."
+  },
+  {
+    "id": 4,
+    "question": "What challenge is commonly associated with implementing 3D Secure 2.0?",
+    "choices": [
+      "High transaction costs",
+      "Complex system integration",
+      "Limited mobile optimization",
+      "Lack of merchant support"
+    ],
+    "answer": "Complex system integration",
+    "explanation": "Adopting 3D Secure 2.0 often requires updating systems and protocols, which can be complex and costly for merchants."
+  },
+  {
+    "id": 5,
+    "question": "How do Real-Time Payment Systems (RTP) benefit businesses?",
+    "choices": [
+      "Reduced transaction speed",
+      "Increased transaction fees",
+      "24/7 fund transfer availability",
+      "Limited cross-border capability"
+    ],
+    "answer": "24/7 fund transfer availability",
+    "explanation": "Real-Time Payment Systems provide businesses with the ability to process payments instantly at any time, enhancing operational efficiency."
+  },
+  {
+    "id": 6,
+    "question": "What is a 'Genesis Block' in blockchain technology?",
+    "choices": [
+      "The most recent block in the blockchain",
+      "A block containing all the transaction data",
+      "The first block of a blockchain",
+      "A block used for testing new cryptographic algorithms"
+    ],
+    "answer": "The first block of a blockchain",
+    "explanation": "The Genesis Block is the first block in a blockchain, serving as the starting point for all subsequent blocks."
+  },
+  {
+    "id": 7,
+    "question": "What feature of distributed peer-to-peer networks ensures blockchain integrity?",
+    "choices": [
+      "Centralized data storage",
+      "Cryptographic linkages",
+      "Global timestamp synchronization",
+      "Consensus through majority hashing power"
+    ],
+    "answer": "Consensus through majority hashing power",
+    "explanation": "Blockchain integrity is maintained through consensus among nodes, where the majority determine the valid chain."
+  },
+  {
+    "id": 8,
+    "question": "Which cryptographic tool is widely used in blockchain for securing data?",
+    "choices": [
+      "RSA encryption",
+      "SHA256 hash function",
+      "Elliptic curve cryptography",
+      "Quantum cryptography"
+    ],
+    "answer": "SHA256 hash function",
+    "explanation": "SHA256 is a widely used hash function in blockchain to secure and validate data through unique cryptographic fingerprints."
+  },
+  {
+    "id": 9,
+    "question": "What is a key advantage of Decentralized Autonomous Organizations (DAOs)?",
+    "choices": [
+      "They are completely independent of blockchain technology",
+      "They rely on centralized decision-making",
+      "They provide transparent and democratic governance",
+      "They have fixed rules that cannot adapt to community needs"
+    ],
+    "answer": "They provide transparent and democratic governance",
+    "explanation": "DAOs use blockchain-based smart contracts to ensure transparent operations and enable democratic decision-making among members."
+  },
+  {
+    "id": 10,
+    "question": "What challenge does quantum computing pose to traditional encryption methods in blockchain?",
+    "choices": [
+      "It increases computational time for encryption",
+      "It threatens the security of current cryptographic algorithms",
+      "It decreases the efficiency of consensus protocols",
+      "It eliminates the need for hash functions"
+    ],
+    "answer": "It threatens the security of current cryptographic algorithms",
+    "explanation": "Quantum computing poses a threat to blockchain security by potentially breaking traditional encryption methods, necessitating quantum-resistant cryptography."
+  }
+]
+
     }
