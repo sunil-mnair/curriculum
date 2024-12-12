@@ -5327,7 +5327,7 @@
           "explanation": "The Lock Tracking feature prevents others from turning off Track Changes, preserving document editing records for collaborative review."
       }
   ],
-  "Emerging Technologies":[
+  "Emerging Technologies 101":[
     {
       "id": 1,
       "question": "You are asked to create a Virtual Stylist capable of classifying fashion categories from images. What type of learning would be most appropriate for this task?",
@@ -5449,7 +5449,7 @@
       "explanation": "Transformers, such as GPT, are designed for natural language generation, making them ideal for building conversational chatbots."
     }
   ],
-  "Generative AI for Business":[
+  "Emerging Technologies":[
     {
         "id": 1,
         "question": "What type of learning uses labeled datasets to predict whether a new customer will qualify for a mortgage?",
