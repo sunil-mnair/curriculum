@@ -5450,127 +5450,127 @@
     }
   ],
   "Generative AI for Business":[
-      {
-          "id": 1,
-          "question": "Which type of machine learning helps predict a customer likelihood of defaulting on a loan using historical data?",
-          "choices": [
-              "Supervised Learning",
-              "Unsupervised Learning",
-              "Reinforcement Learning",
-              "Generative Adversarial Networks"
-          ],
-          "answer": "Supervised Learning",
-          "explanation": "Supervised learning leverages historical data with labeled outcomes to predict the probability of a loan default."
-      },
-      {
-          "id": 2,
-          "question": "A bank detects patterns in customer spending behavior to group customers into segments without predefined labels. Which learning approach is being used?",
-          "choices": [
-              "Unsupervised Learning",
-              "Supervised Learning",
-              "Reinforcement Learning",
-              "Deep Learning"
-          ],
-          "answer": "Unsupervised Learning",
-          "explanation": "Unsupervised learning is used to identify patterns and group data points without requiring labeled datasets."
-      },
-      {
-          "id": 3,
-          "question": "A fraud detection system flags transactions that deviate significantly from historical norms. What type of learning is being applied?",
-          "choices": [
-              "Unsupervised Learning",
-              "Supervised Learning",
-              "Reinforcement Learning",
-              "Generative Adversarial Networks"
-          ],
-          "answer": "Unsupervised Learning",
-          "explanation": "Unsupervised learning is commonly used for anomaly detection, as it can identify outliers without relying on labeled examples."
-      },
-      {
-          "id": 4,
-          "question": "Which AI technology enables a virtual assistant to understand and process customer questions in natural language?",
-          "choices": [
-              "Natural Language Processing (NLP)",
-              "Supervised Learning",
-              "Reinforcement Learning",
-              "Generative Adversarial Networks (GANs)"
-          ],
-          "answer": "Natural Language Processing (NLP)",
-          "explanation": "NLP allows AI systems to interpret and generate text, making it essential for virtual assistants and chatbots."
-      },
-      {
-          "id": 5,
-          "question": "How does a bank create personalized loan offers based on customer demographics and credit history?",
-          "choices": [
-              "Classification Algorithms",
-              "Unsupervised Learning",
-              "Reinforcement Learning",
-              "Generative Adversarial Networks (GANs)"
-          ],
-          "answer": "Classification Algorithms",
-          "explanation": "Classification algorithms are ideal for categorizing customer profiles and customizing loan offers accordingly."
-      },
-      {
-          "id": 6,
-          "question": "What type of learning involves an AI system improving trading strategies based on rewards or penalties from market outcomes?",
-          "choices": [
-              "Reinforcement Learning",
-              "Supervised Learning",
-              "Unsupervised Learning",
-              "Deep Learning"
-          ],
-          "answer": "Reinforcement Learning",
-          "explanation": "Reinforcement learning is effective for optimizing strategies through iterative trial-and-error feedback mechanisms."
-      },
-      {
-          "id": 7,
-          "question": "What AI approach is best for generating realistic examples of fraudulent transactions to improve a detection model?",
-          "choices": [
-              "Generative Adversarial Networks (GANs)",
-              "Reinforcement Learning",
-              "Supervised Learning",
-              "Transformer Models"
-          ],
-          "answer": "Generative Adversarial Networks (GANs)",
-          "explanation": "GANs are effective for generating synthetic but realistic data for training purposes."
-      },
-      {
-          "id": 8,
-          "question": "Which machine learning model is well-suited for identifying key factors influencing customer loan approvals?",
-          "choices": [
-              "Decision Trees",
-              "Recurrent Neural Networks (RNNs)",
-              "Generative Adversarial Networks (GANs)",
-              "Unsupervised Learning"
-          ],
-          "answer": "Decision Trees",
-          "explanation": "Decision trees provide an interpretable way to determine the factors most relevant to loan approvals."
-      },
-      {
-          "id": 9,
-          "question": "A bank utilizes AI to summarize and compile financial performance data into readable reports. Which technology is most applicable?",
-          "choices": [
-              "Natural Language Processing (NLP)",
-              "Supervised Learning",
-              "Reinforcement Learning",
-              "Deep Learning"
-          ],
-          "answer": "Natural Language Processing (NLP)",
-          "explanation": "NLP processes structured data to generate coherent and comprehensible reports for analysis."
-      },
-      {
-          "id": 10,
-          "question": "Which AI method can help a bank's portfolio management system refine its investment strategies over time based on feedback?",
-          "choices": [
-              "Reinforcement Learning",
-              "Supervised Learning",
-              "Unsupervised Learning",
-              "Decision Trees"
-          ],
-          "answer": "Reinforcement Learning",
-          "explanation": "Reinforcement learning enables the system to adapt and optimize investment decisions based on past performance and new feedback."
-      }
-  ],
+    {
+        "id": 1,
+        "question": "What type of learning uses labeled datasets to predict whether a new customer will qualify for a mortgage?",
+        "choices": [
+            "Supervised Learning",
+            "Unsupervised Learning",
+            "Reinforcement Learning",
+            "Deep Learning"
+        ],
+        "answer": "Supervised Learning",
+        "explanation": "Supervised learning relies on labeled datasets to make predictions about new data, such as mortgage qualification."
+    },
+    {
+        "id": 2,
+        "question": "When a financial institution organizes transactions to find hidden patterns without prior labels, which learning type is applied?",
+        "choices": [
+            "Unsupervised Learning",
+            "Supervised Learning",
+            "Reinforcement Learning",
+            "Natural Language Processing (NLP)"
+        ],
+        "answer": "Unsupervised Learning",
+        "explanation": "Unsupervised learning discovers hidden patterns in data without the need for predefined labels."
+    },
+    {
+        "id": 3,
+        "question": "What technique is used when a bank identifies unusual activity in a customer's account based on historical behavior?",
+        "choices": [
+            "Unsupervised Learning",
+            "Supervised Learning",
+            "Reinforcement Learning",
+            "Generative Adversarial Networks"
+        ],
+        "answer": "Unsupervised Learning",
+        "explanation": "Anomaly detection through unsupervised learning helps identify transactions that differ significantly from normal behavior."
+    },
+    {
+        "id": 4,
+        "question": "Which AI capability allows customer service bots to understand and respond in human language?",
+        "choices": [
+            "Natural Language Processing (NLP)",
+            "Reinforcement Learning",
+            "Unsupervised Learning",
+            "Deep Learning"
+        ],
+        "answer": "Natural Language Processing (NLP)",
+        "explanation": "NLP is essential for enabling machines to comprehend and respond to text or speech in natural language."
+    },
+    {
+        "id": 5,
+        "question": "Which approach is commonly used by banks to assign customers to risk categories for loan applications?",
+        "choices": [
+            "Classification Algorithms",
+            "Reinforcement Learning",
+            "Generative Adversarial Networks (GANs)",
+            "Natural Language Processing (NLP)"
+        ],
+        "answer": "Classification Algorithms",
+        "explanation": "Classification algorithms classify data into predefined categories, such as risk levels for loans."
+    },
+    {
+        "id": 6,
+        "question": "What type of machine learning is used for an AI to optimize financial trading based on rewards from market outcomes?",
+        "choices": [
+            "Reinforcement Learning",
+            "Supervised Learning",
+            "Unsupervised Learning",
+            "Natural Language Processing (NLP)"
+        ],
+        "answer": "Reinforcement Learning",
+        "explanation": "Reinforcement learning iteratively improves strategies by maximizing rewards from market simulations."
+    },
+    {
+        "id": 7,
+        "question": "What AI technique is suitable for producing fake yet realistic transactions to train fraud detection systems?",
+        "choices": [
+            "Generative Adversarial Networks (GANs)",
+            "Supervised Learning",
+            "Reinforcement Learning",
+            "Deep Learning"
+        ],
+        "answer": "Generative Adversarial Networks (GANs)",
+        "explanation": "GANs create realistic synthetic data, helping to enhance fraud detection models."
+    },
+    {
+        "id": 8,
+        "question": "Which machine learning model can be used to pinpoint factors that most influence loan repayment likelihood?",
+        "choices": [
+            "Decision Trees",
+            "Unsupervised Learning",
+            "Generative Adversarial Networks (GANs)",
+            "Reinforcement Learning"
+        ],
+        "answer": "Decision Trees",
+        "explanation": "Decision trees are interpretable and useful for identifying the most important factors affecting loan repayment."
+    },
+    {
+        "id": 9,
+        "question": "What AI capability would a bank use to automatically generate summaries of customer spending trends in reports?",
+        "choices": [
+            "Natural Language Processing (NLP)",
+            "Reinforcement Learning",
+            "Supervised Learning",
+            "Deep Learning"
+        ],
+        "answer": "Natural Language Processing (NLP)",
+        "explanation": "NLP enables systems to generate meaningful summaries from structured or unstructured data."
+    },
+    {
+        "id": 10,
+        "question": "How can AI refine portfolio management strategies using feedback from investment outcomes?",
+        "choices": [
+            "Reinforcement Learning",
+            "Unsupervised Learning",
+            "Supervised Learning",
+            "Decision Trees"
+        ],
+        "answer": "Reinforcement Learning",
+        "explanation": "Reinforcement learning adapts and improves decision-making strategies by learning from outcome-based feedback."
+    }
+],
   "Foundations of AI and GenAI in Finance":[
     {
         "id": 1,
