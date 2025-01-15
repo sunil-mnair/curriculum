@@ -6037,5 +6037,128 @@
     "answer": "It undermines the security of current cryptographic algorithms",
     "explanation": "Quantum computing poses a threat to blockchain security by potentially breaking conventional cryptographic methods, requiring quantum-safe solutions."
   }
-]
+],
+"Microsoft Teams":
+[
+    {
+      "id": 1,
+      "question": "What is the primary purpose of Microsoft Teams?",
+      "choices": [
+        "To serve as a cloud storage solution",
+        "To enhance organizational communication and collaboration",
+        "To provide a platform for online shopping",
+        "To serve as a social networking site"
+      ],
+      "answer": "To enhance organizational communication and collaboration",
+      "explanation": "Microsoft Teams is designed to improve communication and collaboration within organizations through chat, meetings, and file-sharing features."
+    },
+    {
+      "id": 2,
+      "question": "Where are files shared in a chat stored?",
+      "choices": [
+        "In the sender's OneDrive",
+        "In SharePoint",
+        "In the local computer",
+        "In the receiver's email inbox"
+      ],
+      "answer": "In the sender's OneDrive",
+      "explanation": "Files shared in a chat are stored in the sender's OneDrive under the 'Microsoft Teams Chat Files' folder."
+    },
+    {
+      "id": 3,
+      "question": "What feature in Microsoft Teams allows for real-time document collaboration?",
+      "choices": [
+        "Teams Chat",
+        "File Sharing",
+        "Version Management",
+        "Search Bar"
+      ],
+      "answer": "File Sharing",
+      "explanation": "Microsoft Teams' File Sharing feature supports real-time collaboration on documents within teams and chats."
+    },
+    {
+      "id": 4,
+      "question": "What is the default expiration period for Microsoft Teams meeting recordings?",
+      "choices": [
+        "30 days",
+        "60 days",
+        "90 days",
+        "No expiration by default"
+      ],
+      "answer": "60 days",
+      "explanation": "Meeting recordings in Microsoft Teams expire by default after 60 days unless the expiration date is adjusted or removed."
+    },
+    {
+      "id": 5,
+      "question": "What does the 'Pinned Chats' feature in Teams allow you to do?",
+      "choices": [
+        "Lock a chat for editing",
+        "Pin a chat to the top of your chat list for quick access",
+        "Hide a chat from the list",
+        "Archive a chat permanently"
+      ],
+      "answer": "Pin a chat to the top of your chat list for quick access",
+      "explanation": "The 'Pinned Chats' feature helps users keep important conversations easily accessible by pinning them to the top of the chat list."
+    },
+    {
+      "id": 6,
+      "question": "Which Teams feature is ideal for quick ad-hoc discussions?",
+      "choices": [
+        "Meet Now",
+        "Scheduled Meetings",
+        "Channel Meetings",
+        "Recurring Meetings"
+      ],
+      "answer": "Meet Now",
+      "explanation": "The 'Meet Now' feature is designed for instant, unscheduled meetings, allowing teams to quickly transition from chats to discussions."
+    },
+    {
+      "id": 7,
+      "question": "What is the maximum number of participants in a Teams group chat?",
+      "choices": [
+        "100",
+        "250",
+        "500",
+        "Unlimited"
+      ],
+      "answer": "250",
+      "explanation": "Microsoft Teams supports up to 250 participants in a group chat, making it suitable for large-scale discussions."
+    },
+    {
+      "id": 8,
+      "question": "Which presenter mode overlays the presenter in front of the shared content?",
+      "choices": [
+        "Standout",
+        "Side-by-side",
+        "Reporter",
+        "Content only"
+      ],
+      "answer": "Standout",
+      "explanation": "The 'Standout' presenter mode in Teams places the presenter in front of the shared content, providing a more engaging presentation style."
+    },
+    {
+      "id": 9,
+      "question": "How can a user hide their own video feed during a meeting?",
+      "choices": [
+        "By turning off the camera",
+        "Using the 'Hide for Me' feature",
+        "Muting the microphone",
+        "Using the 'Pin for Me' feature"
+      ],
+      "answer": "Using the 'Hide for Me' feature",
+      "explanation": "The 'Hide for Me' feature allows users to hide their own video feed while keeping the camera on for others in the meeting."
+    },
+    {
+      "id": 10,
+      "question": "What is the role of the 'Command Bar' in Microsoft Teams?",
+      "choices": [
+        "To manage team permissions",
+        "To provide quick search and command execution",
+        "To display file storage details",
+        "To access meeting recordings"
+      ],
+      "answer": "To provide quick search and command execution",
+      "explanation": "The 'Command Bar' at the top of Microsoft Teams allows users to search for content and execute commands quickly, streamlining navigation and productivity."
+    }
+  ]
     }
