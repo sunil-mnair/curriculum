@@ -6160,5 +6160,127 @@
       "answer": "To provide quick search and command execution",
       "explanation": "The 'Command Bar' at the top of Microsoft Teams allows users to search for content and execute commands quickly, streamlining navigation and productivity."
     }
-  ]
+  ],
+  "Microsoft SharePoint Online":[
+    {
+      "id": 1,
+      "question": "In a SharePoint Document Library used by WSP for project proposals, what ensures that older versions of a document are retained?",
+      "choices": [
+        "Metadata tagging",
+        "Versioning",
+        "Document approval workflows",
+        "Custom views"
+      ],
+      "answer": "Versioning",
+      "explanation": "Versioning ensures that older versions of project proposals are retained, allowing the team to track changes and restore previous versions if needed."
+    },
+    {
+      "id": 2,
+      "question": "What happens when the check-in/check-out feature is enabled in a WSP Document Library for design plans?",
+      "choices": [
+        "Only one user can edit a file at a time, preventing simultaneous changes.",
+        "The document becomes read-only until reviewed by a manager.",
+        "Changes are automatically logged in real time for all users.",
+        "The document can only be edited by the site administrator."
+      ],
+      "answer": "Only one user can edit a file at a time, preventing simultaneous changes.",
+      "explanation": "Enabling the check-in/check-out feature ensures that design plans are edited sequentially to avoid conflicting changes by multiple team members."
+    },
+    {
+      "id": 3,
+      "question": "When tracking client projects in a SharePoint list, what feature would WSP use to pull data from a separate list of approved contractors?",
+      "choices": [
+        "Calculated column",
+        "Lookup column",
+        "Choice column",
+        "Person column"
+      ],
+      "answer": "Lookup column",
+      "explanation": "A lookup column references the approved contractors list, allowing WSP to link contractors to specific projects dynamically."
+    },
+    {
+      "id": 4,
+      "question": "If WSP is creating a modern SharePoint page to display key project updates, how can the layout be customized?",
+      "choices": [
+        "By modifying web parts and selecting different section layouts.",
+        "By embedding external CSS styles into the page.",
+        "By switching the page to classic mode.",
+        "By configuring the site's backend HTML code."
+      ],
+      "answer": "By modifying web parts and selecting different section layouts.",
+      "explanation": "Modern SharePoint pages can be customized by adding, rearranging, and configuring web parts to display key updates effectively."
+    },
+    {
+      "id": 5,
+      "question": "In a SharePoint list tracking project deadlines, how can WSP calculate a milestone date based on a project’s start date?",
+      "choices": [
+        "By adding a Person column with calculated logic.",
+        "By creating a calculated column that adds days to the start date.",
+        "By enabling the Grid View to display custom milestones.",
+        "By exporting the list to Excel and manually adding milestones."
+      ],
+      "answer": "By creating a calculated column that adds days to the start date.",
+      "explanation": "A calculated column can dynamically generate milestone dates by adding a set number of days to the project's start date."
+    },
+    {
+      "id": 6,
+      "question": "When WSP sets a SharePoint page as the site’s home page, what happens?",
+      "choices": [
+        "The page replaces the current default home page for all users.",
+        "The page becomes accessible only to site administrators.",
+        "A copy of the page is added to all sub-sites automatically.",
+        "The page's layout is locked for further editing."
+      ],
+      "answer": "The page replaces the current default home page for all users.",
+      "explanation": "Setting a page as the home page makes it the default landing page for all users accessing the SharePoint site."
+    },
+    {
+      "id": 7,
+      "question": "If WSP needs to review past changes to a client report in a Document Library, which feature allows them to see who made specific edits?",
+      "choices": [
+        "Activity history",
+        "Version history",
+        "Metadata tracking",
+        "Document approval"
+      ],
+      "answer": "Version history",
+      "explanation": "Version history in a Document Library provides a detailed log of edits, including who made specific changes and when."
+    },
+    {
+      "id": 8,
+      "question": "What should WSP do to ensure the 'Affiliate Shop Name' field is hidden unless the 'Repair Shop Type' is marked as 'Affiliated' in a SharePoint list?",
+      "choices": [
+        "Use a conditional formula to control field visibility.",
+        "Configure an advanced view with filtering.",
+        "Add metadata to highlight the field.",
+        "Create a separate list for affiliated shops."
+      ],
+      "answer": "Use a conditional formula to control field visibility.",
+      "explanation": "Conditional formulas in SharePoint lists allow WSP to show or hide fields dynamically based on other field values."
+    },
+    {
+      "id": 9,
+      "question": "When WSP uses a SharePoint list to track customer requests, what is the advantage of the Activity pane?",
+      "choices": [
+        "It enables users to revert the entire list to a previous state.",
+        "It provides a summary of all updates and comments on individual items.",
+        "It allows bulk updates to list items simultaneously.",
+        "It tracks version history for the entire list."
+      ],
+      "answer": "It provides a summary of all updates and comments on individual items.",
+      "explanation": "The Activity pane summarizes actions such as updates and comments, helping WSP track interactions with customer requests."
+    },
+    {
+      "id": 10,
+      "question": "How can WSP dynamically filter a SharePoint list of project data to show only tasks marked as 'Urgent'?",
+      "choices": [
+        "Use a custom view with a filter applied to the 'Priority' column.",
+        "Manually sort the list by urgency.",
+        "Add a metadata column and re-enter the tasks.",
+        "Export the list to Excel and apply filters there."
+      ],
+      "answer": "Use a custom view with a filter applied to the 'Priority' column.",
+      "explanation": "A custom view allows WSP to apply filters, such as displaying only tasks marked as 'Urgent,' directly in the SharePoint list."
+    }
+  ]  
     }
