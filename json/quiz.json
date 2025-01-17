@@ -6282,5 +6282,127 @@
       "answer": "Use a custom view with a filter applied to the 'Priority' column.",
       "explanation": "A custom view allows WSP to apply filters, such as displaying only tasks marked as 'Urgent,' directly in the SharePoint list."
     }
+  ],
+  "Microsoft Power Apps":[
+    {
+      "id": 1,
+      "question": "What is the primary purpose of Microsoft Power Apps?",
+      "choices": [
+        "To build custom business applications with minimal coding.",
+        "To manage cloud storage solutions.",
+        "To develop complex AI algorithms.",
+        "To optimize computer hardware performance."
+      ],
+      "answer": "To build custom business applications with minimal coding.",
+      "explanation": "Microsoft Power Apps is a low-code/no-code platform designed to empower users to create custom business applications and automate workflows with ease."
+    },
+    {
+      "id": 2,
+      "question": "Which app-building approach in Power Apps is best for creating flexible, mobile-friendly applications?",
+      "choices": [
+        "Model-Driven Apps",
+        "Canvas Apps",
+        "Power Pages",
+        "Dataverse Tables"
+      ],
+      "answer": "Canvas Apps",
+      "explanation": "Canvas Apps are optimized for mobile and tablet interfaces, allowing users to design custom applications by dragging and dropping elements."
+    },
+    {
+      "id": 3,
+      "question": "What is the role of an environment in the Power Platform?",
+      "choices": [
+        "To serve as a container for organizing and managing resources.",
+        "To store customer and user data exclusively.",
+        "To design the UI/UX of Power Apps applications.",
+        "To manage access to Power Automate flows only."
+      ],
+      "answer": "To serve as a container for organizing and managing resources.",
+      "explanation": "Environments in Power Platform act as virtual workspaces where resources like Power Apps, Power Automate flows, and Power BI reports are organized and managed."
+    },
+    {
+      "id": 4,
+      "question": "Which environment type is designed for user acceptance testing (UAT) and experimentation?",
+      "choices": [
+        "Production Environment",
+        "Sandbox Environment",
+        "Development Environment",
+        "Trial Environment"
+      ],
+      "answer": "Sandbox Environment",
+      "explanation": "Sandbox environments are non-production spaces ideal for development, testing, and UAT, ensuring live applications are not impacted."
+    },
+    {
+      "id": 5,
+      "question": "What is Microsoft Dataverse?",
+      "choices": [
+        "A code editor for Power Apps development.",
+        "A cloud-based data storage and management service.",
+        "An advanced AI feature of Power Platform.",
+        "A UI design tool for Canvas Apps."
+      ],
+      "answer": "A cloud-based data storage and management service.",
+      "explanation": "Microsoft Dataverse is a data backbone of the Power Platform, enabling businesses to securely store and manage data while supporting integration with other tools."
+    },
+    {
+      "id": 6,
+      "question": "Which data type would you use for a column in Dataverse that stores unique identifiers?",
+      "choices": [
+        "Primary Key",
+        "Text",
+        "Number",
+        "Calculated Column"
+      ],
+      "answer": "Primary Key",
+      "explanation": "Primary Key is a data type used in Dataverse to store unique identifiers for records, such as Order IDs."
+    },
+    {
+      "id": 7,
+      "question": "What is the relationship type called when one account can have multiple orders?",
+      "choices": [
+        "One-to-One",
+        "One-to-Many",
+        "Many-to-Many",
+        "Many-to-One"
+      ],
+      "answer": "One-to-Many",
+      "explanation": "A One-to-Many relationship in Dataverse allows one record, such as an account, to be associated with multiple related records, such as orders."
+    },
+    {
+      "id": 8,
+      "question": "What is the function of Virtual Tables in Dataverse?",
+      "choices": [
+        "To store large volumes of data locally.",
+        "To interact with external data sources without storing data in Dataverse.",
+        "To automate workflows across Power Apps.",
+        "To enable custom UI design for apps."
+      ],
+      "answer": "To interact with external data sources without storing data in Dataverse.",
+      "explanation": "Virtual Tables provide a seamless interface to external data sources, allowing real-time integration without storing the data directly in Dataverse."
+    },
+    {
+      "id": 9,
+      "question": "What function can be used in Power Apps to navigate between screens?",
+      "choices": [
+        "Switch",
+        "Navigate",
+        "Transition",
+        "Move"
+      ],
+      "answer": "Navigate",
+      "explanation": "The Navigate function in Power Apps allows users to switch between different screens within an application."
+    },
+    {
+      "id": 10,
+      "question": "What feature in Power Apps allows developers to create and update variables for app functionality?",
+      "choices": [
+        "Set and UpdateContext functions",
+        "Navigate and Back functions",
+        "Filter and Sort functions",
+        "Data Integration connectors"
+      ],
+      "answer": "Set and UpdateContext functions",
+      "explanation": "In Power Apps, the Set function is used to create and update variables within the app's current scope, while the UpdateContext function is used to manage context variables across screens."
+    }
   ]  
     }
