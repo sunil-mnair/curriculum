@@ -2003,7 +2003,7 @@
     [
       {
           "id": 1,
-          "question": "Which of these formulas will help extract the numbers with the current Number format in Excel?",
+          "question": "Which formula will help extract the numbers with the current Number format in Excel?",
           "image": "excel_substitute_value.png",
           "choices": [
               "=SUBSTITUTE(A2,'USD','')",
@@ -2016,7 +2016,7 @@
       },
       {
           "id": 2,
-          "question": "In this image, which formula would we use to display the text Waffles: bunny?",
+          "question": "In this image, which formula is to be used to display the text Waffles: bunny?",
           "image": "excel_concatenate.png",
           "choices": [
               "=CONCATENATE(A2, ': ', B2)",
@@ -2029,7 +2029,7 @@
       },
       {
           "id": 3,
-          "question": "If the word 'alphabet' is in cell A1, then what does the function =MID(A1, 3, 4) display?",
+          "question": "If the word 'alphabet' is in cell A1, what does the function =MID(A1,3,4) display?",
           "image": "",
           "choices": [
               "phab",
@@ -2042,7 +2042,7 @@
       },
       {
           "id": 4,
-          "question": "What is the result of the formula =TRIM(' Question Six ')?",
+          "question": "Result of the formula =TRIM(' Question Six ')?",
           "image": "",
           "choices": [
               "Question Six",
@@ -2055,7 +2055,7 @@
       },
       {
           "id": 5,
-          "question": "Which formula can be used to calculate the average of the values in cells A1 to A10?",
+          "question": "Formula that can be used to calculate the average of the values in cells A1 to A10?",
           "image": "",
           "choices": [
               "=SUM(A1:A10)/10",
