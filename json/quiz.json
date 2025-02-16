@@ -1885,16 +1885,16 @@
             "question":"In this image, why does the value in cell G1 look slightly different from the value in the formula bar?",
             "image":"excel_currency_format.png",
             "choices": [
-                "It’s using an absolute cell reference",
-                "It’s using the Currency number format",
-                "It’s using a formula",
-                "It’s using conditional formatting"],
-            "answer": "It’s using the Currency number format",
+                "It's using an absolute cell reference",
+                "It's using the Currency number format",
+                "It's using a formula",
+                "It's using conditional formatting"],
+            "answer": "It's using the Currency number format",
             "explanation":""
         },
         {
             "id": 3,
-            "question":"Let’s say you’re trying to find your average grade. What’s wrong with the formula shown in the image?",
+            "question":"Let's say you're trying to find your average grade. What's wrong with the formula shown in the image?",
             "image":"excel_formula.png",
             "choices": [
                 "It should use the COUNT function instead",
@@ -2989,7 +2989,7 @@
             "choices": [
                 "They can automatically extract unique values from a dataset",
                 "They offer interactive data exploration capabilities",
-                "They directly improve the Excel workbook’s printing quality",
+                "They directly improve the Excel workbook's printing quality",
                 "They can only display data in a tabular format"
             ],
             "answer": "They offer interactive data exploration capabilities",
@@ -4854,7 +4854,7 @@
         },
         {
           "id": 2,
-          "question": "As a junior employee, how can understanding the bank’s liquidity position help you in customer interactions?",
+          "question": "As a junior employee, how can understanding the bank's liquidity position help you in customer interactions?",
           "choices": [
             "It allows you to suggest which customers should receive loans",
             "You can explain to clients why large withdrawals might take time",
@@ -4862,7 +4862,7 @@
             "You can prioritize customers for faster loan processing"
           ],
           "answer": "You can explain to clients why large withdrawals might take time",
-          "explanation": "A strong understanding of liquidity helps you inform clients about the bank’s need to maintain liquid assets to meet withdrawal demands, especially for large transactions."
+          "explanation": "A strong understanding of liquidity helps you inform clients about the bank's need to maintain liquid assets to meet withdrawal demands, especially for large transactions."
         },
         {
           "id": 3,
@@ -4890,15 +4890,15 @@
         },
         {
           "id": 5,
-          "question": "In your role, how can APIs (Application Programming Interfaces) support the bank’s digital services?",
+          "question": "In your role, how can APIs (Application Programming Interfaces) support the bank's digital services?",
           "choices": [
             "By allowing customers to compare loan offers from different banks",
-            "By connecting the bank’s digital apps with core banking systems for real-time data access",
+            "By connecting the bank's digital apps with core banking systems for real-time data access",
             "By preventing unauthorized account access",
             "By automatically processing new loan applications"
           ],
-          "answer": "By connecting the bank’s digital apps with core banking systems for real-time data access",
-          "explanation": "APIs enable real-time integration between the front-end digital platforms (like apps and websites) and the bank’s core systems, allowing for faster and more accurate data access and transactions."
+          "answer": "By connecting the bank's digital apps with core banking systems for real-time data access",
+          "explanation": "APIs enable real-time integration between the front-end digital platforms (like apps and websites) and the bank's core systems, allowing for faster and more accurate data access and transactions."
         },
         {
           "id": 6,
@@ -5065,9 +5065,9 @@
             "Click the links to verify the sender",
             "Respond to the email to ask for clarification",
             "Delete the email immediately",
-            "Verify the sender’s address and avoid clicking on any links"
+            "Verify the sender's address and avoid clicking on any links"
           ],
-          "answer": "Verify the sender’s address and avoid clicking on any links",
+          "answer": "Verify the sender's address and avoid clicking on any links",
           "explanation": "If you suspect an email is a phishing attempt, it is crucial to verify the sender's address and avoid clicking on any links or attachments, as they may lead to malware or data theft."
         },
         {
@@ -5220,7 +5220,7 @@
       },
       {
           "id": 2,
-          "question": "While reviewing a colleague’s document, John notices they’ve used inconsistent font sizes, which makes it hard to read. He decides to enable a tool that will record his edits so his colleague can see exactly what he’s changed. Which feature should John activate?",
+          "question": "While reviewing a colleague's document, John notices they've used inconsistent font sizes, which makes it hard to read. He decides to enable a tool that will record his edits so his colleague can see exactly what he's changed. Which feature should John activate?",
           "choices": [
               "Mail Merge",
               "Track Changes",
@@ -5232,7 +5232,7 @@
       },
       {
           "id": 3,
-          "question": "Alex is designing a newsletter in Word that he plans to send to different customers, with each one’s name and address automatically filled in. He has a list of customer information in an Excel file. Which feature should Alex use to create a personalized document for each recipient?",
+          "question": "Alex is designing a newsletter in Word that he plans to send to different customers, with each one's name and address automatically filled in. He has a list of customer information in an Excel file. Which feature should Alex use to create a personalized document for each recipient?",
           "choices": [
               "Page Setup",
               "Mail Merge",
@@ -5786,7 +5786,7 @@
     "id": 10,
     "question": "What does the 'summary()' function in R provide?",
     "choices": [
-      "A compact display of an object’s structure",
+      "A compact display of an object's structure",
       "A summary of descriptive statistics for each column",
       "A visualization of data distribution",
       "A list of unique values in the dataset"
@@ -6212,7 +6212,7 @@
     },
     {
       "id": 5,
-      "question": "In a SharePoint list tracking project deadlines, how can WSP calculate a milestone date based on a project’s start date?",
+      "question": "In a SharePoint list tracking project deadlines, how can WSP calculate a milestone date based on a project's start date?",
       "choices": [
         "By adding a Person column with calculated logic.",
         "By creating a calculated column that adds days to the start date.",
@@ -6224,7 +6224,7 @@
     },
     {
       "id": 6,
-      "question": "When WSP sets a SharePoint page as the site’s home page, what happens?",
+      "question": "When WSP sets a SharePoint page as the site's home page, what happens?",
       "choices": [
         "The page replaces the current default home page for all users.",
         "The page becomes accessible only to site administrators.",
@@ -6403,6 +6403,368 @@
       ],
       "answer": "Set and UpdateContext functions",
       "explanation": "In Power Apps, the Set function is used to create and update variables within the app's current scope, while the UpdateContext function is used to manage context variables across screens."
+    }
+  ],
+  "ByteSize Sales Training":[
+    {
+      "id": 1,
+      "question": "Which ByteSize training course is best for professionals who need to create interactive dashboards?",
+      "choices": [
+        "Microsoft Outlook",
+        "Microsoft PowerPoint",
+        "Microsoft Power BI",
+        "Microsoft SharePoint"
+      ],
+      "answer": "Microsoft Power BI",
+      "explanation": "Microsoft Power BI is specifically designed for creating interactive dashboards and visualizing data, making it the best choice for this need."
+    },
+    {
+      "id": 2,
+      "question": "A financial services firm wants to improve fraud detection using AI. Which course would best fit their needs?",
+      "choices": [
+        "Machine Learning using Python",
+        "SQL Server Administration",
+        "Microsoft Power Apps",
+        "Microsoft Teams"
+      ],
+      "answer": "Machine Learning using Python",
+      "explanation": "Machine learning techniques, particularly in Python, are widely used for fraud detection by analyzing transaction patterns and identifying anomalies."
+    },
+    {
+      "id": 3,
+      "question": "Which ByteSize training is ideal for employees who need to consolidate and analyze data from multiple Excel files?",
+      "choices": [
+        "Microsoft Outlook Productivity",
+        "Data Consolidation and Analysis using Excel",
+        "Blockchain Fundamentals",
+        "SQL Primer for Data Analysis"
+      ],
+      "answer": "Data Consolidation and Analysis using Excel",
+      "explanation": "This course focuses on using Excel's advanced features like Power Query and PivotTables to consolidate and analyze data effectively."
+    },
+    {
+      "id": 4,
+      "question": "Which of the following industries would benefit most from Blockchain Fundamentals training?",
+      "choices": [
+        "Finance & Banking",
+        "Hospitality",
+        "Retail",
+        "Real Estate"
+      ],
+      "answer": "Finance & Banking",
+      "explanation": "Blockchain technology is highly relevant in finance and banking for secure transactions, fraud prevention, and decentralized ledgers."
+    },
+    {
+      "id": 5,
+      "question": "Which training is best for developers looking to build custom automation solutions within Microsoft 365?",
+      "choices": [
+        "Microsoft Power Apps",
+        "Microsoft PowerPoint Advanced",
+        "SQL Server Administration",
+        "Data Governance"
+      ],
+      "answer": "Microsoft Power Apps",
+      "explanation": "Microsoft Power Apps enables developers to build custom automation solutions and business applications without extensive coding."
+    },
+    {
+      "id": 6,
+      "question": "A client wants to improve their Visual Presentation Skills. Which course would be the most relevant?",
+      "choices": [
+        "Microsoft Power BI",
+        "Data Governance & Azure Information Protection",
+        "Microsoft PowerPoint",
+        "Python Fast Track"
+      ],
+      "answer": "Microsoft PowerPoint",
+      "explanation": "Microsoft's PowerPoint training focuses on enhancing visual presentation skills, making it ideal for clients seeking to improve their presentation abilities."
+    },
+    {
+      "id": 7,
+      "question": "Which Microsoft 365 tool is primarily used for document management and team collaboration?",
+      "choices": [
+        "Microsoft SharePoint Online",
+        "Microsoft Excel",
+        "Microsoft Word",
+        "Microsoft Co-Pilot"
+      ],
+      "answer": "Microsoft SharePoint Online",
+      "explanation": "SharePoint Online is designed for document management, team collaboration, and centralized file sharing in Microsoft 365."
+    },
+    {
+      "id": 8,
+      "question": "What is the main advantage of Microsoft Co-Pilot for Office 365?",
+      "choices": [
+        "AI-powered automation and assistance in Microsoft Office tools",
+        "A new version of Microsoft Word",
+        "A standalone data analytics platform",
+        "A replacement for Microsoft Teams"
+      ],
+      "answer": "AI-powered automation and assistance in Microsoft Office tools",
+      "explanation": "Microsoft Co-Pilot integrates AI-powered automation to enhance productivity in Office 365 applications."
+    },
+    {
+      "id": 9,
+      "question": "Which training is most relevant for business analysts looking to perform data modeling and visualization?",
+      "choices": [
+        "PL-300 Microsoft Power BI Data Analyst",
+        "Microsoft Teams Collaboration",
+        "Payment Technologies",
+        "Blockchain Development"
+      ],
+      "answer": "PL-300 Microsoft Power BI Data Analyst",
+      "explanation": "The PL-300 certification focuses on using Power BI for data modeling, analysis, and visualization, making it ideal for business analysts."
+    },
+    {
+      "id": 10,
+      "question": "Which training would be best for a company wanting to enhance SQL-based querying skills for database analysis?",
+      "choices": [
+        "Microsoft Outlook Productivity",
+        "SQL Primer for Data Analysis",
+        "Power BI Developer",
+        "Python Fast Track"
+      ],
+      "answer": "SQL Primer for Data Analysis",
+      "explanation": "This course teaches SQL fundamentals for querying databases and performing data analysis."
+    },
+    {
+      "id": 11,
+      "question": "A logistics company needs to automate workflows without coding. Which training is most relevant?",
+      "choices": [
+        "Microsoft Power Automate",
+        "SQL Server Administration",
+        "Machine Learning using Python",
+        "Analytics using R"
+      ],
+      "answer": "Microsoft Power Automate",
+      "explanation": "Microsoft Power Automate enables users to create automated workflows without writing code, making it ideal for logistics automation."
+    },
+    {
+      "id": 12,
+      "question": "Which course is most suitable for a retail business looking to integrate AI-powered insights into operations?",
+      "choices": [
+        "Foundation of Generative AI",
+        "Microsoft PowerPoint Advanced",
+        "Microsoft Outlook Productivity",
+        "Microsoft Co-Pilot"
+      ],
+      "answer": "Foundation of Generative AI",
+      "explanation": "This course covers how generative AI can be applied in operational decision-making in retail."
+    },
+    {
+      "id": 13,
+      "question": "A company wants to improve real-time reporting and KPI tracking. Which training is most relevant?",
+      "choices": [
+        "Blockchain Fundamentals",
+        "Microsoft Power BI Developer",
+        "SQL Server Administration",
+        "Azure AI"
+      ],
+      "answer": "Microsoft Power BI Developer",
+      "explanation": "This training focuses on developing dashboards and reports for real-time KPI tracking using Power BI."
+    },
+    {
+      "id": 14,
+      "question": "Which training is best for professionals looking to understand payment processing technologies?",
+      "choices": [
+        "Payment Technologies",
+        "Microsoft PowerPoint Advanced",
+        "SQL Primer for Data Analysis",
+        "Generative AI in Finance"
+      ],
+      "answer": "Payment Technologies",
+      "explanation": "This course covers various payment processing technologies, including digital payments, security, and compliance."
+    },
+    {
+      "id": 15,
+      "question": "What is the primary advantage of learning SQL Server Administration?",
+      "choices": [
+        "Managing large databases efficiently",
+        "Creating Power BI dashboards",
+        "Automating Microsoft 365 workflows",
+        "Building machine learning models"
+      ],
+      "answer": "Managing large databases efficiently",
+      "explanation": "SQL Server Administration focuses on database management, performance tuning, and security, making it essential for database professionals."
+    },
+    {
+      "id": 16,
+      "question": "A potential client says they already use Microsoft Excel and don't need additional training. What is the best response?",
+      "choices": [
+        "Our training helps professionals unlock advanced Excel features like Power Pivot, Power Query, and Business Analytics.",
+        "Excel is outdated. You should switch to Power BI.",
+        "That's fine, but training is always good for everyone.",
+        "Microsoft is launching a new version, so you should train again."
+      ],
+      "answer": "Our training helps professionals unlock advanced Excel features like Power Pivot, Power Query, and Business Analytics.",
+      "explanation": "Highlighting advanced features shows how training can provide additional value beyond basic Excel skills."
+    },
+    {
+      "id": 17,
+      "question": "A customer hesitates to invest in training due to budget constraints. What's the best response?",
+      "choices": [
+        "Let's discuss a flexible plan that aligns with your business priorities and budget.",
+        "We can't do anything about the pricing.",
+        "You can always invest later.",
+        "Training is expensive, but you need it anyway."
+      ],
+      "answer": "Let's discuss a flexible plan that aligns with your business priorities and budget.",
+      "explanation": "Offering a flexible plan ensures the customer sees the value of training while considering their budget concerns."
+    },
+    {
+      "id": 18,
+      "question": "A retail company is struggling with sales forecasting. Which training would be best to recommend?",
+      "choices": [
+        "Data Consolidation and Analysis using Excel",
+        "Microsoft Word Essentials",
+        "SQL Primer for Data Analysis",
+        "Microsoft Outlook"
+      ],
+      "answer": "Data Consolidation and Analysis using Excel",
+      "explanation": "This training teaches Excel techniques for data consolidation and analysis, essential for sales forecasting."
+    },
+    {
+      "id": 19,
+      "question": "What is the most effective way to follow up with a lead after an initial demo session?",
+      "choices": [
+        "Send a summary of the discussion along with training benefits and a call to action.",
+        "Wait for the client to contact you.",
+        "Email them asking if they have any questions.",
+        "Ask them to sign up immediately."
+      ],
+      "answer": "Send a summary of the discussion along with training benefits and a call to action.",
+      "explanation": "Providing a summary reinforces key points from the demo and a call to action encourages further engagement."
+    },
+    {
+      "id": 20,
+      "question": "A potential client is unsure about SQL vs. Power BI. What's the best approach?",
+      "choices": [
+        "Explain that SQL is for querying raw data, while Power BI is for visualizing it. Offer a combined training solution.",
+        "Recommend Power BI only.",
+        "Recommend SQL only.",
+        "Tell them to decide based on their own research."
+      ],
+      "answer": "Explain that SQL is for querying raw data, while Power BI is for visualizing it. Offer a combined training solution.",
+      "explanation": "Clarifying the roles of SQL and Power BI helps the client make an informed decision, and a combined solution adds value."
+    },
+    {
+      "id": 21,
+      "question": "A banking executive is concerned about AI replacing jobs. How do you respond?",
+      "choices": [
+        "AI enhances productivity and decision-making rather than replacing employees. Training helps your team stay ahead.",
+        "AI will replace some jobs, so better to be prepared.",
+        "There's nothing to worry about.",
+        "AI is just a trend, it won't affect banking much."
+      ],
+      "answer": "AI enhances productivity and decision-making rather than replacing employees. Training helps your team stay ahead.",
+      "explanation": "Emphasizing AI as a tool for productivity rather than job replacement reassures the client and highlights the importance of upskilling."
+    },
+    {
+      "id": 22,
+      "question": "How would you respond to a client saying they don't have time for training?",
+      "choices": [
+        "We offer flexible, byte-sized sessions that fit into busy schedules.",
+        "Just make time for it.",
+        "Maybe training isn't necessary for you then.",
+        "Training will take less time than expected."
+      ],
+      "answer": "We offer flexible, byte-sized sessions that fit into busy schedules.",
+      "explanation": "Offering flexible training options shows empathy for their time constraints while still demonstrating the value of learning."
+    },
+    {
+      "id": 23,
+      "question": "A potential client is comparing ByteSize's training programs with a competitor's cheaper online courses. How should you respond?",
+      "choices": [
+        "Our training is interactive, hands-on, and tailored to corporate needs, ensuring real-world application, unlike generic online courses.",
+        "We can match their price if you prefer.",
+        "Their courses are not good; you should avoid them.",
+        "You should try both and decide."
+      ],
+      "answer": "Our training is interactive, hands-on, and tailored to corporate needs, ensuring real-world application, unlike generic online courses.",
+      "explanation": "Highlighting the value of ByteSize's training—customization, hands-on learning, and practical application—differentiates it from generic online courses."
+    },
+    {
+      "id": 24,
+      "question": "A government agency wants a customized training program for employees with different skill levels. What is the best approach?",
+      "choices": [
+        "We offer tailored training plans, including beginner-to-advanced tracks and personalized assessments.",
+        "We only provide standard training sessions.",
+        "All employees should take the same course.",
+        "Government agencies don't need customized training."
+      ],
+      "answer": "We offer tailored training plans, including beginner-to-advanced tracks and personalized assessments.",
+      "explanation": "A customized approach ensures employees at different skill levels receive the appropriate training for their needs."
+    },
+    {
+      "id": 25,
+      "question": "A corporate client expresses interest in AI training but is unsure how it applies to their business. How would you explain its value?",
+      "choices": [
+        "AI can enhance decision-making, automate tasks, and improve efficiency across various departments like HR, finance, and customer service.",
+        "AI is mostly for tech companies, but it's good to know.",
+        "If you're unsure, maybe AI training isn't necessary for you.",
+        "AI is complex, and only IT teams should learn it."
+      ],
+      "answer": "AI can enhance decision-making, automate tasks, and improve efficiency across various departments like HR, finance, and customer service.",
+      "explanation": "Explaining AI's practical applications in different business areas helps the client see its relevance."
+    },
+    {
+      "id": 26,
+      "question": "A logistics company is interested in SQL training but worries about the complexity. How would you handle this objection?",
+      "choices": [
+        "Our SQL training is designed for all skill levels, starting with the basics before progressing to advanced topics.",
+        "SQL is difficult, but it's worth the effort.",
+        "If it's too complex, maybe try Excel training instead.",
+        "SQL requires technical knowledge, so it may not be suitable for your team."
+      ],
+      "answer": "Our SQL training is designed for all skill levels, starting with the basics before progressing to advanced topics.",
+      "explanation": "Reassuring the client that the training starts with fundamentals makes it more approachable for all skill levels."
+    },
+    {
+      "id": 27,
+      "question": "How would you handle a client who repeatedly delays making a decision on training?",
+      "choices": [
+        "I understand you're busy. Let's set a follow-up date to revisit this when it's more convenient.",
+        "I'll keep calling you until you decide.",
+        "Maybe training isn't a priority for you right now.",
+        "Just let me know whenever you're ready."
+      ],
+      "answer": "I understand you're busy. Let's set a follow-up date to revisit this when it's more convenient.",
+      "explanation": "Acknowledging their busy schedule while setting a follow-up date keeps the conversation open without pressuring the client."
+    },
+    {
+      "id": 28,
+      "question": "A banking client is concerned that employees might not retain what they learn in a training session. What is the best response?",
+      "choices": [
+        "We provide post-training support, hands-on exercises, and follow-up assessments to ensure long-term retention.",
+        "That's a valid concern, but learning is up to them.",
+        "They should take multiple training sessions to remember everything.",
+        "We can't guarantee retention, but they'll learn during the session."
+      ],
+      "answer": "We provide post-training support, hands-on exercises, and follow-up assessments to ensure long-term retention.",
+      "explanation": "Offering structured follow-up support helps reinforce learning and ensures employees retain knowledge effectively."
+    },
+    {
+      "id": 29,
+      "question": "A client wants to see ROI (Return on Investment) before committing to a training program. What is the best approach?",
+      "choices": [
+        "We measure training effectiveness through assessments, feedback, and performance improvements, ensuring measurable ROI.",
+        "Training is about learning, not ROI.",
+        "ROI is difficult to measure in training programs.",
+        "Your employees will be more knowledgeable, and that's enough."
+      ],
+      "answer": "We measure training effectiveness through assessments, feedback, and performance improvements, ensuring measurable ROI.",
+      "explanation": "Demonstrating measurable outcomes, such as improved performance and assessments, reassures clients about the value of training."
+    },
+    {
+      "id": 30,
+      "question": "A retail business wants training but is unsure about which employees should take it. What should you suggest?",
+      "choices": [
+        "We can conduct a skills gap analysis to identify the right employees for each training program.",
+        "All employees should attend the same training.",
+        "Let's train your senior employees first and ignore the rest.",
+        "Training should only be for managers."
+      ],
+      "answer": "We can conduct a skills gap analysis to identify the right employees for each training program.",
+      "explanation": "A skills gap analysis helps determine which employees would benefit most from specific training programs, ensuring an effective investment."
     }
   ]  
     }
