@@ -1866,7 +1866,7 @@
             "explanation":"Snapshots are incremental backups, which means that only the blocks on the device that have changed after your most recent snapshot are saved. "
         }
     ]
-    ,"Data Consolidation and Analysis using Excel - Old1":
+    ,"Data Consolidation and Analysis using Excel":
         [
             {
             "id": 1,
@@ -1999,7 +1999,7 @@
         }
 
     ]
-    ,"Data Consolidation and Analysis using MS Excel":
+    ,"Data Consolidation and Analysis using MS Excel - Old":
     [
       {
           "id": 1,
@@ -6405,7 +6405,7 @@
       "explanation": "In Power Apps, the Set function is used to create and update variables within the app's current scope, while the UpdateContext function is used to manage context variables across screens."
     }
   ],
-  "ByteSize Sales Training":[
+  "ByteSize Sales Training Old":[
     {
       "id": 1,
       "question": "Which ByteSize training course is best for professionals who need to create interactive dashboards?",
@@ -6766,5 +6766,427 @@
       "answer": "We can conduct a skills gap analysis to identify the right employees for each training program.",
       "explanation": "A skills gap analysis helps determine which employees would benefit most from specific training programs, ensuring an effective investment."
     }
-  ]  
+  ],
+  "ByteSize Sales Training":[
+    {
+      "id": 1,
+      "question": "A financial institution needs training for risk assessment and fraud detection. Which ByteSize course is best?",
+      "choices": [
+        "SQL Server Administration",
+        "Machine Learning using Python",
+        "Blockchain Fundamentals",
+        "Microsoft PowerPoint"
+      ],
+      "answer": "Machine Learning using Python",
+      "explanation": "Machine learning helps detect fraud patterns and anomalies in financial transactions."
+    },
+    {
+      "id": 2,
+      "question": "A retail chain wants to optimize its supply chain and predict customer demand. Which training is most relevant?",
+      "choices": [
+        "SQL Primer for Data Analysis",
+        "Microsoft PowerPoint Advanced",
+        "Microsoft Co-Pilot",
+        "Blockchain Fundamentals"
+      ],
+      "answer": "SQL Primer for Data Analysis",
+      "explanation": "SQL is crucial for analyzing structured data to forecast demand trends."
+    },
+    {
+      "id": 3,
+      "question": "A company wants to build a no-code internal app for automating HR workflows. Which course is the best fit?",
+      "choices": [
+        "Microsoft Power Apps",
+        "Microsoft Power BI",
+        "Microsoft Outlook Productivity",
+        "Blockchain Development"
+      ],
+      "answer": "Microsoft Power Apps",
+      "explanation": "Power Apps enables businesses to create apps for workflow automation with minimal coding."
+    },
+    {
+      "id": 4,
+      "question": "An investment firm wants to integrate AI-powered financial analysis. Which training should they take?",
+      "choices": [
+        "Microsoft Power BI Developer",
+        "Microsoft Teams Collaboration",
+        "Microsoft SharePoint Online",
+        "Microsoft PowerPoint Advanced"
+      ],
+      "answer": "Microsoft Power BI Developer",
+      "explanation": "Power BI helps analysts visualize financial data and detect trends."
+    },
+    {
+      "id": 5,
+      "question": "A logistics company needs better visibility into real-time shipments. Which training is most relevant?",
+      "choices": [
+        "Microsoft Power BI",
+        "SQL Server Administration",
+        "Azure AI",
+        "Blockchain Fundamentals"
+      ],
+      "answer": "Blockchain Fundamentals",
+      "explanation": "Blockchain ensures a secure, tamper-proof supply chain for real-time shipment tracking."
+    },
+    {
+      "id": 6,
+      "question": "Your client is an insurance company needing data governance and compliance training. Which course is best?",
+      "choices": [
+        "Data Governance & Azure Information Protection",
+        "Microsoft Power BI",
+        "SQL Primer for Data Analysis",
+        "Machine Learning using Python"
+      ],
+      "answer": "Data Governance & Azure Information Protection",
+      "explanation": "This course ensures compliance with regulatory requirements and data security policies."
+    },
+    {
+      "id": 7,
+      "question": "A bank wants to streamline its customer query process using AI-powered chatbots. Which training should they consider?",
+      "choices": [
+        "Microsoft Power BI",
+        "Microsoft Teams",
+        "Prompt Engineering & OpenAI API",
+        "SQL Primer for Data Analysis"
+      ],
+      "answer": "Prompt Engineering & OpenAI API",
+      "explanation": "This course enables chatbot development for customer service automation."
+    },
+    {
+      "id": 8,
+      "question": "A financial institution is hesitant about Blockchain due to security concerns. How should you respond?",
+      "choices": [
+        "Blockchain enhances security by providing a tamper-proof ledger.",
+        "Blockchain is complex; you should consider other technologies.",
+        "Blockchain is not secure for financial services.",
+        "Only large companies need Blockchain security."
+      ],
+      "answer": "Blockchain enhances security by providing a tamper-proof ledger.",
+      "explanation": "Blockchain's decentralized ledger prevents fraud and enhances security."
+    },
+    {
+      "id": 9,
+      "question": "A client has a team of business analysts but no data science expertise. They need training in predictive analytics. Which training should you suggest?",
+      "choices": [
+        "Analytics using R",
+        "Microsoft PowerPoint Advanced",
+        "Microsoft SharePoint Developer",
+        "Microsoft Co-Pilot for Office 365"
+      ],
+      "answer": "Analytics using R",
+      "explanation": "R is widely used for statistical modeling and predictive analytics."
+    },
+    {
+      "id": 10,
+      "question": "A multinational corporation wants to migrate its on-premise database to the cloud while ensuring high availability and security. Which training is most relevant?",
+      "choices": [
+        "Microsoft Power BI Developer",
+        "SQL Server Administration",
+        "Microsoft Power Apps",
+        "Blockchain Fundamentals"
+      ],
+      "answer": "SQL Server Administration",
+      "explanation": "SQL Server Administration covers database migration, security, and high availability strategies for cloud-based systems."
+    },
+    {
+      "id": 11,
+      "question": "A company is planning to implement AI-powered automation in their customer service department. Which ByteSize training should they take?",
+      "choices": [
+        "Prompt Engineering & OpenAI API",
+        "Microsoft Excel Advanced",
+        "SQL Primer for Data Analysis",
+        "Payment Technologies"
+      ],
+      "answer": "Prompt Engineering & OpenAI API",
+      "explanation": "Prompt Engineering enables businesses to develop AI-powered chatbots for automating customer interactions."
+    },
+    {
+      "id": 12,
+      "question": "An organization wants to deploy scalable AI applications in the cloud without managing infrastructure. Which cloud computing training is most relevant?",
+      "choices": [
+        "Serverless Computing",
+        "SQL Server Administration",
+        "Microsoft PowerPoint Advanced",
+        "Microsoft Teams Collaboration"
+      ],
+      "answer": "Serverless Computing",
+      "explanation": "Serverless computing allows AI applications to scale dynamically without infrastructure management."
+    },
+    {
+      "id": 13,
+      "question": "A company wants to analyze large-scale unstructured data in real-time. Which cloud-based solution should they train on?",
+      "choices": [
+        "Microsoft Power Automate",
+        "Azure Data Factory",
+        "Microsoft Co-Pilot for Office 365",
+        "Microsoft PowerPoint Advanced"
+      ],
+      "answer": "Azure Data Factory",
+      "explanation": "Azure Data Factory enables data integration, transformation, and real-time analytics for large-scale unstructured data."
+    },
+    {
+      "id": 14,
+      "question": "Which cloud computing model provides the highest level of control over infrastructure while still leveraging cloud scalability?",
+      "choices": [
+        "Infrastructure as a Service (IaaS)",
+        "Platform as a Service (PaaS)",
+        "Software as a Service (SaaS)",
+        "Serverless Computing"
+      ],
+      "answer": "Infrastructure as a Service (IaaS)",
+      "explanation": "IaaS provides full control over virtual machines, storage, and networking, making it the most flexible cloud computing model."
+    },
+    {
+      "id": 15,
+      "question": "A financial institution wants to implement AI-driven fraud detection in real-time. Which cloud AI service would be most beneficial?",
+      "choices": [
+        "Microsoft Power BI",
+        "Azure AI",
+        "Microsoft SharePoint Online",
+        "SQL Server Administration"
+      ],
+      "answer": "Azure AI",
+      "explanation": "Azure AI provides cloud-based machine learning models for real-time fraud detection and risk analysis."
+    },
+    {
+      "id": 16,
+      "question": "A logistics company wants to use IoT and AI together to monitor fleet operations and optimize deliveries. Which training is most relevant?",
+      "choices": [
+        "IoT for Business",
+        "SQL Primer for Data Analysis",
+        "Microsoft PowerPoint Advanced",
+        "Blockchain Fundamentals"
+      ],
+      "answer": "IoT for Business",
+      "explanation": "IoT for Business training covers AI-powered fleet monitoring, predictive maintenance, and operational efficiency improvements."
+    },
+    {
+      "id": 17,
+      "question": "A CFO wants proof of ROI before investing in training. What is the best response?",
+      "choices": [
+        "Our clients see a 30% improvement in efficiency after training, backed by pre- and post-training assessments.",
+        "Training is necessary, whether it provides ROI or not.",
+        "We can't guarantee ROI.",
+        "ROI doesn't apply to training programs."
+      ],
+      "answer": "Our clients see a 30% improvement in efficiency after training, backed by pre- and post-training assessments.",
+      "explanation": "Demonstrating measurable benefits reassures the CFO."
+    },
+    {
+      "id": 18,
+      "question": "A lead is interested in AI training but is worried about resistance from employees. How do you address this?",
+      "choices": [
+        "We include change management strategies in our training to ensure smooth adoption.",
+        "If employees resist, maybe AI training isn't for them.",
+        "Training is mandatory; they'll adapt.",
+        "AI will replace employees, so they should learn it quickly."
+      ],
+      "answer": "We include change management strategies in our training to ensure smooth adoption.",
+      "explanation": "Addressing change management ensures successful AI adoption."
+    },
+    {
+      "id": 19,
+      "question": "A company is considering a competitor's AI training but wants a differentiator. What should you highlight?",
+      "choices": [
+        "ByteSize offers real-world case studies and hands-on AI labs.",
+        "Competitors don't know AI as well as we do.",
+        "ByteSize has more certifications.",
+        "We can reduce pricing to match competitors."
+      ],
+      "answer": "ByteSize offers real-world case studies and hands-on AI labs.",
+      "explanation": "Practical application and industry-relevant training set ByteSize apart."
+    },
+    {
+      "id": 20,
+      "question": "A potential client keeps delaying training because they are too busy. What is the best strategy?",
+      "choices": [
+        "We offer on-demand, bite-sized training that fits their schedule.",
+        "Training can wait until they are less busy.",
+        "They should just prioritize training.",
+        "If they're busy, they don't need training."
+      ],
+      "answer": "We offer on-demand, bite-sized training that fits their schedule.",
+      "explanation": "Flexible scheduling ensures minimal disruption to their work."
+    },
+    {
+      "id": 21,
+      "question": "Your client is unsure if their employees need beginner or advanced training. What should you do?",
+      "choices": [
+        "We offer a skills assessment to determine the right level of training.",
+        "Start with beginner training for everyone.",
+        "Advanced training is always better.",
+        "They should decide based on personal preference."
+      ],
+      "answer": "We offer a skills assessment to determine the right level of training.",
+      "explanation": "A skills assessment ensures employees receive the appropriate level of training."
+    },
+    {
+      "id": 22,
+      "question": "A potential client is hesitant to adopt cloud-based training due to security concerns. What is the best way to address this?",
+      "choices": [
+        "Cloud security has risks, but it is the future, so you should adapt.",
+        "ByteSize training covers best practices in cloud security, data encryption, and compliance standards.",
+        "You should stick to on-premise solutions if security is a concern.",
+        "There are no security risks in the cloud; it's completely safe."
+      ],
+      "answer": "ByteSize training covers best practices in cloud security, data encryption, and compliance standards.",
+      "explanation": "Highlighting security best practices and compliance standards reassures clients about cloud adoption."
+    },
+    {
+      "id": 23,
+      "question": "A large enterprise has already trained employees on Microsoft 365. They believe further training is unnecessary. What is the best approach?",
+      "choices": [
+        "We offer advanced Microsoft 365 courses that focus on productivity, automation, and AI integration.",
+        "Since you already trained your employees, additional training isn't needed.",
+        "Training should be done regularly, so you should invest again.",
+        "Microsoft 365 is always changing, so you need continuous training."
+      ],
+      "answer": "We offer advanced Microsoft 365 courses that focus on productivity, automation, and AI integration.",
+      "explanation": "Demonstrating value by focusing on advanced skills and automation encourages further investment."
+    },
+    {
+      "id": 24,
+      "question": "A potential client prefers in-house training over ByteSize's online courses. How should you handle this objection?",
+      "choices": [
+        "Our training is fully online, so we cannot provide in-house sessions.",
+        "ByteSize offers hybrid training solutions, including in-person workshops and virtual labs.",
+        "Online training is superior to in-house training, so you should reconsider.",
+        "Your team will adapt to online training over time."
+      ],
+      "answer": "ByteSize offers hybrid training solutions, including in-person workshops and virtual labs.",
+      "explanation": "Offering hybrid training as a flexible solution meets their needs while differentiating ByteSize."
+    },
+    {
+      "id": 25,
+      "question": "A potential client is comparing ByteSize with a competitor that offers cheaper training. How should you position ByteSize?",
+      "choices": [
+        "ByteSize provides industry-specific case studies and real-world application, unlike generic online courses.",
+        "We can lower our prices to match the competitor.",
+        "Their courses are not good; ours are better.",
+        "If you want quality, you should pay more."
+      ],
+      "answer": "ByteSize provides industry-specific case studies and real-world application, unlike generic online courses.",
+      "explanation": "Emphasizing ByteSize's real-world application differentiates it from low-cost competitors."
+    },
+    {
+      "id": 26,
+      "question": "A decision-maker is interested but worried about employee engagement in training. How should you respond?",
+      "choices": [
+        "We use interactive, hands-on training methods to maximize engagement and retention.",
+        "Employees should be self-motivated for training.",
+        "Engagement is a challenge, but training is still necessary.",
+        "If employees don't engage, you may need a different training approach."
+      ],
+      "answer": "We use interactive, hands-on training methods to maximize engagement and retention.",
+      "explanation": "Highlighting ByteSize's interactive training approach addresses engagement concerns."
+    },
+    {
+      "id": 27,
+      "question": "A company is unsure whether to invest in AI training because they don't see its relevance. How do you convince them?",
+      "choices": [
+        "AI helps businesses automate processes, improve efficiency, and gain a competitive advantage.",
+        "AI is trending, so you should invest in training now.",
+        "AI may not be relevant to your industry, but training is always beneficial.",
+        "If you don't adopt AI, your competitors will surpass you."
+      ],
+      "answer": "AI helps businesses automate processes, improve efficiency, and gain a competitive advantage.",
+      "explanation": "Focusing on AI's business impact makes it more relevant to the client's needs."
+    },
+    {
+      "id": 28,
+      "question": "A client says they don't have time for training due to tight deadlines. How should you respond?",
+      "choices": [
+        "We offer microlearning sessions and flexible scheduling to fit training into busy work schedules.",
+        "If you don't have time now, you should postpone training indefinitely.",
+        "You must make time for training, or your employees will fall behind.",
+        "Skipping training will negatively impact your team's productivity."
+      ],
+      "answer": "We offer microlearning sessions and flexible scheduling to fit training into busy work schedules.",
+      "explanation": "Providing a flexible learning approach makes training manageable for busy professionals."
+    },
+    {
+      "id": 29,
+      "question": "A company has no formal learning and development (L&D) budget. What is the best way to position training?",
+      "choices": [
+        "Training is an investment, not an expense, and enhances long-term business efficiency.",
+        "You should allocate a budget immediately for training.",
+        "If you don't have a budget, training may not be a priority.",
+        "We can provide free training to get you started."
+      ],
+      "answer": "Training is an investment, not an expense, and enhances long-term business efficiency.",
+      "explanation": "Positioning training as a business investment increases perceived value."
+    },
+    {
+      "id": 30,
+      "question": "A banking executive wants training for their team but is unsure which employees should attend. How do you handle this?",
+      "choices": [
+        "We conduct a skills gap assessment to recommend the right training for different roles.",
+        "All employees should attend the same training.",
+        "Senior employees should be prioritized over juniors.",
+        "You should let employees decide for themselves."
+      ],
+      "answer": "We conduct a skills gap assessment to recommend the right training for different roles.",
+      "explanation": "A skills gap assessment ensures the right training for the right employees."
+    },
+    {
+      "id": 31,
+      "question": "A potential client keeps postponing training decisions. What is the best follow-up strategy?",
+      "choices": [
+        "Let's set a follow-up meeting to align training with your upcoming business goals.",
+        "I'll check in every week until you decide.",
+        "Let us know when you're ready to move forward.",
+        "Since you keep postponing, training may not be a priority."
+      ],
+      "answer": "Let's set a follow-up meeting to align training with your upcoming business goals.",
+      "explanation": "Scheduling a follow-up aligned with business goals keeps the conversation open and focused on their needs."
+    },
+    {
+      "id": 32,
+      "question": "A company is interested in AI training but is concerned that AI will replace jobs. What is the best response?",
+      "choices": [
+        "AI enhances productivity and decision-making rather than replacing employees.",
+        "AI will eventually replace jobs, so employees should upskill now.",
+        "Your employees should not worry about AI.",
+        "AI is not relevant to job security concerns."
+      ],
+      "answer": "AI enhances productivity and decision-making rather than replacing employees.",
+      "explanation": "Positioning AI as a tool for productivity rather than a job threat reduces concerns and encourages adoption."
+    },
+    {
+      "id": 33,
+      "question": "A company wants proof that training will improve productivity before committing. What is the best response?",
+      "choices": [
+        "Our training includes assessments and post-training performance tracking to measure productivity improvements.",
+        "There is no way to measure training impact.",
+        "You should trust that training will be beneficial.",
+        "Productivity improvement depends on employee motivation."
+      ],
+      "answer": "Our training includes assessments and post-training performance tracking to measure productivity improvements.",
+      "explanation": "Providing tangible metrics reassures clients about training effectiveness and ROI."
+    },
+    {
+      "id": 34,
+      "question": "A client asks why they should choose ByteSize over a well-known global training provider. What is the best response?",
+      "choices": [
+        "ByteSize offers personalized, industry-specific training with hands-on learning, unlike generic global courses.",
+        "Our trainers are better than global providers.",
+        "You should support local businesses instead of global ones.",
+        "ByteSize offers cheaper courses than global providers."
+      ],
+      "answer": "ByteSize offers personalized, industry-specific training with hands-on learning, unlike generic global courses.",
+      "explanation": "Focusing on personalized, hands-on learning differentiates ByteSize from global competitors."
+    },
+    {
+      "id": 35,
+      "question": "A client is concerned about employees forgetting what they learn in training. How should you address this?",
+      "choices": [
+        "Our training includes follow-up assessments, hands-on practice, and refresher modules to reinforce learning.",
+        "Once they complete training, they should remember most of it.",
+        "We recommend employees take the same course multiple times.",
+        "There is no way to guarantee retention, but they will gain knowledge."
+      ],
+      "answer": "Our training includes follow-up assessments, hands-on practice, and refresher modules to reinforce learning.",
+      "explanation": "Providing structured reinforcement ensures better knowledge retention and practical application."
+    }
+  ]
     }
