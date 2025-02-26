@@ -7188,5 +7188,127 @@
       "answer": "Our training includes follow-up assessments, hands-on practice, and refresher modules to reinforce learning.",
       "explanation": "Providing structured reinforcement ensures better knowledge retention and practical application."
     }
+  ],
+  "PL-600 Microsoft Power Platform Solution Architect":[
+    {
+      "id": 1,
+      "question": "Your company is planning to implement a new customer support system to improve case resolution times. As a solution architect, what is your first step?",
+      "choices": [
+        "Immediately start custom development to build a new system from scratch.",
+        "Evaluate existing low-code platforms and automation tools.",
+        "Deploy a third-party tool without analyzing business needs.",
+        "Wait for IT to provide a recommendation."
+      ],
+      "answer": "Evaluate existing low-code platforms and automation tools.",
+      "explanation": "A solution architect should first assess existing business applications and low-code solutions to determine if they can meet the organization's needs before considering custom development."
+    },
+    {
+      "id": 2,
+      "question": "During the discovery phase, a department head insists on building a fully customized system. How should you respond?",
+      "choices": [
+        "Immediately agree to the custom solution without questioning.",
+        "Ask detailed questions about their business needs and explore low-code alternatives.",
+        "Reject their idea and insist on using only prebuilt solutions.",
+        "Ignore their request and proceed with the IT department’s plan."
+      ],
+      "answer": "Ask detailed questions about their business needs and explore low-code alternatives.",
+      "explanation": "Understanding the underlying business needs helps determine if a low-code or existing platform-based solution can address their requirements efficiently."
+    },
+    {
+      "id": 3,
+      "question": "A financial services company wants a centralized system for customer account management. Which solution approach is most suitable?",
+      "choices": [
+        "Use a customer relationship management (CRM) platform with automation features.",
+        "Deploy a standalone data warehouse for account storage.",
+        "Implement an email-based system for tracking customer interactions.",
+        "Use a spreadsheet-based system to manage customer accounts."
+      ],
+      "answer": "Use a customer relationship management (CRM) platform with automation features.",
+      "explanation": "A CRM platform with workflow automation enables businesses to efficiently manage customer interactions, accounts, and case tracking."
+    },
+    {
+      "id": 4,
+      "question": "Your organization needs to integrate an old legacy system that lacks APIs. What is the best approach?",
+      "choices": [
+        "Use Power Automate for Desktop to automate data entry through UI interactions.",
+        "Rewrite the entire legacy system before integration.",
+        "Ask employees to manually enter data from the legacy system.",
+        "Ignore the legacy system and only work with modern applications."
+      ],
+      "answer": "Use Power Automate for Desktop to automate data entry through UI interactions.",
+      "explanation": "Power Automate for Desktop enables Robotic Process Automation (RPA) to extract and enter data into legacy applications without APIs."
+    },
+    {
+      "id": 5,
+      "question": "A retail company wants real-time sales reporting. Which solution component is most suitable?",
+      "choices": [
+        "An automation workflow tool",
+        "A low-code business app",
+        "A business intelligence dashboard",
+        "A project management tool"
+      ],
+      "answer": "A business intelligence dashboard",
+      "explanation": "Business intelligence dashboards allow companies to analyze and visualize sales data in real-time, helping drive informed decision-making."
+    },
+    {
+      "id": 6,
+      "question": "A company is expanding internationally and must comply with different data residency regulations. What should be considered when designing their solution?",
+      "choices": [
+        "Store all data in a single global environment for simplicity.",
+        "Use separate cloud environments based on regulatory requirements.",
+        "Ignore data residency concerns as they do not impact system design.",
+        "Manually track data locations in an Excel spreadsheet."
+      ],
+      "answer": "Use separate cloud environments based on regulatory requirements.",
+      "explanation": "Organizations handling international data should use multiple environments to comply with regional data residency laws and ensure compliance."
+    },
+    {
+      "id": 7,
+      "question": "Your team is experiencing API throttling due to exceeding platform API limits. How should you optimize the solution?",
+      "choices": [
+        "Reduce unnecessary API calls by using batch processing.",
+        "Ignore the issue and continue development.",
+        "Increase API requests without analyzing usage patterns.",
+        "Manually run API calls outside of the system."
+      ],
+      "answer": "Reduce unnecessary API calls by using batch processing.",
+      "explanation": "Batch processing minimizes the number of API requests, optimizing performance and ensuring compliance with platform API limits."
+    },
+    {
+      "id": 8,
+      "question": "A company wants to automate document approvals but requires managers to approve requests manually. What is the best solution?",
+      "choices": [
+        "Use an automation workflow tool with approval processes.",
+        "Create a new standalone application from scratch.",
+        "Send approval emails manually without automation.",
+        "Use word-processing software to track approvals manually."
+      ],
+      "answer": "Use an automation workflow tool with approval processes.",
+      "explanation": "Automated approval workflows streamline the process while allowing manual review when necessary."
+    },
+    {
+      "id": 9,
+      "question": "A manufacturing firm wants an AI-powered chatbot to assist employees with HR queries. What tool should they use?",
+      "choices": [
+        "A no-code chatbot development platform",
+        "A document editor",
+        "A robotic process automation tool",
+        "A database management system"
+      ],
+      "answer": "A no-code chatbot development platform",
+      "explanation": "No-code chatbot development platforms allow organizations to build AI-powered virtual assistants for automating HR and customer service processes."
+    },
+    {
+      "id": 10,
+      "question": "A logistics company needs to monitor fleet performance with IoT sensors and real-time dashboards. Which solution is most suitable?",
+      "choices": [
+        "A mobile business app",
+        "A combination of cloud-based IoT services and business intelligence dashboards",
+        "A team collaboration platform",
+        "A document management system"
+      ],
+      "answer": "A combination of cloud-based IoT services and business intelligence dashboards",
+      "explanation": "IoT services collect sensor data, while business intelligence dashboards provide real-time monitoring and insights for fleet performance."
+    }
   ]
     }
