@@ -1866,7 +1866,7 @@
             "explanation":"Snapshots are incremental backups, which means that only the blocks on the device that have changed after your most recent snapshot are saved. "
         }
     ]
-    ,"Data Consolidation and Analysis using Excel - Old1":
+    ,"Data Consolidation and Analysis using Excel":
         [
             {
             "id": 1,
@@ -1999,7 +1999,7 @@
         }
 
     ]
-    ,"Data Consolidation and Analysis using MS Excel":
+    ,"Data Consolidation and Analysis using MS Excel - Advanced":
     [
       {
           "id": 1,
