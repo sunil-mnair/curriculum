@@ -4331,7 +4331,7 @@
                 "/",
                 "//",
                 "%",
-                "**"
+                ""
             ],
             "answer": "%",
             "explanation": "The modulus operator `%` is used to calculate the remainder of a division."
@@ -4347,7 +4347,7 @@
             ],
             "answer": "8",
             "image":"python_quiz_exponent.png",
-            "explanation": "The `**` operator is used for exponentiation. `2 ** 3` equals `8`."
+            "explanation": "The `` operator is used for exponentiation. `2  3` equals `8`."
         },
         {
             "id": 7,
@@ -7310,5 +7310,127 @@
       "answer": "A combination of cloud-based IoT services and business intelligence dashboards",
       "explanation": "IoT services collect sensor data, while business intelligence dashboards provide real-time monitoring and insights for fleet performance."
     }
-  ]
+  ],
+  "Tableau Desktop":[
+    {
+      "id": 1,
+      "question": "You need to create an interactive sales dashboard using Tableau Desktop. Which feature allows you to combine multiple visualizations into a single view for better analysis?",
+      "choices": [
+        "A) Data Blending",
+        "B) Dashboard",
+        "C) Cross-Database Join",
+        "D) Story"
+      ],
+      "answer": "B) Dashboard",
+      "explanation": "A Dashboard in Tableau combines multiple visualizations into a single interactive view, enabling users to analyze data more efficiently."
+    },
+    {
+      "id": 2,
+      "question": "Your manager asks for a monthly sales trend analysis. Which Tableau feature helps you visualize this over time?",
+      "choices": [
+        "A) Scatter Plot",
+        "B) Bar Chart",
+        "C) Line Chart",
+        "D) Pie Chart"
+      ],
+      "answer": "C) Line Chart",
+      "explanation": "Line charts are best suited for analyzing trends over time, making them ideal for monthly sales analysis."
+    },
+    {
+      "id": 3,
+      "question": "Your dataset contains customer transaction details stored in different tables. What is the best method in Tableau to combine this data dynamically without duplicating records?",
+      "choices": [
+        "A) Joins",
+        "B) Data Blending",
+        "C) Relationships",
+        "D) Union"
+      ],
+      "answer": "C) Relationships",
+      "explanation": "Relationships in Tableau allow you to connect multiple tables while maintaining flexibility in data structure, preventing unnecessary duplication."
+    },
+    {
+      "id": 4,
+      "question": "You need to create a custom calculation to categorize customers based on their total purchases. Which feature allows you to define custom logic using formulas?",
+      "choices": [
+        "A) Filters",
+        "B) Calculated Fields",
+        "C) Joins",
+        "D) Groups"
+      ],
+      "answer": "B) Calculated Fields",
+      "explanation": "Calculated Fields enable users to create custom expressions using formulas, such as categorizing customers based on total purchase amounts."
+    },
+    {
+      "id": 5,
+      "question": "You need to show sales by region on a world map. Which Tableau feature helps you achieve this?",
+      "choices": [
+        "A) Heatmap",
+        "B) Bar Chart",
+        "C) Geographic Role",
+        "D) Table Calculation"
+      ],
+      "answer": "C) Geographic Role",
+      "explanation": "Assigning a Geographic Role (e.g., Country, State) to a field enables Tableau to generate maps for location-based analysis."
+    },
+    {
+      "id": 6,
+      "question": "A manager requests a comparison of this year's sales to last year's sales. Which feature would allow you to efficiently compute the difference?",
+      "choices": [
+        "A) Filters",
+        "B) Calculated Fields",
+        "C) Joins",
+        "D) Groups"
+      ],
+      "answer": "B) Calculated Fields",
+      "explanation": "Calculated Fields enable users to create custom calculations, such as computing year-over-year sales comparisons."
+    },
+    {
+      "id": 7,
+      "question": "Your dataset contains millions of rows, and Tableau is running slowly. Which of the following techniques can help improve performance?",
+      "choices": [
+        "A) Using Extracts instead of Live Connections",
+        "B) Using More Filters",
+        "C) Increasing Dashboard Size",
+        "D) Adding More Sheets"
+      ],
+      "answer": "A) Using Extracts instead of Live Connections",
+      "explanation": "Extracts store a static snapshot of the data, allowing for faster querying compared to live database connections."
+    },
+    {
+      "id": 8,
+      "question": "You have been asked to create a dynamic filter that allows users to switch between viewing sales by Region, Category, or Product. What Tableau feature should you use?",
+      "choices": [
+        "A) Filter Shelf",
+        "B) Parameter",
+        "C) Highlight Action",
+        "D) Sets"
+      ],
+      "answer": "B) Parameter",
+      "explanation": "Parameters allow users to dynamically switch between different values, such as filtering between Region, Category, or Product."
+    },
+    {
+      "id": 9,
+      "question": "You need to combine two datasets with different structures (e.g., historical sales and current sales). Which method is most appropriate?",
+      "choices": [
+        "A) Union",
+        "B) Join",
+        "C) Relationship",
+        "D) Pivot"
+      ],
+      "answer": "A) Union",
+      "explanation": "Union stacks data with similar fields into a single dataset, making it useful for combining historical and current sales data."
+    },
+    {
+      "id": 10,
+      "question": "Your team is analyzing customer purchase frequency and needs to categorize customers into High, Medium, and Low Buyers. Which Tableau feature helps with this segmentation?",
+      "choices": [
+        "A) Groups",
+        "B) Clusters",
+        "C) Table Calculation",
+        "D) Relationships"
+      ],
+      "answer": "B) Clusters",
+      "explanation": "Clustering in Tableau automatically segments data points based on statistical similarities, making it ideal for categorizing customers."
+    }
+  ]  
     }
