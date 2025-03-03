@@ -7408,18 +7408,18 @@
       "answer": "B) Parameter",
       "explanation": "Parameters allow users to dynamically switch between different values, such as filtering between Region, Category, or Product."
     },
-    {
-      "id": 9,
-      "question": "You need to combine two datasets with different structures (e.g., historical sales and current sales). Which method is most appropriate?",
-      "choices": [
-        "A) Union",
-        "B) Join",
-        "C) Relationship",
-        "D) Pivot"
-      ],
-      "answer": "A) Union",
-      "explanation": "Union stacks data with similar fields into a single dataset, making it useful for combining historical and current sales data."
-    },
+  {
+    "id": 9,
+    "question": "Your dashboard needs to highlight **top 10 performing employees** based on total sales while still displaying all employees. Which feature should you use?",
+    "choices": [
+      "A) Filters",
+      "B) Sets",
+      "C) Groups",
+      "D) Data Blending"
+    ],
+    "answer": "B) Sets",
+    "explanation": "Sets allow users to dynamically group the top 10 performing employees while still displaying the remaining employees in the dashboard for comparison."
+  },
     {
       "id": 10,
       "question": "Your team is analyzing customer purchase frequency and needs to categorize customers into High, Medium, and Low Buyers. Which Tableau feature helps with this segmentation?",

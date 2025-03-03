@@ -32,11 +32,41 @@
     <preference name='ui.shelf.height' value='26' />
   </preferences>
   <datasources>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
+      <aliases enabled='yes' />
+      <column caption='Choose Threshold' datatype='real' default-format='p0.00%' name='[Parameter 1]' param-domain-type='range' role='measure' type='quantitative' value='0.10000000000000002'>
+        <calculation class='tableau' formula='0.10000000000000002' />
+        <range max='1.0' min='0.1' />
+      </column>
+      <column caption='Top N' datatype='integer' name='[Parameter 2]' param-domain-type='range' role='measure' type='quantitative' value='8'>
+        <calculation class='tableau' formula='8' />
+        <range max='10' min='1' />
+      </column>
+      <column caption='Choose Dimension' datatype='string' name='[Parameter 3]' param-domain-type='list' role='measure' type='nominal' value='&quot;Category&quot;'>
+        <calculation class='tableau' formula='&quot;Category&quot;' />
+        <members>
+          <member value='&quot;Subcategory&quot;' />
+          <member value='&quot;Category&quot;' />
+          <member value='&quot;Region&quot;' />
+        </members>
+      </column>
+      <column caption='Choose Measure' datatype='string' name='[Parameter 4]' param-domain-type='list' role='measure' type='nominal' value='&quot;Sales&quot;'>
+        <calculation class='tableau' formula='&quot;Sales&quot;' />
+        <members>
+          <member value='&quot;Sales&quot;' />
+          <member value='&quot;Quantity&quot;' />
+          <member value='&quot;Profit&quot;' />
+        </members>
+      </column>
+      <column caption='Customer Parameter' datatype='real' default-format='C1033%' name='[Parameter 5]' param-domain-type='any' role='measure' type='quantitative' value='410.0'>
+        <calculation class='tableau' formula='410.0' />
+      </column>
+    </datasource>
     <datasource caption='HomeWork_Station_Supply' inline='true' name='federated.0af7gxn0ir9icq1aghpf10nvwi96' version='18.1'>
       <connection class='federated'>
         <named-connections>
           <named-connection caption='HomeWork_Station_Supply' name='excel-direct.0ghk2ai1mkddge1e1qomb0j17i7g'>
-            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='/Users/sunilnair/Documents/ByteSize Trainings/curriculum/tableau/HomeWork_Station_Supply.xlsx' interpretationMode='1' password='' server='' validate='no' />
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='/Users/sunilnair/Documents/ByteSize Trainings/curriculum/tableau/Sample_Data.xlsx' interpretationMode='1' password='' server='' validate='no' />
           </named-connection>
         </named-connections>
         <relation type='collection'>
@@ -2695,6 +2725,14 @@
               <bucket>(&quot;C00000164&quot;)</bucket>
             </map>
           </encoding>
+          <encoding attr='color' field='[usr:Calculation_169307251170881539:nk]' type='palette'>
+            <map to='#59a14f'>
+              <bucket>&quot;Green&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Red&quot;</bucket>
+            </map>
+          </encoding>
           <encoding attr='color' field='[none:AdhocCluster:1:ok]' type='palette'>
             <map to='#4e79a7'>
               <bucket>1</bucket>
@@ -2707,14 +2745,6 @@
             </map>
             <map to='#f28e2b'>
               <bucket>2</bucket>
-            </map>
-          </encoding>
-          <encoding attr='color' field='[usr:Calculation_169307251170881539:nk]' type='palette'>
-            <map to='#59a14f'>
-              <bucket>&quot;Green&quot;</bucket>
-            </map>
-            <map to='#e15759'>
-              <bucket>&quot;Red&quot;</bucket>
             </map>
           </encoding>
         </style-rule>
@@ -2886,36 +2916,6 @@
           </relationship>
         </relationships>
       </object-graph>
-    </datasource>
-    <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
-      <aliases enabled='yes' />
-      <column caption='Choose Threshold' datatype='real' default-format='p0.00%' name='[Parameter 1]' param-domain-type='range' role='measure' type='quantitative' value='0.10000000000000002'>
-        <calculation class='tableau' formula='0.10000000000000002' />
-        <range max='1.0' min='0.1' />
-      </column>
-      <column caption='Top N' datatype='integer' name='[Parameter 2]' param-domain-type='range' role='measure' type='quantitative' value='8'>
-        <calculation class='tableau' formula='8' />
-        <range max='10' min='1' />
-      </column>
-      <column caption='Choose Dimension' datatype='string' name='[Parameter 3]' param-domain-type='list' role='measure' type='nominal' value='&quot;Category&quot;'>
-        <calculation class='tableau' formula='&quot;Category&quot;' />
-        <members>
-          <member value='&quot;Subcategory&quot;' />
-          <member value='&quot;Category&quot;' />
-          <member value='&quot;Region&quot;' />
-        </members>
-      </column>
-      <column caption='Choose Measure' datatype='string' name='[Parameter 4]' param-domain-type='list' role='measure' type='nominal' value='&quot;Sales&quot;'>
-        <calculation class='tableau' formula='&quot;Sales&quot;' />
-        <members>
-          <member value='&quot;Sales&quot;' />
-          <member value='&quot;Quantity&quot;' />
-          <member value='&quot;Profit&quot;' />
-        </members>
-      </column>
-      <column caption='Customer Parameter' datatype='real' default-format='C1033%' name='[Parameter 5]' param-domain-type='any' role='measure' type='quantitative' value='410.0'>
-        <calculation class='tableau' formula='410.0' />
-      </column>
     </datasource>
   </datasources>
   <mapsources>
@@ -5272,13 +5272,13 @@
             <groupfilter function='level-members' level='[none:subcategory:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[none:subcategory:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Sales:qk]' shelf='rows' />
             <shelf-sort-v2 dimension-to-sort='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[none:region:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Sales:qk]' shelf='columns'>
               <sort-filter-info>
                 <sort-filter level-name='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[none:category:nk]' member-value='&quot;Office Supplies&quot;' />
                 <sort-filter level-name='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[none:subcategory:nk]' member-value='&quot;Appliances&quot;' />
               </sort-filter-info>
             </shelf-sort-v2>
-            <shelf-sort-v2 dimension-to-sort='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[none:subcategory:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Sales:qk]' shelf='rows' />
           </shelf-sorts>
           <slices>
             <column>[federated.0af7gxn0ir9icq1aghpf10nvwi96].[none:category:nk]</column>
@@ -5441,8 +5441,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='11' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='10' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='15' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='14' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='153' h='20125' id='3' is-fixed='true' name='Actions' w='98400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -5521,8 +5521,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='15' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='14' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='19' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='18' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone h='6500' id='11' name='Actions' param='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[none:region:nk]' type-v2='highlighter' w='16000' x='80700' y='4125'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -5596,8 +5596,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='9' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='8' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='13' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='12' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='51' h='7375' id='5' is-fixed='true' name='Total Sales Parameter' show-title='false' w='98400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -5662,8 +5662,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='21' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='20' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='25' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='24' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='Customers by Region' w='98400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
