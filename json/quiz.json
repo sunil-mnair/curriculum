@@ -7314,123 +7314,123 @@
   "Tableau Desktop":[
     {
       "id": 1,
-      "question": "You need to create an interactive sales dashboard using Tableau Desktop. Which feature allows you to combine multiple visualizations into a single view for better analysis?",
+      "question": "Your dataset contains separate tables for 'Customer Details' and 'Sales Transactions'. You want to combine them without creating duplicate records while keeping them flexible for different analyses. Which method should you use?",
       "choices": [
-        "A) Data Blending",
-        "B) Dashboard",
-        "C) Cross-Database Join",
-        "D) Story"
+        "A) Join",
+        "B) Relationship",
+        "C) Union",
+        "D) Data Blending"
       ],
-      "answer": "B) Dashboard",
-      "explanation": "A Dashboard in Tableau combines multiple visualizations into a single interactive view, enabling users to analyze data more efficiently."
+      "answer": "B) Relationship",
+      "explanation": "Relationships in Tableau allow tables to remain separate while dynamically combining data based on the fields used in the visualization, preventing unnecessary duplication."
     },
     {
       "id": 2,
-      "question": "Your manager asks for a monthly sales trend analysis. Which Tableau feature helps you visualize this over time?",
+      "question": "You need to apply a filter that ensures all charts on the dashboard display **only the top 5 performing regions**. What type of filter should you use?",
       "choices": [
-        "A) Scatter Plot",
-        "B) Bar Chart",
-        "C) Line Chart",
-        "D) Pie Chart"
+        "A) Context Filter",
+        "B) Top N Filter",
+        "C) Extract Filter",
+        "D) Dimension Filter"
       ],
-      "answer": "C) Line Chart",
-      "explanation": "Line charts are best suited for analyzing trends over time, making them ideal for monthly sales analysis."
+      "answer": "B) Top N Filter",
+      "explanation": "A Top N Filter allows you to dynamically display only the highest-performing values (e.g., top 5 regions based on sales) while filtering out the rest."
     },
     {
       "id": 3,
-      "question": "Your dataset contains customer transaction details stored in different tables. What is the best method in Tableau to combine this data dynamically without duplicating records?",
-      "choices": [
-        "A) Joins",
-        "B) Data Blending",
-        "C) Relationships",
-        "D) Union"
-      ],
-      "answer": "C) Relationships",
-      "explanation": "Relationships in Tableau allow you to connect multiple tables while maintaining flexibility in data structure, preventing unnecessary duplication."
-    },
-    {
-      "id": 4,
-      "question": "You need to create a custom calculation to categorize customers based on their total purchases. Which feature allows you to define custom logic using formulas?",
+      "question": "Your manager requests a dashboard where users can toggle between viewing **Sales by Category, Region, or Year**. Which feature should you use?",
       "choices": [
         "A) Filters",
-        "B) Calculated Fields",
-        "C) Joins",
-        "D) Groups"
-      ],
-      "answer": "B) Calculated Fields",
-      "explanation": "Calculated Fields enable users to create custom expressions using formulas, such as categorizing customers based on total purchase amounts."
-    },
-    {
-      "id": 5,
-      "question": "You need to show sales by region on a world map. Which Tableau feature helps you achieve this?",
-      "choices": [
-        "A) Heatmap",
-        "B) Bar Chart",
-        "C) Geographic Role",
-        "D) Table Calculation"
-      ],
-      "answer": "C) Geographic Role",
-      "explanation": "Assigning a Geographic Role (e.g., Country, State) to a field enables Tableau to generate maps for location-based analysis."
-    },
-    {
-      "id": 6,
-      "question": "A manager requests a comparison of this year's sales to last year's sales. Which feature would allow you to efficiently compute the difference?",
-      "choices": [
-        "A) Filters",
-        "B) Calculated Fields",
-        "C) Joins",
-        "D) Groups"
-      ],
-      "answer": "B) Calculated Fields",
-      "explanation": "Calculated Fields enable users to create custom calculations, such as computing year-over-year sales comparisons."
-    },
-    {
-      "id": 7,
-      "question": "Your dataset contains millions of rows, and Tableau is running slowly. Which of the following techniques can help improve performance?",
-      "choices": [
-        "A) Using Extracts instead of Live Connections",
-        "B) Using More Filters",
-        "C) Increasing Dashboard Size",
-        "D) Adding More Sheets"
-      ],
-      "answer": "A) Using Extracts instead of Live Connections",
-      "explanation": "Extracts store a static snapshot of the data, allowing for faster querying compared to live database connections."
-    },
-    {
-      "id": 8,
-      "question": "You have been asked to create a dynamic filter that allows users to switch between viewing sales by Region, Category, or Product. What Tableau feature should you use?",
-      "choices": [
-        "A) Filter Shelf",
         "B) Parameter",
-        "C) Highlight Action",
+        "C) Actions",
         "D) Sets"
       ],
       "answer": "B) Parameter",
-      "explanation": "Parameters allow users to dynamically switch between different values, such as filtering between Region, Category, or Product."
+      "explanation": "A Parameter allows users to select different options (Category, Region, Year) and dynamically update the visualization accordingly."
     },
-  {
-    "id": 9,
-    "question": "Your dashboard needs to highlight **top 10 performing employees** based on total sales while still displaying all employees. Which feature should you use?",
-    "choices": [
-      "A) Filters",
-      "B) Sets",
-      "C) Groups",
-      "D) Data Blending"
-    ],
-    "answer": "B) Sets",
-    "explanation": "Sets allow users to dynamically group the top 10 performing employees while still displaying the remaining employees in the dashboard for comparison."
-  },
     {
-      "id": 10,
-      "question": "Your team is analyzing customer purchase frequency and needs to categorize customers into High, Medium, and Low Buyers. Which Tableau feature helps with this segmentation?",
+      "id": 4,
+      "question": "You need to highlight only the **top 10 customers based on total revenue**, but you still want to show all other customers in a different color for context. Which feature allows this?",
       "choices": [
-        "A) Groups",
-        "B) Clusters",
-        "C) Table Calculation",
+        "A) Sets",
+        "B) Groups",
+        "C) Filters",
         "D) Relationships"
       ],
-      "answer": "B) Clusters",
-      "explanation": "Clustering in Tableau automatically segments data points based on statistical similarities, making it ideal for categorizing customers."
+      "answer": "A) Sets",
+      "explanation": "Sets allow you to dynamically group the top 10 customers while still displaying all customers in the visualization."
+    },
+    {
+      "id": 5,
+      "question": "Your dashboard contains **multiple sheets**. You want users to click on a category in one sheet and have the other sheets update accordingly. Which feature should you use?",
+      "choices": [
+        "A) Filter Action",
+        "B) Highlight Action",
+        "C) Parameter",
+        "D) Data Blending"
+      ],
+      "answer": "A) Filter Action",
+      "explanation": "Filter Actions allow interactions between multiple sheets in a dashboard, dynamically filtering data when users click on an element."
+    },
+    {
+      "id": 6,
+      "question": "You need to calculate **total sales per customer**, but the visualization should not be affected by any filters applied to the view. Which function should you use?",
+      "choices": [
+        "A) WINDOW_SUM",
+        "B) RUNNING_SUM",
+        "C) FIXED",
+        "D) INCLUDE"
+      ],
+      "answer": "C) FIXED",
+      "explanation": "FIXED LOD (Level of Detail) calculations aggregate values based on a specified dimension, ignoring any filters applied to the visualization."
+    },
+    {
+      "id": 7,
+      "question": "Your manager asks you to create a **cumulative sales trend over time**. Which function would help you calculate a running total?",
+      "choices": [
+        "A) FIXED",
+        "B) RUNNING_SUM",
+        "C) INDEX",
+        "D) TOTAL"
+      ],
+      "answer": "B) RUNNING_SUM",
+      "explanation": "RUNNING_SUM is a table calculation that calculates a cumulative sum across a dimension, such as tracking total sales over time."
+    },
+    {
+      "id": 8,
+      "question": "You have a dashboard with a customer list. You want users to click on a customer’s name and see detailed order information in a different sheet. Which **dashboard action** is most suitable?",
+      "choices": [
+        "A) Highlight Action",
+        "B) Filter Action",
+        "C) URL Action",
+        "D) Set Action"
+      ],
+      "answer": "B) Filter Action",
+      "explanation": "Filter Actions allow users to click on a data point (e.g., Customer Name) and filter another sheet to show related details (e.g., Customer Orders)."
+    },
+    {
+      "id": 9,
+      "question": "Your company wants to analyze **the average number of days between customer purchases**. Which function would you use to calculate the difference between two dates?",
+      "choices": [
+        "A) DATEADD",
+        "B) DATEDIFF",
+        "C) WINDOW_AVG",
+        "D) FIXED"
+      ],
+      "answer": "B) DATEDIFF",
+      "explanation": "The DATEDIFF function calculates the difference between two dates, such as the number of days between customer purchases."
+    },
+    {
+      "id": 10,
+      "question": "You need to categorize customers into different loyalty tiers based on their total spending: 'High', 'Medium', or 'Low'. Which function is best suited for this?",
+      "choices": [
+        "A) IF Statement",
+        "B) CASE Statement",
+        "C) FIXED LOD",
+        "D) WINDOW_SUM"
+      ],
+      "answer": "A) IF Statement",
+      "explanation": "IF statements in Tableau allow you to create conditional logic, such as categorizing customers based on their total spending."
     }
-  ]  
+  ]    
     }

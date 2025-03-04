@@ -6,6 +6,8 @@
     <AccessibleZoneTabOrder />
     <AnimationOnByDefault />
     <AutoCreateAndUpdateDSDPhoneLayouts />
+    <EinsteinDiscoveryDashboardExtension />
+    <Extensions />
     <GroupAction />
     <GroupActionAddRemove />
     <IntuitiveSorting />
@@ -38,8 +40,8 @@
         <calculation class='tableau' formula='0.10000000000000002' />
         <range max='1.0' min='0.1' />
       </column>
-      <column caption='Top N' datatype='integer' name='[Parameter 2]' param-domain-type='range' role='measure' type='quantitative' value='10'>
-        <calculation class='tableau' formula='10' />
+      <column caption='Top N' datatype='integer' name='[Parameter 2]' param-domain-type='range' role='measure' type='quantitative' value='5'>
+        <calculation class='tableau' formula='5' />
         <range max='10' min='1' />
       </column>
       <column caption='Choose Dimension' datatype='string' name='[Parameter 3]' param-domain-type='list' role='measure' type='nominal' value='&quot;Category&quot;'>
@@ -50,16 +52,16 @@
           <member value='&quot;Region&quot;' />
         </members>
       </column>
-      <column caption='Choose Measure' datatype='string' name='[Parameter 4]' param-domain-type='list' role='measure' type='nominal' value='&quot;Sales&quot;'>
-        <calculation class='tableau' formula='&quot;Sales&quot;' />
+      <column caption='Choose Measure' datatype='string' name='[Parameter 4]' param-domain-type='list' role='measure' type='nominal' value='&quot;Profit&quot;'>
+        <calculation class='tableau' formula='&quot;Profit&quot;' />
         <members>
           <member value='&quot;Sales&quot;' />
           <member value='&quot;Quantity&quot;' />
           <member value='&quot;Profit&quot;' />
         </members>
       </column>
-      <column caption='Customer Parameter' datatype='real' default-format='C1033%' name='[Parameter 5]' param-domain-type='any' role='measure' type='quantitative' value='410.0'>
-        <calculation class='tableau' formula='410.0' />
+      <column caption='Customer Parameter' datatype='real' default-format='C1033%' name='[Parameter 5]' param-domain-type='any' role='measure' type='quantitative' value='832.0'>
+        <calculation class='tableau' formula='832.0' />
       </column>
     </datasource>
     <datasource caption='customers_detail' inline='true' name='federated.0g0c04e1r3xqcq17ewuyo0562ol7' version='18.1'>
@@ -149,6 +151,19 @@
               <column datatype='string' name='subcategory' ordinal='2' />
             </columns>
           </relation>
+          <relation connection='excel-direct.0ghk2ai1mkddge1e1qomb0j17i7g' name='complaint_fact' table='[complaint_fact$]' type='table'>
+            <columns gridOrigin='A1:I730:no:A1:I730:0' header='yes' outcome='2'>
+              <column datatype='date' name='date_received' ordinal='0' />
+              <column datatype='string' name='issue category' ordinal='1' />
+              <column datatype='string' name='channel' ordinal='2' />
+              <column datatype='string' name='company_response' ordinal='3' />
+              <column datatype='date' name='resolved_date' ordinal='4' />
+              <column datatype='boolean' name='timely_response' ordinal='5' />
+              <column datatype='boolean' name='consumer_disputed' ordinal='6' />
+              <column datatype='string' name='complaint_id' ordinal='7' />
+              <column datatype='string' name='order_id' ordinal='8' />
+            </columns>
+          </relation>
         </relation>
         <cols>
           <map key='[Client ID]' value='[order_fact].[Client ID]' />
@@ -169,22 +184,31 @@
           <map key='[category]' value='[category_dimension].[category]' />
           <map key='[category_id (category!dimension)]' value='[category_dimension].[category_id]' />
           <map key='[category_id]' value='[order_fact].[category_id]' />
+          <map key='[channel]' value='[complaint_fact].[channel]' />
           <map key='[city]' value='[district_dimension].[city]' />
           <map key='[client_id]' value='[customer_dimension].[client_id]' />
+          <map key='[company_response]' value='[complaint_fact].[company_response]' />
+          <map key='[complaint_id]' value='[complaint_fact].[complaint_id]' />
+          <map key='[consumer_disputed]' value='[complaint_fact].[consumer_disputed]' />
+          <map key='[date_received]' value='[complaint_fact].[date_received]' />
           <map key='[district_code]' value='[district_dimension].[district_code]' />
           <map key='[district_id]' value='[customer_dimension].[district_id]' />
           <map key='[division]' value='[district_dimension].[division]' />
           <map key='[email]' value='[customer_dimension].[email]' />
           <map key='[first]' value='[customer_dimension].[first]' />
           <map key='[gender]' value='[customer_dimension].[gender]' />
+          <map key='[issue category]' value='[complaint_fact].[issue category]' />
           <map key='[last]' value='[customer_dimension].[last]' />
           <map key='[middle]' value='[customer_dimension].[middle]' />
+          <map key='[order_id]' value='[complaint_fact].[order_id]' />
           <map key='[phone]' value='[customer_dimension].[phone]' />
           <map key='[region]' value='[district_dimension].[region]' />
+          <map key='[resolved_date]' value='[complaint_fact].[resolved_date]' />
           <map key='[social]' value='[customer_dimension].[social]' />
           <map key='[state_abbrev]' value='[district_dimension].[state_abbrev]' />
           <map key='[state_name]' value='[district_dimension].[state_name]' />
           <map key='[subcategory]' value='[category_dimension].[subcategory]' />
+          <map key='[timely_response]' value='[complaint_fact].[timely_response]' />
           <map key='[zipcode]' value='[customer_dimension].[zipcode]' />
         </cols>
         <metadata-records>
@@ -242,6 +266,20 @@
               <attribute datatype='string' name='gridOrigin'>&quot;A1:C18:no:A1:C18:0&quot;</attribute>
               <attribute datatype='boolean' name='header'>true</attribute>
               <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[complaint_fact]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:I730:no:A1:I730:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
@@ -797,9 +835,175 @@
             </attributes>
             <object-id>[category!dimension_AB3F8D11A98F487E9B1772D6A4959165]</object-id>
           </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date_received</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[date_received]</local-name>
+            <parent-name>[complaint_fact]</parent-name>
+            <remote-alias>date_received</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[complaint!fact_418BC01C59F64EFCBC3FB4A6F4B545BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>issue category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[issue category]</local-name>
+            <parent-name>[complaint_fact]</parent-name>
+            <remote-alias>issue category</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[complaint!fact_418BC01C59F64EFCBC3FB4A6F4B545BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>channel</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[channel]</local-name>
+            <parent-name>[complaint_fact]</parent-name>
+            <remote-alias>channel</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[complaint!fact_418BC01C59F64EFCBC3FB4A6F4B545BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>company_response</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[company_response]</local-name>
+            <parent-name>[complaint_fact]</parent-name>
+            <remote-alias>company_response</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[complaint!fact_418BC01C59F64EFCBC3FB4A6F4B545BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>resolved_date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[resolved_date]</local-name>
+            <parent-name>[complaint_fact]</parent-name>
+            <remote-alias>resolved_date</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[complaint!fact_418BC01C59F64EFCBC3FB4A6F4B545BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>timely_response</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[timely_response]</local-name>
+            <parent-name>[complaint_fact]</parent-name>
+            <remote-alias>timely_response</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WINBOOL&quot;</attribute>
+            </attributes>
+            <object-id>[complaint!fact_418BC01C59F64EFCBC3FB4A6F4B545BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>consumer_disputed</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[consumer_disputed]</local-name>
+            <parent-name>[complaint_fact]</parent-name>
+            <remote-alias>consumer_disputed</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WINBOOL&quot;</attribute>
+            </attributes>
+            <object-id>[complaint!fact_418BC01C59F64EFCBC3FB4A6F4B545BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>complaint_id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[complaint_id]</local-name>
+            <parent-name>[complaint_fact]</parent-name>
+            <remote-alias>complaint_id</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[complaint!fact_418BC01C59F64EFCBC3FB4A6F4B545BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>order_id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[order_id]</local-name>
+            <parent-name>[complaint_fact]</parent-name>
+            <remote-alias>order_id</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[complaint!fact_418BC01C59F64EFCBC3FB4A6F4B545BC]</object-id>
+          </metadata-record>
         </metadata-records>
       </connection>
       <aliases enabled='yes' />
+      <column caption='TC - Sales Across' datatype='real' name='[Calculation1]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='RUNNING_SUM(SUM([Sales]))'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='LOD - Total Revenue by Category' datatype='real' name='[Calculation_103160632196300800]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED  [category] : SUM([Sales])}' />
+      </column>
+      <column caption='TC - Running Total Down' datatype='real' name='[Calculation_103160632200134657]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='RUNNING_SUM(SUM([Sales]))'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='TC - INDEX' datatype='integer' name='[Calculation_103160632208719878]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='INDEX()'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='TC - Rank Unique' datatype='integer' name='[Calculation_103160632210063368]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='RANK_UNIQUE(SUM([Sales]), &apos;desc&apos;)'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Sales - Current Year' datatype='real' name='[Calculation_103160632213438474]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF YEAR([Order Date]) = YEAR(TODAY()) &#10;THEN [Sales] ELSE 0&#10;END' />
+      </column>
       <column caption='Rate' datatype='real' name='[Calculation_169307251109773312]' role='measure' type='quantitative'>
         <calculation class='tableau' formula='[Sales]/[Quantity]' />
       </column>
@@ -817,6 +1021,9 @@
       </column>
       <column caption='Calculated Customer Cnt from Parameter' datatype='real' name='[Calculation_169307251197661191]' role='measure' type='quantitative'>
         <calculation class='tableau' formula='[Parameters].[Parameter 5]' />
+      </column>
+      <column caption='Average Resolution' datatype='real' name='[Calculation_75998297055997954]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='avg(DATEDIFF(&apos;day&apos;,[date_received],[resolved_date]))' />
       </column>
       <column caption='Customer Clusters' datatype='string' name='[Client Id (clusters)]' parent-model='[AnalyticModel:{9a10e43a-dc6b-42e5-baaf-f2c1f143d4e1}]' role='dimension' type='nominal'>
         <calculation class='categorical-bin' column='[client_id]' default='&quot;Not Clustered&quot;' new-bin='true'>
@@ -2170,14 +2377,24 @@
           </bin>
         </calculation>
       </column>
+      <column caption='LOD - Total Revenue Include by Segment' datatype='real' name='[LOD - Total Revenue Exclude by Category (copy)_103160632205561860]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ INCLUDE  [Segment] : SUM([Sales])}' />
+      </column>
+      <column aggregation='Attribute' caption='LOD - Total Revenue Exclude by Category' datatype='real' name='[LOD - Total Revenue by Category (copy)_103160632204693507]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ EXCLUDE  [category] : SUM([Sales])}' />
+      </column>
       <column datatype='date' name='[Order Date]' role='dimension' type='ordinal' />
       <column datatype='real' name='[Profit]' role='measure' type='quantitative' />
       <column aggregation='None' datatype='integer' name='[Quantity (bin)]' role='dimension' type='quantitative'>
         <calculation class='bin' decimals='0' formula='[Quantity]' peg='0' size='1.77' />
       </column>
       <column datatype='integer' name='[Quantity]' role='measure' type='quantitative' />
+      <column caption='Sales - Prev Year' datatype='real' name='[Sales - Current Year (copy)_103160632213643275]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF YEAR([Order Date]) = YEAR(TODAY()) -1&#10;THEN [Sales] ELSE 0&#10;END' />
+      </column>
       <column datatype='real' name='[Sales]' role='measure' type='quantitative' />
       <column caption='category_dimension' datatype='table' name='[__tableau_internal_object_id__].[category!dimension_AB3F8D11A98F487E9B1772D6A4959165]' role='measure' type='quantitative' />
+      <column caption='complaint_fact' datatype='table' name='[__tableau_internal_object_id__].[complaint!fact_418BC01C59F64EFCBC3FB4A6F4B545BC]' role='measure' type='quantitative' />
       <column caption='customer' datatype='table' name='[__tableau_internal_object_id__].[customer!dimension_55DB94E685F546DA9C30FAAC82396ABA]' role='measure' type='quantitative' />
       <column caption='district' datatype='table' name='[__tableau_internal_object_id__].[district!dimension_9BD8F21F0CA842698BC366464C2D36D5]' role='measure' type='quantitative' />
       <column caption='order_fact' datatype='table' name='[__tableau_internal_object_id__].[order!fact_58BC08E66C014045B6A26FEDB32EE3D7]' role='measure' type='quantitative' />
@@ -2187,25 +2404,36 @@
       <column caption='Category' datatype='string' name='[category]' role='dimension' type='nominal' />
       <column caption='Category Id (Category!Dimension)' datatype='string' name='[category_id (category!dimension)]' role='dimension' type='nominal' />
       <column caption='Category Id' datatype='string' name='[category_id]' role='dimension' type='nominal' />
+      <column caption='Channel' datatype='string' name='[channel]' role='dimension' type='nominal' />
       <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
       <column caption='Client Id' datatype='string' name='[client_id]' role='dimension' type='nominal' />
+      <column caption='Company Response' datatype='string' name='[company_response]' role='dimension' type='nominal' />
+      <column caption='Complaint Id' datatype='string' name='[complaint_id]' role='dimension' type='nominal' />
+      <column caption='Consumer Disputed' datatype='boolean' name='[consumer_disputed]' role='dimension' type='nominal' />
+      <column caption='Date Received' datatype='date' name='[date_received]' role='dimension' type='ordinal' />
       <column caption='District Code' datatype='integer' name='[district_code]' role='dimension' type='ordinal' />
       <column caption='District Id' datatype='integer' name='[district_id]' role='dimension' type='ordinal' />
       <column caption='Division' datatype='string' name='[division]' role='dimension' type='nominal' />
       <column caption='Email' datatype='string' name='[email]' role='dimension' type='nominal' />
       <column caption='First' datatype='string' name='[first]' role='dimension' type='nominal' />
       <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+      <column caption='Issue Category' datatype='string' name='[issue category]' role='dimension' type='nominal' />
       <column caption='Last' datatype='string' name='[last]' role='dimension' type='nominal' />
       <column caption='Middle' datatype='string' name='[middle]' role='dimension' type='nominal' />
+      <column caption='Order Id' datatype='string' name='[order_id]' role='dimension' type='nominal' />
       <column caption='Phone' datatype='string' name='[phone]' role='dimension' type='nominal' />
       <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+      <column caption='Resolved Date' datatype='date' name='[resolved_date]' role='dimension' type='ordinal' />
       <column caption='Social' datatype='string' name='[social]' role='dimension' type='nominal' />
       <column caption='State Abbrev' datatype='string' name='[state_abbrev]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
       <column caption='State Name' datatype='string' name='[state_name]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
       <column caption='Subcategory' datatype='string' name='[subcategory]' role='dimension' type='nominal' />
+      <column caption='Timely Response' datatype='boolean' name='[timely_response]' role='dimension' type='nominal' />
       <column aggregation='Sum' caption='Zipcode' datatype='integer' default-format='*00000' name='[zipcode]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
       <column-instance column='[Set 1]' derivation='InOut' name='[io:Set 1:nk]' pivot='key' type='nominal' />
       <column-instance column='[client_id]' derivation='None' name='[none:client_id:nk]' pivot='key' type='nominal' />
+      <column-instance column='[division]' derivation='None' name='[none:division:nk]' pivot='key' type='nominal' />
+      <column-instance column='[region]' derivation='None' name='[none:region:nk]' pivot='key' type='nominal' />
       <column-instance column='[Profit]' derivation='Sum' name='[sum:Profit:qk]' pivot='key' type='quantitative' />
       <column-instance column='[Sales]' derivation='Sum' name='[sum:Sales:qk]' pivot='key' type='quantitative' />
       <column-instance column='[Calculation_169307251170881539]' derivation='User' name='[usr:Calculation_169307251170881539:nk]' pivot='key' type='nominal' />
@@ -2226,6 +2454,12 @@
           <groupfilter direction='DESC' expression='SUM([Sales])' function='order' user:ui-marker='order'>
             <groupfilter function='level-members' level='[client_id]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </groupfilter>
+        </groupfilter>
+      </group>
+      <group hidden='true' name='[Inclusions (Division,Region)]' name-style='unqualified' user:auto-column='include'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:division:nk]' />
+          <groupfilter function='level-members' level='[none:region:nk]' />
         </groupfilter>
       </group>
       <group caption='Set 1' delimiter=',' name='[Set 1]' name-style='unqualified'>
@@ -2698,7 +2932,7 @@
           <field>[city]</field>
         </drill-path>
       </drill-paths>
-      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <layout common-percentage='0.76298' dim-ordering='alphabetic' measure-ordering='alphabetic' parameter-percentage='0.23702' show-structure='true' user-set-layout-v2='true' />
       <style>
         <style-rule element='mark'>
           <encoding attr='color' field='[Client Id (group)]' type='palette'>
@@ -2759,20 +2993,6 @@
               <bucket>&quot;Red&quot;</bucket>
             </map>
           </encoding>
-          <encoding attr='color' field='[none:AdhocCluster:1:ok]' type='palette'>
-            <map to='#4e79a7'>
-              <bucket>1</bucket>
-            </map>
-            <map to='#76b7b2'>
-              <bucket>4</bucket>
-            </map>
-            <map to='#e15759'>
-              <bucket>3</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>2</bucket>
-            </map>
-          </encoding>
         </style-rule>
       </style>
       <semantic-values>
@@ -2798,11 +3018,11 @@
         <column caption='Choose Dimension' datatype='string' name='[Parameter 3]' param-domain-type='list' role='measure' type='nominal' value='&quot;Category&quot;'>
           <calculation class='tableau' formula='&quot;Category&quot;' />
         </column>
-        <column caption='Choose Measure' datatype='string' name='[Parameter 4]' param-domain-type='list' role='measure' type='nominal' value='&quot;Sales&quot;'>
-          <calculation class='tableau' formula='&quot;Sales&quot;' />
+        <column caption='Choose Measure' datatype='string' name='[Parameter 4]' param-domain-type='list' role='measure' type='nominal' value='&quot;Profit&quot;'>
+          <calculation class='tableau' formula='&quot;Profit&quot;' />
         </column>
-        <column caption='Customer Parameter' datatype='real' default-format='C1033%' name='[Parameter 5]' param-domain-type='any' role='measure' type='quantitative' value='410.0'>
-          <calculation class='tableau' formula='410.0' />
+        <column caption='Customer Parameter' datatype='real' default-format='C1033%' name='[Parameter 5]' param-domain-type='any' role='measure' type='quantitative' value='832.0'>
+          <calculation class='tableau' formula='832.0' />
         </column>
       </datasource-dependencies>
       <filter class='categorical' column='[yr:Order Date:ok]' filter-group='2'>
@@ -2845,22 +3065,6 @@
         </analytic-model-specifications>
         <result-fields />
       </analytic-model>
-      <analytic-model>
-        <name>
-          <field name='[AnalyticModel:{bd1c0fa4-51a2-4d1e-8c13-cc940152d771}]' />
-        </name>
-        <analytic-model-specifications class='cluster-specifications'>
-          <analysis-fields>
-            <field name='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Profit:qk]' />
-            <field name='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Sales:qk]' />
-          </analysis-fields>
-          <filter-fields />
-          <lod-fields />
-          <number-of-desired-clusters>4</number-of-desired-clusters>
-          <is-dissagregate>false</is-dissagregate>
-        </analytic-model-specifications>
-        <result-fields />
-      </analytic-model>
       <object-graph>
         <objects>
           <object caption='category_dimension' id='category!dimension_AB3F8D11A98F487E9B1772D6A4959165'>
@@ -2870,6 +3074,23 @@
                   <column datatype='string' name='category_id' ordinal='0' />
                   <column datatype='string' name='category' ordinal='1' />
                   <column datatype='string' name='subcategory' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='complaint_fact' id='complaint!fact_418BC01C59F64EFCBC3FB4A6F4B545BC'>
+            <properties context=''>
+              <relation connection='excel-direct.0ghk2ai1mkddge1e1qomb0j17i7g' name='complaint_fact' table='[complaint_fact$]' type='table'>
+                <columns gridOrigin='A1:I730:no:A1:I730:0' header='yes' outcome='2'>
+                  <column datatype='date' name='date_received' ordinal='0' />
+                  <column datatype='string' name='issue category' ordinal='1' />
+                  <column datatype='string' name='channel' ordinal='2' />
+                  <column datatype='string' name='company_response' ordinal='3' />
+                  <column datatype='date' name='resolved_date' ordinal='4' />
+                  <column datatype='boolean' name='timely_response' ordinal='5' />
+                  <column datatype='boolean' name='consumer_disputed' ordinal='6' />
+                  <column datatype='string' name='complaint_id' ordinal='7' />
+                  <column datatype='string' name='order_id' ordinal='8' />
                 </columns>
               </relation>
             </properties>
@@ -2939,6 +3160,14 @@
             </expression>
             <first-end-point object-id='order!fact_58BC08E66C014045B6A26FEDB32EE3D7' />
             <second-end-point object-id='category!dimension_AB3F8D11A98F487E9B1772D6A4959165' unique-key='true' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[Order ID]' />
+              <expression op='[order_id]' />
+            </expression>
+            <first-end-point object-id='order!fact_58BC08E66C014045B6A26FEDB32EE3D7' unique-key='true' />
+            <second-end-point object-id='complaint!fact_418BC01C59F64EFCBC3FB4A6F4B545BC' />
           </relationship>
           <relationship>
             <expression op='='>
@@ -3024,6 +3253,16 @@
         <param name='target-group' value='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[Top]' />
       </params>
     </edit-group-action>
+    <edit-parameter-action caption='Test Parameter' name='[Action10_D141022B2F30463B917C74B60454B258]'>
+      <activation type='on-select' />
+      <source type='sheet' worksheet='Customers by Region' />
+      <agg-type type='sum' />
+      <clear-option type='do-nothing' value='r:::1' />
+      <params>
+        <param name='source-field' value='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[__tableau_internal_object_id__].[cnt:customer!dimension_55DB94E685F546DA9C30FAAC82396ABA:qk]' />
+        <param name='target-parameter' value='[Parameters].[Parameter 5]' />
+      </params>
+    </edit-parameter-action>
     <edit-parameter-action caption='Change Parameter' name='[Action9_97EFE4F9472A45608FFB994E23315E27]'>
       <activation type='on-select' />
       <source dashboard='Action Parameter' type='sheet' worksheet='Customers by Region' />
@@ -4196,7 +4435,6 @@
             <column-instance column='[client_id]' derivation='None' name='[none:client_id:nk]' pivot='key' type='nominal' />
             <column-instance column='[Profit]' derivation='Sum' name='[sum:Profit:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Sales]' derivation='Sum' name='[sum:Sales:qk]' pivot='key' type='quantitative' />
-            <style />
           </datasource-dependencies>
           <aggregation value='true' />
         </view>
@@ -4269,11 +4507,77 @@
       </table>
       <simple-id uuid='{DE0A926D-992E-4433-85CF-B93FE9BD4E51}' />
     </worksheet>
+    <worksheet name='Current vs Prev Year'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HomeWork_Station_Supply' name='federated.0af7gxn0ir9icq1aghpf10nvwi96' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0af7gxn0ir9icq1aghpf10nvwi96'>
+            <column caption='TC - Rank Unique' datatype='integer' name='[Calculation_103160632210063368]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='RANK_UNIQUE(SUM([Sales]), &apos;desc&apos;)'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Sales - Current Year' datatype='real' name='[Calculation_103160632213438474]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF YEAR([Order Date]) = YEAR(TODAY()) &#10;THEN [Sales] ELSE 0&#10;END' />
+            </column>
+            <column datatype='date' name='[Order Date]' role='dimension' type='ordinal' />
+            <column caption='Sales - Prev Year' datatype='real' name='[Sales - Current Year (copy)_103160632213643275]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF YEAR([Order Date]) = YEAR(TODAY()) -1&#10;THEN [Sales] ELSE 0&#10;END' />
+            </column>
+            <column datatype='real' name='[Sales]' role='measure' type='quantitative' />
+            <column-instance column='[Order Date]' derivation='Month' name='[mn:Order Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_103160632213438474]' derivation='Sum' name='[sum:Calculation_103160632213438474:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sales - Current Year (copy)_103160632213643275]' derivation='Sum' name='[sum:Sales - Current Year (copy)_103160632213643275:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_103160632210063368]' derivation='User' name='[usr:Calculation_103160632210063368:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Calculation_103160632213438474:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Sales - Current Year (copy)_103160632213643275:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[usr:Calculation_103160632210063368:qk]' included-values='in-range'>
+            <max>10</max>
+          </filter>
+          <slices>
+            <column>[federated.0af7gxn0ir9icq1aghpf10nvwi96].[usr:Calculation_103160632210063368:qk]</column>
+            <column>[federated.0af7gxn0ir9icq1aghpf10nvwi96].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0af7gxn0ir9icq1aghpf10nvwi96].[mn:Order Date:ok]</rows>
+        <cols>[federated.0af7gxn0ir9icq1aghpf10nvwi96].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{D808B939-71F2-4EFC-9BC7-E9E5A00063BE}' />
+    </worksheet>
     <worksheet name='Customers by Region'>
       <layout-options>
         <title>
           <formatted-text>
-            <run>Customers by Region</run>
+            <run>Customers by Region: &lt;</run>
+            <run>[Parameters].[Parameter 5]</run>
+            <run>&gt;</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -4285,6 +4589,11 @@
           <mapsources>
             <mapsource name='Tableau' />
           </mapsources>
+          <datasource-dependencies datasource='Parameters'>
+            <column caption='Customer Parameter' datatype='real' default-format='C1033%' name='[Parameter 5]' param-domain-type='any' role='measure' type='quantitative' value='832.0'>
+              <calculation class='tableau' formula='832.0' />
+            </column>
+          </datasource-dependencies>
           <datasource-dependencies datasource='federated.0af7gxn0ir9icq1aghpf10nvwi96'>
             <column-instance column='[__tableau_internal_object_id__].[customer!dimension_55DB94E685F546DA9C30FAAC82396ABA]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:customer!dimension_55DB94E685F546DA9C30FAAC82396ABA:qk]' pivot='key' type='quantitative' />
             <column caption='customer' datatype='table' name='[__tableau_internal_object_id__].[customer!dimension_55DB94E685F546DA9C30FAAC82396ABA]' role='measure' type='quantitative' />
@@ -4341,8 +4650,8 @@
             <column caption='Choose Dimension' datatype='string' name='[Parameter 3]' param-domain-type='list' role='measure' type='nominal' value='&quot;Category&quot;'>
               <calculation class='tableau' formula='&quot;Category&quot;' />
             </column>
-            <column caption='Choose Measure' datatype='string' name='[Parameter 4]' param-domain-type='list' role='measure' type='nominal' value='&quot;Sales&quot;'>
-              <calculation class='tableau' formula='&quot;Sales&quot;' />
+            <column caption='Choose Measure' datatype='string' name='[Parameter 4]' param-domain-type='list' role='measure' type='nominal' value='&quot;Profit&quot;'>
+              <calculation class='tableau' formula='&quot;Profit&quot;' />
             </column>
           </datasource-dependencies>
           <datasource-dependencies datasource='federated.0af7gxn0ir9icq1aghpf10nvwi96'>
@@ -4417,8 +4726,8 @@
             <column caption='Choose Dimension' datatype='string' name='[Parameter 3]' param-domain-type='list' role='measure' type='nominal' value='&quot;Category&quot;'>
               <calculation class='tableau' formula='&quot;Category&quot;' />
             </column>
-            <column caption='Choose Measure' datatype='string' name='[Parameter 4]' param-domain-type='list' role='measure' type='nominal' value='&quot;Sales&quot;'>
-              <calculation class='tableau' formula='&quot;Sales&quot;' />
+            <column caption='Choose Measure' datatype='string' name='[Parameter 4]' param-domain-type='list' role='measure' type='nominal' value='&quot;Profit&quot;'>
+              <calculation class='tableau' formula='&quot;Profit&quot;' />
             </column>
           </datasource-dependencies>
           <datasource-dependencies datasource='federated.0af7gxn0ir9icq1aghpf10nvwi96'>
@@ -4518,8 +4827,8 @@
             <datasource name='Parameters' />
           </datasources>
           <datasource-dependencies datasource='Parameters'>
-            <column caption='Top N' datatype='integer' name='[Parameter 2]' param-domain-type='range' role='measure' type='quantitative' value='10'>
-              <calculation class='tableau' formula='10' />
+            <column caption='Top N' datatype='integer' name='[Parameter 2]' param-domain-type='range' role='measure' type='quantitative' value='5'>
+              <calculation class='tableau' formula='5' />
               <range max='10' min='1' />
             </column>
           </datasource-dependencies>
@@ -4576,7 +4885,45 @@
     <worksheet name='Filters'>
       <table>
         <view>
-          <datasources />
+          <datasources>
+            <datasource caption='HomeWork_Station_Supply' name='federated.0af7gxn0ir9icq1aghpf10nvwi96' />
+            <datasource name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column caption='Top N' datatype='integer' name='[Parameter 2]' param-domain-type='range' role='measure' type='quantitative' value='5'>
+              <calculation class='tableau' formula='5' />
+              <range max='10' min='1' />
+            </column>
+            <column caption='Choose Measure' datatype='string' name='[Parameter 4]' param-domain-type='list' role='measure' type='nominal' value='&quot;Profit&quot;'>
+              <calculation class='tableau' formula='&quot;Profit&quot;' />
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.0af7gxn0ir9icq1aghpf10nvwi96'>
+            <column caption='Dynamic Measure' datatype='real' name='[Calculation_169307251177791494]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='CASE [Parameters].[Parameter 4]&#10;WHEN &apos;Sales&apos; THEN [Sales]&#10;WHEN &apos;Quantity&apos; THEN [Quantity]&#10;WHEN &apos;Profit&apos; THEN [Profit]&#10;END' />
+            </column>
+            <column datatype='real' name='[Profit]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Quantity]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Sales]' role='measure' type='quantitative' />
+            <column caption='Client Id' datatype='string' name='[client_id]' role='dimension' type='nominal' />
+            <column caption='First' datatype='string' name='[first]' role='dimension' type='nominal' />
+            <column-instance column='[client_id]' derivation='None' name='[none:client_id:nk]' pivot='key' type='nominal' />
+            <column-instance column='[first]' derivation='None' name='[none:first:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_169307251177791494]' derivation='Sum' name='[sum:Calculation_169307251177791494:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[none:client_id:nk]'>
+            <groupfilter count='[Parameters].[Parameter 2]' end='top' function='end' units='records' user:ui-marker='end'>
+              <groupfilter direction='DESC' expression='[Parameters].[Parameter 4]' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:client_id:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[none:first:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Calculation_169307251177791494:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0af7gxn0ir9icq1aghpf10nvwi96].[none:client_id:nk]</column>
+          </slices>
           <aggregation value='true' />
         </view>
         <style />
@@ -4586,9 +4933,17 @@
               <breakdown value='auto' />
             </view>
             <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Calculation_169307251177791494:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
           </pane>
         </panes>
-        <rows />
+        <rows>[federated.0af7gxn0ir9icq1aghpf10nvwi96].[none:first:nk]</rows>
         <cols />
       </table>
       <simple-id uuid='{1DFB1015-75DC-40BC-BD4D-B0E1AB71EDA6}' />
@@ -4981,6 +5336,141 @@
       </table>
       <simple-id uuid='{81AA1D9B-D9C8-46EF-91C6-86B650401E01}' />
     </worksheet>
+    <worksheet name='LOD'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HomeWork_Station_Supply' name='federated.0af7gxn0ir9icq1aghpf10nvwi96' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0af7gxn0ir9icq1aghpf10nvwi96'>
+            <column caption='LOD - Total Revenue by Category' datatype='real' name='[Calculation_103160632196300800]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED  [category] : SUM([Sales])}' />
+            </column>
+            <column datatype='real' name='[Sales]' role='measure' type='quantitative' />
+            <column caption='Category' datatype='string' name='[category]' role='dimension' type='nominal' />
+            <column-instance column='[category]' derivation='None' name='[none:category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[subcategory]' derivation='None' name='[none:subcategory:nk]' pivot='key' type='nominal' />
+            <column caption='Subcategory' datatype='string' name='[subcategory]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_103160632196300800]' derivation='Sum' name='[sum:Calculation_103160632196300800:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sales]' derivation='Sum' name='[sum:Sales:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Calculation_103160632196300800:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Sales:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Sales:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Calculation_103160632196300800:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0af7gxn0ir9icq1aghpf10nvwi96].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0af7gxn0ir9icq1aghpf10nvwi96].[none:category:nk] / [federated.0af7gxn0ir9icq1aghpf10nvwi96].[none:subcategory:nk])</rows>
+        <cols>[federated.0af7gxn0ir9icq1aghpf10nvwi96].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{EFED1393-B249-4F33-B8E5-D4D2DEB5AA86}' />
+    </worksheet>
+    <worksheet name='LOD - EXCLUDE'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HomeWork_Station_Supply' name='federated.0af7gxn0ir9icq1aghpf10nvwi96' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0af7gxn0ir9icq1aghpf10nvwi96'>
+            <column caption='LOD - Total Revenue by Category' datatype='real' name='[Calculation_103160632196300800]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED  [category] : SUM([Sales])}' />
+            </column>
+            <column caption='LOD - Total Revenue Include by Segment' datatype='real' name='[LOD - Total Revenue Exclude by Category (copy)_103160632205561860]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ INCLUDE  [Segment] : SUM([Sales])}' />
+            </column>
+            <column aggregation='Attribute' caption='LOD - Total Revenue Exclude by Category' datatype='real' name='[LOD - Total Revenue by Category (copy)_103160632204693507]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ EXCLUDE  [category] : SUM([Sales])}' />
+            </column>
+            <column datatype='real' name='[Sales]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Segment]' role='dimension' type='nominal' />
+            <column-instance column='[LOD - Total Revenue by Category (copy)_103160632204693507]' derivation='Attribute' name='[attr:LOD - Total Revenue by Category (copy)_103160632204693507:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[LOD - Total Revenue Exclude by Category (copy)_103160632205561860]' derivation='Avg' name='[avg:LOD - Total Revenue Exclude by Category (copy)_103160632205561860:qk]' pivot='key' type='quantitative' />
+            <column caption='Category' datatype='string' name='[category]' role='dimension' type='nominal' />
+            <column-instance column='[category]' derivation='None' name='[none:category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[region]' derivation='None' name='[none:region:nk]' pivot='key' type='nominal' />
+            <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_103160632196300800]' derivation='Sum' name='[sum:Calculation_103160632196300800:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sales]' derivation='Sum' name='[sum:Sales:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Sales:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Calculation_103160632196300800:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0af7gxn0ir9icq1aghpf10nvwi96].[attr:LOD - Total Revenue by Category (copy)_103160632204693507:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0af7gxn0ir9icq1aghpf10nvwi96].[avg:LOD - Total Revenue Exclude by Category (copy)_103160632205561860:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Sales:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Calculation_103160632196300800:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0af7gxn0ir9icq1aghpf10nvwi96].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[:Measure Names]' value='127' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0af7gxn0ir9icq1aghpf10nvwi96].[none:category:nk] / [federated.0af7gxn0ir9icq1aghpf10nvwi96].[none:region:nk])</rows>
+        <cols>[federated.0af7gxn0ir9icq1aghpf10nvwi96].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{F6686722-931A-4472-896F-25AC5D995E07}' />
+    </worksheet>
     <worksheet name='Manual Sets'>
       <table>
         <view>
@@ -5184,7 +5674,6 @@
             <encodings>
               <color column='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[usr:Calculation_169307251170881539:nk]' />
             </encodings>
-            <reference-line axis-column='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[avg:Calculation_169307251114258433:qk]' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-pane' value-column='[Parameters].[Parameter 1]' z-order='1' />
           </pane>
         </panes>
         <rows>[federated.0af7gxn0ir9icq1aghpf10nvwi96].[none:subcategory:nk]</rows>
@@ -5272,6 +5761,237 @@
       </table>
       <simple-id uuid='{4A2C8B24-AF3A-4077-8D97-C7B69CF39F39}' />
     </worksheet>
+    <worksheet name='Sheet 26'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HomeWork_Station_Supply' name='federated.0af7gxn0ir9icq1aghpf10nvwi96' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0af7gxn0ir9icq1aghpf10nvwi96'>
+            <column datatype='real' name='[Sales]' role='measure' type='quantitative' />
+            <column-instance column='[Sales]' derivation='Sum' name='[sum:Sales:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Sales:qk]' value='*#,,.00&quot;M&quot;' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <text column='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Sales:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='22' underline='true'><![CDATA[<[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Sales:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontsize='22' underline='true'>Sales</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{B1B9B2C2-3C83-455B-B55E-1A129E7E7028}' />
+    </worksheet>
+    <worksheet name='Sheet 27'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HomeWork_Station_Supply' name='federated.0af7gxn0ir9icq1aghpf10nvwi96' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0af7gxn0ir9icq1aghpf10nvwi96'>
+            <column caption='Sales - Current Year' datatype='real' name='[Calculation_103160632213438474]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF YEAR([Order Date]) = YEAR(TODAY()) &#10;THEN [Sales] ELSE 0&#10;END' />
+            </column>
+            <column datatype='date' name='[Order Date]' role='dimension' type='ordinal' />
+            <column caption='Sales - Prev Year' datatype='real' name='[Sales - Current Year (copy)_103160632213643275]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF YEAR([Order Date]) = YEAR(TODAY()) -1&#10;THEN [Sales] ELSE 0&#10;END' />
+            </column>
+            <column datatype='real' name='[Sales]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_103160632213438474]' derivation='Sum' name='[sum:Calculation_103160632213438474:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sales - Current Year (copy)_103160632213643275]' derivation='Sum' name='[sum:Sales - Current Year (copy)_103160632213643275:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Calculation_103160632213438474:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Sales - Current Year (copy)_103160632213643275:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0af7gxn0ir9icq1aghpf10nvwi96].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[:Measure Names]' value='144' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[Multiple Values]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.0af7gxn0ir9icq1aghpf10nvwi96].[Multiple Values]</run>
+                <run>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.0af7gxn0ir9icq1aghpf10nvwi96].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{4CAF59B8-04AE-4C44-880F-DD05E507E936}' />
+    </worksheet>
+    <worksheet name='Sheet 28'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HomeWork_Station_Supply' name='federated.0af7gxn0ir9icq1aghpf10nvwi96' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0af7gxn0ir9icq1aghpf10nvwi96'>
+            <column datatype='real' name='[Profit]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Quantity]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Sales]' role='measure' type='quantitative' />
+            <column-instance column='[Profit]' derivation='Sum' name='[sum:Profit:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Quantity]' derivation='Sum' name='[sum:Quantity:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sales]' derivation='Sum' name='[sum:Sales:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Profit:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Quantity:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Sales:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Quantity:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Sales:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Profit:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0af7gxn0ir9icq1aghpf10nvwi96].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.0af7gxn0ir9icq1aghpf10nvwi96].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{32D65FE4-6F76-466A-ABBB-60B23D46AB2C}' />
+    </worksheet>
+    <worksheet name='Sheet 30'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{290C8991-0B95-4AE5-8266-9A51F12C5964}' />
+    </worksheet>
+    <worksheet name='Sheet 31'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HomeWork_Station_Supply' name='federated.0af7gxn0ir9icq1aghpf10nvwi96' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0af7gxn0ir9icq1aghpf10nvwi96'>
+            <column caption='Average Resolution' datatype='real' name='[Calculation_75998297055997954]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='avg(DATEDIFF(&apos;day&apos;,[date_received],[resolved_date]))' />
+            </column>
+            <column caption='Date Received' datatype='date' name='[date_received]' role='dimension' type='ordinal' />
+            <column caption='Resolved Date' datatype='date' name='[resolved_date]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_75998297055997954]' derivation='User' name='[usr:Calculation_75998297055997954:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[usr:Calculation_75998297055997954:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{3F8D02F3-D20D-4036-80EC-E66D43D4C344}' />
+    </worksheet>
     <worksheet name='Sorting'>
       <table>
         <view>
@@ -5294,19 +6014,19 @@
             <max>9893.0</max>
           </filter>
           <filter class='categorical' column='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[none:category:nk]' context='true'>
-            <groupfilter function='member' level='[none:category:nk]' member='&quot;Office Supplies&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='empty-level' member='[none:category:nk]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <filter class='categorical' column='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[none:subcategory:nk]'>
             <groupfilter function='level-members' level='[none:subcategory:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <shelf-sorts>
-            <shelf-sort-v2 dimension-to-sort='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[none:subcategory:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Sales:qk]' shelf='rows' />
             <shelf-sort-v2 dimension-to-sort='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[none:region:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Sales:qk]' shelf='columns'>
               <sort-filter-info>
                 <sort-filter level-name='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[none:category:nk]' member-value='&quot;Office Supplies&quot;' />
                 <sort-filter level-name='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[none:subcategory:nk]' member-value='&quot;Appliances&quot;' />
               </sort-filter-info>
             </shelf-sort-v2>
+            <shelf-sort-v2 dimension-to-sort='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[none:subcategory:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Sales:qk]' shelf='rows' />
           </shelf-sorts>
           <slices>
             <column>[federated.0af7gxn0ir9icq1aghpf10nvwi96].[none:category:nk]</column>
@@ -5334,6 +6054,181 @@
         <cols>([federated.0af7gxn0ir9icq1aghpf10nvwi96].[none:region:nk] * [federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Sales:qk])</cols>
       </table>
       <simple-id uuid='{2630F711-D8F0-4F46-9C73-E37A824174F9}' />
+    </worksheet>
+    <worksheet name='TC - Across'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HomeWork_Station_Supply' name='federated.0af7gxn0ir9icq1aghpf10nvwi96' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0af7gxn0ir9icq1aghpf10nvwi96'>
+            <column caption='TC - Sales Across' datatype='real' name='[Calculation1]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='RUNNING_SUM(SUM([Sales]))'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column datatype='date' name='[Order Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Sales]' role='measure' type='quantitative' />
+            <column caption='Category' datatype='string' name='[category]' role='dimension' type='nominal' />
+            <column-instance column='[category]' derivation='None' name='[none:category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Sales]' derivation='Sum' name='[sum:Sales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation1]' derivation='User' name='[usr:Calculation1:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' />
+            </column-instance>
+            <column-instance column='[Order Date]' derivation='Year' name='[yr:Order Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Sales:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0af7gxn0ir9icq1aghpf10nvwi96].[usr:Calculation1:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0af7gxn0ir9icq1aghpf10nvwi96].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0af7gxn0ir9icq1aghpf10nvwi96].[none:category:nk] / [federated.0af7gxn0ir9icq1aghpf10nvwi96].[:Measure Names])</rows>
+        <cols>[federated.0af7gxn0ir9icq1aghpf10nvwi96].[yr:Order Date:ok]</cols>
+      </table>
+      <simple-id uuid='{139EA0B2-AE83-4AD9-95C5-8156B3CA15EA}' />
+    </worksheet>
+    <worksheet name='TC - Down'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HomeWork_Station_Supply' name='federated.0af7gxn0ir9icq1aghpf10nvwi96' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0af7gxn0ir9icq1aghpf10nvwi96'>
+            <column caption='TC - Running Total Down' datatype='real' name='[Calculation_103160632200134657]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='RUNNING_SUM(SUM([Sales]))'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='TC - INDEX' datatype='integer' name='[Calculation_103160632208719878]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='INDEX()'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column datatype='date' name='[Order Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Sales]' role='measure' type='quantitative' />
+            <column-instance column='[Order Date]' derivation='Quarter' name='[qr:Order Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Sales]' derivation='Sum' name='[sum:Sales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_103160632200134657]' derivation='User' name='[usr:Calculation_103160632200134657:qk:1]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' />
+            </column-instance>
+            <column-instance column='[Calculation_103160632208719878]' derivation='User' name='[usr:Calculation_103160632208719878:qk:4]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='ColumnInPane' />
+            </column-instance>
+            <column-instance column='[Order Date]' derivation='Year' name='[yr:Order Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Sales:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0af7gxn0ir9icq1aghpf10nvwi96].[usr:Calculation_103160632208719878:qk:4]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0af7gxn0ir9icq1aghpf10nvwi96].[usr:Calculation_103160632200134657:qk:1]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0af7gxn0ir9icq1aghpf10nvwi96].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0af7gxn0ir9icq1aghpf10nvwi96].[yr:Order Date:ok] / [federated.0af7gxn0ir9icq1aghpf10nvwi96].[qr:Order Date:ok])</rows>
+        <cols>[federated.0af7gxn0ir9icq1aghpf10nvwi96].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{DD196664-DA25-40BC-A134-AB02256BF265}' />
+    </worksheet>
+    <worksheet name='TC - Down (2)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HomeWork_Station_Supply' name='federated.0af7gxn0ir9icq1aghpf10nvwi96' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0af7gxn0ir9icq1aghpf10nvwi96'>
+            <column caption='TC - Running Total Down' datatype='real' name='[Calculation_103160632200134657]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='RUNNING_SUM(SUM([Sales]))'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column datatype='date' name='[Order Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Sales]' role='measure' type='quantitative' />
+            <column-instance column='[Order Date]' derivation='Quarter' name='[qr:Order Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Sales]' derivation='Sum' name='[sum:Sales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_103160632200134657]' derivation='User' name='[usr:Calculation_103160632200134657:qk:1]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' />
+            </column-instance>
+            <column-instance column='[Order Date]' derivation='Year' name='[yr:Order Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0af7gxn0ir9icq1aghpf10nvwi96].[sum:Sales:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0af7gxn0ir9icq1aghpf10nvwi96].[usr:Calculation_103160632200134657:qk:1]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0af7gxn0ir9icq1aghpf10nvwi96].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0af7gxn0ir9icq1aghpf10nvwi96].[yr:Order Date:ok] / [federated.0af7gxn0ir9icq1aghpf10nvwi96].[qr:Order Date:ok])</rows>
+        <cols>[federated.0af7gxn0ir9icq1aghpf10nvwi96].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{2DC28296-8B74-458E-8E53-45790E4ECE2B}' />
     </worksheet>
     <worksheet name='Table Calculation Filter'>
       <table>
@@ -5393,8 +6288,8 @@
             <datasource name='Parameters' />
           </datasources>
           <datasource-dependencies datasource='Parameters'>
-            <column caption='Customer Parameter' datatype='real' default-format='C1033%' name='[Parameter 5]' param-domain-type='any' role='measure' type='quantitative' value='410.0'>
-              <calculation class='tableau' formula='410.0' />
+            <column caption='Customer Parameter' datatype='real' default-format='C1033%' name='[Parameter 5]' param-domain-type='any' role='measure' type='quantitative' value='832.0'>
+              <calculation class='tableau' formula='832.0' />
             </column>
           </datasource-dependencies>
           <datasource-dependencies datasource='federated.0af7gxn0ir9icq1aghpf10nvwi96'>
@@ -5469,8 +6364,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='19' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='18' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='35' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='34' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='153' h='20125' id='3' is-fixed='true' name='Actions' w='98400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -5549,8 +6444,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='23' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='22' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='39' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='38' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone h='6500' id='11' name='Actions' param='[federated.0af7gxn0ir9icq1aghpf10nvwi96].[none:region:nk]' type-v2='highlighter' w='16000' x='80700' y='4125'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -5624,8 +6519,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='17' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='16' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='33' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='32' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='51' h='7375' id='5' is-fixed='true' name='Total Sales Parameter' show-title='false' w='98400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -5690,8 +6585,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='29' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='28' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='45' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='44' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='Customers by Region' w='98400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -5722,6 +6617,198 @@
         </devicelayout>
       </devicelayouts>
       <simple-id uuid='{7FAD69C2-B848-4112-A880-8713896112F0}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 6'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone forceUpdate='true' h='98000' id='3' param='[com.tableau.addfilters].[0.0.0].[https://extensions.tableauusercontent.com/sandbox/add-filters/index.html]' type-v2='dashboard-object' w='49200' x='50000' y='1000'>
+            <add-in add-in-id='com.tableau.addfilters' extension-url='https://extensions.tableauusercontent.com/sandbox/add-filters/index.html' extension-version='0.0.0' instance-id='F6D6BB2D6FA34FF8B308EEEAEC82D86F'>
+              <instance-settings />
+              <type-settings>
+                <dashboard />
+              </type-settings>
+            </add-in>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone forceUpdate='true' h='98000' id='5' param='[com.salesforce.einsteindiscovery].[1.0.0].[tableau:/extensions/einstein-discovery-dashboard-extension/index.html]' type-v2='dashboard-object' w='49200' x='800' y='1000'>
+            <add-in add-in-id='com.salesforce.einsteindiscovery' extension-url='tableau:/extensions/einstein-discovery-dashboard-extension/index.html' extension-version='1.0.0' instance-id='684E34769EF848D7A6A67A5A2E978BC3'>
+              <instance-settings />
+              <type-settings>
+                <dashboard />
+              </type-settings>
+            </add-in>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='7' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='6' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone forceUpdate='true' h='98000' id='5' param='[com.salesforce.einsteindiscovery].[1.0.0].[tableau:/extensions/einstein-discovery-dashboard-extension/index.html]' type-v2='dashboard-object' w='49200' x='800' y='1000'>
+                  <add-in add-in-id='com.salesforce.einsteindiscovery' extension-url='tableau:/extensions/einstein-discovery-dashboard-extension/index.html' extension-version='1.0.0' instance-id='684E34769EF848D7A6A67A5A2E978BC3'>
+                    <instance-settings />
+                    <type-settings>
+                      <dashboard />
+                    </type-settings>
+                  </add-in>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='98000' id='3' param='[com.tableau.addfilters].[0.0.0].[https://extensions.tableauusercontent.com/sandbox/add-filters/index.html]' type-v2='dashboard-object' w='49200' x='50000' y='1000'>
+                  <add-in add-in-id='com.tableau.addfilters' extension-url='https://extensions.tableauusercontent.com/sandbox/add-filters/index.html' extension-version='0.0.0' instance-id='F6D6BB2D6FA34FF8B308EEEAEC82D86F'>
+                    <instance-settings />
+                    <type-settings>
+                      <dashboard />
+                    </type-settings>
+                  </add-in>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{B8BCBF2F-07F0-4958-8956-A3130948CFD4}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 7'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='5' name='Customers by Region' w='98400' x='800' y='1000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='7' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='6' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='98000' id='5' is-fixed='true' name='Customers by Region' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{87E8B1C8-43D0-45BF-A384-3C5EBC2A37DB}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard Custom'>
+      <style />
+      <size maxheight='800' maxwidth='1200' minheight='800' minwidth='1200' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='8' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98666' x='667' y='1000'>
+            <zone h='98000' id='9' name='Customers by Region' w='98666' x='667' y='1000'>
+              <layout-cache cell-count-w='10' minheight='224' non-cell-size-w='60' type-h='scalable' type-w='cell' />
+              <zone-style>
+                <format attr='border-color' value='#f28e2b' />
+                <format attr='border-style' value='solid' />
+                <format attr='border-width' value='1' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='19' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='18' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone fixed-size='280' h='98000' id='9' is-fixed='true' name='Customers by Region' w='98666' x='667' y='1000'>
+                  <layout-cache cell-count-w='10' minheight='224' non-cell-size-w='60' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#f28e2b' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{E1BF3241-F860-43B5-9224-3686A7DD7175}' />
     </dashboard>
     <dashboard name='Story 1' type='storyboard'>
       <style />
@@ -5977,6 +7064,12 @@
             <card type='title' />
           </strip>
         </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='slider' param='[Parameters].[Parameter 2]' type='parameter' />
+            <card mode='compact' param='[Parameters].[Parameter 4]' type='parameter' />
+          </strip>
+        </edge>
       </cards>
       <simple-id uuid='{EEBC374F-D12A-4494-B3DB-E47D6FE71547}' />
     </window>
@@ -6145,7 +7238,7 @@
     <window class='worksheet' name='Parameters'>
       <cards>
         <edge name='left'>
-          <strip size='160'>
+          <strip size='217'>
             <card type='pages' />
             <card type='filters' />
             <card type='marks' />
@@ -6231,7 +7324,7 @@
       </cards>
       <simple-id uuid='{47EFCCDA-C270-4EC3-B4DA-F7A917802C4D}' />
     </window>
-    <window class='worksheet' maximized='true' name='Dynamic Bin_Histogram'>
+    <window class='worksheet' name='Dynamic Bin_Histogram'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -6292,7 +7385,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='-1' />
+      <active id='3' />
       <simple-id uuid='{AE3FBE17-02CE-4B5D-A487-986F63A88B1E}' />
     </window>
     <window class='dashboard' name='Action Highlight'>
@@ -6302,7 +7395,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='-1' />
+      <active id='3' />
       <simple-id uuid='{473BD36E-827F-4BF0-AB96-C70CBE891B3B}' />
     </window>
     <window class='worksheet' name='Total Sales Parameter'>
@@ -6332,8 +7425,362 @@
         </viewpoint>
         <viewpoint name='Total Sales Parameter' />
       </viewpoints>
-      <active id='-1' />
+      <active id='3' />
       <simple-id uuid='{B2F65E55-BDE8-4162-9A51-B784EA9A017A}' />
     </window>
+    <window class='worksheet' name='Current vs Prev Year'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5752EF71-1DA1-4D1E-9475-935B4579A42F}' />
+    </window>
+    <window class='worksheet' name='LOD'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{94DA997E-761C-4F54-8E01-A65370E1F7B2}' />
+    </window>
+    <window class='worksheet' name='LOD - EXCLUDE'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8E2A6B4A-83ED-48A3-89D7-D49A221754D3}' />
+    </window>
+    <window class='worksheet' name='TC - Across'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8B62D577-B823-43EF-9044-680CA86E0117}' />
+    </window>
+    <window class='worksheet' name='TC - Down'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E226B49E-26E4-4AA9-8F6B-A1AFD959F4C5}' />
+    </window>
+    <window class='worksheet' name='TC - Down (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3166804F-BA18-41E7-B60F-12EA8294D4CD}' />
+    </window>
+    <window class='dashboard' name='Dashboard Custom'>
+      <viewpoints>
+        <viewpoint name='Customers by Region'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{0D575CFF-703D-4DF0-A2EE-4075AA6F7906}' />
+    </window>
+    <window class='worksheet' name='Sheet 26'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+          <strip size='160'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{66BFB198-AF8D-49B0-B6FD-AC4C33458966}' />
+    </window>
+    <window class='worksheet' name='Sheet 27'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A825FBD4-54D3-4C8A-9692-4CF5716BED95}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 28'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E4DDF5C6-0C02-47F1-90D6-DF04FD93DD70}' />
+    </window>
+    <window class='dashboard' name='Dashboard 6'>
+      <viewpoints />
+      <active id='5' />
+      <simple-id uuid='{579E7527-BE32-487E-955C-F881E4063C9D}' />
+    </window>
+    <window class='dashboard' name='Dashboard 7'>
+      <viewpoints>
+        <viewpoint name='Customers by Region'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{D5C744EC-53F3-4C83-ACFD-013749E66A24}' />
+    </window>
+    <window class='worksheet' name='Sheet 30'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2E7010E3-33C9-4616-B81D-6897DEB4A954}' />
+    </window>
+    <window class='worksheet' name='Sheet 31'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F4BD5D51-5582-48A6-8769-819E1C535C0D}' />
+    </window>
   </windows>
+  <referenced-extensions>
+    <referenced-extension>
+      <manifest manifest-version='0.1'>
+        <dashboard-extension extension-version='1.0.0' id='com.salesforce.einsteindiscovery'>
+          <default-locale>en_US</default-locale>
+          <name resource-id='name' />
+          <description>Get predictions for your Tableau data using Einstein Discovery models in Salesforce.</description>
+          <author email='philipcooper_allorg@salesforce.com' name='Salesforce' organization='Salesforce' website='https://www.salesforce.com' />
+          <min-api-version>1.0</min-api-version>
+          <source-location>
+            <url>tableau:/extensions/einstein-discovery-dashboard-extension/index.html</url>
+          </source-location>
+          <icon>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</icon>
+          <permissions>
+            <permission>full data</permission>
+          </permissions>
+          <context-menu>
+            <configure-context-menu-item />
+          </context-menu>
+        </dashboard-extension>
+        <resources>
+          <resource id='name'>
+            <text locale='en_US'>Einstein Discovery</text>
+          </resource>
+        </resources>
+      </manifest>
+      <referenced-views>
+        <referenced-view instances='1' viewId='Dashboard 6' />
+      </referenced-views>
+    </referenced-extension>
+    <referenced-extension>
+      <manifest manifest-version='0.1'>
+        <dashboard-extension extension-version='0.0.0' id='com.tableau.addfilters'>
+          <default-locale>en_US</default-locale>
+          <name resource-id='name' />
+          <description>Add Filters</description>
+          <author email='customerservice@tableau.com' name='Tableau' organization='Tableau' website='https://www.tableau.com' />
+          <min-api-version>1.7</min-api-version>
+          <source-location>
+            <url>https://extensions.tableauusercontent.com/sandbox/add-filters/index.html</url>
+          </source-location>
+          <icon>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</icon>
+          <context-menu>
+            <configure-context-menu-item />
+          </context-menu>
+        </dashboard-extension>
+        <resources>
+          <resource id='name'>
+            <text locale='de_DE'>Filter hinzufügen</text>
+            <text locale='en_GB'>Add Filters</text>
+            <text locale='en_US'>Add Filters</text>
+            <text locale='es_ES'>Añadir filtros</text>
+            <text locale='fr_CA'>Ajouter des filtres</text>
+            <text locale='fr_FR'>Ajouter des filtres</text>
+            <text locale='it_IT'>Aggiungi filtri</text>
+            <text locale='ja_JP'>フィルターの追加</text>
+            <text locale='ko_KR'>필터 추가</text>
+            <text locale='pt_BR'>Adicionar filtros</text>
+            <text locale='sv_SE'>Lägg till filter</text>
+            <text locale='th_TH'>เพิ่มตัวกรอง</text>
+            <text locale='zh_CN'>添加筛选器</text>
+            <text locale='zh_TW'>新增篩選器</text>
+          </resource>
+        </resources>
+      </manifest>
+      <referenced-views>
+        <referenced-view instances='1' viewId='Dashboard 6' />
+      </referenced-views>
+    </referenced-extension>
+  </referenced-extensions>
 </workbook>
