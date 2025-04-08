@@ -1,0 +1,101 @@
+Order_ID,Client_ID,Order_Date,Ship_Mode,Segment,Product_ID,Category,Sub_Category,Product_Name,Sales,Quantity,Discount,Profit
+US-2015-160624,C00000782,2021-08-24,Second Class,Corporate,OFF-AP-10004708,Office Supplies,Appliances,Fellowes Superior 10 Outlet Split Surge Protector,15.224,2,0.8,-38.8212
+US-2015-160625,C00000070,2019-09-07,Second Class,Home Office,OFF-BI-10002012,Office Supplies,Binders,Wilson Jones Easy Flow II Sheet Lifters,5.4,3,0,2.592
+US-2015-160626,C00000958,2023-09-13,Standard Class,Home Office,TEC-AC-10004708,Technology,Accessories,Sony 32GB Class 10 Micro SDHC R40 Memory Card,104.75,5,0,21.9975
+US-2015-160627,C00000248,2020-01-16,Standard Class,Consumer,OFF-PA-10003441,Office Supplies,Paper,Xerox 226,12.96,2,0,6.2208
+US-2015-160628,C00000735,2020-04-18,Standard Class,Corporate,OFF-BI-10003669,Office Supplies,Binders,3M Organizer Strips,8.1,5,0.7,-5.94
+US-2015-160629,C00000164,2019-05-05,Standard Class,Home Office,FUR-CH-10001714,Furniture,Chairs,Global Leather & Oak Executive Chair Burgundy,111411,2,0.2,-36.2136
+US-2015-160630,C00001022,2019-10-10,First Class,Consumer,OFF-BI-10001658,Office Supplies,Binders,GBC Standard Therm-A-Bind Covers,4.984,1,0.8,-8.4728
+US-2015-160631,C00000031,2019-07-15,Standard Class,Consumer,OFF-AP-10001005,Office Supplies,Appliances,Honeywell Quietcare HEPA Air Cleaner,471.9,6,0,155.727
+US-2015-160632,C00000223,2021-08-24,Standard Class,Home Office,TEC-AC-10004761,Technology,Accessories,Maxell 4.7GB DVD+RW 3/Pack,25.488,2,0.2,4.779
+US-2015-160633,C00000264,2023-04-28,Same Day,Home Office,FUR-FU-10004091,Furniture,Furnishings,Howard Miller 13 Diameter Goldtone Round Wall Clock,187.76,4,0,76.9816
+US-2015-160634,C00001034,2022-09-10,Standard Class,Consumer,TEC-AC-10002049,Technology,Accessories,Plantronics Savi W720 Multi-Device Wireless Headset System,843.9,2,0,371.316
+US-2015-160635,C00000602,2023-01-20,Standard Class,Corporate,FUR-CH-10004754,Furniture,Chairs,Global Stack Chair with Arms Black,47.968,2,0.2,4.1972
+US-2015-160636,C00000219,2022-06-15,Standard Class,Consumer,OFF-ST-10004123,Office Supplies,Storage,Safco Industrial Wire Shelving System,272.94,3,0,0
+US-2015-160637,C00000426,2020-03-19,Standard Class,Consumer,OFF-FA-10000585,Office Supplies,Fasteners,OIC Bulk Pack Metal Binder Clips,10.47,3,0,4.8162
+US-2015-160638,C00000601,2021-05-06,Standard Class,Corporate,FUR-TA-10003238,Furniture,Tables,Chromcraft Bull-Nose Wood 48 x 96 Rectangular Conference Tables,661.176,2,0.4,-231.4116
+US-2015-160639,C00000696,2023-04-17,Standard Class,Consumer,OFF-ST-10004123,Office Supplies,Storage,Safco Industrial Wire Shelving System,218.352,3,0.2,-54.588
+US-2015-160640,C00000618,2022-04-24,Standard Class,Corporate,FUR-FU-10000087,Furniture,Furnishings,Executive Impressions 14 Two-Color Numerals Wall Clock,68.16,3,0,27.9456
+US-2015-160641,C00000656,2021-10-30,Second Class,Home Office,FUR-CH-10004626,Furniture,Chairs,Office Star Flex Back Scooter Chair with Aluminum Finish Frame,90.801,1,0.1,14.1246
+US-2015-160642,C00000199,2021-12-04,First Class,Corporate,TEC-AC-10002800,Technology,Accessories,Plantronics Audio 478 Stereo USB Headset,159.968,4,0.2,29.994
+US-2015-160643,C00000267,2021-02-04,First Class,Home Office,OFF-BI-10000145,Office Supplies,Binders,Zipper Ring Binder Pockets,3.744,4,0.7,-2.6208
+US-2015-160644,C00000660,2022-03-28,First Class,Consumer,OFF-EN-10004206,Office Supplies,Envelopes,Multimedia Mailers,325.86,2,0,149.8956
+US-2015-160645,C00000254,2022-04-24,Standard Class,Consumer,OFF-BI-10002393,Office Supplies,Binders,Binder Posts,2.296,2,0.8,-3.9032
+US-2015-160646,C00000951,2020-02-23,First Class,Consumer,TEC-AC-10001552,Technology,Accessories,Logitech K350 2.4Ghz Wireless Keyboard,99.54,2,0,10.9494
+US-2015-160647,C00000789,2020-11-10,Standard Class,Consumer,OFF-EN-10002230,Office Supplies,Envelopes,Airmail Envelopes,167.86,2,0,78.8942
+US-2015-160648,C00000560,2023-01-23,Standard Class,Corporate,OFF-PA-10002195,Office Supplies,Paper,Xerox 1966,31.104,6,0.2,11.2752
+US-2015-160649,C00000841,2019-08-19,Standard Class,Consumer,TEC-AC-10003280,Technology,Accessories,Belkin F8E887 USB Wired Ergonomic Keyboard,89.97,3,0,18.8937
+US-2015-160650,C00000376,2019-01-08,First Class,Consumer,FUR-FU-10001473,Furniture,Furnishings,Eldon Executive Woodline II Desk Accessories Mahogany,60.312,3,0.2,5.2773
+US-2015-160651,C00000196,2021-05-11,Standard Class,Corporate,FUR-FU-10000771,Furniture,Furnishings,Eldon 200 Class Desk Accessories Smoke,69.08,11,0,29.0136
+US-2015-160652,C00000348,2022-12-20,Second Class,Consumer,OFF-PA-10002586,Office Supplies,Paper,Xerox 1970,24.9,5,0,11.703
+US-2015-160653,C00000916,2022-05-26,Standard Class,Corporate,OFF-LA-10000240,Office Supplies,Labels,Self-Adhesive Address Labels for Typewriters by Universal,17.544,3,0.2,5.9211
+US-2015-160654,C00000954,2023-07-10,Standard Class,Consumer,OFF-AR-10001166,Office Supplies,Art,Staples in misc. colors,22.74,3,0,8.8686
+US-2015-160655,C00000821,2019-08-13,Second Class,Corporate,TEC-PH-10002923,Technology,Phones,Logitech B530 USB Headset - headset - Full size Binaural,59.184,2,0.2,5.1786
+US-2015-160656,C00000162,2019-02-12,Standard Class,Consumer,TEC-AC-10002253,Technology,Accessories,Imation Bio 8GB USB Flash Drive Imation Corp,166.24,1,0,24.936
+US-2015-160657,C00000732,2020-11-17,Second Class,Consumer,OFF-PA-10004530,Office Supplies,Paper,Personal Creations Ink Jet Cards and Labels,160.72,14,0,78.7528
+US-2015-160658,C00000789,2019-11-14,Second Class,Corporate,OFF-BI-10004738,Office Supplies,Binders,Flexible Leather- Look Classic Collection Ring Binder,11.364,3,0.8,-17.046
+US-2015-160659,C00000522,2023-05-21,Standard Class,Home Office,OFF-BI-10000756,Office Supplies,Binders,Storex DuraTech Recycled Plastic Frosted Binders,2.544,3,0.8,-3.816
+US-2015-160660,C00000367,2021-02-18,Standard Class,Consumer,OFF-BI-10000778,Office Supplies,Binders,GBC VeloBinder Electric Binding Machine,72.588,2,0.7,-48.392
+US-2015-160661,C00000877,2019-12-13,Standard Class,Consumer,TEC-AC-10002006,Technology,Accessories,Memorex Micro Travel Drive 16 GB,89.544,7,0.2,12.3123
+US-2015-160662,C00000833,2022-03-05,Second Class,Consumer,TEC-MA-10004679,Technology,Machines,StarTech.com 10/100 VDSL2 Ethernet Extender Kit,399.54,2,0.4,-79.908
+US-2015-160663,C00000186,2019-02-08,Standard Class,Consumer,OFF-SU-10001664,Office Supplies,Supplies,Acme Office Executive Series Stainless Steel Trimmers,47.992,7,0.2,3.5994
+US-2015-160664,C00000187,2019-05-17,Second Class,Consumer,OFF-AR-10001246,Office Supplies,Art,Newell 317,16.464,7,0.2,1.8522
+US-2015-160665,C00000033,2020-03-04,Standard Class,Corporate,TEC-AC-10000420,Technology,Accessories,Logitech G500s Laser Gaming Mouse with Adjustable Weight Tuning,279.96,5,0.2,48.993
+US-2015-160666,C00000596,2021-11-06,Standard Class,Corporate,TEC-AC-10002942,Technology,Accessories,WD My Passport Ultra 1TB Portable External Hard Drive,165.6,3,0.2,-6.21
+US-2015-160667,C00000568,2019-07-09,Standard Class,Corporate,OFF-FA-10002780,Office Supplies,Fasteners,Staples,14.9,5,0,6.854
+US-2015-160668,C00000349,2021-04-24,Standard Class,Consumer,OFF-BI-10003656,Office Supplies,Binders,Fellowes PB200 Plastic Comb Binding Machine,679.96,5,0.2,220.987
+US-2015-160669,C00000326,2020-02-23,Second Class,Corporate,FUR-CH-10004287,Furniture,Chairs,SAFCO Arco Folding Chair,386.68,2,0.3,-5.524
+US-2015-160670,C00000754,2020-03-15,Standard Class,Consumer,TEC-PH-10002365,Technology,Phones,Belkin Grip Candy Sheer Case / Cover for iPhone 5 and 5S,8.78,1,0,2.2828
+US-2015-160671,C00000190,2022-10-05,Second Class,Corporate,TEC-PH-10003601,Technology,Phones,Ativa D5772 2-Line 5.8GHz Digital Expandable Corded/Cordless Phone System with Answering & Caller ID/Call Waiting Black/Silver,494.97,3,0,148.491
+US-2015-160672,C00000368,2021-07-02,Standard Class,Corporate,FUR-FU-10002445,Furniture,Furnishings,DAX Two-Tone Rosewood/Black Document Frame Desktop 5 x 7,47.4,5,0,18.96
+US-2015-160673,C00001018,2021-11-03,First Class,Corporate,OFF-PA-10001937,Office Supplies,Paper,Xerox 21,20.736,4,0.2,7.2576
+US-2015-160674,C00000221,2023-09-22,Second Class,Corporate,TEC-AC-10004568,Technology,Accessories,Maxell LTO Ultrium - 800 GB,111.96,4,0,21.2724
+US-2015-160675,C00001048,2019-02-27,Standard Class,Consumer,TEC-AC-10003657,Technology,Accessories,Lenovo 17-Key USB Numeric Keypad,81.576,3,0.2,2.0394
+US-2015-160676,C00000344,2019-09-19,First Class,Home Office,TEC-AC-10000991,Technology,Accessories,Sony Micro Vault Click 8 GB USB 2.0 Flash Drive,112.776,3,0.2,-8.4582
+US-2015-160677,C00000176,2020-05-24,First Class,Home Office,TEC-PH-10000675,Technology,Phones,Panasonic KX TS3282B Corded phone,196.776,3,0.2,14.7582
+US-2015-160678,C00000700,2020-03-31,Standard Class,Home Office,OFF-BI-10000962,Office Supplies,Binders,Acco Flexible ACCOHIDE Square Ring Data Binder Dark Blue 11 1/2 X 14 7/8,52.064,4,0.2,18.8732
+US-2015-160679,C00000777,2022-01-24,Standard Class,Corporate,OFF-LA-10004008,Office Supplies,Labels,Avery 507,18.432,8,0.2,5.9904
+US-2015-160680,C00000152,2022-07-26,Second Class,Corporate,OFF-PA-10003641,Office Supplies,Paper,Xerox 1909,79.14,3,0,36.4044
+US-2015-160681,C00000087,2020-10-24,Same Day,Home Office,FUR-FU-10001940,Furniture,Furnishings,Staple-based wall hangings,15.92,2,0,7.0048
+US-2015-160682,C00001010,2023-02-10,Standard Class,Consumer,OFF-LA-10004544,Office Supplies,Labels,Avery 505,74,5,0,37
+US-2015-160683,C00000279,2020-04-08,Second Class,Home Office,FUR-FU-10003832,Furniture,Furnishings,Eldon Expressions Punched Metal & Wood Desk Accessories Black & Cherry,15.008,4,0.6,-12.0064
+US-2015-160684,C00001008,2023-02-20,First Class,Consumer,OFF-AP-10002518,Office Supplies,Appliances,Kensington 7 Outlet MasterPiece Power Center,569.536,4,0.2,64.0728
+US-2015-160685,C00000086,2021-02-02,Standard Class,Consumer,OFF-BI-10001071,Office Supplies,Binders,GBC ProClick Punch Binding System,447.86,7,0,219.4514
+US-2015-160686,C00000954,2020-01-23,Standard Class,Corporate,OFF-AR-10004582,Office Supplies,Art,BIC Brite Liner Grip Highlighters,4.92,3,0,2.214
+US-2015-160687,C00000521,2021-02-01,Standard Class,Consumer,FUR-BO-10003966,Furniture,Bookcases,Sauder Facets Collection Library Sky Alder Finish,359.058,3,0.3,-71.8116
+US-2015-160688,C00000285,2023-02-11,Standard Class,Home Office,OFF-PA-10001526,Office Supplies,Paper,Xerox 1949,4.98,1,0,2.4402
+US-2015-160689,C00000263,2021-04-06,Second Class,Consumer,OFF-FA-10001561,Office Supplies,Fasteners,Stockwell Push Pins,10.464,6,0.2,1.7004
+US-2015-160690,C00000325,2023-05-08,Standard Class,Consumer,OFF-AR-10003373,Office Supplies,Art,Boston School Pro Electric Pencil Sharpener 1670,185.88,6,0,50.1876
+US-2015-160691,C00000866,2021-07-09,Standard Class,Consumer,FUR-TA-10001768,Furniture,Tables,Hon Racetrack Conference Tables,918.785,5,0.3,-118.1295
+US-2015-160692,C00000343,2020-09-27,Standard Class,Consumer,OFF-PA-10002713,Office Supplies,Paper,Adams Phone Message Book 200 Message Capacity 8 1/16” x 11”,34.4,5,0,15.824
+US-2015-160693,C00000722,2021-02-15,Second Class,Consumer,OFF-EN-10002504,Office Supplies,Envelopes,Tyvek  Top-Opening Peel & Seel Envelopes Plain White,130.464,6,0.2,44.0316
+US-2015-160694,C00000768,2019-04-02,Standard Class,Corporate,OFF-AP-10001492,Office Supplies,Appliances,Acco Six-Outlet Power Strip 4 Cord Length,60.34,7,0,15.6884
+US-2015-160695,C00000188,2019-06-27,Second Class,Home Office,OFF-ST-10000419,Office Supplies,Storage,Rogers Jumbo File Granite,40.74,3,0,0.4074
+US-2015-160696,C00000148,2022-07-11,Standard Class,Consumer,TEC-PH-10004434,Technology,Phones,Cisco IP Phone 7961G VoIP phone - Dark gray,135.95,1,0,39.4255
+US-2015-160697,C00000731,2021-04-19,Standard Class,Corporate,OFF-AP-10004859,Office Supplies,Appliances,Acco 6 Outlet Guardian Premium Surge Suppressor,65.52,5,0.1,12.376
+US-2015-160698,C00000165,2021-09-01,First Class,Consumer,FUR-FU-10003806,Furniture,Furnishings,Tenex Chairmat w/ Average Lip 45 x 53,756.8,5,0,75.68
+US-2015-160699,C00000437,2020-08-07,Standard Class,Corporate,TEC-AC-10003628,Technology,Accessories,Logitech 910-002974 M325 Wireless Mouse for Web Scrolling,89.97,3,0,39.5868
+US-2015-160700,C00000276,2023-10-03,Standard Class,Corporate,TEC-AC-10003870,Technology,Accessories,Logitech Z-906 Speaker sys - home theater - 5.1-CH,1649.95,5,0,659.98
+US-2015-160701,C00000261,2022-01-12,Standard Class,Home Office,FUR-CH-10004063,Furniture,Chairs,Global Deluxe High-Back Managers Chair,2573.82,9,0,746.4078
+US-2015-160702,C00000760,2019-11-02,Standard Class,Consumer,FUR-FU-10000087,Furniture,Furnishings,Executive Impressions 14 Two-Color Numerals Wall Clock,54.528,3,0.2,14.3136
+US-2015-160703,C00000986,2021-09-29,Standard Class,Consumer,OFF-AP-10000159,Office Supplies,Appliances,Belkin F9M820V08 8 Outlet Surge,309.456,9,0.2,34.8138
+US-2015-160704,C00000655,2022-03-04,Second Class,Corporate,OFF-LA-10004853,Office Supplies,Labels,Avery 483,11.952,3,0.2,3.8844
+US-2015-160705,C00000190,2019-11-26,Standard Class,Consumer,OFF-FA-10003467,Office Supplies,Fasteners,Alliance Big Bands Rubber Bands 12/Pack,5.94,3,0,0
+US-2015-160706,C00000954,2022-08-30,First Class,Corporate,TEC-AC-10003280,Technology,Accessories,Belkin F8E887 USB Wired Ergonomic Keyboard,89.97,3,0,18.8937
+US-2015-160707,C00000502,2021-12-16,Standard Class,Consumer,OFF-BI-10000309,Office Supplies,Binders,GBC Twin Loop Wire Binding Elements 9/16 Spine Black,12.176,1,0.2,4.4138
+US-2015-160708,C00000559,2022-10-17,Standard Class,Corporate,FUR-FU-10001918,Furniture,Furnishings,C-Line Cubicle Keepers Polyproplyene Holder With Velcro Backings,33.11,7,0,12.9129
+US-2015-160709,C00000822,2022-09-28,First Class,Corporate,OFF-PA-10000743,Office Supplies,Paper,Xerox 1977,20.04,3,0,9.6192
+US-2015-160710,C00000043,2023-05-22,Standard Class,Home Office,OFF-BI-10002225,Office Supplies,Binders,Square Ring Data Binders Rigid 75 Pt. Covers 11 x 14-7/8,82.56,5,0.2,28.896
+US-2015-160711,C00000501,2023-05-04,Second Class,Home Office,FUR-TA-10002958,Furniture,Tables,Bevis Oval Conference Table Walnut,2348.82,9,0,399.2994
+US-2015-160712,C00000826,2020-05-20,Standard Class,Consumer,OFF-PA-10001736,Office Supplies,Paper,Xerox 1880,56.704,2,0.2,19.1376
+US-2015-160713,C00000828,2023-02-18,Standard Class,Home Office,OFF-EN-10003040,Office Supplies,Envelopes,Quality Park Security Envelopes,20.936,1,0.2,7.0659
+US-2015-160714,C00000583,2022-01-11,Standard Class,Corporate,TEC-PH-10002583,Technology,Phones,iOttie HLCRIO102 Car Mount,39.98,2,0,1.999
+US-2015-160715,C00000117,2022-01-19,Standard Class,Corporate,FUR-TA-10002645,Furniture,Tables,Hon Rectangular Conference Tables,2275.5,10,0,386.835
+US-2015-160716,C00000268,2021-12-07,Same Day,Consumer,OFF-EN-10001099,Office Supplies,Envelopes,Staple envelope,68.46,7,0,31.4916
+US-2015-160717,C00000199,2020-12-28,Standard Class,Consumer,FUR-BO-10002598,Furniture,Bookcases,Hon Metal Bookcases Putty,283.92,4,0,82.3368
+US-2015-160718,C00000231,2023-07-18,Standard Class,Corporate,OFF-BI-10002309,Office Supplies,Binders,Avery Heavy-Duty EZD  Binder With Locking Rings,13.392,8,0.7,-9.8208
+US-2015-160719,C00000033,2023-06-01,Standard Class,Consumer,OFF-BI-10003876,Office Supplies,Binders,Green Canvas Binder for 8-1/2 x 14 Sheets,128.4,3,0,64.2
+US-2015-160720,C00000981,2019-11-16,Second Class,Consumer,TEC-PH-10003171,Technology,Phones,Plantronics Encore H101 Dual Earpieces Headset,134.85,3,0,37.758
+US-2015-160721,C00000280,2022-05-12,Standard Class,Consumer,FUR-CH-10004086,Furniture,Chairs,Hon 4070 Series Pagoda Armless Upholstered Stacking Chairs,408.422,2,0.3,-5.8346
+US-2015-160722,C00000322,2021-07-15,Second Class,Corporate,FUR-FU-10001940,Furniture,Furnishings,Staple-based wall hangings,9.552,3,0.6,-3.8208
+US-2015-160723,C00000293,2023-07-04,Standard Class,Consumer,FUR-CH-10002602,Furniture,Chairs,DMI Arturo Collection Mission-style Design Wood Chair,317.058,3,0.3,-18.1176
