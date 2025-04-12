@@ -1,167 +1,4 @@
 {
-    "Data Literacy":
-        [
-        {
-            "id": 1,
-            "question":"Which of these can be referred to as Data?",
-            "choices": [
-                "Twitter Feed",
-                "Media (Video, Pictures and Audio)",
-                "Customer Details and Transactions",
-                "Customer Feedback",
-                "All of the above"],
-                "answer": "All of the above",
-                "explanation":"Data can be structured or unstructured."
-        },
-        {
-            "id": 2,
-            "question":"Data in ____bytes size is called Big Data?",
-            "choices": [
-                "Tera",
-                "Giga",
-                "Peta",
-                "Meta"],
-            "answer": "Peta",
-            "explanation":"data in Peta bytes i.e. 10^15 byte size is called Big Data"
-        },
-        {
-            "id": 3,
-            "question":"Financial Transaction Data of the Bank is",
-            "choices": [
-                "Structured Data",
-                "Unstructured Data",
-                "Both Structured and Unstructured",
-                "None of the above",
-                "All of the above"],
-            "answer": "Structured Data",
-            "explanation":"Data which can be saved in tables are structured data like the transaction data of the bank"
-        },
-
-        {
-            "id": 4,
-            "question":"Which of the following are Benefits of Big Data Processing?",
-            "choices": [
-                "Businesses can utilize outside intelligence while taking decisions",
-                "Improved customer service",
-                "Better operational efficiency",
-                "All of the above"],
-            "answer": "All of the above",
-            "explanation":"All of the above are Benefits of Big Data Processing"
-        },
-
-        {
-            "id": 5,
-            "question":"What is a CSV file?",
-            "choices": [
-                "Current System Version",
-                "Comma Seperated Values",
-                "Character Size Values",
-                "None of the above"],
-            "answer": "Comma Seperated Values",
-            "explanation":"Comma Seperated Values allows data to be saved in a tabular format. It can be read by most programs and uses minimal storage space compared to excel files"
-        },
-        {
-            "id": 6,
-            "question":"What is Python?",
-            "choices": [
-                "Programming language",
-                "ERP Software",
-                "Name of a Company",
-                "None of the above"],
-                "answer": "Programming language",
-                "explanation":"A high-level general-purpose programming language used extensively in the Data Analytics space."
-        },
-        {
-            "id": 7,
-            "question":"Which tools are suited for Big Data?",
-            "choices": [
-                "Python & R",
-                "Excel & Access",
-                "SAS",
-                "All of the above"],
-                "answer": "Python & R",
-                "explanation":"The best all-around language for working with data is Python, while R is used extensively by data miners and data scientists to analyze data."
-        },
-
-        {
-            "id": 8,
-            "question":"What is the need to Process Data?",
-            "choices": [
-                "Improves Accuracy and Readability",
-                "Improves Search Efficiency",
-                "Prepares Data for Visualisation",
-                "Prepared Data for Machine Learning and AI",
-                "All of the above"],
-                "answer": "All of the above",
-                "explanation":"Data Processing has a multitude of benefits"
-        },
-        {
-            "id": 9,
-            "question":"What is Null Value Treatment?",
-            "choices": [
-                "Fill Blank Cells with appropriate values",
-                "Remove Rows and Columns with Blank Cells",
-                "Both of the above",
-                "None of the above"],
-                "answer": "Both of the above",
-                "explanation":"We can delete a particular column if it has more than 70-75% of missing values."
-        },
-        {
-            "id": 10,
-            "question":"What is Encoding in Data Processing?",
-            "choices": [
-                "Converting text to a specified format, commonly numeric or binary",
-                "Increasing the security of the data",
-                "Turning thoughts into communication",
-                "None of the above"],
-                "answer": "Converting text to a specified format, commonly numeric or binary",
-                "explanation":"Encoding is the process of converting the data or a given sequence of characters, symbols, alphabets etc., into a specified format, for the secured transmission of data."
-        },
-
-        {
-            "id": 11,
-            "question":"What is Data Visualisation?",
-            "choices": [
-                "Representing information in the form of charts or pictures",
-                "Refers to visually seeing the data in tabular format",
-                "None of the above"],
-                "answer": "Representing information in the form of charts or pictures",
-                "explanation":"Data visualization is the graphical representation of information and data. By using visual elements like charts, graphs, and maps, data visualization tools provide an accessible way to see and understand trends, outliers, and patterns in data."
-        },
-        {
-            "id": 12,
-            "question":"Why should we process the Data before visualizing?",
-            "choices": [
-                "To improve accuracy",
-                "To enable easily readibility of charts",
-                "Prevent skewed representation of information",
-                "All of the above"],
-                "answer": "All of the above",
-                "explanation":"Data visualization is the graphical representation of information and data. By using visual elements like charts, graphs, and maps, data visualization tools provide an accessible way to see and understand trends, outliers, and patterns in data."
-        },
-        {
-            "id": 13,
-            "question":"Which of these tools are most popular for Data Modelling in Banking?",
-            "choices": [
-                "Python",
-                "R",
-                "SAS",
-                "All of the above"],
-                "answer": "All of the above",
-                "explanation":"Python, R and SAS are the most popular tools used for Data Modelling in Banking"
-        },
-
-        {
-            "id": 14,
-            "question":"What is Machine Learning?",
-            "choices": [
-                "Robotics is another term for Machine Learning",
-                "Ability of computer systems to predict by learning and adapting by using statistical models on past data",
-                "None of the above"],
-                "answer": "Ability of computer systems to predict by learning and adapting by using statistical models on past data",
-                "explanation":"Machine learning is a branch of artificial intelligence (AI) focused on building applications that learn from data and improve their accuracy over time without being programmed to do so"
-        }
-    ],
     "SQL Primer for Data Analysis":
         [
 
@@ -6161,7 +5998,7 @@
       "explanation": "The 'Command Bar' at the top of Microsoft Teams allows users to search for content and execute commands quickly, streamlining navigation and productivity."
     }
   ],
-  "Microsoft SharePoint Online":[
+  "Microsoft SharePoint Online Old":[
     {
       "id": 1,
       "question": "In a SharePoint Document Library used by WSP for project proposals, what ensures that older versions of a document are retained?",
@@ -7431,6 +7268,128 @@
       ],
       "answer": "A) IF Statement",
       "explanation": "IF statements in Tableau allow you to create conditional logic, such as categorizing customers based on their total spending."
+    }
+  ],
+  "Microsoft SharePoint Online":[
+    {
+      "id": 1,
+      "question": "Your HR department needs a SharePoint site to publish company policies and onboarding materials to all employees, without expecting collaboration from viewers. Which type of site should you create?",
+      "choices": [
+        "Team Site",
+        "Communication Site",
+        "Project Site",
+        "Wiki Site"
+      ],
+      "answer": "Communication Site",
+      "explanation": "Communication Sites are ideal for broadcasting information to a large audience, with minimal collaboration needed from viewers."
+    },
+    {
+      "id": 2,
+      "question": "You are designing a document library for marketing assets. You want to ensure all uploaded files have metadata fields like 'Campaign Name' and 'Region'. What should you do first?",
+      "choices": [
+        "Create a new folder for each campaign",
+        "Enable versioning in the library settings",
+        "Create new columns for 'Campaign Name' and 'Region'",
+        "Use the default 'Modified By' column"
+      ],
+      "answer": "Create new columns for 'Campaign Name' and 'Region'",
+      "explanation": "Creating custom columns in the library ensures that metadata is captured consistently for each file."
+    },
+    {
+      "id": 3,
+      "question": "A user accidentally overwrites an important file in the document library. What feature allows you to recover the earlier version of that file?",
+      "choices": [
+        "Recycle Bin",
+        "Check-Out",
+        "Version History",
+        "Metadata Settings"
+      ],
+      "answer": "Version History",
+      "explanation": "Version History tracks changes to files, allowing users to restore a previous version if needed."
+    },
+    {
+      "id": 4,
+      "question": "You want to ensure that only one person at a time can edit a sensitive contract document. What feature should you use?",
+      "choices": [
+        "Enable versioning",
+        "Require metadata",
+        "Enable check-out",
+        "Use custom views"
+      ],
+      "answer": "Enable check-out",
+      "explanation": "Check-Out ensures exclusive editing by a single user, preventing others from making changes simultaneously."
+    },
+    {
+      "id": 5,
+      "question": "In a newly created document library, you want to make a frequently used Word template easily accessible from the 'New' button. What is the correct approach?",
+      "choices": [
+        "Upload the file to the 'Documents' view",
+        "Add the file to Quick Launch",
+        "Use 'New > Add Template' and upload the template",
+        "Create a site page linking to the template"
+      ],
+      "answer": "Use 'New > Add Template' and upload the template",
+      "explanation": "Uploading a document via 'Add Template' makes it accessible directly from the 'New' menu for standardization."
+    },
+    {
+      "id": 6,
+      "question": "You notice that in your document library, the 'File Type' column is displayed before 'Document Title'. How can you change the column order to prioritize 'Document Title'?",
+      "choices": [
+        "Modify library permissions",
+        "Reorder columns using 'Edit View'",
+        "Delete the 'File Type' column",
+        "Change library settings to Modern View"
+      ],
+      "answer": "Reorder columns using 'Edit View'",
+      "explanation": "Using 'Edit View' allows you to rearrange column order without deleting or modifying column data."
+    },
+    {
+      "id": 7,
+      "question": "You're creating a custom view in your document library to show only files from the 'Sales' department. What feature would you use?",
+      "choices": [
+        "Sort by Name",
+        "Group by File Size",
+        "Filter by Department column",
+        "Enable check-in"
+      ],
+      "answer": "Filter by Department column",
+      "explanation": "Filtering by metadata like 'Department' allows you to display only relevant files in a custom view."
+    },
+    {
+      "id": 8,
+      "question": "Your team wants to implement a process where documents are only published after a manager approves them. Which setting in the library should you configure?",
+      "choices": [
+        "Require check-out",
+        "Enable folder creation",
+        "Enable content approval in versioning settings",
+        "Enable audience targeting"
+      ],
+      "answer": "Enable content approval in versioning settings",
+      "explanation": "Content approval ensures that items are not visible to everyone until a designated approver approves them."
+    },
+    {
+      "id": 9,
+      "question": "A user reports they cannot edit a document in the library. You see a small green arrow icon next to the file. What is the most likely reason?",
+      "choices": [
+        "The file is checked in",
+        "The file has restricted permissions",
+        "The file is checked out by another user",
+        "The file is in read-only mode"
+      ],
+      "answer": "The file is checked out by another user",
+      "explanation": "A green arrow icon typically indicates that a file is checked out, meaning others cannot edit it until it is checked back in."
+    },
+    {
+      "id": 10,
+      "question": "You want to limit the number of previous versions stored for each document in a library to save space. Where can this setting be configured?",
+      "choices": [
+        "Library permissions",
+        "Manage columns",
+        "Versioning settings in Library Settings",
+        "Advanced view formatting"
+      ],
+      "answer": "Versioning settings in Library Settings",
+      "explanation": "You can configure version limits under 'Versioning settings' to conserve storage by controlling the number of versions kept."
     }
   ]    
     }
