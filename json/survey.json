@@ -239,69 +239,70 @@
       "image": null
   }
 ],
-"Fundamentals of Big Data Analytics":
+"Big Data Analytics and Warehousing":
 [
-    {
-        "id": 1,
-        "question": "What is your current level of understanding and experience with Big Data concepts and technologies?",
-        "choices": [
-            "No experience",
-            "Basic understanding (familiar with terms and concepts)",
-            "Intermediate (worked with Big Data tools or projects)",
-            "Advanced (extensive experience with Big Data projects and technologies)"
-        ]
-    },
-    {
-        "id": 2,
-        "question": "How would you describe your experience and proficiency with SQL and relational databases?",
-        "choices": [
-            "No experience",
-            "Basic (understand and can write simple queries)",
-            "Intermediate (can design databases and write complex queries)",
-            "Advanced (extensive experience with database optimization, administration, or advanced analytics)"
-        ]
-    },
-    {
-        "id": 3,
-        "question": "Which of the following data skills do you possess that are crucial for leveraging Big Data with Hadoop? (Check all that apply)",
-        "choices": [
-            "Data modeling and design",
-            "Data integration and ETL processes",
-            "Data quality and governance",
-            "Data analysis and visualization",
-            "None of the above"
-        ]
-    },
-    {
-        "id": 4,
-        "question": "How familiar are you with programming languages that are commonly used in Big Data projects, such as Java, Python, or Scala?",
-        "choices": [
-            "No experience",
-            "Basic syntax and operations",
-            "Comfortable with projects and problem-solving",
-            "Expert in writing complex programs and applications"
-        ]
-    },
-    {
-        "id": 5,
-        "question": "How comfortable are you with Linux operating system commands and operations, given that Hadoop runs on Linux environments?",
-        "choices": [
-            "No experience",
-            "Basic familiarity (can navigate directories, modify files)",
-            "Intermediate (comfortable with command line, can write scripts)",
-            "Advanced (extensive experience, can manage Linux-based systems)"
-        ]
-    },
-    {
-        "id": 6,
-        "question": "Do you have access to the necessary hardware and software to practice Hadoop operations, such as a computer with a compatible operating system and enough memory and processing power to run Hadoop virtual machines or containers?",
-        "choices": [
-            "Yes, I have the necessary equipment",
-            "No, I do not have access to the required resources",
-            "Not sure; need guidance on the requirements"
-        ]
-    }
-],
+  {
+    "id": 1,
+    "question": "Which of the following best describes your current understanding of data types such as structured and unstructured data?",
+    "choices": [
+      "I have never heard of these concepts.",
+      "I have a basic idea but cannot distinguish them clearly.",
+      "I can differentiate between them with confidence.",
+      "I have applied this knowledge in real-world scenarios."
+    ]
+  },
+  {
+    "id": 2,
+    "question": "How familiar are you with querying data using SQL (e.g., SELECT, WHERE, JOIN statements)?",
+    "choices": [
+      "I have no experience with SQL.",
+      "I understand the syntax but have not written queries myself.",
+      "I can write simple SQL queries.",
+      "I can write complex SQL queries involving joins and conditions."
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Which best represents your knowledge of relational database concepts such as primary keys and schemas?",
+    "choices": [
+      "I am not familiar with these terms.",
+      "I have a theoretical understanding but have not worked with them.",
+      "I have used these concepts in practice to design or query databases.",
+      "I have experience in optimizing or managing relational databases."
+    ]
+  },
+  {
+    "id": 4,
+    "question": "What is your experience with tools used for business reporting (e.g., Excel dashboards, Tableau)?",
+    "choices": [
+      "I have never used business reporting tools.",
+      "I have used Excel for basic reporting tasks.",
+      "I have created dashboards using tools like Tableau or Power BI.",
+      "I have developed automated or interactive dashboards for business use."
+    ]
+  },
+  {
+    "id": 5,
+    "question": "How would you assess your understanding of how data-driven decision-making works within an organization?",
+    "choices": [
+      "I am not aware of how data informs business decisions.",
+      "I understand the concept in theory but have not seen it applied.",
+      "I have observed or been involved in data-informed decisions.",
+      "I have contributed to or led initiatives involving data-driven strategies."
+    ]
+  },
+  {
+    "id": 6,
+    "question": "What is your level of familiarity with Parquet file format used in big data systems?",
+    "choices": [
+      "I have never heard of Parquet files.",
+      "I have heard of them but do not know their purpose.",
+      "I understand that they are used for columnar storage and performance optimization.",
+      "I have worked with Parquet files in data pipelines or analysis tasks."
+    ]
+  }
+]
+,
 "Foundations of Artificial Intelligence and Machine Learning":[
   {
     "id": 1,
