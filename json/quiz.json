@@ -7391,5 +7391,148 @@
       "answer": "Versioning settings in Library Settings",
       "explanation": "You can configure version limits under 'Versioning settings' to conserve storage by controlling the number of versions kept."
     }
-  ]    
+  ],
+  "Big Data Analytics and Warehousing":[
+    {
+      "id": 1,
+      "question": "What is the current standard multiplier used for data size measurements?",
+      "choices": ["1024", "1000", "512", "2048"],
+      "answer": "1000",
+      "explanation": "Although 1024 was historically used, the modern standard for measuring data sizes now uses 1000 as the multiplier."
+    },
+    {
+      "id": 2,
+      "question": "Which movie is cited as an example of Big Data due to its storage requirements?",
+      "choices": ["Titanic", "Avatar", "Inception", "Interstellar"],
+      "answer": "Avatar",
+      "explanation": "The movie 'Avatar' required 1 Petabyte of storage for its 3D graphics, demonstrating the scale of Big Data."
+    },
+    {
+      "id": 3,
+      "question": "Which storage format is optimized for read-heavy analytics and used with columnar data?",
+      "choices": ["CSV", "Parquet", "JSON", "XML"],
+      "answer": "Parquet",
+      "explanation": "Parquet is a columnar file format that enables efficient storage and retrieval, especially for large-scale analytical queries."
+    },
+    {
+      "id": 4,
+      "question": "What is a Delta Table best known for in a Lakehouse architecture?",
+      "choices": ["Graph visualization", "Schema evolution", "Image recognition", "Parallel computing"],
+      "answer": "Schema evolution",
+      "explanation": "Delta Tables support schema enforcement and evolution, making them ideal for flexible and consistent data pipelines."
+    },
+    {
+      "id": 5,
+      "question": "What is a key capability of Dataflow Gen 2 in Microsoft Fabric?",
+      "choices": ["ETL for mobile apps", "Notebook execution", "Low-code data transformation", "Blockchain integration"],
+      "answer": "Low-code data transformation",
+      "explanation": "Dataflow Gen 2 enables users to perform scalable, low-code data transformation within Microsoft Fabric."
+    },
+    {
+      "id": 6,
+      "question": "Which component in Fabric helps orchestrate and automate end-to-end data workflows?",
+      "choices": ["Power BI", "Data Pipeline", "SQL Endpoint", "Shortcut"],
+      "answer": "Data Pipeline",
+      "explanation": "Data Pipelines allow users to automate tasks like ingestion, transformation, and movement of data across Fabric components."
+    },
+    {
+      "id": 7,
+      "question": "Which feature in Fabric allows access to data across workspaces without duplicating it?",
+      "choices": ["Delta Lake", "Linked Service", "Shortcut", "ETL"],
+      "answer": "Shortcut",
+      "explanation": "Shortcuts in Fabric let users reference data in other Lakehouses or Warehouses without physically moving or copying the data."
+    },
+    {
+      "id": 8,
+      "question": "What does ELT stand for in Microsoft Fabric?",
+      "choices": ["Extract Load Transfer", "Extract Load Transform", "Evaluate Load Transfer", "Extract Loop Transform"],
+      "answer": "Extract Load Transform",
+      "explanation": "In Microsoft Fabric, ELT stands for Extract Load Transform, optimized for cloud-based systems like OneLake."
+    },
+    {
+      "id": 9,
+      "question": "Which tool is ideal for real-time dashboarding and integrates with SQL Endpoint in Fabric?",
+      "choices": ["SSIS", "Data Studio", "Power BI", "Visual Studio"],
+      "answer": "Power BI",
+      "explanation": "Power BI can connect directly to SQL Endpoints in Fabric, enabling real-time data visualization and dashboarding."
+    },
+    {
+      "id": 10,
+      "question": "Which type of SQL endpoint in Fabric is designed for read-only queries?",
+      "choices": ["Warehouse SQL", "Lakehouse SQL", "Delta SQL", "Admin SQL"],
+      "answer": "Lakehouse SQL",
+      "explanation": "Lakehouse SQL endpoints in Fabric are read-only and designed to enable querying over data in Lakehouses."
+    },
+    {
+      "id": 11,
+      "question": "Which type of data includes social media comments and video content?",
+      "choices": ["Structured data", "Semi-structured data", "Unstructured data", "Formatted data"],
+      "answer": "Unstructured data",
+      "explanation": "Unstructured data lacks a predefined format and includes media content and textual data from social platforms."
+    },
+    {
+      "id": 12,
+      "question": "Which key feature of Delta Tables ensures data consistency and version control?",
+      "choices": ["File partitioning", "ACID transactions", "Token authentication", "Data masking"],
+      "answer": "ACID transactions",
+      "explanation": "Delta Tables support ACID transactions, ensuring reliable operations such as insertions, deletions, and updates."
+    },
+    {
+      "id": 13,
+      "question": "What benefit does parallel processing bring to Big Data systems?",
+      "choices": ["Increased storage", "Lower latency", "Faster data processing", "Reduced data volume"],
+      "answer": "Faster data processing",
+      "explanation": "Parallel processing enables multiple operations to run simultaneously, drastically reducing processing time."
+    },
+    {
+      "id": 14,
+      "question": "What is the primary difference between a Lakehouse and a Warehouse in Microsoft Fabric?",
+      "choices": ["Data encryption methods", "SQL compatibility", "Type of supported data", "UI design"],
+      "answer": "Type of supported data",
+      "explanation": "Lakehouses support both structured and unstructured data, while Warehouses focus solely on structured relational data."
+    },
+    {
+      "id": 15,
+      "question": "What is a key benefit of using commodity hardware in Big Data solutions?",
+      "choices": ["High energy efficiency", "Low software maintenance", "Cost reduction", "Enhanced encryption"],
+      "answer": "Cost reduction",
+      "explanation": "Commodity hardware is inexpensive and enables significant cost savings when scaling Big Data infrastructures."
+    },
+    {
+      "id": 16,
+      "question": "What transformation capability is enhanced by Dataflow Gen 2 in Fabric?",
+      "choices": ["Real-time OLTP", "NoSQL operations", "Power Query transformations", "Geospatial indexing"],
+      "answer": "Power Query transformations",
+      "explanation": "Dataflow Gen 2 enhances Power Query-based transformations in Fabric for scalable data preparation."
+    },
+    {
+      "id": 17,
+      "question": "What does a Direct Query connection in Power BI allow users to do?",
+      "choices": ["Store dashboards locally", "Use static reports", "Query data live from source", "Schedule daily imports"],
+      "answer": "Query data live from source",
+      "explanation": "Direct Query allows real-time querying of data from the source system without data import."
+    },
+    {
+      "id": 18,
+      "question": "Which of the following supports decoupled compute and storage in Fabric?",
+      "choices": ["SQL Server", "Warehouse", "Azure VM", "Parquet Files"],
+      "answer": "Warehouse",
+      "explanation": "Warehouses in Microsoft Fabric are built to scale compute and storage independently, enhancing flexibility."
+    },
+    {
+      "id": 19,
+      "question": "Which SQL capability is specific to Data Warehouses in Microsoft Fabric?",
+      "choices": ["Read-only SQL endpoint", "INSERT and DELETE operations", "Delta Lake integration", "Schema evolution"],
+      "answer": "INSERT and DELETE operations",
+      "explanation": "Unlike Lakehouses, Warehouses in Microsoft Fabric support full SQL capabilities, including INSERT and DELETE commands."
+    },
+    {
+      "id": 20,
+      "question": "Which tool is ideal for handling both structured and unstructured data types in real-time analytics?",
+      "choices": ["Data Warehouse", "Data Mart", "Data Lakehouse", "Relational Database"],
+      "answer": "Data Lakehouse",
+      "explanation": "Data Lakehouses offer flexibility for handling diverse data types, making them ideal for real-time analytics and AI applications."
+    }
+  ]
+      
     }
