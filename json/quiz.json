@@ -7270,7 +7270,7 @@
       "explanation": "IF statements in Tableau allow you to create conditional logic, such as categorizing customers based on their total spending."
     }
   ],
-  "Microsoft SharePoint Online":[
+  "Microsoft SharePoint Online Older":[
     {
       "id": 1,
       "question": "Your HR department needs a SharePoint site to publish company policies and onboarding materials to all employees, without expecting collaboration from viewers. Which type of site should you create?",
@@ -7533,6 +7533,127 @@
       "answer": "Data Lakehouse",
       "explanation": "Data Lakehouses offer flexibility for handling diverse data types, making them ideal for real-time analytics and AI applications."
     }
-  ]
-      
+  ],
+  "Microsoft SharePoint Online":[
+    {
+      "id": 1,
+      "question": "A project management team needs to coordinate updates across engineering, procurement, and finance. Which platform feature enables them to create a central collaboration space with document versioning and role-based access?",
+      "choices": [
+        "Microsoft Word",
+        "Outlook Groups",
+        "SharePoint Site",
+        "OneDrive Folder"
+      ],
+      "answer": "SharePoint Site",
+      "explanation": "SharePoint allows teams to set up collaborative sites with access controls, document libraries, and metadata tagging, ideal for multi-departmental coordination."
+    },
+    {
+      "id": 2,
+      "question": "While setting up a SharePoint site for an internal audit task force, the team wants the site accessible only to select members. During site creation, which setting should be selected to ensure restricted access?",
+      "choices": [
+        "Public - anyone can view",
+        "Public - entire organization",
+        "Private - only members can access",
+        "External - open to contractors"
+      ],
+      "answer": "Private - only members can access",
+      "explanation": "Choosing 'Private' ensures that only invited users can access the site, which is critical for confidentiality during audit and compliance tasks."
+    },
+    {
+      "id": 3,
+      "question": "An engineer accidentally overwrote a key specification document in the project document library. What SharePoint feature allows them to retrieve the prior version without IT intervention?",
+      "choices": [
+        "Recycle Bin",
+        "Version History",
+        "Co-authoring",
+        "Check-In Logs"
+      ],
+      "answer": "Version History",
+      "explanation": "Version History stores a record of all previous edits, allowing users to view or restore past versions of a document independently."
+    },
+    {
+      "id": 4,
+      "question": "The finance department wants to organize vendor contracts by region and contract type, without duplicating files in multiple folders. What is the best method to achieve this?",
+      "choices": [
+        "Create nested folders for each contract type",
+        "Use metadata columns for region and contract type",
+        "Attach tags to document names manually",
+        "Split files across multiple libraries"
+      ],
+      "answer": "Use metadata columns for region and contract type",
+      "explanation": "Metadata allows for multi-dimensional categorization, enabling dynamic sorting, filtering, and grouping without redundancy."
+    },
+    {
+      "id": 5,
+      "question": "Procurement managers want contracts above $500,000 to stand out visually in the document library. What feature can be used to automatically highlight high-value contracts?",
+      "choices": [
+        "Pinned Columns",
+        "Conditional Formatting",
+        "Folder Naming Convention",
+        "Link Color Coding"
+      ],
+      "answer": "Conditional Formatting",
+      "explanation": "Conditional formatting lets users define rules that visually distinguish items based on metadata values such as contract amount."
+    },
+    {
+      "id": 6,
+      "question": "The HR team maintains an employee directory in SharePoint and needs to track changes to individual profiles over time. What feature provides a historical log of each entry's updates?",
+      "choices": [
+        "Item Comments",
+        "Timeline Web Part",
+        "Version History in Lists",
+        "Grid View Mode"
+      ],
+      "answer": "Version History in Lists",
+      "explanation": "Version History allows tracking of changes made to list items, including field edits, enabling HR to audit modifications."
+    },
+    {
+      "id": 7,
+      "question": "An equipment request form in a SharePoint list must be linked to an approved vendor stored in another list. Which type of column allows this inter-list connection?",
+      "choices": [
+        "Choice",
+        "Lookup",
+        "Single line of text",
+        "Calculated"
+      ],
+      "answer": "Lookup",
+      "explanation": "Lookup columns establish a relationship between two SharePoint lists, enabling data reference and consistency between related records."
+    },
+    {
+      "id": 8,
+      "question": "A logistics officer needs to quickly update delivery statuses for multiple entries in a SharePoint list. Which interface allows the fastest bulk editing experience?",
+      "choices": [
+        "Form View",
+        "Quick Launch Panel",
+        "Edit in Grid View",
+        "New Item Wizard"
+      ],
+      "answer": "Edit in Grid View",
+      "explanation": "The Grid View interface replicates an Excel-like experience for rapid, inline editing of multiple rows and fields simultaneously."
+    },
+    {
+      "id": 9,
+      "question": "To track warranty periods, a team wants to automatically calculate a document's expiration date as 365 days after the submission date. What feature should be used?",
+      "choices": [
+        "Lookup Column",
+        "Folder Rule",
+        "Calculated Column",
+        "Manual Field Entry"
+      ],
+      "answer": "Calculated Column",
+      "explanation": "Calculated columns use formulas to derive values, such as adding a time interval to a date field for expiration tracking."
+    },
+    {
+      "id": 10,
+      "question": "The maintenance department uploads service reports and wants to categorize each report by equipment type and urgency. They also want the ability to filter and group these dynamically. What is the best way to set this up?",
+      "choices": [
+        "Use folders for each equipment type",
+        "Add metadata columns and create filtered views",
+        "Color-code document names manually",
+        "Tag files in OneDrive and link them to SharePoint"
+      ],
+      "answer": "Add metadata columns and create filtered views",
+      "explanation": "Metadata columns offer dynamic categorization and, when paired with custom views, enable efficient filtering, sorting, and grouping."
+    }
+  ]  
     }
