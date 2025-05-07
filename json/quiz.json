@@ -7655,5 +7655,127 @@
       "answer": "Add metadata columns and create filtered views",
       "explanation": "Metadata columns offer dynamic categorization and, when paired with custom views, enable efficient filtering, sorting, and grouping."
     }
-  ]  
+  ],
+  "Microsoft 365 Copilot":[
+    {
+      "id": 1,
+      "question": "What is a key principle of prompt engineering when interacting with AI tools?",
+      "choices": [
+        "Use vague and brief instructions",
+        "Avoid context to simplify prompts",
+        "Give the model a clear task and be specific",
+        "Always let AI generate responses without constraints"
+      ],
+      "answer": "Give the model a clear task and be specific",
+      "explanation": "Prompt engineering emphasizes providing context, a specific task, and clarity to elicit better responses from AI tools."
+    },
+    {
+      "id": 2,
+      "question": "Which compliance standards does Microsoft 365 Copilot adhere to?",
+      "choices": [
+        "ISO 9001 and PCI DSS",
+        "GDPR and HIPAA",
+        "SOC 1 and FISMA",
+        "COBIT and NIST"
+      ],
+      "answer": "GDPR and HIPAA",
+      "explanation": "Microsoft 365 Copilot complies with key data protection standards including GDPR and HIPAA, ensuring organizational data remains secure."
+    },
+    {
+      "id": 3,
+      "question": "What does Microsoft Graph integration enable for Copilot in Microsoft 365?",
+      "choices": [
+        "Live collaboration with external users",
+        "Email encryption and spam filtering",
+        "Personalized assistance based on user activity",
+        "Automation of file backups"
+      ],
+      "answer": "Personalized assistance based on user activity",
+      "explanation": "Deep integration with Microsoft Graph allows Copilot to learn from user behavior and provide tailored recommendations across apps."
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is a limitation of Copilot in Word?",
+      "choices": [
+        "Cannot assist with grammar correction",
+        "No support for macros or content controls",
+        "Cannot open PDF files",
+        "Does not allow saving documents"
+      ],
+      "answer": "No support for macros or content controls",
+      "explanation": "In Word, Copilot lacks capabilities related to developer tools like macros and content controls, limiting advanced document automation."
+    },
+    {
+      "id": 5,
+      "question": "Which task can Copilot perform in PowerPoint?",
+      "choices": [
+        "Create animations with timing",
+        "Generate speaker notes and organize slides",
+        "Edit Slide Master templates",
+        "Embed interactive charts and videos"
+      ],
+      "answer": "Generate speaker notes and organize slides",
+      "explanation": "Copilot in PowerPoint can help summarize content, organize presentations, and generate speaker notes but lacks advanced customization support."
+    },
+    {
+      "id": 6,
+      "question": "What is a major limitation of Copilot in Excel?",
+      "choices": [
+        "Cannot highlight or sort data",
+        "Lacks support for Power Pivot models",
+        "Unable to create pivot tables",
+        "Cannot use formulas at all"
+      ],
+      "answer": "Lacks support for Power Pivot models",
+      "explanation": "While Copilot in Excel supports basic analysis and formula generation, it cannot handle complex data modeling using Power Pivot."
+    },
+    {
+      "id": 7,
+      "question": "How does Copilot assist in Outlook?",
+      "choices": [
+        "Drafting emails and summarizing threads",
+        "Managing folders and setting rules",
+        "Scheduling calendar events",
+        "Auto-replying to spam emails"
+      ],
+      "answer": "Drafting emails and summarizing threads",
+      "explanation": "Copilot in Outlook enhances productivity by drafting replies and summarizing emails, though it does not manage rules or folders."
+    },
+    {
+      "id": 8,
+      "question": "Which capability is supported by Copilot in OneDrive?",
+      "choices": [
+        "Real-time file sharing with comments",
+        "Generating custom FAQs and summarizing documents",
+        "Encrypting files before upload",
+        "Live editing with external users"
+      ],
+      "answer": "Generating custom FAQs and summarizing documents",
+      "explanation": "Copilot in OneDrive can analyze files to create FAQs and summaries, but it does not support collaborative editing or encryption."
+    },
+    {
+      "id": 9,
+      "question": "What limitation exists in Copilot for Microsoft Teams?",
+      "choices": [
+        "Cannot summarize chat conversations",
+        "Does not interact with shared documents in real-time",
+        "Cannot schedule meetings",
+        "Cannot send chat messages"
+      ],
+      "answer": "Does not interact with shared documents in real-time",
+      "explanation": "In Teams, Copilot can summarize meetings and chats but lacks the ability to interact with documents being shared live."
+    },
+    {
+      "id": 10,
+      "question": "What is a core benefit of using prompt templates in Copilot-enabled applications?",
+      "choices": [
+        "They limit user creativity",
+        "They avoid the need for user input",
+        "They help standardize requests for better AI responses",
+        "They reduce the performance of the AI model"
+      ],
+      "answer": "They help standardize requests for better AI responses",
+      "explanation": "Prompt templates guide users in structuring their queries, improving consistency and the quality of AI-generated outputs."
+    }
+  ]    
     }

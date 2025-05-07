@@ -397,66 +397,67 @@
 ],
 "Generative AI for Business":[
   {
-      "id": 1,
-      "question": "What is your current level of familiarity with Artificial Intelligence (AI)?",
-      "choices": [
-          "No familiarity",
-          "Basic understanding",
-          "Moderate understanding",
-          "Advanced understanding"
-      ]
+    "id": "1",
+    "question": "How familiar are you with Generative AI concepts and their applications?",
+    "choices": [
+      "Not familiar at all",
+      "Heard of the term but never used it",
+      "Used AI tools occasionally",
+      "Comfortable applying AI tools in real scenarios"
+    ]
   },
   {
-      "id": 2,
-      "question": "How comfortable are you with the concepts of Machine Learning?",
-      "choices": [
-          "Not comfortable at all",
-          "Somewhat comfortable",
-          "Comfortable",
-          "Very comfortable"
-      ]
+    "id": "2",
+    "question": "Have you used Microsoft Copilot or any similar AI-powered assistant tools?",
+    "choices": [
+      "No, never used",
+      "Yes, explored briefly",
+      "Yes, used for simple tasks",
+      "Yes, regularly use for work-related automation"
+    ]
   },
   {
-      "id": 3,
-      "question": "Have you ever participated in a supervised learning activity? If so, what was the context?",
-      "choices": [
-          "No, I have not",
-          "Yes, in an academic setting",
-          "Yes, in a professional setting",
-          "Yes, in a personal project"
-      ]
+    "id": "3",
+    "question": "What is your level of experience with Microsoft Power Automate or similar workflow tools?",
+    "choices": [
+      "None",
+      "Beginner – created basic flows",
+      "Intermediate – built workflows across apps",
+      "Advanced – regularly use for process automation"
+    ]
   },
   {
-      "id": 4,
-      "question": "How well do you understand the training process of AI models (e.g., neural networks)?",
-      "choices": [
-          "Not at all",
-          "A little",
-          "Moderately",
-          "Extensively"
-      ]
+    "id": "4",
+    "question": "How confident are you in identifying use cases for AI within your department (e.g., HR, Finance, Operations, Contracts)?",
+    "choices": [
+      "Not confident",
+      "Somewhat confident",
+      "Confident",
+      "Very confident and have already identified some"
+    ]
   },
   {
-      "id": 5,
-      "question": "What is your level of knowledge about Natural Language Processing (NLP)?",
-      "choices": [
-          "No knowledge",
-          "Basic knowledge",
-          "Intermediate knowledge",
-          "Advanced knowledge"
-      ]
+    "id": "5",
+    "question": "Are you familiar with data security and compliance concepts such as GDPR and data residency requirements in aviation?",
+    "choices": [
+      "No understanding",
+      "Basic awareness",
+      "Familiar with general concepts",
+      "Well-versed and apply them in current role"
+    ]
   },
   {
-      "id": 6,
-      "question": "What specific topics within AI are you most interested in learning about?",
-      "choices": [
-          "Machine Learning",
-          "Natural Language Processing",
-          "Prompt Engineering",
-          "Custom GPTs"
-      ]
+    "id": "6",
+    "question": "Do you have prior experience creating or modifying prompts for AI tools (e.g., ChatGPT, Copilot Studio)?",
+    "choices": [
+      "No experience",
+      "Some experience experimenting",
+      "Regularly write prompts for work",
+      "Advanced – optimize and test prompts for different outcomes"
+    ]
   }
-],
+]
+,
 "Blockchain Fundamentals":[
   {
     "id": 1,
