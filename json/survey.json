@@ -397,67 +397,66 @@
 ],
 "Generative AI for Business":[
   {
-    "id": "1",
-    "question": "How familiar are you with Generative AI concepts and their applications?",
+    "id": 1,
+    "question": "How familiar are you with the concepts of Artificial Intelligence (AI), Machine Learning (ML), and Deep Learning (DL)?",
     "choices": [
-      "Not familiar at all",
-      "Heard of the term but never used it",
-      "Used AI tools occasionally",
-      "Comfortable applying AI tools in real scenarios"
+      "I have never heard of these terms",
+      "I have heard of them but don't understand what they mean",
+      "I have a basic understanding of one or more of these concepts",
+      "I understand the differences between AI, ML, and DL"
     ]
   },
   {
-    "id": "2",
-    "question": "Have you used Microsoft Copilot or any similar AI-powered assistant tools?",
+    "id": 2,
+    "question": "Have you previously used or interacted with any AI-powered applications (e.g., voice assistants, chatbots, recommendation systems)?",
     "choices": [
-      "No, never used",
-      "Yes, explored briefly",
-      "Yes, used for simple tasks",
-      "Yes, regularly use for work-related automation"
+      "No, I have never used any AI-powered applications",
+      "Yes, but I was not aware they used AI",
+      "Yes, occasionally and I understand they use AI",
+      "Yes, frequently and I actively explore AI technologies"
     ]
   },
   {
-    "id": "3",
-    "question": "What is your level of experience with Microsoft Power Automate or similar workflow tools?",
+    "id": 3,
+    "question": "What is your level of understanding regarding how AI can generate content such as text, images, or music?",
     "choices": [
-      "None",
-      "Beginner – created basic flows",
-      "Intermediate – built workflows across apps",
-      "Advanced – regularly use for process automation"
+      "I am not aware AI can generate content",
+      "I have heard of this but do not know how it works",
+      "I know the basics of content generation using AI",
+      "I understand specific technologies like GANs or transformers"
     ]
   },
   {
-    "id": "4",
-    "question": "How confident are you in identifying use cases for AI within your department (e.g., HR, Finance, Operations, Contracts)?",
+    "id": 4,
+    "question": "Which of the following best describes your expectation from this course?",
     "choices": [
-      "Not confident",
-      "Somewhat confident",
-      "Confident",
-      "Very confident and have already identified some"
+      "To gain a basic understanding of what Generative AI is",
+      "To learn how Generative AI applies to business contexts",
+      "To explore how AI-generated content can improve productivity",
+      "To gain hands-on skills to develop simple AI-based tools"
     ]
   },
   {
-    "id": "5",
-    "question": "Are you familiar with data security and compliance concepts such as GDPR and data residency requirements in aviation?",
+    "id": 5,
+    "question": "Which business areas are you most interested in applying Generative AI to?",
     "choices": [
-      "No understanding",
-      "Basic awareness",
-      "Familiar with general concepts",
-      "Well-versed and apply them in current role"
+      "Marketing and Content Creation",
+      "Customer Support and Automation",
+      "Finance and Risk Management",
+      "Operations and Workflow Optimization"
     ]
   },
   {
-    "id": "6",
-    "question": "Do you have prior experience creating or modifying prompts for AI tools (e.g., ChatGPT, Copilot Studio)?",
+    "id": 6,
+    "question": "How comfortable are you working with data or digital tools in your current role?",
     "choices": [
-      "No experience",
-      "Some experience experimenting",
-      "Regularly write prompts for work",
-      "Advanced – optimize and test prompts for different outcomes"
+      "Not comfortable; I avoid digital tools where possible",
+      "Somewhat comfortable; I use basic tools like email or Excel",
+      "Comfortable; I use various business software tools daily",
+      "Very comfortable; I work with data analysis or automation tools"
     ]
   }
-]
-,
+],
 "Blockchain Fundamentals":[
   {
     "id": 1,
