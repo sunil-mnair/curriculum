@@ -7869,5 +7869,53 @@
     "answer": "Epoch",
     "explanation": "An epoch is when an AI goes through all the training data once. It usually repeats this many times to get better results."
   }
-]    
+],
+"OK Events":[
+    {
+    "id": 1,
+    "question": "How old is OK?",
+    "choices": ["10 years", "15 years", "5 years", "1 year"],
+    "answer": "15 years",
+    "explanation": ""
+  },
+  {
+    "id": 2,
+    "question": "What does OK do?",
+    "choices": [
+      "Rent camels with Wi-Fi",
+      "Supply backup relatives for Big Fat Indian weddings",
+      "Actually... they build jaw-dropping exhibition stands",
+      "Teach toddlers how to close deals"
+    ],
+    "answer": "Actually... they build jaw-dropping exhibition stands",
+    "explanation": ""
+  },
+  {
+    "id": 3,
+    "question": "What over the top visions did we bring to life?",
+    "choices": [
+      "7 colors of sands from 7 emirates",
+      "Alula mountain inspired lounge",
+      "Amphitheatre inspired talk show stage",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "explanation": ""
+  },
+  {
+    "id": 4,
+    "question": "What is my specific ask for today?",
+    "choices": ["Informa Events", "Messe Frankfurt", "Capital 360 events", "DMG Events"],
+    "answer": "Messe Frankfurt",
+    "explanation": ""
+  },
+  {
+    "id": 5,
+    "question": "What was my specific ask last year?",
+    "choices": ["Informa events", "Messe Frankfurt", "Capital Events", "DMG Events"],
+    "answer": "DMG Events",
+    "explanation": ""
+  }
+]
+    
     }
