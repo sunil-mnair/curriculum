@@ -7904,14 +7904,14 @@
   },
   {
     "id": 4,
-    "question": "What is my specific ask for today?",
+    "question": "Today, what is my Specific Ask?",
     "choices": ["Informa Events", "Messe Frankfurt", "Capital 360 events", "DMG Events"],
-    "answer": "Messe Frankfurt",
+    "answer": "Capital 360 events",
     "explanation": ""
   },
   {
     "id": 5,
-    "question": "What was my specific ask last year?",
+    "question": "What was my Specific Ask last year?",
     "choices": ["Informa events", "Messe Frankfurt", "Capital Events", "DMG Events"],
     "answer": "DMG Events",
     "explanation": ""
