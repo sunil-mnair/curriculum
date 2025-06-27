@@ -8029,6 +8029,127 @@
     "answer": "DMG Events",
     "explanation": ""
   }
+],
+"PL 500":[
+  {
+    "id": 1,
+    "question": "You are building a Scheduled Cloud Flow to generate a report from SharePoint and email it every Monday at 8:00 AM. To ensure report consistency regardless of regional settings, which Power Automate expression should be used to format the date in 'yyyy-MM-dd' format?",
+    "choices": [
+      "formatDateTime(utcNow(), 'dd-MM-yyyy')",
+      "formatDateTime(now(), 'MM-dd-yyyy')",
+      "formatDateTime(utcNow(), 'yyyy-MM-dd')",
+      "convertTimeZone(now(), 'UTC', 'Local')"
+    ],
+    "answer": "formatDateTime(utcNow(), 'yyyy-MM-dd')",
+    "explanation": "Using `utcNow()` with a standard format ensures consistency across time zones, especially for scheduled flows that run server-side."
+  },
+  {
+    "id": 2,
+    "question": "You are designing an Automated Cloud Flow triggered by a new item in a SharePoint list. It occasionally fails with a '403 forbidden' error when accessing an Excel file in OneDrive. What is the most likely root cause?",
+    "choices": [
+      "Incorrect SharePoint permissions",
+      "Excel file is in use or locked by another process",
+      "Flow owner doesn't have access to the OneDrive file",
+      "Excel connector throttling limit exceeded"
+    ],
+    "answer": "Flow owner doesn't have access to the OneDrive file",
+    "explanation": "Automated flows run under the connection credentials of the creator or specified service account. If the OneDrive file isn't shared with that identity, a 403 error is expected."
+  },
+  {
+    "id": 3,
+    "question": "You are asked to create a flow that collects form responses, writes them to Excel Online, and posts a Teams message. To avoid data duplication, which strategy is most appropriate?",
+    "choices": [
+      "Use a 'Do Until' loop to verify row creation",
+      "Add a trigger condition on form response ID uniqueness",
+      "Schedule a batch job instead of using an automated flow",
+      "Place the Teams post before writing to Excel"
+    ],
+    "answer": "Add a trigger condition on form response ID uniqueness",
+    "explanation": "Trigger conditions filter events at the source. Using a unique response ID check prevents the flow from processing duplicates."
+  },
+  {
+    "id": 4,
+    "question": "A user-triggered Instant Cloud Flow adds a file to a SharePoint library and sends an email summary. Users report latency issues. Which optimization technique is best?",
+    "choices": [
+      "Split the flow into parallel branches for email and file upload",
+      "Switch to an Automated Flow",
+      "Use a manual approval step to slow down execution",
+      "Add a delay action between steps"
+    ],
+    "answer": "Split the flow into parallel branches for email and file upload",
+    "explanation": "Parallel branches allow independent actions (like uploading and emailing) to run simultaneously, reducing total execution time for end users."
+  },
+  {
+    "id": 5,
+    "question": "Which expression would you use to extract the domain from an email address collected in an Outlook trigger?",
+    "choices": [
+      "split(triggerOutputs()?['body/from'], '@')[1]",
+      "substring(triggerOutputs()?['body/from'], indexOf('@'))",
+      "last(split(triggerOutputs()?['body/from/email'], '@'))",
+      "trim(triggerOutputs()?['body/from/email'])"
+    ],
+    "answer": "last(split(triggerOutputs()?['body/from/email'], '@'))",
+    "explanation": "Splitting the email string at '@' and selecting the last element extracts the domain portion safely."
+  },
+  {
+    "id": 6,
+    "question": "You need to extract rows from an Excel Online file stored in OneDrive and process each in a loop. What’s the key requirement to ensure the ‘List rows present in a table’ action works correctly?",
+    "choices": [
+      "The Excel file must be shared publicly",
+      "The table must be formatted as a named range",
+      "The data must be inside a formatted Excel table",
+      "The Excel file must have a macro-enabled extension"
+    ],
+    "answer": "The data must be inside a formatted Excel table",
+    "explanation": "The Excel connector requires data to be formatted as a table to identify and retrieve rows using the 'List rows present in a table' action."
+  },
+  {
+    "id": 7,
+    "question": "A Scheduled Flow creates weekly summary cards in Microsoft Teams. To dynamically reference the current week number, which expression is best?",
+    "choices": [
+      "formatDateTime(utcNow(), 'WW')",
+      "addDays(utcNow(), 7)",
+      "formatDateTime(utcNow(), 'dd-MM-yyyy')",
+      "formatDateTime(utcNow(), 'yyyy-WW')"
+    ],
+    "answer": "formatDateTime(utcNow(), 'yyyy-WW')",
+    "explanation": "`WW` in the format string returns the ISO week number, helpful in naming or organizing recurring summary messages."
+  },
+  {
+    "id": 8,
+    "question": "You are building a flow where a file upload to SharePoint should trigger data extraction to Excel and an alert in Outlook. However, Excel writes are failing silently. What's the first diagnostic step?",
+    "choices": [
+      "Check the email connector for runtime errors",
+      "Review the run history to inspect Excel step inputs and outputs",
+      "Verify SharePoint trigger frequency",
+      "Run the flow manually using Instant trigger"
+    ],
+    "answer": "Review the run history to inspect Excel step inputs and outputs",
+    "explanation": "The run history in Power Automate provides visibility into execution paths, inputs, and outputs, which is essential for diagnosing connector-level failures."
+  },
+  {
+    "id": 9,
+    "question": "You have a UI Flow that automates a legacy desktop application each morning. Occasionally it fails due to the system not being logged in. What is a practical mitigation strategy?",
+    "choices": [
+      "Add an extra 'Wait' action before UI Flow steps",
+      "Move the task to a Business Process Flow",
+      "Schedule the flow for user-active hours and ensure unattended RPA mode",
+      "Convert it into a Scheduled Cloud Flow"
+    ],
+    "answer": "Schedule the flow for user-active hours and ensure unattended RPA mode",
+    "explanation": "UI Flows require the desktop session to be active or unattended RPA configured. Scheduling during active hours or configuring a virtual machine for RPA is essential."
+  },
+  {
+    "id": 10,
+    "question": "In a complex flow using Outlook, SharePoint, and Excel Online, dynamic content suddenly fails to appear during configuration. What’s a known fix?",
+    "choices": [
+      "Clear browser cache and restart Power Automate",
+      "Reconnect Outlook only",
+      "Save the flow, then reopen it in edit mode",
+      "Switch to a Scheduled Flow type"
+    ],
+    "answer": "Save the flow, then reopen it in edit mode",
+    "explanation": "Sometimes, the Power Automate designer UI doesn’t refresh properly. Saving and reloading the flow often restores dynamic content visibility."
+  }
 ]
-    
     }
