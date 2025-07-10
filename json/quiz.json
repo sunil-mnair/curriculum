@@ -8151,5 +8151,127 @@
     "answer": "Save the flow, then reopen it in edit mode",
     "explanation": "Sometimes, the Power Automate designer UI doesn’t refresh properly. Saving and reloading the flow often restores dynamic content visibility."
   }
+],
+"Web3, Digital Assets and Tokenonmics":[
+  {
+    "id": 1,
+    "question": "What is the purpose of a blockchain whitepaper?",
+    "choices": [
+      "To write smart contracts",
+      "To explain the project's idea and goals",
+      "To register the company legally",
+      "To list the token on exchanges"
+    ],
+    "answer": "To explain the project's idea and goals",
+    "explanation": "A whitepaper is a document that shares the vision, problem, solution, and plan of a blockchain project with the public:contentReference[oaicite:0]{index=0}."
+  },
+  {
+    "id": 2,
+    "question": "What is the main difference between a testnet and a mainnet?",
+    "choices": [
+      "Testnet is for testing and does not use real tokens, mainnet is the live network with real tokens",
+      "Mainnet is used only by developers",
+      "Testnet transactions cannot be reversed",
+      "There is no difference"
+    ],
+    "answer": "Testnet is for testing and does not use real tokens, mainnet is the live network with real tokens",
+    "explanation": "Testnets help developers try out features safely. Mainnets are where real blockchain transactions and value exist:contentReference[oaicite:1]{index=1}."
+  },
+  {
+    "id": 3,
+    "question": "Why is it important to define a problem in a blockchain project?",
+    "choices": [
+      "To create a logo",
+      "To build a community",
+      "To show why the project is needed",
+      "To increase token price"
+    ],
+    "answer": "To show why the project is needed",
+    "explanation": "Defining a real-world problem helps others understand the purpose of the blockchain and why it matters:contentReference[oaicite:2]{index=2}."
+  },
+  {
+    "id": 4,
+    "question": "Which of these is part of 'tokenomics'?",
+    "choices": [
+      "Community rules",
+      "Token supply and use",
+      "Roadmap milestones",
+      "Legal documents"
+    ],
+    "answer": "Token supply and use",
+    "explanation": "Tokenomics includes how many tokens exist, what they are used for, and how they are distributed:contentReference[oaicite:3]{index=3}."
+  },
+  {
+    "id": 5,
+    "question": "What happens in the DAO Control Transfer phase?",
+    "choices": [
+      "Tokens are listed on exchanges",
+      "The team changes the whitepaper",
+      "Control is given to the community through a DAO",
+      "New marketing videos are launched"
+    ],
+    "answer": "Control is given to the community through a DAO",
+    "explanation": "The DAO phase allows users to vote and help decide the future of the project, making it more decentralized:contentReference[oaicite:4]{index=4}."
+  },
+  {
+    "id": 6,
+    "question": "What is the first step in building your own blockchain?",
+    "choices": [
+      "Write smart contracts",
+      "Launch on Ethereum",
+      "Define the vision",
+      "Hire developers"
+    ],
+    "answer": "Define the vision",
+    "explanation": "The vision explains what your blockchain does and what problem it solves. It sets the direction for the project:contentReference[oaicite:5]{index=5}."
+  },
+  {
+    "id": 7,
+    "question": "What is a smart contract audit?",
+    "choices": [
+      "A review of team salaries",
+      "A test of the token supply",
+      "A security check of blockchain code",
+      "A marketing strategy"
+    ],
+    "answer": "A security check of blockchain code",
+    "explanation": "Smart contract audits help find bugs or security risks in the code before it goes live on the mainnet:contentReference[oaicite:6]{index=6}."
+  },
+  {
+    "id": 8,
+    "question": "Why are bug bounty programs useful?",
+    "choices": [
+      "They increase the token price",
+      "They reward users for finding bugs",
+      "They remove voting rights",
+      "They list the token on exchanges"
+    ],
+    "answer": "They reward users for finding bugs",
+    "explanation": "Bug bounty programs give rewards to developers who help discover and fix issues, making the project safer:contentReference[oaicite:7]{index=7}."
+  },
+  {
+    "id": 9,
+    "question": "Which phase includes the Token Generation Event (TGE)?",
+    "choices": [
+      "Foundation",
+      "Prototype",
+      "Launch",
+      "Maturity"
+    ],
+    "answer": "Launch",
+    "explanation": "The Token Generation Event (TGE), where tokens are created and distributed, happens during the Launch phase:contentReference[oaicite:8]{index=8}."
+  },
+  {
+    "id": 10,
+    "question": "What is the goal of a fundraising strategy in a blockchain project?",
+    "choices": [
+      "To design the user interface",
+      "To pay community moderators",
+      "To raise money for development",
+      "To write code for wallets"
+    ],
+    "answer": "To raise money for development",
+    "explanation": "A fundraising strategy plans how the project will collect money (e.g., through token sales) and how it will be used:contentReference[oaicite:9]{index=9}."
+  }
 ]
     }
