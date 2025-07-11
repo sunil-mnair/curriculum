@@ -7983,53 +7983,81 @@
     "explanation": "An epoch is when an AI goes through all the training data once. It usually repeats this many times to get better results."
   }
 ],
-"OK Events":[
-    {
+"ByteSize Training and Consulting":[
+  {
     "id": 1,
-    "question": "How old is OK?",
-    "choices": ["10 years", "15 years", "5 years", "1 year"],
-    "answer": "15 years",
-    "explanation": ""
+    "question": "What does ByteSize specialize in?",
+    "choices": [
+      "Selling office software",
+      "Corporate digital training and upskilling",
+      "Recruitment for tech roles",
+      "Cloud hardware installations"
+    ],
+    "answer": "Corporate digital training and upskilling",
+    "explanation": "ByteSize provides hands-on, gamified digital training programs for professionals and teams across industries."
   },
   {
     "id": 2,
-    "question": "What does OK do?",
+    "question": "Which of the following client pain points is a strong referral cue for ByteSize?",
     "choices": [
-      "Rent camels with Wi-Fi",
-      "Supply backup relatives for Big Fat Indian weddings",
-      "Actually... they build jaw-dropping exhibition stands",
-      "Teach toddlers how to close deals"
+      "Too many vacation requests",
+      "Slow cafeteria service",
+      "Teams struggling with messy data and disconnected systems",
+      "Outdated office furniture"
     ],
-    "answer": "Actually... they build jaw-dropping exhibition stands",
-    "explanation": ""
+    "answer": "Teams struggling with messy data and disconnected systems",
+    "explanation": "ByteSize helps companies resolve issues like messy data, disconnected tools, and lack of reporting dashboards."
   },
   {
     "id": 3,
-    "question": "What over the top visions did we bring to life?",
+    "question": "What industries has ByteSize successfully worked with?",
     "choices": [
-      "7 colors of sands from 7 emirates",
-      "Alula mountain inspired lounge",
-      "Amphitheatre inspired talk show stage",
-      "All of the above"
+      "Only tech startups",
+      "Primarily education institutes",
+      "110+ companies across sectors including banking, government, and telecom",
+      "Freelancers and solopreneurs only"
     ],
-    "answer": "All of the above",
-    "explanation": ""
+    "answer": "110+ companies across sectors including banking, government, and telecom",
+    "explanation": "ByteSize has served a wide range of industries, demonstrating adaptability and broad relevance."
   },
   {
     "id": 4,
-    "question": "Today, what is my Specific Ask?",
-    "choices": ["Informa Events", "Messe Frankfurt", "Capital 360 events", "DMG Events"],
-    "answer": "Capital 360 events",
-    "explanation": ""
+    "question": "Which of these is an example of how you could introduce ByteSize to a contact?",
+    "choices": [
+      "‘Do you want a new website?’",
+      "‘Have you considered training your team to better use Microsoft 365 or AI tools?’",
+      "‘Do you need help hiring?’",
+      "‘Are you looking for graphic design services?’"
+    ],
+    "answer": "‘Have you considered training your team to better use Microsoft 365 or AI tools?’",
+    "explanation": "That question directly relates to ByteSize’s core services and opens a natural referral opportunity."
   },
   {
     "id": 5,
-    "question": "What was my Specific Ask last year?",
-    "choices": ["Informa events", "Messe Frankfurt", "Capital Events", "DMG Events"],
-    "answer": "DMG Events",
-    "explanation": ""
+    "question": "If you meet someone frustrated with manual reports and Excel struggles, what ByteSize service should you mention?",
+    "choices": [
+      "Blockchain Development",
+      "AI Prompt Engineering",
+      "Office Productivity & Automation",
+      "FinTech Compliance"
+    ],
+    "answer": "Office Productivity & Automation",
+    "explanation": "This service helps eliminate repetitive tasks and improve efficiency through tools like Excel, Power Automate, and Power Apps."
+  },
+  {
+    "id": 6,
+    "question": "How can BNI members best support ByteSize through referrals?",
+    "choices": [
+      "Only refer companies with over 1,000 employees",
+      "Wait for people to ask about training",
+      "Actively listen for mentions of digital frustration or underutilized tools",
+      "Only refer if they ask for gamification"
+    ],
+    "answer": "Actively listen for mentions of digital frustration or underutilized tools",
+    "explanation": "Great referral opportunities arise when a contact expresses confusion or inefficiency in using digital tools or data."
   }
-],
+]
+,
 "PL 500":[
   {
     "id": 1,
