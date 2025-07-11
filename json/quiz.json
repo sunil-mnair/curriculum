@@ -7986,15 +7986,15 @@
 "ByteSize Training and Consulting":[
   {
     "id": 1,
-    "question": "What does ByteSize specialize in?",
+    "question": "What does ByteSize Training specialize in?",
     "choices": [
       "Selling office software",
-      "Corporate digital training and upskilling",
+      "Corporate IT training and upskilling",
       "Recruitment for tech roles",
       "Cloud hardware installations"
     ],
-    "answer": "Corporate digital training and upskilling",
-    "explanation": "ByteSize provides hands-on, gamified digital training programs for professionals and teams across industries."
+    "answer": "Corporate IT training and upskilling",
+    "explanation": "ByteSize provides hands-on, gamified IT training programs for professionals and teams across industries."
   },
   {
     "id": 2,
@@ -8024,10 +8024,10 @@
     "id": 4,
     "question": "Which of these is an example of how you could introduce ByteSize to a contact?",
     "choices": [
-      "‘Do you want a new website?’",
-      "‘Have you considered training your team to better use Microsoft 365 or AI tools?’",
-      "‘Do you need help hiring?’",
-      "‘Are you looking for graphic design services?’"
+      "Do you want a new website?",
+      "Have you considered training your team to better use Microsoft 365 or AI tools?",
+      "Do you need help hiring?",
+      "Are you looking for graphic design services?"
     ],
     "answer": "‘Have you considered training your team to better use Microsoft 365 or AI tools?’",
     "explanation": "That question directly relates to ByteSize’s core services and opens a natural referral opportunity."
