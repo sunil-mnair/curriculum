@@ -2138,117 +2138,117 @@
 
     ],
   "Microsoft Power BI": [
-    {
-      "id": 1,
-      "question": "What kinds of data can Power BI connect to?",
-      "choices": [
-        "Only online data",
-        "Only data on your computer",
-        "Both online and computer data"
-      ],
-      "answer": "Both online and computer data",
-      "explanation": "Power BI can connect to both cloud-based and local data sources."
-    },
-    {
-      "id": 2,
-      "question": "You want to build a report to track monthly sales. Which view should you use to create charts?",
-      "choices": [
-        "Model View",
-        "Report View",
-        "Table View"
-      ],
-      "answer": "Report View",
-      "explanation": "Report View is used to create and design visual reports and charts."
-    },
-    {
-      "id": 3,
-      "question": "You want to filter a report so it only shows data for 'Product A'. What should you use?",
-      "choices": [
-        "A slicer",
-        "A line chart",
-        "A table view"
-      ],
-      "answer": "A slicer",
-      "explanation": "Slicers are used to filter data in reports easily by clicking values like product names."
-    },
-    {
-      "id": 4,
-      "question": "Which chart is best for showing how sales have changed over the past year?",
-      "choices": [
-        "Line Chart",
-        "Pie Chart",
-        "Column Chart"
-      ],
-      "answer": "Line Chart",
-      "explanation": "Line charts are great for showing trends over time, like monthly or yearly changes."
-    },
-    {
-      "id": 5,
-      "question": "You hover over a bar in your chart and see more details appear. What is this feature called?",
-      "choices": [
-        "Legend",
-        "Tooltip",
-        "Axis title"
-      ],
-      "answer": "Tooltip",
-      "explanation": "Tooltips show extra details when you move your mouse over a chart element."
-    },
-    {
-      "id": 6,
-      "question": "You are viewing raw data in Power BI. Which view are you likely using?",
-      "choices": [
-        "Model View",
-        "Table View",
-        "Report View"
-      ],
-      "answer": "Table View",
-      "explanation": "Table View allows users to inspect the actual data rows loaded into Power BI."
-    },
-    {
-      "id": 7,
-      "question": "You want to see how different tables in your data model are linked together. What should you open?",
-      "choices": [
-        "Report View",
-        "Model View",
-        "Data View"
-      ],
-      "answer": "Model View",
-      "explanation": "Model View shows the relationships (connections) between your data tables."
-    },
-    {
-      "id": 8,
-      "question": "You saved your Power BI work to share with a teammate. What file type did you save?",
-      "choices": [
-        ".xlsx",
-        ".pbix",
-        ".pptx"
-      ],
-      "answer": ".pbix",
-      "explanation": ".pbix is the standard file format used by Power BI Desktop."
-    },
-    {
-      "id": 9,
-      "question": "You need to compare sales by region and want to show this clearly. Which visual should you use?",
-      "choices": [
-        "Pie Chart",
-        "Bar Chart",
-        "Line Chart"
-      ],
-      "answer": "Bar Chart",
-      "explanation": "Bar charts are great for comparing values across categories, like regions."
-    },
-    {
-      "id": 10,
-      "question": "Your manager wants to interact with a report to choose different years. What feature would help?",
-      "choices": [
-        "Visual header",
-        "Slicer",
-        "Legend"
-      ],
-      "answer": "Slicer",
-      "explanation": "Slicers let users choose filters like year, category, or product directly in a report."
-    }
-  ]
+  {
+    "id": 1,
+    "question": "A retail company wants to combine sales data from its point-of-sale system and Excel reports. Which Power BI feature enables this integration?",
+    "choices": [
+      "Only supports Excel files",
+      "Can connect to both point-of-sale and Excel data sources",
+      "Only connects to cloud data sources"
+    ],
+    "answer": "Can connect to both point-of-sale and Excel data sources",
+    "explanation": "Power BI can connect to multiple data sources, including Excel files and on-premise systems like point-of-sale systems, enabling comprehensive data analysis."
+  },
+  {
+    "id": 2,
+    "question": "A sales analyst wants to visualize monthly revenue trends. In Power BI, which view should be used to create such visualizations?",
+    "choices": [
+      "Model View",
+      "Report View",
+      "Data View"
+    ],
+    "answer": "Report View",
+    "explanation": "Report View is used to design interactive reports with charts and visuals that display insights like monthly revenue trends."
+  },
+  {
+    "id": 3,
+    "question": "You are building a report to compare the performance of different product categories. How can users select a specific category to view relevant data?",
+    "choices": [
+      "Add a slicer for category",
+      "Use a clustered bar chart",
+      "Hide the other categories manually"
+    ],
+    "answer": "Add a slicer for category",
+    "explanation": "Slicers allow users to filter report data interactively by selecting specific values such as product categories."
+  },
+  {
+    "id": 4,
+    "question": "A manager wants to track how monthly sales have changed over the last year. Which visual is best suited for this analysis?",
+    "choices": [
+      "Pie Chart",
+      "Line Chart",
+      "Stacked Column Chart"
+    ],
+    "answer": "Line Chart",
+    "explanation": "Line charts are best for visualizing changes and trends over time, such as monthly sales performance."
+  },
+  {
+    "id": 5,
+    "question": "When viewing a chart in Power BI, you hover over a point and see transaction details appear. What is this feature called?",
+    "choices": [
+      "Tooltip",
+      "Legend",
+      "Axis label"
+    ],
+    "answer": "Tooltip",
+    "explanation": "Tooltips display additional details when the user hovers over elements in a visual, offering deeper insights."
+  },
+  {
+    "id": 6,
+    "question": "You need to verify imported data records in Power BI. Which view should you use to inspect the raw data?",
+    "choices": [
+      "Model View",
+      "Data View",
+      "Report View"
+    ],
+    "answer": "Data View",
+    "explanation": "Data View allows users to examine the actual rows of data that have been loaded into the Power BI model."
+  },
+  {
+    "id": 7,
+    "question": "You want to verify how the sales table is related to the product table in your Power BI data model. Which view should you use?",
+    "choices": [
+      "Data View",
+      "Model View",
+      "Report View"
+    ],
+    "answer": "Model View",
+    "explanation": "Model View shows how tables are connected through relationships, which is essential for creating a functional data model."
+  },
+  {
+    "id": 8,
+    "question": "You have completed a performance dashboard and want to share it with a colleague. Which file format should you use to save it from Power BI Desktop?",
+    "choices": [
+      ".xlsx",
+      ".pbix",
+      ".pdf"
+    ],
+    "answer": ".pbix",
+    "explanation": ".pbix is the native file format for Power BI Desktop that contains reports, data, and visualizations."
+  },
+  {
+    "id": 9,
+    "question": "You need to compare sales performance across different regions. Which type of chart is most appropriate?",
+    "choices": [
+      "Pie Chart",
+      "Bar Chart",
+      "Line Chart"
+    ],
+    "answer": "Bar Chart",
+    "explanation": "Bar charts are ideal for comparing values across categories such as geographical regions or departments."
+  },
+  {
+    "id": 10,
+    "question": "An operations manager wants to switch between different years of data while viewing a report. What feature should be added to the dashboard?",
+    "choices": [
+      "Legend",
+      "Slicer for Year",
+      "Chart Title"
+    ],
+    "answer": "Slicer for Year",
+    "explanation": "A slicer for Year allows users to dynamically filter the report based on the selected time period."
+  }
+]
 ,
     "Microsoft Power BI - Step 1":
         [
