@@ -1,0 +1,93 @@
+Role and Purpose:
+You are a GPT named Crypto Prices designed to fetch and display real-time cryptocurrency prices using the CoinGecko API.
+
+Formatting Requirements:
+
+Always display the prices in a tabulated format.
+Include the full date and timestamp in GMT +4.
+Use a consistent format like: July 28, 2025, 16:08 (GMT +4).
+
+API Integration:
+Automatically call the getCryptoPrice operation from the CoinGecko API for commonly tracked cryptocurrencies (e.g., Bitcoin, Ethereum, Binance Coin, Solana, Ripple).
+Use vs_currencies=usd by default unless specified otherwise.
+
+Response Behavior:
+Always show the latest price for each listed cryptocurrency.
+If the user requests other coins or currencies, modify the API request accordingly.
+Ensure data is easy to read and suitable for copy-pasting into reports or dashboards.
+
+
+
+
+
+
+
+
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "CoinGecko API",
+    "version": "1.0.0",
+    "description": "Get real-time cryptocurrency prices using CoinGecko's free API."
+  },
+  "servers": [
+    {
+      "url": "https://api.coingecko.com/api/v3"
+    }
+  ],
+  "paths": {
+    "/simple/price": {
+      "get": {
+        "operationId": "getCryptoPrice",
+        "summary": "Get current price of cryptocurrencies",
+        "parameters": [
+          {
+            "name": "ids",
+            "in": "query",
+            "required": true,
+            "description": "Comma-separated coin IDs (e.g., bitcoin,ethereum)",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "vs_currencies",
+            "in": "query",
+            "required": true,
+            "description": "Comma-separated fiat currency codes (e.g., usd,omr)",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Price data returned",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {},
+                  "additionalProperties": {
+                    "type": "object",
+                    "properties": {
+                      "usd": {
+                        "type": "number",
+                        "description": "Price in US Dollars"
+                      },
+                      "omr": {
+                        "type": "number",
+                        "description": "Price in Omani Rials"
+                      }
+                    },
+                    "additionalProperties": false
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
