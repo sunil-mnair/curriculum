@@ -1,5 +1,5 @@
 {
-  "Microsoft Power BI":{
+  "Microsoft Power BI":[{
     "id": 1,
     "question": "Take a moment to reflect on how you feel about Power BI as of now",
     "choices": [
@@ -8,7 +8,7 @@
       "Hesitant or Overwhelmed (Needs Support, Processing Doubt)",
       "Disengaged or Disconnected (Skeptical, Uninterested)"
     ]
-  },
+}],
   "Microsoft Power BI Old": [
     {
       "id": 1,
