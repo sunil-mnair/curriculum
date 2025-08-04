@@ -1,5 +1,6 @@
 {
-  "Microsoft Power BI":[{
+  "Microsoft Power BI":[
+    {
     "id": 1,
     "question": "Take a moment to reflect on how you feel about Power BI as of now",
     "choices": [
@@ -7,7 +8,8 @@
       "Cautiously Optimistic (Curious, Observing, Processing)",
       "Hesitant or Overwhelmed (Needs Support, Processing Doubt)",
       "Disengaged or Disconnected (Skeptical, Uninterested)"
-    ]
+    ],
+    "image": null
 }],
   "Microsoft Power BI Old": [
     {
@@ -405,7 +407,7 @@
       ]
   }
 ],
-"Generative AI for Business":[
+"Generative AI for Business Old":[
   {
     "id": 1,
     "question": "Take a moment to reflect on how you feel about AI after our 3-day program",
@@ -417,7 +419,7 @@
     ]
   }
 ],
-"Generative AI for Business - Old":[
+"Generative AI for Business":[
   {
     "id": 1,
     "question": "How familiar are you with the concepts of Artificial Intelligence (AI), Machine Learning (ML), and Deep Learning (DL)?",
