@@ -2138,117 +2138,117 @@
 
     ],
   "Microsoft Power BI": [
-  {
-    "id": 1,
-    "question": "A retail company wants to combine sales data from its point-of-sale system and Excel reports. Which Power BI feature enables this integration?",
-    "choices": [
-      "Only supports Excel files",
-      "Can connect to both point-of-sale and Excel data sources",
-      "Only connects to cloud data sources"
-    ],
-    "answer": "Can connect to both point-of-sale and Excel data sources",
-    "explanation": "Power BI can connect to multiple data sources, including Excel files and on-premise systems like point-of-sale systems, enabling comprehensive data analysis."
-  },
-  {
-    "id": 2,
-    "question": "A sales analyst wants to visualize monthly revenue trends. In Power BI, which view should be used to create such visualizations?",
-    "choices": [
-      "Model View",
-      "Report View",
-      "Data View"
-    ],
-    "answer": "Report View",
-    "explanation": "Report View is used to design interactive reports with charts and visuals that display insights like monthly revenue trends."
-  },
-  {
-    "id": 3,
-    "question": "You are building a report to compare the performance of different product categories. How can users select a specific category to view relevant data?",
-    "choices": [
-      "Add a slicer for category",
-      "Use a clustered bar chart",
-      "Hide the other categories manually"
-    ],
-    "answer": "Add a slicer for category",
-    "explanation": "Slicers allow users to filter report data interactively by selecting specific values such as product categories."
-  },
-  {
-    "id": 4,
-    "question": "A manager wants to track how monthly sales have changed over the last year. Which visual is best suited for this analysis?",
-    "choices": [
-      "Pie Chart",
-      "Line Chart",
-      "Stacked Column Chart"
-    ],
-    "answer": "Line Chart",
-    "explanation": "Line charts are best for visualizing changes and trends over time, such as monthly sales performance."
-  },
-  {
-    "id": 5,
-    "question": "When viewing a chart in Power BI, you hover over a point and see transaction details appear. What is this feature called?",
-    "choices": [
-      "Tooltip",
-      "Legend",
-      "Axis label"
-    ],
-    "answer": "Tooltip",
-    "explanation": "Tooltips display additional details when the user hovers over elements in a visual, offering deeper insights."
-  },
-  {
-    "id": 6,
-    "question": "You need to verify imported data records in Power BI. Which view should you use to inspect the raw data?",
-    "choices": [
-      "Model View",
-      "Data View",
-      "Report View"
-    ],
-    "answer": "Data View",
-    "explanation": "Data View allows users to examine the actual rows of data that have been loaded into the Power BI model."
-  },
-  {
-    "id": 7,
-    "question": "You want to verify how the sales table is related to the product table in your Power BI data model. Which view should you use?",
-    "choices": [
-      "Data View",
-      "Model View",
-      "Report View"
-    ],
-    "answer": "Model View",
-    "explanation": "Model View shows how tables are connected through relationships, which is essential for creating a functional data model."
-  },
-  {
-    "id": 8,
-    "question": "You have completed a performance dashboard and want to share it with a colleague. Which file format should you use to save it from Power BI Desktop?",
-    "choices": [
-      ".xlsx",
-      ".pbix",
-      ".pdf"
-    ],
-    "answer": ".pbix",
-    "explanation": ".pbix is the native file format for Power BI Desktop that contains reports, data, and visualizations."
-  },
-  {
-    "id": 9,
-    "question": "You need to compare sales performance across different regions. Which type of chart is most appropriate?",
-    "choices": [
-      "Pie Chart",
-      "Bar Chart",
-      "Line Chart"
-    ],
-    "answer": "Bar Chart",
-    "explanation": "Bar charts are ideal for comparing values across categories such as geographical regions or departments."
-  },
-  {
-    "id": 10,
-    "question": "An operations manager wants to switch between different years of data while viewing a report. What feature should be added to the dashboard?",
-    "choices": [
-      "Legend",
-      "Slicer for Year",
-      "Chart Title"
-    ],
-    "answer": "Slicer for Year",
-    "explanation": "A slicer for Year allows users to dynamically filter the report based on the selected time period."
-  }
-]
+    {
+      "id": 1,
+      "question": "Which Power BI capability allows integration of transactional data from an ERP system and spreadsheet-based forecasts?",
+      "choices": [
+        "Only supports spreadsheet inputs",
+        "Can connect to ERP systems and Excel files",
+        "Only works with Power BI Service data sources"
+      ],
+      "answer": "Can connect to ERP systems and Excel files",
+      "explanation": "Power BI supports a wide range of data connectors, enabling the combination of on-premise systems like ERP and file-based data such as Excel."
+    },
+    {
+      "id": 2,
+      "question": "Which Power BI view should be used to design visuals for a quarterly sales summary report?",
+      "choices": [
+        "Model View",
+        "Report View",
+        "Data View"
+      ],
+      "answer": "Report View",
+      "explanation": "Report View is used to build and customize interactive visualizations, including summaries like quarterly sales charts."
+    },
+    {
+      "id": 3,
+      "question": "How can users interactively filter report visuals by selecting a product brand in Power BI?",
+      "choices": [
+        "Add a slicer for brand",
+        "Apply a visual level filter",
+        "Use a pie chart"
+      ],
+      "answer": "Add a slicer for brand",
+      "explanation": "Slicers enable users to filter dashboards by categorical fields such as brand or category, enhancing interactivity."
+    },
+    {
+      "id": 4,
+      "question": "Which type of chart should be used to observe fluctuations in weekly website visits over time?",
+      "choices": [
+        "Pie Chart",
+        "Line Chart",
+        "Stacked Bar Chart"
+      ],
+      "answer": "Line Chart",
+      "explanation": "Line charts are optimal for showing temporal trends, such as weekly patterns or seasonal changes in metrics."
+    },
+    {
+      "id": 5,
+      "question": "What Power BI feature provides detailed information when hovering over a specific point on a visual?",
+      "choices": [
+        "Tooltip",
+        "Data label",
+        "Axis title"
+      ],
+      "answer": "Tooltip",
+      "explanation": "Tooltips offer additional insights when hovering over visual elements, showing relevant data for that point."
+    },
+    {
+      "id": 6,
+      "question": "Which view in Power BI is used to inspect the underlying tabular data after it's loaded into the model?",
+      "choices": [
+        "Model View",
+        "Data View",
+        "Visualization Pane"
+      ],
+      "answer": "Data View",
+      "explanation": "Data View allows users to view individual rows and columns of imported data, useful for validation and formula checks."
+    },
+    {
+      "id": 7,
+      "question": "Which view allows you to examine and manage relationships between tables in Power BI?",
+      "choices": [
+        "Data View",
+        "Model View",
+        "Fields Pane"
+      ],
+      "answer": "Model View",
+      "explanation": "Model View shows entity relationships and enables management of table joins and cardinality settings for accurate data modeling."
+    },
+    {
+      "id": 8,
+      "question": "After finalizing a dashboard in Power BI Desktop, which file format should be used to save and share it?",
+      "choices": [
+        ".csv",
+        ".pbix",
+        ".docx"
+      ],
+      "answer": ".pbix",
+      "explanation": ".pbix files are the default Power BI Desktop format, encapsulating visuals, data, and queries in a single package."
+    },
+    {
+      "id": 9,
+      "question": "To compare revenue across several departments side-by-side, which visualization should be used?",
+      "choices": [
+        "Pie Chart",
+        "Bar Chart",
+        "Line Chart"
+      ],
+      "answer": "Bar Chart",
+      "explanation": "Bar charts are best suited for comparing discrete categories like departments or regions in a visual, side-by-side format."
+    },
+    {
+      "id": 10,
+      "question": "What Power BI element allows users to dynamically choose between different fiscal years in a report?",
+      "choices": [
+        "Legend",
+        "Slicer for Year",
+        "Axis Title"
+      ],
+      "answer": "Slicer for Year",
+      "explanation": "A slicer for Year enables dynamic filtering of visuals based on the selected year, improving time-based analysis."
+    }
+  ]
 ,
     "Microsoft Power BI - Step 1":
         [
@@ -7891,7 +7891,7 @@
       "explanation": "Prompt templates guide users in structuring their queries, improving consistency and the quality of AI-generated outputs."
     }
   ],
-  "Generative AI for Business":[
+  "Generative AI for Business Old":[
   {
     "id": 1,
     "question": "A machine in the factory improves its work by learning from past tasks. What is this called?",
@@ -7981,6 +7981,20 @@
     "choices": ["Looping", "Guessing", "Epoch", "Repeat Cycle"],
     "answer": "Epoch",
     "explanation": "An epoch is when an AI goes through all the training data once. It usually repeats this many times to get better results."
+  }
+],
+"Generative AI for Business":[
+  {
+    "id": 1,
+    "question": "Take a moment to reflect on how you feel about AI after our 3-day program",
+    "choices": [
+      "Positively Engaged (Confident, Curious, Uplifted)",
+      "Cautiously Optimistic (Curious, Observing, Processing)",
+      "Hesitant or Overwhelmed (Needs Support, Processing Doubt)",
+      "Disengaged or Disconnected (Skeptical, Uninterested)"
+    ],
+    "answer": "Corporate IT training and upskilling",
+    "explanation": "ByteSize provides hands-on, gamified IT training programs for professionals and teams across industries."
   }
 ],
 "ByteSize Training and Consulting":[
