@@ -1836,139 +1836,116 @@
         }
 
     ]
-    ,"Data Consolidation and Analysis using MS Excel - Advanced":
+    ,"Data Consolidation and Analysis using MS Excel":
     [
-      {
-          "id": 1,
-          "question": "Which formula will help extract the numbers with the current Number format in Excel?",
-          "image": "excel_substitute_value.png",
-          "choices": [
-              "=SUBSTITUTE(A2,'USD','')",
-              "=VALUE(SUBSTITUTE(A2,'USD',''))",
-              "=LEFT(A2,3)",
-              "None of the above"
-          ],
-          "answer": "=VALUE(SUBSTITUTE(A2,'USD',''))",
-          "explanation": "The VALUE function converts text to a number, and SUBSTITUTE removes 'USD'."
-      },
-      {
-          "id": 2,
-          "question": "In this image, which formula is to be used to display the text Waffles: bunny?",
-          "image": "excel_concatenate.png",
-          "choices": [
-              "=CONCATENATE(A2, ': ', B2)",
-              "=COMBINE(A2, B2)",
-              "=CONCATENATE(A2:B2)",
-              "=COMBINE(A:B)"
-          ],
-          "answer": "=CONCATENATE(A2, ': ', B2)",
-          "explanation": "CONCATENATE joins two or more text strings into one string."
-      },
-      {
-          "id": 3,
-          "question": "If the word 'alphabet' is in cell A1, what does the function =MID(A1,3,4) display?",
-          "image": "",
-          "choices": [
-              "phab",
-              "hab",
-              "bet",
-              "abet"
-          ],
-          "answer": "phab",
-          "explanation": "MID returns a specific substring from a text string, starting at the position specified and continuing for the number of characters specified."
-      },
-      {
-          "id": 4,
-          "question": "Result of the formula =TRIM(' Question Six ')?",
-          "image": "",
-          "choices": [
-              "Question Six",
-              "Question Si",
-              "Question-Six",
-              "An error will be displayed"
-          ],
-          "answer": "Question Six",
-          "explanation": "TRIM removes all spaces from a text string except for single spaces between words."
-      },
-      {
-          "id": 5,
-          "question": "Formula that can be used to calculate the average of the values in cells A1 to A10?",
-          "image": "",
-          "choices": [
-              "=SUM(A1:A10)/10",
-              "=AVG(A1:A10)",
-              "=AVERAGE(A1:A10)",
-              "=MEAN(A1:A10)"
-          ],
-          "answer": "=AVERAGE(A1:A10)",
-          "explanation": "The AVERAGE function calculates the arithmetic mean of a range of cells."
-      },
-      {
-          "id": 6,
-          "question": "Which formula can be used to find the largest value in the range B1:B10?",
-          "image": "",
-          "choices": [
-              "=MAXIMUM(B1:B10)",
-              "=LARGE(B1:B10)",
-              "=MAX(B1:B10)",
-              "=BIGGEST(B1:B10)"
-          ],
-          "answer": "=MAX(B1:B10)",
-          "explanation": "The MAX function returns the largest value in a specified range of cells."
-      },
-      {
-          "id": 7,
-          "question": "Which function can be used to count the number of numeric values in a range?",
-          "image": "",
-          "choices": [
-              "=COUNTIF(A1:A10, '>0')",
-              "=COUNTA(A1:A10)",
-              "=COUNT(A1:A10)",
-              "=COUNTNUM(A1:A10)"
-          ],
-          "answer": "=COUNT(A1:A10)",
-          "explanation": "The COUNT function counts the number of numeric values in a specified range of cells."
-      },
-      {
-        "id": 8,
-        "question": "In a cell, the text '123-45-6789' needs to be converted to '123456789'. Which function will help achieve this?",
-        "choices": [
-          "TRIM",
-          "SUBSTITUTE",
-          "CONCATENATE",
-          "TEXT"
-        ],
-        "answer": "SUBSTITUTE",
-        "explanation": "The SUBSTITUTE function replaces occurrences of a specified text string within a cell, making it ideal for removing the hyphens from '123-45-6789'."
-      },
-      {
-          "id": 9,
-          "question": "Which function can be used to convert text to uppercase?",
-          "image": "",
-          "choices": [
-              "=UPPERCASE(A1)",
-              "=UPPER(A1)",
-              "=TEXTUP(A1)",
-              "=CAPITALIZE(A1)"
-          ],
-          "answer": "=UPPER(A1)",
-          "explanation": "The UPPER function converts all letters in the specified text string to uppercase."
-      },{
-        "id": 10,
-        "question": "Which of these formulas will help extract the correct ID's AZ5001 and BZ5002?",
-        "image": "excel_find_mid.png",
-        "choices": [
-            "=TRIM(MID(B4,FIND(' ',B4,1),6))",
-            "=MID(B4,FIND(' ',B4,1)+1,6)",
-            "Either of the above",
-            "None of the above"
-        ],
-        "answer": "Either of the above",
-        "explanation": "Both formulas are capable of extracting the specified IDs from a string."
-    }
-  ]
+  {
+    "id": 1,
+    "question": "When using 'Text to Columns' in Excel, which delimiter should be chosen to split data such as 'BDCQ.SEA1AA,2011.06,80078,...'?",
+    "choices": ["Tab", "Comma", "Semicolon", "Space"],
+    "answer": "Comma",
+    "explanation": "The given data is separated by commas, so the 'Comma' delimiter is used to split it into separate columns."
+  },
+  {
+    "id": 2,
+    "question": "In custom number formatting, what would the format code '#,,\"M\"' display for the value 34,567,812?",
+    "choices": ["34.57M", "35M", "3,456.78M", "34,567.81M"],
+    "answer": "35M",
+    "explanation": "The '#,,\"M\"' format divides the number by 1,000,000 and displays no decimals, so 34,567,812 becomes 35M."
+  },
+  {
+    "id": 3,
+    "question": "Why is it recommended to format numbers to show thousands (K) instead of storing pre-scaled values?",
+    "choices": [
+      "It saves memory space",
+      "It prevents loss of original data values",
+      "It makes files open faster",
+      "It avoids changing Excel's default calculation settings"
+    ],
+    "answer": "It prevents loss of original data values",
+    "explanation": "Formatting keeps the full original values intact, allowing for accurate calculations and avoiding permanent scaling."
+  },
+  {
+    "id": 4,
+    "question": "Which feature allows you to extract a first name from a full name by typing one example and applying it down a column?",
+    "choices": ["AutoFill", "Flash Fill", "Text to Columns", "Filter"],
+    "answer": "Flash Fill",
+    "explanation": "Flash Fill detects patterns from an example and fills the rest of the column accordingly, such as extracting first names."
+  },
+  {
+    "id": 5,
+    "question": "In Data Validation for dynamic drop-downs, what happens when a new course is added to the source range?",
+    "choices": [
+      "The drop-down list remains unchanged",
+      "The drop-down list updates automatically",
+      "The drop-down list needs to be recreated",
+      "Excel prompts to refresh the list"
+    ],
+    "answer": "The drop-down list updates automatically",
+    "explanation": "By referencing the source range directly, any new item added to it appears in the drop-down without manual updates."
+  },
+  {
+    "id": 6,
+    "question": "In the formula '=B4*(1+$C$2)', what does the dollar sign in '$C$2' do?",
+    "choices": [
+      "Locks only the column",
+      "Locks only the row",
+      "Locks both the column and row",
+      "Has no effect in this formula"
+    ],
+    "answer": "Locks both the column and row",
+    "explanation": "An absolute reference ($C$2) keeps both the column (C) and the row (2) fixed when the formula is copied."
+  },
+  {
+    "id": 7,
+    "question": "Which of the following is NOT a benefit of converting data into an Excel Table?",
+    "choices": [
+      "Automatic formatting and visible headers",
+      "Automatic expansion when new data is added",
+      "Ability to merge cells within the table",
+      "Enforced unique column names"
+    ],
+    "answer": "Ability to merge cells within the table",
+    "explanation": "Merging cells is not allowed in Excel Tables, as it can disrupt data structure and automation."
+  },
+  {
+    "id": 8,
+    "question": "Using the table 'Orders', which formula would correctly count the total number of rows?",
+    "choices": [
+      "=COUNT(Orders)",
+      "=ROWS(Orders)",
+      "=COUNTROWS(Orders)",
+      "=COUNTA(Orders)"
+    ],
+    "answer": "=ROWS(Orders)",
+    "explanation": "The ROWS function returns the number of rows in a range or table, so '=ROWS(Orders)' counts all rows in the 'Orders' table."
+  },
+  {
+    "id": 9,
+    "question": "Where can you rename a table directly in Excel?",
+    "choices": [
+      "In the Data Validation dialog box",
+      "In the Table Design tab",
+      "In the Name Manager",
+      "In the Format Cells dialog"
+    ],
+    "answer": "In the Name Manager",
+    "explanation": "The Name Manager lists all named ranges and tables, allowing direct renaming of tables."
+  },
+  {
+    "id": 10,
+    "question": "Which of the following is considered a best practice in Excel?",
+    "choices": [
+      "Merge cells inside a table",
+      "Use descriptive table names",
+      "Manually scale stored values",
+      "Use duplicate column headers"
+    ],
+    "answer": "Use descriptive table names",
+    "explanation": "Descriptive table names improve clarity and make formulas easier to read and maintain."
+  }
+]
   ,
-    "Data Consolidation and Analysis using Excel - Old":
+    "Data Consolidation and Analysis using MS Excel -Old":
         [
             {
             "id": 1,
