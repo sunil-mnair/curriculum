@@ -1837,79 +1837,79 @@
 
     ]
     ,"Data Consolidation and Analysis using MS Excel":
-    [
+   [
   {
     "id": 1,
-    "question": "When using 'Text to Columns' in Excel, which delimiter should be chosen to split data such as 'BDCQ.SEA1AA,2011.06,80078,...'?",
-    "choices": ["Tab", "Comma", "Semicolon", "Space"],
+    "question": "If your data looks like 'John Smith,London,35', which 'Text to Columns' setting will split it into separate cells?",
+    "choices": ["Tab", "Comma", "Space", "Semicolon"],
     "answer": "Comma",
-    "explanation": "The given data is separated by commas, so the 'Comma' delimiter is used to split it into separate columns."
+    "explanation": "Because the items are separated by commas, choosing the 'Comma' option will split them into columns."
   },
   {
     "id": 2,
-    "question": "In custom number formatting, what would the format code '#,,\"M\"' display for the value 34,567,812?",
-    "choices": ["34.57M", "35M", "3,456.78M", "34,567.81M"],
+    "question": "Using the format code '#,,\"M\"', how would Excel show the number 34,567,812?",
+    "choices": ["34.57M", "35M", "3,456M", "34,567M"],
     "answer": "35M",
-    "explanation": "The '#,,\"M\"' format divides the number by 1,000,000 and displays no decimals, so 34,567,812 becomes 35M."
+    "explanation": "This format divides the number by one million and shows no decimals, so 34,567,812 becomes 35M."
   },
   {
     "id": 3,
-    "question": "Why is it recommended to format numbers to show thousands (K) instead of storing pre-scaled values?",
+    "question": "Why is it better to format numbers to show 'K' for thousands instead of typing smaller numbers yourself?",
     "choices": [
-      "It saves memory space",
-      "It prevents loss of original data values",
-      "It makes files open faster",
-      "It avoids changing Excel's default calculation settings"
+      "It makes the file smaller",
+      "It keeps the real numbers safe",
+      "It makes Excel faster",
+      "It changes the file settings"
     ],
-    "answer": "It prevents loss of original data values",
-    "explanation": "Formatting keeps the full original values intact, allowing for accurate calculations and avoiding permanent scaling."
+    "answer": "It keeps the real numbers safe",
+    "explanation": "Formatting keeps the original values, so you don’t lose the full number when calculating."
   },
   {
     "id": 4,
-    "question": "Which feature allows you to extract a first name from a full name by typing one example and applying it down a column?",
+    "question": "Which Excel tool can fill in first names for a whole column after you type just one example?",
     "choices": ["AutoFill", "Flash Fill", "Text to Columns", "Filter"],
     "answer": "Flash Fill",
-    "explanation": "Flash Fill detects patterns from an example and fills the rest of the column accordingly, such as extracting first names."
+    "explanation": "Flash Fill spots the pattern from your example and fills in the rest for you."
   },
   {
     "id": 5,
-    "question": "In Data Validation for dynamic drop-downs, what happens when a new course is added to the source range?",
+    "question": "If you make a drop-down list from a range of cells, what happens when you add a new item to that range?",
     "choices": [
-      "The drop-down list remains unchanged",
-      "The drop-down list updates automatically",
-      "The drop-down list needs to be recreated",
-      "Excel prompts to refresh the list"
+      "The list stays the same",
+      "The list updates automatically",
+      "You must create the list again",
+      "Excel asks if you want to update"
     ],
-    "answer": "The drop-down list updates automatically",
-    "explanation": "By referencing the source range directly, any new item added to it appears in the drop-down without manual updates."
+    "answer": "The list updates automatically",
+    "explanation": "When linked to a range, the drop-down list shows new items as soon as you add them."
   },
   {
     "id": 6,
-    "question": "In the formula '=B4*(1+$C$2)', what does the dollar sign in '$C$2' do?",
+    "question": "In '=B4*(1+$C$2)', what does the '$' sign mean?",
     "choices": [
-      "Locks only the column",
-      "Locks only the row",
-      "Locks both the column and row",
-      "Has no effect in this formula"
+      "Lock the column only",
+      "Lock the row only",
+      "Lock both column and row",
+      "It does nothing"
     ],
-    "answer": "Locks both the column and row",
-    "explanation": "An absolute reference ($C$2) keeps both the column (C) and the row (2) fixed when the formula is copied."
+    "answer": "Lock both column and row",
+    "explanation": "The $ before the column and row keeps both fixed when copying the formula."
   },
   {
     "id": 7,
-    "question": "Which of the following is NOT a benefit of converting data into an Excel Table?",
+    "question": "Which of these is NOT something Excel Tables can do?",
     "choices": [
-      "Automatic formatting and visible headers",
-      "Automatic expansion when new data is added",
-      "Ability to merge cells within the table",
-      "Enforced unique column names"
+      "Keep headers visible when scrolling",
+      "Grow automatically when you add data",
+      "Let you merge cells inside the table",
+      "Make each column name unique"
     ],
-    "answer": "Ability to merge cells within the table",
-    "explanation": "Merging cells is not allowed in Excel Tables, as it can disrupt data structure and automation."
+    "answer": "Let you merge cells inside the table",
+    "explanation": "Merging cells in a table is not allowed because it can break the table layout."
   },
   {
     "id": 8,
-    "question": "Using the table 'Orders', which formula would correctly count the total number of rows?",
+    "question": "If your table is called 'Orders', which formula will tell you how many rows it has?",
     "choices": [
       "=COUNT(Orders)",
       "=ROWS(Orders)",
@@ -1917,31 +1917,31 @@
       "=COUNTA(Orders)"
     ],
     "answer": "=ROWS(Orders)",
-    "explanation": "The ROWS function returns the number of rows in a range or table, so '=ROWS(Orders)' counts all rows in the 'Orders' table."
+    "explanation": "The ROWS function counts how many rows are in a table or range."
   },
   {
     "id": 9,
-    "question": "Where can you rename a table directly in Excel?",
+    "question": "Where can you change a table’s name in Excel?",
     "choices": [
-      "In the Data Validation dialog box",
-      "In the Table Design tab",
-      "In the Name Manager",
-      "In the Format Cells dialog"
+      "Data Validation window",
+      "Table Design tab",
+      "Name Manager",
+      "Format Cells window"
     ],
-    "answer": "In the Name Manager",
-    "explanation": "The Name Manager lists all named ranges and tables, allowing direct renaming of tables."
+    "answer": "Name Manager",
+    "explanation": "The Name Manager lets you see and rename all named ranges and tables."
   },
   {
     "id": 10,
-    "question": "Which of the following is considered a best practice in Excel?",
+    "question": "Which of these is a good habit when naming tables?",
     "choices": [
-      "Merge cells inside a table",
-      "Use descriptive table names",
-      "Manually scale stored values",
-      "Use duplicate column headers"
+      "Merge cells in the table",
+      "Use short random names",
+      "Use clear and descriptive names",
+      "Use the same name for two columns"
     ],
-    "answer": "Use descriptive table names",
-    "explanation": "Descriptive table names improve clarity and make formulas easier to read and maintain."
+    "answer": "Use clear and descriptive names",
+    "explanation": "Clear names make your formulas easier to understand later."
   }
 ]
   ,
