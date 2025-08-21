@@ -1,5 +1,5 @@
 {
-  "Microsoft Power BI-Old":[
+  "Microsoft Power BI":[
     {
     "id": 1,
     "question": "Take a moment to reflect on how you feel about Power BI as of now",
@@ -11,7 +11,7 @@
     ],
     "image": null
 }],
-  "Microsoft Power BI": [
+  "Microsoft Power BI-Old": [
     {
       "id": 1,
       "question": "How frequently do you work with data in your current role?",
