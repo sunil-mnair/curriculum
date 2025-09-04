@@ -2114,7 +2114,7 @@
         }
 
     ],
-  "Microsoft Power BI": [
+  "Microsoft Power BI - PreAssessment": [
     {
       "id": 1,
       "question": "Which Power BI capability allows integration of transactional data from an ERP system and spreadsheet-based forecasts?",
@@ -2226,8 +2226,118 @@
       "explanation": "A slicer for Year enables dynamic filtering of visuals based on the selected year, improving time-based analysis."
     }
   ]
-,
-    "Microsoft Power BI - Step 1":
+,"Microsoft Power BI": [
+  {
+    "id": 1,
+    "question": "How can Power BI bring together ERP transaction data with forecast figures stored in Excel?",
+    "choices": [
+      "It can only read spreadsheets",
+      "It connects to both ERP systems and Excel files",
+      "It uses only data already in the Power BI Service"
+    ],
+    "answer": "It connects to both ERP systems and Excel files",
+    "explanation": "Power BI supports connectors to multiple sources, such as ERP platforms and spreadsheets, enabling combined reporting."
+  },
+  {
+    "id": 2,
+    "question": "Which Power BI interface should be used to create visuals for a monthly performance dashboard?",
+    "choices": [
+      "Report View",
+      "Data View",
+      "Model View"
+    ],
+    "answer": "Report View",
+    "explanation": "Report View is where interactive charts and dashboards are designed, making it the correct choice for performance summaries."
+  },
+  {
+    "id": 3,
+    "question": "If a user wants to filter report visuals by selecting a product category, which option should they use in Power BI?",
+    "choices": [
+      "Add a slicer for category",
+      "Apply a visual-level filter",
+      "Insert a pie chart"
+    ],
+    "answer": "Add a slicer for category",
+    "explanation": "Slicers allow users to interactively filter visuals by categories such as brand or product type."
+  },
+  {
+    "id": 4,
+    "question": "What type of chart best illustrates daily sales changes across a month?",
+    "choices": [
+      "Line Chart",
+      "Stacked Bar Chart",
+      "Pie Chart"
+    ],
+    "answer": "Line Chart",
+    "explanation": "Line charts effectively display data trends over time, such as day-to-day sales variations."
+  },
+  {
+    "id": 5,
+    "question": "Which feature in Power BI reveals extra details when the pointer hovers over part of a chart?",
+    "choices": [
+      "Tooltip",
+      "Axis title",
+      "Data label"
+    ],
+    "answer": "Tooltip",
+    "explanation": "Tooltips provide contextual details when hovering over visuals, helping users interpret the data point."
+  },
+  {
+    "id": 6,
+    "question": "Which Power BI view allows users to see the imported data arranged in rows and columns for validation?",
+    "choices": [
+      "Data View",
+      "Model View",
+      "Visualization Pane"
+    ],
+    "answer": "Data View",
+    "explanation": "Data View displays the raw tabular data in the model, which is useful for checking and validating inputs."
+  },
+  {
+    "id": 7,
+    "question": "Where in Power BI can you check how tables are connected and adjust their relationships?",
+    "choices": [
+      "Fields Pane",
+      "Model View",
+      "Data View"
+    ],
+    "answer": "Model View",
+    "explanation": "Model View displays table relationships and allows modification of connections to support accurate reporting."
+  },
+  {
+    "id": 8,
+    "question": "When exporting a report from Power BI Desktop for sharing, which file type should be used?",
+    "choices": [
+      ".pbix",
+      ".csv",
+      ".docx"
+    ],
+    "answer": ".pbix",
+    "explanation": ".pbix is the native Power BI file format containing queries, data models, and visuals for sharing."
+  },
+  {
+    "id": 9,
+    "question": "If you need to display revenue side-by-side for several business units, which chart type should you choose?",
+    "choices": [
+      "Bar Chart",
+      "Pie Chart",
+      "Line Chart"
+    ],
+    "answer": "Bar Chart",
+    "explanation": "Bar charts allow for straightforward comparison across categories such as departments or units."
+  },
+  {
+    "id": 10,
+    "question": "Which Power BI control lets a user switch between different reporting years on demand?",
+    "choices": [
+      "Slicer for Year",
+      "Legend",
+      "Axis Title"
+    ],
+    "answer": "Slicer for Year",
+    "explanation": "Year slicers allow reports to be dynamically filtered to show results for different time periods."
+  }
+],    "Microsoft Power BI - Step 1":
         [
             {
             "id": 1,
