@@ -7857,127 +7857,128 @@
     }
   ],
   "Microsoft 365 Copilot":[
-    {
-      "id": 1,
-      "question": "What is a key principle of prompt engineering when interacting with AI tools?",
-      "choices": [
-        "Use vague and brief instructions",
-        "Avoid context to simplify prompts",
-        "Give the model a clear task and be specific",
-        "Always let AI generate responses without constraints"
-      ],
-      "answer": "Give the model a clear task and be specific",
-      "explanation": "Prompt engineering emphasizes providing context, a specific task, and clarity to elicit better responses from AI tools."
-    },
-    {
-      "id": 2,
-      "question": "Which compliance standards does Microsoft 365 Copilot adhere to?",
-      "choices": [
-        "ISO 9001 and PCI DSS",
-        "GDPR and HIPAA",
-        "SOC 1 and FISMA",
-        "COBIT and NIST"
-      ],
-      "answer": "GDPR and HIPAA",
-      "explanation": "Microsoft 365 Copilot complies with key data protection standards including GDPR and HIPAA, ensuring organizational data remains secure."
-    },
-    {
-      "id": 3,
-      "question": "What does Microsoft Graph integration enable for Copilot in Microsoft 365?",
-      "choices": [
-        "Live collaboration with external users",
-        "Email encryption and spam filtering",
-        "Personalized assistance based on user activity",
-        "Automation of file backups"
-      ],
-      "answer": "Personalized assistance based on user activity",
-      "explanation": "Deep integration with Microsoft Graph allows Copilot to learn from user behavior and provide tailored recommendations across apps."
-    },
-    {
-      "id": 4,
-      "question": "Which of the following is a limitation of Copilot in Word?",
-      "choices": [
-        "Cannot assist with grammar correction",
-        "No support for macros or content controls",
-        "Cannot open PDF files",
-        "Does not allow saving documents"
-      ],
-      "answer": "No support for macros or content controls",
-      "explanation": "In Word, Copilot lacks capabilities related to developer tools like macros and content controls, limiting advanced document automation."
-    },
-    {
-      "id": 5,
-      "question": "Which task can Copilot perform in PowerPoint?",
-      "choices": [
-        "Create animations with timing",
-        "Generate speaker notes and organize slides",
-        "Edit Slide Master templates",
-        "Embed interactive charts and videos"
-      ],
-      "answer": "Generate speaker notes and organize slides",
-      "explanation": "Copilot in PowerPoint can help summarize content, organize presentations, and generate speaker notes but lacks advanced customization support."
-    },
-    {
-      "id": 6,
-      "question": "What is a major limitation of Copilot in Excel?",
-      "choices": [
-        "Cannot highlight or sort data",
-        "Lacks support for Power Pivot models",
-        "Unable to create pivot tables",
-        "Cannot use formulas at all"
-      ],
-      "answer": "Lacks support for Power Pivot models",
-      "explanation": "While Copilot in Excel supports basic analysis and formula generation, it cannot handle complex data modeling using Power Pivot."
-    },
-    {
-      "id": 7,
-      "question": "How does Copilot assist in Outlook?",
-      "choices": [
-        "Drafting emails and summarizing threads",
-        "Managing folders and setting rules",
-        "Scheduling calendar events",
-        "Auto-replying to spam emails"
-      ],
-      "answer": "Drafting emails and summarizing threads",
-      "explanation": "Copilot in Outlook enhances productivity by drafting replies and summarizing emails, though it does not manage rules or folders."
-    },
-    {
-      "id": 8,
-      "question": "Which capability is supported by Copilot in OneDrive?",
-      "choices": [
-        "Real-time file sharing with comments",
-        "Generating custom FAQs and summarizing documents",
-        "Encrypting files before upload",
-        "Live editing with external users"
-      ],
-      "answer": "Generating custom FAQs and summarizing documents",
-      "explanation": "Copilot in OneDrive can analyze files to create FAQs and summaries, but it does not support collaborative editing or encryption."
-    },
-    {
-      "id": 9,
-      "question": "What limitation exists in Copilot for Microsoft Teams?",
-      "choices": [
-        "Cannot summarize chat conversations",
-        "Does not interact with shared documents in real-time",
-        "Cannot schedule meetings",
-        "Cannot send chat messages"
-      ],
-      "answer": "Does not interact with shared documents in real-time",
-      "explanation": "In Teams, Copilot can summarize meetings and chats but lacks the ability to interact with documents being shared live."
-    },
-    {
-      "id": 10,
-      "question": "What is a core benefit of using prompt templates in Copilot-enabled applications?",
-      "choices": [
-        "They limit user creativity",
-        "They avoid the need for user input",
-        "They help standardize requests for better AI responses",
-        "They reduce the performance of the AI model"
-      ],
-      "answer": "They help standardize requests for better AI responses",
-      "explanation": "Prompt templates guide users in structuring their queries, improving consistency and the quality of AI-generated outputs."
-    }
-  ],
+  {
+    "id": 1,
+    "question": "A safety officer receives a long email chain about an equipment malfunction and needs to send a concise follow-up. How can Copilot in Outlook assist?",
+    "choices": [
+      "a) By drafting a clear response summarizing the discussion",
+      "b) By encrypting the thread for security",
+      "c) By creating a meeting invitation automatically",
+      "d) By deleting duplicate emails from the chain"
+    ],
+    "answer": "a) By drafting a clear response summarizing the discussion",
+    "explanation": "Copilot in Outlook can summarize lengthy threads and draft professional responses, saving time while ensuring clarity."
+  },
+  {
+    "id": 2,
+    "question": "During a maintenance review, an engineer wants to convert a list of faults into a structured checklist table. How can Copilot in Excel support this?",
+    "choices": [
+      "a) By restructuring the fault list into a formatted table",
+      "b) By sending the list directly to SharePoint",
+      "c) By archiving the list automatically",
+      "d) By encrypting the list for compliance"
+    ],
+    "answer": "a) By restructuring the fault list into a formatted table",
+    "explanation": "Copilot in Excel can transform unstructured lists into organized tables, making maintenance data easier to track and review."
+  },
+  {
+    "id": 3,
+    "question": "A superintendent is tasked with preparing slides for a safety briefing. Which way can Copilot in PowerPoint add value?",
+    "choices": [
+      "a) By generating speaker notes and summarizing slides",
+      "b) By encrypting the final file before sending",
+      "c) By automatically designing custom templates",
+      "d) By embedding live vessel manuals into slides"
+    ],
+    "answer": "a) By generating speaker notes and summarizing slides",
+    "explanation": "Copilot in PowerPoint can create summaries and notes that support clear delivery during crew safety briefings."
+  },
+  {
+    "id": 4,
+    "question": "In Microsoft Teams, how can Copilot assist after a QHSE review meeting?",
+    "choices": [
+      "a) By summarizing the meeting transcript into key action items",
+      "b) By encrypting the chat history for compliance",
+      "c) By automatically sending calendar invites for audits",
+      "d) By creating macros for the meeting notes"
+    ],
+    "answer": "a) By summarizing the meeting transcript into key action items",
+    "explanation": "Copilot in Teams can analyze meeting discussions and produce concise summaries with actions for follow-up."
+  },
+  {
+    "id": 5,
+    "question": "A compliance officer is reviewing different versions of a vessel manual in SharePoint. How can Copilot assist?",
+    "choices": [
+      "a) By comparing versions and highlighting changes",
+      "b) By encrypting old versions before archiving",
+      "c) By scheduling automatic manual updates",
+      "d) By restricting access without admin approval"
+    ],
+    "answer": "a) By comparing versions and highlighting changes",
+    "explanation": "Copilot in SharePoint can compare documents, ensuring teams work from the most up-to-date and accurate manuals."
+  },
+  {
+    "id": 6,
+    "question": "How can Copilot in OneDrive support knowledge sharing from audit reports?",
+    "choices": [
+      "a) By generating a summary of key findings across files",
+      "b) By encrypting reports before uploading",
+      "c) By deleting outdated audit reports automatically",
+      "d) By forwarding reports directly to Teams channels"
+    ],
+    "answer": "a) By generating a summary of key findings across files",
+    "explanation": "Copilot in OneDrive can analyze multiple audit documents and summarize them into key points for wider sharing."
+  },
+  {
+    "id": 7,
+    "question": "Which task can Copilot in Forms directly assist with during crew onboarding?",
+    "choices": [
+      "a) By creating structured digital onboarding forms",
+      "b) By encrypting completed forms automatically",
+      "c) By archiving old forms without approval",
+      "d) By scheduling form deletion on a fixed date"
+    ],
+    "answer": "a) By creating structured digital onboarding forms",
+    "explanation": "Copilot in Forms can generate templates for onboarding, ensuring consistent and structured data collection."
+  },
+  {
+    "id": 8,
+    "question": "A manager needs to prepare a client briefing that combines insights from calibration sheets and audit reports. How can Copilot in PowerPoint help?",
+    "choices": [
+      "a) By summarizing data into clear slides with talking points",
+      "b) By encrypting all source files before use",
+      "c) By designing new templates from scratch",
+      "d) By scheduling automatic delivery of the slides"
+    ],
+    "answer": "a) By summarizing data into clear slides with talking points",
+    "explanation": "Copilot in PowerPoint can pull insights from reports and structure them into presentations with concise summaries."
+  },
+  {
+    "id": 9,
+    "question": "In Excel, how can Copilot support budget tracking for an operations team?",
+    "choices": [
+      "a) By generating formulas to calculate expenses",
+      "b) By archiving unused budget sheets",
+      "c) By encrypting all budget files",
+      "d) By scheduling monthly approvals"
+    ],
+    "answer": "a) By generating formulas to calculate expenses",
+    "explanation": "Copilot in Excel can suggest and apply formulas that automate expense calculations, improving accuracy in budget tracking."
+  },
+  {
+    "id": 10,
+    "question": "A QHSE officer wants to create a quick safety FAQ for crew members using existing safety reports in OneDrive. How can Copilot assist?",
+    "choices": [
+      "a) By generating FAQs directly from the stored documents",
+      "b) By encrypting the safety files for compliance",
+      "c) By restricting crew access to the reports",
+      "d) By automatically deleting outdated safety reports"
+    ],
+    "answer": "a) By generating FAQs directly from the stored documents",
+    "explanation": "Copilot in OneDrive can analyze stored reports and generate a practical FAQ, making safety knowledge accessible to crews."
+  }
+]
+,
   "Generative AI for Business Old":[
   {
     "id": 1,
