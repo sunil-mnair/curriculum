@@ -7919,27 +7919,27 @@
   },
   {
     "id": 6,
-    "question": "How can Copilot in OneDrive support knowledge sharing from audit reports?",
+    "question": "A manager needs to analyze monthly incident logs in Excel. How can Copilot assist?",
     "choices": [
-      "a) By generating a summary of key findings across files",
-      "b) By encrypting reports before uploading",
-      "c) By deleting outdated audit reports automatically",
-      "d) By forwarding reports directly to Teams channels"
+      "a) By identifying trends and creating visual charts",
+      "b) By encrypting the logs automatically",
+      "c) By deleting duplicate incident entries without approval",
+      "d) By scheduling reminders for log submission"
     ],
-    "answer": "a) By generating a summary of key findings across files",
-    "explanation": "Copilot in OneDrive can analyze multiple audit documents and summarize them into key points for wider sharing."
+    "answer": "a) By identifying trends and creating visual charts",
+    "explanation": "Copilot in Excel can quickly highlight trends in data and generate charts, supporting better safety analysis."
   },
   {
     "id": 7,
-    "question": "Which task can Copilot in Forms directly assist with during crew onboarding?",
+    "question": "How can Copilot in Word support the creation of a safety procedures manual?",
     "choices": [
-      "a) By creating structured digital onboarding forms",
-      "b) By encrypting completed forms automatically",
-      "c) By archiving old forms without approval",
-      "d) By scheduling form deletion on a fixed date"
+      "a) By drafting structured sections based on existing policies",
+      "b) By encrypting the manual before distribution",
+      "c) By automatically deleting outdated sections",
+      "d) By restricting access without admin approval"
     ],
-    "answer": "a) By creating structured digital onboarding forms",
-    "explanation": "Copilot in Forms can generate templates for onboarding, ensuring consistent and structured data collection."
+    "answer": "a) By drafting structured sections based on existing policies",
+    "explanation": "Copilot in Word can generate clear, well-organized drafts using organizational content, helping streamline manual creation."
   },
   {
     "id": 8,
@@ -7967,15 +7967,15 @@
   },
   {
     "id": 10,
-    "question": "A QHSE officer wants to create a quick safety FAQ for crew members using existing safety reports in OneDrive. How can Copilot assist?",
+    "question": "A QHSE officer wants to prepare a summary of recurring safety issues from several meeting notes stored in Teams. How can Copilot help?",
     "choices": [
-      "a) By generating FAQs directly from the stored documents",
-      "b) By encrypting the safety files for compliance",
-      "c) By restricting crew access to the reports",
-      "d) By automatically deleting outdated safety reports"
+      "a) By identifying recurring themes across multiple discussions",
+      "b) By encrypting all meeting notes for compliance",
+      "c) By automatically scheduling new safety meetings",
+      "d) By deleting old meeting notes without approval"
     ],
-    "answer": "a) By generating FAQs directly from the stored documents",
-    "explanation": "Copilot in OneDrive can analyze stored reports and generate a practical FAQ, making safety knowledge accessible to crews."
+    "answer": "a) By identifying recurring themes across multiple discussions",
+    "explanation": "Copilot in Teams can analyze past meeting records to detect patterns, helping identify common safety concerns for proactive action."
   }
 ]
 ,
