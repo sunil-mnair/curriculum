@@ -4312,192 +4312,127 @@
         }
       ],
       "Python Foundation - Fast Track":[
-        {
-            "id": 1,
-            "question": "Which command is used to create a virtual environment in Python using `virtualenv`?",
-            "choices": [
-                "pip install venv",
-                "virtualenv env",
-                "create env",
-                "python -m venv env"
-            ],
-            "answer": "virtualenv env",
-            "explanation": "The command `virtualenv env` is used to create a virtual environment using the `virtualenv` package."
-        },
-        {
-            "id": 2,
-            "question": "Which of the following is NOT a built-in function in Python?",
-            "choices": [
-                "print()",
-                "len()",
-                "append()",
-                "type()"
-            ],
-            "answer": "append()",
-            "explanation": "`append()` is a method of list objects, not a built-in function."
-        },
-        {
-            "id": 3,
-            "question": "Which of the following methods will remove leading and trailing whitespace from a string?",
-            "choices": [
-                "strip()",
-                "trim()",
-                "lstrip()",
-                "rstrip()"
-            ],
-            "answer": "strip()",
-            "explanation": "The `strip()` method removes both leading and trailing whitespace from a string."
-        },
-        {
-            "id": 4,
-            "question": "What will be the output of the following code?",
-            "choices": [
-                "A",
-                "l",
-                "i",
-                "e"
-            ],
-            "answer": "l",
-            "image":"python_quiz_string_index.png",
-            "explanation": "Indexing in Python strings starts at 0, so `name[1]` refers to the second character, which is `l`."
-        },
-        {
-            "id": 5,
-            "question": "Which operator is used to calculate the remainder of a division?",
-            "choices": [
-                "/",
-                "//",
-                "%",
-                ""
-            ],
-            "answer": "%",
-            "explanation": "The modulus operator `%` is used to calculate the remainder of a division."
-        },
-        {
-            "id": 6,
-            "question": "What will be the output of the following code?",
-            "choices": [
-                "6",
-                "8",
-                "9",
-                "12"
-            ],
-            "answer": "8",
-            "image":"python_quiz_exponent.png",
-            "explanation": "The `` operator is used for exponentiation. `2  3` equals `8`."
-        },
-        {
-            "id": 7,
-            "question": "What will be the output upon execution of the if statement block?",
-            "choices": [
-                "Greater than 5",
-                "5 or less",
-                "10",
-                "None of the above"
-            ],
-            "answer": "Greater than 5",
-            "image":"python_quiz_if_statement.png",
-            "explanation": "Since `x` is `10`, which is greater than `5`, the condition is true and \"Greater than 5\" is printed."
-        },
-        {
-            "id": 8,
-            "question": "Which of the following statements correctly checks if a variable `x` is either less than 10 or greater than 20?",
-            "choices": [
-                "if x < 10 and x > 20:",
-                "if x < 10 or x > 20:",
-                "if x <= 10 or x >= 20:",
-                "if x != 10 and x != 20:"
-            ],
-            "answer": "if x < 10 or x > 20:",
-            "explanation": "The expression `if x < 10 or x > 20:` correctly checks if `x` is either less than `10` or greater than `20`."
-        },
-        {
-            "id": 9,
-            "question": "Which statement can be used to skip the current iteration in a loop and continue with the next iteration?",
-            "choices": [
-                "break",
-                "continue",
-                "pass",
-                "return"
-            ],
-            "answer": "continue",
-            "explanation": "The `continue` statement skips the current iteration of a loop and proceeds with the next iteration."
-        },
-        {
-            "id": 10,
-            "question": "What will be the output of the following code with the for loop and if statement?",
-            "choices": [
-                "1 2 3 4",
-                "1 2 3",
-                "1 2",
-                "2 3 4"
-            ],
-            "answer": "1 2",
-            "image":"python_quiz_for_break.png",
-            "explanation": "The `break` statement exits the loop when `i` equals `3`, so only `1` and `2` are printed."
-        },
-        {
-            "id": 11,
-            "question": "Which keyword is used to define a function in Python?",
-            "choices": [
-                "func",
-                "def",
-                "function",
-                "lambda"
-            ],
-            "answer": "def",
-            "explanation": "The `def` keyword is used to define a function in Python."
-        },
-        {
-            "id": 12,
-            "question": "What will be the output of the following code containing string formatting?",
-            "choices": [
-                "Hello!",
-                "Hello, !",
-                "Hello, Alice!",
-                "None of the above"
-            ],
-            "answer": "Hello, Alice!",
-            "image":"python_quiz_string_formatting.png",
-            "explanation": "The function `greet` takes a `name` parameter and returns a formatted string `Hello, {name}!`."
-        },
-        {
-            "id": 13,
-            "question": "Which method from the `datetime` module returns the current local date?",
-            "choices": [
-                "datetime.today()",
-                "datetime.moment()",
-                "datetime.date()",
-                "datetime.localtime()"
-            ],
-            "answer": "datetime.today()",
-            "explanation": "The `datetime.today()` method returns the current local date."
-        },
-        {
-            "id": 14,
-            "question": "How would you remove the first occurrence of the element `2` from the list `my_list = [1, 2, 3, 2, 4]`?",
-            "choices": [
-                "my_list.remove(2)",
-                "my_list.delete(2)",
-                "my_list.pop(2)",
-                "my_list.discard(2)"
-            ],
-            "answer": "my_list.remove(2)",
-            "explanation": "The `remove()` method removes the first occurrence of the specified value."
-        },
-        {
-            "id": 15,
-            "question": "How would you add a new key-value pair `'gender': 'female'` to the dictionary `person = {'name': 'Alice', 'age': 30}`?",
-            "choices": [
-                "person['gender'] = 'female'",
-                "person.add('gender', 'female')",
-                "person.update('gender', 'female')",
-                "person.insert('gender', 'female')"
-            ],
-            "answer": "person['gender'] = 'female'",
-            "explanation": "To add a new key-value pair to a dictionary, you can use the syntax `person['gender'] = 'female'`."
-        }
+  {
+    "id": 1,
+    "question": "A Python script stores a list of allowed IP addresses. You want to check if an IP address is in the list. Which operator is used for this?",
+    "choices": [
+      "==",
+      "is",
+      "in",
+      "+"
     ],
+    "answer": "in",
+    "explanation": "The 'in' operator checks if a value exists inside a list."
+  },
+  {
+    "id": 2,
+    "question": "A script loops through a list of filenames and prints each name. Which loop is correct?",
+    "choices": [
+      "for file in files:\n    print(file)",
+      "for files:\n    print(file)",
+      "loop file in files",
+      "print(files)"
+    ],
+    "answer": "for file in files:\n    print(file)",
+    "explanation": "The for loop reads one item at a time from the list."
+  },
+  {
+    "id": 3,
+    "question": "A script stores fixed system details like OS name and version. This data should not change. Which data type is best?",
+    "choices": [
+      "List",
+      "Tuple",
+      "String",
+      "Integer"
+    ],
+    "answer": "Tuple",
+    "explanation": "Tuples cannot be changed after creation, so they are good for fixed data."
+  },
+  {
+    "id": 4,
+    "question": "A user enters a port number using input(). What type is this value?",
+    "choices": [
+      "Integer",
+      "Float",
+      "String",
+      "Boolean"
+    ],
+    "answer": "String",
+    "explanation": "The input() function always returns text (string)."
+  },
+  {
+    "id": 5,
+    "question": "You want the port number from input() to be used as a number. What should you do?",
+    "choices": [
+      "Leave it as it is",
+      "Convert it using int()",
+      "Put it in a list",
+      "Print the value"
+    ],
+    "answer": "Convert it using int()",
+    "explanation": "Text must be converted to a number before numeric use."
+  },
+  {
+    "id": 6,
+    "question": "A script runs the same log check 5 times. Which option is correct?",
+    "choices": [
+      "for i in range(5)",
+      "range(5) only",
+      "loop 5 times",
+      "while 5"
+    ],
+    "answer": "for i in range(5)",
+    "explanation": "range(5) with a for loop runs the code exactly 5 times."
+  },
+  {
+    "id": 7,
+    "question": "A list stores CPU usage values. You print each value in the list. Which keyword moves through the list items?",
+    "choices": [
+      "range",
+      "for",
+      "print",
+      "input"
+    ],
+    "answer": "for",
+    "explanation": "The for keyword is used to loop through list items."
+  },
+  {
+    "id": 8,
+    "question": "A script needs the total number of services stored in a list. Which function gives the count?",
+    "choices": [
+      "sum()",
+      "type()",
+      "len()",
+      "count()"
+    ],
+    "answer": "len()",
+    "explanation": "The len() function returns the number of items in a list."
+  },
+  {
+    "id": 9,
+    "question": "Why do developers use a virtual environment in Python?",
+    "choices": [
+      "To make Python faster",
+      "To keep project libraries separate",
+      "To delete system Python",
+      "To write shorter code"
+    ],
+    "answer": "To keep project libraries separate",
+    "explanation": "Virtual environments prevent library conflicts between projects."
+  },
+  {
+    "id": 10,
+    "question": "You install a Python package while a virtual environment is active. Where is the package available?",
+    "choices": [
+      "In all Python projects",
+      "Only in the active virtual environment",
+      "In the operating system",
+      "Inside the Python editor"
+    ],
+    "answer": "Only in the active virtual environment",
+    "explanation": "Packages installed in a virtual environment are only available there."
+  }
+],
     "Querying Data with Transact SQL":[
       {
         "id": 1,
