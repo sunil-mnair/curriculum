@@ -1,5 +1,5 @@
 {
-  "Microsoft Power BI":[
+  "Microsoft Power BI-Old":[
     {
     "id": 1,
     "question": "Take a moment to reflect on how you feel about Power BI as of now",
@@ -11,7 +11,7 @@
     ],
     "image": null
 }],
-  "Microsoft Power BI-Old": [
+  "Microsoft Power BI": [
     {
       "id": 1,
       "question": "How frequently do you work with data in your current role?",
@@ -45,7 +45,7 @@
     {
       "id": 5,
       "question": "Rate your proficiency in using excel?",
-      "choices": ["Never used before", "Basic", "Intermediate", "Advanced"],
+      "choices": ["Basic", "Intermediate", "Advanced"],
       "image": null
     },
     {
@@ -62,6 +62,17 @@
         "Somewhat familiar",
         "Moderately comfortable",
         "Very comfortable"
+      ],
+      "image": null
+    },
+    {
+      "id": 8,
+      "question": "What is your organisations expectation from you on reporting responsibilities?",
+      "choices": [
+        "Create Reports",
+        "Administer Reports",
+        "Both",
+        "Not Defined"
       ],
       "image": null
     }
@@ -673,7 +684,7 @@
 "Python Foundation - Fast Track":[
   {
       "id": 1,
-      "question": "What is your current level of experience with programming in general?",
+      "question": "Which Project have you c",
       "choices": [
           "No experience",
           "Basic understanding of programming concepts",
