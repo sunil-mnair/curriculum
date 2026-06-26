@@ -8342,7 +8342,19 @@
 [
   {
     "id": 1,
-    "question": "What is the primary purpose of reinforcement learning in the context of Oil & Gas?",
+    "question": "You create a new project folder and want Git tracking to start. Which command do you use?",
+    "choices": [
+      "git init",
+      "git pull",
+      "git push",
+      "git remote -v"
+    ],
+    "answer": "git init",
+    "explanation": "`git init` initializes a new Git repository in the current directory."
+  },
+  {
+    "id": 2,
+    "question": "What is the primary purpose of reinforcement learning",
     "choices": [
       "To identify hidden patterns in unlabeled datasets",
       "To automate operations through reward-based learning",
@@ -8353,112 +8365,101 @@
     "explanation": "Reinforcement learning optimizes operations like drilling using reward-based learning systems, improving automation and efficiency."
   },
   {
-    "id": 2,
-    "question": "Which Python library is most suitable for numerical computations using arrays?",
-    "choices": [
-      "Seaborn",
-      "Matplotlib",
-      "NumPy",
-      "Flask"
-    ],
-    "answer": "NumPy",
-    "explanation": "NumPy provides high-performance operations on arrays and matrices, crucial for numerical tasks in data science."
-  },
-  {
     "id": 3,
-    "question": "In Flask, what is the role of Jinja2 templates?",
+    "question": "Your code is ready locally and needs to be uploaded to GitHub. What do you run?",
     "choices": [
-      "To create APIs for machine learning",
-      "To manage Python package installations",
-      "To connect to databases",
-      "To render dynamic HTML pages with data"
+      "git push",
+      "git pull",
+      "git init",
+      "git status"
     ],
-    "answer": "To render dynamic HTML pages with data",
-    "explanation": "Jinja2 templates enable dynamic content rendering in web applications, making Flask ideal for data apps."
+    "answer": "git push",
+    "explanation": "`git push` uploads local commits to a remote repository."
   },
   {
     "id": 4,
-    "question": "Which evaluation metric is best for assessing a classification model’s ability to balance precision and recall?",
+    "question": "A dataset has no labels and you need to group similar records. Which approach is suitable?",
     "choices": [
-      "R-squared",
-      "Accuracy",
-      "F1-score",
-      "RMSE"
+      "Unsupervised learning",
+      "Supervised learning",
+      "Regression",
+      "Classification"
     ],
-    "answer": "F1-score",
-    "explanation": "F1-score is the harmonic mean of precision and recall, making it ideal for imbalanced classification problems."
+    "answer": "Unsupervised learning",
+    "explanation": "Unsupervised learning works with unlabeled data to identify patterns such as clusters."
   },
   {
     "id": 5,
-    "question": "How is NLP applied in the Oil & Gas sector, according to the training content?",
+    "question": "You want to predict house prices based on features like size and location. What type of problem is this?",
     "choices": [
-      "To cluster well production data",
-      "To optimize drilling parameters",
-      "To analyze maintenance logs and reports",
-      "To simulate fluid dynamics in pipelines"
+      "Regression",
+      "Classification",
+      "Clustering",
+      "Association"
     ],
-    "answer": "To analyze maintenance logs and reports",
-    "explanation": "NLP helps extract actionable insights from textual data like maintenance reports, improving operational decision-making."
+    "answer": "Regression",
+    "explanation": "Regression predicts a continuous numeric value such as price."
   },
   {
     "id": 6,
-    "question": "Which of the following is a key benefit of using Flask in data science web apps?",
+    "question": "You are predicting whether an email is spam or not spam. Which problem type is this?",
     "choices": [
-      "It performs complex statistical analysis",
-      "It integrates with Microsoft Copilot for documentation",
-      "It enables interactive web deployment of Python models",
-      "It is a Python package for data visualization"
+      "Classification",
+      "Regression",
+      "Dimensionality reduction",
+      "Clustering"
     ],
-    "answer": "It enables interactive web deployment of Python models",
-    "explanation": "Flask allows data scientists to serve machine learning models through web interfaces, enabling user interaction."
+    "answer": "Classification",
+    "explanation": "Classification is used when the output is a category or label."
   },
   {
     "id": 7,
-    "question": "What is the purpose of Principal Component Analysis (PCA) in unsupervised learning?",
+    "question": "You compare test scores of two different teams. Which statistical test is appropriate?",
     "choices": [
-      "To classify images of seismic faults",
-      "To predict equipment failures",
-      "To reduce the dimensionality of datasets while preserving key features",
-      "To detect anomalies in drilling operations"
+      "Independent two-sample t-test",
+      "Paired t-test",
+      "Chi-square test",
+      "Z-test"
     ],
-    "answer": "To reduce the dimensionality of datasets while preserving key features",
-    "explanation": "PCA helps simplify complex datasets, such as seismic data, by reducing features while retaining essential information."
+    "answer": "Independent two-sample t-test",
+    "explanation": "This test compares the means of two independent groups."
   },
   {
     "id": 8,
-    "question": "Which technology is primarily used for identifying geological features in seismic images?",
+    "question": "You compare employee performance before and after training for the same group. Which test fits?",
     "choices": [
-      "Reinforcement Learning",
-      "Feedforward Neural Networks",
-      "ChatGPT",
-      "Pandas"
+      "Paired t-test",
+      "Independent two-sample t-test",
+      "ANOVA",
+      "F-test"
     ],
-    "answer": "Feedforward Neural Networks",
-    "explanation": "Neural networks are effective in interpreting seismic images by learning patterns in geological structures."
+    "answer": "Paired t-test",
+    "explanation": "A paired t-test is used when measurements come from the same subjects."
   },
   {
     "id": 9,
-    "question": "What is a key functionality of Microsoft Copilot as mentioned in the training program?",
+    "question": "You load a dataset and want a quick summary of columns, data types, and null values. Which pandas command helps?",
     "choices": [
-      "Managing cloud deployments",
-      "Generating and assisting in document workflows",
-      "Designing neural network layers",
-      "Conducting regression analysis"
+      "df.info()",
+      "df.describe()",
+      "df.head()",
+      "df.columns()"
     ],
-    "answer": "Generating and assisting in document workflows",
-    "explanation": "Microsoft Copilot helps automate documentation tasks and integrates AI into productivity tools like Excel and Word."
+    "answer": "df.info()",
+    "explanation": "`df.info()` provides a concise summary of the DataFrame including data types and missing values."
   },
   {
     "id": 10,
-    "question": "Which task is typically achieved using clustering algorithms in Oil & Gas?",
+    "question": "You are preparing to run a Flask app and set `SET FLASK_APP=app.py`. What does this do?",
     "choices": [
-      "Forecasting oil production",
-      "Segmenting customers by demand patterns",
-      "Detecting anomalies in sensor data",
-      "Evaluating model precision"
+      "Specifies the application file Flask should run",
+      "Starts the Flask server",
+      "Installs Flask dependencies",
+      "Creates a new Flask project"
     ],
-    "answer": "Segmenting customers by demand patterns",
-    "explanation": "Clustering is used for customer segmentation by identifying patterns in fuel demand and consumption behavior."
+    "answer": "Specifies the application file Flask should run",
+    "explanation": "Setting `FLASK_APP` tells Flask which Python file contains the application instance to run."
   }
 ]
+
     }
