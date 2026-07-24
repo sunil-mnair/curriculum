@@ -8460,6 +8460,127 @@
     "answer": "Specifies the application file Flask should run",
     "explanation": "Setting `FLASK_APP` tells Flask which Python file contains the application instance to run."
   }
+],
+"Automation using Python":[
+  {
+    "id": 1,
+    "question": "An L&D team wants to collect new Microsoft certification details from a public website every week. Which tool is the best choice?",
+    "choices": [
+      "BeautifulSoup",
+      "SMTP",
+      "SQLite",
+      "Pillow"
+    ],
+    "answer": "BeautifulSoup",
+    "explanation": "BeautifulSoup is used to scrape and extract information from static webpages."
+  },
+  {
+    "id": 2,
+    "question": "A finance analyst logs into a portal and downloads reports every morning. Which tool should automate this task?",
+    "choices": [
+      "Pathlib",
+      "Selenium",
+      "Pillow",
+      "SQLite"
+    ],
+    "answer": "Selenium",
+    "explanation": "Selenium can open a browser, log in, click buttons, and download reports."
+  },
+  {
+    "id": 3,
+    "question": "HR receives hundreds of resumes. They want files automatically sorted into folders by role. Which area of automation is best?",
+    "choices": [
+      "File and Folder Automation",
+      "Email Automation",
+      "CRUD Automation",
+      "Image Automation"
+    ],
+    "answer": "File and Folder Automation",
+    "explanation": "File automation helps move, rename, and organize files automatically."
+  },
+  {
+    "id": 4,
+    "question": "A company needs to merge daily branch reports into one workbook. What type of automation is this?",
+    "choices": [
+      "Bulk Document Processing",
+      "Browser Automation",
+      "Email Automation",
+      "Image Automation"
+    ],
+    "answer": "Bulk Document Processing",
+    "explanation": "Bulk processing applies the same logic to many files and can consolidate reports."
+  },
+  {
+    "id": 5,
+    "question": "A training company wants thumbnails created for 500 course images. Which library should be used?",
+    "choices": [
+      "Scrapy",
+      "Pillow",
+      "SMTP",
+      "Shutil"
+    ],
+    "answer": "Pillow",
+    "explanation": "Pillow is used for resizing images and creating thumbnails."
+  },
+  {
+    "id": 6,
+    "question": "An application needs to add a new customer record to a database. Which CRUD operation is used?",
+    "choices": [
+      "Read",
+      "Update",
+      "Delete",
+      "Create"
+    ],
+    "answer": "Create",
+    "explanation": "Create is used when adding new information to a database."
+  },
+  {
+    "id": 7,
+    "question": "A team stores articles and tags. One article can have many tags. Why are multiple tables used?",
+    "choices": [
+      "To reduce internet usage",
+      "To handle relationships between data",
+      "To create images",
+      "To send emails"
+    ],
+    "answer": "To handle relationships between data",
+    "explanation": "Multiple tables help manage many-to-many relationships efficiently."
+  },
+  {
+    "id": 8,
+    "question": "An L&D department wants Python to send training reminders automatically. What should they use?",
+    "choices": [
+      "Email Automation",
+      "Web Scraping",
+      "Image Automation",
+      "File Automation"
+    ],
+    "answer": "Email Automation",
+    "explanation": "Email automation sends reminders, notifications, and certificates automatically."
+  },
+  {
+    "id": 9,
+    "question": "A developer needs data from a simple static webpage. Which is the better choice?",
+    "choices": [
+      "Selenium",
+      "BeautifulSoup",
+      "SMTP",
+      "Oracle"
+    ],
+    "answer": "BeautifulSoup",
+    "explanation": "BeautifulSoup is simpler and more efficient for static webpages."
+  },
+  {
+    "id": 10,
+    "question": "A team is building an automation workflow. After collecting and processing data, where should the results go next?",
+    "choices": [
+      "Store Data",
+      "Delete Data",
+      "Restart Collection",
+      "Close the Process"
+    ],
+    "answer": "Store Data",
+    "explanation": "A typical automation pipeline collects, processes, stores, and then communicates results."
+  }
 ]
-
     }
